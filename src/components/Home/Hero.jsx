@@ -82,13 +82,42 @@ const Hero = () => {
             </p>
           </div>
         </div>
-      </div>
+      </div> 
 
       {/*Course Brochere */}
 
-      <div>
+      {/* <div className='mt-5' >
+      <h1 className='text-2xl md:text-3xl font-semibold text-gray-800 mb-8 text-center' >Course Brochure</h1>
 
       <img src="./assests/course.png" alt="" />
+
+      
+
+      </div> */}
+
+
+      {/* Countries */}
+
+      <div className='mt-7' >
+      <h1 className='text-2xl md:text-3xl font-semibold text-gray-800 mb-8 text-center' >Beautiful Countries in the <span className='text-[#2B2C83]'>world</span></h1>
+      <div className='flex justify-around  items-center  ml-6' >
+        <div className='relative'>
+        <img src="./assests/country1.png" alt="" className='w-[80%] '/>
+        <img src="./assests/aus.png" alt="" className='w-[15%] absolute bottom-[-0.5rem] left-[30%] object-cover'/>
+        </div>
+        <div className='relative'>
+        <img src="./assests/country2.png" alt="" className='w-[80%] '/>
+        <img src="./assests/ita.png" alt="" className='w-[15%] absolute bottom-[-0.5rem] left-[30%] object-cover'/>
+        </div>
+        <div className='relative'>
+        <img src="./assests/country3.png" alt="" className='w-[80%] '/>
+        <img src="./assests/fra.png" alt="" className='w-[15%] absolute bottom-[-0.5rem] left-[30%] object-cover'/>
+        </div>
+        <div className='relative'>
+        <img src="./assests/country4.png" alt="" className='w-[80%] '/>
+        <img src="./assests/usa.png" alt="" className='w-[15%] absolute bottom-[-0.5rem] left-[30%] object-cover'/>
+        </div>
+      </div>
 
       </div>
     </div>
