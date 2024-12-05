@@ -9,7 +9,7 @@ const Navbar = () => {
       </div>
 
       {/* Navigation Links */}
-      <ul className="flex items-center space-x-12 text-sm font-semibold text-gray-700 w-100 ">
+      <ul className="flex items-center space-x-6 text-sm font-semibold text-gray-700 w-100 ">
         <li className="hover:text-blue-700 cursor-pointer">Home</li>
         <li className="hover:text-blue-700 cursor-pointer">About Us</li>
         <li className="relative group">
