@@ -98,7 +98,7 @@ const Hero = () => {
 
       {/* Countries */}
 
-      <div className='mt-7' >
+      <div className='mt-7 bg-gray-100 p-10' >
       <h1 className='text-2xl md:text-3xl font-semibold text-gray-800 mb-8 text-center' >Beautiful Countries in the <span className='text-[#2B2C83]'>world</span></h1>
       <div className='flex justify-around  items-center  ml-6' >
         <div className='relative'>
@@ -117,12 +117,69 @@ const Hero = () => {
         <img src="./assests/country4.png" alt="" className='w-[80%] '/>
         <img src="./assests/usa.png" alt="" className='w-[15%] absolute bottom-[-0.5rem] left-[30%] object-cover'/>
         </div>
+        
+        </div>
+            
       </div>
 
+      {/* process */}
+      <div>
+        <h1 className='text-2xl md:text-3xl font-semibold text-black mb-8 text-center mt-8' >Your journey at abroad</h1>
+
+        {/* cards */}
+
+        <div className='flex justify-around  items-center' >
+
+        {/* card1 */}
+
+        <div className='bg-white font-[mullish] shadow-md rounded-lg p-6 border border-gray-200 text-center items-center justify-center' >
+        <img src="./assests/research.png" alt="img" height={100} width={100} className='mx-auto' />
+        <p>Research and <br /> Choose a Program</p>
+        </div>
+
+        {/* cards2 */}
+
+        <div className='bg-white font-[mullish] shadow-md rounded-lg p-6 border border-gray-200 text-center items-center justify-center' >
+        <img src="./assests/exam.png" alt="img" height={100} width={100} className='mx-auto' />
+        <p>Prepare for <br />  Standardized Tests</p>
+        </div>
+
+
+        {/* card3 */}
+
+        <div className='bg-white font-[mullish] shadow-md rounded-lg p-6 border border-gray-200 text-center items-center justify-center' >
+        <img src="./assests/apply.png" alt="img" height={90} width={90} className='mx-auto' />
+        <p>Apply to <br /> Universities</p>
+        </div>
+
+        {/* card4*/}
+
+        <div className='bg-white font-[mullish] shadow-md rounded-lg p-6 border border-gray-200 text-center items-center justify-center' >
+        <img src="./assests/securefinance.png" alt="img" height={100} width={100} className='mx-auto' />
+        <p>Secure Funding  <br /> and Scholarships</p>
+        </div>
+
+        {/* card5 */}
+
+        <div className='bg-white font-[mullish] shadow-md rounded-lg p-6 border border-gray-200 text-center items-center justify-center' >
+        <img src="./assests/visa.png" alt="img" height={100} width={100} className='mx-auto' />
+        <p>Obtain a Student  <br /> Visa</p>
+        </div>
+
+        </div>
       </div>
+
+      {/* test */}
+
+      <div className='mt-8' >
+
+      <h1 className='text-2xl md:text-3xl font-semibold text-black mb-8 text-center' > Test <span className='text-[#303192]' >Preparation</span></h1>
+
+      </div>
+
+      {/* test */}
     </div>
 
-    
 
   );
 };
