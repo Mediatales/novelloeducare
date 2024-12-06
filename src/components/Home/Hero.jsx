@@ -175,9 +175,23 @@ const Hero = () => {
 
       <h1 className='text-2xl md:text-3xl font-semibold text-black mb-8 text-center' > Test <span className='text-[#303192]' >Preparation</span></h1>
 
+
+      <div className='mt-8 flex' >
+
+      {/* card1 */}
+
+      <div className='border  bg-white font-[mullish] shadow-md rounded-lg p-6  border-gray-200 text-center items-center justify-center '>
+      <img src="./assests/test1.png" alt="img" className='mx-auto' />
+      <h2>TOEFL (Test of English as a Foreign Language)</h2>
+      <p>This globally recognized course offers insights into international trade, leadership, and global marketing strategies.</p>
+      </div>
       </div>
 
-      {/* test */}
+      
+
+
+
+      </div>
     </div>
 
 
