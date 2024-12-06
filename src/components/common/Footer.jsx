@@ -14,7 +14,7 @@ const Footer = () => {
           />
           <p className="text-sm leading-relaxed">
             Ipsum is simply dummy text of the printing and typesetting industry.
-            Lorem Ipsum has been the industry's standard dummy text ever since the.
+            Lorem Ipsum has been the industrys standard dummy text ever since the.
           </p>
           <div className="flex space-x-4 mt-4">
             <a href="#" className="text-gray-600 hover:text-indigo-600">
