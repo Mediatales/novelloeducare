@@ -26,7 +26,7 @@ const Hero = () => {
 
       {/* Discover Universities Section */}
       <div className="bg-gray-100 py-12 px-4 md:px-16">
-        <h2 className="text-2xl md:text-3xl font-semibold text-gray-800 mb-8 text-center">
+        <h2 className="text-2xl md:text-3xl font-semibold text-black mb-8 text-center">
           Discover top universities
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
@@ -87,7 +87,7 @@ const Hero = () => {
       {/*Course Brochere */}
 
       <div className='mt-5' >
-      <h1 className='text-2xl md:text-3xl font-semibold text-gray-800 mb-8 text-center' >Course Brochure</h1>
+      <h1 className='text-2xl md:text-3xl font-semibold text-black mb-8 text-center' >Course Brochure</h1>
 
      
      {/* cards */}
