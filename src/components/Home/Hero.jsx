@@ -86,14 +86,61 @@ const Hero = () => {
 
       {/*Course Brochere */}
 
-      {/* <div className='mt-5' >
+      <div className='mt-5' >
       <h1 className='text-2xl md:text-3xl font-semibold text-gray-800 mb-8 text-center' >Course Brochure</h1>
 
-      <img src="./assests/course.png" alt="" />
+     
+     {/* cards */}
+      <div className='grid grid-cols-2 md:grid-cols-2 lg:grid-cols-2 gap-6 mx-auto w-[90%] '  >
+
+      {/* cards1 */}
+        <div className='flex border shadow-md  gap-4'>
+            <img src='/assests/course.png' alt="" className='w-[50%]  object-cover' />
+            <div className='flex flex-col items-center justify-center'>
+                <h1 className='font-semibold text-2xl'>Media and Communication</h1>
+                <p>
+                This course delves into the study of media technologies, communication strategies, and their impact on society.
+                </p>
+            </div>
+        </div>
+
+        {/* cards2 */}
+
+        <div className='flex border shadow-md  gap-4'>
+            <img src='/assests/course.png' alt="" className='w-[50%]  object-cover' />
+            <div className='flex flex-col items-center justify-center' >
+                <h1 className='font-semibold text-2xl'>Media and Communication</h1>
+                <p>
+                This course delves into the study of media technologies, communication strategies, and their impact on society.
+                </p>
+            </div>
+        </div>
+        {/* card3 */}
+
+        <div className='flex border shadow-md  gap-4'>
+            <img src='/assests/course.png' alt="" className='w-[50%]  object-cover' />
+            <div className='flex flex-col items-center justify-center'>
+                <h1 className='font-semibold text-2xl'>Media and Communication</h1>
+                <p>
+                This course delves into the study of media technologies, communication strategies, and their impact on society.
+                </p>
+            </div>
+        </div>
+        {/* card4 */}
+        <div className='flex border shadow-md  gap-4'>
+            <img src='/assests/course.png' alt="" className='w-[50%]  object-cover' />
+            <div className='flex flex-col items-center justify-center'>
+                <h1 className='font-semibold text-2xl'>Media and Communication</h1>
+                <p>
+                This course delves into the study of media technologies, communication strategies, and their impact on society.
+                </p>
+            </div>
+        </div>
+      </div>
 
       
 
-      </div> */}
+      </div>
 
 
       {/* Countries */}
