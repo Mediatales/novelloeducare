@@ -15,6 +15,10 @@ const Mbbsabroad = () => {
     <img src="./mbbs/mbbs4.png" alt="img"/>
 
     </div>      
+
+    <div className='flex justify-center mt-8'>
+    <button className='text center bg-[#2B2C83] text-white px-3 py-2 rounded-lg' >view all</button>
+    </div>
     </div>
   )
 }
