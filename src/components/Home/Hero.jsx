@@ -1,6 +1,44 @@
+"use client";
 import React from 'react';
+import { useState } from "react";
+
+
+ 
+
 
 const Hero = () => {
+
+  const countries = [
+    { img: "./assests/country1.png", flag: "./assests/aus.png" },
+    { img: "./assests/country2.png", flag: "./assests/ita.png" },
+    { img: "./assests/country3.png", flag: "./assests/fra.png" },
+    { img: "./assests/country4.png", flag: "./assests/usa.png" },
+  ];
+
+  const [currentIndex, setCurrentIndex] = useState(0);
+
+  const handlePrev = () => {
+    setCurrentIndex((prevIndex) =>
+      prevIndex === 0 ? countries.length - 1 : prevIndex - 1
+    );
+  };
+
+  const handleNext = () => {
+    setCurrentIndex((prevIndex) =>
+      prevIndex === countries.length - 1 ? 0 : prevIndex + 1
+    );
+  };
+
+  const visibleCount = (screenWidth) => {
+    if (screenWidth >= 1024) return 4; // Large screens
+    if (screenWidth >= 768) return 2; // Medium screens
+    return 1; // Small screens
+  };
+
+  const visibleItems = countries.slice(
+    currentIndex,
+    currentIndex + visibleCount(window.innerWidth)
+  );
   return (
     <div>
       {/* Hero Section */}
@@ -86,88 +124,101 @@ const Hero = () => {
 
       {/*Course Brochere */}
 
-      <div className='mt-5' >
-      <h1 className='text-2xl md:text-3xl font-semibold text-black mb-8 text-center' >Course Brochure</h1>
+      <div className="mt-5">
+  <h1 className="text-2xl md:text-3xl font-semibold text-black mb-8 text-center">Course Brochure</h1>
 
-     
-     {/* cards */}
-      <div className='grid grid-cols-2 md:grid-cols-2 lg:grid-cols-2 gap-6 mx-auto w-[90%] '  >
-
-      {/* cards1 */}
-        <div className='flex border shadow-md  gap-4'>
-            <img src='/assests/course.png' alt="" className='w-[50%]  object-cover' />
-            <div className='flex flex-col items-center justify-center'>
-                <h1 className='font-semibold text-2xl'>Media and Communication</h1>
-                <p>
-                This course delves into the study of media technologies, communication strategies, and their impact on society.
-                </p>
-            </div>
-        </div>
-
-        {/* cards2 */}
-
-        <div className='flex border shadow-md  gap-4'>
-            <img src='/assests/course.png' alt="" className='w-[50%]  object-cover' />
-            <div className='flex flex-col items-center justify-center' >
-                <h1 className='font-semibold text-2xl'>Media and Communication</h1>
-                <p>
-                This course delves into the study of media technologies, communication strategies, and their impact on society.
-                </p>
-            </div>
-        </div>
-        {/* card3 */}
-
-        <div className='flex border shadow-md  gap-4'>
-            <img src='/assests/course.png' alt="" className='w-[50%]  object-cover' />
-            <div className='flex flex-col items-center justify-center'>
-                <h1 className='font-semibold text-2xl'>Media and Communication</h1>
-                <p>
-                This course delves into the study of media technologies, communication strategies, and their impact on society.
-                </p>
-            </div>
-        </div>
-        {/* card4 */}
-        <div className='flex border shadow-md  gap-4'>
-            <img src='/assests/course.png' alt="" className='w-[50%]  object-cover' />
-            <div className='flex flex-col items-center justify-center'>
-                <h1 className='font-semibold text-2xl'>Media and Communication</h1>
-                <p>
-                This course delves into the study of media technologies, communication strategies, and their impact on society.
-                </p>
-            </div>
-        </div>
+  {/* cards */}
+  <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6 mx-auto w-[90%]">
+    {/* card1 */}
+    <div className="flex border shadow-md gap-4">
+      <img src="/assests/course.png" alt="" className="w-[50%] object-cover" />
+      <div className="flex flex-col items-center justify-center">
+        <h1 className="font-semibold text-xl md:text-2xl">Media and Communication</h1>
+        <p className="text-sm md:text-base">
+          This course delves into the study of media technologies, communication strategies, and their impact on society.
+        </p>
       </div>
+    </div>
 
-      
-
+    {/* card2 */}
+    <div className="flex border shadow-md gap-4">
+      <img src="/assests/course.png" alt="" className="w-[50%] object-cover" />
+      <div className="flex flex-col items-center justify-center">
+        <h1 className="font-semibold text-xl md:text-2xl">Media and Communication</h1>
+        <p className="text-sm md:text-base">
+          This course delves into the study of media technologies, communication strategies, and their impact on society.
+        </p>
       </div>
+    </div>
+
+    {/* card3 */}
+    <div className="flex border shadow-md gap-4">
+      <img src="/assests/course.png" alt="" className="w-[50%] object-cover" />
+      <div className="flex flex-col items-center justify-center">
+        <h1 className="font-semibold text-xl md:text-2xl">Media and Communication</h1>
+        <p className="text-sm md:text-base">
+          This course delves into the study of media technologies, communication strategies, and their impact on society.
+        </p>
+      </div>
+    </div>
+
+    {/* card4 */}
+    <div className="flex border shadow-md gap-4">
+      <img src="/assests/course.png" alt="" className="w-[50%] object-cover" />
+      <div className="flex flex-col items-center justify-center">
+        <h1 className="font-semibold text-xl md:text-2xl">Media and Communication</h1>
+        <p className="text-sm md:text-base">
+          This course delves into the study of media technologies, communication strategies, and their impact on society.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div className="flex justify-center mt-8">
+    <button className="text-center bg-[#2B2C83] text-white px-3 py-2 rounded-lg">View all</button>
+  </div>
+</div>
+
 
 
       {/* Countries */}
 
-      <div className='mt-7 bg-gray-100 p-10' >
-      <h1 className='text-2xl md:text-3xl font-semibold text-gray-800 mb-8 text-center' >Beautiful Countries in the <span className='text-[#2B2C83]'>world</span></h1>
-      <div className='flex justify-around  items-center  ml-6' >
-        <div className='relative'>
-        <img src="./assests/country1.png" alt="" className='w-[80%] '/>
-        <img src="./assests/aus.png" alt="" className='w-[15%] absolute bottom-[-0.5rem] left-[30%] object-cover'/>
+      <div className="mt-7 bg-gray-100 p-10">
+      <h1 className="text-2xl md:text-3xl font-semibold text-gray-800 mb-8 text-center">
+        Beautiful Countries in the <span className="text-[#2B2C83]">world</span>
+      </h1>
+      <div className="flex items-center justify-center relative">
+        {/* Prev Button */}
+        <button
+          onClick={handlePrev}
+          className="absolute left-0 bg-gray-300 p-2 rounded-full shadow-md hover:bg-gray-400"
+        >
+          ❮
+        </button>
+
+        {/* Carousel */}
+        <div className="flex overflow-hidden w-full justify-center gap-6">
+          {visibleItems.map((country, index) => (
+            <div key={index} className="relative flex-shrink-0">
+              <img src={country.img} alt="" className="w-[80%]" />
+              <img
+                src={country.flag}
+                alt=""
+                className="w-[15%] absolute bottom-[-0.5rem] left-[30%] object-cover"
+              />
+            </div>
+          ))}
         </div>
-        <div className='relative'>
-        <img src="./assests/country2.png" alt="" className='w-[80%] '/>
-        <img src="./assests/ita.png" alt="" className='w-[15%] absolute bottom-[-0.5rem] left-[30%] object-cover'/>
-        </div>
-        <div className='relative'>
-        <img src="./assests/country3.png" alt="" className='w-[80%] '/>
-        <img src="./assests/fra.png" alt="" className='w-[15%] absolute bottom-[-0.5rem] left-[30%] object-cover'/>
-        </div>
-        <div className='relative'>
-        <img src="./assests/country4.png" alt="" className='w-[80%] '/>
-        <img src="./assests/usa.png" alt="" className='w-[15%] absolute bottom-[-0.5rem] left-[30%] object-cover'/>
-        </div>
-        
-        </div>
-            
+
+        {/* Next Button */}
+        <button
+          onClick={handleNext}
+          className="absolute right-0 bg-gray-300 p-2 rounded-full shadow-md hover:bg-gray-400"
+        >
+          ❯
+        </button>
       </div>
+    </div>
 
       {/* process */}
       <div>
@@ -258,5 +309,7 @@ const Hero = () => {
 
   );
 };
+
+
 
 export default Hero;
