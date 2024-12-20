@@ -1,13 +1,7 @@
 "use client";
-import React from 'react';
-import { useState } from "react";
-
-
- 
-
+import React, { useState, useEffect } from "react";
 
 const Hero = () => {
-
   const countries = [
     { img: "./assests/country1.png", flag: "./assests/aus.png" },
     { img: "./assests/country2.png", flag: "./assests/ita.png" },
@@ -16,6 +10,25 @@ const Hero = () => {
   ];
 
   const [currentIndex, setCurrentIndex] = useState(0);
+  const [screenWidth, setScreenWidth] = useState(0);
+
+  useEffect(() => {
+    // Set initial screen width
+    if (typeof window !== "undefined") {
+      setScreenWidth(window.innerWidth);
+
+      // Update screen width on window resize
+      const handleResize = () => {
+        setScreenWidth(window.innerWidth);
+      };
+
+      window.addEventListener("resize", handleResize);
+
+      return () => {
+        window.removeEventListener("resize", handleResize);
+      };
+    }
+  }, []);
 
   const handlePrev = () => {
     setCurrentIndex((prevIndex) =>
@@ -29,7 +42,7 @@ const Hero = () => {
     );
   };
 
-  const visibleCount = (screenWidth) => {
+  const visibleCount = () => {
     if (screenWidth >= 1024) return 4; // Large screens
     if (screenWidth >= 768) return 2; // Medium screens
     return 1; // Small screens
@@ -37,8 +50,9 @@ const Hero = () => {
 
   const visibleItems = countries.slice(
     currentIndex,
-    currentIndex + visibleCount(window.innerWidth)
+    currentIndex + visibleCount()
   );
+  
   return (
     <div>
       {/* Hero Section */}
