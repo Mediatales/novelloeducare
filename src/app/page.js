@@ -1,19 +1,13 @@
-import Contact from "@/components/Home/Contact";
-import FeedbackSection from "@/components/Home/FeedbackSection";
-import Hero from "@/components/Home/Hero";
-import Mbbsabroad from "@/components/Home/Mbbsabroad";
-import Navbar from "@/components/common/Navbar";
-import Footer from "@/components/common/Footer";
+import React from 'react'
+import Home from './home/page'
 
-export default function Home() {
+
+const page = () => {
   return (
-    <div className="w-full">
-      <Navbar/>
-      <Hero/>
-      <Mbbsabroad/>
-      <FeedbackSection/>
-      <Contact/>
-      <Footer/>
+    <div>
+      <Home/>
     </div>
-  );
+  )
 }
+
+export default page
