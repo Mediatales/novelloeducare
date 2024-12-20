@@ -1,58 +1,11 @@
 "use client";
 import React, { useState, useEffect } from "react";
+import Universities from "./Universities";
+import Countries from "./Countries";
 
 const Hero = () => {
-  const countries = [
-    { img: "./assests/country1.png", flag: "./assests/aus.png" },
-    { img: "./assests/country2.png", flag: "./assests/ita.png" },
-    { img: "./assests/country3.png", flag: "./assests/fra.png" },
-    { img: "./assests/country4.png", flag: "./assests/usa.png" },
-  ];
-
-  const [currentIndex, setCurrentIndex] = useState(0);
-  const [screenWidth, setScreenWidth] = useState(0);
-
-  useEffect(() => {
-    // Set initial screen width
-    if (typeof window !== "undefined") {
-      setScreenWidth(window.innerWidth);
-
-      // Update screen width on window resize
-      const handleResize = () => {
-        setScreenWidth(window.innerWidth);
-      };
-
-      window.addEventListener("resize", handleResize);
-
-      return () => {
-        window.removeEventListener("resize", handleResize);
-      };
-    }
-  }, []);
-
-  const handlePrev = () => {
-    setCurrentIndex((prevIndex) =>
-      prevIndex === 0 ? countries.length - 1 : prevIndex - 1
-    );
-  };
-
-  const handleNext = () => {
-    setCurrentIndex((prevIndex) =>
-      prevIndex === countries.length - 1 ? 0 : prevIndex + 1
-    );
-  };
-
-  const visibleCount = () => {
-    if (screenWidth >= 1024) return 4; // Large screens
-    if (screenWidth >= 768) return 2; // Medium screens
-    return 1; // Small screens
-  };
-
-  const visibleItems = countries.slice(
-    currentIndex,
-    currentIndex + visibleCount()
-  );
   
+
   return (
     <div>
       {/* Hero Section */}
@@ -77,64 +30,7 @@ const Hero = () => {
       </div>
 
       {/* Discover Universities Section */}
-      <div className="bg-gray-100 py-12 px-4 md:px-16">
-        <h2 className="text-2xl md:text-3xl font-semibold text-black mb-8 text-center">
-          Discover top universities
-        </h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-          {/* Card 1 */}
-          <div className="bg-white shadow-md rounded-lg p-6 text-center">
-            <img
-              src="./assests/uni1.png"
-              alt="MIT University"
-              className="w-20 h-20 mx-auto mb-4"
-            />
-            <h3 className="font-bold text-lg">MIT University</h3>
-            <p className="text-sm text-gray-500">
-              Cambridge, Massachusetts, USA
-            </p>
-          </div>
-
-          {/* Card 2 */}
-          <div className="bg-white shadow-md rounded-lg p-6 text-center">
-            <img
-              src="./assests/uni2.png"
-              alt="Oxford University"
-              className="w-20 h-20 mx-auto mb-4"
-            />
-            <h3 className="font-bold text-lg">Oxford University</h3>
-            <p className="text-sm text-gray-500">
-              Oxford, England, UK
-            </p>
-          </div>
-
-          {/* Card 3 */}
-          <div className="bg-white shadow-md rounded-lg p-6 text-center">
-            <img
-              src="./assests/uni3.png"
-              alt="Toronto University"
-              className="w-20 h-20 mx-auto mb-4"
-            />
-            <h3 className="font-bold text-lg">Toronto University</h3>
-            <p className="text-sm text-gray-500">
-              Cambridge, Massachusetts, USA
-            </p>
-          </div>
-
-          {/* Card 4 */}
-          <div className="bg-white shadow-md rounded-lg p-6 text-center">
-            <img
-              src="./assests/uni4.png"
-              alt="ANU University"
-              className="w-20 h-20 mx-auto mb-4"
-            />
-            <h3 className="font-bold text-lg">ANU University</h3>
-            <p className="text-sm text-gray-500">
-              Cambridge, Massachusetts, USA
-            </p>
-          </div>
-        </div>
-      </div> 
+      <Universities/>
 
       {/*Course Brochere */}
 
@@ -197,42 +93,7 @@ const Hero = () => {
 
       {/* Countries */}
 
-      <div className="mt-7 bg-gray-100 p-10">
-      <h1 className="text-2xl md:text-3xl font-semibold text-gray-800 mb-8 text-center">
-        Beautiful Countries in the <span className="text-[#2B2C83]">world</span>
-      </h1>
-      <div className="flex items-center justify-center relative">
-        {/* Prev Button */}
-        <button
-          onClick={handlePrev}
-          className="absolute left-0 bg-gray-300 p-2 rounded-full shadow-md hover:bg-gray-400"
-        >
-          
-        </button>
-
-        {/* Carousel */}
-        <div className="flex overflow-hidden w-full justify-center gap-6">
-          {visibleItems.map((country, index) => (
-            <div key={index} className="relative flex-shrink-0">
-              <img src={country.img} alt="" className="w-[80%]" />
-              <img
-                src={country.flag}
-                alt=""
-                className="w-[15%] absolute bottom-[-0.5rem] left-[30%] object-cover"
-              />
-            </div>
-          ))}
-        </div>
-
-        {/* Next Button */}
-        <button
-          onClick={handleNext}
-          className="absolute right-0 bg-gray-300 p-2 rounded-full shadow-md hover:bg-gray-400"
-        >
-          
-        </button>
-      </div>
-    </div>
+      <Countries/>
 
       {/* process */}
       <div className='w-[90%] mx-auto '>
