@@ -193,7 +193,7 @@ const Hero = () => {
           onClick={handlePrev}
           className="absolute left-0 bg-gray-300 p-2 rounded-full shadow-md hover:bg-gray-400"
         >
-          ❮
+          
         </button>
 
         {/* Carousel */}
@@ -215,95 +215,128 @@ const Hero = () => {
           onClick={handleNext}
           className="absolute right-0 bg-gray-300 p-2 rounded-full shadow-md hover:bg-gray-400"
         >
-          ❯
+          
         </button>
       </div>
     </div>
 
       {/* process */}
-      <div>
-        <h1 className='text-2xl md:text-3xl font-semibold text-black mb-8 text-center mt-8' >Your journey at abroad</h1>
+      <div className='w-[90%] mx-auto '>
+  <h1 className="text-2xl md:text-3xl font-semibold text-black mb-8 text-center mt-8">
+    Your journey at abroad
+  </h1>
 
-        {/* cards */}
+  {/* cards */}
+  <div className="flex flex-wrap justify-center gap-6">
+    {/* card1 */}
+    <div className="bg-white font-[mullish] shadow-md rounded-lg p-6 border border-gray-200 text-center items-center w-full sm:w-[45%] lg:w-[18%]">
+      <img
+        src="./assests/research.png"
+        alt="img"
+        height={100}
+        width={100}
+        className="mx-auto"
+      />
+      <p>Research and <br /> Choose a Program</p>
+    </div>
 
-        <div className='flex justify-around  items-center' >
+    {/* card2 */}
+    <div className="bg-white font-[mullish] shadow-md rounded-lg p-6 border border-gray-200 text-center items-center w-full sm:w-[45%] lg:w-[18%]">
+      <img
+        src="./assests/exam.png"
+        alt="img"
+        height={100}
+        width={100}
+        className="mx-auto"
+      />
+      <p>Prepare for <br /> Standardized Tests</p>
+    </div>
 
-        {/* card1 */}
+    {/* card3 */}
+    <div className="bg-white font-[mullish] shadow-md rounded-lg p-6 border border-gray-200 text-center items-center w-full sm:w-[45%] lg:w-[18%]">
+      <img
+        src="./assests/apply.png"
+        alt="img"
+        height={90}
+        width={90}
+        className="mx-auto"
+      />
+      <p>Apply to <br /> Universities</p>
+    </div>
 
-        <div className='bg-white font-[mullish] shadow-md rounded-lg p-6 border border-gray-200 text-center items-center justify-center' >
-        <img src="./assests/research.png" alt="img" height={100} width={100} className='mx-auto' />
-        <p>Research and <br /> Choose a Program</p>
-        </div>
+    {/* card4 */}
+    <div className="bg-white font-[mullish] shadow-md rounded-lg p-6 border border-gray-200 text-center items-center w-full sm:w-[45%] lg:w-[18%]">
+      <img
+        src="./assests/securefinance.png"
+        alt="img"
+        height={100}
+        width={100}
+        className="mx-auto"
+      />
+      <p>Secure Funding <br /> and Scholarships</p>
+    </div>
 
-        {/* cards2 */}
+    {/* card5 */}
+    <div className="bg-white font-[mullish] shadow-md rounded-lg p-6 border border-gray-200 text-center items-center w-full sm:w-[45%] lg:w-[18%]">
+      <img
+        src="./assests/visa.png"
+        alt="img"
+        height={100}
+        width={100}
+        className="mx-auto"
+      />
+      <p>Obtain a Student <br /> Visa</p>
+    </div>
+  </div>
+</div>
 
-        <div className='bg-white font-[mullish] shadow-md rounded-lg p-6 border border-gray-200 text-center items-center justify-center' >
-        <img src="./assests/exam.png" alt="img" height={100} width={100} className='mx-auto' />
-        <p>Prepare for <br />  Standardized Tests</p>
-        </div>
-
-
-        {/* card3 */}
-
-        <div className='bg-white font-[mullish] shadow-md rounded-lg p-6 border border-gray-200 text-center items-center justify-center' >
-        <img src="./assests/apply.png" alt="img" height={90} width={90} className='mx-auto' />
-        <p>Apply to <br /> Universities</p>
-        </div>
-
-        {/* card4*/}
-
-        <div className='bg-white font-[mullish] shadow-md rounded-lg p-6 border border-gray-200 text-center items-center justify-center' >
-        <img src="./assests/securefinance.png" alt="img" height={100} width={100} className='mx-auto' />
-        <p>Secure Funding  <br /> and Scholarships</p>
-        </div>
-
-        {/* card5 */}
-
-        <div className='bg-white font-[mullish] shadow-md rounded-lg p-6 border border-gray-200 text-center items-center justify-center' >
-        <img src="./assests/visa.png" alt="img" height={100} width={100} className='mx-auto' />
-        <p>Obtain a Student  <br /> Visa</p>
-        </div>
-
-        </div>
-      </div>
 
       {/* test */}
 
-      <div className='mt-8' >
+      <div className="mt-8">
+  <h1 className="text-2xl md:text-3xl font-semibold text-black mb-8 text-center">
+    Test <span className="text-[#303192]">Preparation</span>
+  </h1>
 
-      <h1 className='text-2xl md:text-3xl font-semibold text-black mb-8 text-center' > Test <span className='text-[#303192]' >Preparation</span></h1>
+  <div className="mt-8 flex flex-wrap gap-6 justify-center mx-auto w-[90%]">
+    {/* card1 */}
+    <div className="border bg-white font-[mullish] shadow-md rounded-lg p-6 border-gray-200 text-center flex flex-col items-center w-full sm:w-[48%] lg:w-[30%]">
+      <img src="./assests/test1.png" alt="img" className="mx-auto mb-4" />
+      <h2 className="text-xl font-semibold">
+        TOEFL (Test of English as a Foreign Language)
+      </h2>
+      <p>
+        This globally recognized course offers insights into international
+        trade, leadership, and global marketing strategies.
+      </p>
+    </div>
 
+    {/* card2 */}
+    <div className="border bg-white font-[mullish] shadow-md rounded-lg p-6 border-gray-200 text-center flex flex-col items-center w-full sm:w-[48%] lg:w-[30%]">
+      <img src="./assests/test2.png" alt="img" className="mx-auto mb-4" />
+      <h2 className="text-xl font-semibold">
+        TOEFL (Test of English as a Foreign Language)
+      </h2>
+      <p>
+        This globally recognized course offers insights into international
+        trade, leadership, and global marketing strategies.
+      </p>
+    </div>
 
-      <div className='mt-8 flex gap-4 mx-auto justify-around w-[90%]' >
+    {/* card3 */}
+    <div className="border bg-white font-[mullish] shadow-md rounded-lg p-6 border-gray-200 text-center flex flex-col items-center w-full sm:w-[48%] lg:w-[30%]">
+      <img src="./assests/test3.png" alt="img" className="mx-auto mb-4" />
+      <h2 className="text-xl font-semibold">
+        TOEFL (Test of English as a Foreign Language)
+      </h2>
+      <p>
+        This globally recognized course offers insights into international
+        trade, leadership, and global marketing strategies.
+      </p>
+    </div>
+  </div>
+</div>
 
-      {/* card1 */}
-
-      <div className='border  bg-white font-[mullish] shadow-md rounded-lg p-6  border-gray-200 text-center items-center justify-center '>
-      <img src="./assests/test1.png" alt="img" className='mx-auto' />
-      <h2 className='text-xl font-semibold' >TOEFL (Test of English as a Foreign Language)</h2>
-      <p>This globally recognized course offers insights into international trade, leadership, and global marketing strategies.</p>
-      </div>
-      
-
-      <div className='border  bg-white font-[mullish] shadow-md rounded-lg p-6  border-gray-200 text-center items-center justify-center '>
-      <img src="./assests/test2.png" alt="img" className='mx-auto' />
-      <h2 className='text-xl font-semibold' >TOEFL (Test of English as a Foreign Language)</h2>
-      <p>This globally recognized course offers insights into international trade, leadership, and global marketing strategies.</p>
-      </div>
-      
-
-      <div className='border  bg-white font-[mullish] shadow-md rounded-lg p-6  border-gray-200 text-center items-center justify-center '>
-      <img src="./assests/test3.png" alt="img" className='mx-auto' />
-      <h2 className='text-xl font-semibold'>TOEFL (Test of English as a Foreign Language)</h2>
-      <p>This globally recognized course offers insights into international trade, leadership, and global marketing strategies.</p>
-      </div>
-      
-
-      </div>
-
-
-
-      </div>
     </div>
 
 
