@@ -1,5 +1,6 @@
 "use client";
 import React, { useState } from "react";
+import Link from "next/link";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -64,9 +65,7 @@ const Navbar = () => {
         <li className="px-6 py-2 lg:p-0 hover:text-blue-700 cursor-pointer">
           Home
         </li>
-        <li className="px-6 py-2 lg:p-0 hover:text-blue-700 cursor-pointer">
-          About Us
-        </li>
+        <Link href="/about" className="px-6 py-2 lg:p-0 hover:text-blue-700 cursor-pointer">About us</Link>
         <li className="px-6 py-2 lg:p-0 relative group">
           <span className="hover:text-blue-700 cursor-pointer">
             Study Abroad
