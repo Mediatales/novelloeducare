@@ -62,9 +62,9 @@ const Navbar = () => {
           isOpen ? "block" : "hidden"
         } absolute lg:static top-full left-0 lg:top-0 lg:left-auto bg-white lg:bg-transparent w-full lg:w-auto shadow-md lg:shadow-none lg:py-0 py-4`}
       >
-        <li className="px-6 py-2 lg:p-0 hover:text-blue-700 cursor-pointer">
+        <Link href= "/home" className="px-6 py-2 lg:p-0 hover:text-blue-700 cursor-pointer">
           Home
-        </li>
+        </Link>
         <Link href="/about" className="px-6 py-2 lg:p-0 hover:text-blue-700 cursor-pointer">About us</Link>
         <li className="px-6 py-2 lg:p-0 relative group">
           <span className="hover:text-blue-700 cursor-pointer">
@@ -80,9 +80,7 @@ const Navbar = () => {
             </ul>
           </div>
         </li>
-        <li className="px-6 py-2 lg:p-0 hover:text-blue-700 cursor-pointer">
-          Admission Services
-        </li>
+        <Link href="/admission" className="px-6 py-2 lg:p-0 hover:text-blue-700 cursor-pointer">Admission Services</Link>
         <li className="px-6 py-2 lg:p-0 hover:text-blue-700 cursor-pointer">
           Test Preparation
         </li>
