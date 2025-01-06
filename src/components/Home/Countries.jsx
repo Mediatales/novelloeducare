@@ -3,10 +3,10 @@ import { ChevronLeft, ChevronRight } from "lucide-react";
 
 const CountriesCarousel = () => {
   const countries = [
-    { img: "./assests/country1.png", flag: "./assests/aus.png" },
-    { img: "./assests/country2.png", flag: "./assests/ita.png" },
-    { img: "./assests/country3.png", flag: "./assests/fra.png" },
-    { img: "./assests/country4.png", flag: "./assests/usa.png" },
+    { img: "./assests/home/country1.png", flag: "./assests/home/aus.png" },
+    { img: "./assests/home/country2.png", flag: "./assests/home/ita.png" },
+    { img: "./assests/home/country3.png", flag: "./assests/home/fra.png" },
+    { img: "./assests/home/country4.png", flag: "./assests/home/usa.png" },
   ];
 
   const [currentIndex, setCurrentIndex] = useState(0);

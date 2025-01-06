@@ -96,7 +96,7 @@ const Contact = () => {
       {/* Image Section */}
       <div className="w-full lg:w-1/2 mt-6 lg:mt-0 lg:ml-8">
         <img
-          src="./assests/contactimg.png"
+          src="./assests/home/contactimg.png"
           alt="Contact Illustration"
           className="rounded-lg shadow-lg w-full"
         />

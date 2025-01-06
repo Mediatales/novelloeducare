@@ -4,22 +4,22 @@ import { ChevronLeft, ChevronRight } from "lucide-react";
 const Universities = () => {
   const universities = [
     {
-      img: "./assests/uni1.png",
+      img: "./assests/home/uni1.png",
       name: "MIT University",
       location: "Cambridge, Massachusetts, USA",
     },
     {
-      img: "./assests/uni2.png",
+      img: "./assests/home/uni2.png",
       name: "Oxford University",
       location: "Oxford, England, UK",
     },
     {
-      img: "./assests/uni3.png",
+      img: "./assests/home/uni3.png",
       name: "Toronto University",
       location: "Toronto, Canada",
     },
     {
-      img: "./assests/uni4.png",
+      img: "./assests/home/uni4.png",
       name: "ANU University",
       location: "Canberra, Australia",
     },

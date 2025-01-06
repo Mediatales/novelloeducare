@@ -12,7 +12,7 @@ const Hero = () => {
       <div className="relative bg-[#F5F5F5]">
         {/* Background Image */}
         <img
-          src="./assests/herobg.png"
+          src="./assests/home/herobg.png"
           alt="Hero Background"
           className="w-full h-[500px] object-cover"
         />
@@ -41,7 +41,7 @@ const Hero = () => {
   <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6 mx-auto w-[90%]">
     {/* card1 */}
     <div className="flex border shadow-md gap-4">
-      <img src="/assests/course.png" alt="" className="w-[50%] object-cover" />
+      <img src="./assests/home/course.png" alt="" className="w-[50%] object-cover" />
       <div className="flex flex-col items-center justify-center">
         <h1 className="font-semibold text-xl md:text-2xl">Media and Communication</h1>
         <p className="text-sm md:text-base">
@@ -52,7 +52,7 @@ const Hero = () => {
 
     {/* card2 */}
     <div className="flex border shadow-md gap-4">
-      <img src="/assests/course.png" alt="" className="w-[50%] object-cover" />
+      <img src="./assests/home/course.png" alt="" className="w-[50%] object-cover" />
       <div className="flex flex-col items-center justify-center">
         <h1 className="font-semibold text-xl md:text-2xl">Media and Communication</h1>
         <p className="text-sm md:text-base">
@@ -63,7 +63,7 @@ const Hero = () => {
 
     {/* card3 */}
     <div className="flex border shadow-md gap-4">
-      <img src="/assests/course.png" alt="" className="w-[50%] object-cover" />
+      <img src="./assests/home/course.png" alt="" className="w-[50%] object-cover" />
       <div className="flex flex-col items-center justify-center">
         <h1 className="font-semibold text-xl md:text-2xl">Media and Communication</h1>
         <p className="text-sm md:text-base">
@@ -74,7 +74,7 @@ const Hero = () => {
 
     {/* card4 */}
     <div className="flex border shadow-md gap-4">
-      <img src="/assests/course.png" alt="" className="w-[50%] object-cover" />
+      <img src="./assests/home/course.png" alt="" className="w-[50%] object-cover" />
       <div className="flex flex-col items-center justify-center">
         <h1 className="font-semibold text-xl md:text-2xl">Media and Communication</h1>
         <p className="text-sm md:text-base">
@@ -106,7 +106,7 @@ const Hero = () => {
     {/* card1 */}
     <div className="bg-white font-[mullish] shadow-md rounded-lg p-6 border border-gray-200 text-center items-center w-full sm:w-[45%] lg:w-[18%]">
       <img
-        src="./assests/research.png"
+        src="./assests/home/research.png"
         alt="img"
         height={100}
         width={100}
@@ -118,7 +118,7 @@ const Hero = () => {
     {/* card2 */}
     <div className="bg-white font-[mullish] shadow-md rounded-lg p-6 border border-gray-200 text-center items-center w-full sm:w-[45%] lg:w-[18%]">
       <img
-        src="./assests/exam.png"
+        src="./assests/home/exam.png"
         alt="img"
         height={100}
         width={100}
@@ -130,7 +130,7 @@ const Hero = () => {
     {/* card3 */}
     <div className="bg-white font-[mullish] shadow-md rounded-lg p-6 border border-gray-200 text-center items-center w-full sm:w-[45%] lg:w-[18%]">
       <img
-        src="./assests/apply.png"
+        src="./assests/home/apply.png"
         alt="img"
         height={90}
         width={90}
@@ -142,7 +142,7 @@ const Hero = () => {
     {/* card4 */}
     <div className="bg-white font-[mullish] shadow-md rounded-lg p-6 border border-gray-200 text-center items-center w-full sm:w-[45%] lg:w-[18%]">
       <img
-        src="./assests/securefinance.png"
+        src="./assests/home/securefinance.png"
         alt="img"
         height={100}
         width={100}
@@ -154,7 +154,7 @@ const Hero = () => {
     {/* card5 */}
     <div className="bg-white font-[mullish] shadow-md rounded-lg p-6 border border-gray-200 text-center items-center w-full sm:w-[45%] lg:w-[18%]">
       <img
-        src="./assests/visa.png"
+        src="./assests/home/visa.png"
         alt="img"
         height={100}
         width={100}
@@ -176,7 +176,7 @@ const Hero = () => {
   <div className="mt-8 flex flex-wrap gap-6 justify-center mx-auto w-[90%]">
     {/* card1 */}
     <div className="border bg-white font-[mullish] shadow-md rounded-lg p-6 border-gray-200 text-center flex flex-col items-center w-full sm:w-[48%] lg:w-[30%]">
-      <img src="./assests/test1.png" alt="img" className="mx-auto mb-4" />
+      <img src="./assests/home/test1.png" alt="img" className="mx-auto mb-4" />
       <h2 className="text-xl font-semibold">
         TOEFL (Test of English as a Foreign Language)
       </h2>
@@ -188,7 +188,7 @@ const Hero = () => {
 
     {/* card2 */}
     <div className="border bg-white font-[mullish] shadow-md rounded-lg p-6 border-gray-200 text-center flex flex-col items-center w-full sm:w-[48%] lg:w-[30%]">
-      <img src="./assests/test2.png" alt="img" className="mx-auto mb-4" />
+      <img src="./assests/home/test2.png" alt="img" className="mx-auto mb-4" />
       <h2 className="text-xl font-semibold">
         TOEFL (Test of English as a Foreign Language)
       </h2>
@@ -200,7 +200,7 @@ const Hero = () => {
 
     {/* card3 */}
     <div className="border bg-white font-[mullish] shadow-md rounded-lg p-6 border-gray-200 text-center flex flex-col items-center w-full sm:w-[48%] lg:w-[30%]">
-      <img src="./assests/test3.png" alt="img" className="mx-auto mb-4" />
+      <img src="./assests/home/test3.png" alt="img" className="mx-auto mb-4" />
       <h2 className="text-xl font-semibold">
         TOEFL (Test of English as a Foreign Language)
       </h2>
