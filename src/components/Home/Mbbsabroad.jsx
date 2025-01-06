@@ -10,16 +10,16 @@ import { Navigation, Pagination, Autoplay } from 'swiper/modules';
 
 const Mbbsabroad = () => {
   const images = [
-    './mbbs/mbbs1.png',
-    './mbbs/mbbs2.png',
-    './mbbs/mbbs3.png',
-    './mbbs/mbbs4.png',
-    './mbbs/mbbs5.png',
-    './mbbs/mbbs1.png',
-    './mbbs/mbbs2.png',
-    './mbbs/mbbs3.png',
-    './mbbs/mbbs4.png',
-    './mbbs/mbbs5.png', // Add more dynamically as needed
+    './assests/mbbs/mbbs1.png',
+    './assests/mbbs/mbbs2.png',
+    './assests/mbbs/mbbs3.png',
+    './assests/mbbs/mbbs4.png',
+    // './assests/mbbs/mbbs5.png',
+    './assests/mbbs/mbbs1.png',
+    './assests/mbbs/mbbs2.png',
+    './assests/mbbs/mbbs3.png',
+    './assests/mbbs/mbbs4.png',
+    // './assests/mbbs/mbbs5.png', // Add more dynamically as needed
   ];
 
   return (
