@@ -87,9 +87,9 @@ const Navbar = () => {
         <li className="px-6 py-2 lg:p-0 hover:text-blue-700 cursor-pointer">
           Courses
         </li>
-        <li className="px-6 py-2 lg:p-0 hover:text-blue-700 cursor-pointer">
+        <Link href="/branch" className="px-6 py-2 lg:p-0 hover:text-blue-700 cursor-pointer">
           Branches
-        </li>
+        </Link>
         <li className="px-6 py-2 lg:p-0 hover:text-blue-700 cursor-pointer">
           Blogs
         </li>
