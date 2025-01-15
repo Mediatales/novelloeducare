@@ -41,45 +41,42 @@ const Hero = () => {
   <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6 mx-auto w-[90%]">
     {/* card1 */}
     <div className="flex border shadow-md gap-4">
-      <img src="./assests/home/course.png" alt="" className="w-[50%] object-cover" />
-      <div className="flex flex-col items-center justify-center">
-        <h1 className="font-semibold text-xl md:text-2xl">Media and Communication</h1>
+      <img src="./assests/home/Medicine.png" alt="" className="w-[50%] object-cover" />
+      <div className="flex flex-col justify-center gap-2">
+        <h1 className="font-semibold  text-xl md:text-2xl">Medicine</h1>
         <p className="text-sm md:text-base">
-          This course delves into the study of media technologies, communication strategies, and their impact on society.
-        </p>
+        This course explores the science of healthcare, diagnosis, treatment, and prevention of diseases.        </p>
       </div>
     </div>
 
     {/* card2 */}
     <div className="flex border shadow-md gap-4">
-      <img src="./assests/home/course.png" alt="" className="w-[50%] object-cover" />
-      <div className="flex flex-col items-center justify-center">
-        <h1 className="font-semibold text-xl md:text-2xl">Media and Communication</h1>
-        <p className="text-sm md:text-base">
-          This course delves into the study of media technologies, communication strategies, and their impact on society.
+      <img src="./assests/home/Law.png" alt="" className="w-[50%] object-cover" />
+      <div className="flex flex-col justify-center gap-2">
+        <h1 className="font-semibold text-xl md:text-2xl">Law</h1>
+        <p className="text-sm font-extralight md:text-base">
+        This course examines legal systems, principles, and practices to uphold justice and societal order.
         </p>
       </div>
     </div>
 
     {/* card3 */}
     <div className="flex border shadow-md gap-4">
-      <img src="./assests/home/course.png" alt="" className="w-[50%] object-cover" />
-      <div className="flex flex-col items-center justify-center">
-        <h1 className="font-semibold text-xl md:text-2xl">Media and Communication</h1>
-        <p className="text-sm md:text-base">
-          This course delves into the study of media technologies, communication strategies, and their impact on society.
-        </p>
+      <img src="./assests/home/Engineering.png" alt="" className="w-[50%] object-cover" />
+      <div className="flex flex-col  justify-center gap-2 ">
+        <h1 className="font-semibold text-xl md:text-2xl">Engineering</h1>
+        <p className="text-sm font-extralight md:text-base">
+        This course focuses on designing, building, and innovating solutions to technical challenges.       </p>
       </div>
     </div>
 
     {/* card4 */}
     <div className="flex border shadow-md gap-4">
-      <img src="./assests/home/course.png" alt="" className="w-[50%] object-cover" />
-      <div className="flex flex-col items-center justify-center">
-        <h1 className="font-semibold text-xl md:text-2xl">Media and Communication</h1>
-        <p className="text-sm md:text-base">
-          This course delves into the study of media technologies, communication strategies, and their impact on society.
-        </p>
+      <img src="./assests/home/Bs.png" alt="" className="w-[50%] object-cover" />
+      <div className="flex flex-col justify-center gap-2">
+        <h1 className="font-semibold text-xl md:text-2xl">Business studies</h1>
+        <p className="text-sm font-extralight md:text-base">
+        This course covers management, marketing, and financial strategies for organizational success.        </p>
       </div>
     </div>
   </div>
