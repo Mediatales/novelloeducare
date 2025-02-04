@@ -96,6 +96,11 @@ const Page = () => {
           </p>
         </div>
       </div>
+
+      <div className="flex justify-center items-center ">
+        Our Service
+{/* START FROM HERE */}
+      </div>
     </div>
   );
 };
