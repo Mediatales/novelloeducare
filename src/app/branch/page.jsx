@@ -2,7 +2,7 @@
 import React, { useState } from "react";
 import { ChevronLeft, ChevronRight, MapPin, Phone, Mail } from "lucide-react";
 
-const page = () => {
+const Page = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
 
   const locations = [
@@ -151,4 +151,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Page;
