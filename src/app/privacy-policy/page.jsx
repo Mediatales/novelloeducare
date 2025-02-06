@@ -1,3 +1,4 @@
+"use client";
 import React from "react";
 import {
   FaUserShield,
@@ -29,11 +30,15 @@ const PrivacyPolicyPage = () => {
             <div className="flex items-center gap-3 mb-2">
               <FaUserAlt className="text-blue-500 text-xl" />
               <h2 className="text-xl font-bold text-gray-800">
-              Information We Collect
+                Information We Collect
               </h2>
             </div>
             <p className="text-gray-600">
-            We collect personal information, such as your name, email address, and payment details (if applicable) when you register, subscribe, or interact with our website. Additionally, we may collect non-personal data, such as browser type, device information, and usage patterns through cookies.
+              We collect personal information, such as your name, email address,
+              and payment details (if applicable) when you register, subscribe,
+              or interact with our website. Additionally, we may collect
+              non-personal data, such as browser type, device information, and
+              usage patterns through cookies.
             </p>
           </div>
 
@@ -41,11 +46,15 @@ const PrivacyPolicyPage = () => {
             <div className="flex items-center gap-3 mb-2">
               <FaInfoCircle className="text-green-500 text-xl" />
               <h2 className="text-xl font-bold text-gray-800">
-              How We Use Your Information:
+                How We Use Your Information:
               </h2>
             </div>
             <p className="text-gray-600">
-            We use your information to provide access to courses, study materials, and educational resources, enhance your user experience and website functionality, send important notifications, updates, and promotional content (from which you can opt out at any time), and ensure compliance with legal and security obligations.
+              We use your information to provide access to courses, study
+              materials, and educational resources, enhance your user experience
+              and website functionality, send important notifications, updates,
+              and promotional content (from which you can opt out at any time),
+              and ensure compliance with legal and security obligations.
             </p>
           </div>
 
@@ -53,21 +62,29 @@ const PrivacyPolicyPage = () => {
             <div className="flex items-center gap-3 mb-2">
               <FaShareAlt className="text-purple-500 text-xl" />
               <h2 className="text-xl font-bold text-gray-800">
-              Data Sharing and Security
+                Data Sharing and Security
               </h2>
             </div>
             <p className="text-gray-600">
-            We do not sell or share your personal data with third parties, except for trusted service providers (e.g., payment processors, analytics tools) necessary for website operations. Your data is securely stored with encryption and access controls to prevent unauthorized use.
+              We do not sell or share your personal data with third parties,
+              except for trusted service providers (e.g., payment processors,
+              analytics tools) necessary for website operations. Your data is
+              securely stored with encryption and access controls to prevent
+              unauthorized use.
             </p>
           </div>
 
           <div className="mb-6">
             <div className="flex items-center gap-3 mb-2">
               <FaUserCheck className="text-teal-500 text-xl" />
-              <h2 className="text-xl font-bold text-gray-800">Your Rights and Choices</h2>
+              <h2 className="text-xl font-bold text-gray-800">
+                Your Rights and Choices
+              </h2>
             </div>
             <p className="text-gray-600">
-            You have the right to access, update, or delete your personal data, opt out of marketing emails and cookies, and request clarification regarding our data collection and usage practices.
+              You have the right to access, update, or delete your personal
+              data, opt out of marketing emails and cookies, and request
+              clarification regarding our data collection and usage practices.
             </p>
           </div>
 

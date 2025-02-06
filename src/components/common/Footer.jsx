@@ -1,4 +1,3 @@
-import { Link } from "lucide-react";
 import React from "react";
 import { FaInstagram, FaFacebookF, FaTwitter, FaLinkedinIn } from "react-icons/fa";
 
@@ -53,18 +52,8 @@ const Footer = () => {
             <li><a href="#" className="hover:underline">Admission Service</a></li>
             <li><a href="#" className="hover:underline">Popular Courses</a></li>
             <li><a href="#" className="hover:underline">Our Branches</a></li>
-            <li>
-              <Link href="/contact" className="hover:text-red-500">
-                Contact Us
-              </Link>
-            </li>
-            <li>
-              <Link href="/privacy-policy" className="hover:text-red-500">
-                privacy policy
-              </Link>
-            </li>
+            
           </ul>
-          
         </div>
       </div>
 
