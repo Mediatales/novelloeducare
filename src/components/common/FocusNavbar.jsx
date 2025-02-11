@@ -15,7 +15,7 @@ const Navbar = () => {
     <nav className="flex items-center justify-between px-6 py-3 bg-white shadow-md w-full z-10 relative">
       {/* Logo */}
       <div className="flex items-center">
-        <img src="./assests/home/logo.png" alt="Logo" className="h-11" />
+        <img src="./assests/focus/home/focuslogo.png" alt="Logo" className="h-11" />
       </div>
 
       {/* Hamburger Menu Icon */}
@@ -102,10 +102,10 @@ const Navbar = () => {
 
       {/* Call-to-Action Button */}
       <button
-        className="hidden lg:block px-4 py-2 text-white bg-blue-700 rounded hover:bg-blue-800"
-        onClick={() => router.push("/focus-overseas")}
+        className="hidden lg:block px-4 py-2 text-white bg-[#047550] rounded hover:bg-[#047550]"
+        onClick={() => router.push("/")}
       >
-        MBBS in ABROAD
+        Study in ABROAD
       </button>
     </nav>
   );
