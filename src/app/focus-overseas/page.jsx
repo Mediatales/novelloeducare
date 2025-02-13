@@ -1,11 +1,11 @@
-import React from 'react'
-
-const page = () => {
+import Hero from "@/components/Focus/Hero";
+export default function page() {
   return (
-    <div>
-      focus
+    <div className="w-full">
+     
+      <Hero/>
+      
+      
     </div>
-  )
+  );
 }
-
-export default page

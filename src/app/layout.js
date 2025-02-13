@@ -6,7 +6,7 @@ import Footer from "@/components/common/Footer";
 import "./globals.css";
 
 export default function RootLayout({ children }) {
-  const pathname = usePathname(); // ✅ Get current path
+  const pathname = usePathname(); 
 
   return (
     <html lang="en">
