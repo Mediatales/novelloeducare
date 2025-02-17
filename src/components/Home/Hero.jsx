@@ -2,6 +2,7 @@
 import React, { useState, useEffect } from "react";
 import Universities from "./Universities";
 import Countries from "./Countries";
+import Link from "next/link";
 
 const Hero = () => {
   
@@ -82,7 +83,7 @@ const Hero = () => {
   </div>
 
   <div className="flex justify-center mt-8">
-    <button className="text-center bg-[#2B2C83] text-white px-3 py-2 rounded-lg">View all</button>
+    <Link href="/course"><button className="text-center bg-[#2B2C83] text-white px-3 py-2 rounded-lg">View all</button></Link>
   </div>
 </div>
 
