@@ -39,11 +39,19 @@ const Focusnavbar = () => {
                   <path fillRule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clipRule="evenodd" />
                 </svg>
               </button>
-              {/* <div className="absolute hidden group-hover:block w-48 py-2 mt-2 bg-white rounded-md shadow-xl">
-                <Link href="/usa" className="block px-4 py-2 text-gray-700 hover:bg-gray-100">USA</Link>
-                <Link href="/canada" className="block px-4 py-2 text-gray-700 hover:bg-gray-100">Canada</Link>
-                <Link href="/uk" className="block px-4 py-2 text-gray-700 hover:bg-gray-100">UK</Link>
-              </div> */}
+              <div className="absolute hidden group-hover:block w-56 py-2 mt-2 bg-white rounded-md shadow-xl">
+  <Link href="/focus-overseas/uzbekistan">
+    <div className="flex items-center gap-3 px-4 py-2 transition-all duration-200 bg-[#E6F3EE] hover:bg-[#d4e9de] rounded-md cursor-pointer">
+      <img
+        src="https://res.cloudinary.com/dqggm4k7u/image/upload/v1739792761/o4dr7q3ihsoh9ccgkxz6.png"
+        alt="Uzbekistan Flag"
+        className="w-8 h-8"
+      />
+      <p className="text-gray-800 font-medium">Study in Uzbekistan</p>
+    </div>
+  </Link>
+</div>
+
             </div>
             <Link href="/focus-overseas/admission" className="text-gray-700 hover:text-blue-700 font-medium">
               Admission Services
