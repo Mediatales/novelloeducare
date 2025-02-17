@@ -1,11 +1,10 @@
 "use client";
 import React, { useState } from "react";
 import Link from "next/link";
-import { useRouter } from "next/navigation";
+
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
-  const router = useRouter();
 
   const toggleMenu = () => {
     setIsOpen(!isOpen);
@@ -86,9 +85,9 @@ const Navbar = () => {
         <li className="px-6 py-2 lg:p-0 hover:text-blue-700 cursor-pointer">
           Test Preparation
         </li>
-        <li className="px-6 py-2 lg:p-0 hover:text-blue-700 cursor-pointer">
+        <Link href="/course" className="px-6 py-2 lg:p-0 hover:text-blue-700 cursor-pointer">
           Courses
-        </li>
+        </Link>
         <Link href="/branch" className="px-6 py-2 lg:p-0 hover:text-blue-700 cursor-pointer">
           Branches
         </Link>
@@ -101,12 +100,12 @@ const Navbar = () => {
       </ul>
 
       {/* Call-to-Action Button */}
-      <button
-        className="hidden lg:block px-4 py-2 text-white bg-blue-700 rounded hover:bg-blue-800"
-        onClick={() => router.push("/focus-overseas")}
-      >
-        MBBS in ABROAD
-      </button>
+      <Link href="/focus-overseas">
+  <button className="hidden lg:block px-4 py-2 text-white bg-blue-700 rounded hover:bg-blue-800">
+    MBBS in ABROAD
+  </button>
+</Link>
+
     </nav>
   );
 };
