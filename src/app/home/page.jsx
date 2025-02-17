@@ -10,10 +10,10 @@ export default function Page() {
   const [isModalOpen, setIsModalOpen] = useState(false);
 
   useEffect(() => {
-    // Open the modal every 25 seconds
+    
     const interval = setInterval(() => {
       setIsModalOpen(true);
-    }, 10000);
+    }, 8000);
 
     return () => clearInterval(interval);
   }, []);
