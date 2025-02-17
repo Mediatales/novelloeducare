@@ -8,7 +8,7 @@ const Footer = () => {
         {/* Left Section */}
         <div>
           <img
-            src="https://res.cloudinary.com/dqggm4k7u/image/upload/v1739789041/f1f7pedrical8yenlywv.png"
+            src="https://res.cloudinary.com/dqggm4k7u/image/upload/v1739789017/f8dxcljajsufyrqwcphn.png"
             alt="Logo"
             className="w-16 mb-4"
           />
