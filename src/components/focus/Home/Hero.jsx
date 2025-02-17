@@ -35,9 +35,9 @@ const Hero = () => {
               <div className="lg:w-1/2 space-y-10">
                 <h1 className="font-bold text-3xl md:text-5xl mb-4">MBBS Journey Abroad</h1>
                 <p className="text-lg md:text-2xl font-extralight leading-relaxed">
-                Going abroad to study medicine (MBBS) can be life-changing. It offers a world-class education and a chance to learn about different medical practices around the world. If you dream of becoming a doctor and want to study at a leading international university, or if you simply want to see how healthcare works in other countries, studying abroad can be a great first step in your medical career. It's a chance to grow both intellectually and personally.                 </p>
+                Going abroad to study medicine (MBBS) can be life-changing. It offers a world-class education and a chance to learn about different medical practices around the world. If you dream of becoming a doctor and want to study at a leading international university, or if you simply want to see how healthcare works in other countries, studying abroad can be a great first step in your medical career. It&apos;s a chance to grow both intellectually and personally.                 </p>
                 <p className="text-lg md:text-2xl font-extralight leading-relaxed mt-4">
-                You'll get practical clinical experience, learn from world-famous professors, and benefit from studying in diverse settings.                </p>
+                You&apos;ll get practical clinical experience, learn from world-famous professors, and benefit from studying in diverse settings.                </p>
               </div>
       
               {/* Image Section */}
