@@ -76,10 +76,10 @@ const Focusnavbar = () => {
           {/* CTA Button */}
           <div className="hidden lg:block">
             <Link href="/">
-              <button className="px-4 py-2 text-white bg-blue-700 rounded hover:bg-blue-800 font-medium">
+              <button className="px-4 py-2 text-white bg-[#047550] rounded hover:bg-green-800 font-medium">
                 Study in ABROAD
               </button>
-            </Link>
+            </Link> 
           </div>
 
           {/* Mobile menu button */}
@@ -183,7 +183,7 @@ const Focusnavbar = () => {
           <Link href="/" 
             className="block w-full"
             onClick={toggleMenu}>
-            <button className="w-full px-4 py-2 text-white bg-blue-700 rounded hover:bg-blue-800 font-medium">
+            <button className="w-full px-4 py-2 text-white bg-[#047550] rounded hover:bg-blue-800 font-medium">
               Study in ABROAD
             </button>
           </Link>
