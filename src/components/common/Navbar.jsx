@@ -2,110 +2,185 @@
 import React, { useState } from "react";
 import Link from "next/link";
 
-
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
+  const [isStudyAbroad, setIsStudyAbroad] = useState(false);
 
   const toggleMenu = () => {
     setIsOpen(!isOpen);
+    if (isStudyAbroad) setIsStudyAbroad(false);
+  };
+
+  const toggleStudyAbroad = () => {
+    setIsStudyAbroad(!isStudyAbroad);
   };
 
   return (
-    <nav className="flex items-center justify-between px-6 py-3 bg-white shadow-md w-full z-10 relative">
-      {/* Logo */}
-      <div className="flex items-center">
-        <img src="./assests/home/logo.png" alt="Logo" className="h-11" />
-      </div>
-
-      {/* Hamburger Menu Icon */}
-      <div className="lg:hidden block">
-        <button
-          className="text-gray-700 focus:outline-none"
-          onClick={toggleMenu}
-        >
-          {isOpen ? (
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              viewBox="0 0 24 24"
-              strokeWidth="2"
-              stroke="currentColor"
-              className="w-6 h-6"
-            >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                d="M6 18L18 6M6 6l12 12"
-              />
-            </svg>
-          ) : (
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              viewBox="0 0 24 24"
-              strokeWidth="2"
-              stroke="currentColor"
-              className="w-6 h-6"
-            >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                d="M4 6h16M4 12h16m-7 6h7"
-              />
-            </svg>
-          )}
-        </button>
-      </div>
-
-      {/* Navigation Links */}
-      <ul
-        className={`lg:flex items-center space-x-6 text-sm font-semibold text-gray-700 ${
-          isOpen ? "block" : "hidden"
-        } absolute lg:static top-full left-0 lg:top-0 lg:left-auto bg-white lg:bg-transparent w-full lg:w-auto shadow-md lg:shadow-none lg:py-0 py-4`}
-      >
-        <Link href="/home" className="px-6 py-2 lg:p-0 hover:text-blue-700 cursor-pointer">
-          Home
-        </Link>
-        <Link href="/about" className="px-6 py-2 lg:p-0 hover:text-blue-700 cursor-pointer">About us</Link>
-        <li className="px-6 py-2 lg:p-0 relative group">
-          <span className="hover:text-blue-700 cursor-pointer">
-            Study Abroad
-          </span>
-          <div className="absolute hidden group-hover:block top-full mt-2 bg-white shadow-md rounded">
-            <ul className="py-2 text-sm text-gray-700">
-              <li className="px-4 py-2 hover:bg-gray-100 cursor-pointer">USA</li>
-              <li className="px-4 py-2 hover:bg-gray-100 cursor-pointer">
-                Canada
-              </li>
-              <li className="px-4 py-2 hover:bg-gray-100 cursor-pointer">UK</li>
-            </ul>
+    <nav className="bg-white shadow-md w-full z-50 fixed top-0 left-0">
+      <div className="max-w-7xl mx-auto px-4">
+        <div className="flex justify-between items-center h-16">
+          {/* Logo */}
+          <div className="flex-shrink-0">
+            <img src="./assests/home/logo.png" alt="Logo" className="h-11" />
           </div>
-        </li>
-        <Link href="/admission" className="px-6 py-2 lg:p-0 hover:text-blue-700 cursor-pointer">Admission Services</Link>
-        <li className="px-6 py-2 lg:p-0 hover:text-blue-700 cursor-pointer">
-          Test Preparation
-        </li>
-        <Link href="/course" className="px-6 py-2 lg:p-0 hover:text-blue-700 cursor-pointer">
-          Courses
-        </Link>
-        <Link href="/branch" className="px-6 py-2 lg:p-0 hover:text-blue-700 cursor-pointer">
-          Branches
-        </Link>
-        <li className="px-6 py-2 lg:p-0 hover:text-blue-700 cursor-pointer">
-          Blogs
-        </li>
-        <li className="px-6 py-2 lg:p-0 hover:text-blue-700 cursor-pointer">
-          Contact Us
-        </li>
-      </ul>
 
-      {/* Call-to-Action Button */}
-      <Link href="/focus-overseas">
-  <button className="hidden lg:block px-4 py-2 text-white bg-blue-700 rounded hover:bg-blue-800">
-    MBBS in ABROAD
-  </button>
-</Link>
+          {/* Desktop Navigation */}
+          <div className="hidden lg:flex items-center space-x-8">
+            <Link href="/home" className="text-gray-700 hover:text-blue-700 font-medium">
+              Home
+            </Link>
+            <Link href="/about" className="text-gray-700 hover:text-blue-700 font-medium">
+              About us
+            </Link>
+            <div className="relative group">
+              <button className="text-gray-700 hover:text-blue-700 font-medium flex items-center gap-1">
+                Study Abroad
+                <svg className="w-4 h-4" viewBox="0 0 20 20" fill="currentColor">
+                  <path fillRule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clipRule="evenodd" />
+                </svg>
+              </button>
+              <div className="absolute hidden group-hover:block w-48 py-2 mt-2 bg-white rounded-md shadow-xl">
+                <Link href="/usa" className="block px-4 py-2 text-gray-700 hover:bg-gray-100">USA</Link>
+                <Link href="/canada" className="block px-4 py-2 text-gray-700 hover:bg-gray-100">Canada</Link>
+                <Link href="/uk" className="block px-4 py-2 text-gray-700 hover:bg-gray-100">UK</Link>
+              </div>
+            </div>
+            <Link href="/admission" className="text-gray-700 hover:text-blue-700 font-medium">
+              Admission Services
+            </Link>
+            <Link href="/test" className="text-gray-700 hover:text-blue-700 font-medium">
+              Test Preparation
+            </Link>
+            <Link href="/course" className="text-gray-700 hover:text-blue-700 font-medium">
+              Courses
+            </Link>
+            <Link href="/branch" className="text-gray-700 hover:text-blue-700 font-medium">
+              Branches
+            </Link>
+            <Link href="/blogs" className="text-gray-700 hover:text-blue-700 font-medium">
+              Blogs
+            </Link>
+            <Link href="/contact" className="text-gray-700 hover:text-blue-700 font-medium">
+              Contact Us
+            </Link>
+          </div>
 
+          {/* CTA Button */}
+          <div className="hidden lg:block">
+            <Link href="/focus-overseas">
+              <button className="px-4 py-2 text-white bg-blue-700 rounded hover:bg-blue-800 font-medium">
+                MBBS in ABROAD
+              </button>
+            </Link>
+          </div>
+
+          {/* Mobile menu button */}
+          <button
+            onClick={toggleMenu}
+            className="lg:hidden inline-flex items-center justify-center p-2 rounded-md text-gray-700 hover:text-blue-700 hover:bg-gray-100 focus:outline-none"
+          >
+            {isOpen ? (
+              <svg className="h-6 w-6" stroke="currentColor" fill="none" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M6 18L18 6M6 6l12 12" />
+              </svg>
+            ) : (
+              <svg className="h-6 w-6" stroke="currentColor" fill="none" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h16" />
+              </svg>
+            )}
+          </button>
+        </div>
+      </div>
+
+      {/* Mobile menu */}
+      <div className={`lg:hidden ${isOpen ? 'block' : 'hidden'}`}>
+        <div className="px-2 pt-2 pb-3 space-y-1 bg-white shadow-lg">
+          <Link href="/home" 
+            className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-blue-700 hover:bg-gray-50"
+            onClick={toggleMenu}>
+            Home
+          </Link>
+          <Link href="/about" 
+            className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-blue-700 hover:bg-gray-50"
+            onClick={toggleMenu}>
+            About us
+          </Link>
+          
+          {/* Mobile Study Abroad Dropdown */}
+          <div>
+            <button
+              onClick={toggleStudyAbroad}
+              className="flex justify-between items-center w-full px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-blue-700 hover:bg-gray-50"
+            >
+              Study Abroad
+              <svg 
+                className={`w-4 h-4 transition-transform duration-200 ${isStudyAbroad ? 'transform rotate-180' : ''}`}
+                viewBox="0 0 20 20" 
+                fill="currentColor"
+              >
+                <path fillRule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clipRule="evenodd" />
+              </svg>
+            </button>
+            <div className={`${isStudyAbroad ? 'block' : 'hidden'} pl-4`}>
+              <Link href="/usa" 
+                className="block px-3 py-2 text-base font-medium text-gray-700 hover:text-blue-700 hover:bg-gray-50"
+                onClick={toggleMenu}>
+                USA
+              </Link>
+              <Link href="/canada" 
+                className="block px-3 py-2 text-base font-medium text-gray-700 hover:text-blue-700 hover:bg-gray-50"
+                onClick={toggleMenu}>
+                Canada
+              </Link>
+              <Link href="/uk" 
+                className="block px-3 py-2 text-base font-medium text-gray-700 hover:text-blue-700 hover:bg-gray-50"
+                onClick={toggleMenu}>
+                UK
+              </Link>
+            </div>
+          </div>
+
+          <Link href="/admission" 
+            className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-blue-700 hover:bg-gray-50"
+            onClick={toggleMenu}>
+            Admission Services
+          </Link>
+          <Link href="/test" 
+            className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-blue-700 hover:bg-gray-50"
+            onClick={toggleMenu}>
+            Test Preparation
+          </Link>
+          <Link href="/course" 
+            className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-blue-700 hover:bg-gray-50"
+            onClick={toggleMenu}>
+            Courses
+          </Link>
+          <Link href="/branch" 
+            className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-blue-700 hover:bg-gray-50"
+            onClick={toggleMenu}>
+            Branches
+          </Link>
+          <Link href="/blogs" 
+            className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-blue-700 hover:bg-gray-50"
+            onClick={toggleMenu}>
+            Blogs
+          </Link>
+          <Link href="/contact" 
+            className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-blue-700 hover:bg-gray-50"
+            onClick={toggleMenu}>
+            Contact Us
+          </Link>
+          
+          {/* Mobile CTA Button */}
+          <Link href="/focus-overseas" 
+            className="block w-full"
+            onClick={toggleMenu}>
+            <button className="w-full px-4 py-2 text-white bg-blue-700 rounded hover:bg-blue-800 font-medium">
+              MBBS in ABROAD
+            </button>
+          </Link>
+        </div>
+      </div>
     </nav>
   );
 };
