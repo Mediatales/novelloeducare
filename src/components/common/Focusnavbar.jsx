@@ -129,13 +129,20 @@ const Focusnavbar = () => {
                 <path fillRule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clipRule="evenodd" />
               </svg>
             </button>
-            {/* <div className={`${isStudyAbroad ? 'block' : 'hidden'} pl-4`}>
-              <Link href="/usa" 
-                className="block px-3 py-2 text-base font-medium text-gray-700 hover:text-blue-700 hover:bg-gray-50"
+            
+            <div className={`${isStudyAbroad ? 'block' : 'hidden'} pl-4`}>
+              <Link href="/focus-overseas/uzbekistan" 
+                className=" flex  py-3 gap-2 align-baseline font-medium text-gray-700 hover:text-blue-700 hover:bg-gray-50"
+                
                 onClick={toggleMenu}>
-                USA
+                <img
+        src="https://res.cloudinary.com/dqggm4k7u/image/upload/v1739792761/o4dr7q3ihsoh9ccgkxz6.png"
+        alt="Uzbekistan Flag"
+        className="w-4 h-4"
+      />
+               <p className="text-gray-800 font-medium">Study in Uzbekistan</p>
               </Link>
-              <Link href="/canada" 
+              <Link href="/focus-overseas/uzbekistan" 
                 className="block px-3 py-2 text-base font-medium text-gray-700 hover:text-blue-700 hover:bg-gray-50"
                 onClick={toggleMenu}>
                 Canada
@@ -145,7 +152,7 @@ const Focusnavbar = () => {
                 onClick={toggleMenu}>
                 UK
               </Link>
-            </div> */}
+            </div>
           </div>
 
           <Link href="/focus-overseas/admission" 
