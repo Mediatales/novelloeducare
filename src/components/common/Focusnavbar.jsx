@@ -2,7 +2,7 @@
 import React, { useState } from "react";
 import Link from "next/link";
 
-const Navbar = () => {
+const Focusnavbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [isStudyAbroad, setIsStudyAbroad] = useState(false);
 
@@ -16,20 +16,20 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="bg-white shadow-md w-full z-50 fixed top-0 left-0">
+    <nav className="bg-white shadow-md w-[100%] z-50 fixed top-0 left-0 justify-evenly py-5 ">
       <div className="max-w-7xl mx-auto px-4">
-        <div className="flex justify-between items-center h-16">
+        <div className="flex justify-between items-center h-13">
           {/* Logo */}
           <div className="flex-shrink-0">
-            <img src="https://res.cloudinary.com/dqggm4k7u/image/upload/v1739789041/f1f7pedrical8yenlywv.png" alt="Logo" className="h-11" />
+            <img src="https://res.cloudinary.com/dqggm4k7u/image/upload/v1739789017/f8dxcljajsufyrqwcphn.png" alt="Logo" className="h-11" />
           </div>
 
           {/* Desktop Navigation */}
-          <div className="hidden lg:flex items-center space-x-8">
-            <Link href="/home" className="text-gray-700 hover:text-blue-700 font-medium">
+          <div className="hidden lg:flex items-center space-x-6 justify-between ">
+            <Link href="/focus-overseas/home" className="text-gray-700 hover:text-blue-700 font-medium">
               Home
             </Link>
-            <Link href="/about" className="text-gray-700 hover:text-blue-700 font-medium">
+            <Link href="/focus-overseas/about" className="text-gray-700 hover:text-blue-700 font-medium">
               About us
             </Link>
             <div className="relative group">
@@ -39,37 +39,37 @@ const Navbar = () => {
                   <path fillRule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clipRule="evenodd" />
                 </svg>
               </button>
-              <div className="absolute hidden group-hover:block w-48 py-2 mt-2 bg-white rounded-md shadow-xl">
+              {/* <div className="absolute hidden group-hover:block w-48 py-2 mt-2 bg-white rounded-md shadow-xl">
                 <Link href="/usa" className="block px-4 py-2 text-gray-700 hover:bg-gray-100">USA</Link>
                 <Link href="/canada" className="block px-4 py-2 text-gray-700 hover:bg-gray-100">Canada</Link>
                 <Link href="/uk" className="block px-4 py-2 text-gray-700 hover:bg-gray-100">UK</Link>
-              </div>
+              </div> */}
             </div>
-            <Link href="/admission" className="text-gray-700 hover:text-blue-700 font-medium">
+            <Link href="/focus-overseas/admission" className="text-gray-700 hover:text-blue-700 font-medium">
               Admission Services
             </Link>
-            <Link href="/test" className="text-gray-700 hover:text-blue-700 font-medium">
+            <Link href="/focus-overseas/test" className="text-gray-700 hover:text-blue-700 font-medium">
               Test Preparation
             </Link>
-            <Link href="/course" className="text-gray-700 hover:text-blue-700 font-medium">
+            <Link href="/focus-overseas/course" className="text-gray-700 hover:text-blue-700 font-medium">
               Courses
             </Link>
-            <Link href="/branch" className="text-gray-700 hover:text-blue-700 font-medium">
+            <Link href="/focus-overseas/branch" className="text-gray-700 hover:text-blue-700 font-medium">
               Branches
             </Link>
-            <Link href="/blogs" className="text-gray-700 hover:text-blue-700 font-medium">
+            <Link href="/focus-overseas/blogs" className="text-gray-700 hover:text-blue-700 font-medium">
               Blogs
             </Link>
-            <Link href="/contact" className="text-gray-700 hover:text-blue-700 font-medium">
+            <Link href="/focus-overseas/contact" className="text-gray-700 hover:text-blue-700 font-medium">
               Contact Us
             </Link>
           </div>
 
           {/* CTA Button */}
           <div className="hidden lg:block">
-            <Link href="/focus-overseas">
+            <Link href="/">
               <button className="px-4 py-2 text-white bg-blue-700 rounded hover:bg-blue-800 font-medium">
-                MBBS in ABROAD
+                Study in ABROAD
               </button>
             </Link>
           </div>
@@ -95,12 +95,12 @@ const Navbar = () => {
       {/* Mobile menu */}
       <div className={`lg:hidden ${isOpen ? 'block' : 'hidden'}`}>
         <div className="px-2 pt-2 pb-3 space-y-1 bg-white shadow-lg">
-          <Link href="/home" 
+          <Link href="/focus-overseas/home" 
             className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-blue-700 hover:bg-gray-50"
             onClick={toggleMenu}>
             Home
           </Link>
-          <Link href="/about" 
+          <Link href="/focus-overseas/about" 
             className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-blue-700 hover:bg-gray-50"
             onClick={toggleMenu}>
             About us
@@ -121,7 +121,7 @@ const Navbar = () => {
                 <path fillRule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clipRule="evenodd" />
               </svg>
             </button>
-            <div className={`${isStudyAbroad ? 'block' : 'hidden'} pl-4`}>
+            {/* <div className={`${isStudyAbroad ? 'block' : 'hidden'} pl-4`}>
               <Link href="/usa" 
                 className="block px-3 py-2 text-base font-medium text-gray-700 hover:text-blue-700 hover:bg-gray-50"
                 onClick={toggleMenu}>
@@ -137,46 +137,46 @@ const Navbar = () => {
                 onClick={toggleMenu}>
                 UK
               </Link>
-            </div>
+            </div> */}
           </div>
 
-          <Link href="/admission" 
+          <Link href="/focus-overseas/admission" 
             className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-blue-700 hover:bg-gray-50"
             onClick={toggleMenu}>
             Admission Services
           </Link>
-          <Link href="/test" 
+          <Link href="/focus-overseas/test" 
             className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-blue-700 hover:bg-gray-50"
             onClick={toggleMenu}>
             Test Preparation
           </Link>
-          <Link href="/course" 
+          <Link href="/focus-overseas/course" 
             className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-blue-700 hover:bg-gray-50"
             onClick={toggleMenu}>
             Courses
           </Link>
-          <Link href="/branch" 
+          <Link href="/focus-overseas/branch" 
             className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-blue-700 hover:bg-gray-50"
             onClick={toggleMenu}>
             Branches
           </Link>
-          <Link href="/blogs" 
+          <Link href="/focus-overseas/blogs" 
             className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-blue-700 hover:bg-gray-50"
             onClick={toggleMenu}>
             Blogs
           </Link>
-          <Link href="/contact" 
+          <Link href="/focus-overseas/contact" 
             className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-blue-700 hover:bg-gray-50"
             onClick={toggleMenu}>
             Contact Us
           </Link>
           
           {/* Mobile CTA Button */}
-          <Link href="/focus-overseas" 
+          <Link href="/" 
             className="block w-full"
             onClick={toggleMenu}>
             <button className="w-full px-4 py-2 text-white bg-blue-700 rounded hover:bg-blue-800 font-medium">
-              MBBS in ABROAD
+              Study in ABROAD
             </button>
           </Link>
         </div>
@@ -185,4 +185,4 @@ const Navbar = () => {
   );
 };
 
-export default Navbar;
+export default Focusnavbar;
