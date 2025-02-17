@@ -1,3 +1,5 @@
+import Universities from '@/components/focus/Home/Universities';
+import Universityhero from '@/components/focus/Home/Universityhero';
 import React from 'react';
 
 const Page = () => {
@@ -53,6 +55,14 @@ const Page = () => {
           />
         </div>
       </div>
+
+      {/* Universities Section */}
+
+      <Universities/>
+
+      {/* after uiversities Section */}
+
+      <Universityhero/>
     </div>
   );
 };
