@@ -1,3 +1,5 @@
+import ServicesSection from "@/components/about/ServicesSection";
+import WhyChooseSection from "@/components/about/WhyChooseSection";
 import Image from "next/image";
 
 const Page = () => {
@@ -91,15 +93,18 @@ const Page = () => {
         {/* Text */}
         <div className="lg:w-1/2">
           <h2 className="text-3xl font-bold mb-4">A Vision for Global Academic Excellence</h2>
-          <p className="text-lg font-light leading-relaxed">
+          <p className="text-xl font-light leading-relaxed">
             To empower aspiring students globally by providing access to exceptional educational opportunities, fostering academic excellence, and nurturing future leaders through innovative, inclusive, and student-centered solutions in international education.
           </p>
         </div>
       </div>
 
-      <div className="flex justify-center items-center ">
-        Our Service
-{/* START FROM HERE */}
+      <div>
+      <ServicesSection/>
+      </div>
+
+      <div>
+      <WhyChooseSection/>
       </div>
     </div>
   );
