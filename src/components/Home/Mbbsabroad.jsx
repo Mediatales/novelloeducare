@@ -5,7 +5,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
-
+import Link from 'next/link';
 import { Navigation, Pagination, Autoplay } from 'swiper/modules';
 
 const Mbbsabroad = () => {
@@ -49,11 +49,13 @@ const Mbbsabroad = () => {
         </Swiper>
       </div>
 
+      <Link href = "/focus-overseas">
       <div className="flex justify-center mt-8">
         <button className="text-center bg-[#2B2C83] text-white px-3 py-2 rounded-lg">
           View All
         </button>
       </div>
+      </Link>
     </div>
   );
 };
