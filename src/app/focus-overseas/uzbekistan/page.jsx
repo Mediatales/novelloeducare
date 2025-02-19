@@ -35,7 +35,7 @@ const Page = () => {
           </p>
 
           {/* Quick Facts */}
-          <div className="mt-6">
+          <div className="mt-6 ">
             <h3 className="text-lg font-semibold mb-3 text-green-700">Quick Facts:</h3>
             <ul className="text-gray-800 space-y-2">
               <li>✅ <strong>Capital:</strong> Tashkent</li>
