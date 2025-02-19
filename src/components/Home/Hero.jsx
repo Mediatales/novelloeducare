@@ -20,13 +20,9 @@ const Hero = () => {
 
         {/* Overlay Text */}
         <div className="absolute inset-0 flex flex-col justify-center items-center text-center bg-black bg-opacity-50">
-          <h1 className="text-4xl md:text-5xl font-bold text-white mb-4">
+          <h1 className="text-4xl md:text-8xl font-bold text-white mb-4">
             Dream to Study Abroad
           </h1>
-          <p className="text-lg md:text-xl text-white max-w-2xl">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
-            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
-          </p>
         </div>
       </div>
 
@@ -174,37 +170,34 @@ const Hero = () => {
   <div className="mt-8 flex flex-wrap gap-6 justify-center mx-auto w-[90%]">
     {/* card1 */}
     <div className="border bg-white font-[mullish] shadow-md rounded-lg p-6 border-gray-200 text-center flex flex-col items-center w-full sm:w-[48%] lg:w-[30%]">
-      <img src="./assests/home/test1.png" alt="img" className="mx-auto mb-4" />
+      <img src="./assests/home/ielts.png" alt="img" className="mx-auto mb-4" />
       <h2 className="text-xl font-semibold">
-        TOEFL (Test of English as a Foreign Language)
+      IELTS (International English Language Testing System)
       </h2>
       <p>
-        This globally recognized course offers insights into international
-        trade, leadership, and global marketing strategies.
+      This test can help you secure university acceptance, student visas, and prove your English ability to professional organisations.
       </p>
     </div>
 
     {/* card2 */}
     <div className="border bg-white font-[mullish] shadow-md rounded-lg p-6 border-gray-200 text-center flex flex-col items-center w-full sm:w-[48%] lg:w-[30%]">
-      <img src="./assests/home/test2.png" alt="img" className="mx-auto mb-4" />
+      <img src="./assests/home/toefl.png" alt="img" className="mx-auto mb-4" />
       <h2 className="text-xl font-semibold">
         TOEFL (Test of English as a Foreign Language)
       </h2>
       <p>
-        This globally recognized course offers insights into international
-        trade, leadership, and global marketing strategies.
+      It is a standardized test to measure the English language ability of non-native speakers wishing to enroll in English-speaking universities
       </p>
     </div>
 
     {/* card3 */}
     <div className="border bg-white font-[mullish] shadow-md rounded-lg p-6 border-gray-200 text-center flex flex-col items-center w-full sm:w-[48%] lg:w-[30%]">
-      <img src="./assests/home/test3.png" alt="img" className="mx-auto mb-4" />
+      <img src="./assests/home/sat.png" alt="img" className="mx-auto mb-4" />
       <h2 className="text-xl font-semibold">
-        TOEFL (Test of English as a Foreign Language)
+      SAT Exam (Scholastic Assessment Test)
       </h2>
       <p>
-        This globally recognized course offers insights into international
-        trade, leadership, and global marketing strategies.
+      It is a Standardised entrance test commonly taken up by 11th and 12th students to assess their aptitude for college admissions abroad.
       </p>
     </div>
   </div>

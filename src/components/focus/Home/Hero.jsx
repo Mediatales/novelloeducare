@@ -17,10 +17,7 @@ const Hero = () => {
           <h1 className="text-4xl md:text-5xl font-bold text-white mb-4">
           Discover effective ways to MBBS Abroad
           </h1>
-          <p className="text-lg md:text-xl text-white max-w-2xl">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
-            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
-          </p>
+          
         </div>
       </div>
 
