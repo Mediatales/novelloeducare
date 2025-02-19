@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from "react";
-import { ChevronLeft, ChevronRight } from "lucide-react";
+import { ChevronLeft, ChevronRight, Images } from "lucide-react";
 
 const Universities = () => {
   const universities = [
@@ -23,6 +23,144 @@ const Universities = () => {
       name: "ANU University",
       location: "Canberra, Australia",
     },
+
+    // cloudaniry Images
+
+    {
+      img: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1739951628/australia_university_1_logo_1_cguly8.png",
+      name: "Monash University",
+      location: "Australia",
+    },
+
+    {
+      img: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1739952034/Melbourne_university_australia_-_Copy_plh9nc.png",
+      name: "University of Melbourne",
+      location: "Australia",
+    },
+
+    {
+      img: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1739952034/australia_university_3_1_pyx6kw.png",
+      name: "University of Sydney",
+      location: "Australia",
+    },
+
+    {
+      img: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1739952033/australia_university_4_1_-_Copy_bnbxvo.png",
+      name: "RMIT University",
+      location: "Australia",
+    },
+
+
+    {
+      img: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1739952024/usa_university_1_1_i52vno.png",
+      name: "Stanford University",
+      location: "USA",
+    },
+
+
+    {
+      img: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1739952024/usa_university_2_1_jbnvpm.png",
+      name: "Princeton University",
+      location: "USA",
+    },
+
+    {
+      img: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1739952024/usa_university_4_1_jobznv.png",
+      name: "Yale University ",
+      location: "USA",
+    },
+
+    {
+      img: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1739952025/usa_university_3_1_dqw1tj.png",
+      name: "Northwestern University",
+      location: "USA",
+    },
+
+    {
+      img: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1739952024/uk_university_1_1_c7v0ga.png",
+      name: "University of Cambridge",
+      location: "UK",
+    },
+
+    {
+      img: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1739952025/uk_university_2_1_lltuvc.png",
+      name: "Imperial College London",
+      location: "Uk",
+    },
+
+    {
+      img: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1739952025/uk_university_3_1_cmgxpm.png",
+      name: "University of Warwick",
+      location: "Uk",
+    },
+
+    {
+      img: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1739952026/uk_university_4_1_atpxvl.png",
+      name: "Durham University",
+      location: "UK",
+    },
+
+    {
+      img: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1739952027/canada_university_1_1_umdajn.png",
+      name: "University of Ottawa",
+      location: "Canada",
+    },
+
+    {
+      img: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1739952028/canada_university_2_1_ivihxi.png",
+      name: "Western University",
+      location: "Canada",
+    },
+
+    {
+      img: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1739952029/france_university_1_1_eqgb7m.png",
+      name: "Sorbonne University",
+      location: "France",
+    },
+
+
+    {
+      img: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1739952030/france_university_2_1_uyzre4.png",
+      name: "University of Paris-Saclay",
+      location: "France",
+    },
+
+    {
+      img: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1739952028/germany_university_1_1_ouli6k.png",
+      name: "University of Hamburg",
+      location: "Germany",
+    },
+
+    {
+      img: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1739952028/germany_university_2_1_s4obmg.png",
+      name: "University of Tübingen",
+      location: "Germany",
+    },
+
+    {
+      img: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1739952030/poland_university_1_2_spbx5z.png",
+      name: "University of Warsaw",
+      location: "Poland",
+    },
+
+    {
+      img: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1739952031/poland_university_2_1_rbnnnz.png",
+      name: "Jagiellonian University",
+      location: "Poland",
+    },
+
+    {
+      img: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1739952031/dubai_university_1_1_cptm2d.png",
+      name: "Heriot-Watt University",
+      location: "Dubai",
+    },
+
+    {
+      img: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1739952031/dubai_university_2_1_wz6xlv.png",
+      name: "Curtin University",
+      location: "Dubai",
+    },
+
   ];
 
   const [visibleItems, setVisibleItems] = useState(4);
