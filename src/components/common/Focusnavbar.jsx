@@ -41,7 +41,7 @@ const Focusnavbar = () => {
               </button>
               <div className="absolute hidden group-hover:block w-56 py-2 mt-2 bg-white rounded-md shadow-xl">
   <Link href="/focus-overseas/uzbekistan">
-    <div className="flex items-center gap-3 px-4 py-2 transition-all duration-200 bg-[#E6F3EE] hover:bg-[#d4e9de] rounded-md cursor-pointer">
+    <div className="flex items-center gap-3 mt-2 px-4 py-2 transition-all duration-200 bg-[#E6F3EE] hover:bg-[#d4e9de] rounded-md cursor-pointer">
       <img
         src="https://res.cloudinary.com/dqggm4k7u/image/upload/v1739792761/o4dr7q3ihsoh9ccgkxz6.png"
         alt="Uzbekistan Flag"
@@ -50,6 +50,52 @@ const Focusnavbar = () => {
       <p className="text-gray-800 font-medium">Study in Uzbekistan</p>
     </div>
   </Link>
+
+  <div className="flex items-center gap-3 mt-2 px-4 py-2 transition-all duration-200 bg-[#E6F3EE] hover:bg-[#d4e9de] rounded-md cursor-pointer">
+      <img
+        src="https://res.cloudinary.com/dqggm4k7u/image/upload/v1739792761/o4dr7q3ihsoh9ccgkxz6.png"
+        alt="Uzbekistan Flag"
+        className="w-8 h-8"
+      />
+      <p className="text-gray-800 font-medium">Study in Uzbekistan</p>
+    </div>
+
+    <div className="flex items-center gap-3 mt-2 px-4 py-2 transition-all duration-200 bg-[#E6F3EE] hover:bg-[#d4e9de] rounded-md cursor-pointer">
+      <img
+        src="https://res.cloudinary.com/dqggm4k7u/image/upload/v1739792761/o4dr7q3ihsoh9ccgkxz6.png"
+        alt="Uzbekistan Flag"
+        className="w-8 h-8"
+      />
+      <p className="text-gray-800 font-medium">Study in Uzbekistan</p>
+    </div>
+
+    <div className="flex items-center gap-3 mt-2 px-4 py-2 transition-all duration-200 bg-[#E6F3EE] hover:bg-[#d4e9de] rounded-md cursor-pointer">
+      <img
+        src="https://res.cloudinary.com/dqggm4k7u/image/upload/v1739792761/o4dr7q3ihsoh9ccgkxz6.png"
+        alt="Uzbekistan Flag"
+        className="w-8 h-8"
+      />
+      <p className="text-gray-800 font-medium">Study in Uzbekistan</p>
+    </div>
+
+    <div className="flex items-center gap-3 mt-2 px-4 py-2 transition-all duration-200 bg-[#E6F3EE] hover:bg-[#d4e9de] rounded-md cursor-pointer">
+      <img
+        src="https://res.cloudinary.com/dqggm4k7u/image/upload/v1739792761/o4dr7q3ihsoh9ccgkxz6.png"
+        alt="Uzbekistan Flag"
+        className="w-8 h-8"
+      />
+      <p className="text-gray-800 font-medium">Study in Uzbekistan</p>
+    </div>
+
+    <div className="flex items-center gap-3 mt-2 px-4 py-2 transition-all duration-200 bg-[#E6F3EE] hover:bg-[#d4e9de] rounded-md cursor-pointer">
+      <img
+        src="https://res.cloudinary.com/dqggm4k7u/image/upload/v1739792761/o4dr7q3ihsoh9ccgkxz6.png"
+        alt="Uzbekistan Flag"
+        className="w-8 h-8"
+      />
+      <p className="text-gray-800 font-medium">Study in Uzbekistan</p>
+    </div>
+  
 </div>
 
             </div>
