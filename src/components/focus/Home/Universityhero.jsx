@@ -78,8 +78,8 @@ const Universityhero = () => {
       <h2 className="text-center text-2xl md:text-3xl font-bold mb-6">
   Key advantages of pursuing MBBS in Uzbekistan
 </h2>
-<div className="flex flex-col md:flex-row items-center w-full justify-between gap-6">
-  <div className="flex flex-col gap-4 w-[50%]">
+<div className="flex flex-col md:flex-row items-center w-full  justify-center gap-6">
+  <div className="flex flex-col gap-4 items-left w-[50%]">
     {advantages.map((adv, index) => (
       <div key={index} className="flex items-center  gap-4">
         <div className="w-10 h-10 flex items-center justify-center bg-green-500 text-white text-2xl rounded-full">
