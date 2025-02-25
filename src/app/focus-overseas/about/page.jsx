@@ -14,7 +14,7 @@ const Page = () => {
           objectFit="cover"
           className="w-full h-full"
         />
-        <div className="absolute inset-0 flex flex-col items-center justify-center bg-black/40">
+        <div className="absolute inset-0 flex flex-col items-center justify-center bg-black/0">
           <h1 className="text-white text-3xl md:text-5xl font-bold text-center">
             Discover Our Story
           </h1>
@@ -49,7 +49,7 @@ const Page = () => {
       {/* New Section: Planning to Study Internationally */}
       <div className="container mx-auto px-6 lg:px-20 mt-16">
         <h2 className="text-center text-3xl font-bold mb-6 border-b-4 pb-2 inline-block">
-          Planning to study internationally?
+          Planning to Study Internationally?
         </h2>
 
         {/* Statistics Section */}
