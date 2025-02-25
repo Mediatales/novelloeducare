@@ -25,7 +25,7 @@ const WhyChooseSection = () => {
         {/* Minimum Package */}
         <div className="flex flex-col items-center">
           <FaHandHoldingUsd className="text-4xl text-black mb-4" />
-          <p className="font-semibold">Min, Package 40+ Lac per year</p>
+          <p className="font-semibold">Min, Package 20 Lac</p>
         </div>
 
         {/* Stay Back Visa */}
