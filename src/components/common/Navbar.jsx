@@ -32,9 +32,13 @@ const Navbar = () => {
             <Link href="/about" className="text-gray-700 hover:text-blue-700 font-medium">
               About us
             </Link>
+
+            <Link href="/course" className="text-gray-700 hover:text-blue-700 font-medium">
+              Courses
+            </Link>
             <div className="relative group">
               <button className="text-gray-700 hover:text-blue-700 font-medium flex items-center gap-1">
-                Study Abroad
+                Countries
                 <svg className="w-4 h-4" viewBox="0 0 20 20" fill="currentColor">
                   <path fillRule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clipRule="evenodd" />
                 </svg>
@@ -133,21 +137,23 @@ const Navbar = () => {
                 
               </div>
             </div>
+            
+            {/* <Link href="/test" className="text-gray-700 hover:text-blue-700 font-medium">
+              Test Preparation
+            </Link> */}
+            <div className="text-gray-700 hover:text-blue-700 font-medium">
+              Universities
+            </div>
             <Link href="/admission" className="text-gray-700 hover:text-blue-700 font-medium">
               Admission Services
-            </Link>
-            <Link href="/test" className="text-gray-700 hover:text-blue-700 font-medium">
-              Test Preparation
-            </Link>
-            <Link href="/course" className="text-gray-700 hover:text-blue-700 font-medium">
-              Courses
-            </Link>
-            <Link href="/branch" className="text-gray-700 hover:text-blue-700 font-medium">
-              Branches
             </Link>
             <Link href="/blogs" className="text-gray-700 hover:text-blue-700 font-medium">
               Blogs
             </Link>
+            {/* <Link href="/branch" className="text-gray-700 hover:text-blue-700 font-medium">
+              Branches
+            </Link> */}
+            
             <Link href="/contact" className="text-gray-700 hover:text-blue-700 font-medium">
               Contact Us
             </Link>
@@ -193,6 +199,12 @@ const Navbar = () => {
             onClick={toggleMenu}>
             About us
           </Link>
+
+          <Link href="/course" 
+            className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-blue-700 hover:bg-gray-50"
+            onClick={toggleMenu}>
+            Courses
+          </Link>
           
           {/* Mobile Study Abroad Dropdown */}
           <div>
@@ -200,7 +212,7 @@ const Navbar = () => {
     onClick={toggleStudyAbroad}
     className="flex justify-between items-center w-full px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-blue-700 hover:bg-gray-50"
   >
-    Study Abroad
+    Countries
     <svg 
       className={`w-4 h-4 transition-transform duration-200 ${isStudyAbroad ? 'transform rotate-180' : ''}`}
       viewBox="0 0 20 20" 
@@ -304,32 +316,34 @@ const Navbar = () => {
   </div>
 </div>
 
+          <div 
+            className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-blue-700 hover:bg-gray-50"
+            onClick={toggleMenu}>
+            Universities
+          </div>
 
           <Link href="/admission" 
             className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-blue-700 hover:bg-gray-50"
             onClick={toggleMenu}>
             Admission Services
           </Link>
-          <Link href="/test" 
+          {/* <Link href="/test" 
             className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-blue-700 hover:bg-gray-50"
             onClick={toggleMenu}>
             Test Preparation
-          </Link>
-          <Link href="/course" 
-            className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-blue-700 hover:bg-gray-50"
-            onClick={toggleMenu}>
-            Courses
-          </Link>
-          <Link href="/branch" 
-            className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-blue-700 hover:bg-gray-50"
-            onClick={toggleMenu}>
-            Branches
-          </Link>
+          </Link> */}
+          
           <Link href="/blogs" 
             className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-blue-700 hover:bg-gray-50"
             onClick={toggleMenu}>
             Blogs
           </Link>
+          {/* <Link href="/branch" 
+            className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-blue-700 hover:bg-gray-50"
+            onClick={toggleMenu}>
+            Branches
+          </Link> */}
+          
           <Link href="/contact" 
             className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-blue-700 hover:bg-gray-50"
             onClick={toggleMenu}>
