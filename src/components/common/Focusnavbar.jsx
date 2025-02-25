@@ -34,7 +34,7 @@ const Focusnavbar = () => {
             </Link>
             <div className="relative group">
               <button className="text-gray-700 hover:text-blue-700 font-medium flex items-center gap-1">
-                Study Abroad
+                Country 
                 <svg className="w-4 h-4" viewBox="0 0 20 20" fill="currentColor">
                   <path fillRule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clipRule="evenodd" />
                 </svg>
@@ -99,18 +99,22 @@ const Focusnavbar = () => {
 </div>
 
             </div>
+
+            <div className="text-gray-700 hover:text-blue-700 font-medium">
+              University
+            </div>
             <Link href="/focus-overseas/admission" className="text-gray-700 hover:text-blue-700 font-medium">
               Admission Services
             </Link>
-            <Link href="/focus-overseas/test" className="text-gray-700 hover:text-blue-700 font-medium">
+            {/* <Link href="/focus-overseas/test" className="text-gray-700 hover:text-blue-700 font-medium">
               Test Preparation
-            </Link>
-            <Link href="/focus-overseas/course" className="text-gray-700 hover:text-blue-700 font-medium">
+            </Link> */}
+            {/* <Link href="/focus-overseas/course" className="text-gray-700 hover:text-blue-700 font-medium">
               Courses
-            </Link>
-            <Link href="/focus-overseas/branch" className="text-gray-700 hover:text-blue-700 font-medium">
+            </Link> */}
+            {/* <Link href="/focus-overseas/branch" className="text-gray-700 hover:text-blue-700 font-medium">
               Branches
-            </Link>
+            </Link> */}
             <Link href="/focus-overseas/blogs" className="text-gray-700 hover:text-blue-700 font-medium">
               Blogs
             </Link>
@@ -166,7 +170,7 @@ const Focusnavbar = () => {
               onClick={toggleStudyAbroad}
               className="flex justify-between items-center w-full px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-blue-700 hover:bg-gray-50"
             >
-              Study Abroad
+              Country
               <svg 
                 className={`w-4 h-4 transition-transform duration-200 ${isStudyAbroad ? 'transform rotate-180' : ''}`}
                 viewBox="0 0 20 20" 
@@ -201,26 +205,32 @@ const Focusnavbar = () => {
             </div>
           </div>
 
+          <div  
+            className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-blue-700 hover:bg-gray-50"
+            onClick={toggleMenu}>
+            University
+          </div>
+
           <Link href="/focus-overseas/admission" 
             className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-blue-700 hover:bg-gray-50"
             onClick={toggleMenu}>
             Admission Services
           </Link>
-          <Link href="/focus-overseas/test" 
+          {/* <Link href="/focus-overseas/test" 
             className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-blue-700 hover:bg-gray-50"
             onClick={toggleMenu}>
             Test Preparation
-          </Link>
-          <Link href="/focus-overseas/course" 
+          </Link> */}
+          {/* <Link href="/focus-overseas/course" 
             className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-blue-700 hover:bg-gray-50"
             onClick={toggleMenu}>
             Courses
-          </Link>
-          <Link href="/focus-overseas/branch" 
+          </Link> */}
+          {/* <Link href="/focus-overseas/branch" 
             className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-blue-700 hover:bg-gray-50"
             onClick={toggleMenu}>
             Branches
-          </Link>
+          </Link> */}
           <Link href="/focus-overseas/blogs" 
             className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-blue-700 hover:bg-gray-50"
             onClick={toggleMenu}>
