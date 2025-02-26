@@ -6,7 +6,7 @@ const Page = () => {
   return (
     <div className="mb-14">
       {/* Hero Section */}
-      <div className="relative w-full h-[300px] md:h-[450px] lg:h-[500px]">
+      <div className="relative w-full h-[300px] md:h-[450px] lg:h-[550px]">
         <Image
           src="/assests/about/bgabout.png"
           alt="Welcome"
@@ -14,8 +14,8 @@ const Page = () => {
           objectFit="cover"
           className="w-full h-full"
         />
-        <div className="absolute inset-0 flex flex-col items-center justify-center bg-black/40">
-          <h1 className="text-white text-3xl md:text-5xl font-bold text-center">
+        <div className="absolute inset-0 flex flex-col items-center justify-center bg-black/10">
+          <h1 className="text-white text-3xl md:text-6xl font-bold text-center">
             Discover Our Story
           </h1>
         </div>
