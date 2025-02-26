@@ -62,6 +62,11 @@ const Footer = () => {
                 </Link>
               </li>
               <li className="mb-2">
+                <Link href="/about-mbbs-abroad" className="hover:text-blue-800">
+                Medical Licensing
+                </Link>
+              </li>
+              <li className="mb-2">
                 <Link href="/privacy-policy" className="hover:text-blue-800">
                   Privacy Policy
                 </Link>
