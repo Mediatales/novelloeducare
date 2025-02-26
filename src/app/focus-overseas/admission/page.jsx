@@ -3,7 +3,6 @@ import { Building2, BookOpen, GraduationCap, Wallet, Plane, FileCheck,Globe2Icon
 
 const services = [
   
-
   {
     title: 'Country selection',
     icon: Globe2Icon,
@@ -19,17 +18,17 @@ const services = [
   {
     title: 'Loan Assistance',
     icon: Wallet,
-    description: 'It helps individuals identify their strengths, interests, and career goals, providing expert guidance to make informed decisions about education and profession. It empowers you to choose the right path and achieve long-term success in your chosen field.'
+    description: 'Loan assistance programs offered by educational platforms and institutions guide students through available loan options, eligibility, and applications, often partnering with financial institutions for favorable terms. help students find and apply for loans'
   },
   {
     title: 'Travel Assistance',
     icon: Plane,
-    description: 'It helps individuals identify their strengths, interests, and career goals, providing expert guidance to make informed decisions about education and profession. It empowers you to choose the right path and achieve long-term success in your chosen field.'
+    description: 'Travel assistance helps students with visa applications, travel arrangements, accommodation, and settling into a new environment, often including discounted travel options and airport pickup. helps students with visa applications.'
   },
   {
     title: 'Visa Processing',
     icon: FileCheck,
-    description: 'It helps individuals identify their strengths, interests, and career goals, providing expert guidance to make informed decisions about education and profession. It empowers you to choose the right path and achieve long-term success in your chosen field.'
+    description: 'Institutions guide students through visa applications, including requirements, documents, and deadlines.  They may also offer interview support, sponsorship letters, and legal assistance for a smoother approval process.'
   }
 ];
 
