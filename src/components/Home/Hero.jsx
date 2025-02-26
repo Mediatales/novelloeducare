@@ -162,46 +162,7 @@ const Hero = () => {
 
       {/* test */}
 
-      <div className="mt-8">
-  <h1 className="text-2xl md:text-3xl font-semibold text-black mb-8 text-center">
-    Test <span className="text-[#303192]">Preparation</span>
-  </h1>
-
-  <div className="mt-8 flex flex-wrap gap-6 justify-center mx-auto w-[90%]">
-    {/* card1 */}
-    <div className="border bg-white font-[mullish] shadow-md rounded-lg p-6 border-gray-200 text-center flex flex-col items-center w-full sm:w-[48%] lg:w-[30%]">
-      <img src="./assests/home/ielts.png" alt="img" className="mx-auto mb-4" />
-      <h2 className="text-xl font-semibold">
-      IELTS (International English Language Testing System)
-      </h2>
-      <p>
-      This test can help you secure university acceptance, student visas, and prove your English ability to professional organisations.
-      </p>
-    </div>
-
-    {/* card2 */}
-    <div className="border bg-white font-[mullish] shadow-md rounded-lg p-6 border-gray-200 text-center flex flex-col items-center w-full sm:w-[48%] lg:w-[30%]">
-      <img src="./assests/home/toefl.png" alt="img" className="mx-auto mb-4" />
-      <h2 className="text-xl font-semibold">
-        TOEFL (Test of English as a Foreign Language)
-      </h2>
-      <p>
-      It is a standardized test to measure the English language ability of non-native speakers wishing to enroll in English-speaking universities
-      </p>
-    </div>
-
-    {/* card3 */}
-    <div className="border bg-white font-[mullish] shadow-md rounded-lg p-6 border-gray-200 text-center flex flex-col items-center w-full sm:w-[48%] lg:w-[30%]">
-      <img src="./assests/home/sat.png" alt="img" className="mx-auto mb-4" />
-      <h2 className="text-xl font-semibold">
-      SAT Exam (Scholastic Assessment Test)
-      </h2>
-      <p>
-      It is a Standardised entrance test commonly taken up by 11th and 12th students to assess their aptitude for college admissions abroad.
-      </p>
-    </div>
-  </div>
-</div>
+      
 
     </div>
 
