@@ -371,7 +371,7 @@ const Page = () => {
       <div className="bg-gray-100 p-6 md:p-8 md:w-1/2">
         {submitSuccess ? (
           <div className="bg-green-50 border border-green-200 text-green-700 rounded-lg p-4 mb-6 text-center">
-            Thank you for your message! We'll connect with you shortly.
+            Thank you for your message! We`&apos;`ll connect with you shortly.
           </div>
         ) : null}
         
