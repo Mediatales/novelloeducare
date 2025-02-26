@@ -1,6 +1,7 @@
 "use client";
 import React, { useState } from "react";
 import { MapPin, Phone, Mail, Send } from "lucide-react";
+import {ChevronDown} from "lucide-react"
 
 const Page = () => {
   const indiaLocations = [
@@ -212,7 +213,7 @@ const Page = () => {
       </div>
 
       {/* Contact Form Section */}
-      <div className="py-12 md:py-20 px-4 bg-blue-100">
+      {/* <div className="py-12 md:py-20 px-4 bg-blue-100">
         <div className="max-w-3xl mx-auto">
           <h2 className="text-2xl md:text-3xl font-bold text-center mb-2">
             Connect With Us
@@ -321,7 +322,170 @@ const Page = () => {
             </form>
           </div>
         </div>
+      </div> */}
+
+      <div className="py-12 md:py-20 px-4">
+  <div className="max-w-6xl mx-auto">
+    <div className="bg-white flex flex-col md:flex-row rounded-lg overflow-hidden shadow-lg">
+      {/* Left side with heading and contact info */}
+      <div className="bg-white p-8 md:p-12 md:w-1/2">
+        <h2 className="text-2xl md:text-3xl font-bold text-black mb-6">
+          Confused About Studying Abroad? Get Expert Advice!
+        </h2>
+        
+        <div className="space-y-6 mt-8">
+          <div className="flex items-start gap-3">
+            <div className="bg-gray-100 p-3 rounded-lg">
+              <MapPin className="w-5 h-5 text-gray-600" />
+            </div>
+            <div>
+              <p className="text-sm text-gray-800">
+                516, Somdutt chambers Bhikaji cama palace new delhi - 110066
+              </p>
+            </div>
+          </div>
+          
+          <div className="flex items-start gap-3">
+            <div className="bg-gray-100 p-3 rounded-lg">
+              <Mail className="w-5 h-5 text-gray-600" />
+            </div>
+            <div className="flex flex-col">
+              <p className="text-sm text-gray-800">novelloglobeeducare@gmail.com</p>
+              <p className="text-sm text-gray-800">focusoverseasedu@gmail.com</p>
+            </div>
+          </div>
+          
+          <div className="flex items-start gap-3">
+            <div className="bg-gray-100 p-3 rounded-lg">
+              <Phone className="w-5 h-5 text-gray-600" />
+            </div>
+            <div className="flex flex-col">
+              <p className="text-sm text-gray-800">+91-9720701796</p>
+              <p className="text-sm text-gray-800">+91-7017990721</p>
+            </div>
+          </div>
+        </div>
       </div>
+      
+      {/* Right side with form */}
+      <div className="bg-gray-100 p-6 md:p-8 md:w-1/2">
+        {submitSuccess ? (
+          <div className="bg-green-50 border border-green-200 text-green-700 rounded-lg p-4 mb-6 text-center">
+            Thank you for your message! We'll connect with you shortly.
+          </div>
+        ) : null}
+        
+        <form onSubmit={handleSubmit} className="space-y-4">
+          <div>
+            <input
+              type="text"
+              id="name"
+              name="name"
+              value={formData.name}
+              onChange={handleChange}
+              className={`w-full px-4 py-3 rounded-md border ${
+                errors.name ? "border-red-500" : "border-gray-200"
+              } focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500 outline-none transition`}
+              placeholder="Name"
+            />
+            {errors.name && (
+              <p className="mt-1 text-sm text-red-600">{errors.name}</p>
+            )}
+          </div>
+
+          <div>
+            <input
+              type="tel"
+              id="phone"
+              name="phone" 
+              value={formData.phone}
+              onChange={handleChange}
+              className={`w-full px-4 py-3 rounded-md border ${
+                errors.phone ? "border-red-500" : "border-gray-200"
+              } focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500 outline-none transition`}
+              placeholder="Mobile Number"
+            />
+            {errors.phone && (
+              <p className="mt-1 text-sm text-red-600">{errors.phone}</p>
+            )}
+          </div>
+
+          <div>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              value={formData.email}
+              onChange={handleChange}
+              className={`w-full px-4 py-3 rounded-md border ${
+                errors.email ? "border-red-500" : "border-gray-200"
+              } focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500 outline-none transition`}
+              placeholder="Email"
+            />
+            {errors.email && (
+              <p className="mt-1 text-sm text-red-600">{errors.email}</p>
+            )}
+          </div>
+
+          <div className="relative">
+            <select
+              id="destination"
+              name="destination"
+              value={formData.destination || ""}
+              onChange={handleChange}
+              className="w-full px-4 py-3 rounded-md border border-gray-200 focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500 outline-none transition appearance-none"
+            >
+              <option value="" disabled>Preferred Study Destination</option>
+              <option value="USA">USA</option>
+              <option value="UK">UK</option>
+              <option value="Canada">Canada</option>
+              <option value="Australia">Australia</option>
+              <option value="Germany">Germany</option>
+              <option value="New Zealand">New Zealand</option>
+              <option value="Singapore">Singapore</option>
+              <option value="UAE">UAE</option>
+              <option value="Ukraine">Ukraine</option>
+            </select>
+            <div className="pointer-events-none absolute inset-y-0 right-0 flex items-center px-3">
+              <ChevronDown className="h-4 w-4 text-gray-500" />
+            </div>
+          </div>
+
+          <div className="relative">
+            <select
+              id="courses"
+              name="courses"
+              value={formData.courses || ""}
+              onChange={handleChange}
+              className="w-full px-4 py-3 rounded-md border border-gray-200 focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500 outline-none transition appearance-none"
+            >
+              <option value="" disabled>Preferred Courses</option>
+              <option value="Engineering">Engineering</option>
+              <option value="Medicine">Medicine</option>
+              <option value="Business">Business</option>
+              <option value="Arts">Arts</option>
+              <option value="Computer Science">Computer Science</option>
+              <option value="Law">Law</option>
+              <option value="Design">Design</option>
+              <option value="Others">Others</option>
+            </select>
+            <div className="pointer-events-none absolute inset-y-0 right-0 flex items-center px-3">
+              <ChevronDown className="h-4 w-4 text-gray-500" />
+            </div>
+          </div>
+
+          <button
+            type="submit"
+            disabled={isSubmitting}
+            className="w-full bg-indigo-600 hover:bg-indigo-700 text-white font-medium py-3 px-6 rounded-md transition duration-300 flex items-center justify-center"
+          >
+            {isSubmitting ? "Submitting..." : "Submit"}
+          </button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
 
       {/* India Locations Section */}
       <div className="py-8 md:py-16 px-4">
