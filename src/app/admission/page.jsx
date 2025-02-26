@@ -1,22 +1,25 @@
 import React from 'react';
-import { Building2, BookOpen, GraduationCap, Wallet, Plane, FileCheck } from 'lucide-react';
+import { Building2, BookOpen, GraduationCap, Wallet, Plane, FileCheck,Globe2Icon } from 'lucide-react';
 
 const services = [
-  {
-    title: 'Career Counselling',
-    icon: GraduationCap,
-    description: 'It helps individuals identify their strengths, interests, and career goals, providing expert guidance to make informed decisions about education and profession. It empowers you to choose the right path and achieve long-term success in your chosen field.'
-  },
-  {
-    title: 'Test preparation',
-    icon: BookOpen,
-    description: 'It helps individuals identify their strengths, interests, and career goals, providing expert guidance to make informed decisions about education and profession. It empowers you to choose the right path and achieve long-term success in your chosen field.'
-  },
   {
     title: 'Courses selection',
     icon: Building2,
     description: 'It helps individuals identify their strengths, interests, and career goals, providing expert guidance to make informed decisions about education and profession. It empowers you to choose the right path and achieve long-term success in your chosen field.'
   },
+
+  {
+    title: 'Country selection',
+    icon: Globe2Icon,
+    description: 'Our consultants provide comprehensive and strategic guidance for international study destinations. We analyze your academic field, budget, and career goals. We recommend optimal countries based on scholarship availability, visa policies, and cultural compatibility.'
+  },
+  {
+    title: 'University Selection',
+    icon: GraduationCap,
+    description: 'International university selection is simple with our expert advisors. We provide personalized guidance, assessing your academic profile, goals, and budget to recommend suitable universities. We shortlist universities and assist with admissions, scholarships, and visas.'
+  },
+  
+  
   {
     title: 'Loan Assistance',
     icon: Wallet,
