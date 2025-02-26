@@ -244,7 +244,7 @@ const Universities = () => {
                   <img
                     src={university.img}
                     alt={university.name}
-                    className="w-20 h-20 mx-auto mb-4"
+                    className="w-50 h-50 mx-auto mb-4"
                   />
                   <h3 className="font-bold text-lg">{university.name}</h3>
                   <p className="text-sm text-gray-500">{university.location}</p>

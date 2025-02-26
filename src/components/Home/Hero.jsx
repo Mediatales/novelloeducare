@@ -15,12 +15,12 @@ const Hero = () => {
         <img
           src="./assests/home/herobg.png"
           alt="Hero Background"
-          className="w-full h-[500px] object-cover"
+          className="w-full min-h-screen object-cover"
         />
 
         {/* Overlay Text */}
-        <div className="absolute inset-0 flex flex-col justify-center items-center text-center bg-black bg-opacity-50">
-          <h1 className="text-4xl md:text-8xl font-bold text-white mb-4">
+        <div className="absolute inset-0 flex flex-col justify-center items-center text-center bg-black bg-opacity-20">
+          <h1 className="text-2xl md:text-8xl font-bold text-white mb-4">
             Dream to Study Abroad
           </h1>
         </div>
