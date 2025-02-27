@@ -1,6 +1,7 @@
 import React from 'react'
 import Countries from "./Countries";
 import Image from 'next/image';
+import Difference from './Difference';
 const Hero = () => {
   return (
     <div>
@@ -48,6 +49,8 @@ const Hero = () => {
                 />
               </div>
             </div>
+
+            
     </div>
   )
 }

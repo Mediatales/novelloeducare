@@ -1,6 +1,7 @@
-import ServicesSection from "@/components/about/ServicesSection";
+import Service from "@/components/Focus/about/Service";
 import WhyChooseSection from "@/components/about/WhyChooseSection";
 import Image from "next/image";
+import Mission from '@/components/Focus/about/Mission'
 
 const Page = () => {
   return (
@@ -16,7 +17,7 @@ const Page = () => {
         />
         <div className="absolute inset-0 flex flex-col items-center justify-center bg-black/0">
           <h1 className="text-white text-3xl md:text-5xl font-bold text-center">
-            Discover Our Story
+            Your Trusted Partner in Global Medical Education.
           </h1>
         </div>
       </div>
@@ -25,19 +26,29 @@ const Page = () => {
       <div className="container mx-auto px-6 lg:px-20 mt-10 flex flex-col lg:flex-row items-center gap-8">
         {/* Text Content */}
         <div className="lg:w-1/2">
-          <h1 className="font-bold text-3xl md:text-5xl mb-4">About Us</h1>
-          <p className="text-lg md:text-2xl font-light leading-relaxed">
-            Studying in a foreign country allows you to immerse yourself in a new culture, language, and way of life. This not only broadens your worldview but also helps you develop a global mindset that is essential in today’s interconnected world.
+          <h1 className="font-bold text-3xl md:text-5xl mb-12 underline">
+            Welcome to Focus Overseas
+          </h1>
+          <p className="text-lg md:text-2xl font-light font-roboto leading-relaxed">
+            A Pioneer in overseas education with global tie-ups and national
+            presence, Our Company is a one stop solution for your overseas
+            education needs. We strive to bring overseas education within your
+            reach through our extensive experience of more than one decade. We
+            are one of the leading overseas service provider in universities of
+            Ukraine (Europe), Russia, Kazakhstan, Kyrgyzstan, Nepal, China and
+            Georgia as authorized foreign education consultant based at Ukraine
+            (Europe). We have helped thousands of students achieve their dreams
+            of becoming a Doctor. We provide a rich mix of services that make
+            you have a hassle free journey as well as study experience at the
+            country of your choice.{" "}
           </p>
-          <p className="text-lg md:text-2xl font-light leading-relaxed mt-4">
-            We believe that studying abroad is a life-changing experience that opens doors to endless opportunities. Here’s why studying abroad can be one of the most rewarding decisions you make:
-          </p>
+          =
         </div>
 
         {/* Image Section */}
         <div className="lg:w-1/2 flex justify-center">
           <Image
-            src="/assests/about/secimg.png"
+            src="https://res.cloudinary.com/dqggm4k7u/image/upload/v1740640654/Sec_img_h9x8sg.png"
             alt="Campus View"
             width={500}
             height={350}
@@ -46,35 +57,15 @@ const Page = () => {
         </div>
       </div>
 
-      {/* New Section: Planning to Study Internationally */}
-      <div className="container mx-auto px-6 lg:px-20 mt-16">
-        <h2 className="text-center text-3xl font-bold mb-6 border-b-4 pb-2 inline-block">
-          Planning to Study Internationally?
-        </h2>
 
-        {/* Statistics Section */}
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-6 text-center bg-gray-100 p-6 rounded-lg shadow-lg">
-          <div className="flex flex-col items-center justify-center">
-            <img src="/assests/about/school1.png"/>
-            <p className="text-2xl font-bold">10K+</p>
-            <p className="text-gray-600">Universities</p>
-          </div>
-          <div className="flex flex-col items-center justify-center">
-            <img src="/assests/about/homework1.png"/>
-            <p className="text-2xl font-bold">80K</p>
-            <p className="text-gray-600">Courses</p>
-          </div>
-          <div className="flex flex-col items-center justify-center">
-            <img src="/assests/about/globe.png"/>
-            <p className="text-2xl font-bold">80+</p>
-            <p className="text-gray-600">Countries</p>
-          </div>
-          <div className="flex flex-col items-center justify-center">
-          <img src="/assests/about/branch1.png"/>
-            <p className="text-2xl font-bold">5+</p>
-            <p className="text-gray-600">Branches</p>
-          </div>
-        </div>
+      {/* mission */}
+      <Mission/>
+
+
+      {/* Services Section */}
+
+      <div>
+        <Service/>
       </div>
 
       {/* New Section: Vision for Global Academic Excellence */}
@@ -92,20 +83,18 @@ const Page = () => {
 
         {/* Text */}
         <div className="lg:w-1/2">
-          <h2 className="text-3xl font-bold mb-4">A Vision for Global Academic Excellence</h2>
+          <h2 className="text-3xl font-bold mb-4">
+          Path to Progress
+          </h2>
           <p className="text-xl font-light leading-relaxed">
-            To empower aspiring students globally by providing access to exceptional educational opportunities, fostering academic excellence, and nurturing future leaders through innovative, inclusive, and student-centered solutions in international education.
+          Deliver exceptional service with  intergrity and accountability to become the most trusted name in  the bussiness of education counsulting & overseas education.
           </p>
         </div>
       </div>
 
-      <div>
-      <ServicesSection/>
-      </div>
+      
 
-      <div>
-      <WhyChooseSection/>
-      </div>
+      
     </div>
   );
 };
