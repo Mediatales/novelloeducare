@@ -207,7 +207,7 @@ const Page = () => {
         />
         <div className="absolute inset-0 flex flex-col items-center justify-center">
           <h1 className="text-white text-2xl md:text-4xl lg:text-6xl font-bold text-center px-4">
-            Explore Our Expanding Network of Branches
+          Get Expert Guidance for Your Global Education
           </h1>
         </div>
       </div>

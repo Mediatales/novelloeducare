@@ -4,25 +4,25 @@ const feedbacks = [
   {
     name: "Riya Sharma",
     feedback:
-      "This institute truly transformed the way I learn. The courses are well-structured, and the instructors are incredibly knowledgeable. I completed a Data Science course and landed my dream job within months!",
+      "The entire study abroad process was made so simple! From selecting the right university to visa processing, the expert guidance was invaluable. Highly recommended!",
     rating: 4.5,
   },
   {
     name: "Priya Kapoor",
     feedback:
-      "The variety of courses available is phenomenal! I was able to enhance my leadership skills and improve my career prospects with practical lessons I could apply immediately.",
+      "I was unsure about choosing the right country and university, but the support I received helped me make the perfect decision. The assistance with applications and documentation was outstanding!",
     rating: 4.5,
   },
   {
     name: "Kunal Verma",
     feedback:
-      "The certification I earned here has been a game-changer for my resume. The courses are up-to-date with industry trends, making learning both relevant and enjoyable.",
+      "I received guidance at every step, from shortlisting universities to handling my visa process smoothly. Studying in Australia felt like a dream, and they made it happen!",
     rating: 4.5,
   },
   {
     name: "Sneha Gupta",
     feedback:
-      "The community forum is my favorite part! It is amazing to connect with learners worldwide. The instructors and support team are always ready to help. I feel motivated every day.",
+      "Thanks to the expert advice and personalized support, I secured admission to my dream university in the USA. The help with scholarships and visa processing was top-notch!",
     rating: 4.8,
   },
 ];
