@@ -29,17 +29,17 @@ const Footer = () => {
 
           {/* Address Section */}
           <div className="mb-6 md:mb-0">
-            <h3 className="text-blue-800 font-semibold mb-4">Address</h3>
+            <h3 className="text-[#036847] font-semibold text-xl mb-10">Address</h3>
             <div className="text-gray-600 text-sm mb-2 flex items-start">
-              <MdLocationOn className="text-blue-800 mt-1 mr-2 flex-shrink-0" />
+              <MdLocationOn className="text-[#036847] mt-1 mr-2 flex-shrink-0" />
               <p>516, Somdutt chambers Bhikaji cama palace new delhi -110066</p>
             </div>
             <div className="text-gray-600 text-sm mb-2 flex items-center">
-              <MdPhone className="text-blue-800 mr-2 flex-shrink-0" />
+              <MdPhone className="text-[#036847] mr-2 flex-shrink-0" />
               <p>+918126532259, +917017909721</p>
             </div>
             <div className="text-gray-600 text-sm flex items-center">
-              <MdEmail className="text-blue-800 mr-2 flex-shrink-0" />
+              <MdEmail className="text-[#036847] mr-2 flex-shrink-0" />
               <div>
                 <p>novelloeducare@gmail.com</p>
                 <p>focusoverseaseu@gmail.com</p>
@@ -49,7 +49,7 @@ const Footer = () => {
           
           {/* Links Section */}
           <div className="mb-6 md:mb-0">
-            <h3 className="text-blue-800 font-semibold mb-4">Section</h3>
+            <h3 className="text-[#036847] text-xl font-semibold mb-4">Section</h3>
             <ul className="text-gray-600 text-sm">
               <li className="mb-2">
                 <Link href="/about-study-abroad" className="hover:text-blue-800">
