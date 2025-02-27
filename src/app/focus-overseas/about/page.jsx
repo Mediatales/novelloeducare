@@ -1,5 +1,5 @@
 import Service from "@/components/Focus/about/Service";
-import WhyChooseSection from "@/components/about/WhyChooseSection";
+
 import Image from "next/image";
 import Mission from '@/components/Focus/about/Mission'
 
