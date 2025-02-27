@@ -10,13 +10,13 @@ const ServicesSection = () => {
 
       {/* Services Grid */}
       <div className="container mx-auto px-6 lg:px-20">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
           {/* Career Counselling */}
           <div className="bg-gray-100 p-6 rounded-lg shadow-md flex flex-col items-center text-center">
             <FaUserGraduate className="text-4xl text-black mb-4" />
             <h3 className="text-xl font-semibold mb-2">Course selection</h3>
             <p className="text-gray-600">
-              Career counseling guides students in making informed education and career decisions
+            Our expert guidance helps you find the perfect program at top-ranked universities.
             </p>
           </div>
 
