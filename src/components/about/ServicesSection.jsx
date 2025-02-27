@@ -16,7 +16,7 @@ const ServicesSection = () => {
             <FaUserGraduate className="text-4xl text-black mb-4" />
             <h3 className="text-xl font-semibold mb-2">Course selection</h3>
             <p className="text-gray-600">
-              Career counseling guides students in making informed education and career decisions.
+              Career counseling guides students in making informed education and career decisions
             </p>
           </div>
 
@@ -25,7 +25,7 @@ const ServicesSection = () => {
             <FaPencilAlt className="text-4xl text-black mb-4" />
             <h3 className="text-xl font-semibold mb-2">Country Selection</h3>
             <p className="text-gray-600">
-              Test prep helps students succeed on standardized tests like the TOEFL and IELTS.
+            Choosing the right study abroad destination depends on your academic goals
             </p>
           </div>
 
@@ -35,7 +35,7 @@ const ServicesSection = () => {
             <FaUniversity className="text-4xl text-black mb-4" />
             <h3 className="text-xl font-semibold mb-2">University Selection</h3>
             <p className="text-gray-600">
-              Visa processing helps students navigate the application process for studying abroad.
+            Our expert advisors simplify international university selection.
             </p>
           </div>
 
@@ -44,7 +44,7 @@ const ServicesSection = () => {
             <FaGlobe className="text-4xl text-black mb-4" />
             <h3 className="text-xl font-semibold mb-2">Visa Processing</h3>
             <p className="text-gray-600">
-              Visa processing helps students navigate the application process for studying abroad.
+            Visa processing helps students navigate the application process for studying abroad.
             </p>
           </div>
         </div>
