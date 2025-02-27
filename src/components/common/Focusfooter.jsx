@@ -29,7 +29,7 @@ const Footer = () => {
 
           {/* Address Section */}
           <div className="mb-6 md:mb-0">
-            <h3 className="text-[#036847] font-semibold text-xl mb-10">Address</h3>
+            <h3 className="text-[#036847] font-semibold text-xl mb-6">Address</h3>
             <div className="text-gray-600 text-sm mb-2 flex items-start">
               <MdLocationOn className="text-[#036847] mt-1 mr-2 flex-shrink-0" />
               <p>516, Somdutt chambers Bhikaji cama palace new delhi -110066</p>
@@ -84,10 +84,10 @@ const Footer = () => {
             <Link href="https://wa.me/918126532259" className="w-8 h-8 rounded-full bg-green-500 flex items-center justify-center text-white hover:bg-green-600">
               <FaWhatsapp />
             </Link>
-            <Link href="#" className="w-8 h-8 rounded-full bg-blue-600 flex items-center justify-center text-white hover:bg-blue-700">
+            <Link href="https://www.facebook.com/FOCUSOVERSEAS.INDIA.EU/" className="w-8 h-8 rounded-full bg-blue-600 flex items-center justify-center text-white hover:bg-blue-700">
               <FaFacebookF />
             </Link>
-            <Link href="#" className="w-8 h-8 rounded-full bg-pink-600 flex items-center justify-center text-white hover:bg-pink-700">
+            <Link href="https://www.instagram.com/focus_overseas_education_/" className="w-8 h-8 rounded-full bg-pink-600 flex items-center justify-center text-white hover:bg-pink-700">
               <FaInstagram />
             </Link>
             <Link href="#" className="w-8 h-8 rounded-full bg-blue-800 flex items-center justify-center text-white hover:bg-blue-900">
