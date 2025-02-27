@@ -3,6 +3,16 @@ import Service from "@/components/focus/about/Service";
 import Image from "next/image";
 import Mission from "@/components/focus/about/Mission";
 
+
+
+const advantages = [
+  "Being customer focused",
+  "Offering excellent quality  consultancy service.",
+  "Working with integrity.",
+  "Achieving excellence in  whatever we do.",
+  "Ensuring responsible  counseling through effective  team work."
+];
+
 const Page = () => {
   return (
     <div className="mb-14">
@@ -90,7 +100,34 @@ const Page = () => {
           Deliver exceptional service with  intergrity and accountability to become the most trusted name in  the bussiness of education counsulting & overseas education.
           </p>
         </div>
+
+        
+
       </div>
+
+      {/* Ourvalues */}
+      <div className="w-[80%] mt-12 mx-auto">
+        <h2 className="text-center text-2xl md:text-3xl font-bold mb-6">
+  Our Values
+</h2>
+<div className="flex flex-col md:flex-row items-center w-full  justify-center gap-6">
+  <div className="flex flex-col gap-4 items-left w-[50%]">
+    {advantages.map((adv, index) => (
+      <div key={index} className="flex items-center  gap-4">
+        <div className="w-10 h-10 flex items-center justify-center bg-green-500 text-white text-2xl rounded-full">
+          ✔
+        </div>
+        <p className="text-lg  font-medium">{adv}</p>
+      </div>
+    ))}
+  </div>
+  <img
+    src="https://res.cloudinary.com/dqggm4k7u/image/upload/v1740648369/Sec_img_msebdb.png"
+    alt="MBBS in Uzbekistan"
+    className="w-full md:w-[50%] rounded-lg shadow-md"
+  />
+</div>
+        </div>
 
       
 
