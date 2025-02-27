@@ -26,14 +26,14 @@ const Focusnavbar = () => {
 
           {/* Desktop Navigation */}
           <div className="hidden lg:flex items-center space-x-6 justify-between ">
-            <Link href="/focus-overseas/home" className="text-gray-700 hover:text-blue-700 font-medium">
+            <Link href="/focus-overseas/home" className="text-gray-700 hover:text-green-700 font-medium">
               Home
             </Link>
-            <Link href="/focus-overseas/about" className="text-gray-700 hover:text-blue-700 font-medium">
+            <Link href="/focus-overseas/about" className="text-gray-700 hover:text-green-700 font-medium">
               About us
             </Link>
             <div className="relative group">
-              <button className="text-gray-700 hover:text-blue-700 font-medium flex items-center gap-1">
+              <button className="text-gray-700 hover:text-green-700 font-medium flex items-center gap-1">
                 Country 
                 <svg className="w-4 h-4" viewBox="0 0 20 20" fill="currentColor">
                   <path fillRule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clipRule="evenodd" />
@@ -100,25 +100,25 @@ const Focusnavbar = () => {
 
             </div>
 
-            <div className="text-gray-700 hover:text-blue-700 font-medium">
+            <div className="text-gray-700 hover:text-green-700 font-medium">
               University
             </div>
-            <Link href="/focus-overseas/admission" className="text-gray-700 hover:text-blue-700 font-medium">
+            <Link href="/focus-overseas/admission" className="text-gray-700 hover:text-green-700 font-medium">
               Admission Services
             </Link>
-            {/* <Link href="/focus-overseas/test" className="text-gray-700 hover:text-blue-700 font-medium">
+            {/* <Link href="/focus-overseas/test" className="text-gray-700 hover:text-green-700 font-medium">
               Test Preparation
             </Link> */}
-            {/* <Link href="/focus-overseas/course" className="text-gray-700 hover:text-blue-700 font-medium">
+            {/* <Link href="/focus-overseas/course" className="text-gray-700 hover:text-green-700 font-medium">
               Courses
             </Link> */}
-            {/* <Link href="/focus-overseas/branch" className="text-gray-700 hover:text-blue-700 font-medium">
+            {/* <Link href="/focus-overseas/branch" className="text-gray-700 hover:text-green-700 font-medium">
               Branches
             </Link> */}
-            <Link href="/focus-overseas/blogs" className="text-gray-700 hover:text-blue-700 font-medium">
+            <Link href="/focus-overseas/blogs" className="text-gray-700 hover:text-green-700 font-medium">
               Blogs
             </Link>
-            <Link href="/focus-overseas/contact" className="text-gray-700 hover:text-blue-700 font-medium">
+            <Link href="/focus-overseas/contact" className="text-gray-700 hover:text-green-700 font-medium">
               Contact Us
             </Link>
           </div>
@@ -135,7 +135,7 @@ const Focusnavbar = () => {
           {/* Mobile menu button */}
           <button
             onClick={toggleMenu}
-            className="lg:hidden inline-flex items-center justify-center p-2 rounded-md text-gray-700 hover:text-blue-700 hover:bg-gray-100 focus:outline-none"
+            className="lg:hidden inline-flex items-center justify-center p-2 rounded-md text-gray-700 hover:text-green-700 hover:bg-gray-100 focus:outline-none"
           >
             {isOpen ? (
               <svg className="h-6 w-6" stroke="currentColor" fill="none" viewBox="0 0 24 24">
@@ -154,12 +154,12 @@ const Focusnavbar = () => {
       <div className={`lg:hidden ${isOpen ? 'block' : 'hidden'}`}>
         <div className="px-2 pt-2 pb-3 space-y-1 bg-white shadow-lg">
           <Link href="/focus-overseas/home" 
-            className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-blue-700 hover:bg-gray-50"
+            className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-green-700 hover:bg-gray-50"
             onClick={toggleMenu}>
             Home
           </Link>
           <Link href="/focus-overseas/about" 
-            className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-blue-700 hover:bg-gray-50"
+            className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-green-700 hover:bg-gray-50"
             onClick={toggleMenu}>
             About us
           </Link>
@@ -168,7 +168,7 @@ const Focusnavbar = () => {
           <div>
             <button
               onClick={toggleStudyAbroad}
-              className="flex justify-between items-center w-full px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-blue-700 hover:bg-gray-50"
+              className="flex justify-between items-center w-full px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-green-700 hover:bg-gray-50"
             >
               Country
               <svg 
@@ -182,7 +182,7 @@ const Focusnavbar = () => {
             
             <div className={`${isStudyAbroad ? 'block' : 'hidden'} pl-4`}>
               <Link href="/focus-overseas/uzbekistan" 
-                className=" flex  py-3 gap-2 align-baseline font-medium text-gray-700 hover:text-blue-700 hover:bg-gray-50"
+                className=" flex  py-3 gap-2 align-baseline font-medium text-gray-700 hover:text-green-700 hover:bg-gray-50"
                 
                 onClick={toggleMenu}>
                 <img
@@ -193,12 +193,12 @@ const Focusnavbar = () => {
                <p className="text-gray-800 font-medium">Study in Uzbekistan</p>
               </Link>
               <Link href="/focus-overseas/uzbekistan" 
-                className="block px-3 py-2 text-base font-medium text-gray-700 hover:text-blue-700 hover:bg-gray-50"
+                className="block px-3 py-2 text-base font-medium text-gray-700 hover:text-green-700 hover:bg-gray-50"
                 onClick={toggleMenu}>
                 Canada
               </Link>
               <Link href="/uk" 
-                className="block px-3 py-2 text-base font-medium text-gray-700 hover:text-blue-700 hover:bg-gray-50"
+                className="block px-3 py-2 text-base font-medium text-gray-700 hover:text-green-700 hover:bg-gray-50"
                 onClick={toggleMenu}>
                 UK
               </Link>
@@ -206,38 +206,38 @@ const Focusnavbar = () => {
           </div>
 
           <div  
-            className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-blue-700 hover:bg-gray-50"
+            className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-green-700 hover:bg-gray-50"
             onClick={toggleMenu}>
             University
           </div>
 
           <Link href="/focus-overseas/admission" 
-            className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-blue-700 hover:bg-gray-50"
+            className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-green-700 hover:bg-gray-50"
             onClick={toggleMenu}>
             Admission Services
           </Link>
           {/* <Link href="/focus-overseas/test" 
-            className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-blue-700 hover:bg-gray-50"
+            className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-green-700 hover:bg-gray-50"
             onClick={toggleMenu}>
             Test Preparation
           </Link> */}
           {/* <Link href="/focus-overseas/course" 
-            className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-blue-700 hover:bg-gray-50"
+            className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-green-700 hover:bg-gray-50"
             onClick={toggleMenu}>
             Courses
           </Link> */}
           {/* <Link href="/focus-overseas/branch" 
-            className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-blue-700 hover:bg-gray-50"
+            className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-green-700 hover:bg-gray-50"
             onClick={toggleMenu}>
             Branches
           </Link> */}
           <Link href="/focus-overseas/blogs" 
-            className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-blue-700 hover:bg-gray-50"
+            className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-green-700 hover:bg-gray-50"
             onClick={toggleMenu}>
             Blogs
           </Link>
           <Link href="/focus-overseas/contact" 
-            className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-blue-700 hover:bg-gray-50"
+            className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-green-700 hover:bg-gray-50"
             onClick={toggleMenu}>
             Contact Us
           </Link>
@@ -246,7 +246,7 @@ const Focusnavbar = () => {
           <Link href="/" 
             className="block w-full"
             onClick={toggleMenu}>
-            <button className="w-full px-4 py-2 text-white bg-[#047550] rounded hover:bg-blue-800 font-medium">
+            <button className="w-full px-4 py-2 text-white bg-[#047550] rounded hover:bg-green-700 font-medium">
               Study in ABROAD
             </button>
           </Link>
