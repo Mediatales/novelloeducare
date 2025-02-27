@@ -1,7 +1,7 @@
-import Service from "@/components/Focus/about/Service";
-
+import React from "react";
+import Service from "@/components/focus/about/Service";
 import Image from "next/image";
-import Mission from '@/components/Focus/about/Mission'
+import Mission from "@/components/focus/about/Mission";
 
 const Page = () => {
   return (

@@ -8,7 +8,6 @@ const Service = () => {
       <div className="flex justify-center items-center mt-10 text-3xl font-bold mb-4">
         Our Services
       </div>
-
       {/* Services Grid */}
       <div className="container mx-auto px-6 lg:px-20">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
