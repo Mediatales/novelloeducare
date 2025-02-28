@@ -5,6 +5,7 @@ import Footer from "@/components/common/Footer";
 import Focusfooter from "@/components/common/Focusfooter";
 import { usePathname } from 'next/navigation'; 
 import "./globals.css";
+import ConsultationSidebar from "@/components/ConsultationSidebar";
 
 export default function RootLayout({ children }) {
   const pathname = usePathname();
@@ -25,6 +26,8 @@ export default function RootLayout({ children }) {
         ) : (
           <Footer isFocusOverseas={false} />
         )}
+
+        <ConsultationSidebar />
       </body>
     </html>
   );
