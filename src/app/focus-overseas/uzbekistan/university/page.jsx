@@ -1,6 +1,6 @@
 import React from 'react'
 
-const server = () => {
+const page = () => {
   return (
     <div>
       
@@ -8,4 +8,4 @@ const server = () => {
   )
 }
 
-export default server
+export default page
