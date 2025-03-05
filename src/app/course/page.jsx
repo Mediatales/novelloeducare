@@ -12,7 +12,7 @@ const CourseCard = ({ title, image, description, duration, career, benefits }) =
     </div>
     <div className="p-6">
       <h3 className="text-xl font-bold mb-2">{title}</h3>
-      <p className="text-gray-600 mb-4 text-sm">{description}</p>
+      <p className="text-gray-600 mb-4 text-sm">{description}</p>    
       
       <div className="space-y-2">
         <div className="flex items-start gap-2">
