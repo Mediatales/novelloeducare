@@ -1,20 +1,33 @@
 import Universities from '@/components/focus/Home/Universities';
 import Universityhero from '@/components/focus/Home/Universityhero';
-import React from 'react';
+import React, { useEffect } from 'react';
 
-const Page = () => {
+const Page = async ({ params }) => {
+  const { country } = await params;
+  const { data, setData } = useState({});
+
+  useEffect(() => {
+    fetch(`/api/country_data/${country}`)
+      .then((res) => res.json())
+      .then((data) => {
+        setCountriesFlagLink(data.data);
+      });
+  }, []);
+
+  const toggleMenu = () => {
   return (
     <div>
       {/* Hero Section */}
       <div className="relative w-full h-[350px] md:h-[450px] lg:h-[500px]">
         <img
           src="https://res.cloudinary.com/dqggm4k7u/image/upload/v1739793558/img_container_wsmqin.png"
-          alt="Study in Uzbekistan"
+          alt={`Study in ${country}`}
           className="w-full h-full object-cover"
         />
         <div className="absolute inset-0 flex flex-col items-center justify-center bg-black/40">
           <h1 className="text-white text-3xl md:text-5xl font-bold text-center">
-            Study In Uzbekistan
+            Study In {country}
+            {console.log(country)}
           </h1>
           <button className="bg-[#048259] px-4 py-2 text-white mt-3 rounded-md shadow-md hover:bg-green-700 transition">
             Contact Now
