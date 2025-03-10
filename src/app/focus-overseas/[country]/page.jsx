@@ -79,5 +79,5 @@ const Page = async ({ params }) => {
     </div>
   );
 };
-
+};
 export default Page;
