@@ -24,7 +24,7 @@ const Page = () => {
         <p className="text-justify mt-4 text-gray-700 leading-relaxed">
           Samarkand State Medical University, established in 1930 as the State
           Uzbek Medical Institute, has evolved significantly over its 90-year
-          history. Following Uzbekistan's independence in 1991, the university
+          history. Following Uzbekistan`&apos;`s independence in 1991, the university
           experienced notable growth with the implementation of various
           educational and healthcare reform programs. These initiatives led to
           the establishment of new faculties and courses, including traditional
@@ -65,9 +65,9 @@ const Page = () => {
             <br />
             <br />
             The lyceum has modern facilities and organizes events to discover
-            students' talents. Graduates become "Chemist Laboratory Technicians"
+            students`&apos;` talents. Graduates become "Chemist Laboratory Technicians"
             and have succeeded in national and international competitions. The
-            lyceum aims to keep preparing skilled graduates for Uzbekistan's
+            lyceum aims to keep preparing skilled graduates for Uzbekistan`&apos;`s
             future.
           </p>
         </div>
