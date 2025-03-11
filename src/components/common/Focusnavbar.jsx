@@ -48,25 +48,22 @@ const Focusnavbar = () => {
                   <path fillRule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clipRule="evenodd" />
                 </svg>
               </button>
-              <div className="absolute hidden group-hover:block w-56 py-2 mt-2 bg-white rounded-md shadow-xl">
-                {
-                  countriesFlagLink.map(({country, flag_link}, idx) => (
-                    <Link key={idx} href={`/focus-overseas/${country}`}>
-                      <div className="flex items-center gap-3 mt-2 px-4 py-2 transition-all duration-200 bg-[#E6F3EE] hover:bg-[#d4e9de] rounded-md cursor-pointer">
-                        <img
-                          src={flag_link}
-                          alt={`${country} Flag`}
-                          className="w-8 h-8"
-                        />
-                        <p className="text-gray-800 font-medium">Study in {country}</p>
-                      </div>
-                    </Link>
-                  ))
-                }
-
+              <div className="absolute hidden group-hover:block w-56 py-2 mt-2 bg-white rounded-md shadow-xl z-10">
+                {countriesFlagLink.map(({ country, flag_link }, idx) => (
+                  <Link key={idx} href={`/focus-overseas/${country}`}>
+                    <div className="flex items-center gap-3 mt-2 px-4 py-2 transition-all duration-200 bg-[#E6F3EE] hover:bg-[#d4e9de] rounded-md cursor-pointer">
+                      <img
+                        src={flag_link}
+                        alt={`${country} Flag`}
+                        className="w-8 h-8"
+                      />
+                      <p className="text-gray-800 font-medium">Study in {country}</p>
+                    </div>
+                  </Link>
+                ))}
               </div>
-
             </div>
+
 
             <div className="text-gray-700 hover:text-green-700 font-medium">
               University
