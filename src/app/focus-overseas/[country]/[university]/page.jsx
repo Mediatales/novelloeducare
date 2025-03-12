@@ -125,8 +125,8 @@ const Page = () => {
           {
             universityData?.affilationRecognition.map((affi,index)=>{
               return (
-                <div className="p-6 border rounded-lg shadow-lg text-center">
-                <p className="text-lg font-medium" key={index}>{affi}</p>
+                <div key={index} className="p-6 border rounded-lg shadow-lg text-center">
+                <p className="text-lg font-medium" >{affi}</p>
               </div>
               )
             })
