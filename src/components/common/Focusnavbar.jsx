@@ -6,13 +6,28 @@ const Focusnavbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [isStudyAbroad, setIsStudyAbroad] = useState(false);
   const [countriesFlagLink, setCountriesFlagLink] = useState([]);
+  const [isLoading, setIsLoading] = useState(true);
+  const [error, setError] = useState(null);
 
   useEffect(() => {
-    fetch('/api/countries_list/')
-      .then((res) => res.json())
-      .then((data) => {
+    const fetchCountries = async () => {
+      try {
+        setIsLoading(true);
+        const res = await fetch('/api/countries_list');
+        if (!res.ok) {
+          throw new Error('Failed to fetch countries');
+        }
+        const data = await res.json();
         setCountriesFlagLink(data.data);
-      });
+      } catch (err) {
+        console.error('Error fetching countries:', err);
+        setError(err.message);
+      } finally {
+        setIsLoading(false);
+      }
+    };
+
+    fetchCountries();
   }, []);
 
   const toggleMenu = () => {
@@ -49,18 +64,24 @@ const Focusnavbar = () => {
                 </svg>
               </button>
               <div className="absolute hidden group-hover:block w-56 py-2 mt-2 bg-white rounded-md shadow-xl z-10">
-                {countriesFlagLink.map(({ country, flag_link }, idx) => (
-                  <Link key={idx} href={`/focus-overseas/${country}`}>
-                    <div className="flex items-center gap-3 mt-2 px-4 py-2 transition-all duration-200 bg-[#E6F3EE] hover:bg-[#d4e9de] rounded-md cursor-pointer">
-                      <img
-                        src={flag_link}
-                        alt={`${country} Flag`}
-                        className="w-8 h-8"
-                      />
-                      <p className="text-gray-800 font-medium">Study in {country}</p>
-                    </div>
-                  </Link>
-                ))}
+                {isLoading ? (
+                  <div className="px-4 py-2">Loading...</div>
+                ) : error ? (
+                  <div className="px-4 py-2 text-red-500">{error}</div>
+                ) : (
+                  countriesFlagLink.map(({ country, flag_link }, idx) => (
+                    <Link key={idx} href={`/focus-overseas/${country}`}>
+                      <div className="flex items-center gap-3 mt-2 px-4 py-2 transition-all duration-200 bg-[#E6F3EE] hover:bg-[#d4e9de] rounded-md cursor-pointer">
+                        <img
+                          src={flag_link}
+                          alt={`${country} Flag`}
+                          className="w-8 h-8"
+                        />
+                        <p className="text-gray-800 font-medium">Study in {country}</p>
+                      </div>
+                    </Link>
+                  ))
+                )}
               </div>
             </div>
 
