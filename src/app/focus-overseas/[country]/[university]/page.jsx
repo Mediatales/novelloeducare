@@ -118,7 +118,7 @@ const Page = () => {
       </div>
 
       <div className="py-10 px-5">
-        <h2 className="text-center text-2xl font-semibold mb-6">
+        <h2 className="text-center text-2xl font-semibold mb-5">
           Affiliation and Recognition
         </h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
