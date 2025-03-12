@@ -25,12 +25,12 @@ const Universities = ({countryData}) => {
                 <h3 className="text-lg font-semibold text-gray-900">
                   {university.name}
                 </h3>
-                <ul className="mt-3 text-sm text-gray-700 space-y-2">
+                {/* <ul className="mt-3 text-sm text-gray-700 space-y-2">
                   <li>✅ English-Medium Education</li>
                   <li>✅ Globally Recognized Degree and FMGE/NExT Preparation</li>
                   <li>✅ Affordable Tuition and Living Costs</li>
                   <li>✅ +5k Indian Students</li>
-                </ul>
+                </ul> */}
               </div>
             </div>
           </Link>

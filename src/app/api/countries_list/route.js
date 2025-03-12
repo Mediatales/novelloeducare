@@ -42,8 +42,8 @@ export async function GET() {
 
       },
       {
-        country: 'albekistan',
-        flag_link: 'https://res.cloudinary.com/dqggm4k7u/image/upload/v1739792761/o4dr7q3ihsoh9ccgkxz6.png'
+        country: 'russia',
+        flag_link: 'https://res.cloudinary.com/dqggm4k7u/image/upload/v1741757438/Russia_logo_gwfmaw.png'
       },
 
     ];
