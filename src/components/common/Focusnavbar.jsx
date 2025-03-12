@@ -178,16 +178,7 @@ const Focusnavbar = () => {
                 />
                 <p className="text-gray-800 font-medium">Study in Uzbekistan</p>
               </Link>
-              <Link href="/focus-overseas/uzbekistan"
-                className="block px-3 py-2 text-base font-medium text-gray-700 hover:text-green-700 hover:bg-gray-50"
-                onClick={toggleMenu}>
-                Canada
-              </Link>
-              <Link href="/uk"
-                className="block px-3 py-2 text-base font-medium text-gray-700 hover:text-green-700 hover:bg-gray-50"
-                onClick={toggleMenu}>
-                UK
-              </Link>
+              
             </div>
           </div>
 
