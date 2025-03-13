@@ -52,7 +52,7 @@ const Page = () => {
       <div className="relative w-full h-[350px] md:h-[450px] lg:h-[500px]">
         <img
           src={countryData.mainImg}
-          alt={`Study in ${countryData.country}`}
+          alt={`MBBS in ${countryData.country}`}
           className="w-full h-full object-cover"
         />
         <div className="absolute inset-0 flex flex-col items-center justify-center bg-black/40">
