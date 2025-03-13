@@ -57,7 +57,7 @@ const Page = () => {
         />
         <div className="absolute inset-0 flex flex-col items-center justify-center bg-black/40">
           <h1 className="text-white text-3xl md:text-5xl font-bold text-center">
-            Study In {countryData.country}
+          MBBS In {countryData.country}
           </h1>
           <Link href = "/focus-overseas/contact"><button className="bg-[#048259] px-4 py-2 text-white mt-3 rounded-md shadow-md hover:bg-green-700 transition">
             Contact Now
