@@ -78,7 +78,7 @@ const Page = () => {
       <div className="flex flex-col-reverse lg:flex-row items-center mx-auto mt-10 w-[90%] md:w-[80%] gap-8">
         <div className="lg:w-1/2">
           <h1 className="text-2xl font-semibold">Academic</h1>
-          {universityData.academic.map((paragraph, index) => (
+          {universityData?.academic?.map((paragraph, index) => (
             <p key={index} className="text-justify mt-4 text-gray-700 leading-relaxed">
               {paragraph}
             </p>
@@ -86,7 +86,7 @@ const Page = () => {
         </div>
         <div className="lg:w-1/2">
           <img
-            src="https://res.cloudinary.com/dqggm4k7u/image/upload/v1741069956/Sec_img_dck6h5.png"
+            src={universityData?.academicImg}
             alt="Academic Lyceum"
             className="w-full h-auto rounded-lg shadow-lg"
           />
@@ -97,7 +97,7 @@ const Page = () => {
         <div className="bg-green-100 mx-auto mt-4 p-6 w-[90%] md:w-[80%] flex flex-col lg:flex-row items-center gap-8 rounded-lg shadow-lg">
          
           <div className="grid grid-cols-1 md:grid-cols-2 gap-x-16 gap-y-3 w-full lg:w-2/3">
-            {universityData?.faculties.map((faculty, index) => (
+            {universityData?.faculties?.map((faculty, index) => (
               <div key={index} className="flex items-center gap-2 text-lg text-gray-800">
                 <FaCheckCircle className="text-green-600" />
                 {faculty}
