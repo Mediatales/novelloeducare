@@ -77,7 +77,7 @@ const Focusnavbar = () => {
                           alt={`${country} Flag`}
                           className="w-8 h-8"
                         />
-                        <p className="text-gray-800 font-medium">Study in {country}</p>
+                        <p className="text-gray-800 font-medium">MBBS in {country}</p>
                       </div>
                     </Link>
                   ))
@@ -176,7 +176,7 @@ const Focusnavbar = () => {
                   alt="Uzbekistan Flag"
                   className="w-4 h-4"
                 />
-                <p className="text-gray-800 font-medium">Study in Uzbekistan</p>
+                <p className="text-gray-800 font-medium">MBBS in Uzbekistan</p>
               </Link>
               
             </div>
