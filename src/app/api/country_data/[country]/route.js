@@ -148,7 +148,7 @@ export async function GET(request, { params }) {
 
 
             {
-                country: 'russia',
+                country: 'Russia',
                 flag_link: 'https://res.cloudinary.com/dqggm4k7u/image/upload/v1741757438/Russia_logo_gwfmaw.png',
                 mainImg: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741756592/mbbs_in_russia_2_qtrur5.jpg",
                 overviewText: "Studying MBBS in Russia is a popular choice for Indian students because of its quality education, modern facilities, and affordable costs. Russian medical universities are recognized worldwide by organizations like the World Health Organization (WHO) and the National Medical Commission (NMC) of India. This means that students who graduate from these universities are qualified to practice medicine globally. ",
@@ -161,6 +161,7 @@ export async function GET(request, { params }) {
                         slug: "north-western-state-medical-university",
                         country : "russia",
                         overview : ["North-Western State Medical University named after I.I. Mechnikov (NWSMU) was founded on October 12, 2011 as a result of the merger of the two oldest educational medical institutions in Russia - St. Petersburg Medical Academy of Postgraduate Education and St. Petersburg State Medical Academy named after Mechnikov.The founder of the University is the Ministry of Health of the Russian Federation.The activity of the University is based on close cooperation and coordination of educational, clinical and research activities - this allows training competent specialists who have modern knowledge and are able to apply it in practice."],
+                        academic : ["North-Western State Medical University (NWSMU) in St. Petersburg, Russia offers undergraduate, graduate, and postgraduate degrees in medicine, dentistry, pharmacy, nursing, and other medical and healthcare-related areas. The university is known for its high-quality education and innovative research. Teaching staff Practical physicians, Academicians of the Russian Academy of Sciences, Honored doctors of Russia, Candidates of medical sciences, and Doctors of medical sciences"],
                         academicImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1739793855/img_bg_sybjt5.png",
                         faculties : [
                             "Medical Faculty",
@@ -172,36 +173,63 @@ export async function GET(request, { params }) {
                     },
 
                     {
-                        name: "North-Western State Medical University",
-                        image: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741758303/russia_university_1_suz32t.jpg",
-                        slug: "north-western-state-medical-university",
+                        name: "Saint Petersburg State Pediatric Medical University",
+                        image: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741774047/Russia_university_2_je0ada.png",
+                        slug: "saint-petersburg-state-pediatric-medical-university",
                         country : "russia",
-                        overview : ["North-Western State Medical University named after I.I. Mechnikov (NWSMU) was founded on October 12, 2011 as a result of the merger of the two oldest educational medical institutions in Russia - St. Petersburg Medical Academy of Postgraduate Education and St. Petersburg State Medical Academy named after Mechnikov.The founder of the University is the Ministry of Health of the Russian Federation.The activity of the University is based on close cooperation and coordination of educational, clinical and research activities - this allows training competent specialists who have modern knowledge and are able to apply it in practice."],
-                        academicImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1739793855/img_bg_sybjt5.png",
+                        overview : ["Saint-Petersburg State Pediatric Medical University was founded in 1925 as Academic and Research Institute of Maternal health and childhood protection on the hospital basement on 7th of January in 1925. For many decades, the University is an international center of higher medical education. Over the past half-century it graduated several thousand of foreign students from 70 countries from 4 continents. Currently, University is opened for students from over 50 countries. In University may be taken person of either sex, nation and race, regardless of political or religious beliefs of any state that has diplomatic relations with the Russian Federation. Our students and lecturers are laureates and prizewinners of rather international and Russian contests. Every year our students take part in competitions of scientific works for St. Petersburg Government grants and have a success. Students have a practice in our hospital (one of the biggest in Russia) from first days in university. They learn from practitioners who work in our clinic."],
+                        academic : ["Saint Petersburg State Pediatric Medical University (SPbSPMU) is a medical university located in St. Petersburg, Russia. It is the oldest pediatric higher education institution in the world. SPbSPMU has a state license and accreditation to provide training in English language, medicine according to the state standards"],
+                        academicImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741773931/russia_university_2_academic_pic_gudu5w.jpg",
                         faculties : [
-                            "Medical Faculty",
-                            "Faculty of Medical Pedagogy",
-                            "Faculty of Higher Nursing"
+                            "Faculty of Pediatrics",
+                            "Faculty of General Medicine",
+                            "Faculty of Clinical Psychology",
+                            "Faculty of Dentistry",
+                            "Faculty of Post Graduate & Additional Professional Education",
                         ],
                         facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1739793855/img_bg_sybjt5.png",
-                        affilationRecognition : ["World Health Organization (WHO)","Medical Council of India (MCI)","Russian Ministry of Health","National Medical Commission of India (NMC)"],
+                        affilationRecognition : ["Post Graduate & Additional Professional Education","General Medical Council (GMC)","National Medical Commission of India (NMC)","World Health Organization (WHO)"],
                     },
 
                     {
-                        name: "North-Western State Medical University",
-                        image: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741758303/russia_university_1_suz32t.jpg",
-                        slug: "north-western-state-medical-university",
+                        name: "Ivanovo State Medical University",
+                        image: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741774367/Russia_university_3_academic_pic_tllnxr.webp",
+                        slug: "ivanovo-state-medical-university",
                         country : "russia",
-                        overview : ["North-Western State Medical University named after I.I. Mechnikov (NWSMU) was founded on October 12, 2011 as a result of the merger of the two oldest educational medical institutions in Russia - St. Petersburg Medical Academy of Postgraduate Education and St. Petersburg State Medical Academy named after Mechnikov.The founder of the University is the Ministry of Health of the Russian Federation.The activity of the University is based on close cooperation and coordination of educational, clinical and research activities - this allows training competent specialists who have modern knowledge and are able to apply it in practice."],
-                        academicImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1739793855/img_bg_sybjt5.png",
+                        overview : ["Ivanovo State Medical University was established in 1930. From that time to nowadays the University trained more than 25000 doctors. Now almost 3000 students are trained at the University. The teaching staff of the University includes more than 400 instructors, among them 70 Doctors of Science and more than 270 Candidates of Science. The university emerges to be the best top universities in Russia for furnishing high-quality education to the students in the arena of Medicine. The medical education strategy proposed by the University is authorized by the Ministry of Education and Science of Russia."],
+                        academic : ["IvSU offers 23 Bachelor's degree programs, 17 Master's degree programs, ten PhD programs, and a specialist's degree in fundamental and applied chemistry. A wide range of opportunities for developing their creative abilities and enriching their cultural knowledge."],
+                        academicImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741773931/russia_university_2_academic_pic_gudu5w.jpg",
                         faculties : [
-                            "Medical Faculty",
-                            "Faculty of Medical Pedagogy",
-                            "Faculty of Higher Nursing"
+                            "Faculty of Nursing Management",
+                            "Faculty of General Medicine",
+                            "Faculty of Clinical Psychology",
+                            "Faculty of Postgraduates in specialties",
+                            "Faculty of Pathological Anatomy",
                         ],
                         facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1739793855/img_bg_sybjt5.png",
-                        affilationRecognition : ["World Health Organization (WHO)","Medical Council of India (MCI)","Russian Ministry of Health","National Medical Commission of India (NMC)"],
+                        affilationRecognition : ["Ministry of Education, Science, Culture and Sport of the Republic of Russia","Quality Assurance (ANQA)","National Medical Commission of India (NMC)","World Health Organization (WHO)"],
                     },
+                    
+                    {
+                        name: "Tver State Medical University",
+                        image: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741774108/russia_university_6_r8rekd.jpg",
+                        slug: "tver-state-medical-university",
+                        country : "russia",
+                        overview : ["Tver State Medical University established in 1902 holds a prominent position in Russia offering Best study equipment and rich diversified culture that are crucial for success. From a pioneering dental institute established in 1902 to a leading medical institution in Russia, Tver State Medical College boasts a rich legacy of shaping the future of healthcare. Tver State Medical University stands as a testament to the rich legacy of medical education in Russia, proudly upholding its position as one of the oldest and most esteemed medical universities in Russia."],
+                        academic : ["Tver State Medical University is considered as one of the best education institutes for MBBS in Russia. Tver State Medical University is usually among the top ten medical educational establishments according to the annual official rating of the 48 Russian Medical Educational Institutions.Academic programs"],
+                        academicImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741774134/russia_university_6_academic_pic_ds6xuj.webp",
+                        faculties : [
+                            "Faculty of Dental Medicine.",
+                            "Faculty of General Medicine",
+                            "Faculty of Pharmacy",
+                            "Faculty of Pediatrics",
+                            "Faculty of Postgraduate Studies",
+                        ],
+                        facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1739793855/img_bg_sybjt5.png",
+                        affilationRecognition : ["Education Commission for Foreign Medical Graduates (ECFMG)","FAIMER","National Medical Commission of India (NMC)","World Health Organization (WHO)"],
+                    },
+
+
                 ],
                 eligibilityPoints: [
                     {
@@ -238,14 +266,143 @@ export async function GET(request, { params }) {
                         title: "Extensive Practical Exposure",
                         description: "Russian medical universities provide ample opportunities for hands-on clinical practice in well-equipped hospitals, preparing students for real-world medical scenarios. "
                     },
+
+                    
                 ],
                 advantages: ["Low cost of education", "Best Place" ,"Globally Recognized Degrees" ,"Scholarship Opportunities"],
                 advantageImg: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1739825183/img_nbxth7.png",
-         },
+            },
+        
+
+            //kyrgyztan
+            {
+                country: 'Kyrgyzstan',
+                flag_link: 'https://res.cloudinary.com/dqggm4k7u/image/upload/v1741854591/Kyrgyzstan_logo_dhosw2.png',
+                mainImg: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741854634/Mbbs_in_Kyrgyzstan_pic_awazh3.jpg",
+                overviewText: "Kyrgyzstan offers a compelling combination of factors for those seeking a unique and affordable lifestyle. The country boasts a remarkably low cost of living, making it an attractive option for budget-conscious individuals and families. Kyrgyzstan has become an increasingly popular choice for international students, particularly those from India, seeking to pursue an MBBS degree. Several factors contribute to this growing interest, making Kyrgyzstan an attractive option for medical education abroad. One of the primary reasons is the affordability of tuition fees in Kyrgyz medical universities. Compared to many other countries offering MBBS programs, Kyrgyzstan provides a cost-effective alternative, allowing students to pursue their medical aspirations without incurring excessive financial burdens.",
+                overviewImg: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741854602/Mbbs_in_Kyrgyzstan_overview_pic_o06k77.jpg",
+                quickFacts: ["Bishkek", "30%", "Kyrgyzstani som", "Approx. 71 lakhs"],
+                univeristes: [
+                    {
+                        name: "Asian Medical Institute",
+                        image: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741854620/Kyrgyzstan_mbbs_university_1_n5hxtq.jpg",
+                        slug: "asian-medical-institute",
+                        country : "kyrgyzstan ",
+                        overview : ["The Asian Medical Institute (ASMI), located in Kant, Kyrgyzstan, has emerged as a leading medical institution, attracting students from around the globe who aspire to pursue careers in healthcare. It offers a range of medical programs. ASMI has gained recognition for its commitment to providing high-quality education at affordable tuition fees, making it an attractive option for students seeking a cost-effective medical education abroad. ASMI's faculty comprises experienced professionals and scholars who are passionate about teaching and mentoring the next generation of medical practitioners. The university also provides students with access to modern facilities, well-equipped laboratories, and a comprehensive library, ensuring they have the resources they need to excel in their studies."],
+                        academic : ["The Asian Medical Institute (ASMI), located in Kant, Kyrgyzstan, has emerged as a leading medical institution, attracting students from around the globe who aspire to pursue careers in healthcare. It offers a range of medical programs. ASMI has gained recognition for its commitment to providing high-quality education at affordable tuition fees, making it an attractive option for students seeking a cost-effective medical education abroad. The university's dedication to academic excellence is reflected in its curriculum, which is designed to meet international standards and equip students with the knowledge and skills necessary to succeed in the medical profession."],
+                        academicImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741854613/Kyrgyzstan_mbbs_university_1_academic_pic_iorlud.jpg",
+                        faculties : [
+                            "Department of Dentistry",
+                            "Department of General Medicine",
+                            "Department of Nursing",
+                            "Department of Obstetrics",
+                            "Department of Paediatrics",
+                            "Department of Psychiatry",
+                        ],
+                        facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1739793855/img_bg_sybjt5.png",
+                        affilationRecognition : ["World Health Organization (WHO)","Medical Council of India (MCI)","Foundation for the Advancement of Education and International Medical Research (FAIMER)","National Medical Commission of India (NMC)"],
+                    },
+                
+                      {
+                        name: "OSH State Medical University",
+                        image: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741854652/Kyrgyzstan_mbbs_university_2_tce3f1.jpg",
+                        slug: "osh-state-medical-university",
+                        country : "kyrgyzstan",
+                        overview : ["Osh State Medical University, a prominent institution in Kyrgyzstan, has a long-standing tradition of welcoming and training international students, dating back to 1993. Over the years, the International Medical Faculty at Osh State University has fostered a diverse and vibrant academic community, attracting students from over twenty countries across the globe. This rich tapestry of cultures creates a unique and enriching learning environment for all students. Currently, Osh State Medical University boasts a student body of over 3,500, with more than a thousand international students representing countries such as India, Pakistan, Nepal, Palestine, Syria, Turkey"],
+                        academic : ["Osh State Medical University, a prominent institution in Kyrgyzstan, offers a comprehensive range of medical education programs, catering to aspiring healthcare professionals at various stages of their academic journeys. The university provides undergraduate programs, including the MBBS (Bachelor of Medicine, Bachelor of Surgery) degree, which forms the foundation for a career in medicine. In addition to the MBBS program, Osh State Medical University also offers MD (Doctor of Medicine) and BDS (Bachelor of Dental Surgery) programs, providing students with diverse pathways to specialize in their chosen fields within the healthcare sector. These undergraduate programs are designed to provide students with a strong foundation in basic medical sciences, clinical skills, and ethical principles, preparing them for the challenges and rewards of a medical career."],
+                        academicImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741855648/Kyrgyzstan_mbbs_university_2_academic_pic_d3fw2c.jpg",
+                        faculties : [
+                            "Department of Anatomy",
+                            "Department of Biochemistry",
+                            "Department of Community Medicine",
+                            "Department of Forensic Medicine",
+                            "Department of Microbiology",
+                        ],
+                        facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1739793855/img_bg_sybjt5.png",
+                        affilationRecognition : ["World Directory of Medical Schools (WDOMS)","National Medical Commission of India (NMC)","World Health Organization (WHO)","Affiliated with the International Medical Education Directory (IMED)"],
+                    },
+                
+                     {
+                        name: "International School of Medicine (ISM)",
+                        image: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741854694/Kyrgyzstan_mbbs_university_3_xhfwx8.png",
+                        slug: "international-school-of-medicine",
+                        country : "kyrgyzstan",
+                        overview : ["The International School of Medicine (ISM) in Bishkek, Kyrgyzstan, stands as a prominent private medical university, offering a wide array of programs, including undergraduate, postgraduate, and doctoral degrees in various medical specialties. This diverse offering allows aspiring medical professionals to pursue their educational goals at different stages of their careers, from initial medical training to advanced specialization and research. ISM has earned a strong reputation for its commitment to academic excellence, attracting students from around the world who seek a high-quality medical education."],
+                        academic : ["The academic structure at the International School of Medicine (ISM) in Bishkek, Kyrgyzstan, is designed to provide students with a comprehensive and well-rounded medical education, combining a strong foundation in theoretical knowledge with essential practical skills. The program spans a total of six years, beginning with five years of intensive theoretical study. During this phase, students delve into the core principles of medical science, covering a wide range of subjects, from anatomy and physiology to pharmacology and pathology. The curriculum is designed to provide students with a deep understanding of the human body, disease processes, and treatment modalities, laying the groundwork for their future clinical practice."],
+                        academicImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741857500/Kyrgyzstan_mbbs_university_4_academic_plhcd3.webp",
+                        faculties : [
+                            "Department of Humanitarian Disciplines",
+                            "Department of Nursing",
+                            "Department of Internal Medicine",
+                            "Department of Surgery",
+                            "Department of Public Health",
+                        ],
+                        facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1739793855/img_bg_sybjt5.png",
+                        affilationRecognition : ["MCI (Medical Council of India)","World Health Organization (WHO)","National Medical Commission of India (NMC)","World Health Organization (WHO)"],
+                    },
+                
+                      {
+                        name: "Kyrgyz State Medical University",
+                        image: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741854706/Kyrgyzstan_mbbs_university_4_bclzvu.webp",
+                        slug: "kyrgyz-state-medical-university",
+                        country : "kyrgyzstan",
+                        overview : ["Kyrgyz State Medical Academy (KSMA), a leading government university located in Bishkek, Kyrgyzstan, has established itself as a leading center for medical education in the region. With a rich history and a commitment to academic excellence, KSMA attracts students from around the world, particularly those seeking a high-quality medical education at an affordable cost. To become a leading center of medical education and science in the Asian region, a medical institution must cultivate a multifaceted approach encompassing academic excellence, research innovation, and community engagement. This vision necessitates a commitment to attracting and retaining top-tier faculty, fostering a stimulating learning environment, and providing students with access to cutting-edge resources and technology."],
+                        academic : ["Kyrgyz State Medical Academy (KSMA) in Bishkek, Kyrgyzstan, stands as a leading institution in medical education, offering a comprehensive range of programs for aspiring healthcare professionals. These programs span all levels of study, from undergraduate to postgraduate and doctoral degrees, providing students with a clear pathway to advance their medical careers. KSMA's commitment to academic excellence has earned it global recognition. The university is considered a top medical institution in Kyrgyzstan and is recognized by prestigious international organizations such as the World Health Organization, ensuring that its degrees are respected and valued worldwide. This international recognition opens doors for graduates to pursue professional opportunities in various countries, expanding their career horizons."],
+                        academicImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741854698/Kyrgyzstan_mbbs_university_3_academic_jc78kg.jpg",
+                        faculties : [
+                            "Department of Clinical Pharmacology",
+                            "Department of Biochemistry",
+                            "Department of Clinical Epidemiology",
+                            "Department of Medicine and Nursing",
+                            "Department of General Medicine",
+                        ],
+                        facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1739793855/img_bg_sybjt5.png",
+                        affilationRecognition : ["Medical Council of India (MCI)","FAIMER","National Medical Commission of India (NMC)","World Health Organization (WHO)"],
+                    },
+                ],
+
+
+                eligibilityPoints: [
+                    {
+                        title: "Education",
+                        description: "You must have completed 10+2 from a recognized board of education "
+                    },
+                    {
+                        title: "Age Requirement",
+                        description: "Minimum 17 years old at the time of admission"
+                    },
+                    {
+                        title: "Subjects",
+                        description: "You must have studied Physics, Chemistry, and Biology in 10+2"
+                    },
+                    {
+                        title: "Score",
+                        description: "50% aggregate for general category, 40% for reserved category."
+                    },
+                ],
+                mbbsBenefits: [
+                    {
+                        title: "English Medium Instruction",
+                        description: "All medical programs are taught in English, eliminating language barriers for Indian students."
+                    },
+                    {
+                        title: "Globally Recognized Degree",
+                        description: "Medical degrees from Kyrgyzstan are recognized by the World Health Organization (WHO), National Medical Commission (NMC) in India, and other."
+                    },
+		    {
+                        title: "No Entrance Exams",
+                        description:  "Admission to medical universities in Kyrgyzstan is usually based on merit without requiring any additional entrance exams."
+                    },
+		    {
+                        title: "Quality Medical Education",
+                        description: "Kyrgyz medical universities focus on providing a comprehensive curriculum with strong emphasis on practical training and clinical exposure."
+                    },
+                ],
+                advantages: ["Quality Education", "No Donation Required" ,"Globally Recognized Degrees" ,"International Exposure"],
+                advantageImg: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741854678/Mbbs_in_kyrgyzstan_university_pic_vrbz7l.jpg",
+            },
          
-
-
-            
+         
         ];
 
         const countryData = countries.find(c => c.country.toLowerCase() === country.toLowerCase());
