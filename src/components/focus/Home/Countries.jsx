@@ -14,6 +14,12 @@ const Mbbsabroad = () => {
     '../assests/focus/country2.png',
     '../assests/focus/country3.png',
     '../assests/focus/country4.png',
+    "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742196835/Mbbs_6_i5qoaj.png",
+    "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742196835/Mbbs_4_lq1dhm.png",
+    "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742196835/Mbbs_8_nnn7l6.png",
+    "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742196835/Mbbs_7_nsa1av.png",
+    "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742196835/Mbbs_3_a5g34t.png",
+    "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742196835/Mbbs_5_bgy7ks.png",
     // './assests/mbbs/mbbs5.png',
   
     // './assests/mbbs/mbbs5.png', // Add more dynamically as needed
