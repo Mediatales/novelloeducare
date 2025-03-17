@@ -18,7 +18,7 @@ const ConsultationSidebar = () => {
     <>
       {/* Sidebar Button */}
       <div
-        className="fixed right-0 top-1/3 bg-blue-700 text-white px-4 py-6 rotate-[-90deg] origin-top-right cursor-pointer rounded-t-lg z-50"
+        className="fixed right-0 top-1/3 bg-blue-700 text-white px-3 py-4 rotate-[-90deg] origin-top-right cursor-pointer rounded-t-lg z-50"
         onClick={() => setOpen(true)}
         style={{ transform: "rotate(-90deg) translateY(-100%)" }}
       >
