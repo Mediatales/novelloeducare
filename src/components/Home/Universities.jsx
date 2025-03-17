@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from "react";
-import { ChevronLeft, ChevronRight, Images } from "lucide-react";
+import { ChevronLeft, ChevronRight } from "lucide-react";
 
 const Universities = () => {
   const universities = [
@@ -160,22 +160,25 @@ const Universities = () => {
       name: "Curtin University",
       location: "Dubai",
     },
-
   ];
 
   const [visibleItems, setVisibleItems] = useState(4);
-  const [currentIndex, setCurrentIndex] = useState(0);
-  const [isTransitioning, setIsTransitioning] = useState(false);
+  const [currentIndex, setCurrentIndex] = useState(visibleItems);
   const carouselRef = useRef(null);
+  const clonedUniversities = [
+    ...universities.slice(-visibleItems),
+    ...universities,
+    ...universities.slice(0, visibleItems),
+  ];
 
   useEffect(() => {
     const updateVisibleItems = () => {
       if (window.innerWidth >= 1024) {
-        setVisibleItems(4); // lg screens
+        setVisibleItems(4);
       } else if (window.innerWidth >= 768) {
-        setVisibleItems(2); // md screens
+        setVisibleItems(2);
       } else {
-        setVisibleItems(1); // mobile
+        setVisibleItems(1);
       }
     };
 
@@ -184,40 +187,27 @@ const Universities = () => {
     return () => window.removeEventListener("resize", updateVisibleItems);
   }, []);
 
-  const clonedUniversities = [
-    ...universities.slice(-visibleItems),
-    ...universities,
-    ...universities.slice(0, visibleItems),
-  ];
+  useEffect(() => {
+    const handleTransitionEnd = () => {
+      if (currentIndex >= universities.length + visibleItems) {
+        carouselRef.current.style.transition = "none";
+        setCurrentIndex(visibleItems);
+      } else if (currentIndex <= 0) {
+        carouselRef.current.style.transition = "none";
+        setCurrentIndex(universities.length);
+      }
+      setTimeout(() => {
+        carouselRef.current.style.transition = "transform 0.5s ease-in-out";
+      });
+    };
+  
+    const carousel = carouselRef.current;
+    carousel.addEventListener("transitionend", handleTransitionEnd);
+    return () => carousel.removeEventListener("transitionend", handleTransitionEnd);
+  }, [currentIndex, visibleItems, universities.length]);
 
   const handleSlideChange = (direction) => {
-    if (isTransitioning) return;
-    
-    setIsTransitioning(true);
-    const totalItems = universities.length;
-    
-    if (direction === 'next') {
-      setCurrentIndex(prev => prev + 1);
-    } else {
-      setCurrentIndex(prev => prev - 1);
-    }
-
-    setTimeout(() => {
-      setIsTransitioning(false);
-      if (direction === 'next' && currentIndex >= totalItems - 1) {
-        carouselRef.current.style.transition = 'none';
-        setCurrentIndex(0);
-        setTimeout(() => {
-          carouselRef.current.style.transition = 'transform 0.3s ease-in-out';
-        }, 50);
-      } else if (direction === 'prev' && currentIndex <= 0) {
-        carouselRef.current.style.transition = 'none';
-        setCurrentIndex(totalItems - 1);
-        setTimeout(() => {
-          carouselRef.current.style.transition = 'transform 0.3s ease-in-out';
-        }, 50);
-      }
-    }, 300);
+    setCurrentIndex((prev) => (direction === "next" ? prev + 1 : prev - 1));
   };
 
   return (
@@ -229,9 +219,9 @@ const Universities = () => {
         <div className="overflow-hidden">
           <div
             ref={carouselRef}
-            className="flex transition-transform duration-300 ease-in-out"
+            className="flex transition-transform duration-500 ease-in-out"
             style={{
-              transform: `translateX(-${(currentIndex * (100 / visibleItems))}%)`,
+              transform: `translateX(-${(currentIndex * 100) / visibleItems}%)`,
             }}
           >
             {clonedUniversities.map((university, index) => (
@@ -255,18 +245,17 @@ const Universities = () => {
         </div>
 
         <button
-          onClick={() => handleSlideChange('prev')}
-          className="absolute top-1/2 -left-4 transform -translate-y-1/2 bg-gray-200 p-2 rounded-full shadow-md hover:bg-gray-300"
-          aria-label="Previous"
+          className="absolute left-0 top-1/2 transform -translate-y-1/2 bg-gray-800 text-white p-2 rounded-full"
+          onClick={() => handleSlideChange("prev")}
         >
-          <ChevronLeft className="w-4 h-4" />
+          <ChevronLeft />
         </button>
+
         <button
-          onClick={() => handleSlideChange('next')}
-          className="absolute top-1/2 -right-4 transform -translate-y-1/2 bg-gray-200 p-2 rounded-full shadow-md hover:bg-gray-300"
-          aria-label="Next"
+          className="absolute right-0 top-1/2 transform -translate-y-1/2 bg-gray-800 text-white p-2 rounded-full"
+          onClick={() => handleSlideChange("next")}
         >
-          <ChevronRight className="w-4 h-4" />
+          <ChevronRight />
         </button>
       </div>
     </div>
