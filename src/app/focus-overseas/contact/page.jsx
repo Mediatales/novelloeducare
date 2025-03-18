@@ -340,7 +340,7 @@ const Page = () => {
             </div>
             <div>
               <p className="text-sm text-gray-800">
-                516, Somdutt chambers Bhikaji cama palace new delhi - 110066
+                516, Somdutt Chambers, Bhikaji Cama Palace, New Delhi - 110066
               </p>
             </div>
           </div>
