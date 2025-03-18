@@ -1188,19 +1188,19 @@ export async function GET(request, { params }) {
             //poland
 
             {
-                country: 'Kyrgyzstan',
+                country: 'Poland',
                 flag_link: 'https://res.cloudinary.com/dqggm4k7u/image/upload/v1741854591/Kyrgyzstan_logo_dhosw2.png',
                 mainImg: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741854634/Mbbs_in_Kyrgyzstan_pic_awazh3.jpg",
-                overviewText: "Kyrgyzstan offers a compelling combination of factors for those seeking a unique and affordable lifestyle. The country boasts a remarkably low cost of living, making it an attractive option for budget-conscious individuals and families. Kyrgyzstan has become an increasingly popular choice for international students, particularly those from India, seeking to pursue an MBBS degree. Several factors contribute to this growing interest, making Kyrgyzstan an attractive option for medical education abroad. One of the primary reasons is the affordability of tuition fees in Kyrgyz medical universities. Compared to many other countries offering MBBS programs, Kyrgyzstan provides a cost-effective alternative, allowing students to pursue their medical aspirations without incurring excessive financial burdens.",
+                overviewText: "Poland offers a fantastic opportunity for international students who dream of becoming doctors. You can get a world-class medical education at a reasonable cost while studying in a beautiful European country. The best part? Polish medical degrees are highly respected throughout the European Union, opening doors for you to work and practice medicine across the continent after graduation.Most Polish universities offer English-taught programs, making it easy for students from all over the world to understand and succeed. The program typically lasts six years, combining five years of in-depth learning with a critical year of hands-on training in hospitals. This well-rounded approach ensures you graduate with the knowledge and practical skills needed to excel in the medical field.",
                 overviewImg: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741854602/Mbbs_in_Kyrgyzstan_overview_pic_o06k77.jpg",
-                quickFacts: ["Bishkek", "30%", "Kyrgyzstani som", "Approx. 71 lakhs"],
+                quickFacts: ["Warsaw", "50%", "Polish Zloty (PLN)", "Approx. 3.67 crores"],
                 univeristes: [
                     {
                         name: "Asian Medical Institute",
                         image: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741854620/Kyrgyzstan_mbbs_university_1_n5hxtq.jpg",
                         slug: "asian-medical-institute",
-                        country : "kyrgyzstan ",
-                        overview : ["The Asian Medical Institute (ASMI), located in Kant, Kyrgyzstan, has emerged as a leading medical institution, attracting students from around the globe who aspire to pursue careers in healthcare. It offers a range of medical programs. ASMI has gained recognition for its commitment to providing high-quality education at affordable tuition fees, making it an attractive option for students seeking a cost-effective medical education abroad. ASMI's faculty comprises experienced professionals and scholars who are passionate about teaching and mentoring the next generation of medical practitioners. The university also provides students with access to modern facilities, well-equipped laboratories, and a comprehensive library, ensuring they have the resources they need to excel in their studies."],
+                        country : "Poland ",
+                        overview : ["Poland offers a fantastic opportunity for international students who dream of becoming doctors. You can get a world-class medical education at a reasonable cost while studying in a beautiful European country. The best part? Polish medical degrees are highly respected throughout the European Union, opening doors for you to work and practice medicine across the continent after graduation.Most Polish universities offer English-taught programs, making it easy for students from all over the world to understand and succeed. The program typically lasts six years, combining five years of in-depth learning with a critical year of hands-on training in hospitals. This well-rounded approach ensures you graduate with the knowledge and practical skills needed to excel in the medical field."],
                         academic : ["The Asian Medical Institute (ASMI), located in Kant, Kyrgyzstan, has emerged as a leading medical institution, attracting students from around the globe who aspire to pursue careers in healthcare. It offers a range of medical programs. ASMI has gained recognition for its commitment to providing high-quality education at affordable tuition fees, making it an attractive option for students seeking a cost-effective medical education abroad. The university's dedication to academic excellence is reflected in its curriculum, which is designed to meet international standards and equip students with the knowledge and skills necessary to succeed in the medical profession."],
                         academicImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741854613/Kyrgyzstan_mbbs_university_1_academic_pic_iorlud.jpg",
                         faculties : [
@@ -1277,40 +1277,45 @@ export async function GET(request, { params }) {
                 eligibilityPoints: [
                     {
                         title: "Education",
-                        description: "You must have completed 10+2 from a recognized board of education "
+                        description: "You must have completed 10+2 from a recognized board of education."
                     },
                     {
                         title: "Age Requirement",
-                        description: "Minimum 17 years old at the time of admission"
+                        description: "You must be at least 17 years old and not more than 25 years old when you apply "
                     },
                     {
                         title: "Subjects",
                         description: "You must have studied Physics, Chemistry, and Biology in 10+2"
                     },
                     {
-                        title: "Score",
-                        description: "50% aggregate for general category, 40% for reserved category."
+                        title: "NEET & Score",
+                        description: "Indian students must qualify for the NEET exam.You must have scored at least 60% in Physics, Chemistry, and Biology in 10+2."
                     },
                 ],
                 mbbsBenefits: [
                     {
                         title: "English Medium Instruction",
-                        description: "All medical programs are taught in English, eliminating language barriers for Indian students."
+                        description: "Most medical universities in Poland offer MBBS programs entirely in English, eliminating language barriers for international students. "
                     },
                     {
                         title: "Globally Recognized Degree",
-                        description: "Medical degrees from Kyrgyzstan are recognized by the World Health Organization (WHO), National Medical Commission (NMC) in India, and other."
+                        description: "Medical degrees from Polish universities are recognized by the World Health Organization (WHO) and are accepted in many countries worldwide, including India."
                     },
 		    {
                         title: "No Entrance Exams",
-                        description:  "Admission to medical universities in Kyrgyzstan is usually based on merit without requiring any additional entrance exams."
+                        description:  "Many Polish medical universities do not require additional entrance exams beyond the 12th grade results, simplifying the admission process."
                     },
 		    {
                         title: "Quality Medical Education",
-                        description: "Kyrgyz medical universities focus on providing a comprehensive curriculum with strong emphasis on practical training and clinical exposure."
+                        description: "Polish medical universities are known for their high academic standards, experienced faculty, and modern facilities, ensuring a robust medical curriculum."
+                    },
+
+                    {
+                        title: "European Exposure",
+                        description:  "Studying in Poland provides students with the opportunity to live and experience European culture, with easy access to travel across the continent."
                     },
                 ],
-                advantages: ["Quality Education", "No Donation Required" ,"Globally Recognized Degrees" ,"International Exposure"],
+                advantages: ["Quality Education", "No Entrance Exams" ,"Post-Graduation Opportunities" ,"International Recognition"],
                 advantageImg: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741854678/Mbbs_in_kyrgyzstan_university_pic_vrbz7l.jpg",
             },
 
