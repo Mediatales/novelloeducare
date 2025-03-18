@@ -32,7 +32,7 @@ export async function GET() {
         flag_link: 'https://res.cloudinary.com/dqggm4k7u/image/upload/v1741854591/Kyrgyzstan_logo_dhosw2.png'
       },
       {
-        country: 'Belgium',
+        country: 'Belarus',
         flag_link: 'https://res.cloudinary.com/dqggm4k7u/image/upload/v1741854591/Kyrgyzstan_logo_dhosw2.png'
       },
       {
