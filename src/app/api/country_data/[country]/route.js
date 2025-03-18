@@ -401,7 +401,1188 @@ export async function GET(request, { params }) {
                 advantages: ["Quality Education", "No Donation Required" ,"Globally Recognized Degrees" ,"International Exposure"],
                 advantageImg: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741854678/Mbbs_in_kyrgyzstan_university_pic_vrbz7l.jpg",
             },
-         
+
+            ///Kazakhstan 
+
+           {
+            country: 'Kazakhstan',
+            flag_link: 'https://res.cloudinary.com/dqggm4k7u/image/upload/v1741863146/Kazakhstan_logo_jh5qy9.png',
+            mainImg: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741863189/Mbbs_in_Kazakhstan_pic_eilmro.jpg",
+            overviewText: "Kazakhstan holds a prominent position on the world stage, largely due to its strong economy. This economic strength is driven by the country's rich natural resources, particularly its vast reserves of oil and natural gas. Kazakhstan has emerged as an increasingly attractive destination for international students seeking quality higher education at an affordable cost. Several factors contribute to its growing popularity, making it a compelling option for those looking to study abroad. One of the most significant advantages is the affordability of tuition fees in Kazakhstan compared to many Western countries.",
+            overviewImg: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741863220/Mbbs_in_Kazakhstan_overview_pic_zs9vya.jpg",
+            quickFacts: ["Astana", "35%", "Tenge (KZT)", "Approx. 1.99 crores"],
+            univeristes: [
+                {
+                    name: "Kazakh Russian Medical University (KRMU)",
+                    image: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741863239/Kazakhstan_mbbs_university_1_jqwqxp.webp",
+                    slug: "kazakh-russian-medical-university-(krmu)",
+                    country : "kazakhstan",
+                    overview : ["Kazakh Russian Medical University, a distinguished private medical institution located in Almaty, Kazakhstan, has earned a stellar reputation as a leading destination for students seeking a high-quality MBBS education abroad. Established in 1992, and formerly known as Kazakhstan Medical University, this institution has consistently ranked among the top medical universities in the country, attracting aspiring medical professionals from around the globe. Founded by Dr. Mukhtar Aliyevich Aliyev, a respected member of the Kazakh Academy of Sciences, the university benefits from the vision and leadership of a prominent figure in the medical community. At the heart of the university's success lies its vibrant and dedicated faculty, a collective of over 200 lecturers comprised of renowned doctors, esteemed international scientists, and distinguished Kazakh medical professionals. This impressive assembly of experts provides students with unparalleled access to knowledge, mentorship, and diverse perspectives, solidifying the university's position as a top choice for MBBS studies in Kazakhstan."],
+                    academic : ["Kazakh Russian Medical University (KRMU) provides a comprehensive six-year MBBS program, consisting of five years of rigorous academic training followed by a one-year clinical internship. This structure ensures that graduates are well-prepared for the practical demands of the medical profession, having gained both theoretical knowledge and hands-on experience. The program's instruction is delivered in English, making it an ideal choice for international students seeking a globally recognized medical education. KRMU's degrees are widely recognized, thanks to accreditations from numerous international institutions, opening doors for graduates to pursue diverse career paths around the world."],
+                    academicImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741863311/Kazakhstan_mbbs_university_1_academic_pic_hdwmy6.webp",
+                    faculties : [
+                        "Department of Dentistry",
+                        "Department of General Medicine",
+                        "Department of Nursing",
+                        "Department of Obstetrics",
+                        "Department of Paediatrics",
+                        "Department of Psychiatry",
+                    ],
+                    facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1739793855/img_bg_sybjt5.png",
+                    affilationRecognition : ["World Health Organization (WHO)","Medical Council of India (MCI)","Foundation for the Advancement of Education and International Medical Research (FAIMER)","Recognized by the Ministry of Education and Science of the Republic of Kazakhstan"],
+                },
+            
+                  {
+                    name: "Kazakh National Medical University",
+                    image: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741865640/Kazakhstan_mbbs_university_2_hcc1iv.jpg",
+                    slug: "kazakh-national-medical-university",
+                    country : "kazakhstan",
+                    overview : ["Kazakh National Medical University, a venerable institution established in 1931, holds a distinguished position as the #1 university in Kazakhstan, a testament to its unwavering commitment to academic excellence and groundbreaking medical research. Recognized as a 'National University' in 2001, this prestigious institution, located in the vibrant city of Almaty, has a rich history of nurturing some of the world's most renowned physicians and medical experts. Kazakh National Medical University has been a pivotal force in shaping healthcare. Kazakh National Medical University (KazNMU) offers a compelling combination of academic excellence and student-friendly features. The university boasts a highly qualified faculty comprised of experienced teachers, professors, and practicing doctors, ensuring students receive expert guidance and mentorship."],
+                    academic : ["Kazakh National Medical University (KazNMU), located in Almaty, Kazakhstan, stands as a leading institution for medical education, offering a comprehensive range of programs, including undergraduate, postgraduate, and doctoral degrees. Aspiring medical professionals can pursue their educational goals in a variety of specializations, ensuring a well-rounded and in-depth understanding of the medical field. It is particularly renowned for its MBBS programs, attracting students from around the globe who seek a high-quality medical education. The university is widely recognized as a leader in medical education and medicine, contributing significantly to advancements in healthcare and medical research, both in Kazakhstan and internationally."],
+                    academicImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741865650/Kazakhstan_mbbs_university_2_academic_pic_hsxlck.jpg",
+                    faculties : [
+                        "Department of Anatomy",
+                        "Department of Biochemistry",
+                        "Department of Community Medicine",
+                        "Department of Forensic Medicine",
+                        "Department of Microbiology",
+                    ],
+                    facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1739793855/img_bg_sybjt5.png",
+                    affilationRecognition : ["Affiliated with the Health Ministry of Kazakhstan.","National Medical Commission of India (NMC)","World Health Organization (WHO)","Foundation for Advancement of International Medical Education and Research (FAIMER)"],
+                },
+            
+                 {
+                    name: "Al-Farabi National Medical University",
+                    image: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741854694/Kyrgyzstan_mbbs_university_3_xhfwx8.png",
+                    slug: "al-farabi-national-medical-university",
+                    country : "kazakhstan",
+                    overview : ["Al-Farabi Kazakh National University (KazNU), a distinguished public university located in Almaty, Kazakhstan, is renowned for its exceptional medical education programs and its significant contributions to the field of healthcare. As one of the oldest and most prestigious universities in Kazakhstan, KazNU has a rich history of academic excellence and is consistently ranked among the top educational institutions in Central Asia. The university's medical faculty is particularly well-regarded, attracting aspiring medical professionals from across the globe who seek a high-quality education in a dynamic and stimulating environment. KazNU's medical programs cover a wide range of disciplines, from general medicine and surgery to specialized fields like cardiology, oncology, and neurology, providing students with a comprehensive and well-rounded medical education."],
+                    academic : ["Al-Farabi Kazakh National University (KazNU), situated in Almaty, Kazakhstan, offers a diverse range of academic programs, encompassing medical sciences, engineering, humanities, and many other fields. This comprehensive offering allows students to pursue their educational goals across a broad spectrum of disciplines, fostering intellectual curiosity and preparing them for a variety of career paths. KazNU is renowned for its commitment to providing high-quality education, earning it a place among the top medical universities globally. This recognition reflects the university's dedication to academic excellence, innovative research, and the development of highly skilled professionals in the medical field and beyond."],
+                    academicImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741857500/Kyrgyzstan_mbbs_university_4_academic_plhcd3.webp",
+                    faculties : [
+                        "Department of Anatomy",
+                        "Department of Nursing",
+                        "Department of Internal Medicine",
+                        "Department of Surgery",
+                        "Department of Fundamental Medical",
+                    ],
+                    facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1739793855/img_bg_sybjt5.png",
+                    affilationRecognition : ["MCI (Medical Council of India)","World Health Organization (WHO)","National Medical Commission of India (NMC)","KazNU is a member of the International Association of Universities)"],
+                },
+            
+                  {
+                    name: "South Kazakh Medical Academy",
+                    image: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741854706/Kyrgyzstan_mbbs_university_4_bclzvu.webp",
+                    slug: "south-kazakh-medical-academy",
+                    country : "kazakhstan",
+                    overview : ["Shymkent South Kazakhstan Medical Academy (SKMA), established in 1979, has a long-standing tradition of excellence in medical education and has consistently ranked among the top medical universities in Kazakhstan. Over the years, SKMA has earned a stellar reputation for its commitment to providing high-quality medical training and fostering a vibrant academic community. The academy's dedication to innovation and research has attracted students and faculty from around the globe, creating a diverse and intellectually stimulating environment. SKMA's modern campus provides students with access to state-of-the-art facilities, well-equipped laboratories, and a comprehensive library, ensuring they have the resources necessary to excel in their studies"],
+                    academic : ["South Kazakhstan Medical Academy (SKMA), located in Shymkent, Kazakhstan, offers a full range of medical education programs, encompassing undergraduate, postgraduate, and doctoral degrees. Aspiring medical professionals can pursue their academic goals in a variety of fields, from general medicine and pediatrics to specialized areas like surgery, obstetrics and gynecology, and cardiology. The academy's undergraduate programs provide a strong foundation in basic medical sciences and clinical skills, preparing students for the rigors of medical practice. Postgraduate programs allow physicians to further specialize in their chosen field, enhancing their expertise and expanding their career opportunities."],
+                    academicImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741854698/Kyrgyzstan_mbbs_university_3_academic_jc78kg.jpg",
+                    faculties : [
+                        "Department of Chemistry",
+                        "Department of Biochemistry",
+                        "Department of Molecular Biology",
+                        "Department of Medicine and Nursing",
+                        "Department of Microbiology",
+                    ],
+                    facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1739793855/img_bg_sybjt5.png",
+                    affilationRecognition : ["Medical Council of India (MCI)","The Ministry of Education and Science of the Republic of Kazakhstan","National Medical Commission of India (NMC)","World Health Organization (WHO)"],
+                },
+            ],
+
+
+            eligibilityPoints: [
+                {
+                    title: "Education",
+                    description: "You must have completed 10+2 from a recognized board of education "
+                },
+                {
+                    title: "Age Requirement",
+                    description: "You must be at least 17 years old and not more than 25 years old when you apply"
+                },
+                {
+                    title: "Subjects",
+                    description: "You must have studied Physics, Chemistry, and Biology in 10+2"
+                },
+                {
+                    title: "Score",
+                    description: "You must have scored at least 50% in Physics, Chemistry, and Biology in 10+2"
+                },
+            ],
+            mbbsBenefits: [
+                {
+                    title: "English Medium Instruction",
+                    description: "All medical programs are taught in English, eliminating language barriers for Indian students."
+                },
+                {
+                    title: "Globally Recognized Degree",
+                    description: "Medical degrees from Kazakhstan are recognized by the World Health Organization (WHO) and the Medical Council of India (MCI), allowing graduates to practice medicine worldwide."
+                },
+        {
+                    title: "No Entrance Exams",
+                    description: "Many universities in Kazakhstan do not require entrance exams for international students, simplifying the admission process."
+                },
+        {
+                    title: "Quality Medical Education",
+                    description: "Kazakhstan boasts well-established medical universities with modern infrastructure, experienced faculty, and a comprehensive curriculum adhering to international standards."
+                },
+            ],
+            advantages: ["Quality Education", "No Donation Required" ,"Affordable Cost" ,"Clinical Exposure"],
+            advantageImg: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741854678/Mbbs_in_kyrgyzstan_university_pic_vrbz7l.jpg",
+           },
+
+
+
+            ///Georgia
+
+
+            {
+                country: 'Georgia',
+                flag_link: 'https://res.cloudinary.com/dqggm4k7u/image/upload/v1741863146/Kazakhstan_logo_jh5qy9.png',
+                mainImg: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741863189/Mbbs_in_Kazakhstan_pic_eilmro.jpg",
+                overviewText: "Georgia has become a popular choice for Indian students seeking quality medical education abroad. Georgia boasts several top-ranking universities with a strong reputation for producing skilled doctors. These universities offer modern facilities, experienced faculty, and a curriculum designed to meet international standards. Compared to other countries, Georgia offers a more affordable and accessible pathway to a medical degree, making it an attractive option for many students. This allows them to focus on their academic preparation and pursue their medical aspirations without the added stress of a highly competitive entrance exam. The welcoming environment and the opportunity to experience a different culture while pursuing their studies further enhance the appeal of studying MBBS in Georgia.",
+                overviewImg: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741863220/Mbbs_in_Kazakhstan_overview_pic_zs9vya.jpg",
+                quickFacts: ["Tbilisi", "20%", "Georgian Lari (GEL)", "Approx. 37.6 lakhs"],
+                univeristes: [
+                    {
+                        name: "International School of Medical",
+                        image: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741863239/Kazakhstan_mbbs_university_1_jqwqxp.webp",
+                        slug: "international-school-of-medical",
+                        country : "georgia",
+                        overview : ["The International School of Medicine at Alte University, located in Tbilisi, Georgia, provides aspiring medical and dental professionals with the opportunity to pursue their education in English. This allows students from diverse backgrounds to access high-quality medical training in a globalized setting. The school's programs are not only internationally recognized, ensuring graduates can pursue careers worldwide, but are also taught by a distinguished faculty of experienced medical professionals and international professors. This combination of recognition and expertise creates a rich learning environment for students. The school is a member of the Association for Medical Education in Europe (AMEE) and the European Association for Quality Assurance in Higher Education (ENQA)."],
+                        academic : ["The International School of Medicine at Alte University, situated in the vibrant city of Tbilisi, Georgia, provides a unique opportunity for international students to pursue their dreams of becoming medical or dental professionals. This school offers holistic and state-of-the-art programs in both medicine and dentistry, designed specifically to cater to the needs of students from around the globe. A key feature of the International Medical School is its adherence to the rigorous standards set by the World Federation for Medical Education (WFME)."],
+                        academicImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741863311/Kazakhstan_mbbs_university_1_academic_pic_hdwmy6.webp",
+                        faculties : [
+                            "Department of Anatomy",
+                            "Department of Clinical Anatomy and operational Surgery",
+                            "Department of Histology, Cytology and Embryology",
+                            "Department of Bioethics",
+                            "Department of Psychology",
+                            "Department of Forensic Medicine",
+                        ],
+                        facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1739793855/img_bg_sybjt5.png",
+                        affilationRecognition : ["World Health Organization (WHO)","United Nations Organization (UNO)","Educational Commission for graduates in foreign medicine (ECFMG)","Foundation for the Advancement of Education and International Medical Research (FAIMER)"],
+                    },
+                
+                      {
+                        name: "East European University",
+                        image: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741865640/Kazakhstan_mbbs_university_2_hcc1iv.jpg",
+                        slug: "east-european-university",
+                        country : "georgia",
+                        overview : ["East European University (EEU), a private institution of higher learning established in 2012, is located in the heart of Tbilisi, the vibrant capital city of Georgia. Since its inception, EEU has dedicated itself to providing a high-quality educational experience to a diverse student body, welcoming individuals from across the globe to its dynamic academic community. The university prides itself on fostering an environment that encourages intellectual curiosity, personal growth, and global citizenship. EEU offers a wide array of academic disciplines, encompassing both undergraduate and postgraduate levels, catering to a broad range of educational and career aspirations. The university's commitment to academic excellence is reflected in its carefully curated curriculum, which is designed to equip students with the knowledge, skills, and competencies necessary to thrive in an increasingly interconnected and competitive world."],
+                        academic : ["East European University (EEU), located in Tbilisi, Georgia, offers a diverse range of academic programs, including undergraduate, master's, and doctoral degrees, catering to a wide array of academic interests and career aspirations. Students can choose from a variety of fields, allowing them to pursue their passions and develop expertise in their chosen disciplines. The university's commitment to quality education is underscored by its accreditation from the Georgian Ministry of Science and Education."],
+                        academicImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741865650/Kazakhstan_mbbs_university_2_academic_pic_hsxlck.jpg",
+                        faculties : [
+                            "Department of Anatomy",
+                            "Department of Biochemistry",
+                            "Department of Community Medicine",
+                            "Department of Forensic Medicine",
+                            "Department of Microbiology",
+                        ],
+                        facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1739793855/img_bg_sybjt5.png",
+                        affilationRecognition : ["World Federation for Medical Education (WFME)","Educational Commission for Foreign Medical Graduates (ECFMG)","World Health Organization (WHO)","Foundation for Advancement of International Medical Education and Research (FAIMER)"],
+                    },
+                
+                     {
+                        name: "Georgian National University",
+                        image: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741854694/Kyrgyzstan_mbbs_university_3_xhfwx8.png",
+                        slug: "georgian-national-university",
+                        country : "georgia",
+                        overview : ["Established in 2001, the Georgian National University SEU has quickly risen to become one of the leading private universities in Tbilisi, Georgia, earning a reputation for its commitment to academic excellence and cutting-edge research programs. Situated in a prime location within the capital city, the university's modern campus provides a stimulating and supportive environment for students from diverse backgrounds. Georgian National University SEU prides itself on offering a state-of-the-art educational experience, combining innovative teaching methodologies with a focus on practical skills and real-world applications. The university's faculty comprises experienced professionals and scholars who are dedicated to nurturing the intellectual curiosity and personal growth of their students. With a wide range of undergraduate, graduate, and doctoral programs across various disciplines, Georgian National University SEU caters to a broad spectrum of academic interests and career aspirations."],
+                        academic : ["Georgian National University SEU, located in Tbilisi, Georgia, offers a wide range of medical courses to meet the diverse needs and aspirations of aspiring healthcare professionals, nurturing their talents and preparing them for successful careers in the medical field. These programs include the Bachelor of Medicine, Bachelor of Surgery (MBBS), dentistry, surgery, and pharmacy, providing students with a comprehensive foundation in their chosen field. In addition to its undergraduate offerings, the university also provides postgraduate courses, allowing medical professionals to further specialize and enhance their expertise."],
+                        academicImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741857500/Kyrgyzstan_mbbs_university_4_academic_plhcd3.webp",
+                        faculties : [
+                            "Department of Anatomy",
+                            "Department of Biochemistry",
+                            "Department of Internal Medicine",
+                            "Department of Forensic Medicine",
+                            "Department of Fundamental Medical",
+                        ],
+                        facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1739793855/img_bg_sybjt5.png",
+                        affilationRecognition : ["MCI (Medical Council of India)","World Health Organization (WHO)","National Medical Commission of India (NMC)","FAIMER (Foundation for Advancement of International Medical Education and Research)."],
+                    },
+                
+                      {
+                        name: "Batumi Shota Rustaveli State University",
+                        image: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741854706/Kyrgyzstan_mbbs_university_4_bclzvu.webp",
+                        slug: "batumi-shota-rustaveli-state-university",
+                        country : "georgia",
+                        overview : ["Batumi Shota Rustaveli State University, a prominent public university in Georgia, offers a complete range of medical education programs at both the undergraduate and postgraduate levels. Situated in the beautiful coastal city of Batumi, the capital of the Adjara region, the university provides a unique and enriching learning environment for aspiring medical professionals. Named after the revered 12th-century Georgian poet Shota Rustaveli, the university embodies the spirit of intellectual curiosity and pursuit of knowledge. With a rich history and a commitment to academic excellence, Batumi Shota Rustaveli State University has become a leading center for medical education in the region. The university's medical programs are designed to equip students with the necessary knowledge, skills, and ethical values to excel in their medical careers. The curriculum is rigorous and comprehensive, covering a wide range of medical disciplines and incorporating the latest advancements in medical science and technology."],
+                        academic : ["Batumi Shota Rustaveli State University, a distinguished institution of higher learning in Georgia, provides a wide range of academic programs, including vocational training, bachelor's degrees, master's degrees, doctoral studies, and single-level programs. This diverse range of offerings caters to a broad array of educational goals and professional aspirations, ensuring that students can find a program that aligns with their interests and career ambitions. As a multifunctional medical school, Batumi Shota Rustaveli State University delivers both professional and research-based education to undergraduate and postgraduate students in the field of medicine."],
+                        academicImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741854698/Kyrgyzstan_mbbs_university_3_academic_jc78kg.jpg",
+                        faculties : [
+                            "Department of Anatomy",
+                            "Department of Biochemistry",
+                            "Department of Molecular Biology",
+                            "Department of Medicine and Nursing",
+                            "Department of Microbiology",
+                        ],
+                        facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1739793855/img_bg_sybjt5.png",
+                        affilationRecognition : ["Medical Council of India (MCI)","UNESCO: The university is recognized by UNESCO","National Medical Commission of India (NMC)","World Health Organization (WHO)"],
+                    },
+                ],
+
+
+                eligibilityPoints: [
+                    {
+                        title: "Education",
+                        description: "Have a minimum of 50% marks in Physics, Chemistry, and Biology (PCB) in their 12th standard"
+                    },
+                    {
+                        title: "Age Requirement",
+                        description: "You must be at least 17 years old and not more than 25 years old when you apply"
+                    },
+                    {
+                        title: "NEET",
+                        description: "Have a valid score in the National Eligibility cum Entrance Test (NEET)"
+                    },
+                    {
+                        title: "Reserved Category",
+                        description: "Have a minimum of 40% marks in PCB for students from SC/ST/OBC category"
+                    },
+                ],
+                mbbsBenefits: [
+                    {
+                        title: "Easy Admission Process",
+                        description: "Unlike some other countries, the admission process for MBBS in Georgia is usually straightforward with no need for extremely competitive entrance exams."
+                    },
+                    {
+                        title: "Quality Clinical Exposure",
+                        description: "Georgian medical colleges provide ample opportunities for practical training in well-equipped hospitals, ensuring a strong clinical foundation."
+                    },
+		    {
+                        title: "Safe and Welcoming Environment",
+                        description: "Georgia is considered a safe country with a friendly culture, making it a comfortable place for international students to live and study."
+                    },
+		    {
+                        title: "International Exposure",
+                        description: "Studying in Georgia provides exposure to different healthcare systems and the opportunity to interact with students from various backgrounds."
+                    },
+                ],
+                advantages: ["Quality Education", "Experienced Faculty" ,"Affordable Cost" ,"Cultural Diversity"],
+                advantageImg: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741854678/Mbbs_in_kyrgyzstan_university_pic_vrbz7l.jpg",
+            },
+
+
+            ///Armenia
+
+
+            {
+                country: 'Armenia',
+                flag_link: 'https://res.cloudinary.com/dqggm4k7u/image/upload/v1741863146/Kazakhstan_logo_jh5qy9.png',
+                mainImg: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741863189/Mbbs_in_Kazakhstan_pic_eilmro.jpg",
+                overviewText: "Armenia is a fantastic choice for international students dreaming of becoming doctors. It offers a winning combination of affordability, top-notch medical education taught in English, and a safe and budget-friendly lifestyle. This makes it a real game-changer, especially for students from countries where medical school can break the bank. After graduating, you'll need to pass additional exams like the FMGE to practice medicine in your home country. This is a common requirement for medical graduates from many countries, so it's important to factor this into your plans. Armenia boasts over 50 universities, both public and private, with renowned institutions like the American University of Armenia and Yerevan State University leading the pack. With thousands of international students already thriving in Armenia, it's a vibrant and welcoming place to pursue your medical aspirations.",
+                overviewImg: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741863220/Mbbs_in_Kazakhstan_overview_pic_zs9vya.jpg",
+                quickFacts: ["Yerevan", "20%", "Armenian Dram (AMD)", "Approx. 27.8 lakhs"],
+               univeristes: [
+                    {
+                        name: "International School of Medical",
+                        image: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741863239/Kazakhstan_mbbs_university_1_jqwqxp.webp",
+                        slug: "international-school-of-medical",
+                        country : "georgia",
+                        overview : ["The International School of Medicine at Alte University, located in Tbilisi, Georgia, provides aspiring medical and dental professionals with the opportunity to pursue their education in English. This allows students from diverse backgrounds to access high-quality medical training in a globalized setting. The school's programs are not only internationally recognized, ensuring graduates can pursue careers worldwide, but are also taught by a distinguished faculty of experienced medical professionals and international professors. This combination of recognition and expertise creates a rich learning environment for students. The school is a member of the Association for Medical Education in Europe (AMEE) and the European Association for Quality Assurance in Higher Education (ENQA)."],
+                        academic : ["The International School of Medicine at Alte University, situated in the vibrant city of Tbilisi, Georgia, provides a unique opportunity for international students to pursue their dreams of becoming medical or dental professionals. This school offers holistic and state-of-the-art programs in both medicine and dentistry, designed specifically to cater to the needs of students from around the globe. A key feature of the International Medical School is its adherence to the rigorous standards set by the World Federation for Medical Education (WFME)."],
+                        academicImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741863311/Kazakhstan_mbbs_university_1_academic_pic_hdwmy6.webp",
+                        faculties : [
+                            "Department of Anatomy",
+                            "Department of Clinical Anatomy and operational Surgery",
+                            "Department of Histology, Cytology and Embryology",
+                            "Department of Bioethics",
+                            "Department of Psychology",
+                            "Department of Forensic Medicine",
+                        ],
+                        facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1739793855/img_bg_sybjt5.png",
+                        affilationRecognition : ["World Health Organization (WHO)","United Nations Organization (UNO)","Educational Commission for graduates in foreign medicine (ECFMG)","Foundation for the Advancement of Education and International Medical Research (FAIMER)"],
+                    },
+                
+                      {
+                        name: "East European University",
+                        image: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741865640/Kazakhstan_mbbs_university_2_hcc1iv.jpg",
+                        slug: "east-european-university",
+                        country : "georgia",
+                        overview : ["East European University (EEU), a private institution of higher learning established in 2012, is located in the heart of Tbilisi, the vibrant capital city of Georgia. Since its inception, EEU has dedicated itself to providing a high-quality educational experience to a diverse student body, welcoming individuals from across the globe to its dynamic academic community. The university prides itself on fostering an environment that encourages intellectual curiosity, personal growth, and global citizenship. EEU offers a wide array of academic disciplines, encompassing both undergraduate and postgraduate levels, catering to a broad range of educational and career aspirations. The university's commitment to academic excellence is reflected in its carefully curated curriculum, which is designed to equip students with the knowledge, skills, and competencies necessary to thrive in an increasingly interconnected and competitive world."],
+                        academic : ["East European University (EEU), located in Tbilisi, Georgia, offers a diverse range of academic programs, including undergraduate, master's, and doctoral degrees, catering to a wide array of academic interests and career aspirations. Students can choose from a variety of fields, allowing them to pursue their passions and develop expertise in their chosen disciplines. The university's commitment to quality education is underscored by its accreditation from the Georgian Ministry of Science and Education."],
+                        academicImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741865650/Kazakhstan_mbbs_university_2_academic_pic_hsxlck.jpg",
+                        faculties : [
+                            "Department of Anatomy",
+                            "Department of Biochemistry",
+                            "Department of Community Medicine",
+                            "Department of Forensic Medicine",
+                            "Department of Microbiology",
+                        ],
+                        facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1739793855/img_bg_sybjt5.png",
+                        affilationRecognition : ["World Federation for Medical Education (WFME)","Educational Commission for Foreign Medical Graduates (ECFMG)","World Health Organization (WHO)","Foundation for Advancement of International Medical Education and Research (FAIMER)"],
+                    },
+                
+                     {
+                        name: "Georgian National University",
+                        image: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741854694/Kyrgyzstan_mbbs_university_3_xhfwx8.png",
+                        slug: "georgian-national-university",
+                        country : "georgia",
+                        overview : ["Established in 2001, the Georgian National University SEU has quickly risen to become one of the leading private universities in Tbilisi, Georgia, earning a reputation for its commitment to academic excellence and cutting-edge research programs. Situated in a prime location within the capital city, the university's modern campus provides a stimulating and supportive environment for students from diverse backgrounds. Georgian National University SEU prides itself on offering a state-of-the-art educational experience, combining innovative teaching methodologies with a focus on practical skills and real-world applications. The university's faculty comprises experienced professionals and scholars who are dedicated to nurturing the intellectual curiosity and personal growth of their students. With a wide range of undergraduate, graduate, and doctoral programs across various disciplines, Georgian National University SEU caters to a broad spectrum of academic interests and career aspirations."],
+                        academic : ["Georgian National University SEU, located in Tbilisi, Georgia, offers a wide range of medical courses to meet the diverse needs and aspirations of aspiring healthcare professionals, nurturing their talents and preparing them for successful careers in the medical field. These programs include the Bachelor of Medicine, Bachelor of Surgery (MBBS), dentistry, surgery, and pharmacy, providing students with a comprehensive foundation in their chosen field. In addition to its undergraduate offerings, the university also provides postgraduate courses, allowing medical professionals to further specialize and enhance their expertise."],
+                        academicImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741857500/Kyrgyzstan_mbbs_university_4_academic_plhcd3.webp",
+                        faculties : [
+                            "Department of Anatomy",
+                            "Department of Biochemistry",
+                            "Department of Internal Medicine",
+                            "Department of Forensic Medicine",
+                            "Department of Fundamental Medical",
+                        ],
+                        facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1739793855/img_bg_sybjt5.png",
+                        affilationRecognition : ["MCI (Medical Council of India)","World Health Organization (WHO)","National Medical Commission of India (NMC)","FAIMER (Foundation for Advancement of International Medical Education and Research)."],
+                    },
+                
+                      {
+                        name: "Batumi Shota Rustaveli State University",
+                        image: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741854706/Kyrgyzstan_mbbs_university_4_bclzvu.webp",
+                        slug: "batumi-shota-rustaveli-state-university",
+                        country : "georgia",
+                        overview : ["Batumi Shota Rustaveli State University, a prominent public university in Georgia, offers a complete range of medical education programs at both the undergraduate and postgraduate levels. Situated in the beautiful coastal city of Batumi, the capital of the Adjara region, the university provides a unique and enriching learning environment for aspiring medical professionals. Named after the revered 12th-century Georgian poet Shota Rustaveli, the university embodies the spirit of intellectual curiosity and pursuit of knowledge. With a rich history and a commitment to academic excellence, Batumi Shota Rustaveli State University has become a leading center for medical education in the region. The university's medical programs are designed to equip students with the necessary knowledge, skills, and ethical values to excel in their medical careers. The curriculum is rigorous and comprehensive, covering a wide range of medical disciplines and incorporating the latest advancements in medical science and technology."],
+                        academic : ["Batumi Shota Rustaveli State University, a distinguished institution of higher learning in Georgia, provides a wide range of academic programs, including vocational training, bachelor's degrees, master's degrees, doctoral studies, and single-level programs. This diverse range of offerings caters to a broad array of educational goals and professional aspirations, ensuring that students can find a program that aligns with their interests and career ambitions. As a multifunctional medical school, Batumi Shota Rustaveli State University delivers both professional and research-based education to undergraduate and postgraduate students in the field of medicine."],
+                        academicImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741854698/Kyrgyzstan_mbbs_university_3_academic_jc78kg.jpg",
+                        faculties : [
+                            "Department of Anatomy",
+                            "Department of Biochemistry",
+                            "Department of Molecular Biology",
+                            "Department of Medicine and Nursing",
+                            "Department of Microbiology",
+                        ],
+                        facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1739793855/img_bg_sybjt5.png",
+                        affilationRecognition : ["Medical Council of India (MCI)","UNESCO: The university is recognized by UNESCO","National Medical Commission of India (NMC)","World Health Organization (WHO)"],
+                    },
+                ],
+
+
+                eligibilityPoints: [
+                    {
+                        title: "Education",
+                        description: "10+2 with Physics, Chemistry, and Biology"
+                    },
+                    {
+                        title: "Age Requirement",
+                        description: "You must be at least 17 years old and not more than 25 years old when you apply"
+                    },
+                    {
+                        title: "Entrance Exam",
+                        description: "NEET mandatory"
+                    },
+                    {
+                        title: "Percentage Requirement",
+                        description: "50% aggregate for general category, 40% for reserved categories"
+                    },
+                ],
+                mbbsBenefits: [
+                    {
+                        title: "Low Cost of Education",
+                        description: "Compared to other European countries, medical education in Armenia is considerably cheaper, making it accessible to students from diverse backgrounds."
+                    },
+                    {
+                        title: "MCI Approved Universities",
+                        description: "Most medical universities in Armenia are recognized by the Medical Council of India (MCI), allowing graduates to easily practice medicine in India after clearing the necessary exams."
+                    },
+		    {
+                        title: "High Quality Education",
+                        description: "Armenian medical universities like Yerevan State Medical University have a strong reputation for providing quality medical education with experienced faculty."
+                    },
+		    {
+                        title: "No Entrance Exams",
+                        description: "Many universities in Armenia do not require additional entrance exams beyond the qualifying marks in 12th grade for admission to MBBS."
+                    },
+                ],
+                advantages: ["Quality Education", "MCI/NMC recognized degree" ,"Affordable Cost" ,"Good exposure to clinical practice"],
+                advantageImg: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741854678/Mbbs_in_kyrgyzstan_university_pic_vrbz7l.jpg",
+            },
+
+            //Belarus
+
+            {
+                country: 'Kyrgyzstan',
+                flag_link: 'https://res.cloudinary.com/dqggm4k7u/image/upload/v1741854591/Kyrgyzstan_logo_dhosw2.png',
+                mainImg: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741854634/Mbbs_in_Kyrgyzstan_pic_awazh3.jpg",
+                overviewText: "Kyrgyzstan offers a compelling combination of factors for those seeking a unique and affordable lifestyle. The country boasts a remarkably low cost of living, making it an attractive option for budget-conscious individuals and families. Kyrgyzstan has become an increasingly popular choice for international students, particularly those from India, seeking to pursue an MBBS degree. Several factors contribute to this growing interest, making Kyrgyzstan an attractive option for medical education abroad. One of the primary reasons is the affordability of tuition fees in Kyrgyz medical universities. Compared to many other countries offering MBBS programs, Kyrgyzstan provides a cost-effective alternative, allowing students to pursue their medical aspirations without incurring excessive financial burdens.",
+                overviewImg: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741854602/Mbbs_in_Kyrgyzstan_overview_pic_o06k77.jpg",
+                quickFacts: ["Bishkek", "30%", "Kyrgyzstani som", "Approx. 71 lakhs"],
+                univeristes: [
+                    {
+                        name: "Asian Medical Institute",
+                        image: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741854620/Kyrgyzstan_mbbs_university_1_n5hxtq.jpg",
+                        slug: "asian-medical-institute",
+                        country : "kyrgyzstan ",
+                        overview : ["The Asian Medical Institute (ASMI), located in Kant, Kyrgyzstan, has emerged as a leading medical institution, attracting students from around the globe who aspire to pursue careers in healthcare. It offers a range of medical programs. ASMI has gained recognition for its commitment to providing high-quality education at affordable tuition fees, making it an attractive option for students seeking a cost-effective medical education abroad. ASMI's faculty comprises experienced professionals and scholars who are passionate about teaching and mentoring the next generation of medical practitioners. The university also provides students with access to modern facilities, well-equipped laboratories, and a comprehensive library, ensuring they have the resources they need to excel in their studies."],
+                        academic : ["The Asian Medical Institute (ASMI), located in Kant, Kyrgyzstan, has emerged as a leading medical institution, attracting students from around the globe who aspire to pursue careers in healthcare. It offers a range of medical programs. ASMI has gained recognition for its commitment to providing high-quality education at affordable tuition fees, making it an attractive option for students seeking a cost-effective medical education abroad. The university's dedication to academic excellence is reflected in its curriculum, which is designed to meet international standards and equip students with the knowledge and skills necessary to succeed in the medical profession."],
+                        academicImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741854613/Kyrgyzstan_mbbs_university_1_academic_pic_iorlud.jpg",
+                        faculties : [
+                            "Department of Dentistry",
+                            "Department of General Medicine",
+                            "Department of Nursing",
+                            "Department of Obstetrics",
+                            "Department of Paediatrics",
+                            "Department of Psychiatry",
+                        ],
+                        facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1739793855/img_bg_sybjt5.png",
+                        affilationRecognition : ["World Health Organization (WHO)","Medical Council of India (MCI)","Foundation for the Advancement of Education and International Medical Research (FAIMER)","National Medical Commission of India (NMC)"],
+                    },
+                
+                      {
+                        name: "OSH State Medical University",
+                        image: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741854652/Kyrgyzstan_mbbs_university_2_tce3f1.jpg",
+                        slug: "osh-state-medical-university",
+                        country : "kyrgyzstan",
+                        overview : ["Osh State Medical University, a prominent institution in Kyrgyzstan, has a long-standing tradition of welcoming and training international students, dating back to 1993. Over the years, the International Medical Faculty at Osh State University has fostered a diverse and vibrant academic community, attracting students from over twenty countries across the globe. This rich tapestry of cultures creates a unique and enriching learning environment for all students. Currently, Osh State Medical University boasts a student body of over 3,500, with more than a thousand international students representing countries such as India, Pakistan, Nepal, Palestine, Syria, Turkey"],
+                        academic : ["Osh State Medical University, a prominent institution in Kyrgyzstan, offers a comprehensive range of medical education programs, catering to aspiring healthcare professionals at various stages of their academic journeys. The university provides undergraduate programs, including the MBBS (Bachelor of Medicine, Bachelor of Surgery) degree, which forms the foundation for a career in medicine. In addition to the MBBS program, Osh State Medical University also offers MD (Doctor of Medicine) and BDS (Bachelor of Dental Surgery) programs, providing students with diverse pathways to specialize in their chosen fields within the healthcare sector. These undergraduate programs are designed to provide students with a strong foundation in basic medical sciences, clinical skills, and ethical principles, preparing them for the challenges and rewards of a medical career."],
+                        academicImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741855648/Kyrgyzstan_mbbs_university_2_academic_pic_d3fw2c.jpg",
+                        faculties : [
+                            "Department of Anatomy",
+                            "Department of Biochemistry",
+                            "Department of Community Medicine",
+                            "Department of Forensic Medicine",
+                            "Department of Microbiology",
+                        ],
+                        facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1739793855/img_bg_sybjt5.png",
+                        affilationRecognition : ["World Directory of Medical Schools (WDOMS)","National Medical Commission of India (NMC)","World Health Organization (WHO)","Affiliated with the International Medical Education Directory (IMED)"],
+                    },
+                
+                     {
+                        name: "International School of Medicine (ISM)",
+                        image: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741854694/Kyrgyzstan_mbbs_university_3_xhfwx8.png",
+                        slug: "international-school-of-medicine",
+                        country : "kyrgyzstan",
+                        overview : ["The International School of Medicine (ISM) in Bishkek, Kyrgyzstan, stands as a prominent private medical university, offering a wide array of programs, including undergraduate, postgraduate, and doctoral degrees in various medical specialties. This diverse offering allows aspiring medical professionals to pursue their educational goals at different stages of their careers, from initial medical training to advanced specialization and research. ISM has earned a strong reputation for its commitment to academic excellence, attracting students from around the world who seek a high-quality medical education."],
+                        academic : ["The academic structure at the International School of Medicine (ISM) in Bishkek, Kyrgyzstan, is designed to provide students with a comprehensive and well-rounded medical education, combining a strong foundation in theoretical knowledge with essential practical skills. The program spans a total of six years, beginning with five years of intensive theoretical study. During this phase, students delve into the core principles of medical science, covering a wide range of subjects, from anatomy and physiology to pharmacology and pathology. The curriculum is designed to provide students with a deep understanding of the human body, disease processes, and treatment modalities, laying the groundwork for their future clinical practice."],
+                        academicImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741857500/Kyrgyzstan_mbbs_university_4_academic_plhcd3.webp",
+                        faculties : [
+                            "Department of Humanitarian Disciplines",
+                            "Department of Nursing",
+                            "Department of Internal Medicine",
+                            "Department of Surgery",
+                            "Department of Public Health",
+                        ],
+                        facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1739793855/img_bg_sybjt5.png",
+                        affilationRecognition : ["MCI (Medical Council of India)","World Health Organization (WHO)","National Medical Commission of India (NMC)","World Health Organization (WHO)"],
+                    },
+                
+                      {
+                        name: "Kyrgyz State Medical University",
+                        image: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741854706/Kyrgyzstan_mbbs_university_4_bclzvu.webp",
+                        slug: "kyrgyz-state-medical-university",
+                        country : "kyrgyzstan",
+                        overview : ["Kyrgyz State Medical Academy (KSMA), a leading government university located in Bishkek, Kyrgyzstan, has established itself as a leading center for medical education in the region. With a rich history and a commitment to academic excellence, KSMA attracts students from around the world, particularly those seeking a high-quality medical education at an affordable cost. To become a leading center of medical education and science in the Asian region, a medical institution must cultivate a multifaceted approach encompassing academic excellence, research innovation, and community engagement. This vision necessitates a commitment to attracting and retaining top-tier faculty, fostering a stimulating learning environment, and providing students with access to cutting-edge resources and technology."],
+                        academic : ["Kyrgyz State Medical Academy (KSMA) in Bishkek, Kyrgyzstan, stands as a leading institution in medical education, offering a comprehensive range of programs for aspiring healthcare professionals. These programs span all levels of study, from undergraduate to postgraduate and doctoral degrees, providing students with a clear pathway to advance their medical careers. KSMA's commitment to academic excellence has earned it global recognition. The university is considered a top medical institution in Kyrgyzstan and is recognized by prestigious international organizations such as the World Health Organization, ensuring that its degrees are respected and valued worldwide. This international recognition opens doors for graduates to pursue professional opportunities in various countries, expanding their career horizons."],
+                        academicImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741854698/Kyrgyzstan_mbbs_university_3_academic_jc78kg.jpg",
+                        faculties : [
+                            "Department of Clinical Pharmacology",
+                            "Department of Biochemistry",
+                            "Department of Clinical Epidemiology",
+                            "Department of Medicine and Nursing",
+                            "Department of General Medicine",
+                        ],
+                        facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1739793855/img_bg_sybjt5.png",
+                        affilationRecognition : ["Medical Council of India (MCI)","FAIMER","National Medical Commission of India (NMC)","World Health Organization (WHO)"],
+                    },
+                ],
+
+
+                eligibilityPoints: [
+                    {
+                        title: "Education",
+                        description: "You must have completed 10+2 from a recognized board of education "
+                    },
+                    {
+                        title: "Age Requirement",
+                        description: "Minimum 17 years old at the time of admission"
+                    },
+                    {
+                        title: "Subjects",
+                        description: "You must have studied Physics, Chemistry, and Biology in 10+2"
+                    },
+                    {
+                        title: "Score",
+                        description: "50% aggregate for general category, 40% for reserved category."
+                    },
+                ],
+                mbbsBenefits: [
+                    {
+                        title: "English Medium Instruction",
+                        description: "All medical programs are taught in English, eliminating language barriers for Indian students."
+                    },
+                    {
+                        title: "Globally Recognized Degree",
+                        description: "Medical degrees from Kyrgyzstan are recognized by the World Health Organization (WHO), National Medical Commission (NMC) in India, and other."
+                    },
+		    {
+                        title: "No Entrance Exams",
+                        description:  "Admission to medical universities in Kyrgyzstan is usually based on merit without requiring any additional entrance exams."
+                    },
+		    {
+                        title: "Quality Medical Education",
+                        description: "Kyrgyz medical universities focus on providing a comprehensive curriculum with strong emphasis on practical training and clinical exposure."
+                    },
+                ],
+                advantages: ["Quality Education", "No Donation Required" ,"Globally Recognized Degrees" ,"International Exposure"],
+                advantageImg: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741854678/Mbbs_in_kyrgyzstan_university_pic_vrbz7l.jpg",
+            },
+
+            //Bangladesh
+
+            {
+                country: 'Bangladesh',
+                flag_link: 'https://res.cloudinary.com/dqggm4k7u/image/upload/v1741854591/Kyrgyzstan_logo_dhosw2.png',
+                mainImg: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741854634/Mbbs_in_Kyrgyzstan_pic_awazh3.jpg",
+                overviewText: "MBBS in Bangladesh is gaining popularity among international students, especially those from India. It offers a compelling blend of affordability, quality education, and a familiar environment. The curriculum often aligns with the Indian system, making it easier for graduates to appear for the Foreign Medical Graduate Examination (FMGE) in India. Bangladesh boasts numerous well-equipped medical colleges and readily accessible healthcare facilities, providing ample opportunities for hands-on learning and clinical experience. The relatively lower cost of living and a cultural familiarity further enhance the appeal, making it a more accessible and comfortable option compared to other study abroad destinations.",
+                overviewImg: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741854602/Mbbs_in_Kyrgyzstan_overview_pic_o06k77.jpg",
+                quickFacts: ["Dhaka", "20%", "Taka", "Approx. 17.3 crores"],
+                univeristes: [
+                    {
+                        name: "Dhaka National Medical College",
+                        image: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741854620/Kyrgyzstan_mbbs_university_1_n5hxtq.jpg",
+                        slug: "dhaka-national-medical-college",
+                        country : "bangladesh ",
+                        overview : ["Dhaka National Medical College's history is rooted in the Dhaka National Medical Institute Hospital, founded in 1925. This institution emerged from the Non-cooperation Movement, a campaign against British colonial rule in the Indian subcontinent. The movement, spearheaded by Mahatma Gandhi, Mawlana Muhammad Ali, and Mawlana Shawkat Ali, and organized jointly by the Indian National Congress and the Indian Muslim League, aimed to pressure the British government through peaceful resistance and self-reliance. The Dhaka National Medical Institute Hospital was built in Dhaka, near Bahadur Shah Park, on land donated by Raghunath Das, a local landowner. Many nationalists also donated money to help build and establish the hospital."],
+                        academic : ["Dhaka National Medical College, a prestigious institution in Bangladesh, offers a comprehensive and rigorous 5-year MBBS course approved by the University of Dhaka. The college is recognized by MCI & BMDC, ensuring that its graduates are eligible to practice medicine in India and Bangladesh. It is also listed in the WHO directory of medical institutes., a testament to its commitment to quality education and healthcare standards"],
+                        academicImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741854613/Kyrgyzstan_mbbs_university_1_academic_pic_iorlud.jpg",
+                        faculties : [
+                            "Department of Anatomy",
+                            "Department of Biochemistry",
+                            "Department of Community Medicine",
+                            "Department of Forensic Medicine",
+                            "Department of Microbiology",
+                            "Department of Pathology",
+                        ],
+                        facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1739793855/img_bg_sybjt5.png",
+                        affilationRecognition : ["Recognized by the Bangladesh Medical and Dental Council (BMDC) ","Accredited by the Bangladesh Medical and Dental Council (BMDC)","World Health Organization (WHO)","National Medical Commission of India (NMC)"],
+                    },
+                
+                      {
+                        name: "Bangladesh Medical College",
+                        image: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741854652/Kyrgyzstan_mbbs_university_2_tce3f1.jpg",
+                        slug: "bangladesh-medical-college",
+                        country : "bangladesh",
+                        overview : ["Bangladesh Medical College opened on April 24, 1986, and Dhaka University officially recognized it on May 10, 1988. The Bangladesh Medical and Dental Council also recognizes the college. The first students completed their initial two years of study and took their first professional MBBS exam at Dhaka University in March 1990. The World Health Organization listed the college in its World Directory of Medical Schools starting in 1986, meaning graduates are recognized worldwide. Graduates can get limited registration with the UK's General Medical Council and can take the US Medical License Examination (USMLE). The college has a new six-story building with plenty of parking, and most departments have spacious rooms, creating a comfortable and conducive learning environment for students. The college also has a well-stocked library, a modern computer lab, and a variety of extracurricular activities to help students develop their skills and interests."],
+                        academic : ["Bangladesh Medical College is known for its excellent academic programs for international students. It offers one undergraduate course in Medicine and Health Sciences: the MBBS degree. This program takes five years to complete. This is renowned for its commitment to providing world-class medical education to students from all over the globe. The college offers a single undergraduate program in the field of Medicine and Health Sciences, the Bachelor of Medicine, Bachelor of Surgery (MBBS) degree. This comprehensive program is designed to equip aspiring medical professionals with the knowledge, skills, and ethical values necessary to excel in their careers."],
+                        academicImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741855648/Kyrgyzstan_mbbs_university_2_academic_pic_d3fw2c.jpg",
+                        faculties : [
+                            "Department of Anatomy",
+                            "Department of Biochemistry",
+                            "Department of Physiology",
+                            "Department of Gynecology",
+                            "Department of Microbiology",
+                            "Department of Pharmacology",
+                        ],
+                        facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1739793855/img_bg_sybjt5.png",
+                        affilationRecognition : ["The University of Dhaka granted affiliation to BMC","Accredited by the Bangladesh Medical and Dental Council (BMDC) ","World Health Organization (WHO)","National Medical Commission (NMC)"],
+                    },
+                
+                     {
+                        name: "Tairunnessa Memorial Medical College",
+                        image: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741854694/Kyrgyzstan_mbbs_university_3_xhfwx8.png",
+                        slug: "tairunnessa-memorial-medical-college",
+                        country : "bangladesh",
+                        overview : ["Tairunnessa Memorial Medical College (TMMC) in Gazipur, Bangladesh was established in 1995 by Mohammad Shamsul Hoque. This respected institution has earned widespread recognition for its strong commitment to incorporating state-of-the-art technology into its teaching and clinical practices, thereby playing a pivotal role in the advancement of medical education and the enhancement of healthcare services across Bangladesh. The college's dedication to providing its students with a comprehensive and well-rounded medical education is further exemplified by its affiliation with the prestigious Dhaka University. This affiliation not only ensures the academic quality of the college's curriculum but also provides students with access to a wider network of resources and expertise."],
+                        academic : ["Tairunnessa Memorial Medical College (TMMC) in Bangladesh provides a comprehensive medical education, offering a five-year Bachelor of Medicine, Bachelor of Surgery (MBBS) degree program that prepares aspiring physicians with the necessary knowledge and skills for a successful career in healthcare. Beyond its medical degree program, TMMC also houses a dedicated nursing college, further contributing to the healthcare infrastructure by offering a diploma in nursing and midwifery."],
+                        academicImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741857500/Kyrgyzstan_mbbs_university_4_academic_plhcd3.webp",
+                        faculties : [
+                            "Department of Anatomy",
+                            "Department of Biochemistry",
+                            "Department of Paediatrics",
+                            "Department of Forensic Medicine",
+                            "Department of Microbiology",
+                            "Department of Medicine",
+                        ],
+                        facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1739793855/img_bg_sybjt5.png",
+                        affilationRecognition : ["The University of Dhaka","Accredited by the Bangladesh Medical and Dental Council (BMDC) ","World Health Organization (WHO)","National Medical Commission (NMC)"],
+                    },
+                
+                      {
+                        name: "Jahurul Islam Medical College",
+                        image: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741854706/Kyrgyzstan_mbbs_university_4_bclzvu.webp",
+                        slug: "kyrgyz-state-medical-university",
+                        country : "bangladesh",
+                        overview : ["Jahurul Islam Medical College (JIMC), established in 1992 by the visionary philanthropist Jahurul Islam, stands as a testament to his commitment to improving healthcare in Bangladesh. Jahurul Islam Medical College boasts its own dedicated campus, a sprawling expanse of buildings that house all departments, laboratories, a library, museums, a dissection hall, lecture theaters, a cafeteria, and hostels. The college's verdant campus, a lush oasis in the heart of Bajitpur, provides a pollution-free environment ideal for teaching and learning."],
+                        academic : ["This university provides a comprehensive medical education culminating in an MBBS degree. The five-year program is enhanced by a mandatory one-year internship, ensuring graduates are well-prepared for practice. The degree is fully recognized by the Bangladesh Medical and Dental Council."],
+                        academicImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741854698/Kyrgyzstan_mbbs_university_3_academic_jc78kg.jpg",
+                        faculties : [
+                            "Department of Anatomy",
+                            "Department of Biochemistry",
+                            "Department of Community Medicine",
+                            "Department of Forensic Medicine",
+                            "Department of Microbiology",
+                            "Department of Pathology",
+                        ],
+                        facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1739793855/img_bg_sybjt5.png",
+                        affilationRecognition : ["The University of Dhaka","Accredited by the Bangladesh Medical and Dental Council (BMDC) ","World Health Organization (WHO)","National Medical Commission (NMC)"],
+                    },
+                ],
+
+
+                eligibilityPoints: [
+                    {
+                        title: "Education",
+                        description: "You must have passed your 10th and 12th grade from a recognized board "
+                    },
+                    {
+                        title: "Age Requirement",
+                        description: "You must be at least 17 years old by December 31 of the year you are admitted "
+                    },
+                    {
+                        title: "NEET",
+                        description: "You must have passed the NEET UG exam in the year you are admitted"
+                    },
+                    {
+                        title: "GPA",
+                        description: "You must have a minimum GPA of 7.0 on a scale of 5, and a minimum GPA of 4.0 in Biology in 10+2."
+                    },
+                ],
+                mbbsBenefits: [
+                    {
+                        title: "Easy admission process",
+                        description: "Compared to some other countries, the admission process for MBBS in Bangladesh is often considered simpler"
+                    },
+                    {
+                        title: "No language barrier",
+                        description: "English is widely spoken in Bangladeshi medical institutions, making it easier for international students to adapt."
+                    },
+		    {
+                        title: "WHO and NMC recognition",
+                        description:  "Most top medical colleges in Bangladesh are recognized by the World Health Organization (WHO) and the National Medical Commission (NMC), ensuring the degree's international validity."
+                    },
+		    {
+                        title: "Quality Medical Education",
+                        description: "Bangladeshi medical universities maintain a high standard of education with well-trained faculty and modern infrastructure."
+                    },
+                ],
+                advantages: ["Cost-effective", "Postgraduate opportunities" ,"Globally Recognized Degrees" ,"Strong clinical exposure"],
+                advantageImg: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741854678/Mbbs_in_kyrgyzstan_university_pic_vrbz7l.jpg",
+            },
+
+            //Nepal
+
+            {
+                country: 'Kyrgyzstan',
+                flag_link: 'https://res.cloudinary.com/dqggm4k7u/image/upload/v1741854591/Kyrgyzstan_logo_dhosw2.png',
+                mainImg: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741854634/Mbbs_in_Kyrgyzstan_pic_awazh3.jpg",
+                overviewText: "Kyrgyzstan offers a compelling combination of factors for those seeking a unique and affordable lifestyle. The country boasts a remarkably low cost of living, making it an attractive option for budget-conscious individuals and families. Kyrgyzstan has become an increasingly popular choice for international students, particularly those from India, seeking to pursue an MBBS degree. Several factors contribute to this growing interest, making Kyrgyzstan an attractive option for medical education abroad. One of the primary reasons is the affordability of tuition fees in Kyrgyz medical universities. Compared to many other countries offering MBBS programs, Kyrgyzstan provides a cost-effective alternative, allowing students to pursue their medical aspirations without incurring excessive financial burdens.",
+                overviewImg: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741854602/Mbbs_in_Kyrgyzstan_overview_pic_o06k77.jpg",
+                quickFacts: ["Bishkek", "30%", "Kyrgyzstani som", "Approx. 71 lakhs"],
+                univeristes: [
+                    {
+                        name: "Asian Medical Institute",
+                        image: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741854620/Kyrgyzstan_mbbs_university_1_n5hxtq.jpg",
+                        slug: "asian-medical-institute",
+                        country : "kyrgyzstan ",
+                        overview : ["The Asian Medical Institute (ASMI), located in Kant, Kyrgyzstan, has emerged as a leading medical institution, attracting students from around the globe who aspire to pursue careers in healthcare. It offers a range of medical programs. ASMI has gained recognition for its commitment to providing high-quality education at affordable tuition fees, making it an attractive option for students seeking a cost-effective medical education abroad. ASMI's faculty comprises experienced professionals and scholars who are passionate about teaching and mentoring the next generation of medical practitioners. The university also provides students with access to modern facilities, well-equipped laboratories, and a comprehensive library, ensuring they have the resources they need to excel in their studies."],
+                        academic : ["The Asian Medical Institute (ASMI), located in Kant, Kyrgyzstan, has emerged as a leading medical institution, attracting students from around the globe who aspire to pursue careers in healthcare. It offers a range of medical programs. ASMI has gained recognition for its commitment to providing high-quality education at affordable tuition fees, making it an attractive option for students seeking a cost-effective medical education abroad. The university's dedication to academic excellence is reflected in its curriculum, which is designed to meet international standards and equip students with the knowledge and skills necessary to succeed in the medical profession."],
+                        academicImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741854613/Kyrgyzstan_mbbs_university_1_academic_pic_iorlud.jpg",
+                        faculties : [
+                            "Department of Dentistry",
+                            "Department of General Medicine",
+                            "Department of Nursing",
+                            "Department of Obstetrics",
+                            "Department of Paediatrics",
+                            "Department of Psychiatry",
+                        ],
+                        facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1739793855/img_bg_sybjt5.png",
+                        affilationRecognition : ["World Health Organization (WHO)","Medical Council of India (MCI)","Foundation for the Advancement of Education and International Medical Research (FAIMER)","National Medical Commission of India (NMC)"],
+                    },
+                
+                      {
+                        name: "OSH State Medical University",
+                        image: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741854652/Kyrgyzstan_mbbs_university_2_tce3f1.jpg",
+                        slug: "osh-state-medical-university",
+                        country : "kyrgyzstan",
+                        overview : ["Osh State Medical University, a prominent institution in Kyrgyzstan, has a long-standing tradition of welcoming and training international students, dating back to 1993. Over the years, the International Medical Faculty at Osh State University has fostered a diverse and vibrant academic community, attracting students from over twenty countries across the globe. This rich tapestry of cultures creates a unique and enriching learning environment for all students. Currently, Osh State Medical University boasts a student body of over 3,500, with more than a thousand international students representing countries such as India, Pakistan, Nepal, Palestine, Syria, Turkey"],
+                        academic : ["Osh State Medical University, a prominent institution in Kyrgyzstan, offers a comprehensive range of medical education programs, catering to aspiring healthcare professionals at various stages of their academic journeys. The university provides undergraduate programs, including the MBBS (Bachelor of Medicine, Bachelor of Surgery) degree, which forms the foundation for a career in medicine. In addition to the MBBS program, Osh State Medical University also offers MD (Doctor of Medicine) and BDS (Bachelor of Dental Surgery) programs, providing students with diverse pathways to specialize in their chosen fields within the healthcare sector. These undergraduate programs are designed to provide students with a strong foundation in basic medical sciences, clinical skills, and ethical principles, preparing them for the challenges and rewards of a medical career."],
+                        academicImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741855648/Kyrgyzstan_mbbs_university_2_academic_pic_d3fw2c.jpg",
+                        faculties : [
+                            "Department of Anatomy",
+                            "Department of Biochemistry",
+                            "Department of Community Medicine",
+                            "Department of Forensic Medicine",
+                            "Department of Microbiology",
+                        ],
+                        facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1739793855/img_bg_sybjt5.png",
+                        affilationRecognition : ["World Directory of Medical Schools (WDOMS)","National Medical Commission of India (NMC)","World Health Organization (WHO)","Affiliated with the International Medical Education Directory (IMED)"],
+                    },
+                
+                     {
+                        name: "International School of Medicine (ISM)",
+                        image: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741854694/Kyrgyzstan_mbbs_university_3_xhfwx8.png",
+                        slug: "international-school-of-medicine",
+                        country : "kyrgyzstan",
+                        overview : ["The International School of Medicine (ISM) in Bishkek, Kyrgyzstan, stands as a prominent private medical university, offering a wide array of programs, including undergraduate, postgraduate, and doctoral degrees in various medical specialties. This diverse offering allows aspiring medical professionals to pursue their educational goals at different stages of their careers, from initial medical training to advanced specialization and research. ISM has earned a strong reputation for its commitment to academic excellence, attracting students from around the world who seek a high-quality medical education."],
+                        academic : ["The academic structure at the International School of Medicine (ISM) in Bishkek, Kyrgyzstan, is designed to provide students with a comprehensive and well-rounded medical education, combining a strong foundation in theoretical knowledge with essential practical skills. The program spans a total of six years, beginning with five years of intensive theoretical study. During this phase, students delve into the core principles of medical science, covering a wide range of subjects, from anatomy and physiology to pharmacology and pathology. The curriculum is designed to provide students with a deep understanding of the human body, disease processes, and treatment modalities, laying the groundwork for their future clinical practice."],
+                        academicImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741857500/Kyrgyzstan_mbbs_university_4_academic_plhcd3.webp",
+                        faculties : [
+                            "Department of Humanitarian Disciplines",
+                            "Department of Nursing",
+                            "Department of Internal Medicine",
+                            "Department of Surgery",
+                            "Department of Public Health",
+                        ],
+                        facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1739793855/img_bg_sybjt5.png",
+                        affilationRecognition : ["MCI (Medical Council of India)","World Health Organization (WHO)","National Medical Commission of India (NMC)","World Health Organization (WHO)"],
+                    },
+                
+                      {
+                        name: "Kyrgyz State Medical University",
+                        image: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741854706/Kyrgyzstan_mbbs_university_4_bclzvu.webp",
+                        slug: "kyrgyz-state-medical-university",
+                        country : "kyrgyzstan",
+                        overview : ["Kyrgyz State Medical Academy (KSMA), a leading government university located in Bishkek, Kyrgyzstan, has established itself as a leading center for medical education in the region. With a rich history and a commitment to academic excellence, KSMA attracts students from around the world, particularly those seeking a high-quality medical education at an affordable cost. To become a leading center of medical education and science in the Asian region, a medical institution must cultivate a multifaceted approach encompassing academic excellence, research innovation, and community engagement. This vision necessitates a commitment to attracting and retaining top-tier faculty, fostering a stimulating learning environment, and providing students with access to cutting-edge resources and technology."],
+                        academic : ["Kyrgyz State Medical Academy (KSMA) in Bishkek, Kyrgyzstan, stands as a leading institution in medical education, offering a comprehensive range of programs for aspiring healthcare professionals. These programs span all levels of study, from undergraduate to postgraduate and doctoral degrees, providing students with a clear pathway to advance their medical careers. KSMA's commitment to academic excellence has earned it global recognition. The university is considered a top medical institution in Kyrgyzstan and is recognized by prestigious international organizations such as the World Health Organization, ensuring that its degrees are respected and valued worldwide. This international recognition opens doors for graduates to pursue professional opportunities in various countries, expanding their career horizons."],
+                        academicImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741854698/Kyrgyzstan_mbbs_university_3_academic_jc78kg.jpg",
+                        faculties : [
+                            "Department of Clinical Pharmacology",
+                            "Department of Biochemistry",
+                            "Department of Clinical Epidemiology",
+                            "Department of Medicine and Nursing",
+                            "Department of General Medicine",
+                        ],
+                        facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1739793855/img_bg_sybjt5.png",
+                        affilationRecognition : ["Medical Council of India (MCI)","FAIMER","National Medical Commission of India (NMC)","World Health Organization (WHO)"],
+                    },
+                ],
+
+
+                eligibilityPoints: [
+                    {
+                        title: "Education",
+                        description: "You must have completed 10+2 from a recognized board of education "
+                    },
+                    {
+                        title: "Age Requirement",
+                        description: "Minimum 17 years old at the time of admission"
+                    },
+                    {
+                        title: "Subjects",
+                        description: "You must have studied Physics, Chemistry, and Biology in 10+2"
+                    },
+                    {
+                        title: "Score",
+                        description: "50% aggregate for general category, 40% for reserved category."
+                    },
+                ],
+                mbbsBenefits: [
+                    {
+                        title: "English Medium Instruction",
+                        description: "All medical programs are taught in English, eliminating language barriers for Indian students."
+                    },
+                    {
+                        title: "Globally Recognized Degree",
+                        description: "Medical degrees from Kyrgyzstan are recognized by the World Health Organization (WHO), National Medical Commission (NMC) in India, and other."
+                    },
+		    {
+                        title: "No Entrance Exams",
+                        description:  "Admission to medical universities in Kyrgyzstan is usually based on merit without requiring any additional entrance exams."
+                    },
+		    {
+                        title: "Quality Medical Education",
+                        description: "Kyrgyz medical universities focus on providing a comprehensive curriculum with strong emphasis on practical training and clinical exposure."
+                    },
+                ],
+                advantages: ["Quality Education", "No Donation Required" ,"Globally Recognized Degrees" ,"International Exposure"],
+                advantageImg: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741854678/Mbbs_in_kyrgyzstan_university_pic_vrbz7l.jpg",
+            },
+
+
+            //poland
+
+            {
+                country: 'Kyrgyzstan',
+                flag_link: 'https://res.cloudinary.com/dqggm4k7u/image/upload/v1741854591/Kyrgyzstan_logo_dhosw2.png',
+                mainImg: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741854634/Mbbs_in_Kyrgyzstan_pic_awazh3.jpg",
+                overviewText: "Kyrgyzstan offers a compelling combination of factors for those seeking a unique and affordable lifestyle. The country boasts a remarkably low cost of living, making it an attractive option for budget-conscious individuals and families. Kyrgyzstan has become an increasingly popular choice for international students, particularly those from India, seeking to pursue an MBBS degree. Several factors contribute to this growing interest, making Kyrgyzstan an attractive option for medical education abroad. One of the primary reasons is the affordability of tuition fees in Kyrgyz medical universities. Compared to many other countries offering MBBS programs, Kyrgyzstan provides a cost-effective alternative, allowing students to pursue their medical aspirations without incurring excessive financial burdens.",
+                overviewImg: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741854602/Mbbs_in_Kyrgyzstan_overview_pic_o06k77.jpg",
+                quickFacts: ["Bishkek", "30%", "Kyrgyzstani som", "Approx. 71 lakhs"],
+                univeristes: [
+                    {
+                        name: "Asian Medical Institute",
+                        image: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741854620/Kyrgyzstan_mbbs_university_1_n5hxtq.jpg",
+                        slug: "asian-medical-institute",
+                        country : "kyrgyzstan ",
+                        overview : ["The Asian Medical Institute (ASMI), located in Kant, Kyrgyzstan, has emerged as a leading medical institution, attracting students from around the globe who aspire to pursue careers in healthcare. It offers a range of medical programs. ASMI has gained recognition for its commitment to providing high-quality education at affordable tuition fees, making it an attractive option for students seeking a cost-effective medical education abroad. ASMI's faculty comprises experienced professionals and scholars who are passionate about teaching and mentoring the next generation of medical practitioners. The university also provides students with access to modern facilities, well-equipped laboratories, and a comprehensive library, ensuring they have the resources they need to excel in their studies."],
+                        academic : ["The Asian Medical Institute (ASMI), located in Kant, Kyrgyzstan, has emerged as a leading medical institution, attracting students from around the globe who aspire to pursue careers in healthcare. It offers a range of medical programs. ASMI has gained recognition for its commitment to providing high-quality education at affordable tuition fees, making it an attractive option for students seeking a cost-effective medical education abroad. The university's dedication to academic excellence is reflected in its curriculum, which is designed to meet international standards and equip students with the knowledge and skills necessary to succeed in the medical profession."],
+                        academicImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741854613/Kyrgyzstan_mbbs_university_1_academic_pic_iorlud.jpg",
+                        faculties : [
+                            "Department of Dentistry",
+                            "Department of General Medicine",
+                            "Department of Nursing",
+                            "Department of Obstetrics",
+                            "Department of Paediatrics",
+                            "Department of Psychiatry",
+                        ],
+                        facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1739793855/img_bg_sybjt5.png",
+                        affilationRecognition : ["World Health Organization (WHO)","Medical Council of India (MCI)","Foundation for the Advancement of Education and International Medical Research (FAIMER)","National Medical Commission of India (NMC)"],
+                    },
+                
+                      {
+                        name: "OSH State Medical University",
+                        image: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741854652/Kyrgyzstan_mbbs_university_2_tce3f1.jpg",
+                        slug: "osh-state-medical-university",
+                        country : "kyrgyzstan",
+                        overview : ["Osh State Medical University, a prominent institution in Kyrgyzstan, has a long-standing tradition of welcoming and training international students, dating back to 1993. Over the years, the International Medical Faculty at Osh State University has fostered a diverse and vibrant academic community, attracting students from over twenty countries across the globe. This rich tapestry of cultures creates a unique and enriching learning environment for all students. Currently, Osh State Medical University boasts a student body of over 3,500, with more than a thousand international students representing countries such as India, Pakistan, Nepal, Palestine, Syria, Turkey"],
+                        academic : ["Osh State Medical University, a prominent institution in Kyrgyzstan, offers a comprehensive range of medical education programs, catering to aspiring healthcare professionals at various stages of their academic journeys. The university provides undergraduate programs, including the MBBS (Bachelor of Medicine, Bachelor of Surgery) degree, which forms the foundation for a career in medicine. In addition to the MBBS program, Osh State Medical University also offers MD (Doctor of Medicine) and BDS (Bachelor of Dental Surgery) programs, providing students with diverse pathways to specialize in their chosen fields within the healthcare sector. These undergraduate programs are designed to provide students with a strong foundation in basic medical sciences, clinical skills, and ethical principles, preparing them for the challenges and rewards of a medical career."],
+                        academicImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741855648/Kyrgyzstan_mbbs_university_2_academic_pic_d3fw2c.jpg",
+                        faculties : [
+                            "Department of Anatomy",
+                            "Department of Biochemistry",
+                            "Department of Community Medicine",
+                            "Department of Forensic Medicine",
+                            "Department of Microbiology",
+                        ],
+                        facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1739793855/img_bg_sybjt5.png",
+                        affilationRecognition : ["World Directory of Medical Schools (WDOMS)","National Medical Commission of India (NMC)","World Health Organization (WHO)","Affiliated with the International Medical Education Directory (IMED)"],
+                    },
+                
+                     {
+                        name: "International School of Medicine (ISM)",
+                        image: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741854694/Kyrgyzstan_mbbs_university_3_xhfwx8.png",
+                        slug: "international-school-of-medicine",
+                        country : "kyrgyzstan",
+                        overview : ["The International School of Medicine (ISM) in Bishkek, Kyrgyzstan, stands as a prominent private medical university, offering a wide array of programs, including undergraduate, postgraduate, and doctoral degrees in various medical specialties. This diverse offering allows aspiring medical professionals to pursue their educational goals at different stages of their careers, from initial medical training to advanced specialization and research. ISM has earned a strong reputation for its commitment to academic excellence, attracting students from around the world who seek a high-quality medical education."],
+                        academic : ["The academic structure at the International School of Medicine (ISM) in Bishkek, Kyrgyzstan, is designed to provide students with a comprehensive and well-rounded medical education, combining a strong foundation in theoretical knowledge with essential practical skills. The program spans a total of six years, beginning with five years of intensive theoretical study. During this phase, students delve into the core principles of medical science, covering a wide range of subjects, from anatomy and physiology to pharmacology and pathology. The curriculum is designed to provide students with a deep understanding of the human body, disease processes, and treatment modalities, laying the groundwork for their future clinical practice."],
+                        academicImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741857500/Kyrgyzstan_mbbs_university_4_academic_plhcd3.webp",
+                        faculties : [
+                            "Department of Humanitarian Disciplines",
+                            "Department of Nursing",
+                            "Department of Internal Medicine",
+                            "Department of Surgery",
+                            "Department of Public Health",
+                        ],
+                        facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1739793855/img_bg_sybjt5.png",
+                        affilationRecognition : ["MCI (Medical Council of India)","World Health Organization (WHO)","National Medical Commission of India (NMC)","World Health Organization (WHO)"],
+                    },
+                
+                      {
+                        name: "Kyrgyz State Medical University",
+                        image: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741854706/Kyrgyzstan_mbbs_university_4_bclzvu.webp",
+                        slug: "kyrgyz-state-medical-university",
+                        country : "kyrgyzstan",
+                        overview : ["Kyrgyz State Medical Academy (KSMA), a leading government university located in Bishkek, Kyrgyzstan, has established itself as a leading center for medical education in the region. With a rich history and a commitment to academic excellence, KSMA attracts students from around the world, particularly those seeking a high-quality medical education at an affordable cost. To become a leading center of medical education and science in the Asian region, a medical institution must cultivate a multifaceted approach encompassing academic excellence, research innovation, and community engagement. This vision necessitates a commitment to attracting and retaining top-tier faculty, fostering a stimulating learning environment, and providing students with access to cutting-edge resources and technology."],
+                        academic : ["Kyrgyz State Medical Academy (KSMA) in Bishkek, Kyrgyzstan, stands as a leading institution in medical education, offering a comprehensive range of programs for aspiring healthcare professionals. These programs span all levels of study, from undergraduate to postgraduate and doctoral degrees, providing students with a clear pathway to advance their medical careers. KSMA's commitment to academic excellence has earned it global recognition. The university is considered a top medical institution in Kyrgyzstan and is recognized by prestigious international organizations such as the World Health Organization, ensuring that its degrees are respected and valued worldwide. This international recognition opens doors for graduates to pursue professional opportunities in various countries, expanding their career horizons."],
+                        academicImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741854698/Kyrgyzstan_mbbs_university_3_academic_jc78kg.jpg",
+                        faculties : [
+                            "Department of Clinical Pharmacology",
+                            "Department of Biochemistry",
+                            "Department of Clinical Epidemiology",
+                            "Department of Medicine and Nursing",
+                            "Department of General Medicine",
+                        ],
+                        facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1739793855/img_bg_sybjt5.png",
+                        affilationRecognition : ["Medical Council of India (MCI)","FAIMER","National Medical Commission of India (NMC)","World Health Organization (WHO)"],
+                    },
+                ],
+
+
+                eligibilityPoints: [
+                    {
+                        title: "Education",
+                        description: "You must have completed 10+2 from a recognized board of education "
+                    },
+                    {
+                        title: "Age Requirement",
+                        description: "Minimum 17 years old at the time of admission"
+                    },
+                    {
+                        title: "Subjects",
+                        description: "You must have studied Physics, Chemistry, and Biology in 10+2"
+                    },
+                    {
+                        title: "Score",
+                        description: "50% aggregate for general category, 40% for reserved category."
+                    },
+                ],
+                mbbsBenefits: [
+                    {
+                        title: "English Medium Instruction",
+                        description: "All medical programs are taught in English, eliminating language barriers for Indian students."
+                    },
+                    {
+                        title: "Globally Recognized Degree",
+                        description: "Medical degrees from Kyrgyzstan are recognized by the World Health Organization (WHO), National Medical Commission (NMC) in India, and other."
+                    },
+		    {
+                        title: "No Entrance Exams",
+                        description:  "Admission to medical universities in Kyrgyzstan is usually based on merit without requiring any additional entrance exams."
+                    },
+		    {
+                        title: "Quality Medical Education",
+                        description: "Kyrgyz medical universities focus on providing a comprehensive curriculum with strong emphasis on practical training and clinical exposure."
+                    },
+                ],
+                advantages: ["Quality Education", "No Donation Required" ,"Globally Recognized Degrees" ,"International Exposure"],
+                advantageImg: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741854678/Mbbs_in_kyrgyzstan_university_pic_vrbz7l.jpg",
+            },
+
+            //Dubai
+
+            {
+                country: 'Kyrgyzstan',
+                flag_link: 'https://res.cloudinary.com/dqggm4k7u/image/upload/v1741854591/Kyrgyzstan_logo_dhosw2.png',
+                mainImg: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741854634/Mbbs_in_Kyrgyzstan_pic_awazh3.jpg",
+                overviewText: "Kyrgyzstan offers a compelling combination of factors for those seeking a unique and affordable lifestyle. The country boasts a remarkably low cost of living, making it an attractive option for budget-conscious individuals and families. Kyrgyzstan has become an increasingly popular choice for international students, particularly those from India, seeking to pursue an MBBS degree. Several factors contribute to this growing interest, making Kyrgyzstan an attractive option for medical education abroad. One of the primary reasons is the affordability of tuition fees in Kyrgyz medical universities. Compared to many other countries offering MBBS programs, Kyrgyzstan provides a cost-effective alternative, allowing students to pursue their medical aspirations without incurring excessive financial burdens.",
+                overviewImg: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741854602/Mbbs_in_Kyrgyzstan_overview_pic_o06k77.jpg",
+                quickFacts: ["Bishkek", "30%", "Kyrgyzstani som", "Approx. 71 lakhs"],
+                univeristes: [
+                    {
+                        name: "Asian Medical Institute",
+                        image: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741854620/Kyrgyzstan_mbbs_university_1_n5hxtq.jpg",
+                        slug: "asian-medical-institute",
+                        country : "kyrgyzstan ",
+                        overview : ["The Asian Medical Institute (ASMI), located in Kant, Kyrgyzstan, has emerged as a leading medical institution, attracting students from around the globe who aspire to pursue careers in healthcare. It offers a range of medical programs. ASMI has gained recognition for its commitment to providing high-quality education at affordable tuition fees, making it an attractive option for students seeking a cost-effective medical education abroad. ASMI's faculty comprises experienced professionals and scholars who are passionate about teaching and mentoring the next generation of medical practitioners. The university also provides students with access to modern facilities, well-equipped laboratories, and a comprehensive library, ensuring they have the resources they need to excel in their studies."],
+                        academic : ["The Asian Medical Institute (ASMI), located in Kant, Kyrgyzstan, has emerged as a leading medical institution, attracting students from around the globe who aspire to pursue careers in healthcare. It offers a range of medical programs. ASMI has gained recognition for its commitment to providing high-quality education at affordable tuition fees, making it an attractive option for students seeking a cost-effective medical education abroad. The university's dedication to academic excellence is reflected in its curriculum, which is designed to meet international standards and equip students with the knowledge and skills necessary to succeed in the medical profession."],
+                        academicImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741854613/Kyrgyzstan_mbbs_university_1_academic_pic_iorlud.jpg",
+                        faculties : [
+                            "Department of Dentistry",
+                            "Department of General Medicine",
+                            "Department of Nursing",
+                            "Department of Obstetrics",
+                            "Department of Paediatrics",
+                            "Department of Psychiatry",
+                        ],
+                        facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1739793855/img_bg_sybjt5.png",
+                        affilationRecognition : ["World Health Organization (WHO)","Medical Council of India (MCI)","Foundation for the Advancement of Education and International Medical Research (FAIMER)","National Medical Commission of India (NMC)"],
+                    },
+                
+                      {
+                        name: "OSH State Medical University",
+                        image: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741854652/Kyrgyzstan_mbbs_university_2_tce3f1.jpg",
+                        slug: "osh-state-medical-university",
+                        country : "kyrgyzstan",
+                        overview : ["Osh State Medical University, a prominent institution in Kyrgyzstan, has a long-standing tradition of welcoming and training international students, dating back to 1993. Over the years, the International Medical Faculty at Osh State University has fostered a diverse and vibrant academic community, attracting students from over twenty countries across the globe. This rich tapestry of cultures creates a unique and enriching learning environment for all students. Currently, Osh State Medical University boasts a student body of over 3,500, with more than a thousand international students representing countries such as India, Pakistan, Nepal, Palestine, Syria, Turkey"],
+                        academic : ["Osh State Medical University, a prominent institution in Kyrgyzstan, offers a comprehensive range of medical education programs, catering to aspiring healthcare professionals at various stages of their academic journeys. The university provides undergraduate programs, including the MBBS (Bachelor of Medicine, Bachelor of Surgery) degree, which forms the foundation for a career in medicine. In addition to the MBBS program, Osh State Medical University also offers MD (Doctor of Medicine) and BDS (Bachelor of Dental Surgery) programs, providing students with diverse pathways to specialize in their chosen fields within the healthcare sector. These undergraduate programs are designed to provide students with a strong foundation in basic medical sciences, clinical skills, and ethical principles, preparing them for the challenges and rewards of a medical career."],
+                        academicImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741855648/Kyrgyzstan_mbbs_university_2_academic_pic_d3fw2c.jpg",
+                        faculties : [
+                            "Department of Anatomy",
+                            "Department of Biochemistry",
+                            "Department of Community Medicine",
+                            "Department of Forensic Medicine",
+                            "Department of Microbiology",
+                        ],
+                        facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1739793855/img_bg_sybjt5.png",
+                        affilationRecognition : ["World Directory of Medical Schools (WDOMS)","National Medical Commission of India (NMC)","World Health Organization (WHO)","Affiliated with the International Medical Education Directory (IMED)"],
+                    },
+                
+                     {
+                        name: "International School of Medicine (ISM)",
+                        image: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741854694/Kyrgyzstan_mbbs_university_3_xhfwx8.png",
+                        slug: "international-school-of-medicine",
+                        country : "kyrgyzstan",
+                        overview : ["The International School of Medicine (ISM) in Bishkek, Kyrgyzstan, stands as a prominent private medical university, offering a wide array of programs, including undergraduate, postgraduate, and doctoral degrees in various medical specialties. This diverse offering allows aspiring medical professionals to pursue their educational goals at different stages of their careers, from initial medical training to advanced specialization and research. ISM has earned a strong reputation for its commitment to academic excellence, attracting students from around the world who seek a high-quality medical education."],
+                        academic : ["The academic structure at the International School of Medicine (ISM) in Bishkek, Kyrgyzstan, is designed to provide students with a comprehensive and well-rounded medical education, combining a strong foundation in theoretical knowledge with essential practical skills. The program spans a total of six years, beginning with five years of intensive theoretical study. During this phase, students delve into the core principles of medical science, covering a wide range of subjects, from anatomy and physiology to pharmacology and pathology. The curriculum is designed to provide students with a deep understanding of the human body, disease processes, and treatment modalities, laying the groundwork for their future clinical practice."],
+                        academicImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741857500/Kyrgyzstan_mbbs_university_4_academic_plhcd3.webp",
+                        faculties : [
+                            "Department of Humanitarian Disciplines",
+                            "Department of Nursing",
+                            "Department of Internal Medicine",
+                            "Department of Surgery",
+                            "Department of Public Health",
+                        ],
+                        facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1739793855/img_bg_sybjt5.png",
+                        affilationRecognition : ["MCI (Medical Council of India)","World Health Organization (WHO)","National Medical Commission of India (NMC)","World Health Organization (WHO)"],
+                    },
+                
+                      {
+                        name: "Kyrgyz State Medical University",
+                        image: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741854706/Kyrgyzstan_mbbs_university_4_bclzvu.webp",
+                        slug: "kyrgyz-state-medical-university",
+                        country : "kyrgyzstan",
+                        overview : ["Kyrgyz State Medical Academy (KSMA), a leading government university located in Bishkek, Kyrgyzstan, has established itself as a leading center for medical education in the region. With a rich history and a commitment to academic excellence, KSMA attracts students from around the world, particularly those seeking a high-quality medical education at an affordable cost. To become a leading center of medical education and science in the Asian region, a medical institution must cultivate a multifaceted approach encompassing academic excellence, research innovation, and community engagement. This vision necessitates a commitment to attracting and retaining top-tier faculty, fostering a stimulating learning environment, and providing students with access to cutting-edge resources and technology."],
+                        academic : ["Kyrgyz State Medical Academy (KSMA) in Bishkek, Kyrgyzstan, stands as a leading institution in medical education, offering a comprehensive range of programs for aspiring healthcare professionals. These programs span all levels of study, from undergraduate to postgraduate and doctoral degrees, providing students with a clear pathway to advance their medical careers. KSMA's commitment to academic excellence has earned it global recognition. The university is considered a top medical institution in Kyrgyzstan and is recognized by prestigious international organizations such as the World Health Organization, ensuring that its degrees are respected and valued worldwide. This international recognition opens doors for graduates to pursue professional opportunities in various countries, expanding their career horizons."],
+                        academicImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741854698/Kyrgyzstan_mbbs_university_3_academic_jc78kg.jpg",
+                        faculties : [
+                            "Department of Clinical Pharmacology",
+                            "Department of Biochemistry",
+                            "Department of Clinical Epidemiology",
+                            "Department of Medicine and Nursing",
+                            "Department of General Medicine",
+                        ],
+                        facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1739793855/img_bg_sybjt5.png",
+                        affilationRecognition : ["Medical Council of India (MCI)","FAIMER","National Medical Commission of India (NMC)","World Health Organization (WHO)"],
+                    },
+                ],
+
+
+                eligibilityPoints: [
+                    {
+                        title: "Education",
+                        description: "You must have completed 10+2 from a recognized board of education "
+                    },
+                    {
+                        title: "Age Requirement",
+                        description: "Minimum 17 years old at the time of admission"
+                    },
+                    {
+                        title: "Subjects",
+                        description: "You must have studied Physics, Chemistry, and Biology in 10+2"
+                    },
+                    {
+                        title: "Score",
+                        description: "50% aggregate for general category, 40% for reserved category."
+                    },
+                ],
+                mbbsBenefits: [
+                    {
+                        title: "English Medium Instruction",
+                        description: "All medical programs are taught in English, eliminating language barriers for Indian students."
+                    },
+                    {
+                        title: "Globally Recognized Degree",
+                        description: "Medical degrees from Kyrgyzstan are recognized by the World Health Organization (WHO), National Medical Commission (NMC) in India, and other."
+                    },
+		    {
+                        title: "No Entrance Exams",
+                        description:  "Admission to medical universities in Kyrgyzstan is usually based on merit without requiring any additional entrance exams."
+                    },
+		    {
+                        title: "Quality Medical Education",
+                        description: "Kyrgyz medical universities focus on providing a comprehensive curriculum with strong emphasis on practical training and clinical exposure."
+                    },
+                ],
+                advantages: ["Quality Education", "No Donation Required" ,"Globally Recognized Degrees" ,"International Exposure"],
+                advantageImg: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741854678/Mbbs_in_kyrgyzstan_university_pic_vrbz7l.jpg",
+            },
+
+            //Ukraine
+
+            {
+                country: 'Ukraine',
+                flag_link: 'https://res.cloudinary.com/dqggm4k7u/image/upload/v1739792761/o4dr7q3ihsoh9ccgkxz6.png',
+                mainImg: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1739793558/img_container_wsmqin.png",
+                overviewText: "MBBS in Ukraine has become an attractive option for Indian students seeking quality medical education abroad. Ukrainian medical universities are recognized by global organizations such as the World Health Organization (WHO) and the National Medical Commission (NMC) of India, ensuring that graduates are qualified to practice medicine internationally. Ukraine is home to several top-ranking medical universities that attract international students.Choosing to pursue MBBS in Ukraine offers Indian students a combination of quality education, global recognition, affordability, and a supportive learning environment. These factors make Ukraine a compelling destination for medical aspirants aiming to build a successful career in medicine.",
+                overviewImg: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1739793987/ov_img_sny10k.png",
+                quickFacts: ["Kyiv", "30%", "Hryvnia", "Approx. 3.7 crores"],
+                univeristes: [
+                    
+
+                    {
+                        name: "Samarkand State Medical University",
+                        image: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741069514/img_container_tqemkk.png",
+                        slug: "samarkand-state-medical-university",
+                        country : "uzbekistan",
+                        overview : ["Samarkand State Medical University, established in 1930 as the State Uzbek Medical Institute, has evolved significantly over its 90-year history. Following Uzbekistan`'`s independence in 1991, the university experienced notable growth with the implementation of various educational and healthcare reform programs. These initiatives led to the establishment of new faculties and courses, including traditional medicine." , "In December 2021, Uzbekistan introduced reforms granting greater autonomy to public higher education institutions, empowering Samarkand State Medical University to make independent decisions regarding curriculum development and international partnerships."],
+                        academic : ["The Academic Lyceum at Samarkand State Medical University (Academic Lyceum No.1 at SamSMU) started in 2004-2005 to teach natural sciences. Initially, it was under different leadership but eventually integrated into Samarkand State Medical Institute. Now, with Director Associate Professor H.I. Mahmudova, it focuses on providing quality education in biology, chemistry, and other subjects. The lyceum has modern facilities and organizes events to discover students' talents. Graduates become Chemist Laboratory Technicians and have succeeded in national and international competitions. The lyceum aims to keep preparing skilled graduates for Uzbekistan's future."],
+                        academicImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741764850/Uzbekistan_university_1_academic_tnqmtt.png",
+                        faculties : [
+                            "Faculty of Medicine",
+                            "Faculty of Pharmacy",
+                            "Faculty of Higher Nursing",
+                            "Faculty of pediatrics",
+                            "Faculty of Dentistry",
+                            "Faculty of Medical Pedagogy"
+
+
+                        ],
+                        facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1739793855/img_bg_sybjt5.png",
+                        affilationRecognition : ["Recognized by MCI","Recognized by FAIMER","NMC and WHO approved","United Nations Educational, Scientific and Cultural Organization (UNESCO)"],
+                    },
+
+                    {
+                        name: "Tashkent Medical Academy University",
+                        image: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741767035/pic_5_hbwmul.jpg",
+                        slug: "tashkent-medical-academy-university",
+                        country: "uzbekistan",
+                        overview: ["Between 1919 and 1931, the Faculty of Medicine at Tashkent State University was established, with Professor P. Sitnovsky becoming its Dean in 1919. Significant progress was made under the leadership of Professors KG Khrushchev and MI Slonim between 1921-1924 and 1924-1926. By 1923, the faculty had grown to 973 students, including 425 females. Various deans served during this period, such as PF Borovskii, NI Ragoza, and GP Fedorov."],
+                        academic: ["Tashkent Medical Academy (TMA) provides a comprehensive selection of academic programs, catering to a diverse range of interests within the medical field. At the undergraduate level, TMA offers Bachelor's degrees in various disciplines, including general medicine, medical pedagogy, preventive medicine, nursing, medical biology, and management. These programs equip students with a strong foundation in their chosen areas of specialization, preparing them for careers in healthcare and related fields."],
+                        academicImg: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741767783/pic_1_jbp3ed.jpg",
+                        faculties: [
+                            "Faculty of Medicine",
+                            "Faculty of pediatrics",
+                            "Faculty of Medical Pedagogy",
+                            "Faculty of Neuroscience",
+                            "Faculty of Dentistry",
+                            "Faculty of Pharmacy"
+                        ],
+                        facultyImg: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741767120/pic_4_l3uszb.jpg",
+                        affilationRecognition: ["Recognized by MCI (Medical Council of India)", "Recognized by FAIMER", "NMC and WHO approved", "United Nations Educational, Scientific and Cultural Organization (UNESCO)"]
+                    },
+                    
+                    {
+                        name: "Tashkent State Dental Institute",
+                        image: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741767949/Top_Uzbekistan_university_4_sejpg7.jpg",
+                        slug: "tashkent-state-dental-institute",
+                        country : "uzbekistan",
+                        overview : ["Founded in 2014, Tashkent State Dental Institute stands as a beacon of excellence in the heart of Tashkent, a city renowned for its architectural splendor and commitment to medical education. With its rapid growth, the institute has become a magnet for thousands of aspiring students annually, drawn by its reputation for providing top-tier education"],
+                        academic : ["Tashkent State Dental Institute (TSDI), established in 2014, provides a comprehensive dental education. It offers a 5-year undergraduate program in dentistry, alongside postgraduate programs including residencies and master's degrees. TSDI focuses on preparing students for successful clinical practice and research careers in various specialized areas of dentistry."],
+                        academicImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741769987/Tashkent_state_dental_2_vwahxw.jpg",
+                        faculties : [
+                            "Faculty of Medicine",
+                            "Faculty of Pharmacy",
+                            "Faculty of Higher Nursing",
+                            "Faculty of pediatrics",
+                            "Faculty of Dentistry",
+                            "Faculty of Medical Pedagogy"
+
+
+                        ],
+                        facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741769966/Tashkent_state_dental_1_pfmhbj.jpg",
+                        affilationRecognition : ["Recognized by the Medical Council of India (MCI).","NMC and WHO approved","Recognized by the Ministry of Health of the Republic of Uzbekistan"],
+                    },
+
+                    {
+                        name: "Andijan State Medical Institute",
+                        image: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741771360/Andijan_State_Medical_Institute_pic_tv5sdz.png",
+                        slug: "andijan-state-medical-institute",
+                        country: "uzbekistan",
+                        overview: ["Andijan State Medical Institute, situated in the ancient city of Fergana Valley, Andijan City. Established in 1955, Andijan State Medical Institute stands as a leading national institution in the Republic of Uzbekistan. Offering education across more than 56 diverse departments, it provides a comprehensive academic experience for aspiring medical professionals."],
+                        academic: ["Andijan State Medical Institute provides a broad spectrum of educational opportunities within the healthcare field. At the undergraduate level, the institute offers Bachelor's degrees in a substantial number of subjects, specifically 29, encompassing a wide array of medical, pediatric, and dental courses. This extensive offering allows students to specialize in their areas of interest, gaining a solid foundation for their future careers in healthcare. In addition to these Bachelor's programs, Andijan State Medical Institute also provides vocational courses, further expanding its educational reach."],
+                        academicImg: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741771856/pic_1_kjrd1l.jpg",
+                        faculties: [
+                            "Faculty of Medicine",
+                            "Faculty of pediatrics",
+                            "Department of Surgery",
+                            "Faculty of Gynecology",
+                            "Faculty of Dentistry",
+                            "Faculty of Pharmacy"
+                        ],
+                        facultyImg: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741771871/pic_7_hue4cz.jpg",
+                        affilationRecognition: ["Recognized by the National Medical Commission (NMC)", "World Health Organization (WHO)", "Recognized by the Ministry of Health of the Republic of Uzbekistan"]
+                    },
+                    
+                ],
+                eligibilityPoints: [
+                    {
+                        title: "Age",
+                        description: "You must be at least 17 years old and younger than 25 years old as of December 31st of the year you are applying."
+                    },
+                    {
+                        title: "Education",
+                        description: "You must have passed class 12th from a recognized board with at least 50% marks in Physics, Chemistry, and Biology. If you are from an SC/ST/OBC category, you must have at least 40% marks. "
+                    },
+                    {
+                        title: "NEET",
+                        description: "You must have qualified for the NEET entrance exam."
+                    },
+                    {
+                        title: "School",
+                        description: "You must not be from an open school."
+                    },
+
+                    
+                    
+                ],
+                mbbsBenefits: [
+                    {
+                        title: "Affordable Cost",
+                        description: "Compared to many other countries, the tuition fees and overall cost of living in Ukraine are significantly lower, making it a budget-friendly choice for international students."
+                    },
+                    {
+                        title: "Recognition of degree",
+                        description: "An MBBS degree from a recognized Ukrainian university is accepted in many countries, including India, making it possible to practice medicine internationally."
+                    },
+		    {
+                        title: "Modern Infrastructure",
+                        description: "Ukrainian medical colleges are well-equipped with advanced technology and facilities, providing students with access to quality medical equipment and learning environments."
+                    },
+{
+                        title: "Quality Education",
+                        description: "Ukrainian medical universities are recognized by the WHO and offer a rigorous curriculum with a strong emphasis on practical training, ensuring a high standard of medical education"
+                    },
+
+                ],
+                advantages: ["Low cost of education", "English medium instruction" ,"Globally Recognized Degrees" ,"Quality clinical training"],
+                advantageImg: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1739825183/img_nbxth7.png",
+            },
          
         ];
 
