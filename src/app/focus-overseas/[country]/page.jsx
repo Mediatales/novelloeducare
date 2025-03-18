@@ -78,7 +78,7 @@ const Page = () => {
           <div className="mt-6">
             <h3 className="text-lg font-semibold mb-3 text-green-700">Quick Facts:</h3>
             <ul className="text-gray-800 space-y-2">
-              <li>✅ <strong>Capital:</strong> {countryData.quickFacts[0]}</li>
+              <li>✅ <strong>Capital:</strong> {countryData?.quickFacts[0]}</li>
               <li>✅ <strong>English Speaking Population:</strong> {countryData.quickFacts[1]}</li>
               <li>✅ <strong>Currency:</strong> {countryData.quickFacts[2]}</li>
               <li>✅ <strong>Population:</strong> {countryData.quickFacts[3]}</li>
