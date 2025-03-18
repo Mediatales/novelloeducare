@@ -164,7 +164,9 @@ const Universities = () => {
 
   const [visibleItems, setVisibleItems] = useState(4);
   const [currentIndex, setCurrentIndex] = useState(visibleItems);
+  const [isPaused, setIsPaused] = useState(false);
   const carouselRef = useRef(null);
+  const autoScrollInterval = useRef(null);
   const clonedUniversities = [
     ...universities.slice(-visibleItems),
     ...universities,
@@ -206,8 +208,41 @@ const Universities = () => {
     return () => carousel.removeEventListener("transitionend", handleTransitionEnd);
   }, [currentIndex, visibleItems, universities.length]);
 
+  // Auto-scrolling effect
+  useEffect(() => {
+    // Start auto-scrolling
+    if (!isPaused) {
+      autoScrollInterval.current = setInterval(() => {
+        setCurrentIndex(prev => prev + 1);
+      }, 3000); // Move every 3 seconds
+    }
+    
+    // Clean up interval on component unmount or when paused
+    return () => {
+      if (autoScrollInterval.current) {
+        clearInterval(autoScrollInterval.current);
+      }
+    };
+  }, [isPaused]);
+
   const handleSlideChange = (direction) => {
+    // Temporarily pause auto-scrolling when manually changing slides
+    setIsPaused(true);
     setCurrentIndex((prev) => (direction === "next" ? prev + 1 : prev - 1));
+    
+    // Resume auto-scrolling after a short delay
+    setTimeout(() => {
+      setIsPaused(false);
+    }, 5000); // Resume after 5 seconds of inactivity
+  };
+
+  // Pause auto-scrolling when hovering over the carousel
+  const handleMouseEnter = () => {
+    setIsPaused(true);
+  };
+
+  const handleMouseLeave = () => {
+    setIsPaused(false);
   };
 
   return (
@@ -215,7 +250,11 @@ const Universities = () => {
       <h2 className="text-2xl md:text-3xl font-semibold text-black mb-8 text-center">
         Discover top universities
       </h2>
-      <div className="relative">
+      <div 
+        className="relative" 
+        onMouseEnter={handleMouseEnter}
+        onMouseLeave={handleMouseLeave}
+      >
         <div className="overflow-hidden">
           <div
             ref={carouselRef}
