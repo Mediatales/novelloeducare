@@ -1317,12 +1317,12 @@ export async function GET(request, { params }) {
             //Dubai
 
             {
-                country: 'Kyrgyzstan',
+                country: 'Dubai',
                 flag_link: 'https://res.cloudinary.com/dqggm4k7u/image/upload/v1741854591/Kyrgyzstan_logo_dhosw2.png',
                 mainImg: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741854634/Mbbs_in_Kyrgyzstan_pic_awazh3.jpg",
-                overviewText: "Kyrgyzstan offers a compelling combination of factors for those seeking a unique and affordable lifestyle. The country boasts a remarkably low cost of living, making it an attractive option for budget-conscious individuals and families. Kyrgyzstan has become an increasingly popular choice for international students, particularly those from India, seeking to pursue an MBBS degree. Several factors contribute to this growing interest, making Kyrgyzstan an attractive option for medical education abroad. One of the primary reasons is the affordability of tuition fees in Kyrgyz medical universities. Compared to many other countries offering MBBS programs, Kyrgyzstan provides a cost-effective alternative, allowing students to pursue their medical aspirations without incurring excessive financial burdens.",
+                overviewText: "Dubai has become a highly popular destination for international students pursuing MBBS degrees. Several factors contribute to its attractiveness. Dubai boasts world-class medical universities with modern facilities and experienced faculty. These institutions offer a rigorous and comprehensive medical education, preparing students with the knowledge and skills necessary to excel in the field.Dubai's multicultural environment provides a unique and enriching learning experience. Students from diverse backgrounds interact, fostering a global perspective and enhancing their understanding of different cultures and healthcare systems. This exposure to diverse viewpoints is invaluable in preparing future doctors to serve a globalized world.",
                 overviewImg: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741854602/Mbbs_in_Kyrgyzstan_overview_pic_o06k77.jpg",
-                quickFacts: ["Bishkek", "30%", "Kyrgyzstani som", "Approx. 71 lakhs"],
+                quickFacts: ["", "75%", "Dirham (AED)", "36.4 lakhs"],
                 univeristes: [
                     {
                         name: "Asian Medical Institute",
@@ -1405,41 +1405,41 @@ export async function GET(request, { params }) {
 
                 eligibilityPoints: [
                     {
-                        title: "Education",
-                        description: "You must have completed 10+2 from a recognized board of education "
+                        title: "Academic qualifications",
+                        description: "You must have passed 12th grade with Physics, Chemistry, and Biology as core subjects."
                     },
                     {
-                        title: "Age Requirement",
-                        description: "Minimum 17 years old at the time of admission"
+                        title: "Minimum marks",
+                        description: "You must have scored at least 70% in the PCB group."
                     },
                     {
-                        title: "Subjects",
-                        description: "You must have studied Physics, Chemistry, and Biology in 10+2"
+                        title: "Minimum marks",
+                        description: "You may need to take NEET or other entrance exams."
                     },
                     {
-                        title: "Score",
-                        description: "50% aggregate for general category, 40% for reserved category."
+                        title: "Medical fitness",
+                        description: "You must be medically fit and obtain a medical certificate."
                     },
                 ],
                 mbbsBenefits: [
                     {
-                        title: "English Medium Instruction",
-                        description: "All medical programs are taught in English, eliminating language barriers for Indian students."
+                        title: "Advanced Infrastructure and Facilities",
+                        description: "Dubai boasts modern medical facilities and technology, providing students with access to cutting-edge equipment and practices."
                     },
                     {
-                        title: "Globally Recognized Degree",
-                        description: "Medical degrees from Kyrgyzstan are recognized by the World Health Organization (WHO), National Medical Commission (NMC) in India, and other."
+                        title: "Experienced Faculty",
+                        description: "Medical colleges in Dubai have experienced and qualified faculty with extensive clinical expertise."
                     },
 		    {
-                        title: "No Entrance Exams",
-                        description:  "Admission to medical universities in Kyrgyzstan is usually based on merit without requiring any additional entrance exams."
+                        title: "Diverse Clinical Exposure",
+                        description:  "A multicultural patient population allows for exposure to a wide range of medical conditions and practices."
                     },
 		    {
-                        title: "Quality Medical Education",
-                        description: "Kyrgyz medical universities focus on providing a comprehensive curriculum with strong emphasis on practical training and clinical exposure."
+                        title: "High-Quality Healthcare System",
+                        description: "Studying in Dubai provides access to a well-developed healthcare system with opportunities for internships and clinical rotations in reputable hospitals."
                     },
                 ],
-                advantages: ["Quality Education", "No Donation Required" ,"Globally Recognized Degrees" ,"International Exposure"],
+                advantages: ["High Quality Education", "Advanced Medical Facilities" ,"Cultural Diversity" ,"Globally Recognized Degree"],
                 advantageImg: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741854678/Mbbs_in_kyrgyzstan_university_pic_vrbz7l.jpg",
             },
 
