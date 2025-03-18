@@ -797,12 +797,12 @@ export async function GET(request, { params }) {
             //Belarus
 
             {
-                country: 'Kyrgyzstan',
+                country: 'Belarus',
                 flag_link: 'https://res.cloudinary.com/dqggm4k7u/image/upload/v1741854591/Kyrgyzstan_logo_dhosw2.png',
                 mainImg: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741854634/Mbbs_in_Kyrgyzstan_pic_awazh3.jpg",
-                overviewText: "Kyrgyzstan offers a compelling combination of factors for those seeking a unique and affordable lifestyle. The country boasts a remarkably low cost of living, making it an attractive option for budget-conscious individuals and families. Kyrgyzstan has become an increasingly popular choice for international students, particularly those from India, seeking to pursue an MBBS degree. Several factors contribute to this growing interest, making Kyrgyzstan an attractive option for medical education abroad. One of the primary reasons is the affordability of tuition fees in Kyrgyz medical universities. Compared to many other countries offering MBBS programs, Kyrgyzstan provides a cost-effective alternative, allowing students to pursue their medical aspirations without incurring excessive financial burdens.",
+                overviewText: "Belarus offers a fantastic opportunity! You can pursue a high-quality MBBS degree taught in English, with some courses offered in Russian at a very affordable cost. The 6-year program includes hands-on experience in top-modern hospitals, ensuring you're well-prepared for your future career. Plus, Belarus provides a safe and welcoming environment for international students. The best part? Top medical universities in Belarus are recognized by the National Medical Commission (NMC) and other key international bodies. This opens doors for you to practice medicine anywhere in the world!",
                 overviewImg: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741854602/Mbbs_in_Kyrgyzstan_overview_pic_o06k77.jpg",
-                quickFacts: ["Bishkek", "30%", "Kyrgyzstani som", "Approx. 71 lakhs"],
+                quickFacts: ["Minsk", "40%", "Belarusian Ruble (BYN) ", "Approx. 27.8 lakhs"],
                 univeristes: [
                     {
                         name: "Asian Medical Institute",
@@ -885,41 +885,49 @@ export async function GET(request, { params }) {
 
                 eligibilityPoints: [
                     {
-                        title: "Education",
-                        description: "You must have completed 10+2 from a recognized board of education "
+                        title: "Entrance Exam",
+                        description: "NEET qualification is mandatory for Indian students."
                     },
                     {
                         title: "Age Requirement",
                         description: "Minimum 17 years old at the time of admission"
                     },
                     {
-                        title: "Subjects",
-                        description: "You must have studied Physics, Chemistry, and Biology in 10+2"
+                        title: "Academic Qualification",
+                        description: "10+2 with Physics, Chemistry, and Biology"
                     },
                     {
-                        title: "Score",
-                        description: "50% aggregate for general category, 40% for reserved category."
+                        title: "Percentage Requirement",
+                        description: "Minimum 60% aggregate in 12th grade for general category students."
+                    },
+                    {
+                        title: "Language Proficiency",
+                        description: "English proficiency required for studying in Belarus."
                     },
                 ],
                 mbbsBenefits: [
                     {
-                        title: "English Medium Instruction",
-                        description: "All medical programs are taught in English, eliminating language barriers for Indian students."
+                        title: "Clinical Exposure",
+                        description: "Students get ample clinical practice opportunities in well-equipped hospitals, ensuring hands-on learning experience."
                     },
                     {
-                        title: "Globally Recognized Degree",
-                        description: "Medical degrees from Kyrgyzstan are recognized by the World Health Organization (WHO), National Medical Commission (NMC) in India, and other."
+                        title: "Easy Admission Process",
+                        description: "The admission process for international students is generally considered straightforward, with less stringent requirements compared to other countries."
                     },
 		    {
-                        title: "No Entrance Exams",
-                        description:  "Admission to medical universities in Kyrgyzstan is usually based on merit without requiring any additional entrance exams."
+                        title: "Safe and Stable Environment",
+                        description:  "Belarus is known for its safe and stable environment, providing a conducive learning atmosphere for international students."
                     },
 		    {
                         title: "Quality Medical Education",
-                        description: "Kyrgyz medical universities focus on providing a comprehensive curriculum with strong emphasis on practical training and clinical exposure."
+                        description: "Belarus boasts well-equipped medical universities with modern facilities and experienced faculty, providing a high standard of medical education."
+                    },
+                    {
+                        title: "Cultural Exposure",
+                        description: "Studying in Belarus allows students to experience a different culture while building a global network of peers."
                     },
                 ],
-                advantages: ["Quality Education", "No Donation Required" ,"Globally Recognized Degrees" ,"International Exposure"],
+                advantages: ["Quality Education", "No entrance exams" ,"Multicultural environment" ,"Student support"],
                 advantageImg: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741854678/Mbbs_in_kyrgyzstan_university_pic_vrbz7l.jpg",
             },
 
@@ -1058,40 +1066,40 @@ export async function GET(request, { params }) {
             //Nepal
 
             {
-                country: 'Kyrgyzstan',
+                country: 'Nepal',
                 flag_link: 'https://res.cloudinary.com/dqggm4k7u/image/upload/v1741854591/Kyrgyzstan_logo_dhosw2.png',
                 mainImg: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741854634/Mbbs_in_Kyrgyzstan_pic_awazh3.jpg",
-                overviewText: "Kyrgyzstan offers a compelling combination of factors for those seeking a unique and affordable lifestyle. The country boasts a remarkably low cost of living, making it an attractive option for budget-conscious individuals and families. Kyrgyzstan has become an increasingly popular choice for international students, particularly those from India, seeking to pursue an MBBS degree. Several factors contribute to this growing interest, making Kyrgyzstan an attractive option for medical education abroad. One of the primary reasons is the affordability of tuition fees in Kyrgyz medical universities. Compared to many other countries offering MBBS programs, Kyrgyzstan provides a cost-effective alternative, allowing students to pursue their medical aspirations without incurring excessive financial burdens.",
+                overviewText: "Nepal is a land of breathtaking beauty, famed for its majestic Himalayan peaks, including Mount Everest, the world's highest mountain. The country's diverse topography ranges from lush subtropical lowlands to towering snow-capped summits, creating a stunning tapestry of landscapes.Nepal has become a popular destination for Indian students aspiring to pursue a career in medicine, offering a compelling combination of affordability, quality education, and geographical proximity. One of the primary reasons for Nepal's appeal is the relatively low tuition fees compared to many other countries offering MBBS programs. This makes medical education more accessible and affordable for Indian students, allowing them to pursue their dreams without the burden of exorbitant costs.",
                 overviewImg: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741854602/Mbbs_in_Kyrgyzstan_overview_pic_o06k77.jpg",
-                quickFacts: ["Bishkek", "30%", "Kyrgyzstani som", "Approx. 71 lakhs"],
+                quickFacts: ["Kathmandu", "20%", "Nepalese rupee (NRs)", "Approx. 2.97 crores"],
                 univeristes: [
                     {
-                        name: "Asian Medical Institute",
+                        name: "Kathmandu University School of Medical Sciences",
                         image: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741854620/Kyrgyzstan_mbbs_university_1_n5hxtq.jpg",
-                        slug: "asian-medical-institute",
-                        country : "kyrgyzstan ",
-                        overview : ["The Asian Medical Institute (ASMI), located in Kant, Kyrgyzstan, has emerged as a leading medical institution, attracting students from around the globe who aspire to pursue careers in healthcare. It offers a range of medical programs. ASMI has gained recognition for its commitment to providing high-quality education at affordable tuition fees, making it an attractive option for students seeking a cost-effective medical education abroad. ASMI's faculty comprises experienced professionals and scholars who are passionate about teaching and mentoring the next generation of medical practitioners. The university also provides students with access to modern facilities, well-equipped laboratories, and a comprehensive library, ensuring they have the resources they need to excel in their studies."],
-                        academic : ["The Asian Medical Institute (ASMI), located in Kant, Kyrgyzstan, has emerged as a leading medical institution, attracting students from around the globe who aspire to pursue careers in healthcare. It offers a range of medical programs. ASMI has gained recognition for its commitment to providing high-quality education at affordable tuition fees, making it an attractive option for students seeking a cost-effective medical education abroad. The university's dedication to academic excellence is reflected in its curriculum, which is designed to meet international standards and equip students with the knowledge and skills necessary to succeed in the medical profession."],
+                        slug: "kathmandu-university-school-of-medical-sciences",
+                        country : "nepal ",
+                        overview : ["Kathmandu University School of Medical Sciences (KUSMS), founded in 1994, is a constituent school of Kathmandu University, operating in partnership with Dhulikhel Hospital. Kathmandu University School of Medical Sciences (KUSMS) provides a diverse range of academic programs, catering to aspiring healthcare professionals in various disciplines. At the undergraduate level, KUSMS offers comprehensive programs such as the Bachelor of Medicine, Bachelor of Surgery (MBBS), dental surgery, physiotherapy, and nursing, providing students with a strong foundation in their chosen fields. These programs are designed to provide students with the knowledge and skills necessary for a successful career in healthcare. Beyond its undergraduate offerings, KUSMS also extends its academic reach to postgraduate studies, providing specialized training in both basic and clinical sciences."],
+                        academic : ["Kathmandu University School of Medical Sciences (KUSMS), nestled in the scenic town of Dhulikhel, Nepal, provides a full range of academic programs for aspiring healthcare professionals. KUSMS offers a diverse selection of both undergraduate and postgraduate courses, catering to a wide spectrum of interests and career goals within the medical field. At the undergraduate level, students can pursue foundational degrees in medicine, nursing, and allied health sciences, gaining a strong base of knowledge and practical skills necessary for entry-level practice. These undergraduate programs are designed to equip students with the core competencies required for providing quality patient care and contributing to the healthcare system. Beyond these foundational programs, KUSMS also offers a variety of postgraduate courses, allowing medical professionals to specialize in their chosen areas of expertise."],
                         academicImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741854613/Kyrgyzstan_mbbs_university_1_academic_pic_iorlud.jpg",
                         faculties : [
-                            "Department of Dentistry",
+                            "Department of Surgery",
                             "Department of General Medicine",
                             "Department of Nursing",
-                            "Department of Obstetrics",
+                            "Department of Ophthalmology",
                             "Department of Paediatrics",
                             "Department of Psychiatry",
                         ],
                         facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1739793855/img_bg_sybjt5.png",
-                        affilationRecognition : ["World Health Organization (WHO)","Medical Council of India (MCI)","Foundation for the Advancement of Education and International Medical Research (FAIMER)","National Medical Commission of India (NMC)"],
+                        affilationRecognition : ["World Health Organization (WHO)","The Ministry of Education, Nepal officially recognizes KUSMS","Kathmandu University recognizes KUSMS.","National Medical Commission of India (NMC)"],
                     },
                 
                       {
-                        name: "OSH State Medical University",
+                        name: "Manipal College of Medical Sciences",
                         image: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741854652/Kyrgyzstan_mbbs_university_2_tce3f1.jpg",
-                        slug: "osh-state-medical-university",
-                        country : "kyrgyzstan",
-                        overview : ["Osh State Medical University, a prominent institution in Kyrgyzstan, has a long-standing tradition of welcoming and training international students, dating back to 1993. Over the years, the International Medical Faculty at Osh State University has fostered a diverse and vibrant academic community, attracting students from over twenty countries across the globe. This rich tapestry of cultures creates a unique and enriching learning environment for all students. Currently, Osh State Medical University boasts a student body of over 3,500, with more than a thousand international students representing countries such as India, Pakistan, Nepal, Palestine, Syria, Turkey"],
-                        academic : ["Osh State Medical University, a prominent institution in Kyrgyzstan, offers a comprehensive range of medical education programs, catering to aspiring healthcare professionals at various stages of their academic journeys. The university provides undergraduate programs, including the MBBS (Bachelor of Medicine, Bachelor of Surgery) degree, which forms the foundation for a career in medicine. In addition to the MBBS program, Osh State Medical University also offers MD (Doctor of Medicine) and BDS (Bachelor of Dental Surgery) programs, providing students with diverse pathways to specialize in their chosen fields within the healthcare sector. These undergraduate programs are designed to provide students with a strong foundation in basic medical sciences, clinical skills, and ethical principles, preparing them for the challenges and rewards of a medical career."],
+                        slug: "manipal-college-of-medical-sciences",
+                        country : "nepal",
+                        overview : ["Manipal College of Medical Sciences (MCOMS), situated in the picturesque city of Pokhara, Nepal, is a renowned private medical college dedicated to providing high-quality medical education. As a prominent institution under the Manipal Education and Medical Group, MCOMS offers a comprehensive range of academic programs, encompassing both undergraduate and postgraduate medical studies. Aspiring medical professionals can pursue their educational goals in a variety of disciplines, from the foundational MBBS degree to specialized postgraduate courses, allowing them to tailor their education to their specific interests and career aspirations. Manipal College of Medical Sciences (MCOMS provides a comprehensive and enriching learning environment, spread across two scenic campuses nestled in the Himalayan foothills: Deep Campus and Phulbari Campus."],
+                        academic : ["Manipal College of Medical Sciences (MCOMS), located in Pokhara, Nepal, provides a comprehensive medical education, offering both undergraduate and postgraduate programs to aspiring healthcare professionals. These programs are designed to equip students with the necessary knowledge and skills for successful careers in medicine, covering a wide range of specialties and areas of focus. "],
                         academicImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741855648/Kyrgyzstan_mbbs_university_2_academic_pic_d3fw2c.jpg",
                         faculties : [
                             "Department of Anatomy",
@@ -1099,18 +1107,19 @@ export async function GET(request, { params }) {
                             "Department of Community Medicine",
                             "Department of Forensic Medicine",
                             "Department of Microbiology",
+                            "Department of Pathology",
                         ],
                         facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1739793855/img_bg_sybjt5.png",
-                        affilationRecognition : ["World Directory of Medical Schools (WDOMS)","National Medical Commission of India (NMC)","World Health Organization (WHO)","Affiliated with the International Medical Education Directory (IMED)"],
+                        affilationRecognition : ["Affiliated to Kathmandu University, Dhulikhel, Nepal ","National Medical Commission of India (NMC)","World Health Organization (WHO)","Part of the Manipal Education and Medical Group (MEMG) "],
                     },
                 
                      {
-                        name: "International School of Medicine (ISM)",
+                        name: "Maharajgunj Medical Campus, IOM",
                         image: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741854694/Kyrgyzstan_mbbs_university_3_xhfwx8.png",
-                        slug: "international-school-of-medicine",
-                        country : "kyrgyzstan",
-                        overview : ["The International School of Medicine (ISM) in Bishkek, Kyrgyzstan, stands as a prominent private medical university, offering a wide array of programs, including undergraduate, postgraduate, and doctoral degrees in various medical specialties. This diverse offering allows aspiring medical professionals to pursue their educational goals at different stages of their careers, from initial medical training to advanced specialization and research. ISM has earned a strong reputation for its commitment to academic excellence, attracting students from around the world who seek a high-quality medical education."],
-                        academic : ["The academic structure at the International School of Medicine (ISM) in Bishkek, Kyrgyzstan, is designed to provide students with a comprehensive and well-rounded medical education, combining a strong foundation in theoretical knowledge with essential practical skills. The program spans a total of six years, beginning with five years of intensive theoretical study. During this phase, students delve into the core principles of medical science, covering a wide range of subjects, from anatomy and physiology to pharmacology and pathology. The curriculum is designed to provide students with a deep understanding of the human body, disease processes, and treatment modalities, laying the groundwork for their future clinical practice."],
+                        slug: "maharajgunj-medical-campus",
+                        country : "nepal",
+                        overview : ["Maharajgunj Medical Campus (MMC), a prominent institution dedicated to medical education and healthcare, is a constituent campus of the Institute of Medicine (IOM) at Tribhuvan University, located in the heart of Kathmandu, Nepal. Established in 1972, MMC has a rich history of contributing to the development of medical professionals and advancing healthcare in the country. Maharajgunj Medical Campus (MMC) in Kathmandu, Nepal, provides students with a well-rounded experience, offering a variety of academic programs complemented by robust facilities, including well-equipped labs, convenient canteens, and diverse sports options."],
+                        academic : ["Maharajgunj Medical Campus (MMC), a constituent campus of the Institute of Medicine (IOM) in Kathmandu, Nepal, provides a wide array of academic opportunities for aspiring healthcare professionals. The campus offers programs at all levels, from foundational undergraduate degrees to advanced postgraduate and doctorate programs, ensuring a comprehensive educational pathway for those seeking careers in medicine and related fields. This diverse range of programs at MMC allows students to specialize in various areas of healthcare, contributing to the development of a well-rounded and highly skilled medical workforce in Nepal."],
                         academicImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741857500/Kyrgyzstan_mbbs_university_4_academic_plhcd3.webp",
                         faculties : [
                             "Department of Humanitarian Disciplines",
@@ -1118,18 +1127,19 @@ export async function GET(request, { params }) {
                             "Department of Internal Medicine",
                             "Department of Surgery",
                             "Department of Public Health",
+                            "Department of Therapy",
                         ],
                         facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1739793855/img_bg_sybjt5.png",
-                        affilationRecognition : ["MCI (Medical Council of India)","World Health Organization (WHO)","National Medical Commission of India (NMC)","World Health Organization (WHO)"],
+                        affilationRecognition : ["MCI (Medical Council of India)","World Health Organization (WHO)","National Medical Commission of India (NMC)","Affiliated with TU"],
                     },
                 
                       {
-                        name: "Kyrgyz State Medical University",
+                        name: "Nepal army institute of health science",
                         image: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741854706/Kyrgyzstan_mbbs_university_4_bclzvu.webp",
-                        slug: "kyrgyz-state-medical-university",
-                        country : "kyrgyzstan",
-                        overview : ["Kyrgyz State Medical Academy (KSMA), a leading government university located in Bishkek, Kyrgyzstan, has established itself as a leading center for medical education in the region. With a rich history and a commitment to academic excellence, KSMA attracts students from around the world, particularly those seeking a high-quality medical education at an affordable cost. To become a leading center of medical education and science in the Asian region, a medical institution must cultivate a multifaceted approach encompassing academic excellence, research innovation, and community engagement. This vision necessitates a commitment to attracting and retaining top-tier faculty, fostering a stimulating learning environment, and providing students with access to cutting-edge resources and technology."],
-                        academic : ["Kyrgyz State Medical Academy (KSMA) in Bishkek, Kyrgyzstan, stands as a leading institution in medical education, offering a comprehensive range of programs for aspiring healthcare professionals. These programs span all levels of study, from undergraduate to postgraduate and doctoral degrees, providing students with a clear pathway to advance their medical careers. KSMA's commitment to academic excellence has earned it global recognition. The university is considered a top medical institution in Kyrgyzstan and is recognized by prestigious international organizations such as the World Health Organization, ensuring that its degrees are respected and valued worldwide. This international recognition opens doors for graduates to pursue professional opportunities in various countries, expanding their career horizons."],
+                        slug: "Nepal-army-institute-of-health-science",
+                        country : "nepal",
+                        overview : ["The Nepalese Army Institute of Health Sciences (NAIHS), a distinguished non-profit medical college situated in Kathmandu, Nepal, plays a vital role in healthcare education and service within the nation. NAIHS offers a range of comprehensive medical programs, including the Bachelor of Medicine, Bachelor of Surgery (MBBS) degree, as well as postgraduate degrees such as MD (Doctor of Medicine) and MS (Master of Surgery) in various scientific disciplines. Nepal presents a compelling proposition for students, offering a range of advantages that contribute to a positive and enriching educational experience. One key benefit is the availability of scholarships, which can significantly ease the financial burden of pursuing higher education, making it more accessible to a wider range of students."],
+                        academic : ["The Nepalese Army Institute of Health Sciences (NAIHS), located in Kathmandu, Nepal, provides a diverse range of academic programs designed to cater to aspiring healthcare professionals at various stages of their educational journeys. NAIHS offers a comprehensive MBBS (Bachelor of Medicine, Bachelor of Surgery) program, a foundational degree for those seeking to become physicians. This program provides students with a robust understanding of medical sciences, clinical skills, and patient care, equipping them with the knowledge and expertise necessary for a successful medical career. In addition to the MBBS program, NAIHS also offers a B.Sc."],
                         academicImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741854698/Kyrgyzstan_mbbs_university_3_academic_jc78kg.jpg",
                         faculties : [
                             "Department of Clinical Pharmacology",
@@ -1137,9 +1147,10 @@ export async function GET(request, { params }) {
                             "Department of Clinical Epidemiology",
                             "Department of Medicine and Nursing",
                             "Department of General Medicine",
+                            "Department of Pathology",
                         ],
                         facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1739793855/img_bg_sybjt5.png",
-                        affilationRecognition : ["Medical Council of India (MCI)","FAIMER","National Medical Commission of India (NMC)","World Health Organization (WHO)"],
+                        affilationRecognition : ["Medical Council of India (MCI)","The NAIHS is affiliated with Tribhuvan University","National Medical Commission of India (NMC)","World Health Organization (WHO)"],
                     },
                 ],
 
@@ -1147,40 +1158,45 @@ export async function GET(request, { params }) {
                 eligibilityPoints: [
                     {
                         title: "Education",
-                        description: "You must have completed 10+2 from a recognized board of education "
+                        description: "Passed 12th grade with PCB and English"
                     },
                     {
                         title: "Age Requirement",
-                        description: "Minimum 17 years old at the time of admission"
+                        description: "You must be at least 17 years old and not more than 25 years old when you apply"
                     },
                     {
                         title: "Subjects",
-                        description: "You must have studied Physics, Chemistry, and Biology in 10+2"
+                        description: "Physics, Chemistry, and Biology (PCB) as core subjects in 10+2 or equivalent."
                     },
                     {
-                        title: "Score",
-                        description: "50% aggregate for general category, 40% for reserved category."
+                        title: "NEET",
+                        description: "NEET (for Indian students) and the medical university's entrance exam in Nepal .You must have scored at least 50% in Physics, Chemistry, and Biology in 10+2 "
                     },
                 ],
                 mbbsBenefits: [
                     {
                         title: "English Medium Instruction",
-                        description: "All medical programs are taught in English, eliminating language barriers for Indian students."
+                        description: "Most medical colleges in the country offer instruction entirely in English."
                     },
                     {
                         title: "Globally Recognized Degree",
-                        description: "Medical degrees from Kyrgyzstan are recognized by the World Health Organization (WHO), National Medical Commission (NMC) in India, and other."
+                        description: "Medical colleges in Nepal are recognized by the World Health Organization (WHO) and the National Medical Commission (NMC), ensuring the validity of the degree worldwide."
                     },
 		    {
                         title: "No Entrance Exams",
-                        description:  "Admission to medical universities in Kyrgyzstan is usually based on merit without requiring any additional entrance exams."
+                        description:  "Unlike in India where a separate entrance exam like NEET is mandatory, many Nepalese medical colleges accept students based on their NEET score, eliminating the need for another entrance test."
                     },
 		    {
                         title: "Quality Medical Education",
-                        description: "Kyrgyz medical universities focus on providing a comprehensive curriculum with strong emphasis on practical training and clinical exposure."
+                        description: "Nepali medical colleges offer a standard curriculum recognized by the NMC, ensuring the degree is globally accepted."
+                    },
+
+                    {
+                        title: "Clinical Exposure",
+                        description: "Many programs in Nepal incorporate early clinical exposure in the curriculum, allowing students to apply theoretical knowledge in a practical setting from the beginning. "
                     },
                 ],
-                advantages: ["Quality Education", "No Donation Required" ,"Globally Recognized Degrees" ,"International Exposure"],
+                advantages: ["Quality Education", "No Visa Required (for Indian Students)" ,"Clinical Exposure" ,"Cultural Similarity"],
                 advantageImg: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741854678/Mbbs_in_kyrgyzstan_university_pic_vrbz7l.jpg",
             },
 
