@@ -21,23 +21,23 @@ export async function GET() {
       },
       {
         country: 'Kazakhstan',
-        flag_link: 'https://res.cloudinary.com/dqggm4k7u/image/upload/v1741854591/Kyrgyzstan_logo_dhosw2.png'
+        flag_link: 'https://res.cloudinary.com/dqggm4k7u/image/upload/v1742360305/Kazakhstan_logo_dirinj.png'
       },
       {
         country: 'Georgia',
-        flag_link: 'https://res.cloudinary.com/dqggm4k7u/image/upload/v1741854591/Kyrgyzstan_logo_dhosw2.png'
+        flag_link: 'https://res.cloudinary.com/dqggm4k7u/image/upload/v1742361434/Georgia_logo_jtyuel.png'
       },
       {
         country: 'Armenia',
-        flag_link: 'https://res.cloudinary.com/dqggm4k7u/image/upload/v1741854591/Kyrgyzstan_logo_dhosw2.png'
+        flag_link: 'https://res.cloudinary.com/dqggm4k7u/image/upload/v1742362801/Armenia_nw2yy1.png'
       },
       {
         country: 'Belarus',
-        flag_link: 'https://res.cloudinary.com/dqggm4k7u/image/upload/v1741854591/Kyrgyzstan_logo_dhosw2.png'
+        flag_link: 'https://res.cloudinary.com/dqggm4k7u/image/upload/v1742363200/Belarus_logo_xhpod2.png'
       },
       {
         country: 'Bangladesh',
-        flag_link: 'https://res.cloudinary.com/dqggm4k7u/image/upload/v1741854591/Kyrgyzstan_logo_dhosw2.png'
+        flag_link: 'https://res.cloudinary.com/dqggm4k7u/image/upload/v1742370629/Bangladesh_logo_spccuq.png'
       },
       {
         country: 'Nepal',
