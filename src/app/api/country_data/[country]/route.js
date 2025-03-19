@@ -8,7 +8,7 @@ export async function GET(request, { params }) {
         const countries = [
             {
                 country: 'Uzbekistan',
-                flag_link: 'https://res.cloudinary.com/dqggm4k7u/image/upload/v1739792761/o4dr7q3ihsoh9ccgkxz6.png',
+                flag_link: 'https://res.cloudinary.com/dqggm4k7u/image/upload/v1742376445/Uzbekistan_logo_bxyjnu.png',
                 mainImg: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1739793558/img_container_wsmqin.png",
                 overviewText: "Uzbekistan has become an attractive destination for aspiring medical students, including those from India and beyond. Known for its esteemed medical universities.",
                 overviewImg: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1739793987/ov_img_sny10k.png",

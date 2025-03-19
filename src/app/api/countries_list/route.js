@@ -12,7 +12,7 @@ export async function GET() {
 
       {
         country: 'Uzbekistan',
-        flag_link: 'https://res.cloudinary.com/dqggm4k7u/image/upload/v1739792761/o4dr7q3ihsoh9ccgkxz6.png'
+        flag_link: 'https://res.cloudinary.com/dqggm4k7u/image/upload/v1742376445/Uzbekistan_logo_bxyjnu.png'
       },
 
       {
