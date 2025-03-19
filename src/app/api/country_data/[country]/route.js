@@ -935,20 +935,20 @@ export async function GET(request, { params }) {
 
             {
                 country: 'Bangladesh',
-                flag_link: 'https://res.cloudinary.com/dqggm4k7u/image/upload/v1741854591/Kyrgyzstan_logo_dhosw2.png',
-                mainImg: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741854634/Mbbs_in_Kyrgyzstan_pic_awazh3.jpg",
+                flag_link: 'https://res.cloudinary.com/dqggm4k7u/image/upload/v1742370629/Bangladesh_logo_spccuq.png',
+                mainImg: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742370642/Bangladesh_abroad_1_ytizxn.jpg",
                 overviewText: "MBBS in Bangladesh is gaining popularity among international students, especially those from India. It offers a compelling blend of affordability, quality education, and a familiar environment. The curriculum often aligns with the Indian system, making it easier for graduates to appear for the Foreign Medical Graduate Examination (FMGE) in India. Bangladesh boasts numerous well-equipped medical colleges and readily accessible healthcare facilities, providing ample opportunities for hands-on learning and clinical experience. The relatively lower cost of living and a cultural familiarity further enhance the appeal, making it a more accessible and comfortable option compared to other study abroad destinations.",
-                overviewImg: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741854602/Mbbs_in_Kyrgyzstan_overview_pic_o06k77.jpg",
+                overviewImg: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742370649/Bangladesh_abroad_overview_xetpnj.jpg",
                 quickFacts: ["Dhaka", "20%", "Taka", "Approx. 17.3 crores"],
                 univeristes: [
                     {
                         name: "Dhaka National Medical College",
-                        image: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741854620/Kyrgyzstan_mbbs_university_1_n5hxtq.jpg",
+                        image: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742370689/bangladesh_mbbs_university_1_pic_jcnfko.webp",
                         slug: "dhaka-national-medical-college",
                         country : "bangladesh ",
                         overview : ["Dhaka National Medical College's history is rooted in the Dhaka National Medical Institute Hospital, founded in 1925. This institution emerged from the Non-cooperation Movement, a campaign against British colonial rule in the Indian subcontinent. The movement, spearheaded by Mahatma Gandhi, Mawlana Muhammad Ali, and Mawlana Shawkat Ali, and organized jointly by the Indian National Congress and the Indian Muslim League, aimed to pressure the British government through peaceful resistance and self-reliance. The Dhaka National Medical Institute Hospital was built in Dhaka, near Bahadur Shah Park, on land donated by Raghunath Das, a local landowner. Many nationalists also donated money to help build and establish the hospital."],
                         academic : ["Dhaka National Medical College, a prestigious institution in Bangladesh, offers a comprehensive and rigorous 5-year MBBS course approved by the University of Dhaka. The college is recognized by MCI & BMDC, ensuring that its graduates are eligible to practice medicine in India and Bangladesh. It is also listed in the WHO directory of medical institutes., a testament to its commitment to quality education and healthcare standards"],
-                        academicImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741854613/Kyrgyzstan_mbbs_university_1_academic_pic_iorlud.jpg",
+                        academicImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742370714/Bangladesh_mbbs_university_1_academic_pic_khi7zl.jpg",
                         faculties : [
                             "Department of Anatomy",
                             "Department of Biochemistry",
@@ -963,12 +963,12 @@ export async function GET(request, { params }) {
                 
                       {
                         name: "Bangladesh Medical College",
-                        image: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741854652/Kyrgyzstan_mbbs_university_2_tce3f1.jpg",
+                        image: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742370731/Bangladesh_mbbs_university_2_pic_kh4afx.webp",
                         slug: "bangladesh-medical-college",
                         country : "bangladesh",
                         overview : ["Bangladesh Medical College opened on April 24, 1986, and Dhaka University officially recognized it on May 10, 1988. The Bangladesh Medical and Dental Council also recognizes the college. The first students completed their initial two years of study and took their first professional MBBS exam at Dhaka University in March 1990. The World Health Organization listed the college in its World Directory of Medical Schools starting in 1986, meaning graduates are recognized worldwide. Graduates can get limited registration with the UK's General Medical Council and can take the US Medical License Examination (USMLE). The college has a new six-story building with plenty of parking, and most departments have spacious rooms, creating a comfortable and conducive learning environment for students. The college also has a well-stocked library, a modern computer lab, and a variety of extracurricular activities to help students develop their skills and interests."],
                         academic : ["Bangladesh Medical College is known for its excellent academic programs for international students. It offers one undergraduate course in Medicine and Health Sciences: the MBBS degree. This program takes five years to complete. This is renowned for its commitment to providing world-class medical education to students from all over the globe. The college offers a single undergraduate program in the field of Medicine and Health Sciences, the Bachelor of Medicine, Bachelor of Surgery (MBBS) degree. This comprehensive program is designed to equip aspiring medical professionals with the knowledge, skills, and ethical values necessary to excel in their careers."],
-                        academicImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741855648/Kyrgyzstan_mbbs_university_2_academic_pic_d3fw2c.jpg",
+                        academicImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742370825/Bangladesh_mbbs_university_2_academic_pic_ibfjx1.jpg",
                         faculties : [
                             "Department of Anatomy",
                             "Department of Biochemistry",
@@ -983,12 +983,12 @@ export async function GET(request, { params }) {
                 
                      {
                         name: "Tairunnessa Memorial Medical College",
-                        image: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741854694/Kyrgyzstan_mbbs_university_3_xhfwx8.png",
+                        image: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742370837/Bangladesh_mbbs_university_3_pic_hmdecx.jpg",
                         slug: "tairunnessa-memorial-medical-college",
                         country : "bangladesh",
                         overview : ["Tairunnessa Memorial Medical College (TMMC) in Gazipur, Bangladesh was established in 1995 by Mohammad Shamsul Hoque. This respected institution has earned widespread recognition for its strong commitment to incorporating state-of-the-art technology into its teaching and clinical practices, thereby playing a pivotal role in the advancement of medical education and the enhancement of healthcare services across Bangladesh. The college's dedication to providing its students with a comprehensive and well-rounded medical education is further exemplified by its affiliation with the prestigious Dhaka University. This affiliation not only ensures the academic quality of the college's curriculum but also provides students with access to a wider network of resources and expertise."],
                         academic : ["Tairunnessa Memorial Medical College (TMMC) in Bangladesh provides a comprehensive medical education, offering a five-year Bachelor of Medicine, Bachelor of Surgery (MBBS) degree program that prepares aspiring physicians with the necessary knowledge and skills for a successful career in healthcare. Beyond its medical degree program, TMMC also houses a dedicated nursing college, further contributing to the healthcare infrastructure by offering a diploma in nursing and midwifery."],
-                        academicImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741857500/Kyrgyzstan_mbbs_university_4_academic_plhcd3.webp",
+                        academicImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742370854/Bangladesh_mbbs_university_3_academic_pic_fxt20i.jpg",
                         faculties : [
                             "Department of Anatomy",
                             "Department of Biochemistry",
@@ -1003,12 +1003,12 @@ export async function GET(request, { params }) {
                 
                       {
                         name: "Jahurul Islam Medical College",
-                        image: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741854706/Kyrgyzstan_mbbs_university_4_bclzvu.webp",
+                        image: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742370896/Bangladesh_mbbs_university_4_pic_kyz4zl.jpg",
                         slug: "kyrgyz-state-medical-university",
                         country : "bangladesh",
                         overview : ["Jahurul Islam Medical College (JIMC), established in 1992 by the visionary philanthropist Jahurul Islam, stands as a testament to his commitment to improving healthcare in Bangladesh. Jahurul Islam Medical College boasts its own dedicated campus, a sprawling expanse of buildings that house all departments, laboratories, a library, museums, a dissection hall, lecture theaters, a cafeteria, and hostels. The college's verdant campus, a lush oasis in the heart of Bajitpur, provides a pollution-free environment ideal for teaching and learning."],
                         academic : ["This university provides a comprehensive medical education culminating in an MBBS degree. The five-year program is enhanced by a mandatory one-year internship, ensuring graduates are well-prepared for practice. The degree is fully recognized by the Bangladesh Medical and Dental Council."],
-                        academicImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741854698/Kyrgyzstan_mbbs_university_3_academic_jc78kg.jpg",
+                        academicImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742370924/Bangladesh_mbbs_university_4_academic_pic_m427kf.webp",
                         faculties : [
                             "Department of Anatomy",
                             "Department of Biochemistry",
@@ -1060,27 +1060,27 @@ export async function GET(request, { params }) {
                     },
                 ],
                 advantages: ["Cost-effective", "Postgraduate opportunities" ,"Globally Recognized Degrees" ,"Strong clinical exposure"],
-                advantageImg: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741854678/Mbbs_in_kyrgyzstan_university_pic_vrbz7l.jpg",
+                advantageImg: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742370938/Bangladesh_advantage_pic_au7djp.jpg",
             },
 
             //Nepal
 
             {
                 country: 'Nepal',
-                flag_link: 'https://res.cloudinary.com/dqggm4k7u/image/upload/v1741854591/Kyrgyzstan_logo_dhosw2.png',
-                mainImg: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741854634/Mbbs_in_Kyrgyzstan_pic_awazh3.jpg",
+                flag_link: 'https://res.cloudinary.com/dqggm4k7u/image/upload/v1742371911/Nepal_logo_jmuugf.png',
+                mainImg: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742371921/Mbbs_in_nepal_pic_vwvju5.jpg",
                 overviewText: "Nepal is a land of breathtaking beauty, famed for its majestic Himalayan peaks, including Mount Everest, the world's highest mountain. The country's diverse topography ranges from lush subtropical lowlands to towering snow-capped summits, creating a stunning tapestry of landscapes.Nepal has become a popular destination for Indian students aspiring to pursue a career in medicine, offering a compelling combination of affordability, quality education, and geographical proximity. One of the primary reasons for Nepal's appeal is the relatively low tuition fees compared to many other countries offering MBBS programs. This makes medical education more accessible and affordable for Indian students, allowing them to pursue their dreams without the burden of exorbitant costs.",
-                overviewImg: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741854602/Mbbs_in_Kyrgyzstan_overview_pic_o06k77.jpg",
+                overviewImg: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742371928/Mbbs_in_nepal_overview_pic_ccu1yq.jpg",
                 quickFacts: ["Kathmandu", "20%", "Nepalese rupee (NRs)", "Approx. 2.97 crores"],
                 univeristes: [
                     {
                         name: "Kathmandu University School of Medical Sciences",
-                        image: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741854620/Kyrgyzstan_mbbs_university_1_n5hxtq.jpg",
+                        image: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742371953/Nepal_mbbs_university_1_xyo84u.jpg",
                         slug: "kathmandu-university-school-of-medical-sciences",
                         country : "nepal ",
                         overview : ["Kathmandu University School of Medical Sciences (KUSMS), founded in 1994, is a constituent school of Kathmandu University, operating in partnership with Dhulikhel Hospital. Kathmandu University School of Medical Sciences (KUSMS) provides a diverse range of academic programs, catering to aspiring healthcare professionals in various disciplines. At the undergraduate level, KUSMS offers comprehensive programs such as the Bachelor of Medicine, Bachelor of Surgery (MBBS), dental surgery, physiotherapy, and nursing, providing students with a strong foundation in their chosen fields. These programs are designed to provide students with the knowledge and skills necessary for a successful career in healthcare. Beyond its undergraduate offerings, KUSMS also extends its academic reach to postgraduate studies, providing specialized training in both basic and clinical sciences."],
                         academic : ["Kathmandu University School of Medical Sciences (KUSMS), nestled in the scenic town of Dhulikhel, Nepal, provides a full range of academic programs for aspiring healthcare professionals. KUSMS offers a diverse selection of both undergraduate and postgraduate courses, catering to a wide spectrum of interests and career goals within the medical field. At the undergraduate level, students can pursue foundational degrees in medicine, nursing, and allied health sciences, gaining a strong base of knowledge and practical skills necessary for entry-level practice. These undergraduate programs are designed to equip students with the core competencies required for providing quality patient care and contributing to the healthcare system. Beyond these foundational programs, KUSMS also offers a variety of postgraduate courses, allowing medical professionals to specialize in their chosen areas of expertise."],
-                        academicImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741854613/Kyrgyzstan_mbbs_university_1_academic_pic_iorlud.jpg",
+                        academicImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742371960/Nepal_mbbs_university_1_academic_ttwiza.jpg",
                         faculties : [
                             "Department of Surgery",
                             "Department of General Medicine",
@@ -1095,12 +1095,12 @@ export async function GET(request, { params }) {
                 
                       {
                         name: "Manipal College of Medical Sciences",
-                        image: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741854652/Kyrgyzstan_mbbs_university_2_tce3f1.jpg",
+                        image: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742371980/NEPAL_MBBS_UNIVERSITY_2_fvtg4g.webp",
                         slug: "manipal-college-of-medical-sciences",
                         country : "nepal",
                         overview : ["Manipal College of Medical Sciences (MCOMS), situated in the picturesque city of Pokhara, Nepal, is a renowned private medical college dedicated to providing high-quality medical education. As a prominent institution under the Manipal Education and Medical Group, MCOMS offers a comprehensive range of academic programs, encompassing both undergraduate and postgraduate medical studies. Aspiring medical professionals can pursue their educational goals in a variety of disciplines, from the foundational MBBS degree to specialized postgraduate courses, allowing them to tailor their education to their specific interests and career aspirations. Manipal College of Medical Sciences (MCOMS provides a comprehensive and enriching learning environment, spread across two scenic campuses nestled in the Himalayan foothills: Deep Campus and Phulbari Campus."],
                         academic : ["Manipal College of Medical Sciences (MCOMS), located in Pokhara, Nepal, provides a comprehensive medical education, offering both undergraduate and postgraduate programs to aspiring healthcare professionals. These programs are designed to equip students with the necessary knowledge and skills for successful careers in medicine, covering a wide range of specialties and areas of focus. "],
-                        academicImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741855648/Kyrgyzstan_mbbs_university_2_academic_pic_d3fw2c.jpg",
+                        academicImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742372000/Nepal_mbbs_university_2_academic_iyg9ik.jpg",
                         faculties : [
                             "Department of Anatomy",
                             "Department of Biochemistry",
@@ -1115,12 +1115,12 @@ export async function GET(request, { params }) {
                 
                      {
                         name: "Maharajgunj Medical Campus, IOM",
-                        image: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741854694/Kyrgyzstan_mbbs_university_3_xhfwx8.png",
+                        image: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742372017/Nepal_mbbs_university_3_jooxdb.jpg",
                         slug: "maharajgunj-medical-campus",
                         country : "nepal",
                         overview : ["Maharajgunj Medical Campus (MMC), a prominent institution dedicated to medical education and healthcare, is a constituent campus of the Institute of Medicine (IOM) at Tribhuvan University, located in the heart of Kathmandu, Nepal. Established in 1972, MMC has a rich history of contributing to the development of medical professionals and advancing healthcare in the country. Maharajgunj Medical Campus (MMC) in Kathmandu, Nepal, provides students with a well-rounded experience, offering a variety of academic programs complemented by robust facilities, including well-equipped labs, convenient canteens, and diverse sports options."],
                         academic : ["Maharajgunj Medical Campus (MMC), a constituent campus of the Institute of Medicine (IOM) in Kathmandu, Nepal, provides a wide array of academic opportunities for aspiring healthcare professionals. The campus offers programs at all levels, from foundational undergraduate degrees to advanced postgraduate and doctorate programs, ensuring a comprehensive educational pathway for those seeking careers in medicine and related fields. This diverse range of programs at MMC allows students to specialize in various areas of healthcare, contributing to the development of a well-rounded and highly skilled medical workforce in Nepal."],
-                        academicImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741857500/Kyrgyzstan_mbbs_university_4_academic_plhcd3.webp",
+                        academicImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742372032/Nepal_mbbs_university_3_academic_mhtger.jpg",
                         faculties : [
                             "Department of Humanitarian Disciplines",
                             "Department of Nursing",
@@ -1135,12 +1135,12 @@ export async function GET(request, { params }) {
                 
                       {
                         name: "Nepal army institute of health science",
-                        image: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741854706/Kyrgyzstan_mbbs_university_4_bclzvu.webp",
+                        image: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742372048/Nepal_mbbs_university_4_cmdbm9.webp",
                         slug: "Nepal-army-institute-of-health-science",
                         country : "nepal",
                         overview : ["The Nepalese Army Institute of Health Sciences (NAIHS), a distinguished non-profit medical college situated in Kathmandu, Nepal, plays a vital role in healthcare education and service within the nation. NAIHS offers a range of comprehensive medical programs, including the Bachelor of Medicine, Bachelor of Surgery (MBBS) degree, as well as postgraduate degrees such as MD (Doctor of Medicine) and MS (Master of Surgery) in various scientific disciplines. Nepal presents a compelling proposition for students, offering a range of advantages that contribute to a positive and enriching educational experience. One key benefit is the availability of scholarships, which can significantly ease the financial burden of pursuing higher education, making it more accessible to a wider range of students."],
                         academic : ["The Nepalese Army Institute of Health Sciences (NAIHS), located in Kathmandu, Nepal, provides a diverse range of academic programs designed to cater to aspiring healthcare professionals at various stages of their educational journeys. NAIHS offers a comprehensive MBBS (Bachelor of Medicine, Bachelor of Surgery) program, a foundational degree for those seeking to become physicians. This program provides students with a robust understanding of medical sciences, clinical skills, and patient care, equipping them with the knowledge and expertise necessary for a successful medical career. In addition to the MBBS program, NAIHS also offers a B.Sc."],
-                        academicImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741854698/Kyrgyzstan_mbbs_university_3_academic_jc78kg.jpg",
+                        academicImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742372055/Nepal_mbbs_university_4_academic_wmv7ab.jpg",
                         faculties : [
                             "Department of Clinical Pharmacology",
                             "Department of Biochemistry",
@@ -1197,7 +1197,7 @@ export async function GET(request, { params }) {
                     },
                 ],
                 advantages: ["Quality Education", "No Visa Required (for Indian Students)" ,"Clinical Exposure" ,"Cultural Similarity"],
-                advantageImg: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741854678/Mbbs_in_kyrgyzstan_university_pic_vrbz7l.jpg",
+                advantageImg: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742372074/Mbbs_in_nepal_university_pic_bufmuf.jpg",
             },
 
 
@@ -1205,89 +1205,89 @@ export async function GET(request, { params }) {
 
             {
                 country: 'Poland',
-                flag_link: 'https://res.cloudinary.com/dqggm4k7u/image/upload/v1741854591/Kyrgyzstan_logo_dhosw2.png',
-                mainImg: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741854634/Mbbs_in_Kyrgyzstan_pic_awazh3.jpg",
+                flag_link: 'https://res.cloudinary.com/dqggm4k7u/image/upload/v1742374876/poland_logo_rajiqp.png',
+                mainImg: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742374886/Poland_mbbs_in_abroad_hero_nwsgyx.jpg",
                 overviewText: "Poland offers a fantastic opportunity for international students who dream of becoming doctors. You can get a world-class medical education at a reasonable cost while studying in a beautiful European country. The best part? Polish medical degrees are highly respected throughout the European Union, opening doors for you to work and practice medicine across the continent after graduation.Most Polish universities offer English-taught programs, making it easy for students from all over the world to understand and succeed. The program typically lasts six years, combining five years of in-depth learning with a critical year of hands-on training in hospitals. This well-rounded approach ensures you graduate with the knowledge and practical skills needed to excel in the medical field.",
-                overviewImg: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741854602/Mbbs_in_Kyrgyzstan_overview_pic_o06k77.jpg",
+                overviewImg: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742374897/Poland_mbbs_in_abroad_overview_wa1nhg.jpg",
                 quickFacts: ["Warsaw", "50%", "Polish Zloty (PLN)", "Approx. 3.67 crores"],
-                univeristes: [
-                    {
-                        name: "Asian Medical Institute",
-                        image: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741854620/Kyrgyzstan_mbbs_university_1_n5hxtq.jpg",
-                        slug: "asian-medical-institute",
-                        country : "Poland ",
-                        overview : ["Poland offers a fantastic opportunity for international students who dream of becoming doctors. You can get a world-class medical education at a reasonable cost while studying in a beautiful European country. The best part? Polish medical degrees are highly respected throughout the European Union, opening doors for you to work and practice medicine across the continent after graduation.Most Polish universities offer English-taught programs, making it easy for students from all over the world to understand and succeed. The program typically lasts six years, combining five years of in-depth learning with a critical year of hands-on training in hospitals. This well-rounded approach ensures you graduate with the knowledge and practical skills needed to excel in the medical field."],
-                        academic : ["The Asian Medical Institute (ASMI), located in Kant, Kyrgyzstan, has emerged as a leading medical institution, attracting students from around the globe who aspire to pursue careers in healthcare. It offers a range of medical programs. ASMI has gained recognition for its commitment to providing high-quality education at affordable tuition fees, making it an attractive option for students seeking a cost-effective medical education abroad. The university's dedication to academic excellence is reflected in its curriculum, which is designed to meet international standards and equip students with the knowledge and skills necessary to succeed in the medical profession."],
-                        academicImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741854613/Kyrgyzstan_mbbs_university_1_academic_pic_iorlud.jpg",
-                        faculties : [
-                            "Department of Dentistry",
-                            "Department of General Medicine",
-                            "Department of Nursing",
-                            "Department of Obstetrics",
-                            "Department of Paediatrics",
-                            "Department of Psychiatry",
-                        ],
-                        facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1739793855/img_bg_sybjt5.png",
-                        affilationRecognition : ["World Health Organization (WHO)","Medical Council of India (MCI)","Foundation for the Advancement of Education and International Medical Research (FAIMER)","National Medical Commission of India (NMC)"],
-                    },
+                // univeristes: [
+                //     {
+                //         name: "Asian Medical Institute",
+                //         image: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741854620/Kyrgyzstan_mbbs_university_1_n5hxtq.jpg",
+                //         slug: "asian-medical-institute",
+                //         country : "Poland ",
+                //         overview : ["Poland offers a fantastic opportunity for international students who dream of becoming doctors. You can get a world-class medical education at a reasonable cost while studying in a beautiful European country. The best part? Polish medical degrees are highly respected throughout the European Union, opening doors for you to work and practice medicine across the continent after graduation.Most Polish universities offer English-taught programs, making it easy for students from all over the world to understand and succeed. The program typically lasts six years, combining five years of in-depth learning with a critical year of hands-on training in hospitals. This well-rounded approach ensures you graduate with the knowledge and practical skills needed to excel in the medical field."],
+                //         academic : ["The Asian Medical Institute (ASMI), located in Kant, Kyrgyzstan, has emerged as a leading medical institution, attracting students from around the globe who aspire to pursue careers in healthcare. It offers a range of medical programs. ASMI has gained recognition for its commitment to providing high-quality education at affordable tuition fees, making it an attractive option for students seeking a cost-effective medical education abroad. The university's dedication to academic excellence is reflected in its curriculum, which is designed to meet international standards and equip students with the knowledge and skills necessary to succeed in the medical profession."],
+                //         academicImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741854613/Kyrgyzstan_mbbs_university_1_academic_pic_iorlud.jpg",
+                //         faculties : [
+                //             "Department of Dentistry",
+                //             "Department of General Medicine",
+                //             "Department of Nursing",
+                //             "Department of Obstetrics",
+                //             "Department of Paediatrics",
+                //             "Department of Psychiatry",
+                //         ],
+                //         facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1739793855/img_bg_sybjt5.png",
+                //         affilationRecognition : ["World Health Organization (WHO)","Medical Council of India (MCI)","Foundation for the Advancement of Education and International Medical Research (FAIMER)","National Medical Commission of India (NMC)"],
+                //     },
                 
-                      {
-                        name: "OSH State Medical University",
-                        image: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741854652/Kyrgyzstan_mbbs_university_2_tce3f1.jpg",
-                        slug: "osh-state-medical-university",
-                        country : "kyrgyzstan",
-                        overview : ["Osh State Medical University, a prominent institution in Kyrgyzstan, has a long-standing tradition of welcoming and training international students, dating back to 1993. Over the years, the International Medical Faculty at Osh State University has fostered a diverse and vibrant academic community, attracting students from over twenty countries across the globe. This rich tapestry of cultures creates a unique and enriching learning environment for all students. Currently, Osh State Medical University boasts a student body of over 3,500, with more than a thousand international students representing countries such as India, Pakistan, Nepal, Palestine, Syria, Turkey"],
-                        academic : ["Osh State Medical University, a prominent institution in Kyrgyzstan, offers a comprehensive range of medical education programs, catering to aspiring healthcare professionals at various stages of their academic journeys. The university provides undergraduate programs, including the MBBS (Bachelor of Medicine, Bachelor of Surgery) degree, which forms the foundation for a career in medicine. In addition to the MBBS program, Osh State Medical University also offers MD (Doctor of Medicine) and BDS (Bachelor of Dental Surgery) programs, providing students with diverse pathways to specialize in their chosen fields within the healthcare sector. These undergraduate programs are designed to provide students with a strong foundation in basic medical sciences, clinical skills, and ethical principles, preparing them for the challenges and rewards of a medical career."],
-                        academicImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741855648/Kyrgyzstan_mbbs_university_2_academic_pic_d3fw2c.jpg",
-                        faculties : [
-                            "Department of Anatomy",
-                            "Department of Biochemistry",
-                            "Department of Community Medicine",
-                            "Department of Forensic Medicine",
-                            "Department of Microbiology",
-                        ],
-                        facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1739793855/img_bg_sybjt5.png",
-                        affilationRecognition : ["World Directory of Medical Schools (WDOMS)","National Medical Commission of India (NMC)","World Health Organization (WHO)","Affiliated with the International Medical Education Directory (IMED)"],
-                    },
+                //       {
+                //         name: "OSH State Medical University",
+                //         image: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741854652/Kyrgyzstan_mbbs_university_2_tce3f1.jpg",
+                //         slug: "osh-state-medical-university",
+                //         country : "kyrgyzstan",
+                //         overview : ["Osh State Medical University, a prominent institution in Kyrgyzstan, has a long-standing tradition of welcoming and training international students, dating back to 1993. Over the years, the International Medical Faculty at Osh State University has fostered a diverse and vibrant academic community, attracting students from over twenty countries across the globe. This rich tapestry of cultures creates a unique and enriching learning environment for all students. Currently, Osh State Medical University boasts a student body of over 3,500, with more than a thousand international students representing countries such as India, Pakistan, Nepal, Palestine, Syria, Turkey"],
+                //         academic : ["Osh State Medical University, a prominent institution in Kyrgyzstan, offers a comprehensive range of medical education programs, catering to aspiring healthcare professionals at various stages of their academic journeys. The university provides undergraduate programs, including the MBBS (Bachelor of Medicine, Bachelor of Surgery) degree, which forms the foundation for a career in medicine. In addition to the MBBS program, Osh State Medical University also offers MD (Doctor of Medicine) and BDS (Bachelor of Dental Surgery) programs, providing students with diverse pathways to specialize in their chosen fields within the healthcare sector. These undergraduate programs are designed to provide students with a strong foundation in basic medical sciences, clinical skills, and ethical principles, preparing them for the challenges and rewards of a medical career."],
+                //         academicImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741855648/Kyrgyzstan_mbbs_university_2_academic_pic_d3fw2c.jpg",
+                //         faculties : [
+                //             "Department of Anatomy",
+                //             "Department of Biochemistry",
+                //             "Department of Community Medicine",
+                //             "Department of Forensic Medicine",
+                //             "Department of Microbiology",
+                //         ],
+                //         facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1739793855/img_bg_sybjt5.png",
+                //         affilationRecognition : ["World Directory of Medical Schools (WDOMS)","National Medical Commission of India (NMC)","World Health Organization (WHO)","Affiliated with the International Medical Education Directory (IMED)"],
+                //     },
                 
-                     {
-                        name: "International School of Medicine (ISM)",
-                        image: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741854694/Kyrgyzstan_mbbs_university_3_xhfwx8.png",
-                        slug: "international-school-of-medicine",
-                        country : "kyrgyzstan",
-                        overview : ["The International School of Medicine (ISM) in Bishkek, Kyrgyzstan, stands as a prominent private medical university, offering a wide array of programs, including undergraduate, postgraduate, and doctoral degrees in various medical specialties. This diverse offering allows aspiring medical professionals to pursue their educational goals at different stages of their careers, from initial medical training to advanced specialization and research. ISM has earned a strong reputation for its commitment to academic excellence, attracting students from around the world who seek a high-quality medical education."],
-                        academic : ["The academic structure at the International School of Medicine (ISM) in Bishkek, Kyrgyzstan, is designed to provide students with a comprehensive and well-rounded medical education, combining a strong foundation in theoretical knowledge with essential practical skills. The program spans a total of six years, beginning with five years of intensive theoretical study. During this phase, students delve into the core principles of medical science, covering a wide range of subjects, from anatomy and physiology to pharmacology and pathology. The curriculum is designed to provide students with a deep understanding of the human body, disease processes, and treatment modalities, laying the groundwork for their future clinical practice."],
-                        academicImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741857500/Kyrgyzstan_mbbs_university_4_academic_plhcd3.webp",
-                        faculties : [
-                            "Department of Humanitarian Disciplines",
-                            "Department of Nursing",
-                            "Department of Internal Medicine",
-                            "Department of Surgery",
-                            "Department of Public Health",
-                        ],
-                        facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1739793855/img_bg_sybjt5.png",
-                        affilationRecognition : ["MCI (Medical Council of India)","World Health Organization (WHO)","National Medical Commission of India (NMC)","World Health Organization (WHO)"],
-                    },
+                //      {
+                //         name: "International School of Medicine (ISM)",
+                //         image: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741854694/Kyrgyzstan_mbbs_university_3_xhfwx8.png",
+                //         slug: "international-school-of-medicine",
+                //         country : "kyrgyzstan",
+                //         overview : ["The International School of Medicine (ISM) in Bishkek, Kyrgyzstan, stands as a prominent private medical university, offering a wide array of programs, including undergraduate, postgraduate, and doctoral degrees in various medical specialties. This diverse offering allows aspiring medical professionals to pursue their educational goals at different stages of their careers, from initial medical training to advanced specialization and research. ISM has earned a strong reputation for its commitment to academic excellence, attracting students from around the world who seek a high-quality medical education."],
+                //         academic : ["The academic structure at the International School of Medicine (ISM) in Bishkek, Kyrgyzstan, is designed to provide students with a comprehensive and well-rounded medical education, combining a strong foundation in theoretical knowledge with essential practical skills. The program spans a total of six years, beginning with five years of intensive theoretical study. During this phase, students delve into the core principles of medical science, covering a wide range of subjects, from anatomy and physiology to pharmacology and pathology. The curriculum is designed to provide students with a deep understanding of the human body, disease processes, and treatment modalities, laying the groundwork for their future clinical practice."],
+                //         academicImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741857500/Kyrgyzstan_mbbs_university_4_academic_plhcd3.webp",
+                //         faculties : [
+                //             "Department of Humanitarian Disciplines",
+                //             "Department of Nursing",
+                //             "Department of Internal Medicine",
+                //             "Department of Surgery",
+                //             "Department of Public Health",
+                //         ],
+                //         facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1739793855/img_bg_sybjt5.png",
+                //         affilationRecognition : ["MCI (Medical Council of India)","World Health Organization (WHO)","National Medical Commission of India (NMC)","World Health Organization (WHO)"],
+                //     },
                 
-                      {
-                        name: "Kyrgyz State Medical University",
-                        image: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741854706/Kyrgyzstan_mbbs_university_4_bclzvu.webp",
-                        slug: "kyrgyz-state-medical-university",
-                        country : "kyrgyzstan",
-                        overview : ["Kyrgyz State Medical Academy (KSMA), a leading government university located in Bishkek, Kyrgyzstan, has established itself as a leading center for medical education in the region. With a rich history and a commitment to academic excellence, KSMA attracts students from around the world, particularly those seeking a high-quality medical education at an affordable cost. To become a leading center of medical education and science in the Asian region, a medical institution must cultivate a multifaceted approach encompassing academic excellence, research innovation, and community engagement. This vision necessitates a commitment to attracting and retaining top-tier faculty, fostering a stimulating learning environment, and providing students with access to cutting-edge resources and technology."],
-                        academic : ["Kyrgyz State Medical Academy (KSMA) in Bishkek, Kyrgyzstan, stands as a leading institution in medical education, offering a comprehensive range of programs for aspiring healthcare professionals. These programs span all levels of study, from undergraduate to postgraduate and doctoral degrees, providing students with a clear pathway to advance their medical careers. KSMA's commitment to academic excellence has earned it global recognition. The university is considered a top medical institution in Kyrgyzstan and is recognized by prestigious international organizations such as the World Health Organization, ensuring that its degrees are respected and valued worldwide. This international recognition opens doors for graduates to pursue professional opportunities in various countries, expanding their career horizons."],
-                        academicImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741854698/Kyrgyzstan_mbbs_university_3_academic_jc78kg.jpg",
-                        faculties : [
-                            "Department of Clinical Pharmacology",
-                            "Department of Biochemistry",
-                            "Department of Clinical Epidemiology",
-                            "Department of Medicine and Nursing",
-                            "Department of General Medicine",
-                        ],
-                        facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1739793855/img_bg_sybjt5.png",
-                        affilationRecognition : ["Medical Council of India (MCI)","FAIMER","National Medical Commission of India (NMC)","World Health Organization (WHO)"],
-                    },
-                ],
+                //       {
+                //         name: "Kyrgyz State Medical University",
+                //         image: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741854706/Kyrgyzstan_mbbs_university_4_bclzvu.webp",
+                //         slug: "kyrgyz-state-medical-university",
+                //         country : "kyrgyzstan",
+                //         overview : ["Kyrgyz State Medical Academy (KSMA), a leading government university located in Bishkek, Kyrgyzstan, has established itself as a leading center for medical education in the region. With a rich history and a commitment to academic excellence, KSMA attracts students from around the world, particularly those seeking a high-quality medical education at an affordable cost. To become a leading center of medical education and science in the Asian region, a medical institution must cultivate a multifaceted approach encompassing academic excellence, research innovation, and community engagement. This vision necessitates a commitment to attracting and retaining top-tier faculty, fostering a stimulating learning environment, and providing students with access to cutting-edge resources and technology."],
+                //         academic : ["Kyrgyz State Medical Academy (KSMA) in Bishkek, Kyrgyzstan, stands as a leading institution in medical education, offering a comprehensive range of programs for aspiring healthcare professionals. These programs span all levels of study, from undergraduate to postgraduate and doctoral degrees, providing students with a clear pathway to advance their medical careers. KSMA's commitment to academic excellence has earned it global recognition. The university is considered a top medical institution in Kyrgyzstan and is recognized by prestigious international organizations such as the World Health Organization, ensuring that its degrees are respected and valued worldwide. This international recognition opens doors for graduates to pursue professional opportunities in various countries, expanding their career horizons."],
+                //         academicImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741854698/Kyrgyzstan_mbbs_university_3_academic_jc78kg.jpg",
+                //         faculties : [
+                //             "Department of Clinical Pharmacology",
+                //             "Department of Biochemistry",
+                //             "Department of Clinical Epidemiology",
+                //             "Department of Medicine and Nursing",
+                //             "Department of General Medicine",
+                //         ],
+                //         facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1739793855/img_bg_sybjt5.png",
+                //         affilationRecognition : ["Medical Council of India (MCI)","FAIMER","National Medical Commission of India (NMC)","World Health Organization (WHO)"],
+                //     },
+                // ],
 
 
                 eligibilityPoints: [
@@ -1332,96 +1332,96 @@ export async function GET(request, { params }) {
                     },
                 ],
                 advantages: ["Quality Education", "No Entrance Exams" ,"Post-Graduation Opportunities" ,"International Recognition"],
-                advantageImg: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741854678/Mbbs_in_kyrgyzstan_university_pic_vrbz7l.jpg",
+                advantageImg: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742374907/Poland_mbbs_in_abroad_advantage_pic_o6ywsg.jpg",
             },
 
             //Dubai
 
             {
                 country: 'Dubai',
-                flag_link: 'https://res.cloudinary.com/dqggm4k7u/image/upload/v1741854591/Kyrgyzstan_logo_dhosw2.png',
-                mainImg: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741854634/Mbbs_in_Kyrgyzstan_pic_awazh3.jpg",
+                flag_link: 'https://res.cloudinary.com/dqggm4k7u/image/upload/v1742375108/dubai_logo_eey2a7.png',
+                mainImg: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742375136/Dubai_mbbs_in_abroad_hero_uarhjb.jpg",
                 overviewText: "Dubai has become a highly popular destination for international students pursuing MBBS degrees. Several factors contribute to its attractiveness. Dubai boasts world-class medical universities with modern facilities and experienced faculty. These institutions offer a rigorous and comprehensive medical education, preparing students with the knowledge and skills necessary to excel in the field.Dubai's multicultural environment provides a unique and enriching learning experience. Students from diverse backgrounds interact, fostering a global perspective and enhancing their understanding of different cultures and healthcare systems. This exposure to diverse viewpoints is invaluable in preparing future doctors to serve a globalized world.",
-                overviewImg: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741854602/Mbbs_in_Kyrgyzstan_overview_pic_o06k77.jpg",
+                overviewImg: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742375143/Dubai_mbbs_in_abroad_overview_elcbwa.webp",
                 quickFacts: ["", "75%", "Dirham (AED)", "36.4 lakhs"],
-                univeristes: [
-                    {
-                        name: "Asian Medical Institute",
-                        image: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741854620/Kyrgyzstan_mbbs_university_1_n5hxtq.jpg",
-                        slug: "asian-medical-institute",
-                        country : "kyrgyzstan ",
-                        overview : ["The Asian Medical Institute (ASMI), located in Kant, Kyrgyzstan, has emerged as a leading medical institution, attracting students from around the globe who aspire to pursue careers in healthcare. It offers a range of medical programs. ASMI has gained recognition for its commitment to providing high-quality education at affordable tuition fees, making it an attractive option for students seeking a cost-effective medical education abroad. ASMI's faculty comprises experienced professionals and scholars who are passionate about teaching and mentoring the next generation of medical practitioners. The university also provides students with access to modern facilities, well-equipped laboratories, and a comprehensive library, ensuring they have the resources they need to excel in their studies."],
-                        academic : ["The Asian Medical Institute (ASMI), located in Kant, Kyrgyzstan, has emerged as a leading medical institution, attracting students from around the globe who aspire to pursue careers in healthcare. It offers a range of medical programs. ASMI has gained recognition for its commitment to providing high-quality education at affordable tuition fees, making it an attractive option for students seeking a cost-effective medical education abroad. The university's dedication to academic excellence is reflected in its curriculum, which is designed to meet international standards and equip students with the knowledge and skills necessary to succeed in the medical profession."],
-                        academicImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741854613/Kyrgyzstan_mbbs_university_1_academic_pic_iorlud.jpg",
-                        faculties : [
-                            "Department of Dentistry",
-                            "Department of General Medicine",
-                            "Department of Nursing",
-                            "Department of Obstetrics",
-                            "Department of Paediatrics",
-                            "Department of Psychiatry",
-                        ],
-                        facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1739793855/img_bg_sybjt5.png",
-                        affilationRecognition : ["World Health Organization (WHO)","Medical Council of India (MCI)","Foundation for the Advancement of Education and International Medical Research (FAIMER)","National Medical Commission of India (NMC)"],
-                    },
+                // univeristes: [
+                //     {
+                //         name: "Asian Medical Institute",
+                //         image: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741854620/Kyrgyzstan_mbbs_university_1_n5hxtq.jpg",
+                //         slug: "asian-medical-institute",
+                //         country : "kyrgyzstan ",
+                //         overview : ["The Asian Medical Institute (ASMI), located in Kant, Kyrgyzstan, has emerged as a leading medical institution, attracting students from around the globe who aspire to pursue careers in healthcare. It offers a range of medical programs. ASMI has gained recognition for its commitment to providing high-quality education at affordable tuition fees, making it an attractive option for students seeking a cost-effective medical education abroad. ASMI's faculty comprises experienced professionals and scholars who are passionate about teaching and mentoring the next generation of medical practitioners. The university also provides students with access to modern facilities, well-equipped laboratories, and a comprehensive library, ensuring they have the resources they need to excel in their studies."],
+                //         academic : ["The Asian Medical Institute (ASMI), located in Kant, Kyrgyzstan, has emerged as a leading medical institution, attracting students from around the globe who aspire to pursue careers in healthcare. It offers a range of medical programs. ASMI has gained recognition for its commitment to providing high-quality education at affordable tuition fees, making it an attractive option for students seeking a cost-effective medical education abroad. The university's dedication to academic excellence is reflected in its curriculum, which is designed to meet international standards and equip students with the knowledge and skills necessary to succeed in the medical profession."],
+                //         academicImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741854613/Kyrgyzstan_mbbs_university_1_academic_pic_iorlud.jpg",
+                //         faculties : [
+                //             "Department of Dentistry",
+                //             "Department of General Medicine",
+                //             "Department of Nursing",
+                //             "Department of Obstetrics",
+                //             "Department of Paediatrics",
+                //             "Department of Psychiatry",
+                //         ],
+                //         facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1739793855/img_bg_sybjt5.png",
+                //         affilationRecognition : ["World Health Organization (WHO)","Medical Council of India (MCI)","Foundation for the Advancement of Education and International Medical Research (FAIMER)","National Medical Commission of India (NMC)"],
+                //     },
                 
-                      {
-                        name: "OSH State Medical University",
-                        image: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741854652/Kyrgyzstan_mbbs_university_2_tce3f1.jpg",
-                        slug: "osh-state-medical-university",
-                        country : "kyrgyzstan",
-                        overview : ["Osh State Medical University, a prominent institution in Kyrgyzstan, has a long-standing tradition of welcoming and training international students, dating back to 1993. Over the years, the International Medical Faculty at Osh State University has fostered a diverse and vibrant academic community, attracting students from over twenty countries across the globe. This rich tapestry of cultures creates a unique and enriching learning environment for all students. Currently, Osh State Medical University boasts a student body of over 3,500, with more than a thousand international students representing countries such as India, Pakistan, Nepal, Palestine, Syria, Turkey"],
-                        academic : ["Osh State Medical University, a prominent institution in Kyrgyzstan, offers a comprehensive range of medical education programs, catering to aspiring healthcare professionals at various stages of their academic journeys. The university provides undergraduate programs, including the MBBS (Bachelor of Medicine, Bachelor of Surgery) degree, which forms the foundation for a career in medicine. In addition to the MBBS program, Osh State Medical University also offers MD (Doctor of Medicine) and BDS (Bachelor of Dental Surgery) programs, providing students with diverse pathways to specialize in their chosen fields within the healthcare sector. These undergraduate programs are designed to provide students with a strong foundation in basic medical sciences, clinical skills, and ethical principles, preparing them for the challenges and rewards of a medical career."],
-                        academicImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741855648/Kyrgyzstan_mbbs_university_2_academic_pic_d3fw2c.jpg",
-                        faculties : [
-                            "Department of Anatomy",
-                            "Department of Biochemistry",
-                            "Department of Community Medicine",
-                            "Department of Forensic Medicine",
-                            "Department of Microbiology",
-                        ],
-                        facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1739793855/img_bg_sybjt5.png",
-                        affilationRecognition : ["World Directory of Medical Schools (WDOMS)","National Medical Commission of India (NMC)","World Health Organization (WHO)","Affiliated with the International Medical Education Directory (IMED)"],
-                    },
+                //       {
+                //         name: "OSH State Medical University",
+                //         image: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741854652/Kyrgyzstan_mbbs_university_2_tce3f1.jpg",
+                //         slug: "osh-state-medical-university",
+                //         country : "kyrgyzstan",
+                //         overview : ["Osh State Medical University, a prominent institution in Kyrgyzstan, has a long-standing tradition of welcoming and training international students, dating back to 1993. Over the years, the International Medical Faculty at Osh State University has fostered a diverse and vibrant academic community, attracting students from over twenty countries across the globe. This rich tapestry of cultures creates a unique and enriching learning environment for all students. Currently, Osh State Medical University boasts a student body of over 3,500, with more than a thousand international students representing countries such as India, Pakistan, Nepal, Palestine, Syria, Turkey"],
+                //         academic : ["Osh State Medical University, a prominent institution in Kyrgyzstan, offers a comprehensive range of medical education programs, catering to aspiring healthcare professionals at various stages of their academic journeys. The university provides undergraduate programs, including the MBBS (Bachelor of Medicine, Bachelor of Surgery) degree, which forms the foundation for a career in medicine. In addition to the MBBS program, Osh State Medical University also offers MD (Doctor of Medicine) and BDS (Bachelor of Dental Surgery) programs, providing students with diverse pathways to specialize in their chosen fields within the healthcare sector. These undergraduate programs are designed to provide students with a strong foundation in basic medical sciences, clinical skills, and ethical principles, preparing them for the challenges and rewards of a medical career."],
+                //         academicImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741855648/Kyrgyzstan_mbbs_university_2_academic_pic_d3fw2c.jpg",
+                //         faculties : [
+                //             "Department of Anatomy",
+                //             "Department of Biochemistry",
+                //             "Department of Community Medicine",
+                //             "Department of Forensic Medicine",
+                //             "Department of Microbiology",
+                //         ],
+                //         facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1739793855/img_bg_sybjt5.png",
+                //         affilationRecognition : ["World Directory of Medical Schools (WDOMS)","National Medical Commission of India (NMC)","World Health Organization (WHO)","Affiliated with the International Medical Education Directory (IMED)"],
+                //     },
                 
-                     {
-                        name: "International School of Medicine (ISM)",
-                        image: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741854694/Kyrgyzstan_mbbs_university_3_xhfwx8.png",
-                        slug: "international-school-of-medicine",
-                        country : "kyrgyzstan",
-                        overview : ["The International School of Medicine (ISM) in Bishkek, Kyrgyzstan, stands as a prominent private medical university, offering a wide array of programs, including undergraduate, postgraduate, and doctoral degrees in various medical specialties. This diverse offering allows aspiring medical professionals to pursue their educational goals at different stages of their careers, from initial medical training to advanced specialization and research. ISM has earned a strong reputation for its commitment to academic excellence, attracting students from around the world who seek a high-quality medical education."],
-                        academic : ["The academic structure at the International School of Medicine (ISM) in Bishkek, Kyrgyzstan, is designed to provide students with a comprehensive and well-rounded medical education, combining a strong foundation in theoretical knowledge with essential practical skills. The program spans a total of six years, beginning with five years of intensive theoretical study. During this phase, students delve into the core principles of medical science, covering a wide range of subjects, from anatomy and physiology to pharmacology and pathology. The curriculum is designed to provide students with a deep understanding of the human body, disease processes, and treatment modalities, laying the groundwork for their future clinical practice."],
-                        academicImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741857500/Kyrgyzstan_mbbs_university_4_academic_plhcd3.webp",
-                        faculties : [
-                            "Department of Humanitarian Disciplines",
-                            "Department of Nursing",
-                            "Department of Internal Medicine",
-                            "Department of Surgery",
-                            "Department of Public Health",
-                        ],
-                        facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1739793855/img_bg_sybjt5.png",
-                        affilationRecognition : ["MCI (Medical Council of India)","World Health Organization (WHO)","National Medical Commission of India (NMC)","World Health Organization (WHO)"],
-                    },
+                //      {
+                //         name: "International School of Medicine (ISM)",
+                //         image: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741854694/Kyrgyzstan_mbbs_university_3_xhfwx8.png",
+                //         slug: "international-school-of-medicine",
+                //         country : "kyrgyzstan",
+                //         overview : ["The International School of Medicine (ISM) in Bishkek, Kyrgyzstan, stands as a prominent private medical university, offering a wide array of programs, including undergraduate, postgraduate, and doctoral degrees in various medical specialties. This diverse offering allows aspiring medical professionals to pursue their educational goals at different stages of their careers, from initial medical training to advanced specialization and research. ISM has earned a strong reputation for its commitment to academic excellence, attracting students from around the world who seek a high-quality medical education."],
+                //         academic : ["The academic structure at the International School of Medicine (ISM) in Bishkek, Kyrgyzstan, is designed to provide students with a comprehensive and well-rounded medical education, combining a strong foundation in theoretical knowledge with essential practical skills. The program spans a total of six years, beginning with five years of intensive theoretical study. During this phase, students delve into the core principles of medical science, covering a wide range of subjects, from anatomy and physiology to pharmacology and pathology. The curriculum is designed to provide students with a deep understanding of the human body, disease processes, and treatment modalities, laying the groundwork for their future clinical practice."],
+                //         academicImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741857500/Kyrgyzstan_mbbs_university_4_academic_plhcd3.webp",
+                //         faculties : [
+                //             "Department of Humanitarian Disciplines",
+                //             "Department of Nursing",
+                //             "Department of Internal Medicine",
+                //             "Department of Surgery",
+                //             "Department of Public Health",
+                //         ],
+                //         facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1739793855/img_bg_sybjt5.png",
+                //         affilationRecognition : ["MCI (Medical Council of India)","World Health Organization (WHO)","National Medical Commission of India (NMC)","World Health Organization (WHO)"],
+                //     },
                 
-                      {
-                        name: "Kyrgyz State Medical University",
-                        image: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741854706/Kyrgyzstan_mbbs_university_4_bclzvu.webp",
-                        slug: "kyrgyz-state-medical-university",
-                        country : "kyrgyzstan",
-                        overview : ["Kyrgyz State Medical Academy (KSMA), a leading government university located in Bishkek, Kyrgyzstan, has established itself as a leading center for medical education in the region. With a rich history and a commitment to academic excellence, KSMA attracts students from around the world, particularly those seeking a high-quality medical education at an affordable cost. To become a leading center of medical education and science in the Asian region, a medical institution must cultivate a multifaceted approach encompassing academic excellence, research innovation, and community engagement. This vision necessitates a commitment to attracting and retaining top-tier faculty, fostering a stimulating learning environment, and providing students with access to cutting-edge resources and technology."],
-                        academic : ["Kyrgyz State Medical Academy (KSMA) in Bishkek, Kyrgyzstan, stands as a leading institution in medical education, offering a comprehensive range of programs for aspiring healthcare professionals. These programs span all levels of study, from undergraduate to postgraduate and doctoral degrees, providing students with a clear pathway to advance their medical careers. KSMA's commitment to academic excellence has earned it global recognition. The university is considered a top medical institution in Kyrgyzstan and is recognized by prestigious international organizations such as the World Health Organization, ensuring that its degrees are respected and valued worldwide. This international recognition opens doors for graduates to pursue professional opportunities in various countries, expanding their career horizons."],
-                        academicImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741854698/Kyrgyzstan_mbbs_university_3_academic_jc78kg.jpg",
-                        faculties : [
-                            "Department of Clinical Pharmacology",
-                            "Department of Biochemistry",
-                            "Department of Clinical Epidemiology",
-                            "Department of Medicine and Nursing",
-                            "Department of General Medicine",
-                        ],
-                        facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1739793855/img_bg_sybjt5.png",
-                        affilationRecognition : ["Medical Council of India (MCI)","FAIMER","National Medical Commission of India (NMC)","World Health Organization (WHO)"],
-                    },
-                ],
+                //       {
+                //         name: "Kyrgyz State Medical University",
+                //         image: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741854706/Kyrgyzstan_mbbs_university_4_bclzvu.webp",
+                //         slug: "kyrgyz-state-medical-university",
+                //         country : "kyrgyzstan",
+                //         overview : ["Kyrgyz State Medical Academy (KSMA), a leading government university located in Bishkek, Kyrgyzstan, has established itself as a leading center for medical education in the region. With a rich history and a commitment to academic excellence, KSMA attracts students from around the world, particularly those seeking a high-quality medical education at an affordable cost. To become a leading center of medical education and science in the Asian region, a medical institution must cultivate a multifaceted approach encompassing academic excellence, research innovation, and community engagement. This vision necessitates a commitment to attracting and retaining top-tier faculty, fostering a stimulating learning environment, and providing students with access to cutting-edge resources and technology."],
+                //         academic : ["Kyrgyz State Medical Academy (KSMA) in Bishkek, Kyrgyzstan, stands as a leading institution in medical education, offering a comprehensive range of programs for aspiring healthcare professionals. These programs span all levels of study, from undergraduate to postgraduate and doctoral degrees, providing students with a clear pathway to advance their medical careers. KSMA's commitment to academic excellence has earned it global recognition. The university is considered a top medical institution in Kyrgyzstan and is recognized by prestigious international organizations such as the World Health Organization, ensuring that its degrees are respected and valued worldwide. This international recognition opens doors for graduates to pursue professional opportunities in various countries, expanding their career horizons."],
+                //         academicImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741854698/Kyrgyzstan_mbbs_university_3_academic_jc78kg.jpg",
+                //         faculties : [
+                //             "Department of Clinical Pharmacology",
+                //             "Department of Biochemistry",
+                //             "Department of Clinical Epidemiology",
+                //             "Department of Medicine and Nursing",
+                //             "Department of General Medicine",
+                //         ],
+                //         facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1739793855/img_bg_sybjt5.png",
+                //         affilationRecognition : ["Medical Council of India (MCI)","FAIMER","National Medical Commission of India (NMC)","World Health Organization (WHO)"],
+                //     },
+                // ],
 
 
                 eligibilityPoints: [
@@ -1461,106 +1461,108 @@ export async function GET(request, { params }) {
                     },
                 ],
                 advantages: ["High Quality Education", "Advanced Medical Facilities" ,"Cultural Diversity" ,"Globally Recognized Degree"],
-                advantageImg: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741854678/Mbbs_in_kyrgyzstan_university_pic_vrbz7l.jpg",
+                advantageImg: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742375121/mbbs_dubai_byahai.jpg",
             },
 
             //Ukraine
 
             {
                 country: 'Ukraine',
-                flag_link: 'https://res.cloudinary.com/dqggm4k7u/image/upload/v1739792761/o4dr7q3ihsoh9ccgkxz6.png',
-                mainImg: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1739793558/img_container_wsmqin.png",
+                flag_link: 'https://res.cloudinary.com/dqggm4k7u/image/upload/v1742375712/Ukrain_logo_tpapan.png',
+                mainImg: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742375722/mbbs_in_ukraine_hero_niiwwe.jpg",
                 overviewText: "MBBS in Ukraine has become an attractive option for Indian students seeking quality medical education abroad. Ukrainian medical universities are recognized by global organizations such as the World Health Organization (WHO) and the National Medical Commission (NMC) of India, ensuring that graduates are qualified to practice medicine internationally. Ukraine is home to several top-ranking medical universities that attract international students.Choosing to pursue MBBS in Ukraine offers Indian students a combination of quality education, global recognition, affordability, and a supportive learning environment. These factors make Ukraine a compelling destination for medical aspirants aiming to build a successful career in medicine.",
-                overviewImg: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1739793987/ov_img_sny10k.png",
+                overviewImg: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742375727/mbbs_in_ukraine_overview_l4lphr.jpg",
                 quickFacts: ["Kyiv", "30%", "Hryvnia", "Approx. 3.7 crores"],
-                univeristes: [
+                // univeristes: [
                     
 
-                    {
-                        name: "Samarkand State Medical University",
-                        image: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741069514/img_container_tqemkk.png",
-                        slug: "samarkand-state-medical-university",
-                        country : "uzbekistan",
-                        overview : ["Samarkand State Medical University, established in 1930 as the State Uzbek Medical Institute, has evolved significantly over its 90-year history. Following Uzbekistan`'`s independence in 1991, the university experienced notable growth with the implementation of various educational and healthcare reform programs. These initiatives led to the establishment of new faculties and courses, including traditional medicine." , "In December 2021, Uzbekistan introduced reforms granting greater autonomy to public higher education institutions, empowering Samarkand State Medical University to make independent decisions regarding curriculum development and international partnerships."],
-                        academic : ["The Academic Lyceum at Samarkand State Medical University (Academic Lyceum No.1 at SamSMU) started in 2004-2005 to teach natural sciences. Initially, it was under different leadership but eventually integrated into Samarkand State Medical Institute. Now, with Director Associate Professor H.I. Mahmudova, it focuses on providing quality education in biology, chemistry, and other subjects. The lyceum has modern facilities and organizes events to discover students' talents. Graduates become Chemist Laboratory Technicians and have succeeded in national and international competitions. The lyceum aims to keep preparing skilled graduates for Uzbekistan's future."],
-                        academicImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741764850/Uzbekistan_university_1_academic_tnqmtt.png",
-                        faculties : [
-                            "Faculty of Medicine",
-                            "Faculty of Pharmacy",
-                            "Faculty of Higher Nursing",
-                            "Faculty of pediatrics",
-                            "Faculty of Dentistry",
-                            "Faculty of Medical Pedagogy"
+                //     {
+                //         name: "Samarkand State Medical University",
+                //         image: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741069514/img_container_tqemkk.png",
+                //         slug: "samarkand-state-medical-university",
+                //         country : "uzbekistan",
+                //         overview : ["Samarkand State Medical University, established in 1930 as the State Uzbek Medical Institute, has evolved significantly over its 90-year history. Following Uzbekistan`'`s independence in 1991, the university experienced notable growth with the implementation of various educational and healthcare reform programs. These initiatives led to the establishment of new faculties and courses, including traditional medicine." , "In December 2021, Uzbekistan introduced reforms granting greater autonomy to public higher education institutions, empowering Samarkand State Medical University to make independent decisions regarding curriculum development and international partnerships."],
+                //         academic : ["The Academic Lyceum at Samarkand State Medical University (Academic Lyceum No.1 at SamSMU) started in 2004-2005 to teach natural sciences. Initially, it was under different leadership but eventually integrated into Samarkand State Medical Institute. Now, with Director Associate Professor H.I. Mahmudova, it focuses on providing quality education in biology, chemistry, and other subjects. The lyceum has modern facilities and organizes events to discover students' talents. Graduates become Chemist Laboratory Technicians and have succeeded in national and international competitions. The lyceum aims to keep preparing skilled graduates for Uzbekistan's future."],
+                //         academicImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741764850/Uzbekistan_university_1_academic_tnqmtt.png",
+                //         faculties : [
+                //             "Faculty of Medicine",
+                //             "Faculty of Pharmacy",
+                //             "Faculty of Higher Nursing",
+                //             "Faculty of pediatrics",
+                //             "Faculty of Dentistry",
+                //             "Faculty of Medical Pedagogy"
 
 
-                        ],
-                        facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1739793855/img_bg_sybjt5.png",
-                        affilationRecognition : ["Recognized by MCI","Recognized by FAIMER","NMC and WHO approved","United Nations Educational, Scientific and Cultural Organization (UNESCO)"],
-                    },
+                //         ],
+                //         facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1739793855/img_bg_sybjt5.png",
+                //         affilationRecognition : ["Recognized by MCI","Recognized by FAIMER","NMC and WHO approved","United Nations Educational, Scientific and Cultural Organization (UNESCO)"],
+                //     },
 
-                    {
-                        name: "Tashkent Medical Academy University",
-                        image: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741767035/pic_5_hbwmul.jpg",
-                        slug: "tashkent-medical-academy-university",
-                        country: "uzbekistan",
-                        overview: ["Between 1919 and 1931, the Faculty of Medicine at Tashkent State University was established, with Professor P. Sitnovsky becoming its Dean in 1919. Significant progress was made under the leadership of Professors KG Khrushchev and MI Slonim between 1921-1924 and 1924-1926. By 1923, the faculty had grown to 973 students, including 425 females. Various deans served during this period, such as PF Borovskii, NI Ragoza, and GP Fedorov."],
-                        academic: ["Tashkent Medical Academy (TMA) provides a comprehensive selection of academic programs, catering to a diverse range of interests within the medical field. At the undergraduate level, TMA offers Bachelor's degrees in various disciplines, including general medicine, medical pedagogy, preventive medicine, nursing, medical biology, and management. These programs equip students with a strong foundation in their chosen areas of specialization, preparing them for careers in healthcare and related fields."],
-                        academicImg: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741767783/pic_1_jbp3ed.jpg",
-                        faculties: [
-                            "Faculty of Medicine",
-                            "Faculty of pediatrics",
-                            "Faculty of Medical Pedagogy",
-                            "Faculty of Neuroscience",
-                            "Faculty of Dentistry",
-                            "Faculty of Pharmacy"
-                        ],
-                        facultyImg: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741767120/pic_4_l3uszb.jpg",
-                        affilationRecognition: ["Recognized by MCI (Medical Council of India)", "Recognized by FAIMER", "NMC and WHO approved", "United Nations Educational, Scientific and Cultural Organization (UNESCO)"]
-                    },
+                //     {
+                //         name: "Tashkent Medical Academy University",
+                //         image: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741767035/pic_5_hbwmul.jpg",
+                //         slug: "tashkent-medical-academy-university",
+                //         country: "uzbekistan",
+                //         overview: ["Between 1919 and 1931, the Faculty of Medicine at Tashkent State University was established, with Professor P. Sitnovsky becoming its Dean in 1919. Significant progress was made under the leadership of Professors KG Khrushchev and MI Slonim between 1921-1924 and 1924-1926. By 1923, the faculty had grown to 973 students, including 425 females. Various deans served during this period, such as PF Borovskii, NI Ragoza, and GP Fedorov."],
+                //         academic: ["Tashkent Medical Academy (TMA) provides a comprehensive selection of academic programs, catering to a diverse range of interests within the medical field. At the undergraduate level, TMA offers Bachelor's degrees in various disciplines, including general medicine, medical pedagogy, preventive medicine, nursing, medical biology, and management. These programs equip students with a strong foundation in their chosen areas of specialization, preparing them for careers in healthcare and related fields."],
+                //         academicImg: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741767783/pic_1_jbp3ed.jpg",
+                //         faculties: [
+                //             "Faculty of Medicine",
+                //             "Faculty of pediatrics",
+                //             "Faculty of Medical Pedagogy",
+                //             "Faculty of Neuroscience",
+                //             "Faculty of Dentistry",
+                //             "Faculty of Pharmacy"
+                //         ],
+                //         facultyImg: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741767120/pic_4_l3uszb.jpg",
+                //         affilationRecognition: ["Recognized by MCI (Medical Council of India)", "Recognized by FAIMER", "NMC and WHO approved", "United Nations Educational, Scientific and Cultural Organization (UNESCO)"]
+                //     },
                     
-                    {
-                        name: "Tashkent State Dental Institute",
-                        image: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741767949/Top_Uzbekistan_university_4_sejpg7.jpg",
-                        slug: "tashkent-state-dental-institute",
-                        country : "uzbekistan",
-                        overview : ["Founded in 2014, Tashkent State Dental Institute stands as a beacon of excellence in the heart of Tashkent, a city renowned for its architectural splendor and commitment to medical education. With its rapid growth, the institute has become a magnet for thousands of aspiring students annually, drawn by its reputation for providing top-tier education"],
-                        academic : ["Tashkent State Dental Institute (TSDI), established in 2014, provides a comprehensive dental education. It offers a 5-year undergraduate program in dentistry, alongside postgraduate programs including residencies and master's degrees. TSDI focuses on preparing students for successful clinical practice and research careers in various specialized areas of dentistry."],
-                        academicImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741769987/Tashkent_state_dental_2_vwahxw.jpg",
-                        faculties : [
-                            "Faculty of Medicine",
-                            "Faculty of Pharmacy",
-                            "Faculty of Higher Nursing",
-                            "Faculty of pediatrics",
-                            "Faculty of Dentistry",
-                            "Faculty of Medical Pedagogy"
+                //     {
+                //         name: "Tashkent State Dental Institute",
+                //         image: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741767949/Top_Uzbekistan_university_4_sejpg7.jpg",
+                //         slug: "tashkent-state-dental-institute",
+                //         country : "uzbekistan",
+                //         overview : ["Founded in 2014, Tashkent State Dental Institute stands as a beacon of excellence in the heart of Tashkent, a city renowned for its architectural splendor and commitment to medical education. With its rapid growth, the institute has become a magnet for thousands of aspiring students annually, drawn by its reputation for providing top-tier education"],
+                //         academic : ["Tashkent State Dental Institute (TSDI), established in 2014, provides a comprehensive dental education. It offers a 5-year undergraduate program in dentistry, alongside postgraduate programs including residencies and master's degrees. TSDI focuses on preparing students for successful clinical practice and research careers in various specialized areas of dentistry."],
+                //         academicImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741769987/Tashkent_state_dental_2_vwahxw.jpg",
+                //         faculties : [
+                //             "Faculty of Medicine",
+                //             "Faculty of Pharmacy",
+                //             "Faculty of Higher Nursing",
+                //             "Faculty of pediatrics",
+                //             "Faculty of Dentistry",
+                //             "Faculty of Medical Pedagogy"
 
 
-                        ],
-                        facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741769966/Tashkent_state_dental_1_pfmhbj.jpg",
-                        affilationRecognition : ["Recognized by the Medical Council of India (MCI).","NMC and WHO approved","Recognized by the Ministry of Health of the Republic of Uzbekistan"],
-                    },
+                //         ],
+                //         facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741769966/Tashkent_state_dental_1_pfmhbj.jpg",
+                //         affilationRecognition : ["Recognized by the Medical Council of India (MCI).","NMC and WHO approved","Recognized by the Ministry of Health of the Republic of Uzbekistan"],
+                //     },
 
-                    {
-                        name: "Andijan State Medical Institute",
-                        image: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741771360/Andijan_State_Medical_Institute_pic_tv5sdz.png",
-                        slug: "andijan-state-medical-institute",
-                        country: "uzbekistan",
-                        overview: ["Andijan State Medical Institute, situated in the ancient city of Fergana Valley, Andijan City. Established in 1955, Andijan State Medical Institute stands as a leading national institution in the Republic of Uzbekistan. Offering education across more than 56 diverse departments, it provides a comprehensive academic experience for aspiring medical professionals."],
-                        academic: ["Andijan State Medical Institute provides a broad spectrum of educational opportunities within the healthcare field. At the undergraduate level, the institute offers Bachelor's degrees in a substantial number of subjects, specifically 29, encompassing a wide array of medical, pediatric, and dental courses. This extensive offering allows students to specialize in their areas of interest, gaining a solid foundation for their future careers in healthcare. In addition to these Bachelor's programs, Andijan State Medical Institute also provides vocational courses, further expanding its educational reach."],
-                        academicImg: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741771856/pic_1_kjrd1l.jpg",
-                        faculties: [
-                            "Faculty of Medicine",
-                            "Faculty of pediatrics",
-                            "Department of Surgery",
-                            "Faculty of Gynecology",
-                            "Faculty of Dentistry",
-                            "Faculty of Pharmacy"
-                        ],
-                        facultyImg: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741771871/pic_7_hue4cz.jpg",
-                        affilationRecognition: ["Recognized by the National Medical Commission (NMC)", "World Health Organization (WHO)", "Recognized by the Ministry of Health of the Republic of Uzbekistan"]
-                    },
+                //     {
+                //         name: "Andijan State Medical Institute",
+                //         image: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741771360/Andijan_State_Medical_Institute_pic_tv5sdz.png",
+                //         slug: "andijan-state-medical-institute",
+                //         country: "uzbekistan",
+                //         overview: ["Andijan State Medical Institute, situated in the ancient city of Fergana Valley, Andijan City. Established in 1955, Andijan State Medical Institute stands as a leading national institution in the Republic of Uzbekistan. Offering education across more than 56 diverse departments, it provides a comprehensive academic experience for aspiring medical professionals."],
+                //         academic: ["Andijan State Medical Institute provides a broad spectrum of educational opportunities within the healthcare field. At the undergraduate level, the institute offers Bachelor's degrees in a substantial number of subjects, specifically 29, encompassing a wide array of medical, pediatric, and dental courses. This extensive offering allows students to specialize in their areas of interest, gaining a solid foundation for their future careers in healthcare. In addition to these Bachelor's programs, Andijan State Medical Institute also provides vocational courses, further expanding its educational reach."],
+                //         academicImg: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741771856/pic_1_kjrd1l.jpg",
+                //         faculties: [
+                //             "Faculty of Medicine",
+                //             "Faculty of pediatrics",
+                //             "Department of Surgery",
+                //             "Faculty of Gynecology",
+                //             "Faculty of Dentistry",
+                //             "Faculty of Pharmacy"
+                //         ],
+                //         facultyImg: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741771871/pic_7_hue4cz.jpg",
+                //         affilationRecognition: ["Recognized by the National Medical Commission (NMC)", "World Health Organization (WHO)", "Recognized by the Ministry of Health of the Republic of Uzbekistan"]
+                //     },
                     
-                ],
+                // ],
+               
+               
                 eligibilityPoints: [
                     {
                         title: "Age",
@@ -1602,7 +1604,7 @@ export async function GET(request, { params }) {
 
                 ],
                 advantages: ["Low cost of education", "English medium instruction" ,"Globally Recognized Degrees" ,"Quality clinical training"],
-                advantageImg: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1739825183/img_nbxth7.png",
+                advantageImg: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742375734/mbbs_in_Ukrain_aqlem2.jpg",
             },
          
         ];
