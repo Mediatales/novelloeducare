@@ -53,7 +53,7 @@ const Page = () => {
       image: "./assests/branch/dubai.png",
       address: "Bingezati heights, JVC Dubai",
       location: "UAE 56001",
-      phone: "+91-9720701796, +91-7017909721",
+      phone: "+97-1501852290",
       email: "novelloglobeeducare@gmail.com focusoverseas.eu@gmail.com",
     },
     {
@@ -61,7 +61,7 @@ const Page = () => {
       image: "./assests/branch/ukraine.png",
       address: "36 Pokrovsky street Lviv Oblast",
       location: "Lviv Ukraine 79010",
-      phone: "+91-9720701796, +91-7017909721",
+      phone: "+38-0930233953",
       email: "novelloglobeeducare@gmail.com focusoverseas.eu@gmail.com",
     },
   ];
