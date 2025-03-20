@@ -10,7 +10,7 @@ const Page = () => {
       image: "../assests/branch/delhi.png",
       address: "516, Somdutt chambers",
       location: "Bhikaji cama palace new delhi - 110066",
-      phone: "+91-9720701796, +91-7017909721",
+      phone: "+91-7017909721 , +91-9720701796, ",
       email: "novelloglobeeducare@gmail.com focusoverseas.eu@gmail.com",
     },
     {
@@ -18,7 +18,7 @@ const Page = () => {
       image: "../assests/branch/dehradun.png",
       address: "6  N0. Puliya, Near Arya Samaj Mandir Ring Road",
       location: "Dehradun",
-      phone: "+91-9720701796, +91-7017909721",
+      phone: "+91-8126532259, +91-7017909721",
       email: "novelloglobeeducare@gmail.com focusoverseas.eu@gmail.com",
     },
     {
@@ -34,7 +34,7 @@ const Page = () => {
       image: "../assests/branch/kota.png",
       address: "Bhagerwal Four Seasons, Opp. City Mall, Shop NO.Lg-17",
       location: "Kota Rajasthan",
-      phone: "+91-9720701796, +91-7017909721",
+      phone: "+91-8126532259, +91-7017909721",
       email: "novelloglobeeducare@gmail.com focusoverseas.eu@gmail.com",
     },
     {
@@ -42,7 +42,7 @@ const Page = () => {
       image: "../assests/branch/Ahmedabad.png",
       address: "FF/30/A,Orchid Shopping Mall, Nr. Goverdhan Party Plot",
       location: "Thaltej, Ahmedabad-380059",
-      phone: "+91-9720701796, +91-7017909721",
+      phone: "+91-8126532259, +91-7017909721",
       email: "novelloglobeeducare@gmail.com focusoverseas.eu@gmail.com",
     },
   ];

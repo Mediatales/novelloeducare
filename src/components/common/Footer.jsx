@@ -32,7 +32,7 @@ const Footer = () => {
             <h3 className="text-blue-800 font-semibold mb-4">Address</h3>
             <div className="text-gray-600 text-sm mb-2 flex items-start">
               <MdLocationOn className="text-blue-800 mt-1 mr-2 flex-shrink-0" />
-              <p>516, Somdutt chambers Bhikaji cama palace new delhi -110066</p>
+              <p>516, Somdutt Chambers ,Bhikaji cama Palace, New delhi -110066</p>
             </div>
             <div className="text-gray-600 text-sm mb-2 flex items-center">
               <MdPhone className="text-blue-800 mr-2 flex-shrink-0" />
