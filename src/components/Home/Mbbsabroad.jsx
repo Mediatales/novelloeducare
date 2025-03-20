@@ -10,16 +10,19 @@ import { Navigation, Pagination, Autoplay } from 'swiper/modules';
 
 const Mbbsabroad = () => {
   const images = [
-    './assests/mbbs/mbbs1.png',
-    './assests/mbbs/mbbs2.png',
-    './assests/mbbs/mbbs3.png',
-    './assests/mbbs/mbbs4.png',
-    // './assests/mbbs/mbbs5.png',
-    './assests/mbbs/mbbs1.png',
-    './assests/mbbs/mbbs2.png',
-    './assests/mbbs/mbbs3.png',
-    './assests/mbbs/mbbs4.png',
-    // './assests/mbbs/mbbs5.png', // Add more dynamically as needed
+    'https://res.cloudinary.com/dqggm4k7u/image/upload/v1742447226/MBBS_in_Russia_country_mul3c6.jpg',
+    'https://res.cloudinary.com/dqggm4k7u/image/upload/v1742447314/MBBS_in_Uzbekistan_ik2fi2.jpg',
+    'https://res.cloudinary.com/dqggm4k7u/image/upload/v1742447282/MBBS_in_Kyrgyzstan_adqmfh.png',
+    'https://res.cloudinary.com/dqggm4k7u/image/upload/v1742447434/MBBS_in_Kazakhstan_dqaeyg.png',
+    'https://res.cloudinary.com/dqggm4k7u/image/upload/v1742447428/MBBS_in_Georgia_geibcj.jpg',
+    'https://res.cloudinary.com/dqggm4k7u/image/upload/v1742447263/MBBS_in_Armenia_osnw1i.jpg',
+    'https://res.cloudinary.com/dqggm4k7u/image/upload/v1742447294/MBBS_in_Belarus_l14pt0.jpg',
+    'https://res.cloudinary.com/dqggm4k7u/image/upload/v1742447990/MBBS_in_Bangladesh_pbz9h8.jpg',
+    'https://res.cloudinary.com/dqggm4k7u/image/upload/v1742447274/MBBS_in_Nepal_e1owe8.jpg',
+    'https://res.cloudinary.com/dqggm4k7u/image/upload/v1742447267/MBBS_in_Poland_msbfbn.jpg',
+    'https://res.cloudinary.com/dqggm4k7u/image/upload/v1742447459/MBBS_in_Dubai_dbcwfq.jpg',
+    'https://res.cloudinary.com/dqggm4k7u/image/upload/v1742447445/MBBS_in_Ukraine_od6vn3.jpg',
+
   ];
 
   return (
