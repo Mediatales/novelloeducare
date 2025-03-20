@@ -28,7 +28,7 @@ export async function GET(request, { params }) {
 
 
                         ],
-                        facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1739793855/img_bg_sybjt5.png",
+                        facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
                         affilationRecognition : ["Recognized by MCI","Recognized by FAIMER","NMC and WHO approved","United Nations Educational, Scientific and Cultural Organization (UNESCO)"],
                     },
 
@@ -113,13 +113,13 @@ export async function GET(request, { params }) {
                         country : "russia",
                         overview : ["North-Western State Medical University named after I.I. Mechnikov (NWSMU) was founded on October 12, 2011 as a result of the merger of the two oldest educational medical institutions in Russia - St. Petersburg Medical Academy of Postgraduate Education and St. Petersburg State Medical Academy named after Mechnikov.The founder of the University is the Ministry of Health of the Russian Federation.The activity of the University is based on close cooperation and coordination of educational, clinical and research activities - this allows training competent specialists who have modern knowledge and are able to apply it in practice."],
                         academic : ["North-Western State Medical University (NWSMU) in St. Petersburg, Russia offers undergraduate, graduate, and postgraduate degrees in medicine, dentistry, pharmacy, nursing, and other medical and healthcare-related areas. The university is known for its high-quality education and innovative research. Teaching staff Practical physicians, Academicians of the Russian Academy of Sciences, Honored doctors of Russia, Candidates of medical sciences, and Doctors of medical sciences"],
-                        academicImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1739793855/img_bg_sybjt5.png",
+                        academicImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
                         faculties : [
                             "Medical Faculty",
                             "Faculty of Medical Pedagogy",
                             "Faculty of Higher Nursing"
                         ],
-                        facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1739793855/img_bg_sybjt5.png",
+                        facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
                         affilationRecognition : ["World Health Organization (WHO)","Medical Council of India (MCI)","Russian Ministry of Health","National Medical Commission of India (NMC)"],
                     },
 
@@ -140,7 +140,7 @@ export async function GET(request, { params }) {
                             "Faculty of Dentistry",
                             "Faculty of Post Graduate & Additional Professional Education",
                         ],
-                        facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1739793855/img_bg_sybjt5.png",
+                        facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
                         affilationRecognition : ["Post Graduate & Additional Professional Education","General Medical Council (GMC)","National Medical Commission of India (NMC)","World Health Organization (WHO)"],
                     },
             
@@ -159,7 +159,7 @@ export async function GET(request, { params }) {
                             "Faculty of Postgraduates in specialties",
                             "Faculty of Pathological Anatomy",
                         ],
-                        facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1739793855/img_bg_sybjt5.png",
+                        facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
                         affilationRecognition : ["Ministry of Education, Science, Culture and Sport of the Republic of Russia","Quality Assurance (ANQA)","National Medical Commission of India (NMC)","World Health Organization (WHO)"],
                     },
                     
@@ -178,7 +178,7 @@ export async function GET(request, { params }) {
                             "Faculty of Pediatrics",
                             "Faculty of Postgraduate Studies",
                         ],
-                        facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1739793855/img_bg_sybjt5.png",
+                        facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
                         affilationRecognition : ["Education Commission for Foreign Medical Graduates (ECFMG)","FAIMER","National Medical Commission of India (NMC)","World Health Organization (WHO)"],
                     },
 
@@ -202,7 +202,7 @@ export async function GET(request, { params }) {
                             "Department of Paediatrics",
                             "Department of Psychiatry",
                         ],
-                        facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1739793855/img_bg_sybjt5.png",
+                        facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
                         affilationRecognition : ["World Health Organization (WHO)","Medical Council of India (MCI)","Foundation for the Advancement of Education and International Medical Research (FAIMER)","National Medical Commission of India (NMC)"],
                     },
                 
@@ -221,7 +221,7 @@ export async function GET(request, { params }) {
                             "Department of Forensic Medicine",
                             "Department of Microbiology",
                         ],
-                        facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1739793855/img_bg_sybjt5.png",
+                        facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
                         affilationRecognition : ["World Directory of Medical Schools (WDOMS)","National Medical Commission of India (NMC)","World Health Organization (WHO)","Affiliated with the International Medical Education Directory (IMED)"],
                     },
                 
@@ -240,7 +240,7 @@ export async function GET(request, { params }) {
                             "Department of Surgery",
                             "Department of Public Health",
                         ],
-                        facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1739793855/img_bg_sybjt5.png",
+                        facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
                         affilationRecognition : ["MCI (Medical Council of India)","World Health Organization (WHO)","National Medical Commission of India (NMC)","World Health Organization (WHO)"],
                     },
                 
@@ -259,7 +259,7 @@ export async function GET(request, { params }) {
                             "Department of Medicine and Nursing",
                             "Department of General Medicine",
                         ],
-                        facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1739793855/img_bg_sybjt5.png",
+                        facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
                         affilationRecognition : ["Medical Council of India (MCI)","FAIMER","National Medical Commission of India (NMC)","World Health Organization (WHO)"],
                     },
 
@@ -283,7 +283,7 @@ export async function GET(request, { params }) {
                             "Department of Paediatrics",
                             "Department of Psychiatry",
                         ],
-                        facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1739793855/img_bg_sybjt5.png",
+                        facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
                         affilationRecognition : ["World Health Organization (WHO)","Medical Council of India (MCI)","Foundation for the Advancement of Education and International Medical Research (FAIMER)","Recognized by the Ministry of Education and Science of the Republic of Kazakhstan"],
                     },
                 
@@ -302,7 +302,7 @@ export async function GET(request, { params }) {
                             "Department of Forensic Medicine",
                             "Department of Microbiology",
                         ],
-                        facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1739793855/img_bg_sybjt5.png",
+                        facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
                         affilationRecognition : ["Affiliated with the Health Ministry of Kazakhstan.","National Medical Commission of India (NMC)","World Health Organization (WHO)","Foundation for Advancement of International Medical Education and Research (FAIMER)"],
                     },
                 
@@ -321,7 +321,7 @@ export async function GET(request, { params }) {
                             "Department of Surgery",
                             "Department of Fundamental Medical",
                         ],
-                        facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1739793855/img_bg_sybjt5.png",
+                        facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
                         affilationRecognition : ["MCI (Medical Council of India)","World Health Organization (WHO)","National Medical Commission of India (NMC)","KazNU is a member of the International Association of Universities)"],
                     },
                 
@@ -340,7 +340,7 @@ export async function GET(request, { params }) {
                             "Department of Medicine and Nursing",
                             "Department of Microbiology",
                         ],
-                        facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1739793855/img_bg_sybjt5.png",
+                        facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
                         affilationRecognition : ["Medical Council of India (MCI)","The Ministry of Education and Science of the Republic of Kazakhstan","National Medical Commission of India (NMC)","World Health Organization (WHO)"],
                     },
 
@@ -363,7 +363,7 @@ export async function GET(request, { params }) {
                         "Department of Psychology",
                         "Department of Forensic Medicine",
                     ],
-                    facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1739793855/img_bg_sybjt5.png",
+                    facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
                     affilationRecognition : ["World Health Organization (WHO)","United Nations Organization (UNO)","Educational Commission for graduates in foreign medicine (ECFMG)","Foundation for the Advancement of Education and International Medical Research (FAIMER)"],
                 },
             
@@ -382,7 +382,7 @@ export async function GET(request, { params }) {
                         "Department of Forensic Medicine",
                         "Department of Microbiology",
                     ],
-                    facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1739793855/img_bg_sybjt5.png",
+                    facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
                     affilationRecognition : ["World Federation for Medical Education (WFME)","Educational Commission for Foreign Medical Graduates (ECFMG)","World Health Organization (WHO)","Foundation for Advancement of International Medical Education and Research (FAIMER)"],
                 },
             
@@ -401,7 +401,7 @@ export async function GET(request, { params }) {
                         "Department of Forensic Medicine",
                         "Department of Fundamental Medical",
                     ],
-                    facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1739793855/img_bg_sybjt5.png",
+                    facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
                     affilationRecognition : ["MCI (Medical Council of India)","World Health Organization (WHO)","National Medical Commission of India (NMC)","FAIMER (Foundation for Advancement of International Medical Education and Research)."],
                 },
             
@@ -420,7 +420,7 @@ export async function GET(request, { params }) {
                         "Department of Medicine and Nursing",
                         "Department of Microbiology",
                     ],
-                    facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1739793855/img_bg_sybjt5.png",
+                    facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
                     affilationRecognition : ["Medical Council of India (MCI)","UNESCO: The university is recognized by UNESCO","National Medical Commission of India (NMC)","World Health Organization (WHO)"],
                 },
 
@@ -443,7 +443,7 @@ export async function GET(request, { params }) {
                         "Faculty of Preventive Medicine",
                         "Faculty of Pharmaceutical",
                     ],
-                    facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1739793855/img_bg_sybjt5.png",
+                    facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
                     affilationRecognition : ["World Health Organization (WHO)","Medical Council of India (MCI)","The National Medical Commission (NMC) recognizes BSMU","The Independent Agency for Accreditation and Rating (IAAR) exchanges information with BSMU"],
                 },
             
@@ -462,7 +462,7 @@ export async function GET(request, { params }) {
                         "Department of Pathology",
                         "Department of Microbiology",
                     ],
-                    facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1739793855/img_bg_sybjt5.png",
+                    facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
                     affilationRecognition : ["Recognized by the Medical Council of India (MCI)","Educational Commission for Foreign Medical Graduates (ECFMG)","World Health Organization (WHO)","Recognized by the European Medical Council"],
                 },
             
@@ -481,7 +481,7 @@ export async function GET(request, { params }) {
                         "Faculty of Mental Health Medicine",
                         "Department of Microbiology",
                     ],
-                    facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1739793855/img_bg_sybjt5.png",
+                    facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
                     affilationRecognition : ["GSMU is recognized by the GMC","FAIMER (Foundation for Advancement of International Medical Education and Research)","National Medical Commission of India (NMC)","World Health Organization (WHO)"],
                 },
             
@@ -500,7 +500,7 @@ export async function GET(request, { params }) {
                         "Department of General Surgery",
                         "Department of Emergency Medicine",
                     ],
-                    facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1739793855/img_bg_sybjt5.png",
+                    facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
                     affilationRecognition : ["Medical Council of India (MCI)","United Nations Educational, Scientific and Cultural Organization (UNESCO)","National Medical Commission of India (NMC)","World Health Organization (WHO)"],
                 },
 
@@ -522,7 +522,7 @@ export async function GET(request, { params }) {
                         "Department of Microbiology",
                         "Department of Pathology",
                     ],
-                    facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1739793855/img_bg_sybjt5.png",
+                    facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
                     affilationRecognition : ["Recognized by the Bangladesh Medical and Dental Council (BMDC) ","Accredited by the Bangladesh Medical and Dental Council (BMDC)","World Health Organization (WHO)","National Medical Commission of India (NMC)"],
                 },
             
@@ -542,7 +542,7 @@ export async function GET(request, { params }) {
                         "Department of Microbiology",
                         "Department of Pharmacology",
                     ],
-                    facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1739793855/img_bg_sybjt5.png",
+                    facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
                     affilationRecognition : ["The University of Dhaka granted affiliation to BMC","Accredited by the Bangladesh Medical and Dental Council (BMDC) ","World Health Organization (WHO)","National Medical Commission (NMC)"],
                 },
             
@@ -562,7 +562,7 @@ export async function GET(request, { params }) {
                         "Department of Microbiology",
                         "Department of Medicine",
                     ],
-                    facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1739793855/img_bg_sybjt5.png",
+                    facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
                     affilationRecognition : ["The University of Dhaka","Accredited by the Bangladesh Medical and Dental Council (BMDC) ","World Health Organization (WHO)","National Medical Commission (NMC)"],
                 },
             
@@ -582,7 +582,7 @@ export async function GET(request, { params }) {
                         "Department of Microbiology",
                         "Department of Pathology",
                     ],
-                    facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1739793855/img_bg_sybjt5.png",
+                    facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
                     affilationRecognition : ["The University of Dhaka","Accredited by the Bangladesh Medical and Dental Council (BMDC) ","World Health Organization (WHO)","National Medical Commission (NMC)"],
                 },
 
@@ -604,7 +604,7 @@ export async function GET(request, { params }) {
                         "Department of Paediatrics",
                         "Department of Psychiatry",
                     ],
-                    facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1739793855/img_bg_sybjt5.png",
+                    facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
                     affilationRecognition : ["World Health Organization (WHO)","The Ministry of Education, Nepal officially recognizes KUSMS","Kathmandu University recognizes KUSMS.","National Medical Commission of India (NMC)"],
                 },
             
@@ -624,7 +624,7 @@ export async function GET(request, { params }) {
                         "Department of Microbiology",
                         "Department of Pathology",
                     ],
-                    facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1739793855/img_bg_sybjt5.png",
+                    facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
                     affilationRecognition : ["Affiliated to Kathmandu University, Dhulikhel, Nepal ","National Medical Commission of India (NMC)","World Health Organization (WHO)","Part of the Manipal Education and Medical Group (MEMG) "],
                 },
             
@@ -644,7 +644,7 @@ export async function GET(request, { params }) {
                         "Department of Public Health",
                         "Department of Therapy",
                     ],
-                    facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1739793855/img_bg_sybjt5.png",
+                    facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
                     affilationRecognition : ["MCI (Medical Council of India)","World Health Organization (WHO)","National Medical Commission of India (NMC)","Affiliated with TU"],
                 },
             
@@ -664,7 +664,7 @@ export async function GET(request, { params }) {
                         "Department of General Medicine",
                         "Department of Pathology",
                     ],
-                    facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1739793855/img_bg_sybjt5.png",
+                    facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
                     affilationRecognition : ["Medical Council of India (MCI)","The NAIHS is affiliated with Tribhuvan University","National Medical Commission of India (NMC)","World Health Organization (WHO)"],
                 },
     
