@@ -3,10 +3,16 @@ import { ChevronLeft, ChevronRight } from "lucide-react";
 
 const CountriesCarousel = () => {
   const countries = [
-    { img: "./assests/home/country1.png", flag: "./assests/home/aus.png" },
-    { img: "./assests/home/country2.png", flag: "./assests/home/ita.png" },
-    { img: "./assests/home/country3.png", flag: "./assests/home/fra.png" },
-    { img: "./assests/home/country4.png", flag: "./assests/home/usa.png" },
+    { img: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742383777/Australia_country_yinda7.jpg" },
+    { img: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742383792/Canada_country_up0qkj.jpg" },
+    { img: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742383811/Dubai_country_gnpit1.jpg" },
+    { img: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742383820/France_country_ezx8bs.jpg" },
+    { img: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742383830/germany_country_q0o1mp.jpg" },
+    { img: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742383839/Hungary_country_j9r8v7.jpg" },
+    { img: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742383847/Italy_country_cqac62.jpg" },
+    { img: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742383855/Poland_country_zydisw.jpg" },
+    { img: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742383868/UK_country_flgw5g.jpg" },
+    { img: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742383877/USA_country_kfuoq0.jpg" },
     
   ];
 
@@ -65,7 +71,7 @@ const CountriesCarousel = () => {
           {getVisibleItems().map((country, index) => (
             <div 
               key={`${currentIndex}-${index}`} 
-              className="relative flex-shrink-0 transition-all duration-500"
+              className=" flex-shrink-0 transition-all duration-500"
               style={{ width: `${100 / getVisibleCount()}%` }}
             >
               <img 
@@ -73,11 +79,11 @@ const CountriesCarousel = () => {
                 alt="Country" 
                 className="w-[80%] mx-auto rounded-lg shadow-md transition-transform duration-500"
               />
-              <img
+              {/* <img
                 src={country.flag}
                 alt="Flag"
                 className="w-[15%] absolute bottom-[-0.5rem] left-[30%] object-cover rounded-full shadow-lg border-2 border-white transition-transform duration-500"
-              />
+              /> */}
             </div>
           ))}
         </div>
