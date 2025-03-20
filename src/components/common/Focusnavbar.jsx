@@ -63,7 +63,7 @@ const Focusnavbar = () => {
                   <path fillRule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clipRule="evenodd" />
                 </svg>
               </button>
-              <div className="absolute hidden group-hover:block w-56 py-2 mt-0 bg-white rounded-md shadow-xl z-10">
+              <div className="absolute hidden group-hover:block w-60 py-2 mt-0 bg-white rounded-md shadow-xl z-10">
                 {isLoading ? (
                   <div className="px-4 py-2">Loading...</div>
                 ) : error ? (
@@ -75,7 +75,7 @@ const Focusnavbar = () => {
                         <img
                           src={flag_link}
                           alt={`${country} Flag`}
-                          className="w-8 h-8"
+                          className="w-11 h-8"
                         />
                         <p className="text-gray-800 font-medium">MBBS in {country}</p>
                       </div>
