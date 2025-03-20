@@ -3,6 +3,11 @@ import Link from "next/link";
 import React from "react";
 
 const Universities = ({countryData}) => {
+  // Check if universities exist and have length
+  if (!countryData?.univeristes || countryData.univeristes.length === 0) {
+    return null; // Return null to not render anything
+  }
+
   return (
     <div className="bg-green-50 py-10 px-5">
       <h2 className="text-2xl md:text-3xl font-bold text-center text-gray-800 mb-6">
