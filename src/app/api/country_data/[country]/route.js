@@ -407,7 +407,7 @@ export async function GET(request, { params }) {
            {
             country: 'Kazakhstan',
             flag_link: 'https://res.cloudinary.com/dqggm4k7u/image/upload/v1742360305/Kazakhstan_logo_dirinj.png',
-            mainImg: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741863189/Mbbs_in_Kazakhstan_pic_eilmro.jpg",
+            mainImg: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742541042/kazakhstan_city_aa1ij3.webp",
             overviewText: "Kazakhstan holds a prominent position on the world stage, largely due to its strong economy. This economic strength is driven by the country's rich natural resources, particularly its vast reserves of oil and natural gas. Kazakhstan has emerged as an increasingly attractive destination for international students seeking quality higher education at an affordable cost. Several factors contribute to its growing popularity, making it a compelling option for those looking to study abroad. One of the most significant advantages is the affordability of tuition fees in Kazakhstan compared to many Western countries.",
             overviewImg: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741863220/Mbbs_in_Kazakhstan_overview_pic_zs9vya.jpg",
             quickFacts: ["Astana", "35%", "Tenge (KZT)", "Approx. 1.99 crores"],
