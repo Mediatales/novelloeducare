@@ -37,106 +37,41 @@ const Navbar = () => {
               Courses
             </Link>
             <div className="relative group">
-              <button className="text-gray-700 hover:text-blue-700 font-medium flex items-center gap-1">
-                Countries
-                <svg className="w-4 h-4" viewBox="0 0 20 20" fill="currentColor">
-                  <path fillRule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clipRule="evenodd" />
-                </svg>
-              </button>
-              <div className="absolute hidden group-hover:block w-48 py-2 mt-1 bg-white rounded-md shadow-xl">
+  <button className="text-gray-700 hover:text-blue-700 font-medium flex items-center gap-1">
+    Countries
+    <svg className="w-4 h-4" viewBox="0 0 20 20" fill="currentColor">
+      <path
+        fillRule="evenodd"
+        d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+        clipRule="evenodd"
+      />
+    </svg>
+  </button>
+  <div className="absolute hidden group-hover:block w-48 py-2 mt-1 bg-white rounded-md shadow-xl max-h-60 overflow-y-auto">
+    {[
+      { name: "Australia", flag: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1739947305/country_flag_bapifw.png" },
+      { name: "Canada", flag: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1739947287/country_flag_1_fp8tkj.png" },
+      { name: "Italy", flag: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1739947287/country_flag_2_rmcrca.png" },
+      { name: "USA", flag: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1739947287/country_flag_4_azullr.png" },
+      { name: "France", flag: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1739947287/country_flag_3_cu46zs.png" },
+      { name: "UK", flag: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1739947287/country_flag_5_ehm3m0.png" },
+      { name: "Dubai", flag: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1739947287/country_flag_5_ehm3m0.png" },
+      { name: "Germany", flag: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1739947306/country_flag_7_dmj0kz.png" },
+      { name: "Poland", flag: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1739947305/country_flag_8_lzpkkd.png" },
+      { name: "Hungary", flag: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1739947305/country_flag_9_ixn226.png" }
+      
+    ].map((country, index) => (
+      <div
+        key={index}
+        className="flex items-center gap-3 mt-2 px-4 py-4 transition-all duration-200 bg-[#E6F3EE] hover:bg-[#d4e9de] rounded-md cursor-pointer"
+      >
+        <img src={country.flag} alt={`${country.name} Flag`} className="w-10 h-10" />
+        <p className="text-gray-800 font-medium">{country.name}</p>
+      </div>
+    ))}
+  </div>
+</div>
 
-              <div className="flex items-center gap-3 mt-2 px-4 py-2 transition-all duration-200 bg-[#E6F3EE] hover:bg-[#d4e9de] rounded-md cursor-pointer">
-              <img
-                src="https://res.cloudinary.com/dqggm4k7u/image/upload/v1739947305/country_flag_bapifw.png"
-                alt="Uzbekistan Flag"
-                className="w-8 h-8"
-              />
-              <p className="text-gray-800 font-medium">Australia</p>
-            </div>
-
-            <div className="flex items-center gap-3 mt-2 px-4 py-2 transition-all duration-200 bg-[#E6F3EE] hover:bg-[#d4e9de] rounded-md cursor-pointer">
-              <img
-                src="https://res.cloudinary.com/dqggm4k7u/image/upload/v1739947287/country_flag_1_fp8tkj.png"
-                alt="Uzbekistan Flag"
-                className="w-8 h-8"
-              />
-              <p className="text-gray-800 font-medium">Canada</p>
-            </div>
-
-            <div className="flex items-center gap-3 mt-2 px-4 py-2 transition-all duration-200 bg-[#E6F3EE] hover:bg-[#d4e9de] rounded-md cursor-pointer">
-              <img
-                src="https://res.cloudinary.com/dqggm4k7u/image/upload/v1739947287/country_flag_2_rmcrca.png"
-                alt="Uzbekistan Flag"
-                className="w-8 h-8"
-              />
-              <p className="text-gray-800 font-medium">Italy</p>
-            </div>
-
-            <div className="flex items-center gap-3 mt-2 px-4 py-2 transition-all duration-200 bg-[#E6F3EE] hover:bg-[#d4e9de] rounded-md cursor-pointer">
-              <img
-                src="https://res.cloudinary.com/dqggm4k7u/image/upload/v1739947287/country_flag_4_azullr.png"
-                alt="Uzbekistan Flag"
-                className="w-8 h-8"
-              />
-              <p className="text-gray-800 font-medium">USA</p>
-            </div>
-
-            <div className="flex items-center gap-3 mt-2 px-4 py-2 transition-all duration-200 bg-[#E6F3EE] hover:bg-[#d4e9de] rounded-md cursor-pointer">
-              <img
-                src="https://res.cloudinary.com/dqggm4k7u/image/upload/v1739947287/country_flag_3_cu46zs.png"
-                alt="Uzbekistan Flag"
-                className="w-8 h-8"
-              />
-              <p className="text-gray-800 font-medium">France</p>
-            </div>
-
-            <div className="flex items-center gap-3 mt-2 px-4 py-2 transition-all duration-200 bg-[#E6F3EE] hover:bg-[#d4e9de] rounded-md cursor-pointer">
-              <img
-                src="https://res.cloudinary.com/dqggm4k7u/image/upload/v1739947287/country_flag_5_ehm3m0.png"
-                alt="Uzbekistan Flag"
-                className="w-8 h-8"
-              />
-              <p className="text-gray-800 font-medium">UK</p>
-            </div>
-
-            <div className="flex items-center gap-3 mt-2 px-4 py-2 transition-all duration-200 bg-[#E6F3EE] hover:bg-[#d4e9de] rounded-md cursor-pointer">
-              <img
-                src="https://res.cloudinary.com/dqggm4k7u/image/upload/v1739947287/country_flag_5_ehm3m0.png"
-                alt="Uzbekistan Flag"
-                className="w-8 h-8"
-              />
-              <p className="text-gray-800 font-medium">Dubai</p>
-            </div>
-
-            <div className="flex items-center gap-3 mt-2 px-4 py-2 transition-all duration-200 bg-[#E6F3EE] hover:bg-[#d4e9de] rounded-md cursor-pointer">
-              <img
-                src="https://res.cloudinary.com/dqggm4k7u/image/upload/v1739947306/country_flag_7_dmj0kz.png"
-                alt="Uzbekistan Flag"
-                className="w-8 h-8"
-              />
-              <p className="text-gray-800 font-medium">Germany</p>
-            </div>
-
-            <div className="flex items-center gap-3 mt-2 px-4 py-2 transition-all duration-200 bg-[#E6F3EE] hover:bg-[#d4e9de] rounded-md cursor-pointer">
-              <img
-                src="https://res.cloudinary.com/dqggm4k7u/image/upload/v1739947305/country_flag_8_lzpkkd.png"
-                alt="Uzbekistan Flag"
-                className="w-8 h-8"
-              />
-              <p className="text-gray-800 font-medium">Poland</p>
-            </div>
-
-            <div className="flex items-center gap-3 mt-2 px-4 py-2 transition-all duration-200 bg-[#E6F3EE] hover:bg-[#d4e9de] rounded-md cursor-pointer">
-              <img
-                src="https://res.cloudinary.com/dqggm4k7u/image/upload/v1739947305/country_flag_9_ixn226.png"
-                alt="Uzbekistan Flag"
-                className="w-8 h-8"
-              />
-              <p className="text-gray-800 font-medium">Hungary</p>
-            </div>
-                
-              </div>
-            </div>
             
             {/* <Link href="/test" className="text-gray-700 hover:text-blue-700 font-medium">
               Test Preparation
