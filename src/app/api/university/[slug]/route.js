@@ -151,7 +151,7 @@ export async function GET(request, { params }) {
                         country : "russia",
                         overview : ["Ivanovo State Medical University was established in 1930. From that time to nowadays the University trained more than 25000 doctors. Now almost 3000 students are trained at the University. The teaching staff of the University includes more than 400 instructors, among them 70 Doctors of Science and more than 270 Candidates of Science. The university emerges to be the best top universities in Russia for furnishing high-quality education to the students in the arena of Medicine. The medical education strategy proposed by the University is authorized by the Ministry of Education and Science of Russia."],
                         academic : ["IvSU offers 23 Bachelor's degree programs, 17 Master's degree programs, ten PhD programs, and a specialist's degree in fundamental and applied chemistry. A wide range of opportunities for developing their creative abilities and enriching their cultural knowledge."],
-                        academicImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741773931/russia_university_2_academic_pic_gudu5w.jpg",
+                        academicImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741774134/russia_university_6_academic_pic_ds6xuj.webp",
                         faculties : [
                             "Faculty of Nursing Management",
                             "Faculty of General Medicine",
@@ -170,7 +170,7 @@ export async function GET(request, { params }) {
                         country : "russia",
                         overview : ["Tver State Medical University established in 1902 holds a prominent position in Russia offering Best study equipment and rich diversified culture that are crucial for success. From a pioneering dental institute established in 1902 to a leading medical institution in Russia, Tver State Medical College boasts a rich legacy of shaping the future of healthcare. Tver State Medical University stands as a testament to the rich legacy of medical education in Russia, proudly upholding its position as one of the oldest and most esteemed medical universities in Russia."],
                         academic : ["Tver State Medical University is considered as one of the best education institutes for MBBS in Russia. Tver State Medical University is usually among the top ten medical educational establishments according to the annual official rating of the 48 Russian Medical Educational Institutions.Academic programs"],
-                        academicImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741774134/russia_university_6_academic_pic_ds6xuj.webp",
+                        academicImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741773931/russia_university_2_academic_pic_gudu5w.jpg",
                         faculties : [
                             "Faculty of Dental Medicine.",
                             "Faculty of General Medicine",
