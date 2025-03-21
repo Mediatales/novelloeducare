@@ -37,7 +37,7 @@ const Page = () => {
         {/* Image Section */}
         <div className="lg:w-1/2 flex justify-center">
           <Image
-            src="/assests/about/secimg.png"
+            src="https://res.cloudinary.com/dqggm4k7u/image/upload/v1742542427/educare_about_us_pic_hnohtv.jpg"
             alt="Campus View"
             width={500}
             height={350}
