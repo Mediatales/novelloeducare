@@ -10,16 +10,27 @@ import { Navigation, Pagination, Autoplay } from 'swiper/modules';
 
 const Mbbsabroad = () => {
   const images = [
-    '../assests/focus/country1.png',
-    '../assests/focus/country2.png',
-    '../assests/focus/country3.png',
-    '../assests/focus/country4.png',
-    "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742196835/Mbbs_6_i5qoaj.png",
-    "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742196835/Mbbs_4_lq1dhm.png",
-    "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742196835/Mbbs_8_nnn7l6.png",
-    "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742196835/Mbbs_7_nsa1av.png",
-    "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742196835/Mbbs_3_a5g34t.png",
-    "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742196835/Mbbs_5_bgy7ks.png",
+    'https://res.cloudinary.com/dqggm4k7u/image/upload/v1742538818/mbbs_in_Russia_a2pfqx.jpg',
+    'https://res.cloudinary.com/dqggm4k7u/image/upload/v1742539666/mbbs_in_Uzbekistan_hohcks.jpg',
+    'https://res.cloudinary.com/dqggm4k7u/image/upload/v1742538860/MBBS_in_Kyrgyzstan_pyekcs.jpg',
+    'https://res.cloudinary.com/dqggm4k7u/image/upload/v1742538867/Mbbs_in_Kazakhstan_ksgbng.jpg',
+    "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742539684/mbbs_in_Georgia_szeyd2.jpg",
+
+    "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742539672/mbbs_in_Armenia_fbwrjf.jpg",
+    
+    "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742538894/Mbbs_in_Belarus_hzkcj0.jpg",
+    
+    "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742538911/Mbbs_in_bangladesh_wwgtyz.jpg",
+    
+    "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742538919/Mbbs_in_nepal_bzunp1.jpg",
+    
+    "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742538932/Mbbs_in_Poland_h0dwmu.jpg",
+
+    "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742538940/Mbbs_in_dubai_ydciw2.jpg",
+
+    "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742538947/MBBS_in_Ukraine_mliise.jpg",
+
+
     // './assests/mbbs/mbbs5.png',
   
     // './assests/mbbs/mbbs5.png', // Add more dynamically as needed
@@ -28,7 +39,7 @@ const Mbbsabroad = () => {
   return (
     <div className="mt-8">
       <h2 className="text-2xl md:text-3xl text-center font-semibold text-gray-800 mb-8 ml-16">
-      Top Countries to  MBBS Abroad
+      Our Top MBBS Universities
       </h2>
 
       <div className="w-[90%] mx-auto">
