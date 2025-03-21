@@ -57,33 +57,34 @@ const Focusnavbar = () => {
               About us
             </Link>
             <div className="relative group">
-              <button className="text-gray-700 hover:text-green-700 font-medium flex items-center gap-1">
-                Country
-                <svg className="w-4 h-4" viewBox="0 0 20 20" fill="currentColor">
-                  <path fillRule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clipRule="evenodd" />
-                </svg>
-              </button>
-              <div className="absolute hidden group-hover:block w-60 py-2 mt-0 bg-white rounded-md shadow-xl z-10">
-                {isLoading ? (
-                  <div className="px-4 py-2">Loading...</div>
-                ) : error ? (
-                  <div className="px-4 py-2 text-red-500">{error}</div>
-                ) : (
-                  countriesFlagLink.map(({ country, flag_link }, idx) => (
-                    <Link key={idx} href={`/focus-overseas/${country}`}>
-                      <div className="flex items-center gap-3 mt-2 px-4 py-2 transition-all duration-200 bg-[#E6F3EE] hover:bg-[#d4e9de] rounded-md cursor-pointer">
-                        <img
-                          src={flag_link}
-                          alt={`${country} Flag`}
-                          className="w-11 h-8"
-                        />
-                        <p className="text-gray-800 font-medium">MBBS in {country}</p>
-                      </div>
-                    </Link>
-                  ))
-                )}
-              </div>
-            </div>
+  <button className="text-gray-700 hover:text-green-700 font-medium flex items-center gap-1">
+    Country
+    <svg className="w-4 h-4" viewBox="0 0 20 20" fill="currentColor">
+      <path
+        fillRule="evenodd"
+        d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+        clipRule="evenodd"
+      />
+    </svg>
+  </button>
+  <div className="absolute hidden group-hover:block w-60 py-2 mt-0 bg-white rounded-md shadow-xl z-10 max-h-60 overflow-y-auto">
+    {isLoading ? (
+      <div className="px-4 py-2">Loading...</div>
+    ) : error ? (
+      <div className="px-4 py-2 text-red-500">{error}</div>
+    ) : (
+      countriesFlagLink.slice(0, 12).map(({ country, flag_link }, idx) => (
+        <Link key={idx} href={`/focus-overseas/${country}`}>
+          <div className="flex items-center gap-3 mt-2 px-4 py-2 transition-all duration-200 bg-[#E6F3EE] hover:bg-[#d4e9de] rounded-md cursor-pointer">
+            <img src={flag_link} alt={`${country} Flag`} className="w-11 h-8" />
+            <p className="text-gray-800 font-medium">MBBS in {country}</p>
+          </div>
+        </Link>
+      ))
+    )}
+  </div>
+</div>
+
 
 
             <div className="text-gray-700 hover:text-green-700 font-medium">
@@ -152,35 +153,45 @@ const Focusnavbar = () => {
 
           {/* Mobile Study Abroad Dropdown */}
           <div>
-            <button
-              onClick={toggleStudyAbroad}
-              className="flex justify-between items-center w-full px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-green-700 hover:bg-gray-50"
-            >
-              Country
-              <svg
-                className={`w-4 h-4 transition-transform duration-200 ${isStudyAbroad ? 'transform rotate-180' : ''}`}
-                viewBox="0 0 20 20"
-                fill="currentColor"
-              >
-                <path fillRule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clipRule="evenodd" />
-              </svg>
-            </button>
+  <button
+    onClick={toggleStudyAbroad}
+    className="flex justify-between items-center w-full px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-green-700 hover:bg-gray-50"
+  >
+    Country
+    <svg
+      className={`w-4 h-4 transition-transform duration-200 ${
+        isStudyAbroad ? "transform rotate-180" : ""
+      }`}
+      viewBox="0 0 20 20"
+      fill="currentColor"
+    >
+      <path
+        fillRule="evenodd"
+        d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+        clipRule="evenodd"
+      />
+    </svg>
+  </button>
 
-            <div className={`${isStudyAbroad ? 'block' : 'hidden'} pl-4`}>
-              <Link href="/focus-overseas/uzbekistan"
-                className=" flex  py-3 gap-2 align-baseline font-medium text-gray-700 hover:text-green-700 hover:bg-gray-50"
-
-                onClick={toggleMenu}>
-                <img
-                  src="https://res.cloudinary.com/dqggm4k7u/image/upload/v1739792761/o4dr7q3ihsoh9ccgkxz6.png"
-                  alt="Uzbekistan Flag"
-                  className="w-4 h-4"
-                />
-                <p className="text-gray-800 font-medium">MBBS in Uzbekistan</p>
-              </Link>
-              
-            </div>
+  <div className={`${isStudyAbroad ? "block" : "hidden"} pl-4 max-h-60 overflow-y-auto`}>
+    {isLoading ? (
+      <div className="px-4 py-2">Loading...</div>
+    ) : error ? (
+      <div className="px-4 py-2 text-red-500">{error}</div>
+    ) : (
+      countriesFlagLink.slice(0, 12).map(({ country, flag_link }, idx) => (
+        <Link key={idx} href={`/focus-overseas/${country}`} onClick={toggleMenu}>
+          <div className="flex items-center gap-2 py-3 font-medium text-gray-700 hover:text-green-700 hover:bg-gray-50">
+            <img src={flag_link} alt={`${country} Flag`} className="w-4 h-4" />
+            <p className="text-gray-800 font-medium">MBBS in {country}</p>
           </div>
+        </Link>
+      ))
+    )}
+  </div>
+</div>
+
+
 
           <div
             className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-green-700 hover:bg-gray-50"
