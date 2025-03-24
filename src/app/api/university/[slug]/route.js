@@ -106,6 +106,131 @@ export async function GET(request, { params }) {
                 overviewImg: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741757948/mbbs_in_russia_deprzx.jpg",
                 quickFacts: ["Moscow", "30%", "Russian Ruble", "Approx. 14.45 crores"],
                 univeristes: [
+
+                    {
+                        name: "OREL State Medical University",
+                        image: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742806868/Russia_university_11_pic_fv6qnz.jpg",
+                        slug: "orel-state-medical-university",
+                        country : "russia",
+                        overview : ["Orel State University was founded in 1931 as an industrial-Pedagogical Institute. In 1932 Orel Pedagogical University became Orel State University. Orel State University is unique in many aspects, which is on September 11, 1996, renamed into the Orel State University. Orel State University is located in the Oryol city. Orel State University is the only institution that gives professionals in the area of most humane professions like doctors and teachers. Currently, Orel State University implements 110 basic educational programs of higher education in large groups of 14 training areas and specialties. About 18,000 students including nearly 2,000 foreign students (600 Indian students are studying general medicine-MBBS) representing 62 countries are studying at Orel State University named after I.S."],
+                        academic : ["The University has successfully developed international activities. Continues active integration of Oryol State University in the world educational, research and innovation space. Due to the significant positive changes in all areas of the university has increased markedly the importance of Oryol State University at the international education market and its attractiveness to foreign students. As a confirmation of increased international university status significantly increased the number of foreign citizens from different regions of the world who wish to study in Orel State University."],
+                        academicImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742806888/Russia_university_11_academic_pic_ab23ix.jpg",
+                        faculties : [
+                            "Faculty of Medicine",
+                            "Faculty of Pediatric",
+                            "Faculty of Pharmacy",
+                            "Faculty of Pharmaceutics",
+                            "Faculty of Dentistry",
+                        ],
+                        facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
+                        affilationRecognition : ["FAIMER","MCI","NMC","WDOMS"],
+                    },
+
+
+
+                    {
+                        name: "Kursk State Medical University",
+                        image: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742807984/Russia_university_13_pic_javgbo.jpg",
+                        slug: "kursk-state-medical-university",
+                        country : "russia",
+                        overview : ["Kursk State Medical University is a Russian medical university located in Kursk, western Russia, established in 1935. In 1994 it was granted university status. In 1985 Kursk State Medical University was awarded an order of the Red Banner of Labour for merits in the training of physicians and pharmaceutists and contribution to the development of public health service and medical science. Kursk State Medical University is successfully connected with asks about work especially in the field of biological medication. It is further more prominent for its perceiving twofold affirmation consistently for example there are 2 confirmations of outside understudies for September and January sessions. The college has all around arranged lodgings for settlement of outside understudies from all around the world. Arond 83 years Kursk State Medical University has been prepared Around of 45000 Specialists, pharmaceutics and other wellbeing experts."],
+                        academic : ["Kursk State Medical University (KSMU) stands as a prominent institution in Russia, dedicated to providing a comprehensive and diverse range of healthcare-related programs.  Recognizing the multifaceted nature of the healthcare sector, KSMU offers a broad spectrum of academic pathways, encompassing medical, dentistry, pharmacy, and allied health sciences.  This extensive selection of programs caters to students with varying interests and career aspirations, ensuring that they can find a field of study that aligns with their individual goals. The university's commitment to academic excellence is further demonstrated by its offering of degrees at all levels, from bachelor's to doctoral studies."],
+                        academicImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742808006/Russia_university_13_academic_pic_i9wivq.jpg",
+                        faculties : [
+                            "Faculty of General Medicine",
+                            "Faculty of Pediatric",
+                            "Faculty of Preventive medicine",
+                            "Faculty of Stomatology/Dentistry",
+                            "Faculty of Nursing Education",
+                            "Faculty of Pharmacy",
+                        ],
+                        facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
+                        affilationRecognition : ["FAIMER","The Medical Council of India","ECFMG","World Health Organization (WHO)"],
+                    },
+
+                    
+                    {
+                        name: "Orenburg State Medical University",
+                        image: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742806868/Russia_university_11_pic_fv6qnz.jpg",
+                        slug: "orenburg-state-medical-university",
+                        country : "russia",
+                        overview : ["Established in 1944, Orenburg State Medical University (OrSMU) is one of the oldest, most regarded, and globally recognized medical universities in Russia. Situated in the Orenburg City of Russia, OrSMU is consistently placed in the list of top medical universities. OrSMU offers MBBS Program to medical aspirants from Russia as well as from other countries worldwide, and its medical qualification is recognized globally, including countries like the United States, Canada, and India. With a glorious history of seven decades, and a delicate balance of experience, expertise, and modernity, OrSMU is one of the best universities to study MBBS in Russia. Specialists in the sphere of medicine graduated from the University for many years. Graduates of the Orenburg Medical University work in state and private medical and preventive institutions, take leading positions in state administrative structures, solve primary issues on the development of modern medicine."],
+                        academic : ["Orenburg State Medical University (OrSMU) provides a comprehensive medical education, offering a diverse range of programs encompassing General Medicine (MBBS), Pediatrics, Preventive Care, Clinical Psychology, Dentistry, Pharmacy, and Nursing, all designed to deliver high-quality medical training and prepare students for successful careers in various healthcare fields."],
+                        academicImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742806888/Russia_university_11_academic_pic_ab23ix.jpg",
+                        faculties : [
+                            "Faculty of General Medicine",
+                            "Faculty of Pediatric",
+                            "Faculty of Preventive medicine",
+                            "Faculty of Stomatology/Dentistry",
+                            "Faculty of Nursing Education",
+                            "Faculty of Pharmacy",
+                        ],
+                        facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
+                        affilationRecognition : ["FAIMER","The Medical Council of India","ECFMG","World Health Organization (WHO)"],
+                    },
+
+                    
+                    {
+                        name: "Mari State Medical University",
+                        image: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742808838/Russia_university_14_pic_qefs4j.jpg",
+                        slug: "mari-state-medical-university",
+                        country : "russia",
+                        overview : ["History of Mari State University had begun in the year 1972 as a non-profit public higher education institution in Russia. It was founded by the Ministry of Science and Higher Education of the Russian Federation. The University is situated in the city of Yoshkar Ola (the capital of Mari El Republic). University has always been an active member of the Russian Association of Classical Universities as well as a member of the Volga Region’s Association of Classical Universities. Not only this, Mari State University founded the Association of Finno-Ugric Universities. It is also, the Centre Education and Scientific research and is recognized by the major councils of different nations such as Medical Council of India (MCI), European Medical Council (EMC), UNESCO, etc. and also enlisted with the World Directory of Medical Schools (WDOMS)."],
+                        academic : ["University consists of 6 faculties and 5 institutes that train well-educated specialists for most sectors of the Russian national economy. Mari State Medical University teaching staff includes about 100 doctors of sciences and professors and 400 candidates of sciences and associate professors."],
+                        academicImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742808858/Russia_university_14_academic_zcshvg.jpg",
+                        faculties : [
+                            "Faculty of General Medicine",
+                            "Faculty of Pediatric",
+                            "Faculty of Preventive medicine",
+                            "Faculty of Clinical Psychology",
+                            "Faculty of Preventive Care",
+                            "Faculty of Pharmacy",
+                        ],
+                        facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
+                        affilationRecognition : ["FAIMER","The Medical Council of India","NMC","World Health Organization (WHO)"],
+                    },
+
+                    
+                    {
+                        name: "Kemerovo State Medical University",
+                        image: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742808909/Russia_university_15_pic_imq9oj.jpg",
+                        slug: "kemerovo-state-medical-university",
+                        country : "russia",
+                        overview : ["Kemerovo State Medical University was established in 1955 and has more than 65 years of expertise in teaching medical students. One of the top educational, scientific, and medical institutions in Russia and the entire Siberian area is Kemerovo State Medical University. The National Medical Commission (NMC) has given Kemerovo State Medical University its seal of approval, and the Ministry of Science and Higher Education of the Russian Federation has granted it accreditation. Given that it offers its MBBS degree program to its international students in English, Kemerovo State Medical University is among the finest MBBS institutes in Russia. The university conducts educational activities in accordance with society and the state which includes a focused way of education and training programs in the field of medicine. It establishes systematic and methodological educational work to improve the quality of training of specialists."],
+                        academic : ["There are 17 academic laboratories and administrative buildings on the site. At Kemerovo State Medical University, the students are shown the highest respect. The facilities for student housing area close to the city’s core in Kemerovo Oblast. In each of the hostel rooms, there is central air conditioning and heating. One of the top MBBS schools in Russia is the Kemerovo State Medical University. Due to the Kemerovo State Medical University’s low tuition fees and accreditation by both the Russian Federation’s Ministry of Science and Higher Education and the National Medical Commission (NMC), young, aspirant medical candidates from all over the world—including India—aspire to earn their MBBS there."],
+                        academicImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742809053/Russia_university_15_academic_urzfkt.jpg",
+                        faculties : [
+                            "Faculty of General Medicine",
+                            "Faculty of Pediatric",
+                            "Faculty of Preventive medicine",
+                            "Faculty of Ophthalmology",
+                            "Faculty of Urology",
+                            "Faculty of Therapy",
+                        ],
+                        facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
+                        affilationRecognition : ["FAIMER","The Medical Council of India","ECFMG","World Health Organization (WHO)"],
+                    },
+
+                    
+                    {
+                        name: "Pskov State Medical University",
+                        image: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742810318/Russia_university_16_pic_niq70h.jpg",
+                        slug: "Pskov-state-medical-university",
+                        country : "russia",
+                        overview : ["Initially formed in 1919 by merging teacher training colleges, the institution aimed to educate primary and secondary school teachers, as well as political educators. It became a pedagogical college in 1923, focusing on primary school teachers and preschool workers. In 1932, the Pskov Pedagogical Institute opened, sharing facilities with the college. Before World War II, nearly a thousand students graduated. The university offers the best education to all its students who are pursuing MBBS in Russia and also ensures the holistic development of each student. At the university campus, there are different sports sections such as basketball, volleyball, football, and table tennis. The university further offers various extracurricular activities for the students to actively participate in various events."],
+                        academic : ["The Academic structure of the university consists of 16 faculties including medical education faculty and more. PskovSU today includes more than 10,000 students and over 500 teachers, among them there are Honored Teachers of Russia, Honorary Workers of secondary vocational education, and Candidates of Science. The university widely implements innovative approaches to teaching and research activities."],
+                        academicImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742810336/Russia_university_16_academic_zzwbha.jpg",
+                        faculties : [
+                            "Faculty of General Medicine",
+                            "Faculty of Pediatric",
+                            "Faculty of Medical Biochemistry",
+                            "Faculty of Medical Cybernetics",
+                            
+                        ],
+                        facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
+                        affilationRecognition : ["FAIMER","NMC","WDOMS","WHO"],
+      },
+
                     {
                         name: "North-Western State Medical University",
                         image: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741758303/russia_university_1_suz32t.jpg",
