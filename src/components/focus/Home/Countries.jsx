@@ -10,25 +10,25 @@ import { Navigation, Pagination, Autoplay } from 'swiper/modules';
 
 const Mbbsabroad = () => {
   const images = [
-    'https://res.cloudinary.com/dqggm4k7u/image/upload/v1742538818/mbbs_in_Russia_a2pfqx.jpg',
-    'https://res.cloudinary.com/dqggm4k7u/image/upload/v1742539666/mbbs_in_Uzbekistan_hohcks.jpg',
-    'https://res.cloudinary.com/dqggm4k7u/image/upload/v1742538860/MBBS_in_Kyrgyzstan_pyekcs.jpg',
-    'https://res.cloudinary.com/dqggm4k7u/image/upload/v1742538867/Mbbs_in_Kazakhstan_ksgbng.jpg',
-    "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742539684/mbbs_in_Georgia_szeyd2.jpg",
+    'https://res.cloudinary.com/dqggm4k7u/image/upload/v1742813741/mbbs_in_Russia_rhum75.jpg',
+    'https://res.cloudinary.com/dqggm4k7u/image/upload/v1742813767/mbbs_in_Uzbekistan_idpkpk.jpg',
+    'https://res.cloudinary.com/dqggm4k7u/image/upload/v1742813827/MBBS_in_Kyrgyzstan_ypc0sp.jpg',
+    'https://res.cloudinary.com/dqggm4k7u/image/upload/v1742813839/Mbbs_in_Kazakhstan_fiad6o.jpg',
+    "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742813852/mbbs_in_Georgia_wbboxf.jpg",
 
-    "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742539672/mbbs_in_Armenia_fbwrjf.jpg",
+    "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742813874/mbbs_in_Armenia_dmjdnb.jpg",
     
-    "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742538894/Mbbs_in_Belarus_hzkcj0.jpg",
+    "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742813891/Mbbs_in_Belarus_rwiyzb.jpg",
     
-    "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742538911/Mbbs_in_bangladesh_wwgtyz.jpg",
+    "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742813907/Mbbs_in_bangladesh_ylxofv.jpg",
     
-    "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742538919/Mbbs_in_nepal_bzunp1.jpg",
+    "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742813940/Mbbs_in_nepal_kgrxoi.jpg",
     
-    "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742538932/Mbbs_in_Poland_h0dwmu.jpg",
+    "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742813991/Mbbs_in_Poland_t5nni4.jpg",
 
-    "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742538940/Mbbs_in_dubai_ydciw2.jpg",
+    "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742814024/Mbbs_in_dubai_bacvsm.jpg",
 
-    "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742538947/MBBS_in_Ukraine_mliise.jpg",
+    "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742814040/MBBS_in_Ukraine_h8k6tr.jpg",
 
 
     // './assests/mbbs/mbbs5.png',
@@ -39,7 +39,7 @@ const Mbbsabroad = () => {
   return (
     <div className="mt-8">
       <h2 className="text-2xl md:text-3xl text-center font-semibold text-gray-800 mb-8 ml-16">
-      Our Top MBBS Universities
+      Our Top MBBS Countries
       </h2>
 
       <div className="w-[90%] mx-auto">
