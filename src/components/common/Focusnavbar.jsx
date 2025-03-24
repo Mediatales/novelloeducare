@@ -67,7 +67,7 @@ const Focusnavbar = () => {
       />
     </svg>
   </button>
-  <div className="absolute hidden group-hover:block w-60 py-2 mt-0 bg-white rounded-md shadow-xl z-10 max-h-60 overflow-y-auto">
+  <div className="absolute hidden group-hover:block w-60 py-0 mt-0 bg-white rounded-md shadow-xl z-10 max-h-80 overflow-y-auto">
     {isLoading ? (
       <div className="px-4 py-2">Loading...</div>
     ) : error ? (
