@@ -327,7 +327,7 @@ export async function GET(request, { params }) {
                         ],
                         facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
                         affilationRecognition : ["FAIMER","The Medical Council of India","National Medical Commission of India (NMC)","World Health Organization (WHO)"],
-                    },
+                    },
 
 
                 ],
