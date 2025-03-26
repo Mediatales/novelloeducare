@@ -106,6 +106,155 @@ export async function GET(request, { params }) {
               "Recognized by the Ministry of Health of the Republic of Uzbekistan",
             ],
           },
+          {
+            name: "Fergana State Medical University",
+            image:
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742971800/pic_2_emnpdk.jpg",
+            slug: "fergana-state-medical-university",
+            country: "uzbekistan",
+            overview: [
+              "Established in 1991 in the city of Fergana, Uzbekistan, and holding affiliation with Fergana State University, the Fergana Medical Institute of Public Health serves as a prominent center for higher medical education in the region. The institute offers a range of programs across vital fields including General Medicine, Medical and Pedagogical studies, and Medical and Preventive Care, ensuring a comprehensive approach to public health education. Notably, the institute holds accreditation from both the World Health Organization (WHO) and the Medical Council of India/National Medical Commission (MCI/NMC), signifying that its degrees and educational standards are recognized on a global scale, facilitating international career opportunities for its graduates. Supported by a dedicated faculty of 147 professors and organized into 19 distinct departments, the institute is committed to delivering high-quality theoretical knowledge alongside essential practical skills.",
+            ],
+            academic: [
+              "Fergana State University distinguishes itself by providing a relatively affordable pathway to international medical education for aspiring students. Specifically, the annual tuition fee for individuals seeking to pursue an MBBS degree at the university is notably accessible, amounting to only USD 3,500. Furthermore, recognizing the importance of global accessibility and catering to a diverse international student body, Fergana State University offers its medical courses in the English language, thereby eliminating potential language barriers and facilitating a more seamless and effective learning experience for students from various linguistic backgrounds.",
+            ],
+            academicImg:
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742971815/pic_4_p8vsjx.jpg",
+            faculties: [
+              "Faculty of General Medicine",
+              "Faculty of Preventive Medicine ",
+              "Faculty of Higher Nursing",
+              "Faculty of Traditional Medicine",
+              "Faculty of Pediatrics",
+              "Faculty of Biomedical Engineering",
+            ],
+            facultyImg:
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
+            affilationRecognition: [
+              "FAIMER",
+              "The Medical Council of India",
+              "National Medical Commission of India (NMC)",
+              "World Health Organization (WHO)",
+            ],
+          },
+
+          {
+            name: "Bukhara State Medical University",
+            image:
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742974294/Uzbekistan_university_6_bukhara_esv5kr.jpg",
+            slug: "bukhara-state-medical-university",
+            country: "uzbekistan",
+            overview: [
+              "Established in 1990 and situated in the historic city of Bukhara, Uzbekistan, the Bukhara State Medical Institute is a highly regarded and leading university within the nation. Recognized as a top institution for medical science education, it presents an attractive avenue for international students seeking to pursue their MBBS degrees in Uzbekistan. Several factors contribute to its global appeal, including its relatively low tuition fees coupled with a commitment to maintaining high educational standards. The institute also boasts advanced laboratory facilities and provides essential basic amenities to support student learning and well-being. Furthermore, Bukhara State Medical Institute effectively eliminates language barriers for its international students by offering its medical programs with English as the primary medium of instruction, making the curriculum more accessible and easier to comprehend for individuals from diverse linguistic backgrounds around the world.",
+            ],
+            academic: [
+              "Bukhara State Medical Institute (BSMI) in Uzbekistan provides a comprehensive selection of medical programs, including a six-year MBBS program, a six-year General Medicine course, a six-year Pediatrics program, and a five-year Dentistry program, with the added flexibility of instruction available in both English and Russian for select programs.",
+            ],
+            academicImg:
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742974306/Uzbekistan_university_6_bukhara_academic_zn85cv.jpg",
+            faculties: [
+              "Faculty of General Medicine",
+              "Faculty of Preventive Medicine ",
+              "Faculty of Traditional Medicine",
+              "Faculty of Pediatrics",
+              "Faculty of Biomedical Engineering",
+            ],
+            facultyImg:
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
+            affilationRecognition: ["FAIMER", "MCI", "NMC", "WHO"],
+          },
+
+          {
+            name: "Tashkent State Pediatric University",
+            image:
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742974976/Uzbekistan_university_7_Tashkent_agdzas.jpg",
+            slug: "tashkent-state-pediatric-university",
+            country: "uzbekistan",
+            overview: [
+              "Established in 1972, the institution now known as the Tashkent Pediatric Medical Institute has been a significant provider of educational services in the Republic of Uzbekistan, initially operating as the Central Asian Medical Pediatric Institute before its transfer to the Ministry of Uzbekistan in 1988 and subsequent reorganization. Located in Tashkent, the capital city of Uzbekistan, the institute was founded with the primary objective of addressing a shortage of pediatricians and the high infant mortality rates prevalent in the region by training highly qualified doctors and specialists in pediatrics. Since its inception, the institute has successfully graduated over 29,500 highly qualified medical doctors who have contributed significantly to healthcare.",
+            ],
+            academic: [
+              "Tashkent Pediatric Medical Institute (TPMI), which has since been renamed Tashkent State Pediatric University, provides a comprehensive six-year MBBS program alongside various postgraduate opportunities including Master's degrees, clinical residency programs, and further postgraduate education, all of which hold global recognition, including acknowledgment by the Medical Council of India (now NMC).",
+            ],
+            academicImg:
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742974988/Uzbekistan_university_7_Tashkent_academic_d9cyhe.jpg",
+            faculties: [
+              "Faculty of General Medicine",
+              "Faculty of Preventive Medicine ",
+              "Faculty of Traditional Medicine",
+              "Faculty of Pediatrics",
+              "Faculty of Biomedical Engineering",
+            ],
+            facultyImg:
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
+            affilationRecognition: [
+              "MCI",
+              "Ministry of Health of the Republic of Uzbekistan",
+              "NMC",
+              "WHO",
+            ],
+          },
+          {
+            name: "Akfa University Medical School",
+            image:
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742987976/Uzbekistan_university_8_akfa_yevyup.jpg",
+            slug: "akfa-university-medical-school",
+            country: "uzbekistan",
+            overview: [
+              "Established in 2019, Akfa University Medical School represents a recent yet significant addition to the esteemed educational landscape of Uzbekistan, situated in the vibrant city of Tashkent. Despite its relatively young foundation, the university is driven by an ambitious aim to rapidly ascend to the forefront of higher education institutions within Uzbekistan, with a broader aspiration to actively contribute to the overall development of both the nation and the global community. Central to Akfa University Medical School's purpose is a clear and focused mission to cultivate and produce a cadre of world-class doctors, equipped with the knowledge, skills, and ethical grounding necessary to excel in the field of medicine and make meaningful contributions to healthcare on a national and international level.",
+            ],
+            academic: [
+              "Tashkent Pediatric Medical Institute (TPMI), which has since been renamed Tashkent State Pediatric University, provides a comprehensive six-year MBBS program alongside various postgraduate opportunities including Master's degrees, clinical residency programs, and further postgraduate education, all of which hold global recognition, including acknowledgment by the Medical Council of India (now NMC).",
+            ],
+            academicImg:
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742988849/Uzbekistan_university_8_akfa_academic_br5iwf.jpg",
+            faculties: [
+              "Faculty of General Medicine",
+              "Faculty of Preventive Medicine ",
+              "Faculty of Traditional Medicine",
+              "Faculty of Pediatrics",
+              "Faculty of Biomedical Engineering",
+            ],
+            facultyImg:
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
+            affilationRecognition: [
+              "MCI",
+              "Ministry of Education, Uzbekistan",
+              "NMC",
+              "WHO",
+            ],
+          },
+
+          {
+            name: "Andijan State Medical Institute",
+            image:
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742987956/Uzbekistan_university_9_andijan_zxizlb.jpg",
+            slug: "andijan-state-medical-institute",
+            country: "uzbekistan",
+            overview: [
+              "For international recognition, aspiring medical professionals must obtain their MBBS degree from a reputable institution, and while numerous universities and institutes worldwide offer medical courses, it is crucial for students to identify the best fit for their individual needs and aspirations. Recognizing the impracticality of visiting every medical university globally, readily available information about these institutions is essential for prospective MBBS students. In this context, we introduce Andijan State Medical Institute, a prominent national institute in the Republic of Uzbekistan, situated in Andijan City, one of the ancient urban centers within the Fergana Valley, and founded in 1955. Andijan State Medical Institute provides comprehensive medical education across a substantial range of over 56 diverse departments, contributing significantly to the training of healthcare professionals in the region and beyond.",
+            ],
+            academic: [
+              "This university provides a six-year MBBS program, inclusive of a year-long internship, at a reasonable and affordable tuition cost, making it a popular choice for a significant number of Indian and other international students due to the entire curriculum being delivered in English.",
+            ],
+            academicImg:
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742987965/Uzbekistan_university_9_andijan_academic_ykurkh.jpg",
+            faculties: [
+              "Faculty of General Medicine",
+              "Faculty of Preventive Medicine ",
+              "Faculty of Dentan",
+              "Faculty of Pediatrics",
+              "Faculty of Biomedical Engineering",
+            ],
+            facultyImg:
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
+            affilationRecognition: [
+              "MCI",
+              "Ministry of Higher and Secondary Specialized Education of Uzbekistan",
+              "NMC",
+              "WHO",
+            ],
+          },
 
           {
             name: "Andijan State Medical Institute",
@@ -152,164 +301,198 @@ export async function GET(request, { params }) {
           "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741757948/mbbs_in_russia_deprzx.jpg",
         quickFacts: ["Moscow", "30%", "Russian Ruble", "Approx. 14.45 crores"],
         univeristes: [
-            {
-                name: "OREL State Medical University",
-                image:
-                  "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742807984/Russia_university_13_pic_javgbo.jpg",
-                slug: "orel-state-medical-university",
-                country: "russia",
-                overview: [
-                  "Orel State University was founded in 1931 as an industrial-Pedagogical Institute. In 1932 Orel Pedagogical University became Orel State University. Orel State University is unique in many aspects, which is on September 11, 1996, renamed into the Orel State University. Orel State University is located in the Oryol city. Orel State University is the only institution that gives professionals in the area of most humane professions like doctors and teachers. Currently, Orel State University implements 110 basic educational programs of higher education in large groups of 14 training areas and specialties. About 18,000 students including nearly 2,000 foreign students (600 Indian students are studying general medicine-MBBS) representing 62 countries are studying at Orel State University named after I.S.",
-                ],
-                academic: [
-                  "The University has successfully developed international activities. Continues active integration of Oryol State University in the world educational, research and innovation space. Due to the significant positive changes in all areas of the university has increased markedly the importance of Oryol State University at the international education market and its attractiveness to foreign students. As a confirmation of increased international university status significantly increased the number of foreign citizens from different regions of the world who wish to study in Orel State University.",
-                ],
-                academicImg:
-                  "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742808006/Russia_university_13_academic_pic_i9wivq.jpg",
-                faculties: [
-                  "Faculty of Medicine",
-                  "Faculty of Pediatric",
-                  "Faculty of Pharmacy",
-                  "Faculty of Pharmaceutics",
-                  "Faculty of Dentistry",
-                ],
-                facultyImg:
-                  "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
-                affilationRecognition: ["FAIMER", "MCI", "NMC", "WDOMS"],
-              },
-    
-              {
-                name: "Kursk State Medical University",
-                image:
-                  "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742807524/Russia_university_12_pic_usfnzk.jpg",
-                slug: "kursk-state-medical-university",
-                country: "russia",
-                overview: [
-                  "Kursk State Medical University is a Russian medical university located in Kursk, western Russia, established in 1935. In 1994 it was granted university status. In 1985 Kursk State Medical University was awarded an order of the Red Banner of Labour for merits in the training of physicians and pharmaceutists and contribution to the development of public health service and medical science. Kursk State Medical University is successfully connected with asks about work especially in the field of biological medication. It is further more prominent for its perceiving twofold affirmation consistently for example there are 2 confirmations of outside understudies for September and January sessions. The college has all around arranged lodgings for settlement of outside understudies from all around the world. Arond 83 years Kursk State Medical University has been prepared Around of 45000 Specialists, pharmaceutics and other wellbeing experts.",
-                ],
-                academic: [
-                  "Kursk State Medical University (KSMU) stands as a prominent institution in Russia, dedicated to providing a comprehensive and diverse range of healthcare-related programs.  Recognizing the multifaceted nature of the healthcare sector, KSMU offers a broad spectrum of academic pathways, encompassing medical, dentistry, pharmacy, and allied health sciences.  This extensive selection of programs caters to students with varying interests and career aspirations, ensuring that they can find a field of study that aligns with their individual goals. The university's commitment to academic excellence is further demonstrated by its offering of degrees at all levels, from bachelor's to doctoral studies.",
-                ],
-                academicImg:
-                  "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742807529/Russia_university_12_academic_godt9l.jpg",
-                faculties: [
-                  "Faculty of General Medicine",
-                  "Faculty of Pediatric",
-                  "Faculty of Preventive medicine",
-                  "Faculty of Stomatology/Dentistry",
-                  "Faculty of Nursing Education",
-                  "Faculty of Pharmacy",
-                ],
-                facultyImg:
-                  "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
-                affilationRecognition: [
-                  "FAIMER",
-                  "The Medical Council of India",
-                  "ECFMG",
-                  "World Health Organization (WHO)",
-                ],
-              },
+          {
+            name: "OREL State Medical University",
+            image:
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742807984/Russia_university_13_pic_javgbo.jpg",
+            slug: "orel-state-medical-university",
+            country: "russia",
+            overview: [
+              "Orel State University was founded in 1931 as an industrial-Pedagogical Institute. In 1932 Orel Pedagogical University became Orel State University. Orel State University is unique in many aspects, which is on September 11, 1996, renamed into the Orel State University. Orel State University is located in the Oryol city. Orel State University is the only institution that gives professionals in the area of most humane professions like doctors and teachers. Currently, Orel State University implements 110 basic educational programs of higher education in large groups of 14 training areas and specialties. About 18,000 students including nearly 2,000 foreign students (600 Indian students are studying general medicine-MBBS) representing 62 countries are studying at Orel State University named after I.S.",
+            ],
+            academic: [
+              "The University has successfully developed international activities. Continues active integration of Oryol State University in the world educational, research and innovation space. Due to the significant positive changes in all areas of the university has increased markedly the importance of Oryol State University at the international education market and its attractiveness to foreign students. As a confirmation of increased international university status significantly increased the number of foreign citizens from different regions of the world who wish to study in Orel State University.",
+            ],
+            academicImg:
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742808006/Russia_university_13_academic_pic_i9wivq.jpg",
+            faculties: [
+              "Faculty of Medicine",
+              "Faculty of Pediatric",
+              "Faculty of Pharmacy",
+              "Faculty of Pharmaceutics",
+              "Faculty of Dentistry",
+            ],
+            facultyImg:
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
+            affilationRecognition: ["FAIMER", "MCI", "NMC", "WDOMS"],
+          },
 
-              {
-                name: "Siberian State Medical University",
-                image: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742900525/Russia_university_Siberian_27_bjrk1l.jpg",
-                slug: "siberian-state-medical-university",
-                country : "russia",
-                overview : ["Established in 1878, Siberian State Medical University (SibMed) holds a distinguished position as one of the oldest and most esteemed medical institutions in Russia, making it a particularly favored choice for Indian students seeking to pursue their MBBS degrees abroad. In recognition of its academic excellence and leadership in medical education, SibMed was granted the unique status of the only flagship medical university in the Russian Federation in 2017. A distinctive feature of SibMed is its integrated multidisciplinary university hospital, a significant advantage that profoundly benefits both the teaching staff and the student body by providing unparalleled opportunities for practical clinical experience. The university boasts a highly qualified teaching staff, with an impressive 80% holding academic degrees and titles, and remarkably, 50% of the faculty are practicing doctors, ensuring that students receive instruction grounded in both theoretical knowledge and real-world clinical expertise."],
-                academic : ["Siberian State Medical University (SibMed) provides a comprehensive spectrum of medical education, encompassing both undergraduate and postgraduate degrees across various essential healthcare fields such as general medicine, dentistry, pharmacy, and nursing, with a strong emphasis on integrating robust theoretical knowledge with extensive practical experience to ensure well-rounded and competent graduates."],
-                academicImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742900570/Russia_university_Siberian_27_academic_ptvfrx.jpg",
-                faculties : [
-                    "Faculty of Medicine",
-                    "Faculty of Dentistry",
-                    "Faculty of Pediatrics",
-                    "Faculty of Nursing",
-                    "Faculty of Pharmacology ",
-                    "Faculty of Pharmacy",
-                ],
-                facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
-                affilationRecognition : ["FAIMER","MCC","NMC","WDOMS"],
-            },
+          {
+            name: "Kursk State Medical University",
+            image:
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742807524/Russia_university_12_pic_usfnzk.jpg",
+            slug: "kursk-state-medical-university",
+            country: "russia",
+            overview: [
+              "Kursk State Medical University is a Russian medical university located in Kursk, western Russia, established in 1935. In 1994 it was granted university status. In 1985 Kursk State Medical University was awarded an order of the Red Banner of Labour for merits in the training of physicians and pharmaceutists and contribution to the development of public health service and medical science. Kursk State Medical University is successfully connected with asks about work especially in the field of biological medication. It is further more prominent for its perceiving twofold affirmation consistently for example there are 2 confirmations of outside understudies for September and January sessions. The college has all around arranged lodgings for settlement of outside understudies from all around the world. Arond 83 years Kursk State Medical University has been prepared Around of 45000 Specialists, pharmaceutics and other wellbeing experts.",
+            ],
+            academic: [
+              "Kursk State Medical University (KSMU) stands as a prominent institution in Russia, dedicated to providing a comprehensive and diverse range of healthcare-related programs.  Recognizing the multifaceted nature of the healthcare sector, KSMU offers a broad spectrum of academic pathways, encompassing medical, dentistry, pharmacy, and allied health sciences.  This extensive selection of programs caters to students with varying interests and career aspirations, ensuring that they can find a field of study that aligns with their individual goals. The university's commitment to academic excellence is further demonstrated by its offering of degrees at all levels, from bachelor's to doctoral studies.",
+            ],
+            academicImg:
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742807529/Russia_university_12_academic_godt9l.jpg",
+            faculties: [
+              "Faculty of General Medicine",
+              "Faculty of Pediatric",
+              "Faculty of Preventive medicine",
+              "Faculty of Stomatology/Dentistry",
+              "Faculty of Nursing Education",
+              "Faculty of Pharmacy",
+            ],
+            facultyImg:
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
+            affilationRecognition: [
+              "FAIMER",
+              "The Medical Council of India",
+              "ECFMG",
+              "World Health Organization (WHO)",
+            ],
+          },
 
+          {
+            name: "Siberian State Medical University",
+            image:
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742900525/Russia_university_Siberian_27_bjrk1l.jpg",
+            slug: "siberian-state-medical-university",
+            country: "russia",
+            overview: [
+              "Established in 1878, Siberian State Medical University (SibMed) holds a distinguished position as one of the oldest and most esteemed medical institutions in Russia, making it a particularly favored choice for Indian students seeking to pursue their MBBS degrees abroad. In recognition of its academic excellence and leadership in medical education, SibMed was granted the unique status of the only flagship medical university in the Russian Federation in 2017. A distinctive feature of SibMed is its integrated multidisciplinary university hospital, a significant advantage that profoundly benefits both the teaching staff and the student body by providing unparalleled opportunities for practical clinical experience. The university boasts a highly qualified teaching staff, with an impressive 80% holding academic degrees and titles, and remarkably, 50% of the faculty are practicing doctors, ensuring that students receive instruction grounded in both theoretical knowledge and real-world clinical expertise.",
+            ],
+            academic: [
+              "Siberian State Medical University (SibMed) provides a comprehensive spectrum of medical education, encompassing both undergraduate and postgraduate degrees across various essential healthcare fields such as general medicine, dentistry, pharmacy, and nursing, with a strong emphasis on integrating robust theoretical knowledge with extensive practical experience to ensure well-rounded and competent graduates.",
+            ],
+            academicImg:
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742900570/Russia_university_Siberian_27_academic_ptvfrx.jpg",
+            faculties: [
+              "Faculty of Medicine",
+              "Faculty of Dentistry",
+              "Faculty of Pediatrics",
+              "Faculty of Nursing",
+              "Faculty of Pharmacology ",
+              "Faculty of Pharmacy",
+            ],
+            facultyImg:
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
+            affilationRecognition: ["FAIMER", "MCC", "NMC", "WDOMS"],
+          },
 
-                {
-                name: "I.M Sechenov First Moscow State Medical University",
-                image: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742901980/Russia_university_im_28_pic_uyy1mp.jpg",
-                slug: "i.m-sechenov-first-moscow-state-medical-university",
-                country : "russia",
-                overview : ["I.M. Sechenov First Moscow State Medical University (Sechenov University) holds a distinguished position as one of the premier medical institutions in Russia, tracing its origins back to 1758 as the medical faculty of the Imperial Moscow University. Throughout its extensive history, Sechenov University has played a pioneering role in shaping the Russian Healthcare System, serving as an alma mater and workplace for numerous renowned scientists and physicians who have made substantial contributions to the advancement of medical science and practice. Today, the university has evolved into a comprehensive academic, research, and Resource Centre of Excellence within the Russian Healthcare System, actively driving the development of the Medicine of the Future by building upon a robust academic foundation in clinical medicine and continuously expanding the horizons of advanced multidisciplinary research to address the evolving challenges and opportunities in healthcare."],
-                academic : ["I. M. Sechenov First Moscow State Medical University (Sechenov University) provides a comprehensive spectrum of medical education, encompassing undergraduate MBBS programs, diverse postgraduate opportunities including Master's degrees, PhD programs, and Clinical Residencies, alongside foundational preparatory courses, with the added flexibility of select programs offered in English, all while maintaining a strong emphasis on fostering research and driving innovation within the healthcare domain."],
-                academicImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742901926/Russia_university_im_28_academic_hzsegc.jpg",
-                faculties : [
-                    "Faculty of Medicine",
-                    "Faculty of Preventive Medicine",
-                    "Faculty of Pediatrics",
-                    "Faculty of Nursing",
-                    "Faculty of Preparatory Studies",
-                    "Faculty of Pharmacy",
-                ],
-                facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
-                affilationRecognition : ["FAIMER","ECFMG","NMC","WDOMS"],
-            },
+          {
+            name: "I.M Sechenov First Moscow State Medical University",
+            image:
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742901980/Russia_university_im_28_pic_uyy1mp.jpg",
+            slug: "i.m-sechenov-first-moscow-state-medical-university",
+            country: "russia",
+            overview: [
+              "I.M. Sechenov First Moscow State Medical University (Sechenov University) holds a distinguished position as one of the premier medical institutions in Russia, tracing its origins back to 1758 as the medical faculty of the Imperial Moscow University. Throughout its extensive history, Sechenov University has played a pioneering role in shaping the Russian Healthcare System, serving as an alma mater and workplace for numerous renowned scientists and physicians who have made substantial contributions to the advancement of medical science and practice. Today, the university has evolved into a comprehensive academic, research, and Resource Centre of Excellence within the Russian Healthcare System, actively driving the development of the Medicine of the Future by building upon a robust academic foundation in clinical medicine and continuously expanding the horizons of advanced multidisciplinary research to address the evolving challenges and opportunities in healthcare.",
+            ],
+            academic: [
+              "I. M. Sechenov First Moscow State Medical University (Sechenov University) provides a comprehensive spectrum of medical education, encompassing undergraduate MBBS programs, diverse postgraduate opportunities including Master's degrees, PhD programs, and Clinical Residencies, alongside foundational preparatory courses, with the added flexibility of select programs offered in English, all while maintaining a strong emphasis on fostering research and driving innovation within the healthcare domain.",
+            ],
+            academicImg:
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742901926/Russia_university_im_28_academic_hzsegc.jpg",
+            faculties: [
+              "Faculty of Medicine",
+              "Faculty of Preventive Medicine",
+              "Faculty of Pediatrics",
+              "Faculty of Nursing",
+              "Faculty of Preparatory Studies",
+              "Faculty of Pharmacy",
+            ],
+            facultyImg:
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
+            affilationRecognition: ["FAIMER", "ECFMG", "NMC", "WDOMS"],
+          },
 
-                {
-                name: "Pirogov Russian National Research Medical University",
-                image: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742965815/Russia_university_pirogov_29_pic_xchnhg.jpg",
-                slug: "pirogov-russian-national-research-medical-university",
-                country : "russia",
-                overview : ["Pirogov Russian National Research Medical University, a venerable and highly regarded institution in Russia, boasts a rich history of medical education and research. Its extensive faculty of over 2,000 professors actively contribute to the academic environment through more than 100 departments, delivering a comprehensive educational experience encompassing seminars, lectures, and practical laboratory sessions across over 250 courses in the sciences. A significant advantage for students at Pirogov University is its strong collaborative network with the largest Moscow State clinical hospitals, which serve a vast patient population with diverse medical conditions."],
-                academic : ["Pirogov Russian National Research Medical University (RNRMU) delivers a full of medical and healthcare education, encompassing diverse undergraduate and postgraduate programs across various disciplines such as general medicine, pediatrics, dentistry, pharmacy, and numerous others, all while emphasizing a balanced approach to learning that integrates strong theoretical foundations with extensive practical clinical experience."],
-                academicImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742965833/Russia_university_Pirogov_29_academic_xrxega.jpg",
-                faculties : [
-                    "Faculty of Medicine",
-                    "Faculty of Biomedicine",
-                    "Faculty of Pediatrics",
-                    "Faculty of Dentistry",
-                    "Faculty of Psychological-Social Faculty",
-                    "Faculty of Pharmacy",
-                ],
-                facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
-                affilationRecognition : ["FAIMER","ECFMG","NMC","WDOMS"],
-            },
+          {
+            name: "Pirogov Russian National Research Medical University",
+            image:
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742965815/Russia_university_pirogov_29_pic_xchnhg.jpg",
+            slug: "pirogov-russian-national-research-medical-university",
+            country: "russia",
+            overview: [
+              "Pirogov Russian National Research Medical University, a venerable and highly regarded institution in Russia, boasts a rich history of medical education and research. Its extensive faculty of over 2,000 professors actively contribute to the academic environment through more than 100 departments, delivering a comprehensive educational experience encompassing seminars, lectures, and practical laboratory sessions across over 250 courses in the sciences. A significant advantage for students at Pirogov University is its strong collaborative network with the largest Moscow State clinical hospitals, which serve a vast patient population with diverse medical conditions.",
+            ],
+            academic: [
+              "Pirogov Russian National Research Medical University (RNRMU) delivers a full of medical and healthcare education, encompassing diverse undergraduate and postgraduate programs across various disciplines such as general medicine, pediatrics, dentistry, pharmacy, and numerous others, all while emphasizing a balanced approach to learning that integrates strong theoretical foundations with extensive practical clinical experience.",
+            ],
+            academicImg:
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742965833/Russia_university_Pirogov_29_academic_xrxega.jpg",
+            faculties: [
+              "Faculty of Medicine",
+              "Faculty of Biomedicine",
+              "Faculty of Pediatrics",
+              "Faculty of Dentistry",
+              "Faculty of Psychological-Social Faculty",
+              "Faculty of Pharmacy",
+            ],
+            facultyImg:
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
+            affilationRecognition: ["FAIMER", "ECFMG", "NMC", "WDOMS"],
+          },
 
-                {
-                name: "Far Eastern Federal University",
-                image: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742967719/Russia_university_Far_30_pic_qouodo.jpg",
-                slug: "far-eastern-federal-university",
-                country : "russia",
-                overview : ["Established in 1899 in Vladivostok, a city often referred to as Russia's San Francisco and the administrative center of Primorsky Krai in Eastern Russia, Far Eastern Federal University (FEFU) holds a significant position as one of the leading universities recognized by the Russian Ministry of Education and Science. This recognition underscores FEFU's crucial role in enhancing the international competitiveness of Russian universities within the global landscape of prominent research and education centers. The university's Medical Centre boasts a highly skilled and specialized team of over 200 professionals, providing advanced medical facilities to patients, with the expertise of these doctors being sought after both within Russia and internationally. Furthermore, Far Eastern Federal University has consistently championed a high-tech approach to education, equipping its medical facilities with cutting-edge equipment produced by leading manufacturers in the medical industry, ensuring students and patients benefit from the latest advancements in medical technology and care."],
-                academic : ["Far Eastern Federal University (FEFU) provides a comprehensive array of academic programs spanning bachelor's, master's, and doctoral levels across diverse disciplines such as engineering, sciences, economics, humanities, and medicine, with a strong emphasis on fostering international cooperation and developing practical, real-world skills in its graduates."],
-                academicImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742967750/Russia_university_far_30_academic_pic_vfk1ep.jpg",
-                faculties : [
-                    "Faculty of Medicine",
-                    "Faculty of Biomedicine",
-                    "Faculty of Pediatrics",
-                    "Faculty of Nursing",
-                    "Faculty of Obstetrics & Gynecology",
-                    "Faculty of Pharmacy",
-                ],
-                facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
-                affilationRecognition : ["FAIMER","ECFMG","NMC","WDOMS"],
-            },
+          {
+            name: "Far Eastern Federal University",
+            image:
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742967719/Russia_university_Far_30_pic_qouodo.jpg",
+            slug: "far-eastern-federal-university",
+            country: "russia",
+            overview: [
+              "Established in 1899 in Vladivostok, a city often referred to as Russia's San Francisco and the administrative center of Primorsky Krai in Eastern Russia, Far Eastern Federal University (FEFU) holds a significant position as one of the leading universities recognized by the Russian Ministry of Education and Science. This recognition underscores FEFU's crucial role in enhancing the international competitiveness of Russian universities within the global landscape of prominent research and education centers. The university's Medical Centre boasts a highly skilled and specialized team of over 200 professionals, providing advanced medical facilities to patients, with the expertise of these doctors being sought after both within Russia and internationally. Furthermore, Far Eastern Federal University has consistently championed a high-tech approach to education, equipping its medical facilities with cutting-edge equipment produced by leading manufacturers in the medical industry, ensuring students and patients benefit from the latest advancements in medical technology and care.",
+            ],
+            academic: [
+              "Far Eastern Federal University (FEFU) provides a comprehensive array of academic programs spanning bachelor's, master's, and doctoral levels across diverse disciplines such as engineering, sciences, economics, humanities, and medicine, with a strong emphasis on fostering international cooperation and developing practical, real-world skills in its graduates.",
+            ],
+            academicImg:
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742967750/Russia_university_far_30_academic_pic_vfk1ep.jpg",
+            faculties: [
+              "Faculty of Medicine",
+              "Faculty of Biomedicine",
+              "Faculty of Pediatrics",
+              "Faculty of Nursing",
+              "Faculty of Obstetrics & Gynecology",
+              "Faculty of Pharmacy",
+            ],
+            facultyImg:
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
+            affilationRecognition: ["FAIMER", "ECFMG", "NMC", "WDOMS"],
+          },
 
-                {
-                name: "Altai State Medical University",
-                image: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742969386/Russia_university_altai_31_pic_ditj3q.jpg",
-                slug: "altai-state-medical-university",
-                country : "russia",
-                overview : ["Established in 1954 in Barnaul, within the Altai region of Russia, Altai State Medical University, formerly known as Altai State Medical Institute, has garnered recognition from the Ministry of Education and Science of the Russian Federation. The university is renowned for its commitment to conducting high-quality training programs, having produced approximately 25,000 leading teams of doctors and pharmaceutics who have significantly contributed to the regional healthcare system. Standing as a central hub for research, education, and cultural exchange, Altai State Medical University has a long-standing tradition of academic excellence, having graduated around 30,000 individuals over the years, with approximately 4,000 students annually enrolling in its diverse medical programs."],
-                academic : ["Altai State Medical University (ASMU) provides a comprehensive six-year MBBS program, which includes a mandatory year of internship, delivered in English across its diverse faculties encompassing General Medicine, Dentistry, Pharmacy, Pediatrics, and Preventive Medicine, and is widely recognized for its commitment to quality medical education coupled with affordable tuition fees."],
-                academicImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742969394/Russia_university_altai_31_academic_fcevtm.jpg",
-                faculties : [
-                    "Faculty of Medicine",
-                    "Faculty of Dentistry",
-                    "Faculty of Pediatrics",
-                    "Faculty of Nursing",
-                    "Faculty of Medicine And Preventive Studies",
-                    "Faculty of Pharmacy",
-                ],
-                facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
-                affilationRecognition : ["FAIMER","ECFMG","NMC","WDOMS"],
-  },
+          {
+            name: "Altai State Medical University",
+            image:
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742969386/Russia_university_altai_31_pic_ditj3q.jpg",
+            slug: "altai-state-medical-university",
+            country: "russia",
+            overview: [
+              "Established in 1954 in Barnaul, within the Altai region of Russia, Altai State Medical University, formerly known as Altai State Medical Institute, has garnered recognition from the Ministry of Education and Science of the Russian Federation. The university is renowned for its commitment to conducting high-quality training programs, having produced approximately 25,000 leading teams of doctors and pharmaceutics who have significantly contributed to the regional healthcare system. Standing as a central hub for research, education, and cultural exchange, Altai State Medical University has a long-standing tradition of academic excellence, having graduated around 30,000 individuals over the years, with approximately 4,000 students annually enrolling in its diverse medical programs.",
+            ],
+            academic: [
+              "Altai State Medical University (ASMU) provides a comprehensive six-year MBBS program, which includes a mandatory year of internship, delivered in English across its diverse faculties encompassing General Medicine, Dentistry, Pharmacy, Pediatrics, and Preventive Medicine, and is widely recognized for its commitment to quality medical education coupled with affordable tuition fees.",
+            ],
+            academicImg:
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742969394/Russia_university_altai_31_academic_fcevtm.jpg",
+            faculties: [
+              "Faculty of Medicine",
+              "Faculty of Dentistry",
+              "Faculty of Pediatrics",
+              "Faculty of Nursing",
+              "Faculty of Medicine And Preventive Studies",
+              "Faculty of Pharmacy",
+            ],
+            facultyImg:
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
+            affilationRecognition: ["FAIMER", "ECFMG", "NMC", "WDOMS"],
+          },
 
           {
             name: "Orenburg State Medical University",
