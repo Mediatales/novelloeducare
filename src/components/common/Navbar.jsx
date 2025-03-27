@@ -47,14 +47,17 @@ const Navbar = () => {
       />
     </svg>
   </button>
-  <div className="absolute hidden group-hover:block w-48 py-2 mt-1 bg-white rounded-md shadow-xl max-h-60 overflow-y-auto">
+  <div className="absolute hidden group-hover:block w-48 py-2 mt-1 bg-white rounded-md shadow-xl max-h-80 overflow-y-auto">
     {[
       { name: "Australia", flag: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1739947305/country_flag_bapifw.png" },
-      { name: "Canada", flag: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1739947287/country_flag_1_fp8tkj.png" },
-      { name: "Italy", flag: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1739947287/country_flag_2_rmcrca.png" },
-      { name: "USA", flag: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1739947287/country_flag_4_azullr.png" },
-      { name: "France", flag: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1739947287/country_flag_3_cu46zs.png" },
       { name: "UK", flag: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1739947287/country_flag_5_ehm3m0.png" },
+      { name: "USA", flag: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1739947287/country_flag_4_azullr.png" },
+      { name: "Canada", flag: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1739947287/country_flag_1_fp8tkj.png" },
+      { name: "France", flag: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1739947287/country_flag_3_cu46zs.png" },
+
+      { name: "Italy", flag: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1739947287/country_flag_2_rmcrca.png" },
+     
+
       { name: "Dubai", flag: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1739947287/country_flag_5_ehm3m0.png" },
       { name: "Germany", flag: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1739947306/country_flag_7_dmj0kz.png" },
       { name: "Poland", flag: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1739947305/country_flag_8_lzpkkd.png" },
