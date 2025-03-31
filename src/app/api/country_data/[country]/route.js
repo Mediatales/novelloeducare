@@ -1817,6 +1817,66 @@ export async function GET(request, { params }) {
               "World Health Organization (WHO)",
             ],
           },
+          {
+            name: "David Tvildiani Medical University",
+            image: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1743407670/georgia_mbbs_university_david_5_hfjyzb.jpg",
+            slug: "david-tvildiani-medical-university",
+            country : "georgia",
+            overview : ["Established in 1992-93 in Tbilisi, Georgia, the David Tvildiani Medical University (DTMU) is a private institution dedicated to providing high-quality higher education in the field of medicine, holding recognition from the Medical Council of India (now NMC) and being listed with the World Directory of Medical Schools (WDOMS), with a strong emphasis on the ongoing enhancement of its teaching methodologies, learning resources, research activities, and overall management practices. It is establishing itself as a premier choice for prospective doctors globally, committed to cultivating highly competent and informed medical professionals prepared to tackle the complexities of contemporary healthcare, with its comprehensive offerings encompassing academic programs and student life, providing a thorough overview for future students."],
+            academic : ["While David Tvildiani Medical University (DTMU) provides a range of academic programs, its cornerstone offering is the MBBS (Bachelor of Medicine and Bachelor of Surgery) program, which has garnered significant recognition and high regard within the international medical community for its comprehensive curriculum and quality of medical education."],
+            academicImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1743407998/Georgia_mbbs_university_david_5_academic_wum4am.jpg",
+            faculties : [
+                "Faculty of General Medicine",
+                "Faculty of Public Health",
+                "Faculty of Environment",
+                "Faculty of Anatomy and Physiology",
+                "Faculty of Hospital Therapy",
+            ],
+            facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
+            affilationRecognition : ["MCI","WDOMS","NMC","WHO"],
+        },
+
+        
+   {
+            name: "Tbilisi State Medical University",
+            image: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1743408336/Georgia_mbbs_university_Tbilisi_6_pic_xspxl0.jpg",
+            slug: "tbilisi-state-medical-university",
+            country : "georgia",
+            overview : ["Established in 1918, Tbilisi State Medical University in Georgia stands as a prominent institution in Tbilisi, boasting a substantial student body of over seven thousand undergraduates and three thousand postgraduates, with a significant 25 percent of its enrollment comprising international students pursuing their MBBS degrees in Georgia. Recognized as one of the pioneering universities to receive approval from the Institutional Evaluation Programme conducted by the Association of European Universities in 1997, Tbilisi State Medical University has consistently produced graduates who go on to pursue successful careers in leading clinics across Georgia, Europe, and the world."],
+            academic : ["While David Tvildiani Medical University (DTMU) provides a range of academic programs, its cornerstone offering is the MBBS (Bachelor of Medicine and Bachelor of Surgery) program, which has garnered significant recognition and high regard within the international medical community for its comprehensive curriculum and quality of medical education."],
+            academicImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1743408337/Georgia_mbbs_university_Tbilisi_6_academic_w9ldrh.jpg",
+            faculties : [
+                "Faculty of General Medicine",
+                "Faculty of Dentistry",
+                "Faculty of Nursing",
+                "Faculty of Anatomy",
+                "Faculty of Physical Medicine and Rehabilitation",
+            ],
+            facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
+            affilationRecognition : ["FAIMER","ECFMG","NMC","WHO"],
+        },
+
+
+        
+          {
+            name: "New Vision Medical University",
+            image: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1743407692/Georgia_mbbs_university_New_Vision_7_pic_mv4tqr.jpg",
+            slug: "new-vision-medical-university",
+            country : "georgia",
+            overview : ["Established in 2013, New Vision University stands as a private, non-profit institution of higher education located in Tbilisi, Georgia, rapidly gaining recognition as one of the fastest-developing international universities within the region. The university prides itself on its distinguished faculty, who are deeply committed to excellence in clinical care, comprehensive education, and impactful research endeavors. Reflecting this dedication to scholarly advancement, numerous scientific research projects of both international and national significance have been successfully undertaken under the auspices of the university. Furthermore, New Vision University has cultivated close and collaborative partnership relations with leading higher medical institutions both domestically and internationally, including notable affiliations such as its partnership with Leeds University in England, fostering a global network for academic and research exchange."],
+            academic : ["New Vision University (NVU) provides a comprehensive spectrum of medical education, encompassing a 6-year Medical Doctor (MD) program, Bachelor's degrees in Medical Rehabilitation and Nursing Care, Master's level programs in Medical Rehabilitation and Healthcare Management, and a terminal Doctorate in Medicine."],
+            academicImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1743407697/Georgia_mbbs_university_New_Vision_7_academic_ke1b80.jpg",
+            faculties : [
+                "Faculty of General Medicine",
+                "Faculty of Pharmacy",
+                "Faculty of Environment",
+                "Faculty of Physical Medicine",
+                "Faculty of Hospital Therapy",
+            ],
+            facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
+            affilationRecognition : ["MCC","FAIMER","NMC","WHO"],
+          },
+
         ],
 
         eligibilityPoints: [
