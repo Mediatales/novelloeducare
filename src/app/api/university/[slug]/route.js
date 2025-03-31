@@ -2124,121 +2124,526 @@ export async function GET(request, { params }) {
             ],
           },
 
-          
           {
             name: "Nepal Medical College",
-            image: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1743057643/nepal_mbbs_university_6_pic_claljt.jpg",
+            image:
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1743057643/nepal_mbbs_university_6_pic_claljt.jpg",
             slug: "nepal-medical-college",
-            country : "nepal",
-            overview : ["Nepal Medical College (NMC) is nestled in a peaceful and serene environment at Attarkhel of Jorpati, Gokarneshwar Municipality, approximately 11 kilometers northeast of Kathmandu city, situated at the base of a small hillock. The college and its teaching hospital, Nepal Medical College Teaching Hospital (NMCTH), are surrounded by natural beauty, including the Gokarna hillock with pine trees to the north, the Gokarna Safari Park across the Bagmati river to the east, and tree-lined terraces to the west, with convenient access to the main road via its southwestern entrance."],
-            academic : ["Nepal Medical College (NMC) provides a comprehensive array of medical and healthcare programs, encompassing undergraduate degrees such as MBBS, BDS, BSc Nursing, BPharm, and BMLT, alongside a diverse selection of postgraduate programs including MD, MS, MDS, and DM."],
-            academicImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1743057659/nepal_mbbs_university_6_academic_jvwbkp.jpg",
-            faculties : [
-                "Faculty of General Medicine",
-                "Faculty of Dentistry",
-                "Faculty of Nursing",
-                "Faculty of Medical Laboratory Technology",
-                "Faculty of Pharmacology",
+            country: "nepal",
+            overview: [
+              "Nepal Medical College (NMC) is nestled in a peaceful and serene environment at Attarkhel of Jorpati, Gokarneshwar Municipality, approximately 11 kilometers northeast of Kathmandu city, situated at the base of a small hillock. The college and its teaching hospital, Nepal Medical College Teaching Hospital (NMCTH), are surrounded by natural beauty, including the Gokarna hillock with pine trees to the north, the Gokarna Safari Park across the Bagmati river to the east, and tree-lined terraces to the west, with convenient access to the main road via its southwestern entrance.",
             ],
-            facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
-            affilationRecognition : ["MCI","Kathmandu University (KU)","NMC","WHO"],
-        },
+            academic: [
+              "Nepal Medical College (NMC) provides a comprehensive array of medical and healthcare programs, encompassing undergraduate degrees such as MBBS, BDS, BSc Nursing, BPharm, and BMLT, alongside a diverse selection of postgraduate programs including MD, MS, MDS, and DM.",
+            ],
+            academicImg:
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1743057659/nepal_mbbs_university_6_academic_jvwbkp.jpg",
+            faculties: [
+              "Faculty of General Medicine",
+              "Faculty of Dentistry",
+              "Faculty of Nursing",
+              "Faculty of Medical Laboratory Technology",
+              "Faculty of Pharmacology",
+            ],
+            facultyImg:
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
+            affilationRecognition: [
+              "MCI",
+              "Kathmandu University (KU)",
+              "NMC",
+              "WHO",
+            ],
+          },
 
-        {
+          {
             name: "Kathmandu Medical College",
-            image: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1743054066/nepal_mbbs_university_5_pic_igiasb.webp",
+            image:
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1743054066/nepal_mbbs_university_5_pic_igiasb.webp",
             slug: "kathmandu-medical-college",
-            country : "nepal",
-            overview : ["Established in 1997 in Sinamangal, Kathmandu, Nepal, Kathmandu Medical College is a private institution affiliated with Kathmandu University and holds full recognition from the Medical Council of Nepal, the Sri Lanka Medical Council (SLMC), and the Medical Council of India (now NMC), offering a high-quality education system designed to empower students to excel in their medical careers. In pursuit of our mission to cultivate highly qualified and compassionate healthcare professionals who are also ethical individuals and dedicated social service providers, we commend the Medical Education Department at KMC for their ongoing efforts in training our committed teaching faculty on the fundamental principles and contemporary practices of learning, effective teaching-learning skills, diverse assessment tools, and comprehensive curriculum development."],
-            academic : ["Kathmandu Medical College (KMC) provides a comprehensive 4.5-year MBBS program, complemented by a mandatory 1-year internship, emphasizing a strong foundation in basic medical sciences alongside the development of essential clinical skills, and holds affiliation with Kathmandu University and recognition from the Nepal Medical Council."],
-            academicImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1743054075/nepal_mbbs_university_5_academic_pic_rpapou.jpg",
-            faculties : [
-                "Faculty of Pharmacology",
-                "Faculty of Biochemistry",
-                "Faculty of Physiology",
-                "Faculty of Pathology",
-                "Faculty of Microbiology",
+            country: "nepal",
+            overview: [
+              "Established in 1997 in Sinamangal, Kathmandu, Nepal, Kathmandu Medical College is a private institution affiliated with Kathmandu University and holds full recognition from the Medical Council of Nepal, the Sri Lanka Medical Council (SLMC), and the Medical Council of India (now NMC), offering a high-quality education system designed to empower students to excel in their medical careers. In pursuit of our mission to cultivate highly qualified and compassionate healthcare professionals who are also ethical individuals and dedicated social service providers, we commend the Medical Education Department at KMC for their ongoing efforts in training our committed teaching faculty on the fundamental principles and contemporary practices of learning, effective teaching-learning skills, diverse assessment tools, and comprehensive curriculum development.",
             ],
-            facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
-            affilationRecognition : ["MCI","SLMC","NMC","WHO"],
-        },
+            academic: [
+              "Kathmandu Medical College (KMC) provides a comprehensive 4.5-year MBBS program, complemented by a mandatory 1-year internship, emphasizing a strong foundation in basic medical sciences alongside the development of essential clinical skills, and holds affiliation with Kathmandu University and recognition from the Nepal Medical Council.",
+            ],
+            academicImg:
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1743054075/nepal_mbbs_university_5_academic_pic_rpapou.jpg",
+            faculties: [
+              "Faculty of Pharmacology",
+              "Faculty of Biochemistry",
+              "Faculty of Physiology",
+              "Faculty of Pathology",
+              "Faculty of Microbiology",
+            ],
+            facultyImg:
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
+            affilationRecognition: ["MCI", "SLMC", "NMC", "WHO"],
+          },
 
-        {
+          {
             name: "Lumbini Medical College",
-            image: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1743059677/nepal_mbbs_university_7_pic_dtusml.jpg",
+            image:
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1743059677/nepal_mbbs_university_7_pic_dtusml.jpg",
             slug: "lumbini-medical-college",
-            country : "nepal",
-            overview : ["The establishment and commencement of Lumbini Medical College in Tansen, a town aspiring for development based on education, health, and tourism, has significantly boosted the motivation and enthusiasm of its community. Recognizing the pressing need for a medical school in the western hilly region, the concept of Lumbini Medical College & Teaching Hospital Pvt. Ltd. emerged, leading to the swift establishment of a 100-bed hospital in the year 2063 B.S. with the approval of the Ministry of Health and Population. While acknowledging healthcare as a primary responsibility of the government, the numerous challenges faced by the nation make it unrealistic to expect the government to resolve every issue single-handedly; therefore, this substantial undertaking was initiated through a phased approach, bringing together local and regional Nepalese entrepreneurial visionaries to realize the dream of accessible medical education and healthcare in the region."],
-            academic : ["Lumbini Medical College provides a wide array of medical courses, including MBBS, BDS, B.Sc., MD, MS, and numerous other programs, all conveniently offered under one institution with experienced faculty and affordable academic fees, making its MBBS program particularly popular among a large number of international students."],
-            academicImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1743059698/nepal_mbbs_university_7_academic_vrf81b.jpg",
-            faculties : [
-                "Faculty of Anatomy",
-                "Faculty of Physiology",
-                "Faculty of Pathology",
-                "Faculty of Biochemistry",
-                "Faculty of Pharmacology",
+            country: "nepal",
+            overview: [
+              "The establishment and commencement of Lumbini Medical College in Tansen, a town aspiring for development based on education, health, and tourism, has significantly boosted the motivation and enthusiasm of its community. Recognizing the pressing need for a medical school in the western hilly region, the concept of Lumbini Medical College & Teaching Hospital Pvt. Ltd. emerged, leading to the swift establishment of a 100-bed hospital in the year 2063 B.S. with the approval of the Ministry of Health and Population. While acknowledging healthcare as a primary responsibility of the government, the numerous challenges faced by the nation make it unrealistic to expect the government to resolve every issue single-handedly; therefore, this substantial undertaking was initiated through a phased approach, bringing together local and regional Nepalese entrepreneurial visionaries to realize the dream of accessible medical education and healthcare in the region.",
             ],
-            facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
-            affilationRecognition : ["MCI","Affiliated with Kathmandu University","NMC","WHO"],
-        },
+            academic: [
+              "Lumbini Medical College provides a wide array of medical courses, including MBBS, BDS, B.Sc., MD, MS, and numerous other programs, all conveniently offered under one institution with experienced faculty and affordable academic fees, making its MBBS program particularly popular among a large number of international students.",
+            ],
+            academicImg:
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1743059698/nepal_mbbs_university_7_academic_vrf81b.jpg",
+            faculties: [
+              "Faculty of Anatomy",
+              "Faculty of Physiology",
+              "Faculty of Pathology",
+              "Faculty of Biochemistry",
+              "Faculty of Pharmacology",
+            ],
+            facultyImg:
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
+            affilationRecognition: [
+              "MCI",
+              "Affiliated with Kathmandu University",
+              "NMC",
+              "WHO",
+            ],
+          },
 
           {
             name: "Birat Medical College",
-            image: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1743060725/nepal_mbbs_university_Birat_8_d1xvd6.jpg",
+            image:
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1743060725/nepal_mbbs_university_Birat_8_d1xvd6.jpg",
             slug: "birat-medical-college",
-            country : "nepal",
-            overview : ["Established as the newest MBBS college in Nepal and affiliated with Kathmandu University, Birat Medical College is recognized among the country's top medical institutions, maintaining high educational standards through its experienced and qualified faculty. Over the past two decades, the college has cultivated a tradition of delivering exceptional healthcare alongside academic excellence, earning national recognition and setting benchmarks in specific medical fields. Furthermore, Birat Medical College's recognition by international bodies such as the Medical Council of India (now NMC) and the World Health Organization attracts a diverse international student population seeking to pursue their MBBS studies in Biratnagar."],
-            academic : ["Birat Medical College in Nepal offers a comprehensive range of medical education, encompassing postgraduate programs leading to MD/MS degrees and undergraduate courses that confer the degrees of Bachelor of Medicine and Bachelor of Surgery (MBBS)."],
-            academicImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1743060729/nepal_mbbs_university_Birat_academic_mks1jn.jpg",
-            faculties : [
-                "Faculty of General Medicine",
-                "Faculty of Clinical Psychology",
-                "Faculty of Pediatrics",
-                "Faculty of Preventive Medicine",
-                "Faculty of Dentistry",
+            country: "nepal",
+            overview: [
+              "Established as the newest MBBS college in Nepal and affiliated with Kathmandu University, Birat Medical College is recognized among the country's top medical institutions, maintaining high educational standards through its experienced and qualified faculty. Over the past two decades, the college has cultivated a tradition of delivering exceptional healthcare alongside academic excellence, earning national recognition and setting benchmarks in specific medical fields. Furthermore, Birat Medical College's recognition by international bodies such as the Medical Council of India (now NMC) and the World Health Organization attracts a diverse international student population seeking to pursue their MBBS studies in Biratnagar.",
             ],
-            facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
-            affilationRecognition : ["MCI","Affiliated with Kathmandu University","NMC","WHO"],
-        },
+            academic: [
+              "Birat Medical College in Nepal offers a comprehensive range of medical education, encompassing postgraduate programs leading to MD/MS degrees and undergraduate courses that confer the degrees of Bachelor of Medicine and Bachelor of Surgery (MBBS).",
+            ],
+            academicImg:
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1743060729/nepal_mbbs_university_Birat_academic_mks1jn.jpg",
+            faculties: [
+              "Faculty of General Medicine",
+              "Faculty of Clinical Psychology",
+              "Faculty of Pediatrics",
+              "Faculty of Preventive Medicine",
+              "Faculty of Dentistry",
+            ],
+            facultyImg:
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
+            affilationRecognition: [
+              "MCI",
+              "Affiliated with Kathmandu University",
+              "NMC",
+              "WHO",
+            ],
+          },
 
-             {
+          {
             name: "Devdaha Medical college",
-            image: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1743062164/nepal_mbbs_university_Devdaha_9_pic_ereshj.jpg",
+            image:
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1743062164/nepal_mbbs_university_Devdaha_9_pic_ereshj.jpg",
             slug: "devdaha-medical-college",
-            country : "nepal",
-            overview : ["Devdaha Medical College and Research Institute, a highly esteemed private institution situated in Butwal, in the western part of Nepal, holds affiliation with Kathmandu University and recognition from the Medical Council of India (now NMC), establishing itself as a leader in medical technology and solutions. Committed to delivering high-quality education and providing essential healthcare services to local communities and those in need, the college serves as a primary medical institution and a significant research center dedicated to the development of innovative strategies and approaches in medicine. By offering rigorous training and accessible healthcare facilities, Devdaha Medical College makes a substantial contribution to society, and with its capacity of over 2500 beds, it ensures patients receive adequate care, including proper nutrition and medical attention, making it a top-tier choice for students aspiring to pursue their MBBS in Nepal, all while being founded on the vision of cultivating skilled and compassionate healthcare professionals."],
-            academic : ["Devdaha Medical College provides a recognized and diverse array of medical and healthcare programs, notably including the Bachelor of Medicine and Bachelor of Surgery (MBBS) degree, which equips graduates with the qualifications to pursue global medical careers across various international settings."],
-            academicImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1743062153/nepal_mbbs_university_Devdaha_9_academic_jod2rn.jpg",
-            faculties : [
-                "Faculty of Medicine",
-                "Faculty of Dentistry",
-                "Faculty of Nursing",
-                "Faculty of Pharmacy",
-                "Faculty of Allied Health Sciences",
+            country: "nepal",
+            overview: [
+              "Devdaha Medical College and Research Institute, a highly esteemed private institution situated in Butwal, in the western part of Nepal, holds affiliation with Kathmandu University and recognition from the Medical Council of India (now NMC), establishing itself as a leader in medical technology and solutions. Committed to delivering high-quality education and providing essential healthcare services to local communities and those in need, the college serves as a primary medical institution and a significant research center dedicated to the development of innovative strategies and approaches in medicine. By offering rigorous training and accessible healthcare facilities, Devdaha Medical College makes a substantial contribution to society, and with its capacity of over 2500 beds, it ensures patients receive adequate care, including proper nutrition and medical attention, making it a top-tier choice for students aspiring to pursue their MBBS in Nepal, all while being founded on the vision of cultivating skilled and compassionate healthcare professionals.",
             ],
-            facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
-            affilationRecognition : ["MCI","Affiliated with Kathmandu University","NMC","WHO"],
-        },
+            academic: [
+              "Devdaha Medical College provides a recognized and diverse array of medical and healthcare programs, notably including the Bachelor of Medicine and Bachelor of Surgery (MBBS) degree, which equips graduates with the qualifications to pursue global medical careers across various international settings.",
+            ],
+            academicImg:
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1743062153/nepal_mbbs_university_Devdaha_9_academic_jod2rn.jpg",
+            faculties: [
+              "Faculty of Medicine",
+              "Faculty of Dentistry",
+              "Faculty of Nursing",
+              "Faculty of Pharmacy",
+              "Faculty of Allied Health Sciences",
+            ],
+            facultyImg:
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
+            affilationRecognition: [
+              "MCI",
+              "Affiliated with Kathmandu University",
+              "NMC",
+              "WHO",
+            ],
+          },
 
-             {
+          {
             name: "Nepalgunj Medical College",
-            image: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1743062203/nepal_mbbs_university_Nepalgunj_10_pic_fgc7pd.jpg",
+            image:
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1743062203/nepal_mbbs_university_Nepalgunj_10_pic_fgc7pd.jpg",
             slug: "nepalgunj-medical-college",
-            country : "nepal",
-            overview : ["Established with the overarching goal of national development through excellence in the medical sector, Lord Buddha Educational Academy Ltd (LBEA) facilitated the formation of Nepalgunj Medical College in 1996 through the collaborative efforts of prominent entrepreneurs, medical professionals, educationalists, and respected members of society committed to fulfilling a social responsibility. The college initiated its MBBS program in 1997, followed by the introduction of its Nursing program in 2000 and Postgraduate MD/MS courses in 2007. Nepalgunj Medical College (NGMC) has earned the endorsement of the Nepal Medical Council, the Medical Council of India (now NMC), the Sri Lanka Medical Council, and medical councils across SAARC and other nations, and is also listed in the World Directory of Medical Schools by the WHO, enabling its graduates to be eligible for examinations such as USMLE in the USA and PLAB in the UK."],
-            academic : ["Nepalgunj Medical College (NGMC) provides a diverse array of medical education opportunities for aspiring healthcare professionals. Among its offerings is a comprehensive MBBS program spanning five and a half years, designed to equip students with the foundational knowledge and clinical skills necessary for medical practice."],
-            academicImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1743062208/nepal_mbbs_university_Nepalgunj_10_academic_bz0qwv.jpg",
-            faculties : [
-                "Faculty of Anatomy",
-                "Faculty of Physiology",
-                "Faculty of Pathology",
-                "Faculty of Biochemistry",
-                "Faculty of Pharmacology",
+            country: "nepal",
+            overview: [
+              "Established with the overarching goal of national development through excellence in the medical sector, Lord Buddha Educational Academy Ltd (LBEA) facilitated the formation of Nepalgunj Medical College in 1996 through the collaborative efforts of prominent entrepreneurs, medical professionals, educationalists, and respected members of society committed to fulfilling a social responsibility. The college initiated its MBBS program in 1997, followed by the introduction of its Nursing program in 2000 and Postgraduate MD/MS courses in 2007. Nepalgunj Medical College (NGMC) has earned the endorsement of the Nepal Medical Council, the Medical Council of India (now NMC), the Sri Lanka Medical Council, and medical councils across SAARC and other nations, and is also listed in the World Directory of Medical Schools by the WHO, enabling its graduates to be eligible for examinations such as USMLE in the USA and PLAB in the UK.",
             ],
-            facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
-            affilationRecognition : ["MCI","Affiliated with Kathmandu University","NMC","WHO"],
-        },
+            academic: [
+              "Nepalgunj Medical College (NGMC) provides a diverse array of medical education opportunities for aspiring healthcare professionals. Among its offerings is a comprehensive MBBS program spanning five and a half years, designed to equip students with the foundational knowledge and clinical skills necessary for medical practice.",
+            ],
+            academicImg:
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1743062208/nepal_mbbs_university_Nepalgunj_10_academic_bz0qwv.jpg",
+            faculties: [
+              "Faculty of Anatomy",
+              "Faculty of Physiology",
+              "Faculty of Pathology",
+              "Faculty of Biochemistry",
+              "Faculty of Pharmacology",
+            ],
+            facultyImg:
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
+            affilationRecognition: [
+              "MCI",
+              "Affiliated with Kathmandu University",
+              "NMC",
+              "WHO",
+            ],
+          },
 
+          {
+            name: "Chitwan Medical College",
+            image:
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1743139074/nepal_mbbs_university_chitwan_11_ll4tvl.jpg",
+            slug: "chitwan-medical-college",
+            country: "nepal",
+            overview: [
+              "Located in Bharatpur, Nepal, Chitwan Medical College holds the distinction of being the first ISO-certified Medical College and is affiliated with Tribhuvan University. This private institution operates a substantial 750-bed teaching hospital equipped with comprehensive facilities for patient treatment. Chitwan Medical College offers a range of bachelor's degree programs in vital healthcare fields, including medicine, dentistry, and public health. Notably, the college was initiated and is managed by esteemed medical professionals and practitioners of the country, setting it apart as a uniquely practitioner-led institution. Chitwan Medical College is committed to delivering world-class medical education to aspiring academics, medical practitioners, and healthcare professionals while maintaining affordable tuition fees, thereby contributing significantly to the development of skilled healthcare manpower in Nepal.",
+            ],
+            academic: [
+              "Chitwan Medical College (CMC) provides a comprehensive spectrum of academic programs encompassing both undergraduate and postgraduate degrees in diverse medical fields, including MBBS, BDS, B.Sc. Nursing, and a variety of allied health sciences, alongside advanced postgraduate programs such as MD/MS and DM/MCh.",
+            ],
+            academicImg:
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1743139095/nepal_mbbs_university_chitwan_11_academic_e0ix1s.jpg",
+            faculties: [
+              "Faculty of Surgery",
+              "Faculty of Physiology",
+              "Faculty of Pathology",
+              "Faculty of Microbiology",
+              "Faculty of Biochemistry",
+            ],
+            facultyImg:
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
+            affilationRecognition: [
+              "MCI",
+              "Affiliated with Tribhuvan University",
+              "NMC",
+              "WHO",
+            ],
+          },
+
+          {
+            name: "Universal College of Medical Sciences",
+            image:
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1743141725/nepal_mbbs_university_Universal_College_13_pqxuti.jpg",
+            slug: "universal-college-of-medical-sciences",
+            country: "nepal",
+            overview: [
+              "Established in 1971 and affiliated with the esteemed University of Delhi (DU), the University College of Medical Sciences (UCMS) stands as a prominent medical institution closely associated with Guru Teg Bahadur Hospital, which serves as its teaching hospital, facilitating a wide array of medical and paramedical courses. UCMS offers a comprehensive educational portfolio encompassing over 20 programs across five distinct streams, including Paramedical, Dental, Medical, Science, and Pharmacy, leading to five different degree qualifications, namely BSc, MBBS, MD, MS (Surgery), and MSc. Recognizing academic excellence, the college provides various scholarship schemes to support meritorious students. Notably, according to the National Institutional Ranking Framework (NIRF) report for 2023 placements, 114 postgraduate (3-year) students secured placements, with the median salary package offered to these PG graduates during the UCMS placements of 2023 reaching an impressive INR 17 Lakhs Per Annum (LPA).",
+            ],
+            academic: [
+              "The University College of Medical Sciences (UCMS) provides undergraduate education with its MBBS program and a B.Sc in Radiography, while its postgraduate offerings include a range of advanced degrees such as MD, MS, and MDS, as well as an M.Sc in Radiography, catering to diverse academic and professional aspirations within the medical and allied health fields.",
+            ],
+            academicImg:
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1743141738/nepal_mbbs_university_Universal_College_13_academic_awqv55.jpg",
+            faculties: [
+              "Faculty of Anatomy",
+              "Faculty of Physiology",
+              "Faculty of Pathology",
+              "Faculty of Biochemistry",
+              "Faculty of Pharmacology",
+            ],
+            facultyImg:
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
+            affilationRecognition: [
+              "MCI",
+              "Affiliated with Tribhuvan University",
+              "NMC",
+              "WHO",
+            ],
+          },
+
+          {
+            name: "National Medical College",
+            image:
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1743143266/nepal_mbbs_university_nmc_14_gtc0sw.jpg",
+            slug: "national-medical-college",
+            country: "nepal",
+            overview: [
+              "Nepal, a South Asian nation ranking as the 49th most populous and 93rd largest country by area, encompasses over a lakh square kilometers and supports a population of twenty-eight million, sharing its northern border with Tibet and its southern border with Bangladesh. Characterized by its varied geography, abundant flora and fauna, fertile plains, and rich cultural heritage, Nepal stands as an exceptionally beautiful country. Governed by a secular-federal parliamentary republic as enshrined in its constitution, Nepal is administratively divided into seven provinces. The nation embraces a multitude of mother languages and a diverse range of ethnic groups, including Chhetri, Magar, Bahun, Newar, Tamang, Tharu, Gurung, and Thakuri, among others. Demonstrating progress in its academic standards, economic development, educational opportunities, and thriving tourism sector, Nepal presents itself as an attractive destination not only for travel but also for pursuing higher education at a relatively affordable cost structure.",
+            ],
+            academic: [
+              "The infrastructure of National Medical College is meticulously designed to meet international curriculum standards, offering top-tier facilities across a wide spectrum of medical specialties including internal medicine, cardiology, nephrology, general surgery, neurosurgery, orthopedics, trauma, obstetrics, gastroenterology, dermatology, psychiatry, radiology, and dentistry. Complementing its diverse multi-professional courses, the college hosts international events and conferences to provide invaluable real-world experience in various fields.",
+            ],
+            academicImg:
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1743143270/nepal_mbbs_university_nmc_14_academic_yzi45q.jpg",
+            faculties: [
+              "Faculty of Anatomy",
+              "Faculty of Physiology",
+              "Faculty of Pathology",
+              "Faculty of Forensic Medicine",
+              "Faculty of Clinical Sciences",
+            ],
+            facultyImg:
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
+            affilationRecognition: [
+              "MCI",
+              "Affiliated with Tribhuvan University",
+              "NMC",
+              "WHO",
+            ],
+          },
+
+          {
+            name: "Janaki Medical College",
+            image:
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1743144471/nepal_mbbs_university_janaki_15_pic_hlbupr.jpg",
+            slug: "janaki-medical-college",
+            country: "nepal",
+            overview: [
+              "Janaki Medical College, a private institution and a leading medical school in Nepal, was established in December 1999 by a collective of social and educational entrepreneurs with significant local support, quickly establishing itself as a prominent medical college. Remarkably, within its first year of operation, the college achieved the capacity to enroll 100 students annually. JMC operates two hospitals, one located in Ramdaiya with a 160-bed capacity and another situated in the town center offering 365 beds. The college campus in Ramdaiya, encompassing hostel buildings, the hospital, and administrative blocks, spans approximately 6.41 acres of land, providing a comprehensive environment for medical education and patient care.",
+            ],
+            academic: [
+              "Janaki Medical College (JMC), located in Janakpur, Nepal, delivers a comprehensive 5.5-year MBBS program featuring an integrated curriculum across medical sciences, which includes a compulsory one-year internship, and further extends educational opportunities through postgraduate programs such as MD and MS.",
+            ],
+            academicImg:
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1743144486/nepal_mbbs_university_janaki_15_academic_v9xgyx.jpg",
+            faculties: [
+              "Faculty of Anatomy",
+              "Faculty of Physiology",
+              "Faculty of Pathology",
+              "Faculty of Biochemistry",
+              "Faculty of Pharmacology",
+            ],
+            facultyImg:
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
+            affilationRecognition: [
+              "MCI",
+              "Affiliated with Tribhuvan University",
+              "NMC",
+              "WHO",
+            ],
+          },
+
+          {
+            name: "Kist Medical College",
+            image:
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1743147587/nepal_mbbs_university_kist_16_a7brvm.webp",
+            slug: "kist-medical-college",
+            country: "nepal",
+            overview: [
+              "Established in 2006 AD (BS 2062) and affiliated with the Institute of Medicine, Tribhuvan University, KIST Medical College Pvt. Ltd. is situated in Mahalaxmi Municipality-1, Imadol, Lalitpur, and is governed by its Board of Directors and Executive Committee, boasting its own fully operational 300-bed teaching hospital along with a distinct dental hospital to provide comprehensive medical and dental education and healthcare services. ",
+            ],
+            academic: [
+              "KIST Medical College delivers a comprehensive range of medical education, encompassing undergraduate programs such as MBBS, BDS, Bachelor of Pharmacy, and B.Sc. MLT, alongside postgraduate programs including MD, MS, and MPH, all with a strong emphasis on ensuring high-quality education and fostering research endeavors within the medical field.",
+            ],
+            academicImg:
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1743147600/nepal_mbbs_university_kist_16_academic_ywpecj.jpg",
+            faculties: [
+              "Faculty of Anatomy",
+              "Faculty of Periodontics",
+              "Faculty of Pathology",
+              "Faculty of Public Health Dentistry",
+              "Faculty of Pharmacology",
+            ],
+            facultyImg:
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
+            affilationRecognition: [
+              "MCI",
+              "Affiliated with Tribhuvan University",
+              "NMC",
+              "WHO",
+            ],
+          },
+
+          {
+            name: "Gandaki Medical College",
+            image:
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1743146900/nepal_mbbs_university_gandaki_17_iyeruj.jpg",
+            slug: "gandaki-medical-college",
+            country: "nepal",
+            overview: [
+              "Gandaki Medical College Teaching Hospital and Research Centre (P) Ltd. (GMC), a health education institution situated in the Kaski district of Nepal, addresses a national priority sector as a medical college and teaching hospital, established entirely on its own land under purely Nepalese ownership. GMC possesses approximately 204 ropanis of land, fulfilling the necessary requirements set forth by its affiliating university and the relevant professional council. The development of its infrastructure adheres strictly to the Guidelines and Infrastructure Directions for Establishment and Operation of Private and Non-Government Health Institutions, 2070 as issued by the Ministry of Health and Population of the Government of Nepal, ensuring compliance with national standards for health education facilities.",
+            ],
+            academic: [
+              "Gandaki Medical College (GMC) provides a diverse selection of academic programs, encompassing MBBS, BDS, BSc Nursing, BNS, BSc MIT, BPH, and BPharma at the undergraduate level, as well as various postgraduate courses offered through the Tribhuvan University-Institute of Medicine (TU-IOM).",
+            ],
+            academicImg:
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1743146905/nepal_mbbs_university_gandaki_17_academic_pdp9rr.jpg",
+            faculties: [
+              "Faculty of Anatomy",
+              "Faculty of Physiology",
+              "Faculty of Pathology",
+              "Faculty of Biochemistry",
+              "Faculty of Pharmacology",
+            ],
+            facultyImg:
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
+            affilationRecognition: [
+              "MCI",
+              "Affiliated with Tribhuvan University",
+              "NMC",
+              "WHO",
+            ],
+          },
+
+          //poland
+
+          {
+            name: "University of Warmia and Mazury",
+            image:
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1743159341/poland_university_1_University_of_Warmia_mxrq9s.jpg",
+            slug: "university-of-warmia-and-mazury",
+            country: "poland",
+            overview: [
+              "Established in September 1999, the University of Warmia and Mazury stands as a comprehensive medical and multi-specialty institution that has demonstrated a promising success rate over its two decades of teaching, with its alumni developing into accomplished individuals, reflecting the university's effectiveness. Consequently, the University of Warmia and Mazury is recognized for its high enrollment figures, currently educating approximately 25,000 students. Formed through the amalgamation of three prominent Polish institutes – the higher school of pedagogy and the Warmian theological institutes – the university offers both bachelor's and master's degrees across a wide spectrum of disciplines, including human and animal medical sciences. Specifically, the University of Warmia and Mazury provides bachelor's and doctoral degrees in 15 distinct specializations and postgraduate degrees in 6 branches of medicine, with its primary areas of expertise lying in the fields of medicine, cartography, and veterinary sciences.",
+            ],
+            academic: [
+              "The University of Warmia and Mazury in Olsztyn (UWM) provides a comprehensive selection of undergraduate and postgraduate programs encompassing medicine, veterinary medicine, engineering, information technology, and social sciences, with a particular emphasis on disciplines of regional significance, such as food technology and environmental protection.",
+            ],
+            academicImg:
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1743159347/poland_university_1_University_of_Warmia_academic_pic_jifxr4.jpg",
+            faculties: [
+              "Faculty of Animal Anatomy",
+              "Faculty of Human Physiology",
+              "Faculty of Biochemistry",
+              "Faculty of Veterinary Medicine",
+              "Faculty of Pharmacology",
+            ],
+            facultyImg:
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
+            affilationRecognition: [
+              "MCI",
+              "Affiliated with AIESEC",
+              "NMC",
+              "WHO",
+            ],
+          },
+
+          {
+            name: "Nicolaus Copernicus University",
+            image:
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1743161652/poland_university_2_Nicolaus_pic_skv5vz.jpg",
+            slug: "nicolaus-copernicus-university",
+            country: "poland",
+            overview: [
+              "Established in 1945, Nicolaus Copernicus University holds the distinction of being the inaugural higher education institution in the city of Torun and one of the pioneering universities in Northern Poland, offering a comprehensive spectrum of educational programs spanning shorter university-level qualifications, First Main University Level Final Qualifications, Advanced Postgraduate Study, Doctorate degrees, and Higher Post Doctorate qualifications. Currently, Nicolaus Copernicus University provides graduate and postgraduate programs in more than 100 diverse fields of study organized within its 15 faculties, and its established internationalization policy has attracted a significant number of foreign students, who constitute 1% of the total student population of 30,000, all of whom are guided by a dedicated team of 2100 highly skilled academic staff members across the various faculties.",
+            ],
+            academic: [
+              "Nicolaus Copernicus University (NCU) in Toruń provides a comprehensive array of academic programs spanning Bachelor's, Master's, and Doctoral degrees across more than 100 diverse fields of study, with the added accessibility of select programs being offered in the English language.",
+            ],
+            academicImg:
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1743161660/poland_university_2_Nicolaus_academic_pic_r1vuze.jpg",
+            faculties: [
+              "Faculty of Biology",
+              "Faculty of Human Physiology",
+              "Faculty of Biochemistry",
+              "Faculty of Veterinary Medicine",
+              "Faculty of Pharmacology",
+            ],
+            facultyImg:
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
+            affilationRecognition: ["MCI", "NCU", "NMC", "WHO"],
+          },
+
+          {
+            name: "Poznan University of Medical Science",
+            image:
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1743163325/poland_university_3_Poznan_pic_qxmvve.jpg",
+            slug: "poznan-university-of-medical-science",
+            country: "poland",
+            overview: [
+              "Poland stands out as a distinguished nation, celebrated for its scenic landscapes and its significant contributions to the global economy, and in recent times, it has become an increasingly popular destination for students seeking to pursue their MBBS degrees abroad. Boasting a strong and well-established education system coupled with state-of-the-art infrastructure, Poland is rapidly emerging as a compelling choice for international medical students. The leading medical universities in Poland hold recognition from major international healthcare organizations, with a majority of institutions adhering to stringent international healthcare standards. As an integral part of Europe, Poland's educational framework aligns with European standards, ensuring that students studying MBBS in the country also benefit from a high European standard of living. For those considering this academic journey, exploring the specific offerings of institutions such as Poznan University of Medical Sciences can provide valuable insights into the opportunities available for medical education in Poland.",
+            ],
+            academic: [
+              "Poznan University of Medical Sciences actively engages in research, international programs, research projects, and scientific conferences through its student exchange initiatives, ensuring its teaching methodologies are updated annually to reflect the latest advancements in medical technology. Notably, it was the pioneering university in Poland to offer an MBBS program taught entirely in English. Furthermore, the university maintains strong working relationships with over six clinical hospitals to provide invaluable practical experience to its students and collaborates extensively with numerous international universities spanning France, China, Germany, Japan, the USA, and other countries, fostering a global perspective in medical education and research.",
+            ],
+            academicImg:
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1743163319/poland_university_3_Poznan_academic_pic_pnlxiv.jpg",
+            faculties: [
+              "Faculty of Medicine",
+              "Faculty of Pharmacy",
+              "Faculty of Biochemistry",
+              "Faculty of Health Sciences",
+              "Faculty of Pharmacology",
+            ],
+            facultyImg:
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
+            affilationRecognition: [
+              "MCI",
+              "US Department of Education",
+              "NMC",
+              "WHO",
+            ],
+          },
+
+          {
+            name: "Jagiellonian University Medical College",
+            image:
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1743399833/poland_university_4_pic_embowt.jpg",
+            slug: "jagiellonian-university-medical-college",
+            country: "poland",
+            overview: [
+              "Jagiellonian University Medical College holds a distinguished position as an integral part of Jagiellonian University, which stands as the oldest institution of higher education in Poland and ranks among the most ancient universities in Europe, having been established on May 12, 1364, by the Polish King Casimir the Great. From its very foundation, the university has embraced an international character, fostering a tradition of welcoming scholars and students from across the globe. With an acceptance rate of 53%, Jagiellonian University is considered a moderately selective institution that receives a significant number of applications each year.",
+            ],
+            academic: [
+              "Jagiellonian University Medical College, situated in Kraków, provides a comprehensive educational experience with its six-year, full-time Medical Doctor (MD) program taught entirely in English and designed to meet rigorous European teaching standards, alongside a five-year Doctor of Dental Surgery (DDS) program, as well as a variety of other programs within the broader spectrum of health-related disciplines.",
+            ],
+            academicImg:
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1743399842/poland_university_4_academic_pic_h1lpvg.jpg",
+            faculties: [
+              "Faculty of Pharmacy",
+              "Faculty of Health Sciences",
+              "Faculty of Biochemistry",
+              "Faculty of Medicine",
+              "Faculty of Pharmacology",
+            ],
+            facultyImg:
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
+            affilationRecognition: [
+              "Ministry of Science and Higher Education, Poland",
+              "European Economic Union",
+              "NMC",
+              "WHO",
+            ],
+          },
+
+          {
+            name: "Medical University of Silesia",
+            image:
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1743399355/poland_university_5_pic_qxs4mq.jpg",
+            slug: "medical-university-of-silesia",
+            country: "poland",
+            overview: [
+              "Founded in 1948, the Medical University of Silesia traces its origins back to 1948, when it was founded as the Medical Academy in Rokitnica Bytomska. Initially comprising a single school encompassing medicine and dentistry, the university rapidly developed its capacity to deliver a comprehensive educational experience through the establishment of numerous clinical and theoretical units within its first five years. A pivotal decision in the latter half of the 1950s led to the planned creation of the University's Campus in Katowice, a vision that was successfully realized in 1971 with the relocation of the Medical University of Silesia's headquarters to Katowice, marking its emergence as the largest medical school in Poland. This period of growth saw the opening of three new schools: the School of Pharmacy with the Unit of Medical Analytics, a second School of Medicine, and the School of Nursery (which was later integrated into the second School of Medicine).",
+            ],
+            academic: [
+              "Annually, the Medical University of Silesia further enriches its academic offerings with a wide array of 70 distinct programs and 240 specialized tracks, meticulously designed to prepare students with the necessary skills and knowledge to effectively address the evolving challenges within society and the contemporary labor market, all while fostering a stimulating learning environment conducive to the realization of their academic aspirations each year.",
+            ],
+            academicImg:
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1743399361/poland_university_5_academic_pic_ucryox.jpg",
+            faculties: [
+              "Faculty of Medical Sciences",
+              "Faculty of Public Health",
+              "Faculty of Biochemistry",
+              "Faculty of Pharmaceutical",
+              "Faculty of Public Health",
+            ],
+            facultyImg:
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
+            affilationRecognition: [
+              "ECFMG",
+              "European Economic Union",
+              "NMC",
+              "WHO",
+            ],
+          },
+
+          //
         ],
       },
     ];
