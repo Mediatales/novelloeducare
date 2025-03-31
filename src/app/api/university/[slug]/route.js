@@ -2496,7 +2496,7 @@ export async function GET(request, { params }) {
           {
             name: "University of Warmia and Mazury",
             image:
-              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1743159341/poland_university_1_University_of_Warmia_mxrq9s.jpg",
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1743403182/poland_university_1_University_of_Warmia_wugemh.jpg",
             slug: "university-of-warmia-and-mazury",
             country: "poland",
             overview: [
@@ -2631,7 +2631,7 @@ export async function GET(request, { params }) {
               "Faculty of Public Health",
               "Faculty of Biochemistry",
               "Faculty of Pharmaceutical",
-              "Faculty of Public Health",
+              "Faculty of Pharmesy",
             ],
             facultyImg:
               "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
