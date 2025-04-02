@@ -26,7 +26,7 @@ const Page = () => {
       image: "../assests/branch/agra.png",
       address: "F-2 First Floor, Block C-9, Cloth Market, Sanjay Palace",
       location: "Agra, (U.P)",
-      phone: "+91-9720701796, +91-7017909721",
+      phone: "+91-8218147313, +91-8126532259",
       email: "novelloglobeeducare@gmail.com focusoverseas.eu@gmail.com",
     },
     {
