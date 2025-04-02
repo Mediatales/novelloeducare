@@ -135,7 +135,7 @@ const Page = () => {
       `Name: ${formData.name}\nEmail: ${formData.email}\nPhone: ${formData.phone}\nMessage: ${formData.message}`
     );
     
-    const whatsappNumber = "919310317960";
+    const whatsappNumber = "918126532259";
     const whatsappURL = `https://wa.me/${whatsappNumber}?text=${whatsappMessage}`;
     
     // Open WhatsApp in a new tab
