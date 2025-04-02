@@ -427,7 +427,7 @@ const Page = () => {
             )}
           </div>
 
-          <div className="relative">
+          {/* <div className="relative">
             <select
               id="destination"
               name="destination"
@@ -472,7 +472,7 @@ const Page = () => {
             <div className="pointer-events-none absolute inset-y-0 right-0 flex items-center px-3">
               <ChevronDown className="h-4 w-4 text-gray-500" />
             </div>
-          </div>
+          </div> */}
 
           <button
             type="submit"
