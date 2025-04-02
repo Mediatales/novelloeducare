@@ -58,8 +58,11 @@ export async function GET() {
       {
         country: 'Bosnia',
         flag_link: 'https://res.cloudinary.com/dqggm4k7u/image/upload/v1743491879/Bosnia_logo_kghkis.png',
+      },
+      {
+        country: 'Serbia',
+        flag_link:'https://res.cloudinary.com/dqggm4k7u/image/upload/v1743578496/Serbia_logo_geldrr.png'
       }
-      
       
       
     ];
