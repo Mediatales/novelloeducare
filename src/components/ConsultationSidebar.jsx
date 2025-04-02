@@ -9,7 +9,7 @@ const ConsultationSidebar = () => {
 
   const handleSubmit = () => {
     if (!name || !message) return;
-    const whatsappUrl = `https://wa.me/919310317960?text=Hello, my name is ${encodeURIComponent(name)}. ${encodeURIComponent(message)}`;
+    const whatsappUrl = `https://wa.me/918126532259?text=Hello, my name is ${encodeURIComponent(name)}. ${encodeURIComponent(message)}`;
     window.open(whatsappUrl, "_blank");
     setOpen(false);
   };
