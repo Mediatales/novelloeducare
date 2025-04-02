@@ -42,7 +42,7 @@ const Footer = () => {
               <MdEmail className="text-blue-800 mr-2 flex-shrink-0" />
               <div>
                 <p>novelloeducare@gmail.com</p>
-                <p>focusoverseaseu@gmail.com</p>
+                <p>focusoverseas.eu@gmail.com</p>
               </div>
             </div>
           </div>
