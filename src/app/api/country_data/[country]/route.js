@@ -3820,7 +3820,7 @@ export async function GET(request, { params }) {
       {
         country: 'Bosnia',
         flag_link: 'https://res.cloudinary.com/dqggm4k7u/image/upload/v1743491879/Bosnia_logo_kghkis.png',
-        mainImg: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1743491901/Bosnia_main_img_eyrckw.jpg",
+        mainImg: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1743582426/Bosnia_main_img_e3e2cy.jpg",
         overviewText: "Bosnia and Herzegovina, Bosnia, is a Balkan nation situated in Southeast Europe, distinguished by its captivating mix of historical narratives, cultural diversity, and scenic natural beauty, which collectively contribute to its growing attractiveness as a destination for international students aspiring to obtain an MBBS degree, holding particular significance for Indian students in search of accessible and high-quality medical education opportunities. The MBBS program in Bosnia and Herzegovina is aligned with the European Credit Transfer System (ECTS) and the Bologna Process, ensuring a high standard of medical education that aligns with European academic frameworks and facilitates international recognition of qualifications.",
         overviewImg: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1743491906/Bosnia_overview_img_m5hpyu.jpg",
         quickFacts: ["Sarajevo", "50%", "Bosnia-Herzegovina Convertible Mark (BAM)", "Approx. 31.9 lakhs"],
@@ -3845,24 +3845,24 @@ export async function GET(request, { params }) {
                 affilationRecognition : ["WHO","MCI","FAIMER","WDMC"],
             },
         
-              {
-                name: "University of Novi Sad",
-                image: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1743502578/Bosnia_university_2_Novi_pic_hj5xzg.jpg",
-                slug: "university-of-novi-sad",
-                country : "bosnia",
-                overview : ["Established in 1960 as a public institution, the University of Novi Sad, comprising 14 faculties across four cities, holds international recognition for its comprehensive medical education and numerous significant research endeavors, standing as the second-largest Serbian university with a student body exceeding 40,000, including a substantial number of international students. Notably, the University of Novi Sad Faculty of Medicine is distinguished for its supportive environment and dedicated facilities and resources designed to welcome and assist international students, including an international department committed to addressing inquiries and guiding students throughout their academic journey. Situated in Novi Sad, a diverse and multicultural city with approximately 290,000 residents, making it the second-largest in Serbia, the university benefits from the city's friendly and welcoming atmosphere, which attracts an increasing number of international students from Europe, the UK, and other parts of the world, solidifying the Faculty of Medicine at the University of Novi Sad, Serbia, as a premier destination for studying."],
-                academic : ["The University of Novi Sad (UNS) in Serbia provides a comprehensive selection of accredited study programs spanning Bachelor, Master, Specialist, and Doctoral levels, emphasizing contemporary and science-based curricula that are delivered across its diverse faculties and numerous research centers."],
-                academicImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1743502586/Bosnia_university_2_Novi_academic_j0b8tx.jpg",
-                faculties : [
-                    "Department of General Medicine",
-                    "Department of Pharmacies",
-                    "Department of Community Medicine",
-                    "Department of Forensic Medicine",
-                    "Department of Microbiology",
-                ],
-                facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1739793855/img_bg_sybjt5.png",
-                affilationRecognition : ["WDOMS","NMC","WHO","EUGLOH"],
-            },
+            {
+              name: "University of East Sarajevo",
+              image: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1743579792/Bosnia_university_East_Sarajevo_pic_ed2spg.webp",
+              slug: "university-of-east-sarajevo",
+              country : "bosnia",
+              overview : ["Established in 1993 in the scenic town of Foca, the Faculty of Medicine at the University of East Sarajevo (UES) has cultivated a strong reputation for delivering high-quality medical and dentistry programs, earning recognition across Europe and globally; encompassing over 6000 square meters and furnished with contemporary facilities, the faculty provides a comprehensive educational environment, positioning UES as a symbol of excellence in both medical education and research within Bosnia and Herzegovina and as a leading institution in the nation, with its mission focused on producing highly competent professionals capable of succeeding in their chosen fields both domestically and internationally. The University of East Sarajevo employs the European Credit Transfer System (ECTS), ensuring a just and transparent method for student evaluation and guaranteeing the international recognition of the education received, while also simplifying the transfer of credits and enabling students to readily participate in exchange programs such as Erasmus+, thereby offering opportunities for valuable international experience and exposure."],
+              academic : ["The University of East Sarajevo (UES) provides an extensive array of academic programs spanning bachelor's, master's, and doctoral degrees, encompassing more than 110 distinct programs distributed across its 17 organizational units situated in 10 different towns, which include faculties such as Medicine, Law, and Economics."],
+              academicImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1743579796/Bosnia_university_East_Sarajevo_academic_h7yhow.webp",
+              faculties : [
+                  "Department of General Medicine",
+                  "Department of Pharmacies",
+                  "Department of Community Medicine",
+                  "Department of Anotomy",
+                  "Department of Microbiology",
+              ],
+              facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1739793855/img_bg_sybjt5.png",
+              affilationRecognition : ["WDOMS","NMC","WHO","EAMF"],
+          },
 
              {
                 name: "Sarajevo School of Science and Technology",
@@ -3925,6 +3925,99 @@ export async function GET(request, { params }) {
         advantages: ["Affordability", "High-Quality Education" ,"Globally Recognized Degrees" ,"Clinical Exposure"],
         advantageImg: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1743507556/Bosnia_advantage_img_mgkjjd.jpg",
     },
+
+    //serbia
+
+    {
+      country: 'Serbia',
+      flag_link: 'https://res.cloudinary.com/dqggm4k7u/image/upload/v1743578496/Serbia_logo_geldrr.png',
+      mainImg: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1743578493/Serbia_main_img_idwsot.jpg",
+      overviewText: "MBBS in Serbia is fully compliant with NMC gazette rules and holds recognition from leading medical organizations such as FAIMER, WHO, and NMC, making it an increasingly popular destination for Indian students and parents seeking medical education abroad; upon completion of their 6-year MBBS program, which includes 5 years of classroom learning and a 1-year internship in a university-affiliated hospital, graduates have the opportunity to work in Europe after obtaining the necessary license or pursue career paths in the US or other countries. The affordability of MBBS in Serbia is a significant draw, with the average tuition fee for the entire 5+1 year course ranging from 24-25 Lacs, often lower than the cost of medical education in India and many other nations, and the fact that the entire curriculum is taught in English further solidifies Serbian universities as a preferred choice for international students, offering valuable insights for those considering pursuing their medical studies in Serbia to facilitate well-informed decisions.",
+      overviewImg: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1743578501/Serbia_overview_img_ze2ox9.jpg",
+      quickFacts: ["Belgrade", "50%", "Serbian Dinar", "Approx. 66.2 lakhs"],
+      univeristes: [
+          {
+              name: "University of Belgrade",
+              image: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1743581359/Serbia_university_1_Belgrade_pic_gzkzpd.webp",
+              slug: "university-of-belgrade",
+              country : "serbia",
+              overview : ["As a state institution, the University of Belgrade's primary functions in higher education and scientific research are deemed matters of public interest and are conducted in adherence to legal statutes, with the university annually commemorating its establishment on September 13th, marking the commencement of classes at the initial Higher School founded by Dositej Obradovic; throughout its two centuries of existence, the University of Belgrade has been dedicated to serving its community, and its alumni and faculty have made substantial contributions to the cultural, scientific, educational, political, and economic advancement of the nation. The University of Belgrade is committed to sustaining and strengthening its role as the preeminent higher education institution in the region by both adapting to contemporary challenges and safeguarding the valuable aspects of its heritage, which is precisely what has earned it recognition as a genuine national symbol."],
+              academic : ["This comprehensive university encompasses 31 faculties and 11 research institutes, providing an extensive selection of programs and degrees with over 370 study programs that span all disciplines of engineering, natural sciences, medical sciences, social sciences, and humanities across all levels of academic pursuit, including professional training."],
+              academicImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1743581361/Serbia_university_1_Belgrade_academic_rlrdhh.webp",
+              faculties : [
+                  "Department of Dentistry",
+                  "Department of General Medicine",
+                  "Department of Nursing",
+                  "Department of Obstetrics",
+                  "Department of Paediatrics",
+                  "Department of Psychiatry",
+              ],
+              facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1739793855/img_bg_sybjt5.png",
+              affilationRecognition : ["WHO","NMC","FAIMER","SEELS"],
+          },
+      
+            {
+              name: "University of Novi Sad",
+              image: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1743502578/Bosnia_university_2_Novi_pic_hj5xzg.jpg",
+              slug: "university-of-novi-sad",
+              country : "Serbia",
+              overview : ["Established in 1960 as a public institution, the University of Novi Sad, comprising 14 faculties across four cities, holds international recognition for its comprehensive medical education and numerous significant research endeavors, standing as the second-largest Serbian university with a student body exceeding 40,000, including a substantial number of international students. Notably, the University of Novi Sad Faculty of Medicine is distinguished for its supportive environment and dedicated facilities and resources designed to welcome and assist international students, including an international department committed to addressing inquiries and guiding students throughout their academic journey. Situated in Novi Sad, a diverse and multicultural city with approximately 290,000 residents, making it the second-largest in Serbia, the university benefits from the city's friendly and welcoming atmosphere, which attracts an increasing number of international students from Europe, the UK, and other parts of the world, solidifying the Faculty of Medicine at the University of Novi Sad, Serbia, as a premier destination for studying."],
+              academic : ["The University of Novi Sad (UNS) in Serbia provides a comprehensive selection of accredited study programs spanning Bachelor, Master, Specialist, and Doctoral levels, emphasizing contemporary and science-based curricula that are delivered across its diverse faculties and numerous research centers."],
+              academicImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1743502586/Bosnia_university_2_Novi_academic_j0b8tx.jpg",
+              faculties : [
+                  "Department of General Medicine",
+                  "Department of Pharmacies",
+                  "Department of Community Medicine",
+                  "Department of Forensic Medicine",
+                  "Department of Microbiology",
+              ],
+              facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1739793855/img_bg_sybjt5.png",
+              affilationRecognition : ["WDOMS","NMC","WHO","EUGLOH"],
+          },
+
+
+          ],
+
+          
+      eligibilityPoints: [
+          {
+              title: "High School Diploma",
+              description: "Successful completion of high school (10+2 or equivalent) with Physics, Chemistry, and Biology/Biotechnology as core subjects."
+          },
+          {
+              title: "Age Requirement",
+              description: "Students must have completed 17 years of age by the end of the year of admission"
+          },
+          {
+              title: "NEET Qualification",
+              description: "NEET is mandatory for Indian students applying for MBBS programs abroad, including Serbia."
+          },
+          {
+              title: "Score",
+              description: "A minimum of 50% marks in the 10+2 examination, particularly in Physics, Chemistry, and Biology."
+          },
+      ],
+      mbbsBenefits: [
+          {
+              title: "Affordable Education",
+              description: "Serbia offers significantly lower tuition fees and living expenses compared to many Western countries, making it an attractive option for students seeking quality education without breaking the bank."
+          },
+          {
+              title: "Globally Recognized Degree",
+              description: "Serbian medical universities are eligible to practice medicine worldwide, opening doors to a global career in medicine."
+          },
+{
+              title: "English-Medium Programs",
+              description:"Many universities offer programs taught in English, making it accessible to international students."
+          },
+{
+              title: "Career Prospects",
+              description: "Medical graduates from Serbian universities are in high demand in many countries, including the US, UK, and Australia."
+          },
+      ],
+      advantages: ["Affordability", "Multicultural Environment" ,"Internationally Recognized Medical Universities" ,"Clinical Exposure"],
+      advantageImg: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1743582258/Serbia_advantage_img_aaxkm2.webp",
+  }
     ];
 
     const countryData = countries.find(

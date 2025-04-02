@@ -28,7 +28,7 @@ const Focusnavbar = () => {
     };
 
     fetchCountries();
-  }, []);
+  }, []);                                                                                                                                                                                                                                                                                        
 
   const toggleMenu = () => {
     setIsOpen(!isOpen);
