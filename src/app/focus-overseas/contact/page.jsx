@@ -351,7 +351,7 @@ const Page = () => {
             </div>
             <div className="flex flex-col">
               <p className="text-sm text-gray-800">novelloglobeeducare@gmail.com</p>
-              <p className="text-sm text-gray-800">focusoverseasedu@gmail.com</p>
+              <p className="text-sm text-gray-800">focusoverseas.edu@gmail.com</p>
             </div>
           </div>
           
