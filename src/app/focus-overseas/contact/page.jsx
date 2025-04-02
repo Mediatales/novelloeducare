@@ -10,7 +10,7 @@ const Page = () => {
       image: "../assests/branch/delhi.png",
       address: "516, Somdutt chambers",
       location: "Bhikaji cama palace new delhi - 110066",
-      phone: "+91-7017909721 , +91-9720701796, ",
+      phone: "+91-9205184558 , +91-8920350200, ",
       email: "novelloglobeeducare@gmail.com focusoverseas.eu@gmail.com",
     },
     {
