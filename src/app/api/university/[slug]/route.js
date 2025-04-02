@@ -2703,9 +2703,191 @@ export async function GET(request, { params }) {
             ],
           },
 
+          //armenia
+
+          {
+            name: "Yerevan Haybusak University",
+            image: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1743487769/Armenia_university_1_Yerevan_Haybusak_t0x6do.jpg",
+            slug: "yerevan-haybusak-university",
+            country : "armenia",
+            overview : ["Established in 1991 by academician Levon Harutyunyan, Yerevan Haybusak University is a private institution situated in Yerevan, Armenia, boasting a substantial student body of over 7000, including a significant number of international students, and a dedicated faculty of more than 300 educators and professors, many of whom are specialists in their respective fields, solidifying its position as a leading medical institute in Armenia, having received state accreditation in 2001 and fostering an educational collaboration with the UAE. Armenia is increasingly gaining popularity as a preferred destination for students aspiring to study MBBS abroad, largely attributed to the country's provision of modern infrastructure, experienced faculty, and a strong educational framework."],
+            academic : ["Yerevan Haybusak University received state accreditation in 2001 and offers Bachelor's degree programs with a four-year duration and Master's degree programs spanning two years, with instruction provided in English, Armenian, and Russian languages; notably, Indian students seeking admission to the university are required to qualify the NEET examination."],
+            academicImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1743488013/Armenia_university_1_Yerevan_Haybusak_academic_jnzqif.jpg",
+            faculties : [
+                "Faculty of General Medicine",
+                "Faculty of Pharmacy",
+                "Faculty of Environment",
+                "Faculty of Physical Medicine",
+                "Faculty of International Relations",
+            ],
+            facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
+            affilationRecognition : ["ECFMG","WFME","NMC","WHO"],
+        },
+
+         {
+            name: "Mkhitar Gosh Armenian-Russian International University",
+            image: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1743489335/Armenia_university_2_Mkhitar_omm1kf.jpg",
+            slug: "mkhitar-gosh-armenian-russian-international-university",
+            country : "armenia",
+            overview : ["Established in 1996 in Yerevan, the capital city of Armenia, Mkhitar Gosh Armenian-Russian International University holds accreditation from ANQA (Armenia’s National Center for Professional Education Quality Assurance) and official approval from the Medical Council of India (now NMC), ensuring compliance with the standards set forth by the MCI. Recognized as a leading institution in Armenia for delivering high-quality medical education, the university's medical education program has also received approval from the Ministry of Education and Science of Armenia. Consequently, Indian students who graduate from Mkhitar Gosh Armenian-Russian International University are eligible to undertake the MCI screening test (now NEXT) and practice medicine as qualified doctors in India."],
+            academic : ["The university offers MBBS in Armenia at an affordable tuition fee. The MBBS curriculum at Armenian-Russian International University is a 6-year program. With quality medical education, the university helps the students excel in medicine, medical practice, research, and other clinical work."],
+            academicImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1743489323/Armenia_university_2_Mkhitar_academic_pic_pxa7e7.webp",
+            faculties : [
+                "Faculty of General Medicine",
+                "Faculty of Pharmacy",
+                "Faculty of Medical Case",
+                "Faculty of Medical Art",
+                "Faculty of Dentistry",
+            ],
+            facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
+            affilationRecognition : ["ECFMG","WFME","NMC","WHO"],
+        },
+
+         {
+            name: "University of Traditional Medicine",
+            image: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1743488019/Armenia_university_3_University_of_Traditional_pic_hhiqxg.jpg",
+            slug: "university-of-traditional-medicine",
+            country : "armenia",
+            overview : ["For those aspiring to become successful doctors, Armenia has emerged as a thriving hub for MBBS studies, with the University of Traditional Medicine (UTM) in Yerevan standing out as a premier institution despite challenges such as climatic conditions and governmental issues that can sometimes affect pursuing MBBS in Armenia. UTM has overcome these hurdles to provide world-class education through flexible courses, striving for excellence in MBBS training. Founded in 1992, the University of Traditional Medicine has experienced rapid growth, surpassing many other universities to become a leading institution in the country. Following years of dedicated effort and positive results, UTM achieved accreditation from the Ministry of Education and Science in the early 2000s, subsequently gaining recognition from the World Health Organization (WHO) as a legitimate and respected entity in the field of medicine, attracting a significant influx of international students annually who come to pursue their medical aspirations at the university."],
+            academic : ["The University of Traditional Medicine in Armenia provides an MBBS program with an affordable tuition fee, delivering a comprehensive six-year curriculum in medical education that aims to equip students with the necessary knowledge and skills to excel in medicine, medical practice, research, and various clinical applications through its commitment to quality instruction."],
+            academicImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1743488025/Armenia_university_3_University_of_Traditional_academic_vusyvu.jpg",
+            faculties : [
+                "Faculty of General and specific surgery",
+                "Faculty of Pharmacy",
+                "Faculty of Environment",
+                "Faculty of Natural sciences",
+                "Faculty of Medical",
+            ],
+            facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
+            affilationRecognition : ["FAIMER","UNESCO","NMC","WHO"],
+        },
+
+
+          {
+            name: "Yerevan State Medical University",
+            image: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1743488055/Armenia_university_4_Yerevan_State_pic_i1lqmx.jpg",
+            slug: "yerevan-state-medical-university",
+            country : "armenia",
+            overview : ["Yerevan State Medical University, situated in the central hub of Yerevan, Armenia, holds the esteemed reputation of being among the nation's leading medical institutions, having successfully educated over 31,000 graduates to date. Named after Heratsi, the State Medical University currently accommodates approximately 8,000 students across its six faculties, including a significant international student body of around 1,184 individuals from diverse countries. Widely recognized as Armenia's premier university for MD studies, which is considered equivalent to the MBBS degree in India, the university's teaching and research endeavors are supported by more than 100 departments, prominent clinical facilities, and numerous research centers located throughout Yerevan. Its academic strength is further underscored by a faculty of over 1,100 lecturers, including 171 highly qualified Doctors of Sciences, 504 Candidates of Sciences, and 7 Academicians of the RANAS, who actively contribute to both scientific advancement and pedagogical excellence, thereby playing a crucial role in the progress of medical science within Armenia."],
+            academic : ["Yerevan State Medical University (YSMU) provides a wide spectrum of medical education, encompassing undergraduate programs in General Medicine and Stomatology, as well as extensive postgraduate programs across numerous medical specialties and advanced PhD programs for research-oriented students."],
+            academicImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1743488067/Armenia_university_4_Yerevan_State_academic_jowpgx.jpg",
+            faculties : [
+                "Faculty of General Medicine",
+                "Faculty of Pharmacy",
+                "Faculty of Military Medicine",
+                "Faculty of Public Health",
+                "Faculty of Dentistry",
+            ],
+            facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
+            affilationRecognition : ["FAIMER","WFME","NMC","WHO"],
+        },
+
+          {
+            name: "Armenian Medical Institute",
+            image: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1743488089/Armenia_university_5_Armenian_Medical_pic_jthhhv.jpg",
+            slug: "armenian-medical-institute",
+            country : "armenia",
+            overview : ["Established in 1990 in Yerevan, Armenia, the Armenian Medical Institute holds the distinction of being the nation's first privately run medical school and is recognized as one of Armenia's leading medical institutions, making it a prime choice for numerous students from around the globe who seek MBBS education annually. Offering programs in General Medicine and Dentistry, the Armenian Medical Institute provides a significant pathway for medical education, with thousands of students graduating each year and obtaining medical degrees that enable them to pursue careers in Armenia and internationally."],
+            academic : ["Ranked among Armenia's premier medical colleges, the Armenian Medical Institute provides two primary educational pathways: General Medicine and Dentistry, with the General Medicine program being a comprehensive six-year integrated course designed to deliver both robust theoretical knowledge and essential professional skills."],
+            academicImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1743488095/Armenia_university_5_Armenian_Medical_academic_gzynml.jpg",
+            faculties : [
+                "Faculty of General Medicine",
+                "Faculty of Pharmacy",
+                "Faculty of Clinical Training",
+                "Faculty of Public Health",
+                "Faculty of Dentistry",
+            ],
+            facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
+            affilationRecognition : ["ECFMG","WDMS","NMC","WHO"],
+        },
+
+    
+          {
+            name: "St.Tereza Medical University",
+            image: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1743488112/Armenia_university_6_St._Tereza_liwmuu.jpg",
+            slug: "st-tereza-medical-university",
+            country : "armenia",
+            overview : ["Founded in 1992 by Larisa Hambartsumyan, St. Tereza Medical University is a distinguished institution of higher medical education renowned for its exceptional faculty and accomplished scholars, providing students with practical learning methodologies and a conducive academic atmosphere, complete with modern equipment and resources. Situated in Yerevan, a city uniquely surrounded by mountains and characterized by its predominantly pink tuff stone architecture of volcanic origin, St. Tereza benefits from its location within a top-ranked city celebrated for its enduring charm and rich history, offering opportunities for cultural enrichment through its notable museums and refreshing parks."],
+            academic : ["Medical University After Saint Tereza, also known as STMU Armenia, is a government-owned medical college providing a five-year classroom-based MBBS program that does not include practical training, and prospective students must fulfill the university's specific admission eligibility criteria to enroll."],
+            academicImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1743488116/Armenia_university_6_St._Tereza_academic_c23cms.jpg",
+            faculties : [
+                "Faculty of General Medicine",
+                "Faculty of Pharmacy",
+                "Faculty of Public Health",
+                "Faculty of Dentistry",
+            ],
+            facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
+            affilationRecognition : ["UNESCO","MCI","NMC","WHO"],
+        },
+
+        // bosania
+
+        {
+          name: "University of Mostar",
+          image: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1743502558/Bosnia_university_1_university_of_mostar_jyxaed.jpg",
+          slug: "university-of-mostar",
+          country : "bosnia",
+          overview : ["Established in 1977 as a public institution, the University of Mostar, the largest public university in Mostar, Bosnia and Herzegovina, traces its origins back to the establishment of the Franciscan theological school in 1895 and today serves a substantial student population of 12,000, supported by a faculty of 1,000 teachers across its ten faculties and one academy. Committed to reaching recognized European standards in higher education, the University of Mostar is shaping a new era defined by its core mission encompassing Education, Scientific Research work, and Community Development. Its educational philosophy is grounded in excellence, prioritizing students in undergraduate, graduate, and postgraduate studies through a focused teaching and research process that aims to cultivate highly professional, self-motivated, and productive experts ready to excel in their present and future endeavors."],
+          academic : ["The University of Mostar (UNMO) in Bosnia and Herzegovina provides a comprehensive spectrum of academic opportunities, encompassing undergraduate, graduate, and postgraduate studies, with particular strengths in areas such as Agro-Mediterranean studies, Law, Information Technologies, Business Informatics, and a variety of other disciplines."],
+          academicImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1743502571/Bosnia_university_1_university_of_mostar_academic_pic_o33nia.jpg",
+          faculties : [
+              "Department of Dentistry",
+              "Department of General Medicine",
+              "Department of Nursing",
+              "Department of Obstetrics",
+              "Department of Paediatrics",
+              "Department of Psychiatry",
+          ],
+          facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1739793855/img_bg_sybjt5.png",
+          affilationRecognition : ["WHO","MCI","FAIMER","WDMC"],
+      },
+  
+        {
+          name: "University of Novi Sad",
+          image: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1743502578/Bosnia_university_2_Novi_pic_hj5xzg.jpg",
+          slug: "university-of-novi-sad",
+          country : "bosnia",
+          overview : ["Established in 1960 as a public institution, the University of Novi Sad, comprising 14 faculties across four cities, holds international recognition for its comprehensive medical education and numerous significant research endeavors, standing as the second-largest Serbian university with a student body exceeding 40,000, including a substantial number of international students. Notably, the University of Novi Sad Faculty of Medicine is distinguished for its supportive environment and dedicated facilities and resources designed to welcome and assist international students, including an international department committed to addressing inquiries and guiding students throughout their academic journey. Situated in Novi Sad, a diverse and multicultural city with approximately 290,000 residents, making it the second-largest in Serbia, the university benefits from the city's friendly and welcoming atmosphere, which attracts an increasing number of international students from Europe, the UK, and other parts of the world, solidifying the Faculty of Medicine at the University of Novi Sad, Serbia, as a premier destination for studying."],
+          academic : ["The University of Novi Sad (UNS) in Serbia provides a comprehensive selection of accredited study programs spanning Bachelor, Master, Specialist, and Doctoral levels, emphasizing contemporary and science-based curricula that are delivered across its diverse faculties and numerous research centers."],
+          academicImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1743502586/Bosnia_university_2_Novi_academic_j0b8tx.jpg",
+          faculties : [
+              "Department of General Medicine",
+              "Department of Pharmacies",
+              "Department of Community Medicine",
+              "Department of Forensic Medicine",
+              "Department of Microbiology",
+          ],
+          facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1739793855/img_bg_sybjt5.png",
+          affilationRecognition : ["WDOMS","NMC","WHO","EUGLOH"],
+      },
+
+       {
+          name: "Sarajevo School of Science and Technology",
+          image: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1743502608/Bosnia_university_3_Sarajevo_pic_weopnq.jpg",
+          slug: "sarajevo-school-of-science-and-technology",
+          country : "bosnia",
+          overview : ["Sarajevo School of Science and Technology (SSST) is a private university situated in Sarajevo, comprising six departments, one academy, and a medical school, and it holds a distinguished ranking among the top 600 universities globally and as one of the best institutions in Southeastern Europe. Notably, the medical school within SSST offers comprehensive courses in medicine, dentistry, and pharmacy, all of which are conducted entirely in the English language, attracting a diverse international student body. Sarajevo, the capital and largest city of Bosnia and Herzegovina with a population exceeding 270,000, boasts a rich history tracing back to the 15th century, maintaining many of its traditions to the present day, and is particularly renowned for prioritizing culture as a central element in its development strategies, providing a vibrant and historically significant backdrop for academic pursuits at SSST."],
+          academic : ["The Medicine program at Sarajevo School of Science and Technology (SSST) is a six-year course that integrates foundational theoretical lectures with subsequent practical training, allowing students to apply their acquired knowledge, and benefits from state-of-the-art laboratories equipped with advanced medical equipment and software, positioning SSST as a highly desirable European university for medical studies."],
+          academicImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1743502615/Bosnia_university_3_Sarajevo_academic_pic_y4vopl.jpg",
+          faculties : [
+              "Department of Anatomy",
+              "Department of Biochemistry",
+              "Department of Community Medicine",
+              "Department of Forensic Medicine",
+              "Department of Microbiology",
+          ],
+          facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1739793855/img_bg_sybjt5.png",
+          affilationRecognition : ["WDOMS","NMC","WHO","ECFMG"],
+      },
           
         ],
       },
+
+      
+
+      
+
+       
     ];
 
     // Find the university across all countries
