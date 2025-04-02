@@ -3841,7 +3841,7 @@ export async function GET(request, { params }) {
                     "Department of Paediatrics",
                     "Department of Psychiatry",
                 ],
-                facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1739793855/img_bg_sybjt5.png",
+                facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
                 affilationRecognition : ["WHO","MCI","FAIMER","WDMC"],
             },
         
@@ -3860,7 +3860,7 @@ export async function GET(request, { params }) {
                   "Department of Anotomy",
                   "Department of Microbiology",
               ],
-              facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1739793855/img_bg_sybjt5.png",
+              facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
               affilationRecognition : ["WDOMS","NMC","WHO","EAMF"],
           },
 
@@ -3879,7 +3879,7 @@ export async function GET(request, { params }) {
                     "Department of Forensic Medicine",
                     "Department of Microbiology",
                 ],
-                facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1739793855/img_bg_sybjt5.png",
+                facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
                 affilationRecognition : ["WDOMS","NMC","WHO","ECFMG"],
             },
 
@@ -3952,7 +3952,7 @@ export async function GET(request, { params }) {
                   "Department of Paediatrics",
                   "Department of Psychiatry",
               ],
-              facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1739793855/img_bg_sybjt5.png",
+              facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
               affilationRecognition : ["WHO","NMC","FAIMER","SEELS"],
           },
       
@@ -3971,7 +3971,7 @@ export async function GET(request, { params }) {
                   "Department of Forensic Medicine",
                   "Department of Microbiology",
               ],
-              facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1739793855/img_bg_sybjt5.png",
+              facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
               affilationRecognition : ["WDOMS","NMC","WHO","EUGLOH"],
           },
 
