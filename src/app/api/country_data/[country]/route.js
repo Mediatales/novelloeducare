@@ -1834,27 +1834,27 @@ export async function GET(request, { params }) {
             ],
             facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
             affilationRecognition : ["MCI","WDOMS","NMC","WHO"],
-        },
+           },
 
         
-   {
-            name: "Tbilisi State Medical University",
-            image: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1743408336/Georgia_mbbs_university_Tbilisi_6_pic_xspxl0.jpg",
-            slug: "tbilisi-state-medical-university",
-            country : "georgia",
-            overview : ["Established in 1918, Tbilisi State Medical University in Georgia stands as a prominent institution in Tbilisi, boasting a substantial student body of over seven thousand undergraduates and three thousand postgraduates, with a significant 25 percent of its enrollment comprising international students pursuing their MBBS degrees in Georgia. Recognized as one of the pioneering universities to receive approval from the Institutional Evaluation Programme conducted by the Association of European Universities in 1997, Tbilisi State Medical University has consistently produced graduates who go on to pursue successful careers in leading clinics across Georgia, Europe, and the world."],
-            academic : ["While David Tvildiani Medical University (DTMU) provides a range of academic programs, its cornerstone offering is the MBBS (Bachelor of Medicine and Bachelor of Surgery) program, which has garnered significant recognition and high regard within the international medical community for its comprehensive curriculum and quality of medical education."],
-            academicImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1743408337/Georgia_mbbs_university_Tbilisi_6_academic_w9ldrh.jpg",
-            faculties : [
-                "Faculty of General Medicine",
-                "Faculty of Dentistry",
-                "Faculty of Nursing",
-                "Faculty of Anatomy",
-                "Faculty of Physical Medicine and Rehabilitation",
-            ],
-            facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
-            affilationRecognition : ["FAIMER","ECFMG","NMC","WHO"],
-        },
+          {
+              name: "Tbilisi State Medical University",
+              image: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1743408336/Georgia_mbbs_university_Tbilisi_6_pic_xspxl0.jpg",
+              slug: "tbilisi-state-medical-university",
+              country : "georgia",
+              overview : ["Established in 1918, Tbilisi State Medical University in Georgia stands as a prominent institution in Tbilisi, boasting a substantial student body of over seven thousand undergraduates and three thousand postgraduates, with a significant 25 percent of its enrollment comprising international students pursuing their MBBS degrees in Georgia. Recognized as one of the pioneering universities to receive approval from the Institutional Evaluation Programme conducted by the Association of European Universities in 1997, Tbilisi State Medical University has consistently produced graduates who go on to pursue successful careers in leading clinics across Georgia, Europe, and the world."],
+              academic : ["While David Tvildiani Medical University (DTMU) provides a range of academic programs, its cornerstone offering is the MBBS (Bachelor of Medicine and Bachelor of Surgery) program, which has garnered significant recognition and high regard within the international medical community for its comprehensive curriculum and quality of medical education."],
+              academicImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1743408337/Georgia_mbbs_university_Tbilisi_6_academic_w9ldrh.jpg",
+              faculties : [
+                  "Faculty of General Medicine",
+                  "Faculty of Dentistry",
+                  "Faculty of Nursing",
+                  "Faculty of Anatomy",
+                  "Faculty of Physical Medicine and Rehabilitation",
+              ],
+              facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
+              affilationRecognition : ["FAIMER","ECFMG","NMC","WHO"],
+          },
 
 
         

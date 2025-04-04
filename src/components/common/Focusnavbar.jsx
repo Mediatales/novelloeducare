@@ -3,11 +3,23 @@ import React, { useEffect, useState } from "react";
 import Link from "next/link";
 
 const Focusnavbar = () => {
+
+  const [isUniversityOpen, setIsUniversityOpen] = useState(false);
   const [isOpen, setIsOpen] = useState(false);
   const [isStudyAbroad, setIsStudyAbroad] = useState(false);
   const [countriesFlagLink, setCountriesFlagLink] = useState([]);
   const [isLoading, setIsLoading] = useState(true);
   const [error, setError] = useState(null);
+  const [universtiesName , setUniversitiesName] = useState([]);
+  const slugify = (text) =>
+    text.toLowerCase().replace(/\s+/g, "-").replace(/[^\w\-]+/g, "");
+  
+  const [searchQuery, setSearchQuery] = useState("");
+
+  const filteredUniversities = universtiesName.filter(({ university }) =>
+    university.toLowerCase().includes(searchQuery.toLowerCase())
+  );
+  
 
   useEffect(() => {
     const fetchCountries = async () => {
@@ -29,6 +41,31 @@ const Focusnavbar = () => {
 
     fetchCountries();
   }, []);                                                                                                                                                                                                                                                                                        
+
+//university
+useEffect(() => {
+  const fetchUniversity = async () => {
+    try {
+      setIsLoading(true);
+      const res = await fetch("/api/university_list");
+      if (!res.ok) {
+        throw new Error("Failed to fetch universities");
+      }
+
+      const result = await res.json();
+      setUniversitiesName(result.data); // set the array of universities
+    } catch (err) {
+      setError("Something went wrong");
+    } finally {
+      setIsLoading(false);
+    }
+  };
+
+  fetchUniversity();
+}, []);
+  
+  
+  //--------------------------------------------------------//
 
   const toggleMenu = () => {
     setIsOpen(!isOpen);
@@ -107,9 +144,67 @@ const Focusnavbar = () => {
               </div>
             </div>
 
-            <div className="text-gray-700 hover:text-green-700 font-medium">
-              University
+
+
+          {/* university */}
+{/* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */}
+
+<div className="relative group">
+  <button className="text-gray-700 hover:text-green-700 font-medium flex items-center gap-0">
+    University
+    <svg
+      className="w-5 h-4 mt-1"
+      viewBox="0 0 20 20"
+      fill="currentColor"
+    >
+      <path
+        fillRule="evenodd"
+        d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+        clipRule="evenodd"
+      />
+    </svg>
+  </button>
+
+  <div className="absolute hidden group-hover:block w-60 py-2 mt-0 bg-white rounded-md shadow-xl z-10 max-h-80 overflow-y-auto">
+    {/* Search input */}
+    <div className="px-4 pb-2">
+      <input
+        type="text"
+        placeholder="Search university..."
+        className="w-full px-3 py-1 border border-gray-300 rounded-md text-sm"
+        value={searchQuery}
+        onChange={(e) => setSearchQuery(e.target.value)}
+      />
+    </div>
+
+    {isLoading ? (
+      <div className="px-4 py-2">Loading...</div>
+    ) : error ? (
+      <div className="px-4 py-2 text-red-500">{error}</div>
+    ) : filteredUniversities.length > 0 ? (
+      <>
+        {filteredUniversities.slice(0, 500).map(({ country, university }, idx) => (
+          <Link
+            key={idx}
+            href={`/focus-overseas/${country.toLowerCase()}/${slugify(university)}`}
+          >
+            <div className="flex items-center gap-3 mt-2 px-4 py-2 transition-all duration-200 bg-[#E6F3EE] hover:bg-[#d4e9de] rounded-md cursor-pointer">
+              <p className="text-gray-800 font-medium">{university}</p>
             </div>
+          </Link>
+        ))}
+      </>
+    ) : (
+      <div className="px-4 py-2 text-gray-500">No results found.</div>
+    )}
+  </div>
+</div>
+
+
+
+
+
+  {/* +++++++++++++++++++++++++++++++++++++++++++++++++++++++ */}
             <Link
               href="/focus-overseas/admission"
               className="text-gray-700 hover:text-green-700 font-medium"
@@ -260,13 +355,66 @@ const Focusnavbar = () => {
             </div>
           </div>
 
-          <div
-            className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-green-700 hover:bg-gray-50"
-            onClick={toggleMenu}
-          >
-            University
-          </div>
+          {/* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */}
 
+          <div>
+  {/* University Button */}
+  <button
+    onClick={() => setIsUniversityOpen(!isUniversityOpen)}
+    className="flex justify-between items-center w-full px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-green-700 hover:bg-gray-50"
+  >
+    University
+    <svg
+      className={`w-4 h-4 transition-transform duration-200 ${
+        isUniversityOpen ? "rotate-180" : ""
+      }`}
+      viewBox="0 0 20 20"
+      fill="currentColor"
+    >
+      <path
+        fillRule="evenodd"
+        d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+        clipRule="evenodd"
+      />
+    </svg>
+  </button>
+
+  {/* Dropdown */}
+  <div className={`${isUniversityOpen ? "block" : "hidden"} pl-4 max-h-60 overflow-y-auto`}>
+    {/* Search Bar */}
+    <div className="p-3">
+      <input
+        type="text"
+        placeholder="Search university..."
+        className="w-full px-3 py-2 border border-gray-300 rounded-md text-sm"
+        value={searchQuery}
+        onChange={(e) => setSearchQuery(e.target.value)}
+      />
+    </div>
+
+    {isLoading ? (
+      <div className="px-4 py-2">Loading...</div>
+    ) : error ? (
+      <div className="px-4 py-2 text-red-500">{error}</div>
+    ) : (
+      filteredUniversities.slice(0, 500).map(({ country, university }, idx) => (
+        <Link
+          key={idx}
+          href={`/focus-overseas/${country.toLowerCase()}/${slugify(university)}`}
+          onClick={() => setIsUniversityOpen(false)}
+        >
+          <div className="flex items-center gap-2 py-3 font-medium text-gray-700 hover:text-green-700 hover:bg-gray-50">
+            <p className="text-gray-800 font-medium">{university}</p>
+          </div>
+        </Link>
+      ))
+    )}
+  </div>
+</div>
+
+
+
+{/* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */}
           <Link
             href="/focus-overseas/admission"
             className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-green-700 hover:bg-gray-50"
