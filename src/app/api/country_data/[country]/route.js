@@ -300,6 +300,24 @@ export async function GET(request, { params }) {
               "WHO",
             ],
           },
+          {
+            name: "Urgench branch of Tashkent Medical Academy",
+            image: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1743743556/Uzbekistan_university_10_Urgench_tkmu_yydzy5.jpg",
+            slug: "urgench-branch-of-tashkent-state-pediatric-university",
+            country : "uzbekistan",
+            overview : ["The Urgench campus of the Tashkent Medical Academy holds a distinguished position within Uzbekistan's medical education landscape, functioning as a vital component of the Tashkent Medical Academy and playing a crucial role in cultivating highly skilled medical professionals; recognized for its exceptional medical programs, comprehensive curriculum, and dedicated faculty, the Urgench branch prioritizes both rigorous academic instruction and practical training, effectively preparing students for successful careers in the medical field; graduates from this branch have made substantial contributions to healthcare advancements both within Uzbekistan and internationally, and the branch's commitment to excellence, modern facilities, and research opportunities renders it a preferred choice for aspiring medical students."],
+            academic : ["The MBBS program offered at the Urgench Branch of Tashkent Medical Academy in Uzbekistan is structured as a five-year course, encompassing an internship, and students are required to complete the entire program within this five-year timeframe to be awarded their MBBS degree. This comprehensive curriculum is designed to provide students with a robust foundation in medical science, covering a wide array of subjects from basic sciences to clinical disciplines."],
+            academicImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1743743559/Uzbekistan_university_10_Urgench_tkmu_academic_fwx0td.jpg",
+            faculties : [
+                "Faculty of General Medicine",
+                "Faculty of Preventive Medicine ",
+                "Faculty of Dentistry",
+                "Faculty of Pediatrics",
+                "Faculty of Joint Education Program",
+            ],
+            facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
+            affilationRecognition : ["MCI","Ministry of Health of the Republic of Uzbekistan","NMC","WHO"],
+        },
         ],
         eligibilityPoints: [
           {
@@ -1425,6 +1443,105 @@ export async function GET(request, { params }) {
               "World Health Organization (WHO)",
             ],
           },
+
+          {
+          name: "Jalal Abad State Medical University",
+          image: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1743759124/Kyrgyzstan_mbbs_university_5_Jalal_Abad_rynbkm.jpg",
+          slug: "jalal-abad-state-medical-university",
+          country : "kyrgyzstan",
+          overview : ["Jalal-Abad State Medical University (JASU), named after B.Osmonov, is a government institution in Kyrgyzstan dedicated to providing accessible and high-quality medical education, established on April 2, 1993, with the dual purpose of serving both Kyrgyzstani and international medical aspirants, including those from India, while maintaining affordable tuition fees; affiliated with the Ministry of Health and Science Education of Kyrgyzstan, JASU holds approvals and recognitions from prominent medical bodies such as the National Medical Commission (NMC) and the World Directory of Medical Schools (WDOMS), alongside other globally recognized medical institutions; the university is equipped with contemporary infrastructure and advanced technologies, fostering an environment conducive to producing skilled and compassionate medical professionals; currently, JASU accommodates over 3,300 students, including a significant number of Indian students, who are pursuing their MBBS degreesin Kyrgyzstan."],
+          academic : ["Jalalabad State University (JASU), a government institution operating under the direct administration of the Ministry of Health and the Ministry of Education & Science of Kyrgyzstan, initially established in 1993 to offer solely medical courses, has since broadened its academic portfolio to encompass a diverse range of disciplines, including not only engineering and law but also fields such as economics, pedagogy, and the humanities, thereby transforming into a comprehensive university that caters to a wider spectrum of student interests and career aspirations."],
+          academicImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1743759127/Kyrgyzstan_mbbs_university_5_Jalal_Abad_academic_ykwsje.jpg",
+          faculties : [
+              "Faculty of General Medicine",
+              "Faculty of Nursing",
+              "Faculty of Dentistry",
+              "Faculty of Pediatrics",
+              "Faculty of Joint Education Program",
+          ],
+          facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
+          affilationRecognition : ["MCI","Ministry of Health and the Ministry of Education","NMC","WHO"],
+      },
+
+      
+        {
+          name: "Avicenna International Medical University",
+          image: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1743759140/Kyrgyzstan_mbbs_university_6_Avicenna_c7ay4g.jpg",
+          slug: "avicenna-international-medical-university",
+          country : "kyrgyzstan",
+          overview : ["Avicenna International Medical University (AIMU), a private medical institution situated in Bishkek, Kyrgyzstan, is renowned for its commitment to delivering superior medical education to international students, notably those from India and other Asian nations, holding registration with the Ministry of Justice, the Ministry of Education, and the Ministry of Health of the Kyrgyz Republic, and operates under a license for higher professional education, with its mission focused on cultivating proficient medical professionals for Kyrgyzstan and a diverse array of countries including Pakistan, Bangladesh, India, Nepal, Nigeria, America, Turkey, and Egypt, currently hosting over 1000 students from these regions, where experienced doctors and medical science candidates contribute to the educational process, utilizing modern training programs, advanced technical resources, and innovative teaching methodologies to enhance educational quality, while the institute's departments actively engage in fundamental and applied research within key medical domains."],
+          academic : ["Avicenna International Medical University, located in Bishkek, Kyrgyzstan, delivers a comprehensive 6-year MBBS program, consisting of 5 years of academic coursework followed by a 1-year internship, all conducted in English, with a primary emphasis on providing high-quality medical education tailored to the needs of international students, ensuring that the curriculum is accessible and relevant to diverse cultural backgrounds, and that students receive adequate support in navigating the academic and cultural adjustments inherent in studying abroad."],
+          academicImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1743759149/Kyrgyzstan_mbbs_university_6_Avicenna_academic_gmooih.jpg",
+          faculties : [
+              "Faculty of General Medicine",
+              "Faculty of Nursing",
+              "Faculty of Dentistry",
+              "Faculty of Pediatrics",
+              "Faculty of Joint Education Program",
+          ],
+          facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
+          affilationRecognition : ["FAIMER","USMLE","NMC","WHO"],
+      },
+
+      
+        {
+          name: "Kyrgyz National University",
+          image: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1743759166/Kyrgyzstan_mbbs_university_7_Kyrgyz_national_twicd1.jpg",
+          slug: "kyrgyz-national-university",
+          country : "kyrgyzstan",
+          overview : ["Established in 1925, the Kyrgyz National University named after J. Balasagyn (KNU) stands as a non-profit public higher education institution situated in the urban center of Bishkek, officially recognized by the Ministry of Education and Science of Kyrgyzstan, and characterized as a large, coeducational Kyrgyzstani university; KNU offers a diverse range of courses and programs leading to officially recognized higher education degrees, including bachelor's degrees across various academic disciplines, catering to both domestic and international applicants; furthermore, the university provides a comprehensive array of academic and non-academic facilities and services to its student body, encompassing a library, housing options, sports amenities, and administrative support, fostering a holistic and supportive learning environment."],
+          academic : ["The Kyrgyz National University, named after Jusup Balasagyn, stands as a significant public higher education institution within Kyrgyzstan, distinguished by its extensive array of academic programs and its pivotal role in cultivating the country's future leadership by nurturing the intellectual and professional development of its students, equipping them with the knowledge, skills, and ethical values necessary to excel in their chosen fields and contribute meaningfully to society, thereby shaping the nation's trajectory through the empowerment of its future generations."],
+          academicImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1743759171/Kyrgyzstan_mbbs_university_7_Kyrgyz_national_academic_kbaqxn.jpg",
+          faculties : [
+              "Faculty of General Medicine",
+              "Faculty of Surgery",
+              "Faculty of Dentistry",
+              "Faculty of Pediatrics",
+              "Faculty of Biology",
+          ],
+          facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
+          affilationRecognition : ["MCI","Ministry of Health and the Ministry of Education","NMC","WHO"],
+      },
+
+       {
+
+          name: "Kyrgyz Russian Slavic University",
+          image: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1743759176/Kyrgyzstan_mbbs_university_8_Kyrgyz_Russian_tgktt0.webp",
+          slug: "kyrgyz-russian-slavic-university",
+          country : "kyrgyzstan",
+          overview : ["Established in 1993 through a collaborative agreement between Kyrgyzstan and Russia, the Kyrgyz-Russian Slavic University (KRSU), situated in Bishkek, Kyrgyzstan, has risen to prominence as a leading educational institution in the region, providing esteemed medical education and globally recognized degrees that attract a diverse international student body; encompassing 7 institutes and 13 faculties offering a wide spectrum of academic programs, KRSU is authorized by the Egyptian government, affiliated with WHO, MCI, and NMC, and recognized by the Higher Supreme Council of Universities, solidifying its position among the top-tier private and public scientific education institutions; the university's well-designed and secure campus fosters a conducive environment for student growth, prioritizing learning and teaching enhanced by cutting-edge technology and comprehensive knowledge delivery to meet societal needs through the development of diverse skill sets; bolstered by numerous partnerships with foreign institutions, KRSU currently educates approximately 11,000 students, including 900 international students, reflecting its commitment to global academic exchange and excellence."],
+          academic : ["The Kyrgyz-Russian Slavic University (KRSU) provides a diverse academic portfolio, encompassing Bachelor's, Master's, and postgraduate degrees, with a core mission to cultivate highly skilled professionals across a multitude of disciplines, distinguished by its unique offering of dual diplomas issued by both the Russian Federation and the Kyrgyz Republic, thereby enhancing the international recognition and employability of its graduates."],
+          academicImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1743759181/Kyrgyzstan_mbbs_university_8_Kyrgyz_Russian_academic_ioeb36.jpg",
+          faculties : [
+              "Faculty of Anatomy & Physiology",
+              "Faculty of General Surgery",
+              "Faculty of Pediatrics",
+              "Faculty of Pharmaceutical",
+              "Faculty of Biology",
+          ],
+          facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
+          affilationRecognition : ["MCI","ECFMG","NMC","WHO"],
+      },
+
+          {
+
+          name: "Salymbekov Medical University",
+          image: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1743759188/Kyrgyzstan_mbbs_university_9_Salymbekov_xbur5z.webp",
+          slug: "salymbekov-medical-university",
+          country : "kyrgyzstan",
+          overview : ["Established in 2019, Salymbekov Medical University, a prominent institution for higher medical education, offers a comprehensive range of academic programs, including diplomas, degrees, master's, and doctoral studies, providing students with extensive practical exposure through hospital visits and hands-on training in the latter stages of their courses, facilitated by its numerous departments located throughout Bishkek's educational district; particularly popular among the growing Indian immigrant student community, the university has garnered recognition from international organizations such as the NMC and WHO, and attracts a substantial number of Asian students, solidifying its reputation as a leading medical school in Kyrgyzstan."],
+          academic : ["Salymbekov Medical University, also referred to as Salymbekov International Medical College, located in Kyrgyzstan, provides a comprehensive medical education program leading to an MBBS/MD degree, delivered entirely in English, with enrollment opportunities in both the fall and spring semesters, and is distinguished by its state-of-the-art facilities and a faculty comprised of seasoned professionals dedicated to providing a high standard of medical training."],
+          academicImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1743759193/Kyrgyzstan_mbbs_university_9_Salymbekov_academic_wmpfft.jpg",
+          faculties : [
+              "Faculty of Medicine",
+              "Faculty of General Surgery",
+              "Faculty of Pediatrics",
+              "Faculty of Pharmaceutical",
+              "Faculty of Biology",
+          ],
+          facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
+          affilationRecognition : ["WFME","ECFMG","NMC","WHO"],
+      },
         ],
 
         eligibilityPoints: [

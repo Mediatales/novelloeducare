@@ -2,7 +2,7 @@
 import React from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
-import { FaWhatsapp, FaFacebookF, FaInstagram, FaLinkedinIn } from 'react-icons/fa';
+import { FaWhatsapp, FaFacebookF, FaInstagram, FaYoutube } from 'react-icons/fa';
 import { MdLocationOn, MdPhone, MdEmail } from 'react-icons/md';
 
 const Footer = () => {
@@ -90,8 +90,8 @@ const Footer = () => {
             <Link href="https://www.instagram.com/focus_overseas_education_/" className="w-8 h-8 rounded-full bg-pink-600 flex items-center justify-center text-white hover:bg-pink-700">
               <FaInstagram />
             </Link>
-            <Link href="#" className="w-8 h-8 rounded-full bg-blue-800 flex items-center justify-center text-white hover:bg-blue-900">
-              <FaLinkedinIn />
+            <Link href="https://www.youtube.com/@FOCUSOVERSEASmbbsabroad" className="w-8 h-8 rounded-full bg-blue-800 flex items-center justify-center text-white hover:bg-blue-900">
+              <FaYoutube />
             </Link>
           </div>
         </div>

@@ -35,6 +35,10 @@ export async function GET() {
         country: "uzbekistan",
         university: "Akfa University Medical School",
       },
+      {
+        country: "uzbekistan",
+        university: "Urgench branch of Tashkent Medical Academy",
+      },
       
 
       //russia
@@ -176,6 +180,27 @@ export async function GET() {
       {
         country: "kyrgyzstan",
         university: "Kyrgyz State Medical University",
+      },
+
+      {
+        country: "kyrgyzstan",
+        university: "Jalal Abad State Medical University",
+      },
+      {
+        country: "kyrgyzstan",
+        university: "Avicenna International Medical University",
+      },
+      {
+        country: "kyrgyzstan",
+        university: "Kyrgyz National University",
+      },
+      {
+        country: "kyrgyzstan",
+        university: "Kyrgyz Russian Slavic University",
+      },
+      {
+        country: "kyrgyzstan",
+        university: "Salymbekov Medical University",
       },
 
 
