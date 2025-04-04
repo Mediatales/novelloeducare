@@ -79,10 +79,10 @@ const Footer = () => {
             <Link href="https://wa.me/918126532259" className="w-8 h-8 rounded-full bg-green-500 flex items-center justify-center text-white hover:bg-green-600">
               <FaWhatsapp />
             </Link>
-            <Link href="#" className="w-8 h-8 rounded-full bg-blue-600 flex items-center justify-center text-white hover:bg-blue-700">
+            <Link href="https://www.facebook.com/profile.php?id=100063923442884" className="w-8 h-8 rounded-full bg-blue-600 flex items-center justify-center text-white hover:bg-blue-700">
               <FaFacebookF />
             </Link>
-            <Link href="#" className="w-8 h-8 rounded-full bg-pink-600 flex items-center justify-center text-white hover:bg-pink-700">
+            <Link href="https://www.instagram.com/novelloglabeeducare?igsh=MTRkeDF0eHZpNHZoOQ==" className="w-8 h-8 rounded-full bg-pink-600 flex items-center justify-center text-white hover:bg-pink-700">
               <FaInstagram />
             </Link>
             <Link href="https://www.youtube.com/@FOCUSOVERSEASmbbsabroad" className="w-8 h-8 rounded-full bg-blue-800 flex items-center justify-center text-white hover:bg-blue-900">
