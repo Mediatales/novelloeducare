@@ -52,12 +52,12 @@ const Footer = () => {
             <h3 className="text-blue-800 font-semibold mb-4">Section</h3>
             <ul className="text-gray-600 text-sm">
               <li className="mb-2">
-                <Link href="/about-study-abroad" className="hover:text-blue-800">
+                <Link href="https://novelloeducare.com/about" className="hover:text-blue-800">
                   About Study Abroad
                 </Link>
               </li>
               <li className="mb-2">
-                <Link href="/about-mbbs-abroad" className="hover:text-blue-800">
+                <Link href="https://novelloeducare.com/focus-overseas/about" className="hover:text-blue-800">
                   About MBBS Abroad
                 </Link>
               </li>
