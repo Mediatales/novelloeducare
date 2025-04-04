@@ -17,7 +17,7 @@ export default function BlogPost() {
       <div className="mt-16">
         <div className="flex flex-col items-center justify-center p-4 ">
         <h2 className="text-2xl font-bold text-gray-800 mb-4">Blog post not found</h2>
-        <p className="text-gray-600">The blog post you're looking for doesn't exist or has been removed.</p>
+        <p className="text-gray-600">The blog post you`&apos;`re looking for doesn`&apos;`t exist or has been removed.</p>
         <Link href="/focus-overseas/blogs" className="bg-blue-600 hover:bg-blue-700 text-white font-medium py-2 px-6 rounded transition-colors">
           Back to Blogs
         </Link>
