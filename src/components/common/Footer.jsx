@@ -85,7 +85,7 @@ const Footer = () => {
             <Link href="https://www.instagram.com/novelloglabeeducare?igsh=MTRkeDF0eHZpNHZoOQ==" className="w-8 h-8 rounded-full bg-pink-600 flex items-center justify-center text-white hover:bg-pink-700">
               <FaInstagram />
             </Link>
-            <Link href="https://www.youtube.com/@FOCUSOVERSEASmbbsabroad" className="w-8 h-8 rounded-full bg-red-900 flex items-center justify-center text-white hover:bg-blue-900">
+            <Link href="https://www.youtube.com/@FOCUSOVERSEASmbbsabroad" className="w-8 h-8 rounded-full bg-red-600 flex items-center justify-center text-white hover:bg-red-400">
               <FaYoutube  />
             </Link>
           </div>
