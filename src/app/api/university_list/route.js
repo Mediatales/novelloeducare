@@ -35,10 +35,7 @@ export async function GET() {
         country: "uzbekistan",
         university: "Akfa University Medical School",
       },
-      {
-        country: "uzbekistan",
-        university: "Andijan State Medical Institute",
-      },
+      
 
       //russia
       {
