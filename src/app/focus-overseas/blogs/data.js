@@ -1,54 +1,89 @@
 export const blogs = [
-    {
-      id: 1,
-      title: "How to Choose the Right Country for Your Study Abroad Journey",
-      description:
-        "Discover the key factors to consider when selecting a destination for your international education experience.",
-      image: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1739789017/f8dxcljajsufyrqwcphn.png",
-      date: "March 15, 2024",
-      content: `
-        <h2>Choosing Your Ideal Study Abroad Destination</h2>
-        <p>Selecting the right country for your international education is one of the most important decisions you'll make in your academic journey. At Focus Overseas, we help hundreds of Indian students each year make this life-changing choice. Here's our comprehensive guide to finding your perfect match.</p>
-        
-        <h2>Key Factors to Consider</h2>
-        <ul>
-          <li><strong>Academic Excellence</strong>: Research the quality and global ranking of universities in your field of interest. Countries like the UK, USA, Australia, and Canada are known for their world-class institutions.</li>
-          <li><strong>Program Availability</strong>: Ensure your preferred course or specialization is offered with the right curriculum and opportunities.</li>
-          <li><strong>Cost of Education</strong>: Consider tuition fees along with living expenses. Countries like Germany and Norway offer low or no tuition fees, while others like the US might be more expensive but offer substantial scholarships.</li>
-          <li><strong>Visa Requirements</strong>: Some countries have more straightforward visa processes for Indian students than others.</li>
-          <li><strong>Work Opportunities</strong>: Research post-study work rights and employment prospects in your field.</li>
-          <li><strong>Cultural Fit</strong>: Consider language barriers, lifestyle, and how comfortable you'll feel in the local culture.</li>
-        </ul>
-        
-        <h2>Popular Destinations for Indian Students</h2>
-        <h3>United States</h3>
-        <p>The US offers prestigious universities, cutting-edge research opportunities, and a flexible education system. While it can be expensive, there are numerous scholarship opportunities available.</p>
-        
-        <h3>United Kingdom</h3>
-        <p>With shorter program durations (typically one-year master's programs), the UK can be cost-effective while offering education from some of the world's oldest and most respected institutions.</p>
-        
-        <h3>Canada</h3>
-        <p>Known for its welcoming immigration policies, quality education, and excellent post-study work opportunities, Canada has become increasingly popular among Indian students.</p>
-        
-        <h3>Australia</h3>
-        <p>Australian universities offer innovative programs, a relaxed lifestyle, and strong support systems for international students.</p>
-        
-        <h3>Germany</h3>
-        <p>With many English-taught programs and minimal tuition fees at public universities, Germany provides excellent value for education, especially in engineering and technology fields.</p>
-        
-        <h2>How Focus Overseas Can Help</h2>
-        <p>Our experienced counselors at Focus Overseas provide personalized guidance based on your academic profile, career goals, and budget constraints. We offer:</p>
-        <ul>
-          <li>One-on-one counseling sessions to understand your preferences</li>
-          <li>Updated information about universities and programs worldwide</li>
-          <li>Assistance with application processes and documentation</li>
-          <li>Visa guidance and interview preparation</li>
-          <li>Pre-departure orientation to prepare you for life abroad</li>
-        </ul>
-        
-        <p>Remember, the best country for your studies depends on your individual circumstances and goals. Contact Focus Overseas today to start planning your international education journey!</p>
-      `,
-    },
+  {
+    "id": 1,
+    "title": "NEET UG 2025: Your Comprehensive Guide to India's Premier Medical Entrance Exam",
+    "description": "Everything you need to know about NEET UG 2025, including exam details, eligibility criteria, preparation strategies, and more.",
+    "image": "https://res.cloudinary.com/dqggm4k7u/image/upload/v1739789017/f8dxcljajsufyrqwcphn.png",
+    "date": "April 7, 2025",
+    "content": `
+      <h2>NEET UG 2025: Your Comprehensive Guide to India's Premier Medical Entrance Exam</h2>
+      <p>The National Eligibility cum Entrance Test (NEET) UG serves as the gateway for students aspiring to pursue undergraduate medical courses in India. With the NEET UG 2025 scheduled for May 4, 2025, it's crucial for aspirants to be well-informed about the exam's structure, eligibility criteria, preparation strategies, and recent updates.</p>
+      
+      <h2>Key Highlights of NEET UG 2025</h2>
+      <ul>
+        <li><strong>Conducting Body:</strong> National Testing Agency (NTA)</li>
+        <li><strong>Exam Date:</strong> May 4, 2025 (Sunday)</li>
+        <li><strong>Exam Mode:</strong> Offline (Pen-and-Paper-Based)</li>
+        <li><strong>Duration:</strong> 3 hours (2 PM to 5 PM)</li>
+        <li><strong>Subjects Covered:</strong> Physics, Chemistry, Biology (Botany & Zoology)</li>
+        <li><strong>Total Questions:</strong> 180 (All compulsory)</li>
+        <li><strong>Maximum Marks:</strong> 720</li>
+        <li><strong>Marking Scheme:</strong> +4 for correct answers, -1 for incorrect answers</li>
+      </ul>
+      
+      <h2>Revised Exam Pattern</h2>
+      <p>The NEET UG 2025 exam pattern has been streamlined for clarity:</p>
+      <ul>
+        <li><strong>Biology (Botany & Zoology):</strong> 90 questions</li>
+        <li><strong>Chemistry:</strong> 45 questions</li>
+        <li><strong>Physics:</strong> 45 questions</li>
+      </ul>
+      <p>All questions are mandatory, eliminating the optional sections introduced in previous years.</p>
+      
+      <h2>Important Dates</h2>
+      <ul>
+        <li><strong>Application Start Date:</strong> February 7, 2025</li>
+        <li><strong>Application Deadline:</strong> March 7, 2025</li>
+        <li><strong>Admit Card Release:</strong> Expected in April 2025</li>
+        <li><strong>Exam Date:</strong> May 4, 2025</li>
+      </ul>
+      <p>Given that today is April 7, 2025, the application window has closed, and candidates should anticipate the release of admit cards soon.</p>
+      
+      <h2>Eligibility Criteria</h2>
+      <p>To be eligible for NEET UG 2025, candidates must meet the following criteria:</p>
+      <ul>
+        <li><strong>Nationality:</strong> Indian citizens, Non-Resident Indians (NRIs), Overseas Citizens of India (OCIs), Persons of Indian Origin (PIOs), and Foreign nationals are eligible.</li>
+        <li><strong>Age Limit:</strong> Candidates must be at least 17 years old as of December 31, 2025. There is no upper age limit as per the latest Supreme Court ruling.</li>
+        <li><strong>Educational Qualification:</strong> Candidates must have completed or be appearing in Class 12 with Physics, Chemistry, Biology/Biotechnology, and English as core subjects. The required minimum marks vary by category:
+          <ul>
+            <li><strong>General Category:</strong> At least 50% in PCB subjects</li>
+            <li><strong>SC/ST/OBC Categories:</strong> At least 40% in PCB subjects</li>
+            <li><strong>Persons with Disabilities (PwD):</strong> At least 45% in PCB subjects</li>
+          </ul>
+        </li>
+      </ul>
+      
+      <h2>Preparation Strategies</h2>
+      <p>Effective preparation is key to succeeding in NEET UG 2025:</p>
+      <ol>
+        <li><strong>Understand the Syllabus and Exam Pattern:</strong> Familiarize yourself with the NEET UG syllabus, which is based on NCERT Class 11 and 12 subjects, and the exam pattern to strategize your study plan effectively.</li>
+        <li><strong>Create a Study Plan:</strong> Develop a structured timetable that allocates sufficient time to each subject, prioritizing topics based on their weightage and your proficiency.</li>
+        <li><strong>Choose the Right Study Materials:</strong> Rely on NCERT textbooks for foundational knowledge. Supplement your studies with reputable NEET preparation books and online resources.</li>
+        <li><strong>Practice Regularly:</strong> Solve previous years' question papers and take mock tests to familiarize yourself with the exam format and identify areas needing improvement.</li>
+        <li><strong>Focus on Time Management and Accuracy:</strong> Practice solving questions within the allotted time to enhance speed and accuracy.</li>
+        <li><strong>Maintain Health and Manage Stress:</strong> Ensure a balanced diet, adequate sleep, and incorporate stress-relief techniques such as meditation or light exercise into your routine.</li>
+      </ol>
+      
+      <h2>Admit Card and Exam Day Guidelines</h2>
+      <ul>
+        <li><strong>Admit Card:</strong> The admit card is expected to be released in April 2025. Candidates should download it from the official NTA website and verify details such as name, roll number, and exam centre.</li>
+        <li><strong>Exam Day Guidelines:</strong>
+          <ul>
+            <li>Carry the admit card, valid ID proof, and a passport-sized photograph.</li>
+            <li>Adhere to the dress code by avoiding metallic items, full sleeves, and shoes.</li>
+            <li>Refrain from bringing prohibited items like electronic gadgets or study materials into the examination hall.</li>
+          </ul>
+        </li>
+      </ul>
+      
+      <h2>Result and Counseling</h2>
+      <ul>
+        <li><strong>Result Declaration:</strong> Results are anticipated to be declared by June 2025. Candidates can check their scores and All India Rank (AIR) on the NTA website using their login credentials.</li>
+        <li><strong>Counseling Process:</strong> Post-results, the Medical Counseling Committee (MCC) will conduct counseling for admissions to All India Quota (AIQ) seats, Deemed Universities, and Central Universities. State counseling authorities will manage admissions for state quota seats.</li>
+      </ul>
+    `
+  },
+  
     {
       id: 2,
       title: "Complete Guide to Scholarships for Indian Students Studying Abroad",
