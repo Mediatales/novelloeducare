@@ -6,19 +6,59 @@ import "swiper/css";
 import "swiper/css/navigation";
 
 const universityLogos = [
-  "https://res.cloudinary.com/dqggm4k7u/image/upload/v1740648977/University_logo_3_dqovce.png",
-  "https://res.cloudinary.com/dqggm4k7u/image/upload/v1740648976/University_logo_4_c1gxbi.png",
-  "https://res.cloudinary.com/dqggm4k7u/image/upload/v1740648977/University_logo_1_gupvjd.png",
-  "https://res.cloudinary.com/dqggm4k7u/image/upload/v1740648976/University_logo_5_adiwg6.png",
-  "https://res.cloudinary.com/dqggm4k7u/image/upload/v1740648976/University_logo_6_rjrrsu.png",
-  "https://res.cloudinary.com/dqggm4k7u/image/upload/v1740648976/University_logo_2_v3emlh.png",
 
-  "https://res.cloudinary.com/dqggm4k7u/image/upload/v1740648977/University_logo_3_dqovce.png",
-  "https://res.cloudinary.com/dqggm4k7u/image/upload/v1740648976/University_logo_4_c1gxbi.png",
-  "https://res.cloudinary.com/dqggm4k7u/image/upload/v1740648977/University_logo_1_gupvjd.png",
-  "https://res.cloudinary.com/dqggm4k7u/image/upload/v1740648976/University_logo_5_adiwg6.png",
-  "https://res.cloudinary.com/dqggm4k7u/image/upload/v1740648976/University_logo_6_rjrrsu.png",
-  "https://res.cloudinary.com/dqggm4k7u/image/upload/v1740648976/University_logo_2_v3emlh.png",
+  //russia
+  {
+    logo: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1744005911/Saint_Petersburg_logo_c2p7h1.png",
+    link: "https://novelloeducare.com/focus-overseas/russia/saint-petersburg-state-pediatric-medical-university",
+  },
+  {
+    logo: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1744002651/North_western_uanava.png",
+    link: "https://novelloeducare.com/focus-overseas/russia/north-western-state-medical-university",
+  },
+  {
+    logo: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1744005927/Ural_state_logo_vn05bi.png",
+    link: "https://novelloeducare.com/focus-overseas/russia/ural-state-medical-university",
+  },
+  {
+    logo: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1744002787/Oral_State_Medical_University_fgfexs.png",
+    link: "https://novelloeducare.com/focus-overseas/russia/orel-state-medical-university",
+  },
+  {
+    logo: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1744003281/Kemerovo_state_logo_b3pz4c.png",
+    link: "https://novelloeducare.com/focus-overseas/russia/kemerovo-state-medical-university",
+  },
+  {
+    logo: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1744003559/Tula_state_logo_gcy2i8.png",
+    link: "https://novelloeducare.com/focus-overseas/russia/tula-state-university",
+  },
+  {
+    logo: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1744005992/Ryazan_state_logo_kuzo9h.png",
+    link: "https://novelloeducare.com/focus-overseas/russia/ryazan-state-medical-university",
+  },
+  {
+    logo: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1744006211/Siberian_state_logo_goig3p.png",
+    link: "https://novelloeducare.com/focus-overseas/russia/siberian-state-medical-university",
+  },
+  {
+    logo: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1740648976/University_logo_5_adiwg6.png",
+    link: "https://novelloeducare.com/focus-overseas/russia/omsk-state-medical-university",
+  },
+  {
+    logo: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1740648976/University_logo_2_v3emlh.png",
+    link: "https://novelloeducare.com/focus-overseas/russia/ulyanovsk-state-university",
+  },
+
+  //uzbekistan
+  // {
+  //   logo:"https://res.cloudinary.com/dqggm4k7u/image/upload/v1744003281/Kemerovo_state_logo_b3pz4c.png",
+  //   link:"",
+  // },
+  // {
+  //   logo:"https://res.cloudinary.com/dqggm4k7u/image/upload/v1744003281/Kemerovo_state_logo_b3pz4c.png",
+  //   link:"",
+  // },
+
 ];
 
 const UniversityCarousel = () => {
@@ -42,15 +82,17 @@ const UniversityCarousel = () => {
           modules={[Autoplay, Navigation]}
           className="pb-6"
         >
-          {universityLogos.map((logo, index) => (
+          {universityLogos.map((item, index) => (
             <SwiperSlide key={index} className="flex justify-center items-center">
-              <Image
-                src={logo}
-                alt={`University ${index + 1}`}
-                width={100}
-                height={100}
-                className="w-[80px] md:w-[100px] object-contain"
-              />
+              <a href={item.link} target="_blank" rel="noopener noreferrer">
+                <Image
+                  src={item.logo}
+                  alt={`University ${index + 1}`}
+                  width={100}
+                  height={100}
+                  className="w-[80px] md:w-[100px] object-contain"
+                />
+              </a>
             </SwiperSlide>
           ))}
         </Swiper>
