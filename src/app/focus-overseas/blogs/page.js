@@ -21,7 +21,7 @@ export default function BlogPage() {
                 <img 
                   src={blog.image} 
                   alt={blog.title} 
-                  className="w-full h-48 object-cover" 
+                  className="w-full h-48  object-contain" 
                 />
                 <div className="absolute bottom-0 w-full bg-gradient-to-t from-black/70 to-transparent p-3">
                   <p className="text-white text-sm">{blog.date}</p>

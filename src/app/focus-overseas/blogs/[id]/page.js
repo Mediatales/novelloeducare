@@ -38,10 +38,10 @@ export default function BlogPost() {
         </Link>
         
         <div className="bg-white rounded-lg shadow-md overflow-hidden">
-          <img 
+          <img
             src={blog.image} 
             alt={blog.title} 
-            className="w-full h-48 sm:h-64 md:h-72 object-cover" 
+              className="w-full h-48 sm:h-64 md:h-full object-contain" 
           />
           
           <div className="p-4 sm:p-6 md:p-8">
