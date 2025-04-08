@@ -252,6 +252,26 @@ export async function GET() {
         country: "Georgia",
         university: "New Vision Medical University",
       },
+      {
+        country: "Georgia",
+        university: "European University in Tbilisi Georgia",
+      },
+      {
+        country: "Georgia",
+        university: "Petre Shotadze Tbilisi Medical Academy (TMA)",
+      },
+      {
+        country: "Georgia",
+        university: "Caucasus International University",
+      },
+      {
+        country: "Georgia",
+        university: "Georgian American University",
+      },
+      {
+        country: "Georgia",
+        university: "University of Georgia (UoG)",
+      },
 
       //Armenia
 

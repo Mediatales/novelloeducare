@@ -1722,6 +1722,102 @@ export async function GET(request, { params }) {
             ],
           },
 
+
+          {
+            name: "European University in Tbilisi Georgia",
+            image: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1744102894/Georgia_mbbs_university_7_European_qmlucd.jpg",
+            slug: "european-university-in-tbilisi-georgia",
+            country : "georgia",
+            overview : ["Established in 2011, the European University has rapidly become a leading choice for dentistry studies in Georgia and Europe, with its medical school situated in the remarkably safe capital city of Tbilisi; the Faculty of Medicine was then founded in 2014 following substantial university investments in campus modernization, advanced teaching equipment, and the recruitment of renowned experts dedicated to educating future healthcare professionals, making it Georgia's pioneering private university complete with a conveniently located modern dormitory near the campus; a particularly noteworthy aspect of the European University is its broad network of clinical partnerships, encompassing around 70 clinics across Georgia, which guarantees students abundant practical experience through clinical training within authentic healthcare environments."],
+            academic : ["A distinguishing feature of the European University is its continuous commitment to growth, development, and modernization of its campus and research center; for both medicine and dentistry programs, students commence their education by establishing a robust theoretical base, subsequently progressing through advanced high-tech simulations of real-world scenarios to cultivate experience and confidence, notably making it the first university in Europe to possess the newest iteration of Anatomage, an innovative 3D dissection table that visualizes and simulates lifelike medical situations."],
+            academicImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1744102897/Georgia_mbbs_university_7_European_academic_piggeo.jpg",
+            faculties : [
+                "Faculty of General Medicine",
+                "Faculty of Pharmacy",
+                "Faculty of Veterinary Medicine",
+                "Faculty of  Dentistry",
+                "Faculty of Anatomy",
+            ],
+            facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
+            affilationRecognition : ["AMEE","FAIMER","AMSE","WHO"],
+        },
+
+           {
+            name: "Petre Shotadze Tbilisi Medical Academy (TMA)",
+            image: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1744103391/georgia_mbbs_university_10_Petre_sty2wh.webp",
+            slug: "petre-shotadze-tbilisi-medical-academy-tma",
+            country : "georgia",
+            overview : ["Established in 1992 by the esteemed Georgian physician and pediatric surgeon Petre Shotadze, Tbilisi Medical Academy (ТМА) has since produced over 1700 successful graduates who are now practicing in prominent Georgian and international hospitals, as well as contributing to universities and scientific centers globally, evolving into a leading medical school in Georgia that attracts a diverse international student body from over 30 countries; as a student-centered institution, Petre Shotadze Tbilisi Medical Academy is dedicated to educating and cultivating both national and international healthcare specialists, with a primary focus on enhancing students' independent and critical thinking, scientific reasoning capabilities, and sound judgment to foster their development into highly capable physicians; international students aspiring to study medicine in Europe in English often select this medical university due to its proven, evidence-based teaching methodologies that directly equip them to manage a wide range of clinical scenarios, providing students at TMA with the chance to establish a strong theoretical understanding while simultaneously developing the essential practical skills for successful medical careers."],
+            academic : ["The institution offers a 6-year program taught in Georgian alongside a distinct 6-year program specifically designed for international students and delivered in English, both of which have received accreditation from the National Center of Educational Quality Enhancement for a duration of 7 years, and further provides a Master's program in Applied Public Health tailored for public health specialists."],
+            academicImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1744103392/Georgia_mbbs_university_10_Petre_academic_yzpbqg.jpg",
+            faculties : [
+                "Faculty of General Medicine",
+                "Faculty of Anatomy",
+                "Faculty of Biochemistry",
+                "Faculty of Physical Medicine",
+                "Faculty of Clinical Medicine",
+            ],
+            facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
+            affilationRecognition : ["NCEQE","FAIMER","WFME","WHO"],
+        },
+
+           {
+            name: "Caucasus International University",
+            image: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1744103368/Georgia_mbbs_university_9_Caucasus_xmxtyu.jpg",
+            slug: "caucasus-international-university",
+            country : "georgia",
+            overview : ["Established in 1995 as a medical institute before transitioning into a multi-profile higher education institution in 2006, Caucasus International University (CIU) is situated in Georgia's capital city, Tbilisi, and currently encompasses five faculties; Tbilisi, a city rich in history with an alluring cobblestone old town that draws numerous tourists annually, is also a significant hub for Georgian medical universities, many of which offer medical education in English, attracting international students seeking quality medical education in a vibrant European setting, and notably includes institutions like the highly regarded European University, known for its modern facilities and esteemed faculty; the city further enhances its appeal by providing relatively low-cost living options and universities that offer both affordable tuition fees and maintain high academic standards, making it an attractive destination for aspiring medical professionals from around the globe."],
+            academic : ["The university's undergraduate offerings consist of two distinct four-year programs, including a comprehensive Bachelor of Business Administration designed to equip students with foundational knowledge in various aspects of business management and a rigorous Bachelor of Medicine and Bachelor of Surgery program aimed at preparing aspiring medical professionals for clinical practice; furthermore, the institution provides a graduate-level program, a two-year Master of Science degree, catering to students seeking advanced specialization in a specific scientific field."],
+            academicImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1744103378/Georgia_mbbs_university_9_Caucasus_academic_xymh8l.jpg",
+            faculties : [
+                "Faculty of General Medicine",
+                "Faculty of Pharmacy",
+                "Faculty of Dentistry",
+                "Faculty of Biochemistry",
+                "Faculty of Anatomy",
+            ],
+            facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
+            affilationRecognition : ["WFME","FAIMER","NMC","WHO"],
+        },
+        
+            {
+            name: "Georgian American University",
+            image: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1744103408/Georgia_mbbs_university_11_Georgian_fg9uyo.jpg",
+            slug: "georgian-american-university",
+            country : "georgia",
+            overview : ["Established in Tbilisi in 2001, the Georgian American University (GAU) rapidly developed a well-equipped campus featuring all the necessary modern medical technology, demonstrating a continuous investment in research and facility modernization that has positioned it as one of the leading universities in Georgia; recognizing that exceptional education extends beyond just facilities, GAU places a strong emphasis on assembling a distinguished faculty comprised of seasoned academics and practitioners who bring a wealth of knowledge and practical insights, thereby cultivating a dynamic and comprehensive learning environment enriched by diverse perspectives and real-world expertise, ensuring that students benefit from both theoretical rigor and practical application across their fields of study, and fostering an atmosphere conducive to intellectual growth and professional development through close interaction with accomplished mentors and researchers."],
+            academic : ["The M.D. program offered here provides a well-integrated curriculum that effectively balances comprehensive theoretical instruction with essential practical training, ensuring that in the initial years, students gain an in-depth understanding of fundamental medical sciences such as microbiology, anatomy, and pathology, among others; furthermore, the program incorporates training in advanced simulators and well-equipped laboratories to progressively prepare students for subsequent bedside teaching and clinical clerkships, thereby facilitating a seamless transition from foundational knowledge to real-world patient care"],
+            academicImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1744103415/Georgia_mbbs_university_11_Georgian_academic_kysakn.jpg",
+            faculties : [
+                "Faculty of General Medicine",
+                "Faculty of Pharmacology",
+                "Faculty of Dentistry",
+                "Faculty of Biochemistry",
+                "Faculty of Anatomy",
+            ],
+            facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
+            affilationRecognition : ["WFME","FAIMER","NMC","WHO"],
+        },
+
+            {
+            name: "University of Georgia (UoG)",
+            image: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1744103340/Georgia_mbbs_university_8_Uog_dnw62z.jpg",
+            slug: "university-of-georgia-uog",
+            country : "georgia",
+            overview : ["Established in 2004 and now recognized as the largest private university in Tbilisi, Georgia, the University of Georgia is renowned for delivering high-quality education to both local and international students across a diverse range of programs encompassing business, medicine, technology, humanities, and social sciences at both bachelor’s and master’s levels; the university's appeal to numerous international students pursuing medical studies stems from its varied teaching and evaluation methodologies, which provide aspiring doctors with the opportunity to thoroughly develop both their theoretical understanding and essential practical skills; with globally recognized degrees, making it an attractive choice for studying medicine in English abroad, the University of Georgia offers a significant journey through the medical field."],
+            academic : ["At present, the university offers comprehensive Medicine and Dentistry programs entirely instructed in English, and consistent with the standard in most European universities, successful completion of the medical course results in the awarding of a Medical Doctor (MD) degree, furthermore, the rigorous curriculum of the dentistry program culminates in the conferral of a Doctor of Dental Medicine (DMD) degree upon successful graduation, signifying the attainment of comprehensive knowledge and practical skills necessary for a career in dental medicine."],
+            academicImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1744103356/Georgia_mbbs_university_8_Uog_academic_sx78ne.jpg",
+            faculties : [
+                "Faculty of General Medicine",
+                "Faculty of Pharmacy",
+                "Faculty of Dentistry",
+                "Faculty of Biochemistry",
+                "Faculty of Anatomy",
+            ],
+            facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
+            affilationRecognition : ["MCI","ECFMG","NMC","WHO"],
+        },
+
           //belarus
 
           {
