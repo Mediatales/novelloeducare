@@ -449,6 +449,42 @@ export async function GET() {
         country: "Poland",
         university: "Medical University of Silesia",
       },
+// ------------------------------------------------------------
+      {
+        country: "Poland",
+        university: "Medical University of Bialystok",
+      },
+
+      {
+        country: "Poland",
+        university: "Medical University of Lodz",
+      },
+
+      {
+        country: "Poland",
+        university: "Medical University of Warsaw",
+      },
+
+      {
+        country: "Poland",
+        university: "Pomeranian Medical University in Szczecin",
+      },
+
+      {
+        country: "Poland",
+        university: "Andrzej Frycz Modrzewski Krakow University",
+      },
+
+      {
+        country: "Poland",
+        university: "Medical University of Lublin",
+      },
+
+      {
+        country: "Poland",
+        university: "Medical University of Gdańsk",
+      },
+
 
       //Ukraine
       {
