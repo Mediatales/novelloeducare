@@ -21,7 +21,9 @@ const Navbar = () => {
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <div className="flex-shrink-0">
+            <Link href="/">
             <img src="https://res.cloudinary.com/dqggm4k7u/image/upload/v1739789041/f1f7pedrical8yenlywv.png" alt="Logo" className="h-11" />
+            </Link>
           </div>
 
           {/* Desktop Navigation */}
@@ -85,7 +87,7 @@ const Navbar = () => {
             <Link href="/admission" className="text-gray-700 hover:text-blue-700 font-medium">
               Admission Services
             </Link>
-            <Link href="/blogs" className="text-gray-700 hover:text-blue-700 font-medium">
+            <Link href="/focus-overseas/blogs" className="text-gray-700 hover:text-blue-700 font-medium">
               Blogs
             </Link>
             {/* <Link href="/branch" className="text-gray-700 hover:text-blue-700 font-medium">

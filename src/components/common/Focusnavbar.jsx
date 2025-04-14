@@ -82,11 +82,14 @@ useEffect(() => {
         <div className="flex justify-between items-center h-13">
           {/* Logo */}
           <div className="flex-shrink-0">
+            <Link href='/focus-overseas'>
             <img
               src="https://res.cloudinary.com/dqggm4k7u/image/upload/v1739789017/f8dxcljajsufyrqwcphn.png"
               alt="Logo"
               className="h-11"
+              loading="lazy"
             />
+            </Link>
           </div>
 
           {/* Desktop Navigation */}
