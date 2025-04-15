@@ -60,6 +60,11 @@ export async function GET() {
         country: 'Serbia',
         flag_link:'https://res.cloudinary.com/dqggm4k7u/image/upload/v1743578496/Serbia_logo_geldrr.png'
       },
+
+      {
+        country: 'Moldova',
+        flag_link: 'https://res.cloudinary.com/dqggm4k7u/image/upload/v1744701885/Moldova_logo_wfnvx1.png',
+      },
       {
         country: 'Ukraine',
         flag_link: 'https://res.cloudinary.com/dqggm4k7u/image/upload/v1742375712/Ukrain_logo_tpapan.png'

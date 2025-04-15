@@ -3532,6 +3532,29 @@ export async function GET(request, { params }) {
     affilationRecognition : ["WHO","NMC","Ministry of Health of Ukraine","EUA"],
 },
 
+
+//maldova
+
+{
+  name: "Nicolae Testemitanu State University of Medicine and Pharmacy",
+  image: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1744704707/Moldova_university_1_jhfyxb.jpg",
+  slug: "nicolae-testemitanu-state-university-of-medicine-and-pharmacy",
+  country : "serbia",
+  overview : ["Established on October 20, 1945, the institution laid the groundwork for the advancement of higher medical education and the improvement of the healthcare system within the Moldovan Republic, experiencing substantial growth over the subsequent seven decades through significant program and facility expansions; the University now encompasses a diverse range of academic units, including a hospital-affiliated medical school catering to local students with a specialization in Public Health, a distinct medical school dedicated to international students, and schools of Dentistry and Pharmacy, alongside a comprehensive Fifth Unit that integrates Pre-University Remedial Training, Post Graduate Specialty Training, the Department of Advanced Doctorate and Master’s Degrees, and Continuing Education in Medicine and Pharmacy; the University employs contemporary international training methodologies and educational philosophies in its teaching."],
+  academic : ["The Nicolae Testemitanu State University of Medicine and Pharmacy, located in Chișinău, Moldova, provides a wide spectrum of academic programs encompassing both undergraduate and postgraduate levels across various disciplines such as medicine, dentistry, pharmacy, medical psychology, and medical bioengineering; additionally, the university offers a foundation year specifically designed for international students, alongside pre-university remedial training and a diverse array of postgraduate specialty training opportunities."],
+  academicImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1744704710/Moldova_university_1_academic_d9tvqq.jpg",
+  faculties : [
+      "Department of Dentistry",
+      "Department of General Medicine",
+      "Department of Nursing",
+      "Department of Pharmacy",
+      "Department of Public Health",
+      "Department of Psychiatry",
+  ],
+  facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
+  affilationRecognition : ["WHO","NMC","FAIMER","WFME"],
+},
+
           
         ],
       },

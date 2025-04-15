@@ -88,7 +88,7 @@ export const blogs = [
     id: 2,
     title: "From Admission to Graduation: Studying MBBS in Russia",
     description: "Explore the complete journey of studying MBBS in Russia—from the admission process to graduation, lifestyle, academics, challenges, and future opportunities.",
-    image: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1744021220/focus_web_banner_lxipst.png", // (You can replace with your own image URL)
+    image: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1744705438/focus_blog_2_pkzqvc.png", // (You can replace with your own image URL)
     date: "April 15, 2025",
     content: `
       <h2><strong>From Admission to Graduation: Studying MBBS in Russia</strong></h2>
@@ -193,7 +193,147 @@ export const blogs = [
       <p>Studying MBBS in Russia is a life-changing journey. It’s not just about acquiring a medical degree—it's about becoming resilient, independent, and globally competent. If you're ready to step out of your comfort zone and immerse yourself in a challenging yet rewarding experience, Russia might just be your gateway to a successful medical career.</p>
       <p>Whether you're just beginning your research or already preparing for departure, we hope this guide gives you clarity and confidence as you take your first step from admission to graduation.</p>
     `
+  },
+
+  {
+    id: 3,
+    title: "The Ultimate Guide for Parents: MBBS Abroad for Indian Students",
+    description: "A complete guide tailored for Indian parents to understand the MBBS abroad journey—from university selection to safety, admission process, cost, and post-graduation licensing.",
+    image: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1744705443/focus_blog_3_esawjj.png", // Replace with relevant image if needed
+    date: "April 15, 2025",
+    content: `
+      <h2><strong>The Ultimate Guide for Parents: MBBS Abroad for Indian Students</strong></h2>
+      <p>For every Indian parent, watching their child wear a white coat and serve as a doctor is a proud moment. But with limited government medical seats and sky-high fees in private colleges, many students look beyond Indian borders for an MBBS degree. If your child is considering MBBS abroad, you likely have a million questions — and a few worries too.</p>
+      <p>This guide is designed especially for parents, to help you understand the process, the pros and cons, and how to support your child every step of the way.</p>
+  
+      <hr/>
+  
+      <h3><strong>Why Are Students Going Abroad for MBBS?</strong></h3>
+      <p>In India, nearly 20 lakh students appear for NEET every year, but only about 1 lakh government medical seats are available. The competition is fierce, and even top scorers often miss out.</p>
+      <p>Meanwhile, countries like Russia, Georgia, Uzbekistan, Philippines, Kazakhstan, and Ukraine offer:</p>
+      <ul>
+        <li>Affordable tuition fees</li>
+        <li>Globally recognized degrees</li>
+        <li>No donation or capitation fees</li>
+        <li>English-medium programs</li>
+        <li>Simple admission processes</li>
+      </ul>
+  
+      <hr/>
+  
+      <h3><strong>Top Countries Indian Students Prefer for MBBS Abroad</strong></h3>
+      <table border="1" cellpadding="10" cellspacing="0">
+        <thead>
+          <tr>
+            <th>Country</th>
+            <th>Approx. Fees (Total 6 Years)</th>
+            <th>Medium of Instruction</th>
+            <th>Recognition</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Russia</td>
+            <td>₹15–30 lakhs</td>
+            <td>English/Russian</td>
+            <td>WHO, NMC</td>
+          </tr>
+          <tr>
+            <td>Georgia</td>
+            <td>₹25–35 lakhs</td>
+            <td>English</td>
+            <td>WHO, NMC</td>
+          </tr>
+          <tr>
+            <td>Kazakhstan</td>
+            <td>₹15–25 lakhs</td>
+            <td>English</td>
+            <td>WHO, NMC</td>
+          </tr>
+          <tr>
+            <td>Philippines</td>
+            <td>₹20–30 lakhs</td>
+            <td>English</td>
+            <td>WHO, NMC, USMLE</td>
+          </tr>
+          <tr>
+            <td>Uzbekistan</td>
+            <td>₹15–25 lakhs</td>
+            <td>English/Russian</td>
+            <td>WHO, NMC</td>
+          </tr>
+        </tbody>
+      </table>
+  
+      <hr/>
+  
+      <h3><strong>Eligibility Criteria for MBBS Abroad</strong></h3>
+      <ul>
+        <li>Minimum age: 17 years by 31st December of the admission year</li>
+        <li>Academic requirement: 50% in Physics, Chemistry, Biology (40% for reserved categories)</li>
+        <li>NEET qualification: Mandatory (valid for 3 years)</li>
+      </ul>
+  
+      <hr/>
+  
+      <h3><strong>What Parents Need to Know – Step-by-Step</strong></h3>
+  
+      <h4>✅ 1. Research and Shortlist Countries/Universities</h4>
+      <p>Make sure the university is:</p>
+      <ul>
+        <li>Recognized by the NMC (India) and WHO</li>
+        <li>Has English-medium teaching</li>
+        <li>Offers Indian food and comfortable hostel facilities</li>
+        <li>Located in a safe city with a good Indian student community</li>
+      </ul>
+  
+      <h4>✅ 2. Admission Process</h4>
+      <p>Most universities abroad have direct admission—no entrance exam required (except NEET). You can either apply directly or go through a trusted education consultant.</p>
+      <p>Documents required:</p>
+      <ul>
+        <li>Class 10 & 12 mark sheets</li>
+        <li>NEET scorecard</li>
+        <li>Passport</li>
+        <li>Passport-size photos</li>
+        <li>Medical fitness certificate</li>
+      </ul>
+  
+      <h4>✅ 3. Visa & Travel Arrangements</h4>
+      <ul>
+        <li>Apply for a student visa after receiving the invitation letter</li>
+        <li>Book flights and arrange an airport pickup (most universities offer this)</li>
+        <li>Attend the university’s online or offline orientation</li>
+      </ul>
+  
+      <h4>✅ 4. Hostel and Living Conditions</h4>
+      <ul>
+        <li>Most universities offer on-campus hostels with Indian mess</li>
+        <li>Students usually share rooms (2–3 students)</li>
+        <li>CCTV, biometric access, and wardens ensure safety</li>
+        <li>Monthly living expenses are about ₹8,000–₹15,000</li>
+      </ul>
+  
+      <hr/>
+  
+      <h3><strong>Common Parental Concerns (And Reassurances)</strong></h3>
+      <ul>
+        <li><strong>“Is the degree valid in India?”</strong><br/>Yes—if the university is recognized by NMC, your child can take the FMGE/NExT exam after graduation to get a license to practice in India.</li>
+        <li><strong>“Will my child be safe?”</strong><br/>Yes—universities abroad that welcome Indian students take safety seriously. Countries like Russia, Georgia, and Kazakhstan are known for their hospitality and have a strong Indian student community.</li>
+        <li><strong>“Will my child manage alone?”</strong><br/>Your child will grow more independent—but they won't be alone. Universities have Indian wardens, counselors, and student communities. With video calls and regular contact, you'll be part of their journey every step of the way.</li>
+      </ul>
+  
+      <hr/>
+  
+      <h3><strong>Understanding FMGE/NExT – The License to Practice in India</strong></h3>
+      <p>After completing their MBBS abroad, Indian students must qualify for FMGE (Foreign Medical Graduate Examination) or NExT (National Exit Test, to be implemented soon) to be eligible for medical practice in India. Preparation for these exams can be started during the MBBS years itself through online platforms or coaching centers.</p>
+  
+      <hr/>
+  
+      <h3><strong>Final Words</strong></h3>
+      <p>Sending your child abroad for MBBS is a big step—but with the right preparation and trust, it can lead to a fulfilling and successful medical career. By staying informed and involved, you can be the strongest pillar of support on your child’s journey to becoming a doctor.</p>
+    `
   }
+   
   
   
   

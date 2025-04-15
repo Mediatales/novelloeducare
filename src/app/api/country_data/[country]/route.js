@@ -4538,6 +4538,77 @@ export async function GET(request, { params }) {
       ],
       advantages: ["Affordability", "Multicultural Environment" ,"Internationally Recognized Medical Universities" ,"Clinical Exposure"],
       advantageImg: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1743582258/Serbia_advantage_img_aaxkm2.webp",
+  },
+
+    //maldova
+
+    {
+      country: 'Moldova',
+      flag_link: 'https://res.cloudinary.com/dqggm4k7u/image/upload/v1744701885/Moldova_logo_wfnvx1.png',
+      mainImg: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1744702565/Moldova_main_img_rdzpoz.jpg",
+      overviewText: "Moldova presents a practical and appealing avenue for international students, especially those from India, aspiring to pursue an MBBS degree, primarily due to the combination of affordable tuition fees and the availability of medical programs taught entirely in English; a notable institution in this regard is the Nicolae Testemițanu State University of Medicine and Pharmacy, which is a popular selection among international students and offers a comprehensive 6-year MD program that is equivalent to the MBBS qualification, including a mandatory internship period to provide essential practical experience.",
+      overviewImg: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1744702667/Moldova_overview_img_schd0z.jpg",
+      quickFacts: [ "Chisinau","57%", "Moldovan Leu (MDL)", "Approx. 24.6 lakhs"],
+      univeristes: [
+          {
+              name: "Nicolae Testemitanu State University of Medicine and Pharmacy",
+              image: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1744704707/Moldova_university_1_jhfyxb.jpg",
+              slug: "nicolae-testemitanu-state-university-of-medicine-and-pharmacy",
+              country : "serbia",
+              overview : ["Established on October 20, 1945, the institution laid the groundwork for the advancement of higher medical education and the improvement of the healthcare system within the Moldovan Republic, experiencing substantial growth over the subsequent seven decades through significant program and facility expansions; the University now encompasses a diverse range of academic units, including a hospital-affiliated medical school catering to local students with a specialization in Public Health, a distinct medical school dedicated to international students, and schools of Dentistry and Pharmacy, alongside a comprehensive Fifth Unit that integrates Pre-University Remedial Training, Post Graduate Specialty Training, the Department of Advanced Doctorate and Master’s Degrees, and Continuing Education in Medicine and Pharmacy; the University employs contemporary international training methodologies and educational philosophies in its teaching."],
+              academic : ["The Nicolae Testemitanu State University of Medicine and Pharmacy, located in Chișinău, Moldova, provides a wide spectrum of academic programs encompassing both undergraduate and postgraduate levels across various disciplines such as medicine, dentistry, pharmacy, medical psychology, and medical bioengineering; additionally, the university offers a foundation year specifically designed for international students, alongside pre-university remedial training and a diverse array of postgraduate specialty training opportunities."],
+              academicImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1744704710/Moldova_university_1_academic_d9tvqq.jpg",
+              faculties : [
+                  "Department of Dentistry",
+                  "Department of General Medicine",
+                  "Department of Nursing",
+                  "Department of Pharmacy",
+                  "Department of Public Health",
+                  "Department of Psychiatry",
+              ],
+              facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
+              affilationRecognition : ["WHO","NMC","FAIMER","WFME"],
+          },
+          ],
+          
+      eligibilityPoints: [
+          {
+              title: "Affordable Tuition",
+              description: "MBBS programs in Moldova have significantly lower tuition fees compared to private medical colleges in India, making them a more accessible option for many students."
+          },
+          {
+              title: "Academic Requirements",
+              description: "Successfully complete the 10+2 (or equivalent) examination with a minimum of 50% aggregate marks in Physics, Chemistry, and Biology (PCB)."
+          },
+          {
+              title: "Age",
+              description: "Must be at least 17 years of age by the time of admission."
+          },
+          {
+              title: "Documents Required",
+              description: "Certified copies of marksheets from 10th and 12th examinations, Certified copy of NEET score card, Copy of passport, Medical fitness certificate, and Passport-sized photographs."
+          },
+      ],
+      mbbsBenefits: [
+          {
+              title: "Affordable Education",
+              description: "Moldova offers significantly lower tuition fees compared to many other European countries, making it a financially accessible option for international students."
+          },
+          {
+              title: "High-Quality Education",
+              description: "Moldovan medical universities offer curricula comparable to those in the US, focusing on practical application of medical knowledge."
+          },
+{
+              title: "Global Recognition",
+              description:  "Medical degrees from Moldovan universities are recognized by numerous countries, including those in Europe, the US, and India, opening doors to diverse career prospects."
+          },
+{
+              title: "International Exposure",
+              description: "Moldova's location in Europe provides international exposure, allowing graduates to potentially work in other European countries."
+          },
+      ],
+      advantages: ["Affordability", "Multicultural Environment" ,"International Exposure" ,"Global Recognition"],
+      advantageImg: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1744703791/Moldova_advantage_img_lvaj26.jpg",
   }
     ];
 

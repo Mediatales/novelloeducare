@@ -128,7 +128,7 @@ useEffect(() => {
                   <div className="px-4 py-2 text-red-500">{error}</div>
                 ) : (
                   countriesFlagLink
-                    .slice(0, 14)
+                    .slice(0, 20)
                     .map(({ country, flag_link }, idx) => (
                       <Link key={idx} href={`/focus-overseas/${country}`}>
                         <div className="flex items-center gap-3 mt-2 px-4 py-2 transition-all duration-200 bg-[#E6F3EE] hover:bg-[#d4e9de] rounded-md cursor-pointer">
@@ -335,7 +335,7 @@ useEffect(() => {
                 <div className="px-4 py-2 text-red-500">{error}</div>
               ) : (
                 countriesFlagLink
-                  .slice(0, 12)
+                  .slice(0, 20)
                   .map(({ country, flag_link }, idx) => (
                     <Link
                       key={idx}
