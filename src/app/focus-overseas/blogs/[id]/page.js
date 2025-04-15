@@ -53,7 +53,7 @@ export default function BlogPost() {
             <div className="prose prose-sm sm:prose max-w-none" dangerouslySetInnerHTML={{ __html: blog.content }} />
             
             <div className="mt-10 pt-6 border-t border-gray-200">
-              <h3 className="text-lg font-semibold text-gray-800 mb-4">Ready to start your study abroad journey?</h3>
+              <h3 className="text-lg font-semibold text-gray-800 mb-4">Ready to start your Study abroad journey?</h3>
               <div className="flex flex-col sm:flex-row gap-4">
                 <Link 
                   href="/focus-overseas/contact" 
