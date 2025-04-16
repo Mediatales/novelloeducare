@@ -1,10 +1,72 @@
 "use client";
-import React, { useState } from "react";
+import React, { useState , useEffect } from "react";
 import Link from "next/link";
 
 const Navbar = () => {
-  const [isOpen, setIsOpen] = useState(false);
-  const [isStudyAbroad, setIsStudyAbroad] = useState(false);
+  const [isUniversityOpen, setIsUniversityOpen] = useState(false);
+    const [isOpen, setIsOpen] = useState(false);
+    const [isStudyAbroad, setIsStudyAbroad] = useState(false);
+    const [countriesFlagLink, setCountriesFlagLink] = useState([]);
+    const [isLoading, setIsLoading] = useState(true);
+    const [error, setError] = useState(null);
+    const [universtiesName , setUniversitiesName] = useState([]);
+    const slugify = (text) =>
+      text.toLowerCase().replace(/\s+/g, "-").replace(/[^\w\-]+/g, "");
+    
+    const [searchQuery, setSearchQuery] = useState("");
+  
+    const filteredUniversities = universtiesName.filter(({ university }) =>
+      university.toLowerCase().includes(searchQuery.toLowerCase())
+    );
+
+    useEffect(() => {
+        const fetchCountries = async () => {
+          try {
+            setIsLoading(true);
+            const res = await fetch("/api_study/countries_list");
+            if (!res.ok) {
+              throw new Error("Failed to fetch countries");
+            }
+            const data = await res.json();
+            setCountriesFlagLink(data.data);
+          } catch (err) {
+            console.error("Error fetching countries:", err);
+            setError(err.message);
+          } finally {
+            setIsLoading(false);
+          }
+        };
+    
+        fetchCountries();
+      }, []);
+
+
+      //university
+
+      useEffect(() => {
+        const fetchUniversity = async () => {
+          try {
+            setIsLoading(true);
+            const res = await fetch("/api_study/university_list");
+            if (!res.ok) {
+              throw new Error("Failed to fetch universities");
+            }
+      
+            const result = await res.json();
+            setUniversitiesName(result.data); // set the array of universities
+          } catch (err) {
+            setError("Something went wrong");
+          } finally {
+            setIsLoading(false);
+          }
+        };
+      
+        fetchUniversity();
+      }, []);
+
+
+
+
 
   const toggleMenu = () => {
     setIsOpen(!isOpen);
@@ -38,52 +100,109 @@ const Navbar = () => {
             <Link href="/course" className="text-gray-700 hover:text-blue-700 font-medium">
               Courses
             </Link>
+
+
+            {/* --------------------------------------------------------------------------------------------------------- */}
             <div className="relative group">
-  <button className="text-gray-700 hover:text-blue-700 font-medium flex items-center gap-1">
-    Countries
-    <svg className="w-4 h-4" viewBox="0 0 20 20" fill="currentColor">
-      <path
-        fillRule="evenodd"
-        d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
-        clipRule="evenodd"
-      />
-    </svg>
-  </button>
-  <div className="absolute hidden group-hover:block w-48 py-2 mt-1 bg-white rounded-md shadow-xl max-h-80 overflow-y-auto">
-    {[
-      { name: "Australia", flag: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1739947305/country_flag_bapifw.png" },
-      { name: "UK", flag: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1739947287/country_flag_5_ehm3m0.png" },
-      { name: "USA", flag: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1739947287/country_flag_4_azullr.png" },
-      { name: "Canada", flag: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1739947287/country_flag_1_fp8tkj.png" },
-      { name: "France", flag: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1739947287/country_flag_3_cu46zs.png" },
-
-      { name: "Italy", flag: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1739947287/country_flag_2_rmcrca.png" },
-     
-
-      { name: "Dubai", flag: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1739947287/country_flag_5_ehm3m0.png" },
-      { name: "Germany", flag: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1739947306/country_flag_7_dmj0kz.png" },
-      { name: "Poland", flag: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1739947305/country_flag_8_lzpkkd.png" },
-      { name: "Hungary", flag: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1739947305/country_flag_9_ixn226.png" }
-      
-    ].map((country, index) => (
-      <div
-        key={index}
-        className="flex items-center gap-3 mt-2 px-4 py-4 transition-all duration-200 bg-[#E6F3EE] hover:bg-[#d4e9de] rounded-md cursor-pointer"
-      >
-        <img src={country.flag} alt={`${country.name} Flag`} className="w-10 h-10" />
-        <p className="text-gray-800 font-medium">{country.name}</p>
-      </div>
-    ))}
-  </div>
-</div>
+              <button className="text-gray-700 hover:text-blue-700 font-medium flex items-center gap-0">
+                Country
+                <svg
+                  className="w-5 h-4 mt-1"
+                  viewBox="0 0 20 20"
+                  fill="currentColor"
+                >
+                  <path
+                    fillRule="evenodd"
+                    d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                    clipRule="evenodd"
+                  />
+                </svg>
+              </button>
+              <div className="absolute hidden group-hover:block w-60 py-0 mt-0 bg-white rounded-md shadow-xl z-10 max-h-80 overflow-y-auto">
+                {isLoading ? (
+                  <div className="px-4 py-2">Loading...</div>
+                ) : error ? (
+                  <div className="px-4 py-2 text-red-500">{error}</div>
+                ) : (
+                  countriesFlagLink
+                    .slice(0, 20)
+                    .map(({ country, flag_link }, idx) => (
+                      <Link key={idx} href={`/${country}`}>
+                        <div className="flex items-center gap-3 mt-2 px-4 py-2 transition-all duration-200 bg-[#E6F3EE] hover:bg-[#d4e9de] rounded-md cursor-pointer">
+                          <img
+                            src={flag_link}
+                            alt={`${country} Flag`}
+                            className="w-11 h-8"
+                          />
+                          <p className="text-gray-800 font-medium">
+                             {country}
+                          </p>
+                        </div>
+                      </Link>
+                    ))
+                )}
+              </div>
+            </div>
 
             
             {/* <Link href="/test" className="text-gray-700 hover:text-blue-700 font-medium">
               Test Preparation
             </Link> */}
-            <div className="text-gray-700 hover:text-blue-700 font-medium">
-              Universities
+{/* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */}
+
+
+            <div className="relative group">
+              <button className="text-gray-700 hover:text-green-700 font-medium flex items-center gap-0">
+                University
+                <svg
+                  className="w-5 h-4 mt-1"
+                  viewBox="0 0 20 20"
+                  fill="currentColor"
+                >
+                  <path
+                    fillRule="evenodd"
+                    d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                    clipRule="evenodd"
+                  />
+                </svg>
+              </button>
+
+              <div className="absolute hidden group-hover:block w-60 py-2 mt-0 bg-white rounded-md shadow-xl z-10 max-h-80 overflow-y-auto">
+                {/* Search input */}
+                <div className="px-4 pb-2">
+                  <input
+                    type="text"
+                    placeholder="Search university..."
+                    className="w-full px-3 py-1 border border-gray-300 rounded-md text-sm"
+                    value={searchQuery}
+                    onChange={(e) => setSearchQuery(e.target.value)}
+                  />
+                </div>
+
+                {isLoading ? (
+                  <div className="px-4 py-2">Loading...</div>
+                ) : error ? (
+                  <div className="px-4 py-2 text-red-500">{error}</div>
+                ) : filteredUniversities.length > 0 ? (
+                  <>
+                    {filteredUniversities.slice(0, 500).map(({ country, university }, idx) => (
+                      <Link
+                        key={idx}
+                        href={`/${country.toLowerCase()}/${slugify(university)}`}
+                      >
+                        <div className="flex items-center gap-3 mt-2 px-4 py-2 transition-all duration-200 bg-[#E6F3EE] hover:bg-[#d4e9de] rounded-md cursor-pointer">
+                          <p className="text-gray-800 font-medium">{university}</p>
+                        </div>
+                      </Link>
+                    ))}
+                  </>
+                ) : (
+                  <div className="px-4 py-2 text-gray-500">No results found.</div>
+                )}
+              </div>
             </div>
+
+
             <Link href="/admission" className="text-gray-700 hover:text-blue-700 font-medium">
               Admission Services
             </Link>

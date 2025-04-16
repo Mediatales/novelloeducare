@@ -13,7 +13,7 @@ export default function Page() {
     
     const interval = setInterval(() => {
       setIsModalOpen(true);
-    }, 8000);
+    }, 11118000);
 
     return () => clearInterval(interval);
   }, []);

@@ -565,6 +565,13 @@ export async function GET() {
         country: "serbia",
         university: "University of Novi Sad",
       },
+
+      //maldova
+
+      {
+        country : "maldova",
+        university : "Nicolae Testemitanu State University of Medicine and Pharmacy",
+      },
       
 
     ];
