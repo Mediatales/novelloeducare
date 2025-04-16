@@ -92,7 +92,7 @@ const Page = () => {
           />
         </div>
       </div>
-      <div className="bg-green-800 py-4">
+      <div className="bg-blue-700 py-4">
         <h2 className="text-white text-center text-2xl font-semibold">Faculties</h2>
         <div className="bg-green-100 mx-auto mt-4 p-6 w-[90%] md:w-[80%] flex flex-col lg:flex-row items-center gap-8 rounded-lg shadow-lg">
          
