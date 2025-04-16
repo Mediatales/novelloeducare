@@ -314,6 +314,99 @@ export async function GET(request, { params }) {
                 facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
                 affilationRecognition : ["COU","CARL","AUCC","University of Western Ontario"],
             }, 
+            {
+                name: "University of Windsor",
+                image: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1744788314/Canada_university_6_Windsor_vtdao4.jpg",
+                slug: "university-of-windsor",
+                country : "canada",
+                overview : ["The University of Windsor, a comprehensive and student-focused public research university situated in Windsor, Ontario, Canada, is renowned for its strong student-faculty relationships and diverse array of programs, having been founded in 1857 and currently offering over 190 undergraduate and 65 graduate programs across nine faculties encompassing Arts, Humanities and Social Sciences, Education, Engineering, Business, Human Kinetics, Law, Nursing, and Science; key features and highlights include its student-centered approach, which emphasizes a supportive learning community with small class sizes and ample student services, its diverse academic programs offering a broad range of undergraduate and graduate studies including professional fields like Law, Business, and Engineering, its status as a research-oriented institution with a focus on areas such as automotive, environmental studies, and international trade, and its strategic location in Windsor, the southernmost city in Canada, providing benefits from its proximity to North America's busiest border crossing and the Detroit River."],
+                academic : ["The University of Windsor, a public research institution situated in Windsor, Ontario, Canada, is recognized for its student-focused environment and diverse academic offerings, serving approximately 17,500 students through a wide array of undergraduate and graduate programs, including several professional schools, and is conveniently located on the Detroit River, near North America's busiest international border crossing."],
+                academicImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1744788321/Canada_university_6_Windsor_academic_dtkxs9.jpg",
+                faculties : [
+                    "Departments of Automotive Engineering",
+                    "Departments of Biochemistry Pharmacy",
+                    "Departments of Developmental Psychology",
+                    "Departments of Chemistry",
+                    "Departments of Business Administration Professional Accounting Specialization",
+                ],
+                facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
+                affilationRecognition : ["COU","CARL","AUCC","University of Western Ontario"],
+            }, 
+
+                    {
+                name: "Wilfrid Laurier International College",
+                image: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1744788333/Canada_university_7_wilfrid_w60u6z.jpg",
+                slug: "wilfrid-laurier-international-college",
+                country : "canada",
+                overview : ["Wilfrid Laurier International College (WLIC) offers international students a unique opportunity to begin their higher education in Canada through tailored programs like the Foundation Year and International Year One, providing pathways to over 70 programs across five faculties: Business and Economics, Human and Social Sciences, Liberal Arts, Science, and Arts; notably, the International Year One is equivalent to the first year of a bachelor's degree, allowing students to directly progress into the second year of their chosen program at Wilfrid Laurier University (Laurier) upon successful completion; the college fosters a supportive environment characterized by small class sizes, accessible admission requirements, and additional support services specifically designed for international students, including options for those who may not have a Grade 12 math background."],
+                academic : ["Wilfrid Laurier International College (WLIC) offers a variety of academic programs, primarily focusing on pathways to Wilfrid Laurier University (Laurier), while providing a supportive environment with transformative learning experiences that encourage students to integrate their culture and identity into their education, with programs including a BA in Community Health, Economics and Accounting, and User Experience Design, alongside BSc programs in Computer Science, Data Science, and Business Technology Management."],
+                academicImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1744788378/Canada_university_7_wilfrid_academic_fmj6hq.jpg",
+                faculties : [
+                   "Departments of Engineering and Technology",
+                   "Departments of  Business",
+                   "Departments of Arts and Humanities",
+                   "Departments of Health Sciences",
+                   "Departments of Accounting and Financial Management",
+                ],
+                facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
+                affilationRecognition : ["COU","CARL","AUCC","University of Western Ontario"],
+            }, 
+
+                    {
+                name: "Wilfrid Laurier University",
+                image: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1744788463/Canada_university_8_Wilfrid_Laurier_un_hh6uka.jpg",
+                slug: "wilfrid-laurier-university",
+                country : "canada",
+                overview : ["Wilfrid Laurier University, a public institution founded in 1911 and located in Waterloo, Ontario, Canada, traces its origins back to the establishment of the Evangelical Lutheran Seminary in Waterloo in the same year; according to the Shiksha Grade Rankings, Wilfrid Laurier has received an overall C grade ranking, with international student fees for undergraduate courses being INR 14.9 L and for postgraduate courses being INR 12 L; the university houses over 19,500 students, maintains a student-faculty ratio of 25:1, and has an overall acceptance rate of approximately 89%; as a research-intensive university, it encompasses more than 20 institutes and research centers, offers numerous outstanding student exchange programs, and welcomes a significant number of international students annually."],
+                academic : ["Wilfrid Laurier University offers a wide array of degree courses, with over 100 options available to international students each year, some of the popular choices including Economics, Accounting, Biology, Mathematics, Anthropology, Biochemistry, Communication Studies, Kinesiology, Technology Management, Environmental Sciences, and Mathematical Finance."],
+                academicImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1744788469/Canada_university_8_Wilfrid_Laurier_un_academic_apncko.jpg",
+                faculties : [
+                  "Departments of Engineering and Technology",
+                    "Departments of  Business",
+                    "Departments of Arts and Humanities",
+                    "Departments of Health Sciences",
+                     "Departments of Accounting and Financial Management",
+                ],
+                facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
+                affilationRecognition : ["COU","CARL","AUCC","University of Western Ontario"],
+            }, 
+                   {
+                name: "York Ville University",
+                image: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1744788550/Canada_university_9_York_Ville_clkykh.jpg",
+                slug: "york-ville-university",
+                country : "canada",
+                overview : ["Established in 2003 in New Brunswick, Canada, Yorkville University operates campuses in Vancouver, British Columbia; Toronto, Ontario; and Fredericton, New Brunswick, offering on-campus courses at its Vancouver and Toronto locations, while the New Brunswick campus caters to students pursuing online programs, making Yorkville University a prominent institution in Canada that welcomes thousands of students annually from across the country and the globe, with international students from over 35 countries having enrolled in its various programs, contributing to Yorkville's reputation as one of the top universities in Canada, particularly popular among international students."],
+                academic : ["Yorkville University provides a diverse selection of on-campus and online programs for international students, operating across three campuses in Canada, specifically Vancouver, Toronto, and Fredericton, with on-campus programs available at its Vancouver and Toronto locations and online programs offered through its Fredericton campus."],
+                academicImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1744788542/Canada_university_9_York_Ville_academic_ap56ae.jpg",
+                faculties : [
+                  "Departments of Engineering and Technology",
+                    "Departments of  Business",
+                    "Departments of Doctor of Counselling and Psychotherapy",
+                    "Departments of Supply Chain Management",
+                     "Departments of Accounting and Financial Management",
+                ],
+                facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
+                affilationRecognition : ["COU","CARL","AUCC","University of Western Ontario"],
+            }, 
+           
+                 {
+                name: "Ontario Tech University",
+                image: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1744788558/Canada_university_10_Ontario_Tech_tzpsxe.jpg",
+                slug: "ontario-tech-university",
+                country : "canada",
+                overview : ["Ontario Tech University (OTU), formerly known as the University of Ontario Institute of Technology (UOIT), is a public research university located in Oshawa, Ontario, Canada, established in 2002 and rebranded in 2018; OTU is recognized for its industry-focused programs, technology-rich environment, and emphasis on experiential learning, with key features including its industry focus, which prioritizes practical, hands-on learning through collaborations with over 300 industry partners in program development, its technology-rich environment providing a modern and technologically enhanced learning experience, and its commitment to experiential learning, where almost all programs incorporate opportunities such as co-ops, internships, and research projects."],
+                academic : ["Ontario Tech University, a public research institution situated in Oshawa, Ontario, Canada, is recognized for its strong emphasis on technology and its societal impact, prioritizing experiential learning, research, and collaboration with industry partners to address real-world challenges, and offers a comprehensive selection of undergraduate, college-to-university transfer, and graduate programs."],
+                academicImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1744788611/Canada_university_10_Ontario_Tech_academic_v2fwba.jpg",
+                faculties : [
+                  "Departments of Engineering and Technology",
+                    "Departments of  Business",
+                    "Departments of Social Sciences",
+                    "Departments of Medicine",
+                     "Departments of Accounting and Financial Management",
+                ],
+                facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
+                affilationRecognition : ["COU","CARL","AUCC","University of Western Ontario"],
+            },
    
             
             ],
@@ -694,6 +787,312 @@ export async function GET(request, { params }) {
         ],
         advantages: ["World-Class Education and Research", " Diverse and International Environment" ,"Affordability" ,"Support for International Students"],
         advantageImg: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1744609447/Uk_advantage_img_fmlrvu.jpg",
+    },
+
+    //newzealand
+
+    {
+        country: 'New Zealand',
+        flag_link: 'https://res.cloudinary.com/dqggm4k7u/image/upload/v1742374876/poland_logo_rajiqp.png',
+        mainImg: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1744697392/Poland_main_img_erp3mh.jpg",
+        overviewText: "New Zealand stands as a sought-after destination for international students, acclaimed for its high-quality education system and internationally recognized qualifications; the country presents a diverse range of study pathways, spanning vocational training to higher education, with its universities consistently achieving high global rankings; furthermore, New Zealand fosters a supportive environment for international students, including the provision of post-study work visa opportunities; the compelling reasons to choose New Zealand for education include its well-regarded education system, which is closely monitored by the government to ensure consistent quality, and the global recognition of degrees and diplomas earned from New Zealand institutions, thereby facilitating international employment prospects for graduates.",
+        overviewImg: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1744697363/Poland_overview_img_cblagj.jpg",
+        quickFacts: [ "Wellington","95%", "Dollar (NZD)", "Approx. 52.2 lakhs"],
+        
+            
+        eligibilityPoints: [
+            {
+                title: "Academic Qualifications",
+                description: "You'll need to demonstrate your qualifications are recognized in New Zealand."
+            },
+            {
+                title: "Language Proficiency",
+                description: "You'll need to demonstrate competent English proficiency, often through an IELTS test (e.g., IELTS 6.5 overall)."
+            },
+            {
+                title: "Financial Resources",
+                description: "While there's no fixed amount, you'll likely need to show a bank statement or other financial documents that demonstrate your ability to cover your expenses for the duration of your study program."
+            },
+            {
+                title: "Student Visa",
+                description: "If you need a visa to study in Poland, you'll need to apply for a student visa."
+            },
+        ],
+        mbbsBenefits: [
+            {
+                title: "Affordable Education",
+                description: "Compared to other popular study destinations, New Zealand offers a more affordable cost of living and tuition fees."
+            },
+            {
+                title: "High-Quality Education",
+                description: "New Zealand's education system is well-regarded and monitored by the government, ensuring consistent quality."
+            },
+    {
+                title: "Globally Recognized Qualifications",
+                description:  "Degrees and diplomas from New Zealand institutions are internationally recognized, making it easier for students to find employment globally."
+            },
+    {
+                title: "Supportive Environment",
+                description: "New Zealand provides a supportive and welcoming environment for international students, including various support services and a strong code of practice for student care."
+            },
+        ],
+        advantages: ["Cost-Effectiveness", "Multicultural Environment" ,"Future-Focused Education" ,"Global Recognition"],
+        advantageImg: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1744697378/Poland_advantage_img_bbykw6.jpg",
+    },
+
+    //finland
+
+    {
+        country: 'Finland',
+        flag_link: 'https://res.cloudinary.com/dqggm4k7u/image/upload/v1744701398/Finland_logo_scomvp.png',
+        mainImg: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1744701406/Finland_main_img_duhzjy.jpg",
+        overviewText: "Finland presents a valuable opportunity to access world-class learning within a secure and welcoming environment, characterized by a diverse array of programs taught in English; Finland is globally recognized for its strong emphasis on innovation, its commitment to providing high-quality education, and its student-focused pedagogical approaches; while tuition fees are generally considered affordable in comparison to many other international study destinations, it's important to note that non-EU/EEA students may be required to pay for English-taught programs, although a variety of scholarships are available to help offset these costs; the compelling reasons for Indian students to choose Finland include its consistently high-ranking universities, renowned for their research orientation and innovative practices, and the relatively affordable tuition fees for English-taught programs when compared to numerous other countries.",
+        overviewImg: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1744701402/Finland_overview_img_pb2juz.jpg",
+        quickFacts: [ "Helsinki","57%", "Euro (EUR)", "Approx. 55.8 lakhs"],
+        
+            
+        eligibilityPoints: [
+            {
+                title: "Academic Qualifications",
+                description: "You'll need a high school diploma equivalent to the Finnish matriculation examination or similar qualifications."
+            },
+            {
+                title: "Language Proficiency",
+                description: "You'll likely need to demonstrate English proficiency, which can be done through test scores (IELTS, TOEFL, PTE, etc.), or by providing proof of previous education in English."
+            },
+            {
+                title: "Financial Resources",
+                description: "You'll need to demonstrate that you have sufficient funds to support yourself while studying in Finland, usually requiring a bank statement showing at least 6720 EUR per year."
+            },
+            {
+                title: "Student Visa",
+                description: "Non-EU/EEA citizens will need a student visa to study in Finland."
+            },
+        ],
+        mbbsBenefits: [
+            {
+                title: "Affordable Education",
+                description: "While non-EU/EEA students may need to pay tuition fees for some master's programs, these are generally lower than in many other countries, and scholarships are available."
+            },
+            {
+                title: "High-Quality Education",
+                description: "Finland is renowned for its excellent education system, which emphasizes critical thinking and student-centered learning."
+            },
+    {
+                title: "Work Opportunities",
+                description:  "International students can work part-time during their studies and full-time during vacations, allowing them to gain valuable work experience."
+            },
+    {
+                title: "Supportive Environment",
+                description: "Finnish universities provide extensive support services for international students, including orientation programs, language courses, and housing assistance."
+            },
+        ],
+        advantages: ["Cost-Effectiveness", "Multicultural Environment" ,"Future-Focused Education" ,"Global Recognition"],
+        advantageImg: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1744701410/Finland_advantage_img_izqjan.jpg",
+    },
+
+    //hungary
+
+    {
+        country: 'Hungary',
+        flag_link: 'https://res.cloudinary.com/dqggm4k7u/image/upload/v1744698223/hungary_logo_wrbhow.png',
+        mainImg: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1744697392/Poland_main_img_erp3mh.jpg",
+        overviewText: "Hungary stands as an attractive destination for international students seeking affordable yet high-quality education, particularly renowned for its programs in medicine and engineering; the country provides a range of both public and private universities, with annual tuition fees at public institutions generally ranging from 1,200 to 5,000 EUR for most degree programs; additionally, the cost of living in Hungary is relatively low, with students typically requiring approximately 450 to 550 EUR per month to cover their expenses; the key advantages of choosing Hungary for studies include its affordability as one of the most budget-friendly European options for international students, coupled with the high quality of education offered by its universities, especially in scientific disciplines such as medicine and engineering.",
+        overviewImg: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1744699129/Hungary_overview_img_fot2xe.jpg",
+        quickFacts: [ "Budapest","57%", "Hungarian Forint", "Approx. 95.9 lakhs"],
+        
+            
+        eligibilityPoints: [
+            {
+                title: "Academic Qualifications",
+                description: "High School Diploma: Proof of completion of secondary education is required for Bachelor's programs."
+            },
+            {
+                title: "Language Proficiency",
+                description: "For programs taught in English, IELTS (5.5-6.0) or TOEFL (79-92) are common requirements."
+            },
+            {
+                title: "Financial Resources",
+                description: "Students need to demonstrate they have sufficient funds to cover tuition fees, living expenses, and other costs."
+            },
+            {
+                title: "Student Visa",
+                description: "Passport (validity should be exceeded at least six months beyond your entry date)."
+            },
+        ],
+        mbbsBenefits: [
+            {
+                title: "Affordable Education",
+                description: "Tuition fees in Hungary are generally more affordable than in many other European countries."
+            },
+            {
+                title: "High-Quality Education",
+                description: "Hungarian universities, like University of Szeged and Eötvös Loránd University, are highly ranked and recognized worldwide."
+            },
+    {
+                title: "Career Opportunities",
+                description:  "Students can often find part-time jobs while studying to help with living expenses."
+            },
+    {
+                title: "International Opportunities",
+                description: "Many local and international companies offer internship positions to students, providing opportunities to build professional networks."
+            },
+        ],
+        advantages: ["Cost-Effectiveness", "Multicultural Environment" ,"Future-Focused Education" ,"Global Recognition"],
+        advantageImg: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1744699146/Hungary_advantage_img_fyipih.jpg",
+    },
+
+    //poland
+
+    {
+        country: 'Poland',
+        flag_link: 'https://res.cloudinary.com/dqggm4k7u/image/upload/v1742374876/poland_logo_rajiqp.png',
+        mainImg: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1744697392/Poland_main_img_erp3mh.jpg",
+        overviewText: "Poland's higher education landscape encompasses over 400 institutions, many of which now deliver study programs in English, catering to an international student body; Jagiellonian University in Cracow, established in 1364 as Poland's oldest university, boasts an illustrious alumni including astronomer Nicolaus Copernicus, Pope John Paul II, and two Nobel laureates, while the University of Warsaw, founded in 1816 as Poland's largest university, also claims a distinguished list of graduates such as Israel’s first Prime Minister David Ben-Gurion and the renowned composer Frédéric Chopin; Poland's higher education system is further distinguished by its specialized technical universities, which annually produce tens of thousands of experts in fields like engineering and computer science, with Warsaw University of Technology and AGH University of Science and Technology earning exceptional recognition in international rankings, alongside numerous other reputable institutions.",
+        overviewImg: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1744697363/Poland_overview_img_cblagj.jpg",
+        quickFacts: [ "Berlin","56%", "Euro", "Approx. 8.33 crores"],
+        
+            
+        eligibilityPoints: [
+            {
+                title: "Academic Qualifications",
+                description: "You need a matriculation certificate or an equivalent document proving you are eligible for higher education in your home country."
+            },
+            {
+                title: "Language Proficiency",
+                description: "You'll need to demonstrate proficiency in English, often through standardized tests like TOEFL, IELTS, PTE Academic, or Duolingo."
+            },
+            {
+                title: "Financial Resources",
+                description: "While there's no fixed amount, you'll likely need to show a bank statement or other financial documents that demonstrate your ability to cover your expenses for the duration of your study program."
+            },
+            {
+                title: "Student Visa",
+                description: "If you need a visa to study in Poland, you'll need to apply for a student visa."
+            },
+        ],
+        mbbsBenefits: [
+            {
+                title: "Affordable Education",
+                description: "Tuition fees are significantly lower than in many Western European countries, making it an attractive option for international students."
+            },
+            {
+                title: "High-Quality Education",
+                description: "Polish universities are recognized for their academic rigor and offer a wide range of programs in various fields, including engineering, medicine, and the humanities."
+            },
+    {
+                title: "Career Opportunities",
+                description:  "Poland's growing economy and diverse job market offer numerous opportunities for international graduates to gain work experience and pursue their careers."
+            },
+    {
+                title: "Supportive Environment",
+                description: "Poland boasts a rich history, diverse cultural heritage, and welcoming people, providing a unique and enriching experience for international students."
+            },
+        ],
+        advantages: ["Cost-Effectiveness", "Multicultural Environment" ,"Future-Focused Education" ,"Global Recognition"],
+        advantageImg: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1744697378/Poland_advantage_img_bbykw6.jpg",
+    },
+
+    //germany
+
+    {
+        country: 'Germany',
+        flag_link: 'https://res.cloudinary.com/dqggm4k7u/image/upload/v1744633985/germany_logo_qtxk4i.png',
+        mainImg: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1744634223/Germany_country_cy2sbr.jpg",
+        overviewText: "Germany presents a significant opportunity for international students, particularly due to its largely tuition-free public universities, yet prospective students must navigate specific prerequisites. A crucial requirement is possessing a recognized university entrance qualification (HZB) or its equivalent, such as the Abitur, with resources like the DAAD database or anabin available for verification. Language proficiency is also paramount; for German-taught programs, demonstrating competence through examinations like DSH or TestDaF is necessary. Conversely, English-taught programs may necessitate the submission of scores from standardized tests such as IELTS or TOEFL. Navigating these eligibility criteria, including academic qualifications and language skills, is a key step in the German university application process.",
+        overviewImg: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1744634316/Germany_overview_ys1hbe.jpg",
+        quickFacts: [ "Berlin","56%", "Euro", "Approx. 8.33 crores"],
+        
+            
+        eligibilityPoints: [
+            {
+                title: "Higher Education Entrance Qualification",
+                description: "A recognized high school diploma or equivalent is needed. For Indian students, this often means demonstrating that their high school diploma is equivalent to the German Abitur."
+            },
+            {
+                title: "Language Proficiency",
+                description: "If the program is taught in German, proof of German language proficiency (e.g., DSH or TestDaF) is usually required. If the program is taught in English, a test like IELTS or TOEFL may be needed."
+            },
+            {
+                title: "Financial Resources",
+                description: "International students need to demonstrate that they can cover their living expenses in Germany."
+            },
+            {
+                title: "Student Visa",
+                description: "International students generally need a student visa to study in Germany."
+            },
+        ],
+        mbbsBenefits: [
+            {
+                title: "Affordable Education",
+                description: "Public universities in Germany generally offer free or very low-cost tuition for both domestic and international students."
+            },
+            {
+                title: "High-Quality Education",
+                description: "German universities are consistently ranked among the best globally, offering a wide range of programs in various fields."
+            },
+    {
+                title: "Career Opportunities",
+                description:  "Germany has a strong economy and a high demand for skilled labor, particularly in STEM fields."
+            },
+    {
+                title: "Supportive Environment",
+                description: "Germany has a growing number of international students and provides various resources and support services to help them succeed."
+            },
+        ],
+        advantages: ["Cost-Effectiveness", "Multicultural Environment" ,"Future-Focused Education" ,"Global Recognition"],
+        advantageImg: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1744696811/Germany_advantage_img_rijlhw.jpg",
+    },
+
+    //Dubai
+
+    {
+        country: 'Dubai',
+        flag_link: 'https://res.cloudinary.com/dqggm4k7u/image/upload/v1742375108/dubai_logo_eey2a7.png',
+        mainImg: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1744632349/Dubai_main_img_fcqd5s.jpg",
+        overviewText: "Dubai presents a compelling proposition for international students, offering a unique confluence of high-quality education, promising career prospects, and a dynamic multicultural environment; although not a conventional choice for studying abroad, Dubai distinguishes itself by providing a noteworthy combination of relatively affordable tuition and living expenses in comparison to other popular international study destinations, coupled with a flourishing economy and accessible visa regulations, thereby establishing itself as an increasingly appealing option for students seeking global education; key advantages of choosing Dubai include its affordable cost of living and tuition, robust career prospects arising from its rapid economic expansion and diverse industrial sectors, a diverse educational landscape encompassing numerous top-tier universities and colleges offering a wide array of academic programs, and a rich cultural immersion experience in a city renowned for its multiculturalism and blend of traditions.",
+        overviewImg: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1744632365/Dubai_overview_img_wqvvdf.jpg",
+        quickFacts: [ "75%", "Dirham (AED)", "Approx. 36.4 lakhs"],
+        
+            
+        eligibilityPoints: [
+            {
+                title: "Academic Qualifications",
+                description: "A minimum of 12 years of schooling is generally required for undergraduate programs."
+            },
+            {
+                title: "Specific Program Requirements",
+                description: "Some programs might have additional requirements like the SAT, GRE, GMAT, or other standardized tests."
+            },
+            {
+                title: "Financial Requirements",
+                description: "You'll need to demonstrate that you have sufficient funds to cover tuition fees, living expenses, and other costs."
+            },
+            {
+                title: "Language Proficiency Test Scores",
+                description: " Submit scores from an approved English language proficiency test, such as IELTS."
+            },
+        ],
+        mbbsBenefits: [
+            {
+                title: "Affordable Cost",
+                description: "Dubai offers relatively affordable tuition and living costs compared to other popular study-abroad locations."
+            },
+            {
+                title: "Strong Career Prospects",
+                description: "Dubai's rapid economic growth and diverse industries create numerous job opportunities for graduates."
+            },
+    {
+                title: "Global Network",
+                description: "Studying in Dubai provides access to a global network of students and faculty, fostering international perspectives."
+            },
+    {
+                title: "Work Opportunities",
+                description: "International students can pursue part-time work and internships to gain practical experience and financial support."
+            },
+        ],
+        advantages: ["Cost-Effectiveness", "Multicultural Environment" ,"Future-Focused Education" ,"Global Recognition"],
+        advantageImg: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1744632494/Dubai_advantage_lynxin.jpg",
     },
 
 

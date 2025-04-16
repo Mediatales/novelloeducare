@@ -34,6 +34,38 @@ export async function GET() {
         country: 'Uk',
         flag_link: 'https://res.cloudinary.com/dqggm4k7u/image/upload/v1744607101/UK_logo_pmutsi.png'
       },
+
+      {
+        country: 'New Zealand',
+        flag_link: 'https://res.cloudinary.com/dqggm4k7u/image/upload/v1742374876/poland_logo_rajiqp.png'
+      },
+
+      {
+        country: 'Finland',
+        flag_link: 'https://res.cloudinary.com/dqggm4k7u/image/upload/v1744701398/Finland_logo_scomvp.png'
+      },
+
+      {
+        country: 'Hungary',
+        flag_link: 'https://res.cloudinary.com/dqggm4k7u/image/upload/v1744698223/hungary_logo_wrbhow.png'
+      },
+
+      {
+        country: 'Poland',
+        flag_link: 'https://res.cloudinary.com/dqggm4k7u/image/upload/v1742374876/poland_logo_rajiqp.png'
+      },
+
+      {
+        country: 'Germany',
+        flag_link: 'https://res.cloudinary.com/dqggm4k7u/image/upload/v1744633985/germany_logo_qtxk4i.png'
+      },
+
+      {
+        country: 'Dubai',
+        flag_link: 'https://res.cloudinary.com/dqggm4k7u/image/upload/v1742375108/dubai_logo_eey2a7.png'
+      },
+
+      
     
       
 

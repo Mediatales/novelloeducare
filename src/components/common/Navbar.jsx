@@ -267,119 +267,118 @@ const Navbar = () => {
           
           {/* Mobile Study Abroad Dropdown */}
           <div>
+            <button
+              onClick={toggleStudyAbroad}
+              className="flex justify-between items-center w-full px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-green-700 hover:bg-gray-50"
+            >
+              Country
+              <svg
+                className={`w-4 h-4 transition-transform duration-200 ${
+                  isStudyAbroad ? "transform rotate-180" : ""
+                }`}
+                viewBox="0 0 20 20"
+                fill="currentColor"
+              >
+                <path
+                  fillRule="evenodd"
+                  d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                  clipRule="evenodd"
+                />
+              </svg>
+            </button>
+
+            <div
+              className={`${
+                isStudyAbroad ? "block" : "hidden"
+              } pl-4 max-h-60 overflow-y-auto`}
+            >
+              {isLoading ? (
+                <div className="px-4 py-2">Loading...</div>
+              ) : error ? (
+                <div className="px-4 py-2 text-red-500">{error}</div>
+              ) : (
+                countriesFlagLink
+                  .slice(0, 20)
+                  .map(({ country, flag_link }, idx) => (
+                    <Link
+                      key={idx}
+                      href={`/${country}`}
+                      onClick={toggleMenu}
+                    >
+                      <div className="flex items-center gap-2 py-3 font-medium text-gray-700 hover:text-green-700 hover:bg-gray-50">
+                        <img
+                          src={flag_link}
+                          alt={`${country} Flag`}
+                          className="w-4 h-4"
+                        />
+                        <p className="text-gray-800 font-medium">
+                           {country}
+                        </p>
+                      </div>
+                    </Link>
+                  ))
+              )}
+            </div>
+          </div>
+          
+          
+          {/* University Button */}
+
+
+          <div>
+  
   <button
-    onClick={toggleStudyAbroad}
-    className="flex justify-between items-center w-full px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-blue-700 hover:bg-gray-50"
+    onClick={() => setIsUniversityOpen(!isUniversityOpen)}
+    className="flex justify-between items-center w-full px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-green-700 hover:bg-gray-50"
   >
-    Countries
-    <svg 
-      className={`w-4 h-4 transition-transform duration-200 ${isStudyAbroad ? 'transform rotate-180' : ''}`}
-      viewBox="0 0 20 20" 
+    University
+    <svg
+      className={`w-4 h-4 transition-transform duration-200 ${
+        isUniversityOpen ? "rotate-180" : ""
+      }`}
+      viewBox="0 0 20 20"
       fill="currentColor"
     >
-      <path fillRule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clipRule="evenodd" />
+      <path
+        fillRule="evenodd"
+        d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+        clipRule="evenodd"
+      />
     </svg>
   </button>
-  <div className={`${isStudyAbroad ? 'block' : 'hidden'} pl-4`}>
-    <div className="max-h-20 overflow-y-scroll">
-      <div className="flex items-center gap-3 mt-2 px-4 py-2 transition-all duration-200 bg-[#E6F3EE] hover:bg-[#d4e9de] rounded-md cursor-pointer">
-        <img
-          src="https://res.cloudinary.com/dqggm4k7u/image/upload/v1739947305/country_flag_bapifw.png"
-          alt="Australia Flag"
-          className="w-8 h-8"
-        />
-        <p className="text-gray-800 font-medium">Australia</p>
-      </div>
 
-      <div className="flex items-center gap-3 mt-2 px-4 py-2 transition-all duration-200 bg-[#E6F3EE] hover:bg-[#d4e9de] rounded-md cursor-pointer">
-        <img
-          src="https://res.cloudinary.com/dqggm4k7u/image/upload/v1739947287/country_flag_1_fp8tkj.png"
-          alt="Canada Flag"
-          className="w-8 h-8"
-        />
-        <p className="text-gray-800 font-medium">Canada</p>
-      </div>
-
-      <div className="flex items-center gap-3 mt-2 px-4 py-2 transition-all duration-200 bg-[#E6F3EE] hover:bg-[#d4e9de] rounded-md cursor-pointer">
-        <img
-          src="https://res.cloudinary.com/dqggm4k7u/image/upload/v1739947287/country_flag_2_rmcrca.png"
-          alt="Italy Flag"
-          className="w-8 h-8"
-        />
-        <p className="text-gray-800 font-medium">Italy</p>
-      </div>
-
-      <div className="flex items-center gap-3 mt-2 px-4 py-2 transition-all duration-200 bg-[#E6F3EE] hover:bg-[#d4e9de] rounded-md cursor-pointer">
-        <img
-          src="https://res.cloudinary.com/dqggm4k7u/image/upload/v1739947287/country_flag_4_azullr.png"
-          alt="USA Flag"
-          className="w-8 h-8"
-        />
-        <p className="text-gray-800 font-medium">USA</p>
-      </div>
-
-      <div className="flex items-center gap-3 mt-2 px-4 py-2 transition-all duration-200 bg-[#E6F3EE] hover:bg-[#d4e9de] rounded-md cursor-pointer">
-        <img
-          src="https://res.cloudinary.com/dqggm4k7u/image/upload/v1739947287/country_flag_3_cu46zs.png"
-          alt="France Flag"
-          className="w-8 h-8"
-        />
-        <p className="text-gray-800 font-medium">France</p>
-      </div>
-
-      <div className="flex items-center gap-3 mt-2 px-4 py-2 transition-all duration-200 bg-[#E6F3EE] hover:bg-[#d4e9de] rounded-md cursor-pointer">
-        <img
-          src="https://res.cloudinary.com/dqggm4k7u/image/upload/v1739947287/country_flag_5_ehm3m0.png"
-          alt="UK Flag"
-          className="w-8 h-8"
-        />
-        <p className="text-gray-800 font-medium">UK</p>
-      </div>
-
-      <div className="flex items-center gap-3 mt-2 px-4 py-2 transition-all duration-200 bg-[#E6F3EE] hover:bg-[#d4e9de] rounded-md cursor-pointer">
-        <img
-          src="https://res.cloudinary.com/dqggm4k7u/image/upload/v1739947287/country_flag_5_ehm3m0.png"
-          alt="Dubai Flag"
-          className="w-8 h-8"
-        />
-        <p className="text-gray-800 font-medium">Dubai</p>
-      </div>
-
-      <div className="flex items-center gap-3 mt-2 px-4 py-2 transition-all duration-200 bg-[#E6F3EE] hover:bg-[#d4e9de] rounded-md cursor-pointer">
-        <img
-          src="https://res.cloudinary.com/dqggm4k7u/image/upload/v1739947306/country_flag_7_dmj0kz.png"
-          alt="Germany Flag"
-          className="w-8 h-8"
-        />
-        <p className="text-gray-800 font-medium">Germany</p>
-      </div>
-
-      <div className="flex items-center gap-3 mt-2 px-4 py-2 transition-all duration-200 bg-[#E6F3EE] hover:bg-[#d4e9de] rounded-md cursor-pointer">
-        <img
-          src="https://res.cloudinary.com/dqggm4k7u/image/upload/v1739947305/country_flag_8_lzpkkd.png"
-          alt="Poland Flag"
-          className="w-8 h-8"
-        />
-        <p className="text-gray-800 font-medium">Poland</p>
-      </div>
-
-      <div className="flex items-center gap-3 mt-2 px-4 py-2 transition-all duration-200 bg-[#E6F3EE] hover:bg-[#d4e9de] rounded-md cursor-pointer">
-        <img
-          src="https://res.cloudinary.com/dqggm4k7u/image/upload/v1739947305/country_flag_9_ixn226.png"
-          alt="Hungary Flag"
-          className="w-8 h-8"
-        />
-        <p className="text-gray-800 font-medium">Hungary</p>
-      </div>
+  {/* Dropdown */}
+  <div className={`${isUniversityOpen ? "block" : "hidden"} pl-4 max-h-60 overflow-y-auto`}>
+    {/* Search Bar */}
+    <div className="p-3">
+      <input
+        type="text"
+        placeholder="Search university..."
+        className="w-full px-3 py-2 border border-gray-300 rounded-md text-sm"
+        value={searchQuery}
+        onChange={(e) => setSearchQuery(e.target.value)}
+      />
     </div>
+
+    {isLoading ? (
+      <div className="px-4 py-2">Loading...</div>
+    ) : error ? (
+      <div className="px-4 py-2 text-red-500">{error}</div>
+    ) : (
+      filteredUniversities.slice(0, 500).map(({ country, university }, idx) => (
+        <Link
+          key={idx}
+          href={`/${country.toLowerCase()}/${slugify(university)}`}
+          onClick={() => setIsUniversityOpen(false)}
+        >
+          <div className="flex items-center gap-2 py-3 font-medium text-gray-700 hover:text-green-700 hover:bg-gray-50">
+            <p className="text-gray-800 font-medium">{university}</p>
+          </div>
+        </Link>
+      ))
+    )}
   </div>
 </div>
-
-          <div 
-            className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-blue-700 hover:bg-gray-50"
-            onClick={toggleMenu}>
-            Universities
-          </div>
 
           <Link href="/admission" 
             className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-blue-700 hover:bg-gray-50"

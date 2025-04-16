@@ -32,6 +32,33 @@ export async function GET() {
         university: "University of Waterloo",
       },
 
+      {
+        country: "canada",
+        university: "University of Windsor",
+      },
+
+      {
+        country: "canada",
+        university: "Wilfrid Laurier International College",
+      },
+
+      {
+        country: "canada",
+        university: "Wilfrid Laurier University",
+      },
+
+      {
+        country: "canada",
+        university: "York Ville University",
+      },
+
+      {
+        country: "canada",
+        university: "Ontario Tech University",
+      },
+
+      
+
 
       //uk
 
