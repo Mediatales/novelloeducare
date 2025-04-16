@@ -793,7 +793,7 @@ export async function GET(request, { params }) {
 
     {
         country: 'New Zealand',
-        flag_link: 'https://res.cloudinary.com/dqggm4k7u/image/upload/v1742374876/poland_logo_rajiqp.png',
+        flag_link: 'https://res.cloudinary.com/dqggm4k7u/image/upload/v1744792251/New_Zealand_logo_yzhew8.png',
         mainImg: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1744697392/Poland_main_img_erp3mh.jpg",
         overviewText: "New Zealand stands as a sought-after destination for international students, acclaimed for its high-quality education system and internationally recognized qualifications; the country presents a diverse range of study pathways, spanning vocational training to higher education, with its universities consistently achieving high global rankings; furthermore, New Zealand fosters a supportive environment for international students, including the provision of post-study work visa opportunities; the compelling reasons to choose New Zealand for education include its well-regarded education system, which is closely monitored by the government to ensure consistent quality, and the global recognition of degrees and diplomas earned from New Zealand institutions, thereby facilitating international employment prospects for graduates.",
         overviewImg: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1744697363/Poland_overview_img_cblagj.jpg",

@@ -37,7 +37,7 @@ export async function GET() {
 
       {
         country: 'New Zealand',
-        flag_link: 'https://res.cloudinary.com/dqggm4k7u/image/upload/v1742374876/poland_logo_rajiqp.png'
+        flag_link: 'https://res.cloudinary.com/dqggm4k7u/image/upload/v1744792251/New_Zealand_logo_yzhew8.png'
       },
 
       {
