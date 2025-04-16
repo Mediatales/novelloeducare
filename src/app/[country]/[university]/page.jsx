@@ -92,14 +92,14 @@ const Page = () => {
           />
         </div>
       </div>
-      <div className="bg-blue-700 py-4">
+      <div className="bg-blue-500 py-4 mt-7">
         <h2 className="text-white text-center text-2xl font-semibold">Faculties</h2>
         <div className="bg-green-100 mx-auto mt-4 p-6 w-[90%] md:w-[80%] flex flex-col lg:flex-row items-center gap-8 rounded-lg shadow-lg">
          
           <div className="grid grid-cols-1 md:grid-cols-2 gap-x-16 gap-y-3 w-full lg:w-2/3">
             {universityData?.faculties?.map((faculty, index) => (
               <div key={index} className="flex items-center gap-2 text-lg text-gray-800">
-                <FaCheckCircle className="text-green-600" />
+                <FaCheckCircle className="text-blue-300" />
                 {faculty}
               </div>
             ))}
