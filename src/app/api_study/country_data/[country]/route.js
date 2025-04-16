@@ -1052,7 +1052,7 @@ export async function GET(request, { params }) {
         mainImg: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1744632349/Dubai_main_img_fcqd5s.jpg",
         overviewText: "Dubai presents a compelling proposition for international students, offering a unique confluence of high-quality education, promising career prospects, and a dynamic multicultural environment; although not a conventional choice for studying abroad, Dubai distinguishes itself by providing a noteworthy combination of relatively affordable tuition and living expenses in comparison to other popular international study destinations, coupled with a flourishing economy and accessible visa regulations, thereby establishing itself as an increasingly appealing option for students seeking global education; key advantages of choosing Dubai include its affordable cost of living and tuition, robust career prospects arising from its rapid economic expansion and diverse industrial sectors, a diverse educational landscape encompassing numerous top-tier universities and colleges offering a wide array of academic programs, and a rich cultural immersion experience in a city renowned for its multiculturalism and blend of traditions.",
         overviewImg: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1744632365/Dubai_overview_img_wqvvdf.jpg",
-        quickFacts: [ "none", "Dirham (AED)", "Approx. 36.4 lakhs"],
+        quickFacts: [ "none","75%", "Dirham (AED)", "Approx. 36.4 lakhs"],
         
             
         eligibilityPoints: [
