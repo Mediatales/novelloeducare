@@ -66,6 +66,11 @@ export async function GET() {
         flag_link: 'https://res.cloudinary.com/dqggm4k7u/image/upload/v1742375108/dubai_logo_eey2a7.png'
       },
 
+      {
+        country: 'Malta',
+        flag_link: 'https://res.cloudinary.com/dqggm4k7u/image/upload/v1744876330/Malta_logo_srniqy.webp'
+      },
+
       
     
       

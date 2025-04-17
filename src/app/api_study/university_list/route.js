@@ -57,6 +57,60 @@ export async function GET() {
         university: "Ontario Tech University",
       },
 
+      {
+        country: "canada",
+        university: "Herzing College",
+      },
+
+      {
+        country: "canada",
+        university: "Kensley College",
+      },
+      {
+        country: "canada",
+        university: "Trebas Institute",
+      },
+      {
+        country: "canada",
+        university: "Bishop's University",
+      },
+      {
+        country: "canada",
+        university: "Bow Valley College",
+      },
+      {
+        country: "canada",
+        university: "Lakeland College",
+      },
+
+      {
+        country: "canada",
+        university: "Medicine Hat College",
+      },
+
+      {
+        country: "canada",
+        university: "Acsenda School of Management",
+      },
+      {
+        country: "canada",
+        university: "Vancouver Community College",
+      },
+
+      {
+        country: "canada",
+        university: "Alexander College",
+      },
+      {
+        country: "canada",
+        university: "",
+      },
+      {
+        country: "canada",
+        university: "",
+      },
+
+
       
 
 

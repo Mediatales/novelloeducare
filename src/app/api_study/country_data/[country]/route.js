@@ -407,6 +407,197 @@ export async function GET(request, { params }) {
                 facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
                 affilationRecognition : ["COU","CARL","AUCC","University of Western Ontario"],
             },
+
+            {
+                name: "Herzing College",
+                image: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1744800320/Canada_university_11_Herzing_ytkesc.png",
+                slug: "herzing-college",
+                country : "canada",
+                overview : ["Herzing College distinguishes itself through a supportive and personalized approach to education, guaranteeing that all students are equipped with the necessary tools and assistance to achieve maximum educational and career success, where the college's leadership, faculty, and staff prioritize getting to know students on an individual level, fostering a learning community where students feel valued rather than anonymous; specifically, Herzing College – Montreal, established in 1968 and situated in the heart of downtown with beautiful grounds and convenient accessibility, offers programs and courses designed to impart the current and future knowledge and skills sought by employers in college graduates, delivered by expert faculty members who are leaders in their respective fields."],
+                academic : ["Herzing College offers one undergraduate level course, which is a UG Diploma with a typical duration of 14 months, and the university is committed to providing a focused learning environment through small classes, emphasizing each student and delivering an excellent academic experience that combines theoretical knowledge with practical, real-world experience."],
+                academicImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1744800336/Canada_university_11_Herzing_academic_elr5wt.jpg",
+                faculties : [
+                  "Departments of Engineering and Technology",
+                    "Departments of  Business",
+                    "Departments of Social Sciences",
+                    "Departments of Medicine",
+                     "Departments of Accounting and Financial Management",
+                ],
+                facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
+                affilationRecognition : ["COU","CARL","AUCC","University of Western Ontario"],
+            }, 
+           
+                      {
+                name: "Kensley College",
+                image: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1744800346/Canada_university_12_Kensley_r7hgun.jpg",
+                slug: "kensley-college",
+                country : "canada",
+                overview : ["Kensley College, situated in Montreal, Canada, is a diploma and certification institution dedicated to providing skills-based, practical education, and is particularly recognized for its commitment to equipping students with the necessary practical skills for the modern workforce, especially in fields such as cybersecurity and software testing, while also emphasizing support for international students through assistance with immigration procedures and cultural integration; key features of Kensley College include its location in Montreal, a dynamic city with a significant student population, its primary focus on delivering skills-based, practical education designed to prepare students for employment, and its program offerings, which include diploma and certification courses in areas like cybersecurity, software testing, and related disciplines."],
+                academic : ["Kensley College, located in Montreal, Canada, is a diploma and certificate institution dedicated to providing practical, skills-based education aimed at preparing students for the workforce, offering a variety of programs including Cybersecurity, Software Quality Assurance, and other diploma and certificate courses, and emphasizing a hands-on learning approach while also providing student services such as mentoring, wellness support, and employment assistance."],
+                academicImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1744800352/Canada_university_12_Kensley_academic_lmh1rc.jpg",
+                faculties : [
+                  "Departments of Engineering and Technology",
+                    "Departments of  Business",
+                    "Departments of Social Sciences",
+                    "Departments of Medicine",
+                     "Departments of Accounting and Financial Management",
+                ],
+                facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
+                affilationRecognition : ["COU","CARL","AUCC","University of Western Ontario"],
+            }, 
+           
+                      {
+                name: "Trebas Institute",
+                image: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1744800372/Canada_university_13_Trebas_s2egbe.jpg",
+                slug: "trebas-institute",
+                country : "canada",
+                overview : ["Established in 1979, the Trebas Institute is recognized as one of the best private universities in Toronto, Canada, with its Montreal Campus also located in Toronto, Canada, and is known for its state-of-the-art education and extensive research programs, having been ranked among global universities by popular ranking bodies in 2025; the university provides 18 undergraduate level courses to international students, with popular options including UG Diplomas, typically lasting for 12 months and having an average tuition fee ranging from CAD 9,164 to 32,000; prospective international students are required to submit admission requirements, including academic scores and proof of language proficiency through tests such as TOEFL, IELTS, PTE, and Duolingo."],
+                academic : ["The Trebas Institute is renowned for offering excellent academic programs for its international students, providing 18 undergraduate level courses across six streams, including Arts (Fine / Visual / Performing), Business and Management Studies, and Mass Communication and Media; these courses, specifically UG Diplomas, are offered at the undergraduate level with a typical duration of 12 months, and popular specializations available for international students include Data Analytics, Computer Science Engineering, and Cyber Security."],
+                academicImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1744800378/Canada_university_13_Trebas_academic_mo7gd6.jpg",
+                faculties : [
+                  "Departments of Engineering and Technology",
+                    "Departments of Analytics, Big Data and Business Intelligence",
+                    "Departments of Social Sciences",
+                    "Departments of Medicine",
+                     "Departments of Accounting and Financial Management",
+                ],
+                facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
+                affilationRecognition : ["COU","CARL","AUCC","University of Western Ontario"],
+            }, 
+           
+
+                      {
+                name: "Bishop's University",
+                image: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1744800394/Canada_university_14_Bishop_s_rqpdb1.jpg",
+                slug: "bishop's-university",
+                country : "canada",
+                overview : ["Bishop's University, located in Lennoxville, Quebec, boasts a history of over 175 years, beginning as a college in 1843 and developing into a prominent, primarily undergraduate institution; founded by Bishop George Mountain, its initial purpose was to provide a liberal education for English-speaking Quebecers and to train Anglican clergy; however, over time, the university has broadened its academic programs, diversified its student population, and transitioned into a non-denominational institution. Bishop’s University, an English-language institution situated in Quebec, Canada, currently has an enrollment of over 2,900 students; the university offers more than 106 programs across 5 faculties within its 25 departments and is recognized as Canada’s leading undergraduate institution, boasting a 550-acre campus with over 25 buildings."],
+                academic : ["Bishop's University, a small, English-language liberal arts institution situated in Lennoxville, Quebec, Canada, offers a variety of undergraduate and graduate programs with a strong emphasis on experiential learning and a close-knit community, and is recognized for its academic rigor, intimate class sizes, and dedication to cultivating a genuine sense of community; key features of Bishop's University include its location in the Eastern Townships of Quebec, a picturesque region known for its vibrant cultural scene, and its focus as a predominantly residential, undergraduate university with a strong emphasis on liberal arts education."],
+                academicImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1744800403/Canada_university_14_Bishop_s_academic_wxlhmu.jpg",
+                faculties : [
+                  "Departments of Engineering and Technology",
+                    "Departments of  Business",
+                    "Departments of Social Sciences",
+                    "Departments of Medicine",
+                     "Departments of Accounting and Financial Management",
+                ],
+                facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
+                affilationRecognition : ["COU","CARL","AUCC","University of Western Ontario"],
+            }, 
+           
+                      {
+                name: "Bow Valley College",
+                image: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1744800415/Canada_university_15_Bow_Valley_y0vzac.jpg",
+                slug: "bow-valley-college",
+                country : "canada",
+                overview : ["Bow Valley College, established in 1965, is a public, board-governed community college located in Calgary, Alberta, Canada, offering a wide array of educational programs encompassing certificates, diplomas, and degrees, with a strong emphasis on career-focused education and work-integrated learning; the college prioritizes student success through dedicated student services and programs that are developed in collaboration with industry leaders. Key features of Bow Valley College include its diverse program offerings in areas such as health care, community services, business, and creative technologies, among others; furthermore, the college demonstrates a strong commitment to its students by providing a comprehensive range of support services and resources designed to foster their success."],
+                academic : ["Bow Valley College provides a comprehensive range of academic programs, including certificates, diplomas, and university transfer courses, alongside specialized schools and departments, with a strong emphasis on practical, industry-relevant learning and the provision of resources for international students and individuals looking to enhance their English language proficiency."],
+                academicImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1744800420/Canada_university_15_Bow_Valley_academic_rsbcr4.jpg",
+                faculties : [
+                  "Departments of Engineering and Technology",
+                    "Departments of  Business",
+                    "Departments of Social Sciences",
+                    "Departments of Medicine",
+                     "Departments of Accounting and Financial Management",
+                ],
+                facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
+                affilationRecognition : ["COU","CARL","AUCC","University of Western Ontario"],
+            }, 
+           
+           
+             
+                      {
+                name: "Lakeland College",
+                image: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1744870393/Canada_university_16_lakeland_caghrt.jpg",
+                slug: "lakeland-college",
+                country : "canada",
+                overview : ["Lakeland College is a public, board-governed institution in Canada that operates under the authority of Alberta's Post-secondary Learning Act, and it holds the unique distinction of being Canada's only interprovincial college, delivering over 50 programs across its campuses in Vermilion and Lloydminster, as well as through online learning. The college places a strong emphasis on hands-on, collaborative learning methodologies, with a particular focus on integrating work experience into education and actively engaging in the recruitment of international students."],
+                academic : ["Lakeland College is renowned for providing excellent academic programs for both its international and domestic students, offering a diverse range of programs at both the undergraduate and postgraduate levels, with a total of more than 50 programs available, including popular options such as Bachelor of Commerce (B.Com), Bachelor of Science (B.Sc.), Bachelor of Arts (B.A.), and Bachelor of Agriculture (B.Agri)."],
+                academicImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1744870398/Canada_university_16_lakeland_academic_olvb4d.jpg",
+                faculties : [
+                  "Departments of Engineering and Technology",
+                    "Departments of  Business",
+                    "Departments of Social Sciences",
+                    "Departments of Medicine",
+                     "Departments of Accounting and Financial Management",
+                ],
+                facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
+                affilationRecognition : ["COU","CARL","AUCC","University of Western Ontario"],
+            }, 
+           
+                      {
+                name: "Medicine Hat College",
+                image: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1744870463/Canada_university_17_Medicine_Hat_shulvz.jpg",
+                slug: "medicine-hat-college",
+                country : "canada",
+                overview : ["Medicine Hat College (MHC) is a public, board-governed, and comprehensive college serving the regions of southwestern Saskatchewan and southeastern Alberta in Canada, established in 1965; its main campus in Medicine Hat is attended by approximately 2,500 students, while another campus located in Brooks, about 100 km to the west, serves around 200 students, with a significant portion of international students coming from countries such as India (26.3%), Philippines (9.5%), China (5.2%), Japan (5.2%), Somalia (3.1%), Sudan (2.9%), Ethiopia (2.9%), and the United States (2.1%), among others; Medicine Hat College is supported by two libraries, including the Vera Bracken Library built in 2003 in the B wing of the Medicine Hat Campus, and another library at the Brooks Campus, collectively holding about 17,000 e-books, 100,000 non-print and print resources, and over 20,000 online periodicals, and the college is a member of various library associations, including the Southern Alberta Information Network, Library Association of Alberta, Alberta Library, and Canadian Library Association."],
+                academic : ["Students at Medicine Hat College have the opportunity to pursue bachelor's degrees in education, nursing, and business through collaborative partnerships with Mount Royal University and the University of Calgary, while applied degrees are also available in Visual Communications (Applied Arts) and Paramedic (Applied Health Science); furthermore, the college offers distinctive diploma programs such as Addictions Counseling, and graduates from diploma programs like Criminal Justice have the option to complete their degrees through Athabasca University."],
+                academicImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1744870471/Canada_university_17_Medicine_Hat_academic_tp3p7d.jpg",
+                faculties : [
+                  "Departments of Paramedic",
+                    "Departments of  Business",
+                    "Departments of Nursing",
+                    "Departments of Medicine",
+                     "Departments of Art and Design",
+                ],
+                facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
+                affilationRecognition : ["COU","CARL","AUCC","University of Western Ontario"],
+            }, 
+           
+                      {
+                name: "Acsenda School of Management",
+                image: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1744871967/Canada_university_18_Acsenda_mdywgp.jpg",
+                slug: "acsenda-school-of-management",
+                country : "canada",
+                overview : ["Acsenda School of Management, an independent degree-granting institution situated in the heart of Vancouver's business district in Canada, has been offering undergraduate degrees under the written consent of the British Columbia Ministry for Advanced Education since 2004. Acsenda School of Management (ASM) is an independent post-secondary institution situated in the vibrant business district of Vancouver, offering competitive undergraduate degrees in both business administration and hospitality management; with a diverse student body representing over 50 countries, Acsenda places a strong emphasis on preparing students for the global job market by proudly adhering to a learning philosophy that specifically equips them for the international business climate."],
+                academic : ["The Bachelor of Hospitality Management program at Acsenda School of Management integrates business courses with international internships within the hospitality industry, effectively preparing graduates for successful management careers; uniquely, Acsenda incorporates certification processes directly into its learning curriculum, ensuring that students graduate with the necessary credentials and documentation to pursue their desired careers; furthermore, with a student body representing over 50 different countries, Acsenda places a high priority on the global job market, proudly employing a learning philosophy that specifically prepares students for the complexities of the international business climate."],
+                academicImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1744870541/Canada_university_18_Acsenda_academic_ghkjdr.png",
+                faculties : [
+                  "Departments of Engineering and Technology",
+                    "Departments of  Business",
+                    "Departments of Social Sciences",
+                    "Departments of Medicine",
+                     "Departments of Accounting and Financial Management",
+                ],
+                facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
+                affilationRecognition : ["COU","CARL","AUCC","University of Western Ontario"],
+            }, 
+                         {
+                name: "Vancouver Community College",
+                image: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1744871979/Canada_university_19_Vancouver_Community_rurfne.jpg",
+                slug: "vancouver-community-college",
+                country : "canada",
+                overview : ["Vancouver Community College, established in 1965 as a public community college in Vancouver, British Columbia, is a significant institution in the province's post-secondary sector, serving over 15,000 students, including a growing population of Aboriginal and International students, employing 1,200 individuals, and managing an annual budget of CAD 175 million, having been formed through the amalgamation of four local institutions in 1965; with an overall acceptance rate estimated to be around 60-75%, Vancouver Community College is considered somewhat selective for admissions and operates across three campuses: the Downtown campus situated at Hamilton (200 Block Dunsmuir), which is accessible via the Vancouver SkyTrain; the Broadway campus located at 1155 East Broadway; and the third campus, established in 2014, which houses the Heavy Metal Trades programs of Vancouver Community College."],
+                academic : ["Vancouver Community College provides a diverse range of academic offerings, including certificates, diplomas, and degree programs at both the undergraduate and postgraduate levels, specifically encompassing 3 bachelor's degrees, 2 advanced certificates, 2 post diplomas, 2 UT associate degrees, 93 certificates, 16 apprenticeships, 4 short certificates, and 31 diplomas."],
+                academicImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1744871982/Canada_university_19_Vancouver_Community_academic_deiad5.jpg",
+                faculties : [
+                  "Departments of Engineering and Technology",
+                    "Departments of  Business",
+                    "Departments of Social Sciences",
+                    "Departments of Medicine",
+                     "Departments of Accounting and Financial Management",
+                ],
+                facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
+                affilationRecognition : ["COU","CARL","AUCC","University of Western Ontario"],
+            },
+                      {
+                name: "Alexander College",
+                image: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1744871157/Canada_university_20_Alexander_mze3et.jpg",
+                slug: "alexander-college",
+                country : "canada",
+                overview : ["Alexander College, a private post-secondary institution located in Burnaby, British Columbia, Canada, offers a diverse range of undergraduate degree and transfer programs, including University Transfer options as well as Associate of Arts and Associate of Science degrees; the college holds recognition and accreditation from the BC Ministry of Advanced Education, Degree Quality Assurance Board (DQAB), and the BC Education Quality Assurance (EQA) program, and proudly participates in the BC Transfer System, which is organized by the BC Council on Admissions and Transfer (BCCAT); Alexander College provides a wide selection of undergraduate courses across various disciplines such as biology, chemistry, commerce, computer science, economics, English, film studies, geography, mathematics, history, philosophy, psychology, physics, sociology, and French, in addition to its English for Academic Purposes program and various transfer pathways, including the Associate of Science degree, Associate of Arts degree, and general University Transfer."],
+                academic : ["Alexander College is situated in British Columbia, Canada, and provides a diverse array of undergraduate programs spanning various fields, including computer science, physics, chemistry, biology, commerce, film studies, philosophy, history, sociology, French, and many others."],
+                academicImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1744871159/Canada_university_20_Alexander_academic_h8tcds.jpg",
+                faculties : [
+                   "Departments of Engineering and Technology",
+                   "Departments of  Business",
+                   "Departments of Social Sciences",
+                   "Departments of Medicine",
+                   "Departments of Accounting and Financial Management",
+                ],
+                facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
+                affilationRecognition : ["COU","CARL","AUCC","University of Western Ontario"],
+            },
    
             
             ],
@@ -1093,6 +1284,58 @@ export async function GET(request, { params }) {
         ],
         advantages: ["Cost-Effectiveness", "Multicultural Environment" ,"Future-Focused Education" ,"Global Recognition"],
         advantageImg: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1744632494/Dubai_advantage_lynxin.jpg",
+    },
+
+
+    //Malta
+
+    {
+        country: 'Malta',
+        flag_link: 'https://res.cloudinary.com/dqggm4k7u/image/upload/v1744876330/Malta_logo_srniqy.webp',
+        mainImg: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1744876337/Malta_main_img_akxqr3.webp",
+        overviewText: "Studying in Malta presents an appealing option for international students due to its attractive combination of affordable tuition fees and relatively low living costs, where annual tuition fees for bachelor's programs generally fall between €8,000 and €12,000, while master's programs typically range from €10,000 to €15,000, and living expenses, including accommodation, food, and transportation, can be estimated at around €8,000 to €12,000 per year; key considerations for international students include tuition fees, with the University of Malta, for example, potentially having annual fees ranging from €7,500 to €24,000 depending on the specific course and academic level, and the availability of scholarships, as many international students in Malta are offered financial aid, with some universities providing scholarships that cover up to 50% of the tuition costs.",
+        overviewImg: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1744876342/Malta_overview_img_xgejv5.jpg",
+        quickFacts: [ "Valletta","88%", "Euro", "Approx. 5.53 lakhs"],
+        
+            
+        eligibilityPoints: [
+            {
+                title: "Academic Qualifications",
+                description: "You need a matriculation certificate or an equivalent document proving you are eligible for higher education in your home country."
+            },
+            {
+                title: "Language Proficiency",
+                description: "Some universities require IELTS or TOEFL scores (minimum 6.0 for IELTS) or may waive the requirement if previous education was in English."
+            },
+            {
+                title: "Financial Resources",
+                description: "Students need to demonstrate they have sufficient funds to cover tuition fees and living expenses while in Malta."
+            },
+            {
+                title: "Student Visa",
+                description: "Non-EU/EEA/Swiss students typically need a student visa for studies exceeding three months."
+            },
+        ],
+        mbbsBenefits: [
+            {
+                title: "Affordable Education",
+                description: "Malta offers significantly lower tuition fees and a lower cost of living compared to other major European study destinations, making it a more financially accessible option for international students."
+            },
+            {
+                title: "Globally Recognized Degrees",
+                description: "Malta's universities offer high-quality education and internationally recognized degrees, preparing students for a global workforce."
+            },
+    {
+                title: "Statement of Purpose",
+                description:  "Some programs may ask for a SOP explaining your interest in the program and your goals."
+            },
+    {
+                title: "Safe and Welcoming Environment",
+                description: "Malta has a reputation for low crime rates and a friendly local population, creating a safe and supportive environment for international students."
+            },
+        ],
+        advantages: ["Cost-Effectiveness", "Multicultural Environment" ,"Future-Focused Education" ,"Global Recognition"],
+        advantageImg: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1744876354/Malta_advantage_img_lptirw.jpg",
     },
 
 

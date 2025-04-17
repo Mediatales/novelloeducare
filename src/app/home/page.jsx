@@ -73,7 +73,7 @@ export default function Page() {
               </button>
             </form>
           </div>
-        </div>
+        </div> 
       )}
     </div>
   );
