@@ -8,34 +8,34 @@ import "swiper/css/navigation";
 const universityLogos = [
 
   //russia
-  {
-    logo: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1744005911/Saint_Petersburg_logo_c2p7h1.png",
-    link: "https://novelloeducare.com/focus-overseas/russia/saint-petersburg-state-pediatric-medical-university",
-  },
+  // {
+  //   logo: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1744005911/Saint_Petersburg_logo_c2p7h1.png",
+  //   link: "https://novelloeducare.com/focus-overseas/russia/saint-petersburg-state-pediatric-medical-university",
+  // },
   {
     logo: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1744002651/North_western_uanava.png",
     link: "https://novelloeducare.com/focus-overseas/russia/north-western-state-medical-university",
   },
-  {
-    logo: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1744005927/Ural_state_logo_vn05bi.png",
-    link: "https://novelloeducare.com/focus-overseas/russia/ural-state-medical-university",
-  },
-  {
-    logo: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1744002787/Oral_State_Medical_University_fgfexs.png",
-    link: "https://novelloeducare.com/focus-overseas/russia/orel-state-medical-university",
-  },
-  {
-    logo: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1744003281/Kemerovo_state_logo_b3pz4c.png",
-    link: "https://novelloeducare.com/focus-overseas/russia/kemerovo-state-medical-university",
-  },
-  {
-    logo: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1744003559/Tula_state_logo_gcy2i8.png",
-    link: "https://novelloeducare.com/focus-overseas/russia/tula-state-university",
-  },
-  {
-    logo: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1744005992/Ryazan_state_logo_kuzo9h.png",
-    link: "https://novelloeducare.com/focus-overseas/russia/ryazan-state-medical-university",
-  },
+  // {
+  //   logo: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1744005927/Ural_state_logo_vn05bi.png",
+  //   link: "https://novelloeducare.com/focus-overseas/russia/ural-state-medical-university",
+  // },
+  // {
+  //   logo: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1744002787/Oral_State_Medical_University_fgfexs.png",
+  //   link: "https://novelloeducare.com/focus-overseas/russia/orel-state-medical-university",
+  // },
+  // {
+  //   logo: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1744003281/Kemerovo_state_logo_b3pz4c.png",
+  //   link: "https://novelloeducare.com/focus-overseas/russia/kemerovo-state-medical-university",
+  // },
+  // {
+  //   logo: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1744003559/Tula_state_logo_gcy2i8.png",
+  //   link: "https://novelloeducare.com/focus-overseas/russia/tula-state-university",
+  // },
+  // {
+  //   logo: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1744005992/Ryazan_state_logo_kuzo9h.png",
+  //   link: "https://novelloeducare.com/focus-overseas/russia/ryazan-state-medical-university",
+  // },
   {
     logo: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1744006211/Siberian_state_logo_goig3p.png",
     link: "https://novelloeducare.com/focus-overseas/russia/siberian-state-medical-university",
@@ -50,10 +50,10 @@ const universityLogos = [
   },
 
   //uzbekistan
-  {
-    logo:"https://res.cloudinary.com/dqggm4k7u/image/upload/v1744006451/Tashkant_dental_logo_uo5fq5.png",
-    link:"https://novelloeducare.com/focus-overseas/uzbekistan/tashkent-state-dental-institute",
-  },
+  // {
+  //   logo:"https://res.cloudinary.com/dqggm4k7u/image/upload/v1744006451/Tashkant_dental_logo_uo5fq5.png",
+  //   link:"https://novelloeducare.com/focus-overseas/uzbekistan/tashkent-state-dental-institute",
+  // },
   {
     logo:"https://res.cloudinary.com/dqggm4k7u/image/upload/v1744006641/Bukhara_state_logo_q40deb.png",
     link:"https://novelloeducare.com/focus-overseas/uzbekistan/bukhara-state-medical-university",
@@ -77,17 +77,17 @@ const universityLogos = [
     logo:"https://res.cloudinary.com/dqggm4k7u/image/upload/v1744006131/Al-frabi_logo_h0urrb.png",
     link:"https://novelloeducare.com/focus-overseas/kazakhstan/al-farabi-national-medical-university",
   },
-  {
-    logo:"https://res.cloudinary.com/dqggm4k7u/image/upload/v1744006105/South_kazakh_logo_njuqht.png",
-    link:"https://novelloeducare.com/focus-overseas/uzbekistan/bukhara-state-medical-university",
-  },
+  // {
+  //   logo:"https://res.cloudinary.com/dqggm4k7u/image/upload/v1744006105/South_kazakh_logo_njuqht.png",
+  //   link:"https://novelloeducare.com/focus-overseas/uzbekistan/bukhara-state-medical-university",
+  // },
 
   //kyrgyzstan 
 
-  {
-    logo:"https://res.cloudinary.com/dqggm4k7u/image/upload/v1744005046/Asian_medical_logo_ohqckc.png",
-    link:"https://novelloeducare.com/focus-overseas/kyrgyzstan/asian-medical-institute",
-  },
+  // {
+  //   logo:"https://res.cloudinary.com/dqggm4k7u/image/upload/v1744005046/Asian_medical_logo_ohqckc.png",
+  //   link:"https://novelloeducare.com/focus-overseas/kyrgyzstan/asian-medical-institute",
+  // },
   {
     logo:"https://res.cloudinary.com/dqggm4k7u/image/upload/v1744007208/OSH_state_zmfrir.png",
     link:"https://novelloeducare.com/focus-overseas/kyrgyzstan/osh-state-medical-university",
