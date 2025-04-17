@@ -3532,6 +3532,65 @@ export async function GET(request, { params }) {
     affilationRecognition : ["WHO","NMC","Ministry of Health of Ukraine","EUA"],
 },
 
+{
+  name: "Odesa National Medical University",
+  image: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1744881096/Ukraine_university_14_Odesa_pic_jcnoex.jpg",
+  slug: "odesa-national-medical-university",
+  country : "ukraine",
+  overview : ["Odessa State Medical University, established in 1900 as the Medical Faculty of the Novorossiysk State University in Odessa, is a prominent higher medical university and a leader in the reformation of medical education in Ukraine, holding membership in the European and International Association of Universities; the medical faculty quickly gained recognition as one of the most prestigious in the Russian Empire, attracting numerous renowned medical scientists, including Nobel laureate Professor Mechnikov; today, known as Odessa National Medical University, it continues to be a leading medical university in Ukraine, is a member of the International Association of Medical Universities, and its high training standards are widely recognized across Europe and America; the University comprises 58 faculties and has a student body of over 6,000 students, including a diverse international population, and provides instruction in Russian, Ukrainian, and English."],
+  academic : ["The university encompasses 43 clinical departments situated within 63 medical and prophylactic institutions in Odessa and the surrounding region, with each department maintaining its own website containing essential methodological materials for all disciplines in Ukrainian, Russian, and English; the university library has established an electronic catalog of its extensive collection of over 700,000 books and journals, as well as an electronic repository of course books, providing online access to these resources; furthermore, a Center of Distance Education has been established to facilitate effective and continuous professional development for doctors and pharmacists, and the university provides ample opportunities for active student leisure, including a sports complex with six halls dedicated to sports games, table tennis, aerobics and rhythmic gymnastics, shaping-up, a gym, and track and field."],
+  academicImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1744881103/Ukraine_university_14_Odesa_academic_tjqb5w.jpg",
+  faculties : [
+      "Faculty of Medical",
+      "Faculty of Stomatological (Dental)",
+      "Faculty of Pediatric",
+      "Faculty of Pharmaceutical",
+      "Faculty of Dentistry",
+      "Faculty of Postgraduate Education",
+  ],
+  facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
+  affilationRecognition : ["WHO","NMC","IMED","ECFMG"],
+},
+
+        {
+  name: "Odessa International Medical University",
+  image: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1744886770/Ukraine_university_15_Odessa_ocnzfs.jpg",
+  slug: "odessa-international-medical-university",
+  country : "ukraine",
+  overview : ["Odessa National Medical University, a public university located in Odessa, Ukraine, established in 1900 as the Novorossiyskiy State University, holds a global rank of 6915 and is an ideal place to study medicine, boasting 43 medical departments, well-equipped computerized libraries, and laboratories; this medical institution offers a six-year medical education program in English, which includes a one-year apprenticeship at affiliated hospitals, and despite providing high-quality education, the tuition fees are reasonably affordable; with a student-teacher ratio of 20:2, students can expect individual attention, and wonderful job opportunities are available to help manage tuition costs; the university is approved by global medical bodies such as NMC and WHO, and the great contribution of its faculties distinguishes it from others; furthermore, students benefit from an amazing student life, international exposures, and a good score in the FMGE passing percentage, attracting more than 7500 students from all over the world."],
+  academic : ["Odessa National Medical University (ONMU) provides a comprehensive selection of undergraduate and postgraduate medical programs, encompassing General Medicine (MD/MBBS), Pediatrics, Dentistry, Pharmacy, and Nursing; furthermore, the university offers preparatory programs designed for international students, as well as postgraduate courses such as Clinical Residency and Doctorate programs, all of which are taught in English, Russian, and Ukrainian languages."],
+  academicImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1744886715/Ukraine_university_15_Odessa_academic_adnmdu.jpg",
+  faculties : [
+      "Faculty of Medical",
+      "Faculty of Stomatological (Dental)",
+      "Faculty of Pediatric",
+      "Faculty of Pharmaceutical",
+      "Faculty of Dentistry",
+      "Faculty of Postgraduate Education",
+  ],
+  facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
+  affilationRecognition : ["WHO","NMC","IMED","ECFMG"],
+},
+
+        {
+  name: "Kyiv Medical University",
+  image: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1744886327/Ukraine_university_16_Kyiv_apgrej.jpg",
+  slug: "kyiv-medical-university",
+  country : "ukraine",
+  overview : ["Kyiv Medical University, a public institution situated in Kyiv, the capital city of Ukraine, currently educates over 1100 students aspiring to become successful doctors, with Tumanov Viktor Andrievych serving as the distinguished rector; founded in 1992, the university initially operated as a private institution catering to students from Soviet Union countries and has since trained over 10,000 students in its medical program, contributing to societal well-being; Kyiv Medical University is particularly known for its two major areas of Medicine that have been developed through significant scientific research, offers MBBS courses to both local and international students, and maintains joint research centers and association relations with various leading establishments within the former USSR and across the globe."],
+  academic : ["Kyiv Medical University provides a variety of academic programs in medicine and allied health disciplines, including a 6-year MBBS program conducted in English specifically for international students; the university also offers postgraduate educational opportunities, preparatory programs designed for foreign citizens, and comprises faculties specializing in general medicine, pediatrics, public health management, dentistry, pharmacy, and nursing."],
+  academicImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1744886339/Ukraine_university_16_Kyiv_academic_alg1hl.webp",
+  faculties : [
+      "Faculty of Pediatrics",
+      "Faculty of General Medicine",
+      "Faculty of Pharmacy",
+      "Faculty of Dentistry",
+      "Faculty of Postgraduate Education",
+  ],
+  facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
+  affilationRecognition : ["WHO","NMC","Ministry of Health of Ukraine","EUA"],
+},
+
 
 //maldova
 

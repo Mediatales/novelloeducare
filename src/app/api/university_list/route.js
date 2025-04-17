@@ -539,6 +539,26 @@ export async function GET() {
         country: "Ukraine",
         university:"Taras Shevchenko National University",
       },
+      {
+        country: "Ukraine",
+        university:"Odesa National Medical University",
+      },
+      {
+        country: "Ukraine",
+        university:"Taras Shevchenko National University",
+      },
+      {
+        country: "Ukraine",
+        university:"Kyiv Medical University",
+      },
+      {
+        country: "Ukraine",
+        university:"Odessa International Medical University",
+      },
+      {
+        country: "Ukraine",
+        university:"Taras Shevchenko National University",
+      },
 
       //Bosnia
       {
