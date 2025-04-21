@@ -224,6 +224,71 @@ export async function GET() {
         country: "uk",
         university: "University of Lincoln",
       },
+
+      {
+        country: "uk",
+        university: "University of Gloucestershire",
+      },
+      {
+        country: "uk",
+        university: "University of Stirling",
+      },
+      {
+        country: "uk",
+        university: "Newcastle University",
+      },
+      {
+        country: "uk",
+        university: "University of York",
+      },
+      {
+        country: "uk",
+        university: "University of Brighton",
+      },
+      {
+        country: "uk",
+        university: "University of Westminster",
+      },
+      {
+        country: "uk",
+        university: "University of Birmingham",
+      },
+      {
+        country: "uk",
+        university: "University of Essex",
+      },
+      {
+        country: "uk",
+        university: "University of Liverpool",
+      },
+      {
+        country: "uk",
+        university: "University of Nottingham",
+      },
+      {
+        country: "uk",
+        university:"Birkbeck University of London",
+      },
+      {
+        country: "uk",
+        university: "Queen Mary University of London",
+      },
+      {
+        country: "uk",
+        university: "Royal Holloway University of London",
+      },
+      {
+        country: "uk",
+        university: "Goldsmiths University of London",
+      },
+      {
+        country: "uk",
+        university: "Royal Veterinary College",
+      },
+      // {
+      //   country: "uk",
+      //   university: "",
+      // },
      
 
       
