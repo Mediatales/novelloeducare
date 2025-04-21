@@ -1809,6 +1809,57 @@ export async function GET(request, { params }) {
         advantageImg: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1744876354/Malta_advantage_img_lptirw.jpg",
     },
 
+    //Europe
+
+    {
+        country: 'Europe',
+        flag_link: 'https://res.cloudinary.com/dqggm4k7u/image/upload/v1745215817/Europe_logo_hemdpg.png',
+        mainImg: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1745215824/Europe_main_img_skc7cu.jpg",
+        overviewText: "Many European countries, including Germany, France, the Netherlands, and the United Kingdom, stand out as excellent destinations for international students, primarily due to their offerings of high-quality education, relatively affordable tuition fees, and vibrant student life. Germany, for instance, is widely recognized for its strong economy and emphasis on research-focused academic programs, while France is home to numerous top-ranked universities, particularly noted for their business programs. The Netherlands presents international students with a diverse selection of academic courses coupled with a comparatively low cost of living, and the United Kingdom attracts students with its globally prestigious institutions like Oxford and Cambridge, providing a dynamic and cosmopolitan environment.",
+        overviewImg: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1745215829/Europe_overview_img_gjp0mi.webp",
+        quickFacts: [ "","80%", "Euro", "Approx. 74.51 crore"],
+        
+            
+        eligibilityPoints: [
+            {
+                title: "Age",
+                description: "Most European universities require applicants to be at least 17 years old."
+            },
+            {
+                title: "Language Proficiency",
+                description: "If the program is taught in English, most universities require proof of English language proficiency."
+            },
+            {
+                title: "Academic Performance",
+                description: "Many universities have minimum GPA requirements, often 3.0 or higher."
+            },
+            {
+                title: "Standardized Tests",
+                description: "Some universities require standardized tests like the SAT or ACT for undergraduate programs."
+            },
+        ],
+        mbbsBenefits: [
+            {
+                title: "Affordable Education",
+                description: "Compared to some other study-abroad destinations, Europe often offers lower tuition fees, making it a more accessible option for students."
+            },
+            {
+                title: "Globally Recognized Degrees",
+                description: "Graduates with a European degree are often highly sought after in the global job market, as they possess international experience and valuable skills."
+            },
+    {
+                title: "Networking Opportunities",
+                description:  "Studying in Europe provides students with the chance to connect with peers, mentors, and professionals from around the world, expanding their networks and career prospects."
+            },
+    {
+                title: "Post-Study Work Visas",
+                description: "Many European countries offer post-study work visas, allowing international students to gain valuable work experience and potentially pursue long-term careers in Europe."
+            },
+        ],
+        advantages: ["Cost-Effectiveness", "Multilingual Environment" ,"Top-Ranked Institutions" ,"High-Quality Education"],
+        advantageImg: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1745215843/Europe_advantage_img_f2v3xs.jpg",
+    },
+
 
     ];
 

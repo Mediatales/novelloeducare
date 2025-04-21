@@ -71,6 +71,13 @@ export async function GET() {
         flag_link: 'https://res.cloudinary.com/dqggm4k7u/image/upload/v1744876330/Malta_logo_srniqy.webp'
       },
 
+      {
+        country: 'Europe',
+        flag_link: 'https://res.cloudinary.com/dqggm4k7u/image/upload/v1745215817/Europe_logo_hemdpg.png'
+      },
+
+
+
       
     
       
