@@ -103,12 +103,48 @@ export async function GET() {
       },
       {
         country: "canada",
-        university: "",
+        university: "Fraser International College",
       },
       {
         country: "canada",
-        university: "",
+        university: "Kwantlen Polytechnic University",
       },
+      {
+        country: "canada",
+        university: "North Island College",
+      },
+      {
+        country: "canada",
+        university: "Northern Lights College",
+      },
+      {
+        country: "canada",
+        university: "Okanagan College",
+      },
+      {
+        country: "canada",
+        university: "International College of Manitoba",
+      },
+      {
+        country: "canada",
+        university: "Red River College",
+      },
+      {
+        country: "canada",
+        university: "Mount Saint Vincent University",
+      },
+      {
+        country: "canada",
+        university: "Brock University",
+      },
+      {
+        country: "canada",
+        university: "Selkirk College",
+      },
+      // {
+      //   country: "canada",
+      //   university: "",
+      // },
 
 
       
