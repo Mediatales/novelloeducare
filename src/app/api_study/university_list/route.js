@@ -333,6 +333,29 @@ export async function GET() {
       //   university : "",
       // },
 
+      //france
+
+      {
+        country : "france",
+        university : "ESDES School Of Management",
+      },
+      {
+        country : "france",
+        university : "College De Paris",
+      },
+      {
+        country : "france",
+        university : "KEYCE Business School",
+      },
+      {
+        country : "france",
+        university : "Kedge Business School",
+      },
+      // {
+      //   country : "france",
+      //   university : "",
+      // },
+
      
 
       

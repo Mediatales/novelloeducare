@@ -15,6 +15,93 @@ export async function GET(request, { params }) {
         overviewText: "France distinguishes itself as an attractive destination for international students through its commitment to academic excellence, evidenced by its numerous prestigious universities and specialized schools offering high-quality education and globally recognized qualifications, coupled with the advantage of affordable education, particularly at its public universities which feature relatively low tuition fees compared to many other Western nations; furthermore, France provides an unparalleled opportunity for cultural immersion, exposing students to its rich tapestry of art, history, cuisine, and overall culture, thereby creating a unique and enriching learning environment that extends beyond the classroom; the experience of studying in France can also significantly enhance one's resume and open doors to a multitude of international career paths, while the country fosters a diverse and welcoming environment characterized by a thriving international student community that embraces individuals from all corners of the globe.",
         overviewImg: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1744364378/France_overview_img_lpbbre.jpg",
         quickFacts: ["Paris", "39%", "Euro", "Approx. 6.83 crores"],
+
+        univeristes: [
+                      {
+
+                        name: "ESDES School Of Management",
+                        image: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1745305959/France_university_1_ESDES_School_Of_Management_lxvo0e.jpg",
+                        slug: "esdes-school-of-management",
+                        country : "france",
+                        overview : ["ESDES Business School offers a comprehensive range of programs, including a Bachelor in Business International Track, a Master in Management, and a Master of Science with multiple specializations available across these programs. The institution boasts a strong network of over 6,000 alumni and is widely recognized as a top business and management school. For international students, the admissions process is considered somewhat easy, with an acceptance rate ranging from 50% to 60%. Overall, the university is dedicated to providing an inclusive, safe, and diverse environment that not only fosters academic excellence through exceptional faculty but also prioritizes the physical, social, and mental well-being of its students."],
+                        academic : ["ESDES Business School offers multiple undergraduate and graduate programs for students to choose from, including a three-year Bachelor’s program. Additionally, the Business School provides a two-year Master in Management program featuring three specializations, and a Master of Science program which also offers three specializations."],
+                        academicImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1745305962/France_university_1_ESDES_School_Of_Management_academic_ygm1ea.jpg",
+                        faculties : [
+                            "Faculty of Strategic Marketing & Innovation",
+                            "Faculty of Business Administration",
+                            "Faculty of Supply Chain and Purchasing",
+                            "Faculty of Finance and Fintech Management",
+                            "Faculty of Law",
+                        ],
+                        facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
+                        affilationRecognition : ["EUA","CGE","EFMD Global","AACSB International"],
+                    },
+                      
+                         {
+
+                        name: "College De Paris",
+                        image: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1745305968/France_university_2_College_De_Paris_uf1ctv.jpg",
+                        slug: "college-de-paris",
+                        country : "france",
+                        overview : ["Established in Paris, France, with a history dating back to 1949, College de Paris is a private institution. For international students, the college provides a single course at the postgraduate level, available within the Business and Management Studies stream. This postgraduate offering is an MBA/PGDM program, which typically has an average duration of 1 year. International students applying for admission are required to submit their academic scores and provide proof of language proficiency through exams such as IELTS, meeting the minimum score requirements; the annual tuition fee for this postgraduate course for Indian students is USD 17,700."],
+                        academic : ["At the College de Paris, international students have the option to study a single course at the postgraduate level, which is offered within the Business and Management Studies stream. Students looking to pursue a master's degree at College de Paris can enroll in this single course, which is the MBA/PGDM, a graduate program with a duration of 1 year."],
+                        academicImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1745305975/France_university_2_College_De_Paris_academic_rbkskh.jpg",
+                        faculties : [
+                            "Faculty of Strategic Marketing & Innovation",
+                            "Faculty of Business Administration",
+                            "Faculty of Supply Chain and Purchasing",
+                            "Faculty of Finance and Fintech Management",
+                            "Faculty of Law",
+                        ],
+                        facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
+                        affilationRecognition : ["EUA","CGE","EFMD Global","AACSB International"],
+                    },
+
+                        {
+
+                        name: "KEYCE Business School",
+                        image: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1745305982/France_university_3_KEYCE_Business_School_degwe9.jpg",
+                        slug: "keyce-business-school",
+                        country : "france",
+                        overview : ["Established in 1995, Keyce Business School is a private business school located in Montpellier, France, with additional operations in Bordeaux, offering training across a variety of fields including management, marketing, IT, trades, communication, HR, tourism, and health, among others. The school's mission is dedicated to training operational managers and providing state-recognized degree programs, actively fostering partnerships with both national and international companies. Keyce Business School has campuses in Montpellier and Bordeaux, with the Montpellier campus featuring a 3-building complex situated near the airport."],
+                        academic : ["Keyce Business School, a private institution located in France, offers a variety of academic programs including Bachelor's, Master's, and MBA degrees, in addition to other business and management programs. The school fosters a diverse environment, attracting both instructors and students from various backgrounds."],
+                        academicImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1745305987/France_university_3_KEYCE_Business_School_academic_d4comu.jpg",
+                        faculties : [
+                            "Faculty of Strategic Marketing & Innovation",
+                            "Faculty of Business Administration",
+                            "Faculty of Supply Chain and Purchasing",
+                            "Faculty of Finance and Fintech Management",
+                            "Faculty of Law",
+                        ],
+                        facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
+                        affilationRecognition : ["EUA","CGE","EFMD Global","AACSB International"],
+                    },
+
+                         {
+
+                        name: "Kedge Business School",
+                        image: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1745305994/France_university_4_Kedge_Business_School_gocpeg.jpg",
+                        slug: "kedge-business-school",
+                        country : "france",
+                        overview : ["Formed in 2013 through the merger of the 19th-century Bordeaux Management School (BEM) and the Euromed Management School of Management and Business, Kedge Business School stands today as a highly-ranked institution in France, holding prestigious triple accreditation from leading agencies: the Association to Advance Collegiate Schools of Business (AACSB), EFMD Quality Improvement System (EQUIS), and the Association of MBAs (AMBA). Kedge boasts an extensive global presence with four campuses spread across France in Bordeaux (located at the former BEM site), Marseilles, Paris, and Toulon, alongside two campuses in China in Shanghai and Suzhou, and one campus in Dakar, Senegal; the institution further extends its reach with three associate campuses situated at Bayonne, Avignon, and Bastia."],
+                        academic : ["The school offers a wide array of programs at both undergraduate and postgraduate levels, covering fields such as business, engineering, science, arts and creative industries, management, international business, finance, business administration, human resources, supply chain, social responsibility, marketing, sports, and hospitality; the institution also extends its offerings to include a range of certificates and short-term courses. Complementing its academic provisions, there are about five student associations within the school, each dedicated to different academic, social, and personal interests of the students."],
+                        academicImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1745305998/France_university_4_Kedge_Business_School_academic_wqer0l.jpg",
+                        faculties : [
+                            "Faculty of Strategic Marketing & Innovation",
+                            "Faculty of Business Administration",
+                            "Faculty of Supply Chain and Purchasing",
+                            "Faculty of Finance and Fintech Management",
+                            "Faculty of Law",
+                        ],
+                        facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
+                        affilationRecognition : ["EUA","CGE","EFMD Global","AACSB International"],
+                    },
+
+                      
+  
+
+
+         ],
     
             
         eligibilityPoints: [
