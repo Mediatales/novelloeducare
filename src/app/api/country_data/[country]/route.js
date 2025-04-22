@@ -3014,7 +3014,7 @@ export async function GET(request, { params }) {
             name: "Maharajgunj Medical Campus, IOM",
             image:
               "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742372017/Nepal_mbbs_university_3_jooxdb.jpg",
-            slug: "maharajgunj-medical-campus",
+            slug: "maharajgunj-medical-campus-iom",
             country: "nepal",
             overview: [
               "Maharajgunj Medical Campus (MMC), a prominent institution dedicated to medical education and healthcare, is a constituent campus of the Institute of Medicine (IOM) at Tribhuvan University, located in the heart of Kathmandu, Nepal. Established in 1972, MMC has a rich history of contributing to the development of medical professionals and advancing healthcare in the country. Maharajgunj Medical Campus (MMC) in Kathmandu, Nepal, provides students with a well-rounded experience, offering a variety of academic programs complemented by robust facilities, including well-equipped labs, convenient canteens, and diverse sports options.",
