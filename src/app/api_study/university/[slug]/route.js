@@ -698,7 +698,7 @@ export async function GET(request, { params }) {
                        {
                     name: "The Courtauld Institute of Art",
                     image: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1744618382/Uk_university_7_Courtauld_wkt5ep.avif",
-                    slug: "university-of-central-lancashire",
+                    slug: "the-courtauld-institute-of-art",
                     country : "uk",
                     overview : ["The Courtauld Institute of Art stands as a globally esteemed center dedicated to the academic study of art history and conservation, simultaneously functioning as a prominent public gallery; established in 1932, it uniquely integrates teaching, research, and a remarkable art collection, operating as an independent college within the University of London and situated in the historic Somerset House in London; a key aspect of The Courtauld is its academic excellence, serving as a leading institution for both teaching and research in art history, with a particular emphasis on its graduate-level offerings, including MA and PhD programs, alongside specialized programs in art curating and conservation."],
                     academic : ["The Courtauld Institute of Art holds a distinguished position as a premier international institution dedicated to the study of art history, conservation, and curating, providing a comprehensive spectrum of academic programs spanning undergraduate to postgraduate levels and earning acclaim for its research-intensive atmosphere and distinguished faculty; as a specialized university within the University of London, The Courtauld concentrates its academic focus on the historical study and conservation of art and architecture."],
