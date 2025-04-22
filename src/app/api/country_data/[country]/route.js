@@ -2354,7 +2354,7 @@ export async function GET(request, { params }) {
             name: "Belarusian State Medical University",
             image:
               "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742363262/Belarus_mbbs_university_1_b37hx6.jpg",
-            slug: "belarusian-State-medical-university",
+            slug: "belarusian-state-medical-university",
             country: "belarus",
             overview: [
               "Belarusian State Medical University stands as the premier higher medical educational institution in the Republic of Belarus, holding a position of well-earned authority and recognition that extends far beyond its national borders. This esteemed university, set to celebrate its centenary in November 2021, boasts a rich and storied history that traces its origins back to 1921. That year marked the establishment of the Belarusian State University, which initially housed the Faculty of Medicine. This foundational faculty, instrumental in shaping the future of medical education in Belarus, subsequently evolved into an independent educational institution in 1930, solidifying its commitment to specialized medical training. The university's dedication to producing qualified medical professionals is evident from its earliest days, with the first graduation of doctors occurring in 1925. Belarusian State Medical University has remained at the forefront of medical education, consistently adapting to the evolving needs of the healthcare sector and contributing significantly to the advancement of medical science and practice.",
