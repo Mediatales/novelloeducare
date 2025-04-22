@@ -2263,7 +2263,7 @@ export async function GET(request, { params }) {
             {
               name: "St.Tereza Medical University",
               image: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1743488112/Armenia_university_6_St._Tereza_liwmuu.jpg",
-              slug: "st-tereza-medical-university",
+              slug: "sttereza-medical-university",
               country : "armenia",
               overview : ["Founded in 1992 by Larisa Hambartsumyan, St. Tereza Medical University is a distinguished institution of higher medical education renowned for its exceptional faculty and accomplished scholars, providing students with practical learning methodologies and a conducive academic atmosphere, complete with modern equipment and resources. Situated in Yerevan, a city uniquely surrounded by mountains and characterized by its predominantly pink tuff stone architecture of volcanic origin, St. Tereza benefits from its location within a top-ranked city celebrated for its enduring charm and rich history, offering opportunities for cultural enrichment through its notable museums and refreshing parks."],
               academic : ["Medical University After Saint Tereza, also known as STMU Armenia, is a government-owned medical college providing a five-year classroom-based MBBS program that does not include practical training, and prospective students must fulfill the university's specific admission eligibility criteria to enroll."],
