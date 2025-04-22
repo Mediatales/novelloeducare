@@ -3046,7 +3046,7 @@ export async function GET(request, { params }) {
             name: "Nepal army institute of health science",
             image:
               "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742372048/Nepal_mbbs_university_4_cmdbm9.webp",
-            slug: "Nepal-army-institute-of-health-science",
+            slug: "nepal-army-institute-of-health-science",
             country: "nepal",
             overview: [
               "The Nepalese Army Institute of Health Sciences (NAIHS), a distinguished non-profit medical college situated in Kathmandu, Nepal, plays a vital role in healthcare education and service within the nation. NAIHS offers a range of comprehensive medical programs, including the Bachelor of Medicine, Bachelor of Surgery (MBBS) degree, as well as postgraduate degrees such as MD (Doctor of Medicine) and MS (Master of Surgery) in various scientific disciplines. Nepal presents a compelling proposition for students, offering a range of advantages that contribute to a positive and enriching educational experience. One key benefit is the availability of scholarships, which can significantly ease the financial burden of pursuing higher education, making it more accessible to a wider range of students.",
