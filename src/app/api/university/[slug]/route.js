@@ -1414,7 +1414,7 @@ export async function GET(request, { params }) {
             name: "Kazakh Russian Medical University (KRMU)",
             image:
               "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741863239/Kazakhstan_mbbs_university_1_jqwqxp.webp",
-            slug: "kazakh-russian-medical-university-(krmu)",
+            slug: "kazakh-russian-medical-university-krmu",
             country: "kazakhstan",
             overview: [
               "Kazakh Russian Medical University, a distinguished private medical institution located in Almaty, Kazakhstan, has earned a stellar reputation as a leading destination for students seeking a high-quality MBBS education abroad. Established in 1992, and formerly known as Kazakhstan Medical University, this institution has consistently ranked among the top medical universities in the country, attracting aspiring medical professionals from around the globe. Founded by Dr. Mukhtar Aliyevich Aliyev, a respected member of the Kazakh Academy of Sciences, the university benefits from the vision and leadership of a prominent figure in the medical community. At the heart of the university's success lies its vibrant and dedicated faculty, a collective of over 200 lecturers comprised of renowned doctors, esteemed international scientists, and distinguished Kazakh medical professionals. This impressive assembly of experts provides students with unparalleled access to knowledge, mentorship, and diverse perspectives, solidifying the university's position as a top choice for MBBS studies in Kazakhstan.",
