@@ -827,7 +827,7 @@ export async function GET(request, { params }) {
             name: "Pskov State Medical University",
             image:
               "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742810318/Russia_university_16_pic_niq70h.jpg",
-            slug: "Pskov-state-medical-university",
+            slug: "pskov-state-medical-university",
             country: "russia",
             overview: [
               "Initially formed in 1919 by merging teacher training colleges, the institution aimed to educate primary and secondary school teachers, as well as political educators. It became a pedagogical college in 1923, focusing on primary school teachers and preschool workers. In 1932, the Pskov Pedagogical Institute opened, sharing facilities with the college. Before World War II, nearly a thousand students graduated. The university offers the best education to all its students who are pursuing MBBS in Russia and also ensures the holistic development of each student. At the university campus, there are different sports sections such as basketball, volleyball, football, and table tennis. The university further offers various extracurricular activities for the students to actively participate in various events.",
