@@ -1983,7 +1983,7 @@ export async function GET(request, { params }) {
             name: "Medical College For Women & Hospital",
             image:
               "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742794293/Bangladesh_mbbs_university_6_pic_tgnlz8.jpg",
-            slug: "medical-college-for-women-&-hospital",
+            slug: "medical-college-for-women--hospital",
             country: "bangladesh",
             overview: [
               "Medical College for Women & Hospital, a project of the Medical and Health Welfare Trust, was established in 1992 with a vision to create a medical college exclusively for women. Founded by Prof. A.Q.M. Badruddoza Choudhury, Former President of the People’s Republic of Bangladesh, Prof. M.R. Khan, National Chairman, Prof. A. M. Mujibul Haq, Founder Principal of MCWH, and Prof. Suraiya Jabeen, Founder Treasurer, the institute aims to educate selected female candidates for five academic years according to the syllabus of the Bangladesh Medical and Dental Council (BMDC) for an MBBS degree conferred by Dhaka University. Following graduation, students undergo closely supervised internship training for one year, contributing to the creation of high-quality career doctors for the nation.",
