@@ -1395,6 +1395,29 @@ export async function GET(request, { params }) {
         affilationRecognition : ["EUA","CGE","EFMD Global","AACSB International"],
     },
 
+
+    //netherlands
+
+    { 
+
+      name: "University of Amsterdam",
+     image: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1745226081/Europe_university_6_University_of_Amsterdam_rxxmxm.png",
+     slug: "university-of-amsterdam",
+     country : "netherlands",
+     overview : ["The University of Amsterdam, widely known as UVA, is a publicly owned university established and located in Amsterdam, Netherlands, recognized as one of the leading institutions globally across the full spectrum of the Arts, Humanities, Social Sciences, Natural Sciences, and Medical Sciences. Consistently ranked among the world’s best universities, it notably features among the Top 100 Universities globally in two prominent world rankings for 2025 and is a member of prestigious associations such as the League of European Research Universities (LERU) and Universitas 21, a leading global network of research-intensive universities. With a large student body exceeding 41,000, UVA offers around 200 English-taught courses at both the undergraduate and graduate levels, with Research being highlighted as its main unique selling proposition; among international students, popular courses include the MBA, BSc Psychology, and Masters in Computer Science. The University of Amsterdam has a competitive admission process, reflected in its acceptance rate of 4%."],
+     academic : ["The University of Amsterdam offers a variety of bachelor’s and master’s degree programs, with popular options among international students including the MBA, MSc in Data Science and Business Analytics, and Masters in Computer Science. At the bachelor’s level, over 10 English-language taught programs are available, while at the master’s level, students can choose from more than 50 courses, in addition to over 15 English-language Research master's courses."],
+     academicImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1745226086/Europe_university_6_University_of_Amsterdam_academic_iqedv4.jpg",
+     faculties : [
+         "Faculty of Business Economics",
+         "Faculty of Accounting and Finance",
+         "Faculty of Computational Social Science",
+         "Faculty of Arts and Culture",
+         "Faculty of Humanities",
+     ],
+     facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
+     affilationRecognition : ["EUA","LERU","AISSR","UNICA"],
+ }, 
+
                 
             ],
           },

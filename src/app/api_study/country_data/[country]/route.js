@@ -2107,6 +2107,80 @@ export async function GET(request, { params }) {
         ],
         advantages: ["World-Class Education", "Multicultural Environment" ,"Recognized Degrees" ,"Safety and Security"],
         advantageImg: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1745300143/Singapore_advantage_img_leq1wz.jpg",
+    },
+
+    //Netherlands
+
+    {
+        country: 'Netherlands',
+        flag_link: 'https://res.cloudinary.com/dqggm4k7u/image/upload/v1745308641/Netherlands_logo_ckije9.webp',
+        mainImg: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1745308667/Netherlands_main_img_yf21mp.jpg",
+        overviewText: "The Netherlands, informally known as Holland, is a developed and diverse country home to over 17 million people and stands out as a particularly popular and preferred destination for students choosing to study abroad. Annually hosting international students from more than 150 countries worldwide, the country is lauded for providing quality education coupled with numerous job opportunities. In 2024 alone, the Netherlands welcomed around 3,504 Indian students, drawn by the appeal of its top-ranking universities which have globally marked their presence and consistently rank among the top 500 institutions worldwide, making it a compelling choice for international students for various reasons.",
+        overviewImg: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1745308671/Netherlands_overview_img_iv50ww.jpg",
+        quickFacts: ["Amsterdam", "80%", "Euro", "Approx. 1.79 crores"],
+    
+          univeristes: [
+             
+                     { 
+
+                 name: "University of Amsterdam",
+                image: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1745226081/Europe_university_6_University_of_Amsterdam_rxxmxm.png",
+                slug: "university-of-amsterdam",
+                country : "netherlands",
+                overview : ["The University of Amsterdam, widely known as UVA, is a publicly owned university established and located in Amsterdam, Netherlands, recognized as one of the leading institutions globally across the full spectrum of the Arts, Humanities, Social Sciences, Natural Sciences, and Medical Sciences. Consistently ranked among the world’s best universities, it notably features among the Top 100 Universities globally in two prominent world rankings for 2025 and is a member of prestigious associations such as the League of European Research Universities (LERU) and Universitas 21, a leading global network of research-intensive universities. With a large student body exceeding 41,000, UVA offers around 200 English-taught courses at both the undergraduate and graduate levels, with Research being highlighted as its main unique selling proposition; among international students, popular courses include the MBA, BSc Psychology, and Masters in Computer Science. The University of Amsterdam has a competitive admission process, reflected in its acceptance rate of 4%."],
+                academic : ["The University of Amsterdam offers a variety of bachelor’s and master’s degree programs, with popular options among international students including the MBA, MSc in Data Science and Business Analytics, and Masters in Computer Science. At the bachelor’s level, over 10 English-language taught programs are available, while at the master’s level, students can choose from more than 50 courses, in addition to over 15 English-language Research master's courses."],
+                academicImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1745226086/Europe_university_6_University_of_Amsterdam_academic_iqedv4.jpg",
+                faculties : [
+                    "Faculty of Business Economics",
+                    "Faculty of Accounting and Finance",
+                    "Faculty of Computational Social Science",
+                    "Faculty of Arts and Culture",
+                    "Faculty of Humanities",
+                ],
+                facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
+                affilationRecognition : ["EUA","LERU","AISSR","UNICA"],
+            },     
+
+         ],                  
+
+        eligibilityPoints: [
+            {
+                title: "Financial Requirements",
+                description: "Students must demonstrate that they have sufficient funds to cover living expenses and tuition fees for at least one academic year."
+            },
+            {
+                title: "Age Requirement",
+                description: "While there's no specific minimum age, you typically need to have completed 10+2 education and be 17 years old."
+            },
+            {
+                title: "Academic Qualifications",
+                description: "Applicants will need to provide transcripts and other relevant documents to demonstrate their academic history."
+            },
+            {
+                title: "Language Proficiency",
+                description: "Most programs, particularly those taught in English, require proof of English language proficiency, often demonstrated through standardized tests like IELTS or TOEFL."
+            },
+        ],
+        mbbsBenefits: [
+            {
+                title: "Global Recognition",
+                description: "The Netherlands is a diverse and inclusive society, with students from all over the world."
+            },
+            {
+                title: "Affordable Tuition Fees",
+                description: "Public universities charge relatively low tuition compared to other Western countries."
+            },
+    {
+                title: "Research Opportunities",
+                description:  "The Netherlands is a leader in research and development, offering students access to cutting-edge facilities and expertise."
+            },
+    {
+                title: "International Network",
+                description: "Studying in the Netherlands can help you build a global network of contacts and connections."
+            },
+        ],
+        advantages: ["Affordable education", "High-Quality Education" ,"Recognized Degrees" ,"Wide Range of Programs"],
+        advantageImg: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1745308682/Netherlands_advantage_img_hug5c1.jpg",
     }
 
 

@@ -356,6 +356,12 @@ export async function GET() {
       //   university : "",
       // },
 
+      //netherlands
+
+      {
+        country : "netherlands",
+        university : "University of Amsterdam",
+      },
      
 
       

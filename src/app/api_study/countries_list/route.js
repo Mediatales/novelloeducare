@@ -76,6 +76,11 @@ export async function GET() {
         flag_link: 'https://res.cloudinary.com/dqggm4k7u/image/upload/v1745300117/Singapore_logo_ygamul.webp'
       },
 
+      {
+        country: 'Netherlands',
+        flag_link: 'https://res.cloudinary.com/dqggm4k7u/image/upload/v1745308641/Netherlands_logo_ckije9.webp'
+      },
+
 
 
       
