@@ -2651,7 +2651,7 @@ export async function GET(request, { params }) {
             name: "Jahurul Islam Medical College",
             image:
               "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742370896/Bangladesh_mbbs_university_4_pic_kyz4zl.jpg",
-            slug: "kyrgyz-state-medical-university",
+            slug: "jahurul-islam-medical-college",
             country: "bangladesh",
             overview: [
               "Jahurul Islam Medical College (JIMC), established in 1992 by the visionary philanthropist Jahurul Islam, stands as a testament to his commitment to improving healthcare in Bangladesh. Jahurul Islam Medical College boasts its own dedicated campus, a sprawling expanse of buildings that house all departments, laboratories, a library, museums, a dissection hall, lecture theaters, a cafeteria, and hostels. The college's verdant campus, a lush oasis in the heart of Bajitpur, provides a pollution-free environment ideal for teaching and learning.",

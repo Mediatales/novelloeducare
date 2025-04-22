@@ -1947,6 +1947,37 @@ export async function GET(request, { params }) {
 
           //bangladesh
           {
+            name: "Jahurul Islam Medical College",
+            image:
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742370896/Bangladesh_mbbs_university_4_pic_kyz4zl.jpg",
+            slug: "jahurul-islam-medical-college",
+            country: "bangladesh",
+            overview: [
+              "Jahurul Islam Medical College (JIMC), established in 1992 by the visionary philanthropist Jahurul Islam, stands as a testament to his commitment to improving healthcare in Bangladesh. Jahurul Islam Medical College boasts its own dedicated campus, a sprawling expanse of buildings that house all departments, laboratories, a library, museums, a dissection hall, lecture theaters, a cafeteria, and hostels. The college's verdant campus, a lush oasis in the heart of Bajitpur, provides a pollution-free environment ideal for teaching and learning.",
+            ],
+            academic: [
+              "This university provides a comprehensive medical education culminating in an MBBS degree. The five-year program is enhanced by a mandatory one-year internship, ensuring graduates are well-prepared for practice. The degree is fully recognized by the Bangladesh Medical and Dental Council.",
+            ],
+            academicImg:
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742370924/Bangladesh_mbbs_university_4_academic_pic_m427kf.webp",
+            faculties: [
+              "Department of Anatomy",
+              "Department of Biochemistry",
+              "Department of Community Medicine",
+              "Department of Forensic Medicine",
+              "Department of Microbiology",
+              "Department of Pathology",
+            ],
+            facultyImg:
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1739793855/img_bg_sybjt5.png",
+            affilationRecognition: [
+              "The University of Dhaka",
+              "Accredited by the Bangladesh Medical and Dental Council (BMDC) ",
+              "World Health Organization (WHO)",
+              "National Medical Commission (NMC)",
+            ],
+          },
+          {
             name: "Holy Family Red Crescent Medical",
             image:
               "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742792893/Bangladesh_mbbs_university_5_pic_jl2ew5.webp",
