@@ -408,7 +408,7 @@ export async function GET(request, { params }) {
             name: "I.M Sechenov First Moscow State Medical University",
             image:
               "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742901980/Russia_university_im_28_pic_uyy1mp.jpg",
-            slug: "i.m-sechenov-first-moscow-state-medical-university",
+            slug: "im-sechenov-first-moscow-state-medical-university",
             country: "russia",
             overview: [
               "I.M. Sechenov First Moscow State Medical University (Sechenov University) holds a distinguished position as one of the premier medical institutions in Russia, tracing its origins back to 1758 as the medical faculty of the Imperial Moscow University. Throughout its extensive history, Sechenov University has played a pioneering role in shaping the Russian Healthcare System, serving as an alma mater and workplace for numerous renowned scientists and physicians who have made substantial contributions to the advancement of medical science and practice. Today, the university has evolved into a comprehensive academic, research, and Resource Centre of Excellence within the Russian Healthcare System, actively driving the development of the Medicine of the Future by building upon a robust academic foundation in clinical medicine and continuously expanding the horizons of advanced multidisciplinary research to address the evolving challenges and opportunities in healthcare.",

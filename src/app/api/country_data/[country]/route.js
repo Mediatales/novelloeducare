@@ -303,7 +303,7 @@ export async function GET(request, { params }) {
           {
             name: "Urgench branch of Tashkent Medical Academy",
             image: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1743743556/Uzbekistan_university_10_Urgench_tkmu_yydzy5.jpg",
-            slug: "urgench-branch-of-tashkent-state-pediatric-university",
+            slug: "urgench-branch-of-tashkent-medical-academy",
             country : "uzbekistan",
             overview : ["The Urgench campus of the Tashkent Medical Academy holds a distinguished position within Uzbekistan's medical education landscape, functioning as a vital component of the Tashkent Medical Academy and playing a crucial role in cultivating highly skilled medical professionals; recognized for its exceptional medical programs, comprehensive curriculum, and dedicated faculty, the Urgench branch prioritizes both rigorous academic instruction and practical training, effectively preparing students for successful careers in the medical field; graduates from this branch have made substantial contributions to healthcare advancements both within Uzbekistan and internationally, and the branch's commitment to excellence, modern facilities, and research opportunities renders it a preferred choice for aspiring medical students."],
             academic : ["The MBBS program offered at the Urgench Branch of Tashkent Medical Academy in Uzbekistan is structured as a five-year course, encompassing an internship, and students are required to complete the entire program within this five-year timeframe to be awarded their MBBS degree. This comprehensive curriculum is designed to provide students with a robust foundation in medical science, covering a wide array of subjects from basic sciences to clinical disciplines."],
@@ -1148,7 +1148,7 @@ export async function GET(request, { params }) {
             name: "I.M Sechenov First Moscow State Medical University",
             image:
               "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742901980/Russia_university_im_28_pic_uyy1mp.jpg",
-            slug: "i.m-sechenov-first-moscow-state-medical-university",
+            slug: "im-sechenov-first-moscow-state-medical-university",
             country: "russia",
             overview: [
               "I.M. Sechenov First Moscow State Medical University (Sechenov University) holds a distinguished position as one of the premier medical institutions in Russia, tracing its origins back to 1758 as the medical faculty of the Imperial Moscow University. Throughout its extensive history, Sechenov University has played a pioneering role in shaping the Russian Healthcare System, serving as an alma mater and workplace for numerous renowned scientists and physicians who have made substantial contributions to the advancement of medical science and practice. Today, the university has evolved into a comprehensive academic, research, and Resource Centre of Excellence within the Russian Healthcare System, actively driving the development of the Medicine of the Future by building upon a robust academic foundation in clinical medicine and continuously expanding the horizons of advanced multidisciplinary research to address the evolving challenges and opportunities in healthcare.",
