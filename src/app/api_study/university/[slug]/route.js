@@ -1151,6 +1151,168 @@ export async function GET(request, { params }) {
                  affilationRecognition : ["QAA","OfS","UUK","Russell Group"],
              },
 
+
+
+             //singapore
+
+             {
+              name: "PSB Academy",
+             image: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1745226019/Europe_university_4_PSB_Academy_dtedpq.jpg",
+             slug: "psb-academy",
+             country : "singapore",
+             overview : ["Founded in 1964, PSB Academy is a private university located in Singapore, offering courses across 25 specializations, including popular fields such as Finance, Computer Science, and Biology. For students pursuing undergraduate studies, the university provides 41 courses, with a typical duration of 12 months; among the most sought-after undergraduate programs are the B.Com, BBA, and B.J.M.C., and the first-year tuition fee for Indian students ranges from approximately SGD 4,280 to 74,643. At the postgraduate level, PSB Academy offers 8 courses, including top programs like the MBA/PGDM, MS, and MIM, which also have a duration of 12 months, with annual tuition fees ranging from SGD 12,000 to 31,104. In addition to tuition, the annual cost of living for international students at PSB Academy varies based on lifestyle and accommodation choices, averaging around SGD 3,531 to 11,042, an amount that covers expenses such as accommodation, dining, transportation, and personal costs."],
+             academic : ["PSB Academy offers international students a total of 41 courses at the undergraduate level and 8 courses at the postgraduate level. Among the popular program types available at the university are PG Certificates, PG Diplomas, UG Certificates, and UG Diplomas. Both undergraduate and postgraduate courses at PSB Academy typically have an average duration of 12 months."],
+             academicImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1745226023/Europe_university_4_PSB_Academy_academic_b7abnb.jpg",
+             faculties : [
+                 "Faculty of Macroeconomics",
+                 "Faculty of Project Management",
+                 "Faculty of Service Operations Management",
+                 "Faculty of Business Logistics Management",
+                 "Faculty of Marketing",
+             ],
+             facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
+             affilationRecognition : ["SSG","LERU","EDB","Massey University in New Zealand"],
+         },
+            { 
+
+              name: "Dimensions College",
+             image: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1745226055/Europe_university_5_Dimensions_College_wdznvs.jpg",
+             slug: "dimensions-college",
+             country : "singapore",
+             overview : ["Established in 1980, Dimensions International College is a privately funded institution located in Singapore, Singapore, which operates from a single campus known as the Main Campus (School of Preparatory). The college offers a focused curriculum, providing one course within one stream, specifically in Business and Management Studies. This single offering is a postgraduate MBA/PGDM program designed for PG students, with a typical duration of 12 months. Prospective international students should consider the fee structure before applying, noting that the first-year postgraduate tuition fee is SGD 19,800."],
+             academic : ["Dimensions International College offers a single course at the postgraduate level for international students, available within the Business and Management Studies stream. This specific graduate program is an MBA/PGDM, which typically has a duration of 12 months to complete."],
+             academicImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1745226064/Europe_university_5_Dimensions_College_academic_nnhv1c.jpg",
+             faculties : [
+                 "Faculty of Business and Management",
+                 "Faculty of Accounting and Finance",
+                 "Faculty of Commercial Management",
+                 "Faculty of Human Resource Development",
+                 "Faculty of Hospitality",
+             ],
+             facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
+             affilationRecognition : ["EUA","NACC","WSQ","Business and Technology Education Council"],
+         },
+      
+          { 
+
+              name: "Coleman College",
+             image: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1745301486/Singapore_university_1_Coleman_College_nqh54b.jpg",
+             slug: "coleman-college",
+             country : "singapore",
+             overview : ["Coleman College and Coleman University are distinct educational entities. Coleman College, established in 1987, has evolved into an institution offering a broad spectrum of education and training services, having notably graduated over 30,000 students hailing from more than 20 countries. In contrast, Coleman University holds accreditation from the Accrediting Council for Independent Colleges and Schools (ACICS) and provides a variety of degree levels, including certificate, diploma, associate's, bachelor's, and master's degrees. Furthermore, this Coleman University has engaged in a joint venture with the K.K. Modi Group in India, operating as the Modi-ATI Academic Institute, to deliver American education. It is important to note separately that a different institution also named Coleman University, located in San Diego, California, ceased operations in 2018 due to challenges related to accreditation and financial stability."],
+             academic : ["Coleman College and Coleman University offer a variety of academic programs ranging from certificate and diploma programs to bachelor's and master's degrees. Specifically, Coleman College, which is identified as a member of Houston Community College, directs its focus towards health sciences, providing programs such as associate degrees and certificates. In contrast, Coleman University emphasizes cultivating a global perspective among its students, encouraging communication and active participation in the classroom to effectively prepare them for the demands of the international job market."],
+             academicImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1745301493/Singapore_university_1_Coleman_College_academic_dhhrdx.jpg",
+             faculties : [
+                 "Faculty of Business and Management",
+                 "Faculty of Accounting and Finance",
+                 "Faculty of Humanities & Sciences",
+                 "Faculty of Technology",
+                 "Faculty of Arts",
+             ],
+             facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
+             affilationRecognition : ["EUA","NACC","WSQ","CIE"],
+         },
+           
+         
+          { 
+
+              name: "Curtin University",
+             image: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1745301505/Singapore_university_2_Curtin_University_jps3hu.jpg",
+             slug: "curtin-university",
+             country : "singapore",
+             overview : ["Curtin University Singapore operates as a branch campus of the Australian institution, Curtin University, providing a global learning environment characterized by strong industry connections and a focus on developing skills essential for the modern global market. It offers a range of undergraduate and postgraduate programs across various fields, including business, IT, and nursing. The campus utilizes a trimester system with intakes in February, July, and November, which facilitates faster program completion. Reflecting the broader institution's reputation, Curtin University, including its Singapore campus, is recognized globally for its high-impact research, robust industry partnerships, and innovative courses. The academic offerings feature a variety of programs, including specific bachelor's degrees in Commerce, Information Technology, and Science (Nursing), alongside various postgraduate programs."],
+             academic : ["Curtin University - Singapore offers a total of 8 courses at the undergraduate and postgraduate levels. At the undergraduate level, students have 4 courses to choose from, primarily the B.Com programs, which are offered for a duration of 2 years. For those seeking graduate options, the university provides 4 courses, including the MIM and PG Certificate, among others, with the duration of these graduate courses being 4 months. Some popular specializations available at Curtin University - Singapore include International Business, Project Management, and Sales and Marketing."],
+             academicImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1745301510/Singapore_university_2_Curtin_University_academic_tmzosa.jpg",
+             faculties : [
+                 "Faculty of Business and Management",
+                 "Faculty of Accounting and Finance",
+                 "Faculty of Commercial Management",
+                 "Faculty of Human Resource Development",
+                 "Faculty of Hospitality",
+             ],
+             facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
+             affilationRecognition : ["EUA","EQUIS","AACSB","EFMD"],
+         },
+
+
+         //poland
+
+         {
+
+          name: "Wroclaw University of Science and Technology",
+          image: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1745225924/Europe_university_1_Wroclaw_University_l14kfh.jpg",
+          slug: "wroclaw-university-of-science-and-technology",
+          country : "poland",
+          overview : ["Established in 1945, Wroclaw University of Science and Technology is a well-known public university located in Wroclaw, Poland, featuring 10 departments housed within its single campus, officially known as the Wroclaw University of Science and Technology Campus. The university offers a total of 24 courses across four streams, including prominent disciplines such as Engineering, Business and Management Studies, and IT and Software. Among its offerings are more than 4 undergraduate courses, such as B.E. / B.Tech and BBA programs, which typically have a duration of 42 months. Additionally, the university provides 20 graduate-level courses, including MS and M.Sc degrees, designed to be completed in 18 months, within which students can further explore 17 specializations, notably in areas like Data Analytics, Automobile Engineering, and Computer Science Engineering, all within the same graduate course duration."],
+          academic : ["International students have the opportunity to pursue 24 courses at Wroclaw University of Science and Technology, with 4 programs offered at the undergraduate level and 20 at the graduate level, available across multiple specializations including Data Analytics, Automobile Engineering, and Computer Science Engineering. Popular undergraduate courses such as B.E. / B.Tech and BBA have a duration of 42 months, while the graduate offerings, including MS and M.Sc degrees, are typically completed within 18 months."],
+          academicImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1745225934/Europe_university_1_Wroclaw_University_academic_jjsflx.jpg",
+          faculties : [
+              "Faculty of Physics",
+              "Faculty of Social Communication",
+              "Faculty of Computer Science",
+              "Faculty of Historical",
+              "Faculty of Law",
+          ],
+          facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
+          affilationRecognition : ["EUA","LERU","EAIE","PACE"],
+      },
+           {
+           name: "Vistula University",
+          image: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1745225979/Europe_university_2_Vistula_University_zw8jdi.jpg",
+          slug: "vistula-university",
+          country : "poland",
+          overview : ["Vistula University, located in Warsaw, Poland, is a prestigious and renowned institution particularly favored by international students, having been established in 1996 and serving as a significant center for academic excellence for those choosing to study in Poland. The university features a sprawling campus, prominently including the Vistula University Campus in Warsaw, and holds a high global rating, reflecting its exceptional academic standards and high levels of student satisfaction. Structured into four schools and departments, the university offers a wide array of academic disciplines, providing unparalleled diversity with a total of 12 courses available at the undergraduate and postgraduate levels. These programs span several streams, such as Business and Management Studies, Science, and Animation, and include specializations like Finance, Computer Science, and Business Economics, allowing students to tailor their education to match their career aspirations."],
+          academic : ["Vistula University offers a total of 12 courses at the undergraduate and postgraduate levels. At the undergraduate level, students can select from 4 courses, including popular options like BBA and B.E. / B.Tech, which typically have a duration of 4 years. For those pursuing graduate studies, the university provides 8 courses, such as MS, M.Sc, and M.A. degrees, with a standard duration of 24 months. Some of the popular specializations available at Vistula University include Finance, Computer Science, and Business Economics."],
+          academicImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1745225984/Europe_university_2_Vistula_University_academic_vwx8zj.jpg",
+          faculties : [
+              "Faculty of Finance and Accounting",
+              "Faculty of International Relations",
+              "Faculty of Journalism and social communication",
+              "Faculty of Logistics",
+              "Faculty of Psychology in Business",
+          ],
+          facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
+          affilationRecognition : ["ACCA","CIMA","CEEMAN IQA","LSBU"],
+      },
+
+      {
+           name: "University of Wroclaw",
+          image: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1745298548/study_in_poland_university_3_University_of_Wroclaw_otrmmi.jpg",
+          slug: "university-of-wroclaw",
+          country : "poland",
+          overview : ["Established in 1702, the University of Wrocław is a public research university located in Wrocław, Poland, holding significant historical importance as one of the oldest universities in Central Europe and recognized as a leading academic institution within Poland. The university offers a wide and diverse range of programs across various fields, including natural sciences, humanities, social sciences, and law. As a prominent research university, it is not only recognized for its research focus but has also received additional funding specifically to support its research activities."],
+          academic : ["The University of Wrocław stands as a prominent Polish academic institution, offering a wide range of programs across multiple faculties, including natural sciences, humanities, social sciences, and law. Boasting a rich history of excellence and significant research contributions, it has a legacy that includes Nobel laureates and notable impacts on science and culture. Furthermore, the university is recognized for its dynamic international environment, modern facilities, and strong global partnerships, fostering a vibrant academic community."],
+          academicImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1745298552/study_in_poland_university_3_University_of_Wroclaw_academic_kgsxmm.jpg",
+          faculties : [
+              "Faculty of Finance and Accounting",
+              "Faculty of International Relations",
+              "Faculty of Journalism and social communication",
+              "Faculty of Logistics",
+              "Faculty of Psychology in Business",
+          ],
+          facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
+          affilationRecognition : ["Erasmus+","EMJM","CEEPUS","EU-GREEN"],
+      },
+
+      {
+           name: "Wroclaw University of Economics",
+          image: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1745298560/study_in_poland_university_4_Wroclaw_University_of_Economics_nmqlbr.jpg",
+          slug: "wroclaw-university-of-economics",
+          country : "poland",
+          overview : ["Wroclaw University of Economics and Business (WUEB) is a prominent public university in Poland, widely recognized for its strong focus on economics and business studies, standing as one of the largest and most prestigious economic universities in the country. It offers a wide range of undergraduate and postgraduate programs, emphasizing a dynamic learning environment designed to effectively combine theoretical knowledge with practical skills. Consistently ranked among the top economic schools in Poland, WUEB provides programs across various key fields, including Economics, Finance, Accounting, Management, Marketing, and more."],
+          academic : ["The main campus of Wrocław University of Economics and Business, housing three out of its four departments, is situated on Ulica Komandorska near the center of Wrocław, while its Faculty of Regional Economy and Tourism is located on a separate campus in Jelenia Góra; the university comprises several schools or faculties, including the School of Economic Sciences."],
+          academicImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1745298556/study_in_poland_university_4_Wroclaw_University_of_Economics_academic_cptywe.jpg",
+          faculties : [
+              "Faculty of Finance and Accounting",
+              "Faculty of International Relations",
+              "Faculty of  Economics and Business",
+              "Faculty of Logistics",
+              "Faculty of Psychology in Business",
+          ],
+          facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
+          affilationRecognition : ["Erasmus+","EMJM","CEEPUS","EU-GREEN"],
+      },
+
                 
             ],
           },

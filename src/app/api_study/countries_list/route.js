@@ -72,8 +72,8 @@ export async function GET() {
       },
 
       {
-        country: 'Europe',
-        flag_link: 'https://res.cloudinary.com/dqggm4k7u/image/upload/v1745215817/Europe_logo_hemdpg.png'
+        country: 'Singapore',
+        flag_link: 'https://res.cloudinary.com/dqggm4k7u/image/upload/v1745300117/Singapore_logo_ygamul.webp'
       },
 
 

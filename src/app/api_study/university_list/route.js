@@ -289,6 +289,50 @@ export async function GET() {
       //   country: "uk",
       //   university: "",
       // },
+
+
+      //singapore
+
+      {
+        country: "singapore",
+        university: "PSB Academy",
+      },
+      {
+        country: "singapore",
+        university: "Dimensions College",
+      },
+      {
+        country: "singapore",
+        university: "Coleman College",
+      },
+      {
+        country: "singapore",
+        university: "Curtin University",
+      },
+
+      //poland
+
+      {
+        country : "poland",
+        university : "Wroclaw University of Science and Technology",
+      },
+      {
+        country : "poland",
+        university : "Vistula University",
+      },
+      {
+        country : "poland",
+        university : "University of Wroclaw",
+      },
+      {
+        country : "poland",
+        university : "Wroclaw University of Economics",
+      },
+      // {
+      //   country : "poland",
+      //   university : "",
+      // },
+
      
 
       
