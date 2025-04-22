@@ -1386,7 +1386,7 @@ export async function GET(request, { params }) {
             name: "International School of Medicine (ISM)",
             image:
               "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741854694/Kyrgyzstan_mbbs_university_3_xhfwx8.png",
-            slug: "international-school-of-medicine",
+            slug: "international-school-of-medicine-ism",
             country: "kyrgyzstan",
             overview: [
               "The International School of Medicine (ISM) in Bishkek, Kyrgyzstan, stands as a prominent private medical university, offering a wide array of programs, including undergraduate, postgraduate, and doctoral degrees in various medical specialties. This diverse offering allows aspiring medical professionals to pursue their educational goals at different stages of their careers, from initial medical training to advanced specialization and research. ISM has earned a strong reputation for its commitment to academic excellence, attracting students from around the world who seek a high-quality medical education.",
