@@ -38,7 +38,7 @@ export default function RootLayout({ children }) {
         <link rel="canonical" href="https://novelloeducare.com" />
         
         {/* Favicon */}
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/favicon.ico"/>
         <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
         
         <title>Novello Educare - Study Abroad Consultants</title>
