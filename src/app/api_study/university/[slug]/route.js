@@ -1418,6 +1418,99 @@ export async function GET(request, { params }) {
      affilationRecognition : ["EUA","LERU","AISSR","UNICA"],
  }, 
 
+    //germany
+
+    {
+      name: "GISMA Business School",
+      image: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1745404201/Germany_university_1_GISMA_Business_School_ogouod.webp",
+      slug: "gisma-business-school",
+      country : "germany",
+      overview : ["Gisma University of Applied Sciences is a private German university with campuses located in Potsdam, Berlin, and various other locations, offering a diverse range of undergraduate and postgraduate programs spanning business, technology, and engineering. The university is particularly recognized for its Global MBA program, which holds the prestigious AMBA accreditation, making it one of only a few programs in Germany to achieve this recognition. Gisma places a strong emphasis on international education, fostering a diverse student body and focusing on practical application within its curriculum, effectively combining theoretical knowledge with hands-world experience to prepare students for the demands of the global job market."],
+      academic : ["Gisma Business School, now operating as Gisma University of Applied Sciences, offers a variety of undergraduate and postgraduate programs primarily in the fields of business, engineering, and technology. At the bachelor's level, these programs include degrees such as the BSc in Data Science, AI, and Digital Business, the BSc in International Business Management, and the BSc in Computer Science. For postgraduate studies, Gisma provides Master's degrees in various areas, including Data Science, AI, and Digital Business, International Business Management, and Business Management. Additionally, the university features a Global MBA program, which holds prestigious AMBA accreditation."],
+      academicImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1745404204/Germany_university_1_GISMA_Business_School_academic_m3aab7.webp",
+      faculties : [
+          "Departments of Digital Business",
+          "Departments of  Business Management",
+          "Departments of Computer Science",
+          "Departments of Software Engineering",
+      ],
+      facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
+      affilationRecognition : ["EUA","AMBA","FIBAA","BAC"],
+    },        
+
+      {
+      name: "Lancaster University Leipzig",
+      image: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1745404210/Germany_university_2_Lancaster_University_Leipzig_ptrgap.jpg",
+      slug: "lancaster-university-leipzig",
+      country : "germany",
+      overview : ["Founded in 2020, Lancaster University Leipzig is a campus of the UK's Lancaster University, located in Leipzig, Germany. Offering highly recognized British Degree programs, students at the Leipzig campus benefit from the same academic excellence and well-rounded experience as they would in the UK, earning a UK degree from a globally ranked institution whose main campus achieved an overall ranking of #146 in the QS World University Rankings 2023. With an undergraduate acceptance rate of around 18%, Lancaster University Leipzig is considered less selective for admissions, providing students the opportunity to study in English with German language support from faculty within a diverse international community comprising students from 90 countries worldwide."],
+      academic : ["Lancaster University Leipzig is a branch campus of Lancaster University in the UK, situated in the heart of Leipzig and providing international students with the opportunity to earn prestigious degrees. The campus offers a range of programs, including bachelor's and master's degrees, as well as pathways through foundation or pre-master's programmes."],
+      academicImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1745404245/Germany_university_2_Lancaster_University_Leipzig_academic_awzi7m.jpg",
+      faculties : [
+          "Departments of Accounting and Finance",
+          "Departments of  Business Management",
+          "Departments of Computer Science",
+          "Departments of Software Engineering",
+      ],
+      facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
+      affilationRecognition : ["EUA","AMBA","FIBAA","BAC"],
+    }, 
+
+    {
+      name: "Berlin School of Business and Innovation",
+      image: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1745404256/Germany_university_3_Berlin_School_of_Business_rakshi.jpg",
+      slug: "berlin-school-of-business-and-innovation",
+      country : "germany",
+      overview : ["Founded in 2018 and located in the heart of Berlin, the Berlin School of Business and Innovation (BSBI) has rapidly established a presence with campuses extending to Hamburg, Athens, and Paris, with its main campus in Berlin situated in the historical building of Alte Post. As part of GUS Germany GmBH, the institution is connected to a network involving more than 15,000 learners. BSBI offers degrees awarded by prestigious partner universities such as UNINETTUNO, University for the Creative Arts, and Concordia University Chicago, ensuring they are recognized and accredited; furthermore, BSBI itself is a member of AACSB International and a Bronze Graduates Association member."],
+      academic : ["The Berlin School of Business and Innovation (BSBI) offers a wide range of undergraduate and postgraduate programs spanning fields such as business, technology, and the arts, placing a strong emphasis on practical skills and industry relevance. BSBI's programs hold accreditation through its partnerships with institutions like UNINETTUNO, the University for the Creative Arts, and Concordia University Chicago. The curriculum is specifically designed to prepare students for careers in the global business world, with a particular focus on developing essential entrepreneurial and leadership skills."],
+      academicImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1745404262/Germany_university_3_Berlin_School_of_Business_academic_dmhnpa.jpg",
+      faculties : [
+          "Departments of Accounting and Finance",
+          "Departments of  Business Management",
+          "Departments of Computer Science",
+          "Departments of Health Management",
+      ],
+      facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
+      affilationRecognition : ["EUA","AMBA","FIBAA","BAC"],
+    }, 
+
+      {
+      name: "ISM (International School of Management)",
+      image: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1745404276/Germany_university_4_ISM_tdjkst.jpg",
+      slug: "ism-international-school-of-management",
+      country : "germany",
+      overview : ["The International School of Management (ISM) is a reputed private business school in Germany, focused on the study of applied sciences and recognized by the Ministry of Innovation, Higher Education and Research of North Rhine-Westphalia, dedicated to cultivating the future leaders of the global business arena. With an overall acceptance rate of around 28%, ISM Germany is considered less selective for admissions. Serving as a prominent center for management education, the school operates seven branches located in Dortmund, Frankfurt, Munich, Hamburg, Cologne, Stuttgart, and Berlin, with Frankfurt designated as the main branch; all seven campuses boast state-of-the-art infrastructure, featuring modern classrooms, libraries, hi-tech audio-visual labs, IT labs, and seminar halls. Beyond academics, ISM is also a hub for a variety of extra-curricular activities designed to support the physical as well as mental well-being of its students."],
+      academic : ["The International School of Management (ISM) offers a range of academic programs including undergraduate, postgraduate, and MBA programs, with instruction available in both English and English-German. The undergraduate program focuses on international management, while the various postgraduate programs include offerings such as M.Sc. in International Management, M.A. in Strategic Marketing Management, M.Sc. in Finance, M.Sc. in Business Intelligence & Data Science, M.Sc. in International Logistics & Supply Chain Management, M.A. in Luxury, Fashion & Sales Management, M.A. in International Business, and a Pre-Master program. Furthermore, MBA programs at ISM are offered in both full-time and part-time modes."],
+      academicImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1745404281/Germany_university_4_ISM_academic_qkvgx3.jpg",
+      faculties : [
+          "Departments of Accounting and Finance",
+          "Departments of  Business Management",
+          "Departments of Computer Science",
+          "Departments of Health Management",
+      ],
+      facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
+      affilationRecognition : ["EUA","AMBA","FIBAA","BAC"],
+    }, 
+
+
+      {
+      name: "PFH Germany",
+      image: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1745404288/Germany_university_5_PFH_Germany_kxfzal.jpg",
+      slug: "pfh-germany",
+      country : "germany",
+      overview : ["Established in 1995 in Göttingen, Germany, PFH Private University of Applied Sciences offers a total of 15 courses across 6 streams, such as Business and Management Studies, Medicine and Health Sciences, and Engineering, with programs available in 2 specializations, namely Industrial Engineering and Multimedia and Digital Media. Of these offerings, 5 courses are at the undergraduate level, including programs like BBA and B.Sc., which typically have a duration of 3 years. The university also provides 10 courses at the graduate level, such as M.Sc and MS degrees, which are completed over 18 months. When considering admission, the PFH Private University of Applied Sciences fees are a key factor for international students; the first-year tuition fee for undergraduate courses ranges from EUR 7,000 to 9,000, while the fee for graduate courses is between EUR 7,000 and 14,400 annually."],
+      academic : ["PFH Private University of Applied Sciences offers a total of 15 courses at both the undergraduate and postgraduate levels, available across 6 streams including Business and Management Studies, Medicine and Health Sciences, and Engineering. Among the undergraduate courses offered are programs such as BBA and B.Sc., which typically have a duration of 3 years. For postgraduate studies, the university provides courses like M.Sc and MS, which students can pursue for a duration of 18 months. Some of the popular specializations favored by international students include Industrial Engineering and Multimedia and Digital Media."],
+      academicImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1745404300/Germany_university_5_PFH_Germany_academic_kxh4ph.png",
+      faculties : [
+          "Departments of Accounting and Finance",
+          "Departments of  Business Management",
+          "Departments of Computer Science",
+          "Departments of Health Management",
+      ],
+      facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
+      affilationRecognition : ["EUA","AMBA","FIBAA","BAC"],
+    }, 
+
                 
             ],
           },

@@ -362,6 +362,33 @@ export async function GET() {
         country : "netherlands",
         university : "University of Amsterdam",
       },
+
+      //germany
+
+      {
+        country : "germany",
+        university : "GISMA Business School",
+      },
+
+      {
+        country : "germany",
+        university : "Lancaster University Leipzig",
+      },
+
+      {
+        country : "germany",
+        university : "Berlin School of Business and Innovation",
+      },
+
+      {
+        country : "germany",
+        university : "ISM (International School of Management)",
+      },
+     
+      {
+        country : "germany",
+        university : "PFH Germany",
+      },
      
 
       
