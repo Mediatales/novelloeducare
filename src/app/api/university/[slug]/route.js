@@ -1535,6 +1535,102 @@ export async function GET(request, { params }) {
             ],
           },
 
+          
+          {
+            name: "North Kazakhstan State University",
+            image: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1745495719/kazakhstan_university_North_Kazakhstan_xl3kbh.jpg",
+            slug: "north-kazakhstan-state-university",
+            country : "kazakhstan",
+            overview : ["North Kazakhstan State University stands as a leading educational organization and world-class university in north Kazakhstan, initially established as the Petropavlovskiy teachers training institute in 1937 in Petropavl city, Republic of Kazakhstan. The institution was awarded the status of a university by the republic council of Kazakhstan in 2001 and was subsequently renamed after academician Manash Kotzebue in 2003. Working with a dedicated team of great professionals, doctors, and researchers, North Kazakhstan State University consistently demonstrates high performance in the field of education. The beauty of Petropavl city attracts foreign students and visitors alike for both living and tourism. Situated on the Ishim River in north Kazakhstan, close to the Russian border, Petropavl has a population of around 2.5 lakh; the presence of many ponds, lakes, and small forests within the city further enhances its appeal as a beautiful place to live. Students from the university who opt to reside outside the campus can easily get settled into this inviting environment."],
+            academic : ["North Kazakhstan State University (NKSU), named after Manash Kozybayev, offers a wide range of academic programs, including over 50 Bachelor's degrees, 25 Master's degrees, and 4 Doctoral degrees. Among the popular choices for international students are the programs in General Medicine and Pharmacy, both of which are offered with instruction in English."],
+            academicImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1745495725/Kazakhstan_university_North_Kazakhstan_academic_pekf2r.jpg",
+            faculties : [
+                "Faculty of General Medicine",
+                "Faculty of Nursing",
+                "Faculty of Dentistry",
+                "Faculty of Pediatrics",
+                "Faculty of Joint Education Program",
+            ],
+            facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
+            affilationRecognition : ["MCI","ICDE","NMC","WHO"],
+        },
+
+        {
+            name: "Karaganda State Medical University",
+            image: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1745495772/Kazakhstan_university_Karaganda_State_vvxdj6.jpg",
+            slug: "karaganda-state-medical-university",
+            country : "kazakhstan",
+            overview : ["Founded in 1950, Karaganda State Medical University (KSMU) is recognized as one of the outstanding medical universities in the Republic of Kazakhstan and holds the distinction of being the country's first medical university. Ranked at the 8th position among the top 60 universities nationally by the National Accreditation Centre, KSMU has also demonstrated its commitment to quality by passing the certification in conformance with the requirements of the International Standard ISO 9001-2000 in 2005, certified by NQA – the Russian Representation of the British authority in certification management systems, as well as NQA – UK Global Assurance."],
+            academic : ["Karaganda State Medical University offers a variety of medical-related academic programs, including MBBS (Bachelor of Medicine, Bachelor of Surgery), General Medicine, Stomatology, and various other specialist faculties. Beyond undergraduate options, the university also provides masters and doctoral programs across diverse medical fields. Among its offerings, the MBBS program stands out as a particularly popular choice, with the university being well-regarded for its quality medical education and international recognition."],
+            academicImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1745558930/Kazakhstan_university_Karaganda_State_academic_np94qd.jpg",
+            faculties : [
+                "Faculty of General Medicine",
+                "Faculty of Gynaecology",
+                "Faculty of Stomatology",
+                "Faculty of Anatomy",
+                "Faculty of Internal Diseases",
+            ],
+            facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
+            affilationRecognition : ["MCI","ASME","NMC","WHO"],
+        },
+
+        {
+            name: "Astana Medical University",
+            image: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1745495733/Kazakhstan_university_Astana_Medical_jgkocg.jpg",
+            slug: "astana-medical-university",
+            country : "kazakhstan",
+            overview : ["Established in 1962 in the city of Kokshetau, Kazakhstan, Kokshetau State University is recognized as a modern educational institution offering multi-level programs across various specialties. The university provides a wide range of options, including 65 specialties at the bachelor's degree level, 30 at the master's degree level, and 6 at the doctorate level, particularly in the fields of natural sciences and general medicine. The institution was named in honor of Sh. Ualikhanov, celebrated as a great Kazakh scientist, historian, ethnographer, geographer, translator, and traveler. For international students seeking medical education, especially those interested in MBBS in Kazakhstan, Kokshetau State University presents significant opportunities, providing practical knowledge at an affordable price, which sets a great benchmark."],
+            academic : ["Astana Medical University provides a comprehensive MBBS program that is taught entirely in English and spans 6 years, including a mandatory year of internship. The university is distinguished by its strong academic foundation, featuring a curriculum that is carefully aligned with global standards and places a significant emphasis on hands-on learning, allowing students to gain essential practical experience through internships and placements conducted in affiliated hospitals and medical facilities."],
+            academicImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1745495737/Kazakhstan_university_Astana_Medical_academic_dojncn.jpg",
+            faculties : [
+                "Faculty of General Medicine",
+                "Faculty of Pharmacy",
+                "Faculty of Dentistry",
+                "Faculty of Pediatrics",
+              
+            ],
+            facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
+            affilationRecognition : ["USMLE","FAIMER","NMC","WHO"],
+        },
+
+        {
+            name: "Kokshetau State University",
+            image: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1745559865/Kazakhstan_university_Kokshetau_dznfgc.jpg",
+            slug: "kokshetau-state-university",
+            country : "kazakhstan",
+            overview : ["Sh. Ualikhanov Kokshetau State University is a Government State University founded in 1962 and located in the city of Kokshetau, Kazakhstan. The university was fittingly renamed after Sh. Ualikhanov, celebrated as one of the greatest Kazakh scientists, historians, ethnographers, geographers, translators, and travelers. For medical students, pursuing MBBS in Kazakhstan, particularly at Kokshetau State University, presents significant opportunities. The university is committed to providing quality education to its medical students and has received NAAR accreditation ratings for 60 of its educational programs."],
+            academic : ["Kokshetau State University (KSU) in Kazakhstan offers a wide range of academic programs, including a 5-year MBBS course, bachelor's degrees in 65 specialties, master's degrees in 30 specialties, and doctoral degrees in 6 specialties. The university maintains a strong focus on natural sciences and general medicine, providing programs such as Pediatrics, Pathology, Gynecology, and others, all of which are approved by the Ministry of Education and Science, Kazakhstan."],
+            academicImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1745495787/Kazakhstan_university_Kokshetau_academic_ezoxct.jpg",
+            faculties : [
+                "Faculty of General Medicine",
+                "Faculty of Pharmacy",
+                "Faculty of Dentistry",
+                "Faculty of Pediatrics",
+                "Faculty of Public health",
+            ],
+            facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
+            affilationRecognition : ["USMLE","FAIMER","NMC","WHO"],
+        },
+
+        {
+            name: "Semey Medical University",
+            image: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1745560465/Kazakhstan_university_Semey_Medical_kqwhuy.jpg",
+            slug: "semey-medical-university",
+            country : "kazakhstan",
+            overview : ["Semey Medical University stands as one of the largest medical universities in the Republic of Kazakhstan, distinguished by having its own university hospital and branches located in the cities of Pavlodar and Ust-Kamenogorsk. Its establishment traces back to 1952 when the Cabinet of Ministers of the Soviet Union issued a decree for its opening; the university was subsequently founded on September 1, 1953, with the inauguration of the Faculty of Medicine, which welcomed its first cohort of 320 students. Over the years since its inception, the university has produced graduates who are now successfully working across Kazakhstan, as well as in countries both near and far abroad."],
+            academic : ["The main task of Semey State Medical University is centered on the preparation of highly qualified doctor specialists. Educational work is conducted in accordance with normative documents governing higher education, overseen by the Rector, the Vice-Rector for educational works, and the deans of departments, and coordinated by the Education Counsel and the Central Methodical Counsel (CMC)."],
+            academicImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1745560473/Kazakhstan_university_Semey_Medical_academic_i7zwjy.jpg",
+            faculties : [
+                "Faculty of General Medicine",
+                "Faculty of Pharmacy",
+                "Faculty of Pathological Anatomy",
+                "Faculty of Stomatologic Disciplines",
+                "Faculty of Public Health Care",
+            ],
+            facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
+            affilationRecognition : ["MCI","WDOMS","NMC","WHO"],
+          },
+
           //georgia
 
           {

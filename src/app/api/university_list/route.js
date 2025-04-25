@@ -223,6 +223,27 @@ export async function GET() {
         university: "South Kazakh Medical Academy",
       },
 
+      {
+        country: "Kazakhstan",
+        university: "North Kazakhstan State University",
+      },
+      {
+        country: "Kazakhstan",
+        university: "Karaganda State Medical University",
+      },
+      {
+        country: "Kazakhstan",
+        university: "Astana Medical University",
+      },
+      {
+        country: "Kazakhstan",
+        university: "Kokshetau State University",
+      },
+      {
+        country: "Kazakhstan",
+        university: "Semey Medical University",
+      },
+
       //Georgia
       {
         country: "Georgia",
