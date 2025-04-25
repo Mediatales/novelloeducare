@@ -1407,7 +1407,45 @@ export async function GET(request, { params }) {
             facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
             affilationRecognition : ["WFME","ECFMG","NMC","WHO"],
         },
+        {
 
+          name: "International European University",
+          image: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1745562513/Kyrgyzstan_mbbs_10_International_European_kjafcp.jpg",
+          slug: "international-european-university",
+          country : "kyrgyzstan",
+          overview : ["International European University stands as the premier destination for medical education in Kyrgyzstan, recognized as the top-ranking medical college in the region and dedicated to excellence in education, research, and healthcare practice. The university takes pride in its commitment to providing a world-class medical education aimed at preparing students for successful careers in healthcare, a goal supported by a faculty comprising leading experts and practitioners who ensure students receive the highest quality instruction and mentorship. Aspiring medical professionals exploring the university will find a comprehensive range of academic programs designed to meet diverse needs and interests across various healthcare-related disciplines, including medicine, nursing, and pharmacy. In addition to its academic offerings, International European University is equipped with state-of-the-art facilities and resources, such as modern classrooms, laboratories, and cutting-edge simulation centers, providing students with the necessary tools to excel in their studies and develop essential skills for the healthcare field."],
+          academic : ["The International European University (IEU) in Kyrgyzstan offers several Doctor of Medicine (MD) programs, providing options such as a 5-year program taught entirely in English, a 6-year program with instruction delivered in both Russian and English, and a specialized 5.5-year program tailored for Indian students that includes clinical rotations. In addition to its medical degrees, the university also offers a dentistry program."],
+          academicImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1745562528/Kyrgyzstan_mbbs_10_International_European_academic_fr908e.jpg",
+          faculties : [
+              "Faculty of Medicine",
+              "Faculty of Dentistry",
+              "Faculty of Pediatrics",
+              "Faculty of Pharmaceutical",
+              "Faculty of Biology",
+          ],
+          facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
+          affilationRecognition : ["WFME","FAIMER","NMC","WHO"],
+      },
+
+         {
+
+          name: "International Medical University",
+          image: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1745562536/Kyrgyzstan_mbbs_11_International_Medical_l2xcda.jpg",
+          slug: "international-medical-university",
+          country : "kyrgyzstan",
+          overview : ["Founded in 1993 in Kyrgyzstan, the International Medical University (IMU) is a well-regarded medical institution recognized by both the World Directory of Medical Schools (WDOMS) and the Ministry of Education and Science of Kyrgyzstan. Offering a range of medical courses primarily taught in English, IMU caters to a diverse student body, including a significant number of Indian students, making it highly accessible to international learners. The university boasts modern facilities essential for medical training, such as advanced laboratories and a dedicated clinic for practical experience, and is affiliated with recognized medical institutions to ensure robust clinical training. Furthermore, IMU enhances the educational experience through the use of a Learning Management System (LMS), and its graduates are awarded a state-recognized diploma that holds global recognition."],
+          academic : ["The International Medical University in Kyrgyzstan offers a range of medical programs, including the MBBS (MD Physician), Master of Medicine, and a residency program. These programs are taught in English and are recognized by international organizations such as the WHO and NMC. The university also encompasses a College of Medicine and Pharmacy. Among its detailed academic offerings, the MBBS (MD Physician) is a 5.5-year program that includes clinical rotations and serves as the primary program for Indian students, with its curriculum approved by the NMC. The Master of Medicine program is a 2-year course, also delivered with instruction in English."],
+          academicImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1745562542/Kyrgyzstan_mbbs_11_International_Medical_academic_qnmlm6.jpg",
+          faculties : [
+              "Faculty of Medicine",
+              "Faculty of Dentistry",
+              "Faculty of Pediatrics",
+              "Faculty of Pharmacy",
+              "Faculty of Biology",
+          ],
+          facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
+          affilationRecognition : ["WFME","WDOMS","NMC","WHO"],
+      },
           //kazakhastan
 
           {

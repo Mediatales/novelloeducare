@@ -203,6 +203,18 @@ export async function GET() {
         university: "Salymbekov Medical University",
       },
 
+      {
+        country: "kyrgyzstan",
+        university: "International European University",
+      },
+
+      {
+        country: "kyrgyzstan",
+        university: "International Medical University",
+      },
+
+      
+
 
       //Kazakhstan
 
