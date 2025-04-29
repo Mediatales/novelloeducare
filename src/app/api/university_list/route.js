@@ -625,8 +625,36 @@ export async function GET() {
         country : "maldova",
         university : "Nicolae Testemitanu State University of Medicine and Pharmacy",
       },
-      
 
+      //malaysia
+      {
+        country : "malaysia",
+        university : "Heriot Watt University",
+      },
+
+      //ireland
+
+      {
+        country : "ireland",
+        university : "Technological University Dublin",
+      },
+      {
+        country : "ireland",
+        university : "National College of Ireland",
+      },
+      {
+        country : "ireland",
+        university : "Dublin City University",
+      },
+      {
+        country : "ireland",
+        university : "University College Cork",
+      },
+
+      {
+        country : "spain",
+        university : "Saint Louis University Madrid",
+      },
     ];
 
     return NextResponse.json({ data: universities });
