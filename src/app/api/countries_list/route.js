@@ -70,30 +70,7 @@ export async function GET() {
         flag_link: 'https://res.cloudinary.com/dqggm4k7u/image/upload/v1742375712/Ukrain_logo_tpapan.png'
       },
 
-      {
-        country: 'Sweden',
-        flag_link: 'https://res.cloudinary.com/dqggm4k7u/image/upload/v1745574673/Sweden_logo_anq9ac.png'
-      },
-        
-      {
-        country: 'Malaysia',
-        flag_link: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1745577722/Malaysia_logo_qdmbxt.webp"
-      },
-
-      {
-        country: 'Switzerland',
-        flag_link: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1745660519/Switzerland_flag_dvwnrv.png"
-      },
-
-      {
-        country: 'Ireland',
-        flag_link: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1745655699/Ireland_flag_rwujfc.png"
-      },
-
-      {
-        country: 'Spain',
-        flag_link: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1745585088/Spain_logo_vsutcg.webp"
-      },
+      
 
 
       
