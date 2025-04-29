@@ -651,6 +651,8 @@ export async function GET() {
         university : "University College Cork",
       },
 
+      //spain
+
       {
         country : "spain",
         university : "Saint Louis University Madrid",

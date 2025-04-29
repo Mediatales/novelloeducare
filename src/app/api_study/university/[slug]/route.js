@@ -1511,6 +1511,134 @@ export async function GET(request, { params }) {
       affilationRecognition : ["EUA","AMBA","FIBAA","BAC"],
     }, 
 
+    //Malaysia
+
+{ 
+
+  name: "Heriot Watt University",
+ image: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1745578862/Malaysia_university_1_Heriot_Watt_l05m1k.jpg",
+ slug: "heriot-watt-university",
+ country : "malaysia",
+ overview : ["Heriot-Watt University Malaysia, a state-of-the-art educational facility located in Putrajaya, Malaysia, is a branch campus of the UK-based Heriot-Watt University, having opened its doors in 2014. This campus offers a variety of degree programs, distinguished by its focus on technology, innovation, and a green campus environment. Drawing upon the established reputation of its parent institution, which is known for world-class teaching and practical, leading-edge research, the Malaysian campus is part of a truly international university network that spans five global campuses, boasts partners in 150 countries, and educates 30,000 students worldwide."],
+ academic : ["Heriot-Watt University Malaysia offers high-quality British education delivered within a global context, with a strong emphasis on research and building industry connections, particularly relevant to fields such as business, engineering, and design. Its campus, located in Putrajaya, is notably the first green campus in Malaysia and provides students with a modern, state-of-the-art learning environment."],
+ academicImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1745578864/Malaysia_university_1_Heriot_Watt_academic_n1il4b.jpg",
+ faculties : [
+     "Faculty of Mechanical Engineering",
+     "Faculty of Psychology with Management",
+     "Faculty of Chemical Engineering",
+     "Faculty of Foundation in Business",
+     "Faculty of Advanced Mechanical Engineering",
+ ],
+ facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
+ affilationRecognition : ["ELLS","MQA","EBU","LCPU"],
+},
+
+//Ireland
+
+{ 
+
+  name: "Technological University Dublin",
+ image: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1745657757/Ireland_university_1_Technological_University_bcnkik.webp",
+ slug: "technological-university-dublin",
+ country : "ireland",
+ overview : ["Technological University Dublin stands as Ireland's first technological university, operating across three campuses located in Dublin City, Tallaght, and Blanchardstown. The university offers a diverse array of undergraduate and postgraduate programs spanning numerous disciplines including Creative Arts, Engineering, Business, Sciences, Humanities, Built Environment, Tourism, Food, and Sports. With an acceptance rate of 46%, TU Dublin is considered a moderately selective institution. Prospective students should note that the first-year tuition fees for postgraduate courses typically range between INR 10 lakh and INR 13 lakh, while the tuition fees for undergraduate courses at TU Dublin are generally around INR 11 lakh to INR 20 lakh."],
+ academic : ["Technological University Dublin offers more than 200 programs in total, comprising a variety of undergraduate and postgraduate options. These programs span disciplines such as Creative Arts, Engineering, Humanities, Built Environment, Science, and Tourism Food and Sports. Among the popular programs attracting international students are Pharmaceutical Quality Assurance Regulation and the MSc in Electronics and Communication Engineering."],
+ academicImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1745657761/Ireland_university_1_Technological_University_academic_zdvt1w.jpg",
+ faculties : [
+     "Faculty of Mechanical Engineering",
+     "Faculty of Psychology with Management",
+     "Faculty of Chemical Engineering",
+     "Faculty of Foundation in Business",
+     "Faculty of Advanced Mechanical Engineering",
+ ],
+ facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
+ affilationRecognition : ["EUA","IAU","HEA","EUt+"],
+},
+  { 
+
+  name: "National College of Ireland",
+ image: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1745657775/Ireland_university_2_National_College_xoweri.webp",
+ slug: "national-college-of-ireland",
+ country : "ireland",
+ overview : ["Established in 1951, the National College of Ireland (NCI) is a not-for-profit public and state-supported advanced education establishment located in Dublin's city centre, Ireland, which receives core state financing directly from the Department of Education and Skills and annually welcomes hundreds of students from 80 countries. The college maintains strong relations with notably famous US colleges; for instance, its M.Sc. in Cloud Computing program was developed with input from educators at Stanford, UC Berkeley, and Cornell. NCI is also home to one of the largest schools in Ireland, the NCI School of Computing, situated in the heart of Dublin, an area often referred to as the Silicon Valley of Europe. Beyond degree programs, the National College of Ireland offers a range of Certificate, Higher Diploma, Foundation, and Pre-Masters courses that provide excellent opportunities for progression to further education or to enhance career paths."],
+ academic : ["The National College of Ireland (NCI) is renowned for providing its international students with high-quality, top-ranked academic programs offered at the undergraduate, postgraduate, and doctorate levels. NCI courses encompass full-time and part-time options across diverse fields such as Business, Psychology, Education, and Computing, ranging from certificate to degree level. Through its various faculties, the National College of Ireland offers a wide variety of courses particularly at the undergraduate and postgraduate levels."],
+ academicImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1745657780/Ireland_university_2_National_College_academic_ojheds.webp",
+ faculties : [
+     "Faculty of Business",
+     "Faculty of Computing",
+     "Faculty of Cloud Competency Centre",
+     "Faculty of Psychology Department",
+     "Faculty of Advanced Mechanical Engineering",
+ ],
+ facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
+ affilationRecognition : ["EUA","IAU","HEA","EUt+"],
+},
+
+ { 
+
+  name: "Dublin City University",
+ image: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1745657788/Ireland_university_3_Dublin_City_ahuhv9.webp",
+ slug: "dublin-city-university",
+ country : "ireland",
+ overview : ["Established in 1975 as the National Institute for Higher Education and later becoming a public university, Dublin City University holds the distinction of being the first university in the world to establish an Institute of Ethics, founded in 2006. The university boasts a student exchange program reaching across more than 100 countries worldwide and takes pride in its standing as one of the world's leading Young Universities with a mission focused on transforming lives and societies. Demonstrating its commitment to student success, 97% of its graduates are in employment or further education within six months of graduation."],
+ academic : ["Dublin City University (DCU) is renowned for offering exceptional academic programs to both its international and domestic students, with DCU courses recognized among the best and top-ranked globally. DCU provides a comprehensive range of programs for its students at the undergraduate, postgraduate, and doctorate levels."],
+ academicImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1745657792/Ireland_university_3_Dublin_City_academic_pkg9g2.webp",
+ faculties : [
+     "Faculty of Business School",
+     "Faculty of Engineering & Computing",
+     "Faculty of Humanities & Social Sciences",
+     "Faculty of Science & Health",
+     "Faculty of Management Strategy",
+ ],
+ facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
+ affilationRecognition : ["EUA","AACSB","AMBA","EUt+"],
+},
+
+    { 
+
+  name: "University College Cork",
+ image: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1745657811/Ireland_university_4_University_Cork_byio7h.webp",
+ slug: "university-college-cork",
+ country : "ireland",
+ overview : ["Established in 1845 in Cork, Ireland, University College Cork (UCC) is a globally recognized research-led university boasting a vibrant campus, strong academic programs, and a rich history and long-standing tradition of independent thinking, teaching, research, and scholarship. UCC is known for fostering a diverse student body, attracting a significant number of international students from over 100 countries, which contributes to its strong international presence, further solidified by numerous partnerships with universities around the world."],
+ academic : ["University College Cork (UCC) is a globally recognized institution distinguished by its strong academic tradition, offering a diverse range of programs and demonstrating a clear commitment to research and scholarship, which is reflected in its high-quality teaching and strong research focus. The university enjoys a robust global reputation, successfully attracting a diverse student body from over 130 countries and fostering a vibrant multi-cultural community on campus."],
+ academicImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1745657816/Ireland_university_4_University_Cork_academic_pwp1hj.webp",
+ faculties : [
+     "Faculty of Business School",
+     "Faculty of Engineering & Computing",
+     "Faculty of Humanities & Social Sciences",
+     "Faculty of Science & Health",
+     "Faculty of Management Strategy",
+ ],
+ facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
+ affilationRecognition : ["EUA","AACSB","AMBA","EUt+"],
+},
+
+
+
+//Spain
+
+{ 
+
+  name: "Saint Louis University Madrid",
+  image: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1745585068/Spain_university_1_Saint_Louis_gup25x.jpg",
+  slug: "saint-louis-university-madrid",
+  country : "spain",
+  overview : ["Heriot-Watt University Malaysia, a state-of-the-art educational facility located in Putrajaya, Malaysia, is a branch campus of the UK-based Heriot-Watt University, having opened its doors in 2014. This campus offers a variety of degree programs, distinguished by its focus on technology, innovation, and a green campus environment. Drawing upon the established reputation of its parent institution, which is known for world-class teaching and practical, leading-edge research, the Malaysian campus is part of a truly international university network that spans five global campuses, boasts partners in 150 countries, and educates 30,000 students worldwide."],
+  academic : ["Heriot-Watt University Malaysia offers high-quality British education delivered within a global context, with a strong emphasis on research and building industry connections, particularly relevant to fields such as business, engineering, and design. Its campus, located in Putrajaya, is notably the first green campus in Malaysia and provides students with a modern, state-of-the-art learning environment."],
+  academicImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1745585071/Spain_university_1_Saint_Louis_academic_nfkrut.jpg",
+  faculties : [
+      "Faculty of Mechanical Engineering",
+      "Faculty of Psychology with Management",
+      "Faculty of Chemical Engineering",
+      "Faculty of Foundation in Business",
+      "Faculty of Advanced Mechanical Engineering",
+  ],
+  facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
+  affilationRecognition : ["ELLS","MQA","EBU","LCPU"],
+},
+
+
                 
             ],
           },

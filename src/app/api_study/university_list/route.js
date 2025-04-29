@@ -389,6 +389,38 @@ export async function GET() {
         country : "germany",
         university : "PFH Germany",
       },
+
+       //malaysia
+       {
+        country : "malaysia",
+        university : "Heriot Watt University",
+      },
+
+      //ireland
+
+      {
+        country : "ireland",
+        university : "Technological University Dublin",
+      },
+      {
+        country : "ireland",
+        university : "National College of Ireland",
+      },
+      {
+        country : "ireland",
+        university : "Dublin City University",
+      },
+      {
+        country : "ireland",
+        university : "University College Cork",
+      },
+
+      //spain
+
+      {
+        country : "spain",
+        university : "Saint Louis University Madrid",
+      },
      
 
       
