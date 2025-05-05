@@ -913,7 +913,7 @@ export async function GET(request, { params }) {
               "North-Western State Medical University (NWSMU) in St. Petersburg, Russia offers undergraduate, graduate, and postgraduate degrees in medicine, dentistry, pharmacy, nursing, and other medical and healthcare-related areas. The university is known for its high-quality education and innovative research. Teaching staff Practical physicians, Academicians of the Russian Academy of Sciences, Honored doctors of Russia, Candidates of medical sciences, and Doctors of medical sciences",
             ],
             academicImg:
-              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1739793855/img_bg_sybjt5.png",
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741759187/Russia_university_1_academic_pic_if9to0.jpg",
             faculties: [
               "Medical Faculty",
               "Faculty of Medical Pedagogy",
