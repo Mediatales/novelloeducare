@@ -57,8 +57,105 @@ export async function GET(request, { params }) {
             ],
           },
 
+          // Add new data
           {
-            name: "Tashkent Medical Academy University",
+            name: "KIMYO INTERNATIONAL UNIVERSITY",
+            image:
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741767035/pic_5_hbwmul.jpg",
+            slug: "KIMYO INTERNATIONAL UNIVERSITY",
+            country: "uzbekistan",
+            overview: [
+              "Kimyo International University in Tashkent (KIUT) is the first private higher education institution in Tashkent, Uzbekistan, established in 2018. Initially known as Yeoju Technical Institute in Tashkent, it was founded through an agreement between the South Korean and Uzbek governments. The university is located in Tashkent, the capital city of Uzbekistan, and has expanded its reach by opening branches in Namangan (2021) and Samarkand (2022). KIUT is equipped with advanced technology and modern facilities, including a hospital for practical learning, and focuses on providing value-based education.",
+            ],
+            academic: [
+              "KIUT offers a diverse range of programs in Uzbek, Russian, and English languages, across full-time, extramural, and evening study formats. As of February 2024, it provides 28 bachelor's degree programs and 20 master's degree programs. The curriculum is designed to foster critical thinking and practical expertise, with periodic updates to integrate the latest advancements. The university also offers a 6-year MBBS course which includes a one-year internship and is taught entirely in English.",
+            ],
+            academicImg:
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741767783/pic_1_jbp3ed.jpg",
+            faculties: [
+              "School of General Medicine",
+              "School of Dentistry",
+              "School of Pediatrics",
+              "School of Nursing",
+              "School of Business & Finance ",
+              "School of Engineering",
+            ],
+            facultyImg:
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741767120/pic_4_l3uszb.jpg",
+            affilationRecognition: [
+              "National Medical Commission of India (NMC)",
+              "World Health Organization (WHO)",
+              "United Nations Educational, Scientific and Cultural Organization (UNESCO)",
+              "IQAA agencies (and included in the European EQAR database)",
+            ],
+          },
+
+          {
+            name: "KARSHI STATE MEDICAL UNIVERSITY",
+            image:
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741767035/pic_5_hbwmul.jpg",
+            slug: "KARSHI STATE MEDICAL UNIVERSITY",
+            country: "uzbekistan",
+            overview: [
+              "Karshi State Medical University (KSMU), located in Karshi, Uzbekistan, is a rapidly developing center for medical education, clinical training, and research. Established in 2021 as the Faculty of Medicine under Karshi State University through a Presidential Decree, KSMU is committed to producing skilled and globally competent healthcare professionals. The university emphasizes practical learning and interdisciplinary research, with a strong focus on early clinical exposure through partnerships with over 12 affiliated hospitals and medical centers in the Karshi region.",
+            ],
+            academic: [
+              "KSMU offers a range of undergraduate and postgraduate medical programs. The flagship program is the 6-year MBBS (General Medicine) course, which includes an internship and is offered in both English and Russian languages to meet international standards. A parallel 6-year program in Pediatrics is also available. The curriculum integrates modern teaching methodologies and cutting-edge research practices, utilizing advanced simulation labs and digital libraries.",
+            ],
+            academicImg:
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741767783/pic_1_jbp3ed.jpg",
+            faculties: [
+              "Faculty of General Medicine",
+              "Faculty of Pediatrics",
+              "Faculty of Dentistry",
+              "Faculty of Pharmacy",
+              "Faculty of Nursing",
+              "Postgraduate Medical Studies",
+            ],
+            facultyImg:
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741767120/pic_4_l3uszb.jpg",
+            affilationRecognition: [
+              "National Medical Commission of India (NMC)",
+              "World Health Organization (WHO)",
+              "United Nations Educational, Scientific and Cultural Organization (UNESCO)",
+              "FAIMER (Foundation for Advancement of International Medical Education and Research)",
+            ],
+          },
+
+          {
+            name: "IMPULSE MEDICAL INSTITUTE",
+            image:
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741767035/pic_5_hbwmul.jpg",
+            slug: "IMPULSE MEDICAL INSTITUTE",
+            country: "uzbekistan",
+            overview: [
+              "Impulse Medical Institute (IMI), established in 2019 in Namangan City, Uzbekistan, is emerging as a significant hub for medical education. It operates as a semi-government medical institution in collaboration with AMI. IMI aims to provide high-quality, affordable medical education with a strong emphasis on practical training and research. The institute's curriculum is designed to align with international standards, including the USMLE system and the guidelines set by the National Medical Commission (NMC) of India.",
+            ],
+            academic: [
+              "IMI offers a 6-year Bachelor of Medicine (General Medicine) program, which includes 5 years of academic study and 1 year of clinical rotation. The instruction is delivered in both English and Uzbek. The institute focuses on providing hands-on experience through clinical training opportunities at its affiliated hospitals and clinics. It also integrates FMGE/NExT coaching for Indian students, including preparatory classes and mock tests from the second year onwards.",
+            ],
+            academicImg:
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741767783/pic_1_jbp3ed.jpg",
+            faculties: [
+              "Faculty of General Medicine",
+              "Faculty of Pediatrics",
+              "Faculty of Dentistry (mentioned in snippets, indicating a program)",
+              "School of Nursing",
+              "Faculty of Pharmacy (mentioned in snippets, indicating a program)",
+              "Faculty of Nursing (mentioned in snippets, indicating a program)",
+            ],
+            facultyImg:
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741767120/pic_4_l3uszb.jpg",
+            affilationRecognition: [
+              "National Medical Commission of India (NMC)",
+              "World Health Organization (WHO)",
+              "Educational Commission for Foreign Medical Graduates (ECFMG)",
+              "State Inspectorate for Control of the Quality of Education of the Republic of Uzbekistan (holds license number 047559)",
+            ],
+          },
+
+          {
+            name: "Tashkent Medical University",
             image:
               "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741767035/pic_5_hbwmul.jpg",
             slug: "tashkent-medical-academy-university",
@@ -89,67 +186,69 @@ export async function GET(request, { params }) {
             ],
           },
 
-          {
-            name: "Tashkent State Dental Institute",
-            image:
-              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741767949/Top_Uzbekistan_university_4_sejpg7.jpg",
-            slug: "tashkent-state-dental-institute",
-            country: "uzbekistan",
-            overview: [
-              "Founded in 2014, Tashkent State Dental Institute stands as a beacon of excellence in the heart of Tashkent, a city renowned for its architectural splendor and commitment to medical education. With its rapid growth, the institute has become a magnet for thousands of aspiring students annually, drawn by its reputation for providing top-tier education",
-            ],
-            academic: [
-              "Tashkent State Dental Institute (TSDI), established in 2014, provides a comprehensive dental education. It offers a 5-year undergraduate program in dentistry, alongside postgraduate programs including residencies and master's degrees. TSDI focuses on preparing students for successful clinical practice and research careers in various specialized areas of dentistry.",
-            ],
-            academicImg:
-              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741769987/Tashkent_state_dental_2_vwahxw.jpg",
-            faculties: [
-              "Faculty of Medicine",
-              "Faculty of Pharmacy",
-              "Faculty of Higher Nursing",
-              "Faculty of pediatrics",
-              "Faculty of Dentistry",
-              "Faculty of Medical Pedagogy",
-            ],
-            facultyImg:
-              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741769966/Tashkent_state_dental_1_pfmhbj.jpg",
-            affilationRecognition: [
-              "Recognized by the Medical Council of India (MCI).",
-              "NMC and WHO approved",
-              "Recognized by the Ministry of Health of the Republic of Uzbekistan",
-            ],
-          },
+          // Commit Tashkent university
+          // {
+          //   name: "Tashkent State Dental Institute",
+          //   image:
+          //     "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741767949/Top_Uzbekistan_university_4_sejpg7.jpg",
+          //   slug: "tashkent-state-dental-institute",
+          //   country: "uzbekistan",
+          //   overview: [
+          //     "Founded in 2014, Tashkent State Dental Institute stands as a beacon of excellence in the heart of Tashkent, a city renowned for its architectural splendor and commitment to medical education. With its rapid growth, the institute has become a magnet for thousands of aspiring students annually, drawn by its reputation for providing top-tier education",
+          //   ],
+          //   academic: [
+          //     "Tashkent State Dental Institute (TSDI), established in 2014, provides a comprehensive dental education. It offers a 5-year undergraduate program in dentistry, alongside postgraduate programs including residencies and master's degrees. TSDI focuses on preparing students for successful clinical practice and research careers in various specialized areas of dentistry.",
+          //   ],
+          //   academicImg:
+          //     "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741769987/Tashkent_state_dental_2_vwahxw.jpg",
+          //   faculties: [
+          //     "Faculty of Medicine",
+          //     "Faculty of Pharmacy",
+          //     "Faculty of Higher Nursing",
+          //     "Faculty of pediatrics",
+          //     "Faculty of Dentistry",
+          //     "Faculty of Medical Pedagogy",
+          //   ],
+          //   facultyImg:
+          //     "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741769966/Tashkent_state_dental_1_pfmhbj.jpg",
+          //   affilationRecognition: [
+          //     "Recognized by the Medical Council of India (MCI).",
+          //     "NMC and WHO approved",
+          //     "Recognized by the Ministry of Health of the Republic of Uzbekistan",
+          //   ],
+          // },
 
-          {
-            name: "Andijan State Medical Institute",
-            image:
-              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741771360/Andijan_State_Medical_Institute_pic_tv5sdz.png",
-            slug: "andijan-state-medical-institute",
-            country: "uzbekistan",
-            overview: [
-              "Andijan State Medical Institute, situated in the ancient city of Fergana Valley, Andijan City. Established in 1955, Andijan State Medical Institute stands as a leading national institution in the Republic of Uzbekistan. Offering education across more than 56 diverse departments, it provides a comprehensive academic experience for aspiring medical professionals.",
-            ],
-            academic: [
-              "Andijan State Medical Institute provides a broad spectrum of educational opportunities within the healthcare field. At the undergraduate level, the institute offers Bachelor's degrees in a substantial number of subjects, specifically 29, encompassing a wide array of medical, pediatric, and dental courses. This extensive offering allows students to specialize in their areas of interest, gaining a solid foundation for their future careers in healthcare. In addition to these Bachelor's programs, Andijan State Medical Institute also provides vocational courses, further expanding its educational reach.",
-            ],
-            academicImg:
-              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741771856/pic_1_kjrd1l.jpg",
-            faculties: [
-              "Faculty of Medicine",
-              "Faculty of pediatrics",
-              "Department of Surgery",
-              "Faculty of Gynecology",
-              "Faculty of Dentistry",
-              "Faculty of Pharmacy",
-            ],
-            facultyImg:
-              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741771871/pic_7_hue4cz.jpg",
-            affilationRecognition: [
-              "Recognized by the National Medical Commission (NMC)",
-              "World Health Organization (WHO)",
-              "Recognized by the Ministry of Health of the Republic of Uzbekistan",
-            ],
-          },
+          // This card is repeated two times.
+          // {
+          //   name: "Andijan State Medical Institute",
+          //   image:
+          //     "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741771360/Andijan_State_Medical_Institute_pic_tv5sdz.png",
+          //   slug: "andijan-state-medical-institute",
+          //   country: "uzbekistan",
+          //   overview: [
+          //     "Andijan State Medical Institute, situated in the ancient city of Fergana Valley, Andijan City. Established in 1955, Andijan State Medical Institute stands as a leading national institution in the Republic of Uzbekistan. Offering education across more than 56 diverse departments, it provides a comprehensive academic experience for aspiring medical professionals.",
+          //   ],
+          //   academic: [
+          //     "Andijan State Medical Institute provides a broad spectrum of educational opportunities within the healthcare field. At the undergraduate level, the institute offers Bachelor's degrees in a substantial number of subjects, specifically 29, encompassing a wide array of medical, pediatric, and dental courses. This extensive offering allows students to specialize in their areas of interest, gaining a solid foundation for their future careers in healthcare. In addition to these Bachelor's programs, Andijan State Medical Institute also provides vocational courses, further expanding its educational reach.",
+          //   ],
+          //   academicImg:
+          //     "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741771856/pic_1_kjrd1l.jpg",
+          //   faculties: [
+          //     "Faculty of Medicine",
+          //     "Faculty of pediatrics",
+          //     "Department of Surgery",
+          //     "Faculty of Gynecology",
+          //     "Faculty of Dentistry",
+          //     "Faculty of Pharmacy",
+          //   ],
+          //   facultyImg:
+          //     "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741771871/pic_7_hue4cz.jpg",
+          //   affilationRecognition: [
+          //     "Recognized by the National Medical Commission (NMC)",
+          //     "World Health Organization (WHO)",
+          //     "Recognized by the Ministry of Health of the Republic of Uzbekistan",
+          //   ],
+          // },
 
           {
             name: "Fergana State Medical University",
@@ -209,36 +308,37 @@ export async function GET(request, { params }) {
             affilationRecognition: ["FAIMER", "MCI", "NMC", "WHO"],
           },
 
-          {
-            name: "Tashkent State Pediatric University",
-            image:
-              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742974976/Uzbekistan_university_7_Tashkent_agdzas.jpg",
-            slug: "tashkent-state-pediatric-university",
-            country: "uzbekistan",
-            overview: [
-              "Established in 1972, the institution now known as the Tashkent Pediatric Medical Institute has been a significant provider of educational services in the Republic of Uzbekistan, initially operating as the Central Asian Medical Pediatric Institute before its transfer to the Ministry of Uzbekistan in 1988 and subsequent reorganization. Located in Tashkent, the capital city of Uzbekistan, the institute was founded with the primary objective of addressing a shortage of pediatricians and the high infant mortality rates prevalent in the region by training highly qualified doctors and specialists in pediatrics. Since its inception, the institute has successfully graduated over 29,500 highly qualified medical doctors who have contributed significantly to healthcare.",
-            ],
-            academic: [
-              "Tashkent Pediatric Medical Institute (TPMI), which has since been renamed Tashkent State Pediatric University, provides a comprehensive six-year MBBS program alongside various postgraduate opportunities including Master's degrees, clinical residency programs, and further postgraduate education, all of which hold global recognition, including acknowledgment by the Medical Council of India (now NMC).",
-            ],
-            academicImg:
-              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742974988/Uzbekistan_university_7_Tashkent_academic_d9cyhe.jpg",
-            faculties: [
-              "Faculty of General Medicine",
-              "Faculty of Preventive Medicine ",
-              "Faculty of Traditional Medicine",
-              "Faculty of Pediatrics",
-              "Faculty of Biomedical Engineering",
-            ],
-            facultyImg:
-              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
-            affilationRecognition: [
-              "MCI",
-              "Ministry of Health of the Republic of Uzbekistan",
-              "NMC",
-              "WHO",
-            ],
-          },
+          // Commit Tashkent university
+          // {
+          //   name: "Tashkent State Pediatric University",
+          //   image:
+          //     "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742974976/Uzbekistan_university_7_Tashkent_agdzas.jpg",
+          //   slug: "tashkent-state-pediatric-university",
+          //   country: "uzbekistan",
+          //   overview: [
+          //     "Established in 1972, the institution now known as the Tashkent Pediatric Medical Institute has been a significant provider of educational services in the Republic of Uzbekistan, initially operating as the Central Asian Medical Pediatric Institute before its transfer to the Ministry of Uzbekistan in 1988 and subsequent reorganization. Located in Tashkent, the capital city of Uzbekistan, the institute was founded with the primary objective of addressing a shortage of pediatricians and the high infant mortality rates prevalent in the region by training highly qualified doctors and specialists in pediatrics. Since its inception, the institute has successfully graduated over 29,500 highly qualified medical doctors who have contributed significantly to healthcare.",
+          //   ],
+          //   academic: [
+          //     "Tashkent Pediatric Medical Institute (TPMI), which has since been renamed Tashkent State Pediatric University, provides a comprehensive six-year MBBS program alongside various postgraduate opportunities including Master's degrees, clinical residency programs, and further postgraduate education, all of which hold global recognition, including acknowledgment by the Medical Council of India (now NMC).",
+          //   ],
+          //   academicImg:
+          //     "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742974988/Uzbekistan_university_7_Tashkent_academic_d9cyhe.jpg",
+          //   faculties: [
+          //     "Faculty of General Medicine",
+          //     "Faculty of Preventive Medicine ",
+          //     "Faculty of Traditional Medicine",
+          //     "Faculty of Pediatrics",
+          //     "Faculty of Biomedical Engineering",
+          //   ],
+          //   facultyImg:
+          //     "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
+          //   affilationRecognition: [
+          //     "MCI",
+          //     "Ministry of Health of the Republic of Uzbekistan",
+          //     "NMC",
+          //     "WHO",
+          //   ],
+          // },
           {
             name: "Akfa University Medical School",
             image:
@@ -436,6 +536,38 @@ export async function GET(request, { params }) {
               "Faculty of Clinical Psychology",
               "Faculty of Dentistry",
               "Faculty of Post Graduate & Additional Professional Education",
+            ],
+            facultyImg:
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1739793855/img_bg_sybjt5.png",
+            affilationRecognition: [
+              "Post Graduate & Additional Professional Education",
+              "General Medical Council (GMC)",
+              "National Medical Commission of India (NMC)",
+              "World Health Organization (WHO)",
+            ],
+          },
+
+          // add new univeristes here.
+          {
+            name: "NORTHERN STATE MEDICAL UNIVERSITYy",
+            image:
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741774047/Russia_university_2_je0ada.png",
+            slug: "NORTHERN-STATE-MEDICAL-UNIVERSITY",
+            country: "russia",
+            overview: [
+              "Northern State Medical University (NSMU) in Arkhangelsk, Russia, was founded in 1932. It is recognized as the largest and most well-known medical university in the Russian North. The university currently has about 5,000 full-time students enrolled across its faculties. NSMU is equipped with up-to-date facilities, including modern simulation centers in its university buildings and clinics. It boasts 55 departments, with 27 of them being clinically based in the city's best clinics.",
+            ],
+            academic: [
+              "NSMU offers a range of English-medium programs, including General Medicine (MD/MBBS), Nursing, Dentistry, and a Master program in Public Health (MPH). The MPH program was established in 2007. NSMU has been educating foreign citizens since 1991, with the first international students hailing from India, Syria, and Pakistan. Currently, approximately 1,400 medical students from 15 countries study at NSMU.",
+            ],
+            academicImg:
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741773931/russia_university_2_academic_pic_gudu5w.jpg",
+            faculties: [
+              "General Medicine (MD/MBBS)",
+              "Faculty of Dentistry ",
+              "Faculty of Nursing & Dentistry",
+              "Postgraduate Studies (Ph.D.) ",
+              "Public Health (Master program)",
             ],
             facultyImg:
               "https://res.cloudinary.com/dqggm4k7u/image/upload/v1739793855/img_bg_sybjt5.png",
