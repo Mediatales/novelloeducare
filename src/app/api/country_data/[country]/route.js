@@ -549,7 +549,7 @@ export async function GET(request, { params }) {
 
           // add new univeristes here.
           {
-            name: "NORTHERN STATE MEDICAL UNIVERSITYy",
+            name: "NORTHERN STATE MEDICAL UNIVERSITY",
             image:
               "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741774047/Russia_university_2_je0ada.png",
             slug: "NORTHERN-STATE-MEDICAL-UNIVERSITY",
