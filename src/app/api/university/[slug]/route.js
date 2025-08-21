@@ -1406,6 +1406,38 @@ export async function GET(request, { params }) {
             ],
           },
 
+           // Add new card data
+          {
+            name: "INTERNATIONAL MEDICAL UNIVERSITY",
+            image:
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1755772418/international-medical-university-kyrgyzstan-Cover_fgvfaj.jpg",
+            slug: "INTERNATIONAL MEDICAL UNIVERSITY",
+            country: "kyrgyzstan",
+            overview: [
+              "International Medical University (IMU), located in Bishkek, Kyrgyzstan, is a prominent private medical institution established in 2016. The university aims to provide high-quality, affordable medical education. It is recognized for its modern infrastructure, practical-based learning, and a curriculum that aligns with international standards.",
+            ],
+            academic: [
+              "IMU offers a 6-year Bachelor of Medicine (MBBS) program, which includes 5 years of academic study and a 1-year internship. The program is taught entirely in English. The university also offers postgraduate and doctoral programs. IMU's curriculum is structured into pre-clinical, para-clinical, and clinical phases, with a strong focus on hands-on training and clinical rotations at affiliated hospitals.",
+            ],
+            academicImg:
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1755772444/international-medical-university-kyrgyzstan-Students-1_ob5qju.jpg",
+            faculties: [
+              "Faculty of General Medicine",
+              "Faculty of Dentistry",
+              "Faculty of Pediatrics",
+              "Faculty of Pharmacy",
+              "Faculty of Medical Biochemistry",
+            ],
+            facultyImg:
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1755772474/international-medical-university-kyrgyzstan-Team_hag99l.jpg",
+            affilationRecognition: [
+              "National Medical Commission (NMC), India",
+              "Educational Commission for Foreign Medical Graduates (ECFMG)",
+              "World Health Organization (WHO)",
+              "Ministry of Education and Science of the Kyrgyz Republic",
+            ],
+          },
+
           {
             name: "International School of Medicine (ISM)",
             image:
