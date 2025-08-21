@@ -57,102 +57,7 @@ export async function GET(request, { params }) {
             ],
           },
 
-          // Add new data
-          {
-            name: "KIMYO INTERNATIONAL UNIVERSITY",
-            image:
-              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741767035/pic_5_hbwmul.jpg",
-            slug: "KIMYO INTERNATIONAL UNIVERSITY",
-            country: "uzbekistan",
-            overview: [
-              "Kimyo International University in Tashkent (KIUT) is the first private higher education institution in Tashkent, Uzbekistan, established in 2018. Initially known as Yeoju Technical Institute in Tashkent, it was founded through an agreement between the South Korean and Uzbek governments. The university is located in Tashkent, the capital city of Uzbekistan, and has expanded its reach by opening branches in Namangan (2021) and Samarkand (2022). KIUT is equipped with advanced technology and modern facilities, including a hospital for practical learning, and focuses on providing value-based education.",
-            ],
-            academic: [
-              "KIUT offers a diverse range of programs in Uzbek, Russian, and English languages, across full-time, extramural, and evening study formats. As of February 2024, it provides 28 bachelor's degree programs and 20 master's degree programs. The curriculum is designed to foster critical thinking and practical expertise, with periodic updates to integrate the latest advancements. The university also offers a 6-year MBBS course which includes a one-year internship and is taught entirely in English.",
-            ],
-            academicImg:
-              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741767783/pic_1_jbp3ed.jpg",
-            faculties: [
-              "School of General Medicine",
-              "School of Dentistry",
-              "School of Pediatrics",
-              "School of Nursing",
-              "School of Business & Finance ",
-              "School of Engineering",
-            ],
-            facultyImg:
-              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741767120/pic_4_l3uszb.jpg",
-            affilationRecognition: [
-              "National Medical Commission of India (NMC)",
-              "World Health Organization (WHO)",
-              "United Nations Educational, Scientific and Cultural Organization (UNESCO)",
-              "IQAA agencies (and included in the European EQAR database)",
-            ],
-          },
-
-          {
-            name: "KARSHI STATE MEDICAL UNIVERSITY",
-            image:
-              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741767035/pic_5_hbwmul.jpg",
-            slug: "KARSHI STATE MEDICAL UNIVERSITY",
-            country: "uzbekistan",
-            overview: [
-              "Karshi State Medical University (KSMU), located in Karshi, Uzbekistan, is a rapidly developing center for medical education, clinical training, and research. Established in 2021 as the Faculty of Medicine under Karshi State University through a Presidential Decree, KSMU is committed to producing skilled and globally competent healthcare professionals. The university emphasizes practical learning and interdisciplinary research, with a strong focus on early clinical exposure through partnerships with over 12 affiliated hospitals and medical centers in the Karshi region.",
-            ],
-            academic: [
-              "KSMU offers a range of undergraduate and postgraduate medical programs. The flagship program is the 6-year MBBS (General Medicine) course, which includes an internship and is offered in both English and Russian languages to meet international standards. A parallel 6-year program in Pediatrics is also available. The curriculum integrates modern teaching methodologies and cutting-edge research practices, utilizing advanced simulation labs and digital libraries.",
-            ],
-            academicImg:
-              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741767783/pic_1_jbp3ed.jpg",
-            faculties: [
-              "Faculty of General Medicine",
-              "Faculty of Pediatrics",
-              "Faculty of Dentistry",
-              "Faculty of Pharmacy",
-              "Faculty of Nursing",
-              "Postgraduate Medical Studies",
-            ],
-            facultyImg:
-              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741767120/pic_4_l3uszb.jpg",
-            affilationRecognition: [
-              "National Medical Commission of India (NMC)",
-              "World Health Organization (WHO)",
-              "United Nations Educational, Scientific and Cultural Organization (UNESCO)",
-              "FAIMER (Foundation for Advancement of International Medical Education and Research)",
-            ],
-          },
-
-          {
-            name: "IMPULSE MEDICAL INSTITUTE",
-            image:
-              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741767035/pic_5_hbwmul.jpg",
-            slug: "IMPULSE MEDICAL INSTITUTE",
-            country: "uzbekistan",
-            overview: [
-              "Impulse Medical Institute (IMI), established in 2019 in Namangan City, Uzbekistan, is emerging as a significant hub for medical education. It operates as a semi-government medical institution in collaboration with AMI. IMI aims to provide high-quality, affordable medical education with a strong emphasis on practical training and research. The institute's curriculum is designed to align with international standards, including the USMLE system and the guidelines set by the National Medical Commission (NMC) of India.",
-            ],
-            academic: [
-              "IMI offers a 6-year Bachelor of Medicine (General Medicine) program, which includes 5 years of academic study and 1 year of clinical rotation. The instruction is delivered in both English and Uzbek. The institute focuses on providing hands-on experience through clinical training opportunities at its affiliated hospitals and clinics. It also integrates FMGE/NExT coaching for Indian students, including preparatory classes and mock tests from the second year onwards.",
-            ],
-            academicImg:
-              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741767783/pic_1_jbp3ed.jpg",
-            faculties: [
-              "Faculty of General Medicine",
-              "Faculty of Pediatrics",
-              "Faculty of Dentistry (mentioned in snippets, indicating a program)",
-              "School of Nursing",
-              "Faculty of Pharmacy (mentioned in snippets, indicating a program)",
-              "Faculty of Nursing (mentioned in snippets, indicating a program)",
-            ],
-            facultyImg:
-              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741767120/pic_4_l3uszb.jpg",
-            affilationRecognition: [
-              "National Medical Commission of India (NMC)",
-              "World Health Organization (WHO)",
-              "Educational Commission for Foreign Medical Graduates (ECFMG)",
-              "State Inspectorate for Control of the Quality of Education of the Republic of Uzbekistan (holds license number 047559)",
-            ],
-          },
+          
 
           {
             name: "Tashkent Medical University",
@@ -418,6 +323,104 @@ export async function GET(request, { params }) {
             facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
             affilationRecognition : ["MCI","Ministry of Health of the Republic of Uzbekistan","NMC","WHO"],
         },
+
+
+			// Add new data
+          {
+            name: "KIMYO INTERNATIONAL UNIVERSITY",
+            image:
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1755760078/page-header.jpg__2000.0x732.0_q85_subsampling-2_cnxfik.jpg",
+            slug: "KIMYO INTERNATIONAL UNIVERSITY",
+            country: "uzbekistan",
+            overview: [
+              "Kimyo International University in Tashkent (KIUT) is the first private higher education institution in Tashkent, Uzbekistan, established in 2018. Initially known as Yeoju Technical Institute in Tashkent, it was founded through an agreement between the South Korean and Uzbek governments. The university is located in Tashkent, the capital city of Uzbekistan, and has expanded its reach by opening branches in Namangan (2021) and Samarkand (2022). KIUT is equipped with advanced technology and modern facilities, including a hospital for practical learning, and focuses on providing value-based education.",
+            ],
+            academic: [
+              "KIUT offers a diverse range of programs in Uzbek, Russian, and English languages, across full-time, extramural, and evening study formats. As of February 2024, it provides 28 bachelor's degree programs and 20 master's degree programs. The curriculum is designed to foster critical thinking and practical expertise, with periodic updates to integrate the latest advancements. The university also offers a 6-year MBBS course which includes a one-year internship and is taught entirely in English.",
+            ],
+            academicImg:
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1755760362/img_9282_1_dx36az.jpg",
+            faculties: [
+              "School of General Medicine",
+              "School of Dentistry",
+              "School of Pediatrics",
+              "School of Nursing",
+              "School of Business & Finance ",
+              "School of Engineering",
+            ],
+            facultyImg:
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1755760497/8y8a1718.jpg__650x450_q85_crop_subsampling-2_cgpxoy.jpg",
+            affilationRecognition: [
+              "National Medical Commission of India (NMC)",
+              "World Health Organization (WHO)",
+              "United Nations Educational, Scientific and Cultural Organization (UNESCO)",
+              "IQAA agencies (and included in the European EQAR database)",
+            ],
+          },
+
+          {
+            name: "KARSHI STATE MEDICAL UNIVERSITY",
+            image:
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1755760558/1_l93y0m.jpg",
+            slug: "KARSHI STATE MEDICAL UNIVERSITY",
+            country: "uzbekistan",
+            overview: [
+              "Karshi State Medical University (KSMU), located in Karshi, Uzbekistan, is a rapidly developing center for medical education, clinical training, and research. Established in 2021 as the Faculty of Medicine under Karshi State University through a Presidential Decree, KSMU is committed to producing skilled and globally competent healthcare professionals. The university emphasizes practical learning and interdisciplinary research, with a strong focus on early clinical exposure through partnerships with over 12 affiliated hospitals and medical centers in the Karshi region.",
+            ],
+            academic: [
+              "KSMU offers a range of undergraduate and postgraduate medical programs. The flagship program is the 6-year MBBS (General Medicine) course, which includes an internship and is offered in both English and Russian languages to meet international standards. A parallel 6-year program in Pediatrics is also available. The curriculum integrates modern teaching methodologies and cutting-edge research practices, utilizing advanced simulation labs and digital libraries.",
+            ],
+            academicImg:
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1755760647/statistics-bg_ityfpb.jpg",
+            faculties: [
+              "Faculty of General Medicine",
+              "Faculty of Pediatrics",
+              "Faculty of Dentistry",
+              "Faculty of Pharmacy",
+              "Faculty of Nursing",
+              "Postgraduate Medical Studies",
+            ],
+            facultyImg:
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1755760681/2_jmgfwi.jpg",
+            affilationRecognition: [
+              "National Medical Commission of India (NMC)",
+              "World Health Organization (WHO)",
+              "United Nations Educational, Scientific and Cultural Organization (UNESCO)",
+              "FAIMER (Foundation for Advancement of International Medical Education and Research)",
+            ],
+          },
+
+          {
+            name: "IMPULSE MEDICAL INSTITUTE",
+            image:
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1755760788/hero_hxhpla.png",
+            slug: "IMPULSE MEDICAL INSTITUTE",
+            country: "uzbekistan",
+            overview: [
+              "Impulse Medical Institute (IMI), established in 2019 in Namangan City, Uzbekistan, is emerging as a significant hub for medical education. It operates as a semi-government medical institution in collaboration with AMI. IMI aims to provide high-quality, affordable medical education with a strong emphasis on practical training and research. The institute's curriculum is designed to align with international standards, including the USMLE system and the guidelines set by the National Medical Commission (NMC) of India.",
+            ],
+            academic: [
+              "IMI offers a 6-year Bachelor of Medicine (General Medicine) program, which includes 5 years of academic study and 1 year of clinical rotation. The instruction is delivered in both English and Uzbek. The institute focuses on providing hands-on experience through clinical training opportunities at its affiliated hospitals and clinics. It also integrates FMGE/NExT coaching for Indian students, including preparatory classes and mock tests from the second year onwards.",
+            ],
+            academicImg:
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1755760820/statsimage_i6alnb.jpg",
+            faculties: [
+              "Faculty of General Medicine",
+              "Faculty of Pediatrics",
+              "Faculty of Dentistry (mentioned in snippets, indicating a program)",
+              "School of Nursing",
+              "Faculty of Pharmacy (mentioned in snippets, indicating a program)",
+              "Faculty of Nursing (mentioned in snippets, indicating a program)",
+            ],
+            facultyImg:
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1755760864/photo_2025-01-13_16-15-46_ewcb1l.jpg",
+            affilationRecognition: [
+              "National Medical Commission of India (NMC)",
+              "World Health Organization (WHO)",
+              "Educational Commission for Foreign Medical Graduates (ECFMG)",
+              "State Inspectorate for Control of the Quality of Education of the Republic of Uzbekistan (holds license number 047559)",
+            ],
+          },
         ],
         eligibilityPoints: [
           {
