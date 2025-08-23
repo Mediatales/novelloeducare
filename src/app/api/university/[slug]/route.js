@@ -581,6 +581,103 @@ export async function GET(request, { params }) {
             affilationRecognition: ["FAIMER", "ECFMG", "NMC", "WDOMS"],
           },
 
+               {
+            name: "North ossrtian federal university",
+            image:
+              "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nqOelP3H9ebDNoaiuBptkYQuFGunY-AkxAaLHF13WhQmywWyEquywRrLAOS7BUzXQT8bm3FjcqDgN1yH3uxeFZQ1kz0XNMo7-fzm1ghbxv0wsWWX3Cgr0Nb7gAr2A8rpYd8SaQ=s1360-w1360-h1020-rw",
+            slug: "North ossrtian federal university",
+            country: "russia",
+            overview: [
+              "North Ossetian State Medical University (NOSMA), located in Vladikavkaz, Russia, was established in 1939. It is a prominent medical institution in the North Caucasus region and is recognized for its long history of training healthcare professionals. The university offers a variety of medical programs and has a diverse student body, including a significant number of international students.",
+            ],
+            academic: [
+              "NOSMA offers a 6-year General Medicine (MBBS) program, with instruction available in both English and Russian. The curriculum is structured to provide a comprehensive medical education, progressing from fundamental theoretical sciences to advanced clinical practice. It also offers programs in Dentistry and Pharmacy, along with postgraduate training in over 40 medical specialties.",
+            ],
+            academicImg:
+              "https://careerpaathshala.com/wp-content/uploads/2024/01/3-31.jpg",
+            faculties: [
+              "Faculty of General Medicine",
+              "Faculty of Dentistry",
+              "Faculty of Pharmacy",
+              "Faculty of Pediatrics",
+              "Faculty of Postgraduate Studies",
+            ],
+            facultyImg:
+              "https://doctorsdirection.in/wp-content/uploads/2021/02/mbbs-fees-in-crimea.jpg",
+            affilationRecognition: [
+              "Educational Commission for Foreign Medical Graduates (ECFMG ,USA)",
+              "National Medical Commission (NMC, India)",
+              "World Federation for Medical Education (WFME)",
+              "World Health Organization (WHO)",
+            ],
+          },
+
+
+
+           {
+            name: "North Caucasian State Academy",
+            image:
+              "https://studypalacehub.com/wp-content/uploads/2025/03/North-Caucasian-State-Academy-1.webp",
+            slug: "North Caucasian State Academy",
+            country: "russia",
+            overview: [
+              "The North Caucasian State Academy (NCSA) is a multidisciplinary higher education institution located in Cherkessk, Russia. Founded in 1936, it has grown into one of the largest educational establishments in the North Caucasus region, with a strong focus on academic excellence, research, and innovation. It is a public university that attracts both domestic and international students.",
+            ],
+            academic: [
+              "NCSA offers a wide range of academic programs at the undergraduate, postgraduate, and doctoral levels. While it is particularly known for its medical programs, such as General Medicine (MBBS), Dentistry, and Pharmacy, it also offers courses in a variety of other fields. Instruction is available in both English and Russian, catering to a diverse student body.",
+            ],
+            academicImg:
+              "https://static.wixstatic.com/media/177633_7589aad4aa4e44f68dd0f20587f29e72~mv2.jpg/v1/fill/w_6858,h_4572,al_c,q_90/North%20Caucasian%20State%20Medical%20Academy.jpg",
+            faculties: [
+              "Medical Institute",
+              "Institute of Digital Technologies",
+              "Institute of Design and Linguistics",
+              "Agricultural Institute",
+              "Engineering Institute",
+            ],
+            facultyImg:
+              "https://static.wixstatic.com/media/177633_c2be20302e6548d2b32b9eb0468b2dfa~mv2.jpg/v1/fill/w_998,h_730,al_c,q_85/North%20Caucasian%20State%20Medical%20Academy.jpg",
+            affilationRecognition: [
+              "World Federation for Medical Education (WFME)",
+              "National Medical Commission (NMC, India)",
+              "Ministry of Science and Higher Education of the Russian Federation",
+              "World Health Organization (WHO)",
+            ],
+          },
+
+
+           {
+            name: "Novgorod State University",
+            image:
+              "https://lh3.googleusercontent.com/gps-cs-s/AC9h4npMK2NoJG8zYaA2Z0MQ3KOh3i97PoKqtmJC7JQB3FKu4L8OrsHlxmJlSeJgPItV_0wuOJ4ic9ORHSKW27IUXGP3Zw95-rzf_oTUPsBs1vQOEp-St56UWbO4mkYcze-DqJhns5_Z=s1360-w1360-h1020-rw",
+            slug: "Novgorod State University",
+            country: "russia",
+            overview: [
+              "The North Caucasian State Academy (NCSA) is a multidisciplinary higher education institution located in Cherkessk, Russia. Founded in 1936, it has grown into one of the largest educational establishments in the North Caucasus region, with a strong focus on academic excellence, research, and innovation. It is a public university that attracts both domestic and international students.",
+            ],
+            academic: [
+              "NCSA offers a wide range of academic programs at the undergraduate, postgraduate, and doctoral levels. While it is particularly known for its medical programs, such as General Medicine (MBBS), Dentistry, and Pharmacy, it also offers courses in a variety of other fields. Instruction is available in both English and Russian, catering to a diverse student body.",
+            ],
+            academicImg:
+              "https://novsu.in/wp-content/uploads/2021/05/college-students-3990783_640.jpg",
+            faculties: [
+              "Medical Institute",
+              "Institute of Digital Technologies",
+              "Institute of Design and Linguistics",
+              "Agricultural Institute",
+              "Engineering Institute",
+            ],
+            facultyImg:
+              "https://www.ruseducation.in/wp-content/uploads/2022/12/nizhny-novgorod-state-medical-university-4.webp",
+            affilationRecognition: [
+              "World Federation for Medical Education (WFME)",
+              "National Medical Commission (NMC, India)",
+              "Ministry of Science and Higher Education of the Russian Federation",
+              "World Health Organization (WHO)",
+            ],
+          },
+
+
           {
             name: "Altai State Medical University",
             image:
