@@ -1057,36 +1057,137 @@ export async function GET(request, { params }) {
           },
 
           // add university details.
-          {
-            name: "NORTHERN STATE MEDICAL UNIVERSITY",
+         
+                    // add more universities here
+                    {
+            name: "Northern state medical university",
             image:
-              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741774047/Russia_university_2_je0ada.png",
-            slug: "NORTHERN-STATE-MEDICAL-UNIVERSITY",
+              "https://northernsmu.in/assets/img/banner.jpg",
+            slug: "Northern state medical university",
             country: "russia",
             overview: [
               "Northern State Medical University (NSMU) in Arkhangelsk, Russia, was founded in 1932. It is recognized as the largest and most well-known medical university in the Russian North. The university currently has about 5,000 full-time students enrolled across its faculties. NSMU is equipped with up-to-date facilities, including modern simulation centers in its university buildings and clinics. It boasts 55 departments, with 27 of them being clinically based in the city's best clinics.",
             ],
             academic: [
-              "NSMU offers a range of English-medium programs, including General Medicine (MD/MBBS), Nursing, Dentistry, and a Master program in Public Health (MPH). The MPH program was established in 2007. NSMU has been educating foreign citizens since 1991, with the first international students hailing from India, Syria, and Pakistan. Currently, approximately 1,400 medical students from 15 countries study at NSMU.",
+              "NSMU offers a range of English-medium programs, including General Medicine (MD/MBBS), Nursing, Dentistry, and a Master program in Public Health (MPH). The MPH program was established in 2007. NSMU has been educating foreign citizens since 1991, with the first international students hailing from India, Syria, and Pakistan. Currently, approximately 1,400 medical students from 15 countries study at NSMU",
             ],
             academicImg:
-              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741773931/russia_university_2_academic_pic_gudu5w.jpg",
+              "https://northernsmu.in/assets/img/about.jpg",
             faculties: [
               "General Medicine (MD/MBBS)",
-              "Faculty of Dentistry ",
-              "Faculty of Nursing & Dentistry",
-              "Postgraduate Studies (Ph.D.) ",
+              "Faculty of  Dentistry ",
+              "Faculty of Nursing ",
               "Public Health (Master program)",
+              "Postgraduate Studies (Ph.D.) ",
             ],
             facultyImg:
-              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1739793855/img_bg_sybjt5.png",
+              "https://northernsmu.in/assets/img/about.jpg",
             affilationRecognition: [
-              "World Health Organization (WHO) ",
               "ECFMG (USA)",
               "Medical Council of India (MCI Rules)",
               "Medical Board of Thailand",
+              "World Health Organization (WHO)",
             ],
           },
+
+
+            {
+            name: "Chuvash State Medical University",
+            image:
+              "https://www.chuvsu.in/images/chuvash-state-medical.webp",
+            slug: "Chuvash State Medical University",
+            country: "russia",
+            overview: [
+              "Chuvash State Medical University, officially named after I.N. Ulyanov, is a public institution established in 1967 in Cheboksary, Russia. It is recognized as a leading medical and scientific center in the Chuvash Republic. The university is known for its affordable and globally recognized medical degrees, with a large number of international students.",
+            ],
+            academic: [
+              "The university offers a variety of educational programs, with the MBBS (General Medicine) program being the most popular, especially for international students, due to it being taught in English. The program duration is six years, including one year of a compulsory internship.",
+            ],
+            academicImg:
+              "https://www.chuvsu.in/images/events/events-1.jpg",
+            faculties: [
+              "Faculty of Pediatrics",
+              "Faculty of General Medicine",
+              "Faculty of Dentistry",
+              "Faculty of Pharmacy",
+            ],
+            facultyImg:
+              "https://www.chuvsu.in/images/events/events-1.jpg",
+            affilationRecognition: [
+              "World Directory of Medical Schools (WDOMS)",
+              "Educational Commission for Foreign Medical Graduates (ECFMG)",
+              "National Medical Commission of India (NMC)",
+              "World Health Organization (WHO)",
+            ],
+          },
+
+
+           {
+            name: "Kazan faderal university",
+            image:
+              "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nrAP6Hq46Q35R2fR9tgGfv1c55MVatJOi8zsGkUHwSac9MNZlGlZbeValzgwqRzXmyTYFDJVFZWim1G7muNKyPbuWUCpL3wXGj_bb-qfMjoDZ4NOELaY9FOS1SdNn9YT5_I-pzltw=s1360-w1360-h1020-rw",
+            slug: "Kazan faderal university",
+            country: "russia",
+            overview: [
+              "Kazan Federal University (KFU), founded in 1804, is the second oldest university in Russia. It is located in Kazan and is recognized as a leading educational and research institution. KFU is known as the birthplace of organic chemistry and electron spin resonance. The university has a large and diverse student body, with over 50,000 students, including more than 10,500 international students from over 100 countries.",
+            ],
+            academic: [
+              "NSMU offers a wide array of English-medium academic programs. These include a 6-year General Medicine (MD/MBBS) program with a structured curriculum that progresses from foundational theoretical subjects to clinical and internship training. The university also provides a Dentistry program that is compatible with European standards, and a Nursing program. Additionally, it offers a Master program in Public Health (MPH), which is the sole program of its kind in Russia to be recognized by the Association of Public Health Schools in Europe. For outstanding graduates, Postgraduate Studies, including doctoral (Ph.D.) programs, are also available, with studies conducted on the basis of individual plans and under the guidance of supervisors.",
+            ],
+            academicImg:
+              "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nrvk0n8zZksBU9Ktnw0tfOqLh6DSngRO1NbfvE5uqwsQzvn-eO2lhvBqHieAc3H6_jvRC31km3wr_2S96scBu_agiJogGLN8OD8PBMvcd-hHhNvwAQddLKj28F3TfObHzdlT9VWBQ=w141-h101-n-k-no-nu",
+            faculties: [
+              "General Medicine (MD/MBBS)",
+              "Institute of Dentistry",
+              "Institute of Pharmacy",
+              "Master program in Public Health (MPH)",
+              "Postgraduate Studies: Doctoral (Ph.D.)",
+            ],
+            facultyImg:
+              "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nrvk0n8zZksBU9Ktnw0tfOqLh6DSngRO1NbfvE5uqwsQzvn-eO2lhvBqHieAc3H6_jvRC31km3wr_2S96scBu_agiJogGLN8OD8PBMvcd-hHhNvwAQddLKj28F3TfObHzdlT9VWBQ=w141-h101-n-k-no-nu",
+            affilationRecognition: [
+              "Educational Commission for Foreign Medical Graduates (ECFMG, USA)",
+              "National Medical Commission (NMC, India)",
+              "General Medical Council of Britain",
+              "World Health Organization (WHO)",
+            ],
+          },
+
+
+          {
+            name: "FAR Eastern federal university",
+            image:
+              "https://www.ruseducation.in/wp-content/uploads/2022/01/Far-Eastern-Federal-University.webp",
+            slug: "FAR Eastern federal university",
+            country: "russia",
+            overview: [
+              "Far Eastern Federal University (FEFU) was founded in 1899 in Vladivostok, Russia. It is a public university recognized as a major scientific and educational hub in the Asia-Pacific region. It is one of Russia's largest universities with a modern campus located on Russky Island.",
+            ],
+            academic: [
+              "FEFU offers a 6-year General Medicine (MBBS) program that is popular with international students. The curriculum includes both theoretical and practical training, with clinical practice taking place at the FEFU Medical Center and other affiliated hospitals. The program is offered in English. For postgraduate studies and specialized medical fields, students can continue their education in a clinical residency or on postgraduate courses. The university has departments that specialize in various fields, including neurology, neurosurgery, orthopedics, cardiology, and general surgery.",
+            ],
+            academicImg:
+              "https://www.dvfu.ru/upload/resize_cache/iblock/304/ebtqgazoal6tj3i8ku79vyq1iaiylmrq/280_160_2/%D0%A4.jpg",
+            faculties: [
+              "General Medicine (MD/MBBS)",
+              "Institute of Dentistry",
+              "Institute of Nursing",
+              "Master program in Public Health (MPH)",
+              "Institute of Pharmacy",
+            ],
+            facultyImg:
+              "https://www.dvfu.ru/upload/resize_cache/iblock/304/ebtqgazoal6tj3i8ku79vyq1iaiylmrq/280_160_2/%D0%A4.jpg",
+            affilationRecognition: [
+              "Educational Commission for Foreign Medical Graduates (ECFMG)",
+              "National Medical Commission (NMC, India)",
+              "Foundation for Advancement of International Medical Education and Research (FAIMER)",
+              "World Health Organization (WHO)",
+            ],
+          },
+
+
+
+          // End more universities here
 
           {
             name: "North-Western State Medical University",
