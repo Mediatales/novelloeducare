@@ -554,129 +554,34 @@ export async function GET(request, { params }) {
             affilationRecognition: ["FAIMER", "ECFMG", "NMC", "WDOMS"],
           },
 
-          {
-            name: "Far Eastern Federal University",
-            image:
-              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742967719/Russia_university_Far_30_pic_qouodo.jpg",
-            slug: "far-eastern-federal-university",
-            country: "russia",
-            overview: [
-              "Established in 1899 in Vladivostok, a city often referred to as Russia's San Francisco and the administrative center of Primorsky Krai in Eastern Russia, Far Eastern Federal University (FEFU) holds a significant position as one of the leading universities recognized by the Russian Ministry of Education and Science. This recognition underscores FEFU's crucial role in enhancing the international competitiveness of Russian universities within the global landscape of prominent research and education centers. The university's Medical Centre boasts a highly skilled and specialized team of over 200 professionals, providing advanced medical facilities to patients, with the expertise of these doctors being sought after both within Russia and internationally. Furthermore, Far Eastern Federal University has consistently championed a high-tech approach to education, equipping its medical facilities with cutting-edge equipment produced by leading manufacturers in the medical industry, ensuring students and patients benefit from the latest advancements in medical technology and care.",
-            ],
-            academic: [
-              "Far Eastern Federal University (FEFU) provides a comprehensive array of academic programs spanning bachelor's, master's, and doctoral levels across diverse disciplines such as engineering, sciences, economics, humanities, and medicine, with a strong emphasis on fostering international cooperation and developing practical, real-world skills in its graduates.",
-            ],
-            academicImg:
-              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742967750/Russia_university_far_30_academic_pic_vfk1ep.jpg",
-            faculties: [
-              "Faculty of Medicine",
-              "Faculty of Biomedicine",
-              "Faculty of Pediatrics",
-              "Faculty of Nursing",
-              "Faculty of Obstetrics & Gynecology",
-              "Faculty of Pharmacy",
-            ],
-            facultyImg:
-              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
-            affilationRecognition: ["FAIMER", "ECFMG", "NMC", "WDOMS"],
-          },
+          // {
+          //   name: "Far Eastern Federal University",
+          //   image:
+          //     "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742967719/Russia_university_Far_30_pic_qouodo.jpg",
+          //   slug: "far-eastern-federal-university",
+          //   country: "russia",
+          //   overview: [
+          //     "Established in 1899 in Vladivostok, a city often referred to as Russia's San Francisco and the administrative center of Primorsky Krai in Eastern Russia, Far Eastern Federal University (FEFU) holds a significant position as one of the leading universities recognized by the Russian Ministry of Education and Science. This recognition underscores FEFU's crucial role in enhancing the international competitiveness of Russian universities within the global landscape of prominent research and education centers. The university's Medical Centre boasts a highly skilled and specialized team of over 200 professionals, providing advanced medical facilities to patients, with the expertise of these doctors being sought after both within Russia and internationally. Furthermore, Far Eastern Federal University has consistently championed a high-tech approach to education, equipping its medical facilities with cutting-edge equipment produced by leading manufacturers in the medical industry, ensuring students and patients benefit from the latest advancements in medical technology and care.",
+          //   ],
+          //   academic: [
+          //     "Far Eastern Federal University (FEFU) provides a comprehensive array of academic programs spanning bachelor's, master's, and doctoral levels across diverse disciplines such as engineering, sciences, economics, humanities, and medicine, with a strong emphasis on fostering international cooperation and developing practical, real-world skills in its graduates.",
+          //   ],
+          //   academicImg:
+          //     "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742967750/Russia_university_far_30_academic_pic_vfk1ep.jpg",
+          //   faculties: [
+          //     "Faculty of Medicine",
+          //     "Faculty of Biomedicine",
+          //     "Faculty of Pediatrics",
+          //     "Faculty of Nursing",
+          //     "Faculty of Obstetrics & Gynecology",
+          //     "Faculty of Pharmacy",
+          //   ],
+          //   facultyImg:
+          //     "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
+          //   affilationRecognition: ["FAIMER", "ECFMG", "NMC", "WDOMS"],
+          // },
 
-        {
-            name: "North ossrtian federal university",
-            image:
-              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756109187/unnamed_xfukxl.webp",
-            slug: "North ossrtian federal university",
-            country: "russia",
-            overview: [
-              "North Ossetian State Medical University (NOSMA), located in Vladikavkaz, Russia, was established in 1939. It is a prominent medical institution in the North Caucasus region and is recognized for its long history of training healthcare professionals. The university offers a variety of medical programs and has a diverse student body, including a significant number of international students.",
-            ],
-            academic: [
-              "NOSMA offers a 6-year General Medicine (MBBS) program, with instruction available in both English and Russian. The curriculum is structured to provide a comprehensive medical education, progressing from fundamental theoretical sciences to advanced clinical practice. It also offers programs in Dentistry and Pharmacy, along with postgraduate training in over 40 medical specialties.",
-            ],
-            academicImg:
-              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756109286/3-31_wtjigy.jpg",
-            faculties: [
-              "Faculty of General Medicine",
-              "Faculty of Dentistry",
-              "Faculty of Pharmacy",
-              "Faculty of Pediatrics",
-              "Faculty of Postgraduate Studies",
-            ],
-            facultyImg:
-              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756109311/mbbs-fees-in-crimea_p7tyat.jpg",
-            affilationRecognition: [
-              "Educational Commission for Foreign Medical Graduates (ECFMG ,USA)",
-              "National Medical Commission (NMC, India)",
-              "World Federation for Medical Education (WFME)",
-              "World Health Organization (WHO)",
-            ],
-          },
-
-
-
-         {
-            name: "North Caucasian State Academy",
-            image:
-              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756109411/North-Caucasian-State-Academy-1_olszaf.webp",
-            slug: "North Caucasian State Academy",
-            country: "russia",
-            overview: [
-              "The North Caucasian State Academy (NCSA) is a multidisciplinary higher education institution located in Cherkessk, Russia. Founded in 1936, it has grown into one of the largest educational establishments in the North Caucasus region, with a strong focus on academic excellence, research, and innovation. It is a public university that attracts both domestic and international students.",
-            ],
-            academic: [
-              "NCSA offers a wide range of academic programs at the undergraduate, postgraduate, and doctoral levels. While it is particularly known for its medical programs, such as General Medicine (MBBS), Dentistry, and Pharmacy, it also offers courses in a variety of other fields. Instruction is available in both English and Russian, catering to a diverse student body.",
-            ],
-            academicImg:
-              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756109445/North_Caucasian_State_Medical_Academy_b572tf.jpg",
-            faculties: [
-              "Medical Institute",
-              "Institute of Digital Technologies",
-              "Institute of Design and Linguistics",
-              "Agricultural Institute",
-              "Engineering Institute",
-            ],
-            facultyImg:
-              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756109471/North_Caucasian_State_Medical_Academy_lprdnq.jpg",
-            affilationRecognition: [
-              "World Federation for Medical Education (WFME)",
-              "National Medical Commission (NMC, India)",
-              "Ministry of Science and Higher Education of the Russian Federation",
-              "World Health Organization (WHO)",
-            ],
-          },
-
-        
-           {
-            name: "Novgorod State University",
-            image:
-              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756109566/unnamed_gyzfdk.webp",
-            slug: "Novgorod State University",
-            country: "russia",
-            overview: [
-              "The North Caucasian State Academy (NCSA) is a multidisciplinary higher education institution located in Cherkessk, Russia. Founded in 1936, it has grown into one of the largest educational establishments in the North Caucasus region, with a strong focus on academic excellence, research, and innovation. It is a public university that attracts both domestic and international students.",
-            ],
-            academic: [
-              "NCSA offers a wide range of academic programs at the undergraduate, postgraduate, and doctoral levels. While it is particularly known for its medical programs, such as General Medicine (MBBS), Dentistry, and Pharmacy, it also offers courses in a variety of other fields. Instruction is available in both English and Russian, catering to a diverse student body.",
-            ],
-            academicImg:
-              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756109618/college-students-3990783_640_ggisxt.jpg",
-            faculties: [
-              "Medical Institute",
-              "Institute of Digital Technologies",
-              "Institute of Design and Linguistics",
-              "Agricultural Institute",
-              "Engineering Institute",
-            ],
-            facultyImg:
-              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756109656/nizhny-novgorod-state-medical-university-4_sgndvm.webp",
-            affilationRecognition: [
-              "World Federation for Medical Education (WFME)",
-              "National Medical Commission (NMC, India)",
-              "Ministry of Science and Higher Education of the Russian Federation",
-              "World Health Organization (WHO)",
-            ],
-          },
-
+      
 
           {
             name: "Altai State Medical University",
@@ -1279,6 +1184,201 @@ export async function GET(request, { params }) {
               "Medical Board of Thailand",
             ],
           },
+
+            {
+            name: "North ossrtian federal university",
+            image:
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756109187/unnamed_xfukxl.webp",
+            slug: "North ossrtian federal university",
+            country: "russia",
+            overview: [
+              "North Ossetian State Medical University (NOSMA), located in Vladikavkaz, Russia, was established in 1939. It is a prominent medical institution in the North Caucasus region and is recognized for its long history of training healthcare professionals. The university offers a variety of medical programs and has a diverse student body, including a significant number of international students.",
+            ],
+            academic: [
+              "NOSMA offers a 6-year General Medicine (MBBS) program, with instruction available in both English and Russian. The curriculum is structured to provide a comprehensive medical education, progressing from fundamental theoretical sciences to advanced clinical practice. It also offers programs in Dentistry and Pharmacy, along with postgraduate training in over 40 medical specialties.",
+            ],
+            academicImg:
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756109286/3-31_wtjigy.jpg",
+            faculties: [
+              "Faculty of General Medicine",
+              "Faculty of Dentistry",
+              "Faculty of Pharmacy",
+              "Faculty of Pediatrics",
+              "Faculty of Postgraduate Studies",
+            ],
+            facultyImg:
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756109311/mbbs-fees-in-crimea_p7tyat.jpg",
+            affilationRecognition: [
+              "Educational Commission for Foreign Medical Graduates (ECFMG ,USA)",
+              "National Medical Commission (NMC, India)",
+              "World Federation for Medical Education (WFME)",
+              "World Health Organization (WHO)",
+            ],
+          },
+
+
+
+         {
+            name: "North Caucasian State Academy",
+            image:
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756109411/North-Caucasian-State-Academy-1_olszaf.webp",
+            slug: "North Caucasian State Academy",
+            country: "russia",
+            overview: [
+              "The North Caucasian State Academy (NCSA) is a multidisciplinary higher education institution located in Cherkessk, Russia. Founded in 1936, it has grown into one of the largest educational establishments in the North Caucasus region, with a strong focus on academic excellence, research, and innovation. It is a public university that attracts both domestic and international students.",
+            ],
+            academic: [
+              "NCSA offers a wide range of academic programs at the undergraduate, postgraduate, and doctoral levels. While it is particularly known for its medical programs, such as General Medicine (MBBS), Dentistry, and Pharmacy, it also offers courses in a variety of other fields. Instruction is available in both English and Russian, catering to a diverse student body.",
+            ],
+            academicImg:
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756109445/North_Caucasian_State_Medical_Academy_b572tf.jpg",
+            faculties: [
+              "Medical Institute",
+              "Institute of Digital Technologies",
+              "Institute of Design and Linguistics",
+              "Agricultural Institute",
+              "Engineering Institute",
+            ],
+            facultyImg:
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756109471/North_Caucasian_State_Medical_Academy_lprdnq.jpg",
+            affilationRecognition: [
+              "World Federation for Medical Education (WFME)",
+              "National Medical Commission (NMC, India)",
+              "Ministry of Science and Higher Education of the Russian Federation",
+              "World Health Organization (WHO)",
+            ],
+          },
+
+        
+           {
+            name: "Novgorod State University",
+            image:
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756109566/unnamed_gyzfdk.webp",
+            slug: "Novgorod State University",
+            country: "russia",
+            overview: [
+              "The North Caucasian State Academy (NCSA) is a multidisciplinary higher education institution located in Cherkessk, Russia. Founded in 1936, it has grown into one of the largest educational establishments in the North Caucasus region, with a strong focus on academic excellence, research, and innovation. It is a public university that attracts both domestic and international students.",
+            ],
+            academic: [
+              "NCSA offers a wide range of academic programs at the undergraduate, postgraduate, and doctoral levels. While it is particularly known for its medical programs, such as General Medicine (MBBS), Dentistry, and Pharmacy, it also offers courses in a variety of other fields. Instruction is available in both English and Russian, catering to a diverse student body.",
+            ],
+            academicImg:
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756109618/college-students-3990783_640_ggisxt.jpg",
+            faculties: [
+              "Medical Institute",
+              "Institute of Digital Technologies",
+              "Institute of Design and Linguistics",
+              "Agricultural Institute",
+              "Engineering Institute",
+            ],
+            facultyImg:
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756109656/nizhny-novgorod-state-medical-university-4_sgndvm.webp",
+            affilationRecognition: [
+              "World Federation for Medical Education (WFME)",
+              "National Medical Commission (NMC, India)",
+              "Ministry of Science and Higher Education of the Russian Federation",
+              "World Health Organization (WHO)",
+            ],
+          },
+
+
+          // morrersdfsadfhsdfdfasdfgasdfg
+            {
+            name: "Derzhavin Tambov State University",
+            image:
+              "https://lh3.googleusercontent.com/gps-cs-s/AC9h4np4WHWyOaXXw7uhfXcOsNA1VJF0kqlv3gGyOcCRicsufxEmvP_so8ee_PKiTPqz89kwUPdUx1apoiI_aoVfWB30IuVsEJIq7f_TNmf8TG5G3esTiGyfXY2nVkkXFw0SnuvswmNJ=s680-w680-h510-rw",
+            slug: "Derzhavin Tambov State University",
+            country: "russia",
+            overview: [
+              "Derzhavin Tambov State University (TSU) is a public state university located in Tambov, Russia. It was founded in 1994 by merging the Tambov State Pedagogical Institute and the Tambov State Institute of Culture. The university is named after the Russian poet and statesman Gavrila Romanovich Derzhavin. With over 13,000 students, including more than 2,700 international students from over 69 countries, it is the largest university in the Tambov region.",
+            ],
+            academic: [
+              "The university offers more than 100 programs in various fields, including medicine, economics, nanotechnology, and information technology. The medical programs, particularly the General Medicine (MBBS) course, are taught in both English and Russian. The duration of the MBBS program is 6 years, which includes a mandatory 1-year internship.",
+            ],
+            academicImg:
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756119615/hgojtlnoqerc901k6wt14ug9yj8grfym_pwyswm.webp",
+            faculties: [
+              "Medical Institute",
+              "Pedagogical Institute",
+              "Institute of Natural Sciences",
+              "Institute of Economics, Management, and Service",
+              "Institute of Law and National Security",
+            ],
+            facultyImg:
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756119546/qf9vyynenbu3zozcstxk9y1fr29pcapy_vfs8vu.webp",
+            affilationRecognition: [
+              "International Medical Education Directory",
+              "National Medical Commission (NMC, India)",
+              "Ministry of Science and Higher Education of the Russian Federation",
+              "World Health Organization (WHO)",
+            ],
+          },
+
+
+           {
+            name: "kirov state medical university",
+            image:
+              "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nob_ia7pOarvYE-iKEh8hSxC7qFWGR5L2j9epTvEniqqEq7A1PdlWIQVg9bwiu244BXBPRSRFMBYMgcM3g_SEU4sHJ8nBVMo_WJRe3KW0-7wrVjzozitQXtIyDeYq3n4N6cHy04=s680-w680-h510-rw",
+            slug: "kirov state medical university",
+            country: "russia",
+            overview: [
+              "Established in 1987, Kirov State Medical University is a public higher medical institution in Kirov, Russia. It is a large university with over 5,000 students, including more than 200 international students from 33 countries. With over 50 departments, the university offers instruction in both Russian and English, making it accessible to a wide range of students.",
+            ],
+            academic: [
+              "Kirov State Medical University offers a variety of medical programs to its students. The main faculties include General Medicine, Pediatrics, Stomatology (Dentistry), Psychology, Pharmacy, Higher Nursing Education, Medico-Prophylaxis, and a Preparatory Department. The university's academic offerings span a number of disciplines, with programs in General Medicine, Dentistry, Pediatrics, Medical Biochemistry, Pharmacy, and Nursing.",
+            ],
+            academicImg:
+              "https://study.kirovgma.ru/images/gallery/ex2.webp",
+            faculties: [
+              "Faculty of General Medicine",
+              "Faculty of Pediatrics",
+              "Faculty of Stomatology (Dentistry)",
+              "Faculty of Pharmacy",
+              "Faculty of Higher Nursing Education",
+            ],
+            facultyImg:
+              "https://study.kirovgma.ru/images/gallery/ex9.webp",
+            affilationRecognition: [
+              "Ministry of Health of the Russian Federation",
+              "National Medical Commission (NMC, India)",
+              "World Directory of Medical Schools (WDOMS)",
+              "World Health Organization (WHO)",
+            ],
+          },
+
+
+          {
+            name: "Kemerovo state university",
+            image:
+              "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nqRLkx1fO61tkHG-Efi5Kmyiu41XVIY9nE11rUZM2Xc840WR6WnxQdXuZy3_bnjKc1IOOGUArcksucIYaLxwqCb15MI8rwrPE_nVacQ-j6QsamNRk7gr26ZesGnmUrxzrkTg0v02A=s680-w680-h510-rw",
+            slug: "Kemerovo state university",
+            country: "russia",
+            overview: [
+              "Kemerovo State University (KemSU) was established in 1973 as a public university, succeeding the Kemerovo Pedagogical Institute. It is a leading educational and scientific center in the Kemerovo Oblast, with five branches within the region and one in Ulaanbaatar, Mongolia. The university has a total of approximately 21,000 students, including over 500 international students. The main campus consists of 17 educational, laboratory, and administrative buildings with a total area of 120,000 square meters.",
+            ],
+            academic: [
+              "The university offers a variety of academic programs across different disciplines. The medical programs, including General Medicine (MBBS), are taught in English and are a popular choice for international students. The duration of the MBBS program is 6 years, which includes a one-year internship. Other academic offerings include programs in law, economics, philology, foreign languages, and sociology.",
+            ],
+            academicImg:
+              "https://lh3.googleusercontent.com/gps-cs-s/AC9h4no1faXyE434vQ_pJjSOUDw1C05WhlRgScLm5-y0WKei7GD-C3CPfzShPv_fCD-OddXswbyIOEKkPi6wzjKFiwYoqGJbiSFt13zpaeAA8-LMDJR0W069yhWGZQb1n7rcrtiiRXhC=s680-w680-h510-rw",
+            faculties: [
+              "Faculty of Medicine",
+              "Institute of Economics and Management",
+              "Institute of Philology, Foreign Languages and Media Communications",
+              "Institute of Fundamental Sciences",
+              "Technological Institute of Food Industry",
+            ],
+            facultyImg:
+              "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nqty8q4noNLxLIibO0dcxQ5e_UO5uB5Y3uB-P_y0qLVvmu257v8VIvv96_9xUttESLFnzSBdVp7AR0lYuyRDg_J2tWWC7cF_o2Pmi6X_zePcDR7TvcRdbYb5LAikotc_d0Wp26xnQ=s680-w680-h510-rw",
+            affilationRecognition: [
+              "World Federation for Medical Education (WFME)",
+              "National Medical Commission (NMC, India)",
+              "Ministry of Science and Higher Education of the Russian Federation",
+              "World Health Organization (WHO)",
+            ],
+          },
+
+          // edfasdfhaidsrtfhakdfhgdafg
 
 
 
