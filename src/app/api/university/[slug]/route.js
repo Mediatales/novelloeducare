@@ -581,10 +581,10 @@ export async function GET(request, { params }) {
             affilationRecognition: ["FAIMER", "ECFMG", "NMC", "WDOMS"],
           },
 
-               {
+        {
             name: "North ossrtian federal university",
             image:
-              "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nqOelP3H9ebDNoaiuBptkYQuFGunY-AkxAaLHF13WhQmywWyEquywRrLAOS7BUzXQT8bm3FjcqDgN1yH3uxeFZQ1kz0XNMo7-fzm1ghbxv0wsWWX3Cgr0Nb7gAr2A8rpYd8SaQ=s1360-w1360-h1020-rw",
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756109187/unnamed_xfukxl.webp",
             slug: "North ossrtian federal university",
             country: "russia",
             overview: [
@@ -594,7 +594,7 @@ export async function GET(request, { params }) {
               "NOSMA offers a 6-year General Medicine (MBBS) program, with instruction available in both English and Russian. The curriculum is structured to provide a comprehensive medical education, progressing from fundamental theoretical sciences to advanced clinical practice. It also offers programs in Dentistry and Pharmacy, along with postgraduate training in over 40 medical specialties.",
             ],
             academicImg:
-              "https://careerpaathshala.com/wp-content/uploads/2024/01/3-31.jpg",
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756109286/3-31_wtjigy.jpg",
             faculties: [
               "Faculty of General Medicine",
               "Faculty of Dentistry",
@@ -603,7 +603,7 @@ export async function GET(request, { params }) {
               "Faculty of Postgraduate Studies",
             ],
             facultyImg:
-              "https://doctorsdirection.in/wp-content/uploads/2021/02/mbbs-fees-in-crimea.jpg",
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756109311/mbbs-fees-in-crimea_p7tyat.jpg",
             affilationRecognition: [
               "Educational Commission for Foreign Medical Graduates (ECFMG ,USA)",
               "National Medical Commission (NMC, India)",
@@ -614,10 +614,10 @@ export async function GET(request, { params }) {
 
 
 
-           {
+         {
             name: "North Caucasian State Academy",
             image:
-              "https://studypalacehub.com/wp-content/uploads/2025/03/North-Caucasian-State-Academy-1.webp",
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756109411/North-Caucasian-State-Academy-1_olszaf.webp",
             slug: "North Caucasian State Academy",
             country: "russia",
             overview: [
@@ -627,7 +627,7 @@ export async function GET(request, { params }) {
               "NCSA offers a wide range of academic programs at the undergraduate, postgraduate, and doctoral levels. While it is particularly known for its medical programs, such as General Medicine (MBBS), Dentistry, and Pharmacy, it also offers courses in a variety of other fields. Instruction is available in both English and Russian, catering to a diverse student body.",
             ],
             academicImg:
-              "https://static.wixstatic.com/media/177633_7589aad4aa4e44f68dd0f20587f29e72~mv2.jpg/v1/fill/w_6858,h_4572,al_c,q_90/North%20Caucasian%20State%20Medical%20Academy.jpg",
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756109445/North_Caucasian_State_Medical_Academy_b572tf.jpg",
             faculties: [
               "Medical Institute",
               "Institute of Digital Technologies",
@@ -636,7 +636,7 @@ export async function GET(request, { params }) {
               "Engineering Institute",
             ],
             facultyImg:
-              "https://static.wixstatic.com/media/177633_c2be20302e6548d2b32b9eb0468b2dfa~mv2.jpg/v1/fill/w_998,h_730,al_c,q_85/North%20Caucasian%20State%20Medical%20Academy.jpg",
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756109471/North_Caucasian_State_Medical_Academy_lprdnq.jpg",
             affilationRecognition: [
               "World Federation for Medical Education (WFME)",
               "National Medical Commission (NMC, India)",
@@ -645,11 +645,11 @@ export async function GET(request, { params }) {
             ],
           },
 
-
+        
            {
             name: "Novgorod State University",
             image:
-              "https://lh3.googleusercontent.com/gps-cs-s/AC9h4npMK2NoJG8zYaA2Z0MQ3KOh3i97PoKqtmJC7JQB3FKu4L8OrsHlxmJlSeJgPItV_0wuOJ4ic9ORHSKW27IUXGP3Zw95-rzf_oTUPsBs1vQOEp-St56UWbO4mkYcze-DqJhns5_Z=s1360-w1360-h1020-rw",
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756109566/unnamed_gyzfdk.webp",
             slug: "Novgorod State University",
             country: "russia",
             overview: [
@@ -659,7 +659,7 @@ export async function GET(request, { params }) {
               "NCSA offers a wide range of academic programs at the undergraduate, postgraduate, and doctoral levels. While it is particularly known for its medical programs, such as General Medicine (MBBS), Dentistry, and Pharmacy, it also offers courses in a variety of other fields. Instruction is available in both English and Russian, catering to a diverse student body.",
             ],
             academicImg:
-              "https://novsu.in/wp-content/uploads/2021/05/college-students-3990783_640.jpg",
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756109618/college-students-3990783_640_ggisxt.jpg",
             faculties: [
               "Medical Institute",
               "Institute of Digital Technologies",
@@ -668,7 +668,7 @@ export async function GET(request, { params }) {
               "Engineering Institute",
             ],
             facultyImg:
-              "https://www.ruseducation.in/wp-content/uploads/2022/12/nizhny-novgorod-state-medical-university-4.webp",
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756109656/nizhny-novgorod-state-medical-university-4_sgndvm.webp",
             affilationRecognition: [
               "World Federation for Medical Education (WFME)",
               "National Medical Commission (NMC, India)",
@@ -1156,129 +1156,127 @@ export async function GET(request, { params }) {
           // add university details.
          
                     // add more universities here
-                    {
-            name: "Northern state medical university",
+          {
+            name: "NORTHERN STATE MEDICAL UNIVERSITY",
             image:
-              "https://northernsmu.in/assets/img/banner.jpg",
-            slug: "Northern state medical university",
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1755841565/banner_i5mgip.jpg",
+            slug: "NORTHERN-STATE-MEDICAL-UNIVERSITY",
             country: "russia",
             overview: [
               "Northern State Medical University (NSMU) in Arkhangelsk, Russia, was founded in 1932. It is recognized as the largest and most well-known medical university in the Russian North. The university currently has about 5,000 full-time students enrolled across its faculties. NSMU is equipped with up-to-date facilities, including modern simulation centers in its university buildings and clinics. It boasts 55 departments, with 27 of them being clinically based in the city's best clinics.",
             ],
             academic: [
-              "NSMU offers a range of English-medium programs, including General Medicine (MD/MBBS), Nursing, Dentistry, and a Master program in Public Health (MPH). The MPH program was established in 2007. NSMU has been educating foreign citizens since 1991, with the first international students hailing from India, Syria, and Pakistan. Currently, approximately 1,400 medical students from 15 countries study at NSMU",
+              "NSMU offers a range of English-medium programs, including General Medicine (MD/MBBS), Nursing, Dentistry, and a Master program in Public Health (MPH). The MPH program was established in 2007. NSMU has been educating foreign citizens since 1991, with the first international students hailing from India, Syria, and Pakistan. Currently, approximately 1,400 medical students from 15 countries study at NSMU.",
             ],
             academicImg:
-              "https://northernsmu.in/assets/img/about.jpg",
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1755841604/about_nqunnp.jpg",
             faculties: [
               "General Medicine (MD/MBBS)",
-              "Faculty of  Dentistry ",
-              "Faculty of Nursing ",
-              "Public Health (Master program)",
+              "Faculty of Dentistry ",
+              "Faculty of Nursing & Dentistry",
               "Postgraduate Studies (Ph.D.) ",
+              "Public Health (Master program)",
             ],
             facultyImg:
-              "https://northernsmu.in/assets/img/about.jpg",
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1755841604/about_nqunnp.jpg",
             affilationRecognition: [
+              "World Health Organization (WHO) ",
               "ECFMG (USA)",
               "Medical Council of India (MCI Rules)",
               "Medical Board of Thailand",
-              "World Health Organization (WHO)",
-            ],
-          },
-
-
-            {
-            name: "Chuvash State Medical University",
-            image:
-              "https://www.chuvsu.in/images/chuvash-state-medical.webp",
-            slug: "Chuvash State Medical University",
-            country: "russia",
-            overview: [
-              "Chuvash State Medical University, officially named after I.N. Ulyanov, is a public institution established in 1967 in Cheboksary, Russia. It is recognized as a leading medical and scientific center in the Chuvash Republic. The university is known for its affordable and globally recognized medical degrees, with a large number of international students.",
-            ],
-            academic: [
-              "The university offers a variety of educational programs, with the MBBS (General Medicine) program being the most popular, especially for international students, due to it being taught in English. The program duration is six years, including one year of a compulsory internship.",
-            ],
-            academicImg:
-              "https://www.chuvsu.in/images/events/events-1.jpg",
-            faculties: [
-              "Faculty of Pediatrics",
-              "Faculty of General Medicine",
-              "Faculty of Dentistry",
-              "Faculty of Pharmacy",
-            ],
-            facultyImg:
-              "https://www.chuvsu.in/images/events/events-1.jpg",
-            affilationRecognition: [
-              "World Directory of Medical Schools (WDOMS)",
-              "Educational Commission for Foreign Medical Graduates (ECFMG)",
-              "National Medical Commission of India (NMC)",
-              "World Health Organization (WHO)",
-            ],
-          },
-
-
-           {
-            name: "Kazan faderal university",
-            image:
-              "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nrAP6Hq46Q35R2fR9tgGfv1c55MVatJOi8zsGkUHwSac9MNZlGlZbeValzgwqRzXmyTYFDJVFZWim1G7muNKyPbuWUCpL3wXGj_bb-qfMjoDZ4NOELaY9FOS1SdNn9YT5_I-pzltw=s1360-w1360-h1020-rw",
-            slug: "Kazan faderal university",
-            country: "russia",
-            overview: [
-              "Kazan Federal University (KFU), founded in 1804, is the second oldest university in Russia. It is located in Kazan and is recognized as a leading educational and research institution. KFU is known as the birthplace of organic chemistry and electron spin resonance. The university has a large and diverse student body, with over 50,000 students, including more than 10,500 international students from over 100 countries.",
-            ],
-            academic: [
-              "NSMU offers a wide array of English-medium academic programs. These include a 6-year General Medicine (MD/MBBS) program with a structured curriculum that progresses from foundational theoretical subjects to clinical and internship training. The university also provides a Dentistry program that is compatible with European standards, and a Nursing program. Additionally, it offers a Master program in Public Health (MPH), which is the sole program of its kind in Russia to be recognized by the Association of Public Health Schools in Europe. For outstanding graduates, Postgraduate Studies, including doctoral (Ph.D.) programs, are also available, with studies conducted on the basis of individual plans and under the guidance of supervisors.",
-            ],
-            academicImg:
-              "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nrvk0n8zZksBU9Ktnw0tfOqLh6DSngRO1NbfvE5uqwsQzvn-eO2lhvBqHieAc3H6_jvRC31km3wr_2S96scBu_agiJogGLN8OD8PBMvcd-hHhNvwAQddLKj28F3TfObHzdlT9VWBQ=w141-h101-n-k-no-nu",
-            faculties: [
-              "General Medicine (MD/MBBS)",
-              "Institute of Dentistry",
-              "Institute of Pharmacy",
-              "Master program in Public Health (MPH)",
-              "Postgraduate Studies: Doctoral (Ph.D.)",
-            ],
-            facultyImg:
-              "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nrvk0n8zZksBU9Ktnw0tfOqLh6DSngRO1NbfvE5uqwsQzvn-eO2lhvBqHieAc3H6_jvRC31km3wr_2S96scBu_agiJogGLN8OD8PBMvcd-hHhNvwAQddLKj28F3TfObHzdlT9VWBQ=w141-h101-n-k-no-nu",
-            affilationRecognition: [
-              "Educational Commission for Foreign Medical Graduates (ECFMG, USA)",
-              "National Medical Commission (NMC, India)",
-              "General Medical Council of Britain",
-              "World Health Organization (WHO)",
             ],
           },
 
 
           {
-            name: "FAR Eastern federal university",
+            name: "Chuvash State Medical University",
             image:
-              "https://www.ruseducation.in/wp-content/uploads/2022/01/Far-Eastern-Federal-University.webp",
-            slug: "FAR Eastern federal university",
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1755857105/chuvash-state-medical_bkyum3.webp",
+            slug: "Chuvash State Medical University",
             country: "russia",
             overview: [
-              "Far Eastern Federal University (FEFU) was founded in 1899 in Vladivostok, Russia. It is a public university recognized as a major scientific and educational hub in the Asia-Pacific region. It is one of Russia's largest universities with a modern campus located on Russky Island.",
+              "Northern State Medical University (NSMU) in Arkhangelsk was founded in 1932. It is the biggest medical university in the Russian North. It has about 5,000 full-time students , with approximately 1,400 of them being international students from 15 countries. NSMU is a member of the University of Arctic, which is a union of 160 universities worldwide.",
             ],
             academic: [
-              "FEFU offers a 6-year General Medicine (MBBS) program that is popular with international students. The curriculum includes both theoretical and practical training, with clinical practice taking place at the FEFU Medical Center and other affiliated hospitals. The program is offered in English. For postgraduate studies and specialized medical fields, students can continue their education in a clinical residency or on postgraduate courses. The university has departments that specialize in various fields, including neurology, neurosurgery, orthopedics, cardiology, and general surgery.",
+              "Northern State Medical University (NSMU) offers a range of English-medium programs, including General Medicine (MD/MBBS), Nursing, and Dentistry. A Master program in Public Health (MPH) is also available , which was established in 2007. NSMU began educating foreign citizens in 1991 , with the first international students coming from India, Syria, and Pakistan. At present, about 1,400 medical students from 15 countries study at NSMU.",
             ],
             academicImg:
-              "https://www.dvfu.ru/upload/resize_cache/iblock/304/ebtqgazoal6tj3i8ku79vyq1iaiylmrq/280_160_2/%D0%A4.jpg",
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1755857132/clasrrom_xf11jd.jpg",
             faculties: [
-              "General Medicine (MD/MBBS)",
-              "Institute of Dentistry",
-              "Institute of Nursing",
-              "Master program in Public Health (MPH)",
-              "Institute of Pharmacy",
+              "General Medicine (MBBS)",
+              "Faculty of Dentistry",
+              "Faculty of Nursing",
+              "Faculty of Pharmacy",
             ],
             facultyImg:
-              "https://www.dvfu.ru/upload/resize_cache/iblock/304/ebtqgazoal6tj3i8ku79vyq1iaiylmrq/280_160_2/%D0%A4.jpg",
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1755857155/events_lfhr8y.jpg",
             affilationRecognition: [
-              "Educational Commission for Foreign Medical Graduates (ECFMG)",
-              "National Medical Commission (NMC, India)",
-              "Foundation for Advancement of International Medical Education and Research (FAIMER)",
               "World Health Organization (WHO)",
+              "Educational Commission for Foreign Medical Graduates (ECFMG, USA)",
+              "Medical Council of India",
+              "Medical Board of Thailand",
+            ],
+          },
+
+
+           {
+            name: "Kazan Federal University",
+            image:
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1755848310/unnamed_cp8g1k.webp",
+            slug: "Kazan Federal University",
+            country: "russia",
+            overview: [
+              "Northern State Medical University (NSMU) in Arkhangelsk was founded in 1932. It is the biggest medical university in the Russian North. It has about 5,000 full-time students , with approximately 1,400 of them being international students from 15 countries. NSMU is a member of the University of Arctic, which is a union of 160 universities worldwide.",
+            ],
+            academic: [
+              "Northern State Medical University (NSMU) offers a range of English-medium programs, including General Medicine (MD/MBBS), Nursing, and Dentistry. A Master program in Public Health (MPH) is also available , which was established in 2007. NSMU began educating foreign citizens in 1991 , with the first international students coming from India, Syria, and Pakistan. At present, about 1,400 medical students from 15 countries study at NSMU.",
+            ],
+            academicImg:
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1755848336/unnamed_qju4yu.webp",
+            faculties: [
+              "General Medicine (MBBS)",
+              "Faculty of Dentistry",
+              "Faculty of Nursing",
+              "Faculty of Pharmacy",
+            ],
+            facultyImg:
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1755848360/unnamed_yucnbh.webp",
+            affilationRecognition: [
+              "World Health Organization (WHO)",
+              "Educational Commission for Foreign Medical Graduates (ECFMG, USA)",
+              "Medical Council of India",
+              "Medical Board of Thailand",
+            ],
+          },
+
+
+         {
+            name: "Far eastern federal university",
+            image:
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1755856100/cr1-1_psx4su.webp",
+            slug: "Far eastern federal university",
+            country: "russia",
+            overview: [
+              "Northern State Medical University (NSMU) in Arkhangelsk was founded in 1932. It is the biggest medical university in the Russian North. It has about 5,000 full-time students , with approximately 1,400 of them being international students from 15 countries. NSMU is a member of the University of Arctic, which is a union of 160 universities worldwide.",
+            ],
+            academic: [
+              "Northern State Medical University (NSMU) offers a range of English-medium programs, including General Medicine (MD/MBBS), Nursing, and Dentistry. A Master program in Public Health (MPH) is also available , which was established in 2007. NSMU began educating foreign citizens in 1991 , with the first international students coming from India, Syria, and Pakistan. At present, about 1,400 medical students from 15 countries study at NSMU.",
+            ],
+            academicImg:
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756105854/Far-Eastern-Federal-University-Classroom_bvbj7x.webp",
+            faculties: [
+              "General Medicine (MBBS)",
+              "Faculty of Dentistry",
+              "Faculty of Nursing",
+              "Faculty of Pharmacy",
+            ],
+            facultyImg:
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1755856166/article4_fjynoy.jpg",
+            affilationRecognition: [
+              "World Health Organization (WHO)",
+              "Educational Commission for Foreign Medical Graduates (ECFMG, USA)",
+              "Medical Council of India",
+              "Medical Board of Thailand",
             ],
           },
 
