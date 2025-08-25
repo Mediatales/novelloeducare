@@ -1222,7 +1222,7 @@ export async function GET(request, { params }) {
            {
             name: "Kazan Federal University",
             image:
-              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1755848310/unnamed_cp8g1k.webp",
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756104978/kazan-university_paexhc.jpg",
             slug: "Kazan Federal University",
             country: "russia",
             overview: [
