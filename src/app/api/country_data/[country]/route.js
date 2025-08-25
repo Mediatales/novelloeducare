@@ -934,7 +934,8 @@ export async function GET(request, { params }) {
             ],
           },
 
-          {
+          
+           {
             name: "OMSK State Medical University",
             image:
               "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742550952/russia_university_9_pic_zovmg2.webp",
@@ -947,7 +948,7 @@ export async function GET(request, { params }) {
               "Omsk State Medical University provides a focused medical education, offering a single undergraduate program: the MBBS degree. This six-year program is designed to provide comprehensive medical training. Emphasizing personalized attention, the university maintains small class sizes, creating a conducive learning environment that allows for individual student engagement and fosters a strong student-faculty interaction.",
             ],
             academicImg:
-              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742551194/Russia_university_9_academic_bwp0py.webp",
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756118159/PQ6L7PdMnQOwXPyE2dxq_p1s4uw.jpg",
             faculties: [
               "Faculty of Medicine",
               "Faculty of Pediatric",
@@ -957,7 +958,7 @@ export async function GET(request, { params }) {
               "Faculty of Graduate Nurses",
             ],
             facultyImg:
-              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756118127/smolensk-state-medical-university-2-1_yuiztf.webp",
             affilationRecognition: [
               "FAIMER",
               "The Medical Council of India",
