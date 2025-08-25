@@ -1169,7 +1169,7 @@ export async function GET(request, { params }) {
               "NSMU offers a range of English-medium programs, including General Medicine (MD/MBBS), Nursing, Dentistry, and a Master program in Public Health (MPH). The MPH program was established in 2007. NSMU has been educating foreign citizens since 1991, with the first international students hailing from India, Syria, and Pakistan. Currently, approximately 1,400 medical students from 15 countries study at NSMU.",
             ],
             academicImg:
-              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1755841604/about_nqunnp.jpg",
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756103500/ghsfh_f8zojv.webp",
             faculties: [
               "General Medicine (MD/MBBS)",
               "Faculty of Dentistry ",
@@ -1178,7 +1178,7 @@ export async function GET(request, { params }) {
               "Public Health (Master program)",
             ],
             facultyImg:
-              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1755841604/about_nqunnp.jpg",
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756103913/unnamed_fcktfw.webp",
             affilationRecognition: [
               "World Health Organization (WHO) ",
               "ECFMG (USA)",
@@ -1201,7 +1201,7 @@ export async function GET(request, { params }) {
               "Northern State Medical University (NSMU) offers a range of English-medium programs, including General Medicine (MD/MBBS), Nursing, and Dentistry. A Master program in Public Health (MPH) is also available , which was established in 2007. NSMU began educating foreign citizens in 1991 , with the first international students coming from India, Syria, and Pakistan. At present, about 1,400 medical students from 15 countries study at NSMU.",
             ],
             academicImg:
-              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1755857132/clasrrom_xf11jd.jpg",
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756104104/Chuvash-State-Medical-University-2_jvbaiy.webp",
             faculties: [
               "General Medicine (MBBS)",
               "Faculty of Dentistry",
@@ -1209,7 +1209,7 @@ export async function GET(request, { params }) {
               "Faculty of Pharmacy",
             ],
             facultyImg:
-              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1755857155/events_lfhr8y.jpg",
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756104852/unnamed_c954fm.jpg",
             affilationRecognition: [
               "World Health Organization (WHO)",
               "Educational Commission for Foreign Medical Graduates (ECFMG, USA)",
