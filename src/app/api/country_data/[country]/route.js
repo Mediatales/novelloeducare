@@ -575,7 +575,7 @@ export async function GET(request, { params }) {
               "Public Health (Master program)",
             ],
             facultyImg:
-              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756103913/unnamed_fcktfw.webp",
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756200531/unnamed_yqv8fl.webp",
             affilationRecognition: [
               "World Health Organization (WHO) ",
               "ECFMG (USA)",
