@@ -872,6 +872,102 @@ export async function GET(request, { params }) {
           // edfasdfhaidsrtfhakdfhgdafg
 
 
+			 // gg
+      {
+        name: "Ingush State University",
+        image:
+          "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756201891/unnamed_ckpidu.webp",
+        slug: "Ingush State University",
+        country: "russia",
+        overview: [
+          "Ingush State University (IngGU) is a public university located in Magas, the capital of the Republic of Ingushetia, Russia. Established in 1994, it is one of the youngest yet largest higher education institutions in the region, with around 8,978 students and approximately 508 academic staff members",
+        ],
+        academic: [
+          "IngGU offers undergraduate and postgraduate education across multiple disciplines. It is particularly noted for its MBBS (General Medicine) program, which is taught in English, aligning with international standards. The MBBS program lasts approximately 6 years, including a mandatory 1-year internship",
+        ],
+        academicImg:
+          "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756202065/ingush-state-university-gallery-10_pvazzn.jpg",
+        faculties: [
+          "Philology Faculty",
+          "Medicine Faculty",
+          "Chemistry & Biology",
+          "Physics & Mathematics",
+          "Pedagogy",
+        ],
+        facultyImg:
+          "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756202092/Northern-State-Medical-University6_qz3wtr.jpg",
+        affilationRecognition: [
+          "Russia’s Ministry of Science and Higher Education (Rosobrnadzor)",
+          "National Medical Commission (NMC, India)",
+          "Ministry of Science and Higher Education of Russia",
+          "World Health Organization (WHO)",
+        ],
+      },
+
+      {
+        name: "Pacific State Medical University",
+        image:
+          "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756206232/1598446867phpBi17G9_g_lblme2.jpg",
+        slug: "Pacific State Medical University",
+        country: "russia",
+        overview: [
+          "Pacific State Medical University (PSMU), located in Vladivostok, Primorsky Krai, Russia, was established in 1958. It began as the medical faculty of the Far Eastern State University around 1956, became Vladivostok State Medical Institute in 1958, gained university status in 1995, and was renamed to its current title in 2013. It is the premier medical university in Russia’s Far East, with an enrollment of over 15,000 students and a faculty of around 1,000.",
+        ],
+        academic: [
+          "Pacific State Medical University offers a wide range of academic programs in the field of medicine and healthcare. The university provides undergraduate, graduate, and postgraduate courses including General Medicine (MBBS), Dentistry, Pediatrics, Pharmacy, Nursing, and Public Health. In addition, it offers advanced specialization and residency programs for medical graduates, along with opportunities for scientific research and clinical training. The curriculum is designed to meet international standards, ensuring students gain both theoretical knowledge and practical skills through modern laboratories, simulation centers, and affiliated hospitals.",
+        ],
+        academicImg:
+          "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756202708/ps-university-2_vy9dji.webp",
+        faculties: [
+          "Medical Faculty",
+          "Pediatrics Faculty",
+          "Pharmacy (Pharmaceutical) Faculty",
+          "Medical Prophylactic and Medical Biochemistry",
+          "Clinical Psychology",
+        ],
+        facultyImg:
+          "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756202641/perm-state-medical-university-11-1_vcfjey.webp",
+        affilationRecognition: [
+          "Recognized by the Ministry of Health of the Russian Federation.",
+          "Listed in the World Directory of Medical Schools (WDOMS).",
+          "Approved by the National Medical Commission (NMC) of India.",
+          "World Health Organization (WHO)",
+        ],
+      },
+
+
+      {
+        name: "Amur State Medical Academy",
+        image:
+          "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756204065/unnamed_zpduks.webp",
+        slug: "Amur State Medical Academy",
+        country: "russia",
+        overview: [
+          "Amur State Medical Academy (ASMA), officially known as the Federal State Budgetary Educational Institution of Higher Education “Amur State Medical Academy” under the Ministry of Health of the Russian Federation, is located in Blagoveshchensk, Amur Oblast in the Russian Far East. It was established on June 26, 1952, originally as Blagoveshchensk State Medical Institute, with a starting class of approximately 200 students. In 1995, it was reorganized and renamed to its current form. In 1996, ASMA joined the Association of Medical Schools of Europe, aligning its training with European standards",
+        ],
+        academic: [
+          "ASMA offers a range of medical programs: Undergraduate: General Medicine (6-year MBBS, intramural only, no extramural) and Pediatrics , Postgraduate & Specialist Training: Extensive offerings including anesthesiology, cardiology, neurology, obstetrics & gynecology, surgery, psychiatry, epidemiology, pediatric specialties, dermatovenereology, orthopedics, ophthalmology, urology, pathology, oncology, and more",
+        ],
+        academicImg:
+          "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756204338/North-Caucasian-State-Medical-Academy-Class-Room_sf7zjq.webp",
+        faculties: [
+          "Faculty of General Medicine",
+          "Faculty of Pediatrics",
+          "Faculty of Postgraduate Education (postgraduate specialist training)",
+          "Cardiac Surgery Clinic",
+          "Simulation and Accreditation Center (ASC)",
+        ],
+        facultyImg:
+          "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756204414/North_Caucasian_State_medical_Academy_gd9s0p.jpg",
+        affilationRecognition: [
+          "Eurasian Universities Association",
+          "National Medical Commission (NMC, India)",
+          "Ministry of Science and Higher Education of Russia",
+          "World Health Organization (WHO)",
+        ],
+      },
+
+
 
 
           // End more universities here
