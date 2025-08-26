@@ -554,7 +554,7 @@ export async function GET(request, { params }) {
          
                     // add more universities here
        {
-            name: "NORTHERN STATE MEDICAL UNIVERSITY",
+            name: "Northern State Medical University",
             image:
               "https://res.cloudinary.com/dqggm4k7u/image/upload/v1755841565/banner_i5mgip.jpg",
             slug: "NORTHERN-STATE-MEDICAL-UNIVERSITY",
@@ -591,26 +591,26 @@ export async function GET(request, { params }) {
             slug: "Chuvash State Medical University",
             country: "russia",
             overview: [
-              "Northern State Medical University (NSMU) in Arkhangelsk was founded in 1932. It is the biggest medical university in the Russian North. It has about 5,000 full-time students , with approximately 1,400 of them being international students from 15 countries. NSMU is a member of the University of Arctic, which is a union of 160 universities worldwide.",
+              "Chuvash State Medical University, officially named after I.N. Ulyanov, is a public institution established in 1967 in Cheboksary, Russia. It is recognized as a leading medical and scientific center in the Chuvash Republic. The university is known for its affordable and globally recognized medical degrees, with a large number of international students.",
             ],
             academic: [
-              "Northern State Medical University (NSMU) offers a range of English-medium programs, including General Medicine (MD/MBBS), Nursing, and Dentistry. A Master program in Public Health (MPH) is also available , which was established in 2007. NSMU began educating foreign citizens in 1991 , with the first international students coming from India, Syria, and Pakistan. At present, about 1,400 medical students from 15 countries study at NSMU.",
+              "The university offers a variety of educational programs, with the MBBS (General Medicine) program being the most popular, especially for international students, due to it being taught in English. The program duration is six years, including one year of a compulsory internship.",
             ],
             academicImg:
               "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756104104/Chuvash-State-Medical-University-2_jvbaiy.webp",
             faculties: [
-              "General Medicine (MBBS)",
-              "Faculty of Dentistry",
-              "Faculty of Nursing",
+              "Faculty of General Medicine",
               "Faculty of Pharmacy",
+              "Faculty of Paediatrics",
+              "Faculty of Dentistry",
             ],
             facultyImg:
               "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756104852/unnamed_c954fm.jpg",
             affilationRecognition: [
               "World Health Organization (WHO)",
-              "Educational Commission for Foreign Medical Graduates (ECFMG, USA)",
-              "Medical Council of India",
-              "Medical Board of Thailand",
+              "National Medical Commission (NMC) of India",
+              "Educational Commission for Foreign Medical Graduates (ECFMG)",
+              "World Directory of Medical Schools (WDOMS)",
             ],
           },
 			
@@ -621,67 +621,67 @@ export async function GET(request, { params }) {
             slug: "Kazan Federal University",
             country: "russia",
             overview: [
-              "Northern State Medical University (NSMU) in Arkhangelsk was founded in 1932. It is the biggest medical university in the Russian North. It has about 5,000 full-time students , with approximately 1,400 of them being international students from 15 countries. NSMU is a member of the University of Arctic, which is a union of 160 universities worldwide.",
+              "Kazan Federal University (KFU), founded in 1804, is the second oldest university in Russia. It is located in Kazan and is recognized as a leading educational and research institution. KFU is known as the birthplace of organic chemistry and electron spin resonance. The university has a large and diverse student body, with over 50,000 students, including more than 10,500 international students from over 100 countries.",
             ],
             academic: [
-              "Northern State Medical University (NSMU) offers a range of English-medium programs, including General Medicine (MD/MBBS), Nursing, and Dentistry. A Master program in Public Health (MPH) is also available , which was established in 2007. NSMU began educating foreign citizens in 1991 , with the first international students coming from India, Syria, and Pakistan. At present, about 1,400 medical students from 15 countries study at NSMU.",
+              "NSMU offers a wide array of English-medium academic programs. These include a 6-year General Medicine (MD/MBBS) program with a structured curriculum that progresses from foundational theoretical subjects to clinical and internship training. The university also provides a Dentistry program that is compatible with European standards, and a Nursing program. Additionally, it offers a Master program in Public Health (MPH), which is the sole program of its kind in Russia to be recognized by the Association of Public Health Schools in Europe. For outstanding graduates, Postgraduate Studies, including doctoral (Ph.D.) programs, are also available, with studies conducted on the basis of individual plans and under the guidance of supervisors.",
             ],
             academicImg:
               "https://res.cloudinary.com/dqggm4k7u/image/upload/v1755848336/unnamed_qju4yu.webp",
             faculties: [
-              "General Medicine (MBBS)",
-              "Faculty of Dentistry",
-              "Faculty of Nursing",
-              "Faculty of Pharmacy",
+              "Institute of Fundamental Medicine and Biology",
+              "Institute of Physics",
+              "Alexander Butlerov Institute of Chemistry",
+              "Institute of Management, Economics and Finance",
             ],
             facultyImg:
               "https://res.cloudinary.com/dqggm4k7u/image/upload/v1755848360/unnamed_yucnbh.webp",
             affilationRecognition: [
               "World Health Organization (WHO)",
               "Educational Commission for Foreign Medical Graduates (ECFMG, USA)",
-              "Medical Council of India",
-              "Medical Board of Thailand",
+              "National Medical Commission (NMC, India",
+              "General Medical Council of Britain",
             ],
           },
 
           {
-            name: "Far eastern federal university",
+            name: "Far Eastern Federal University",
             image:
-              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1755856100/cr1-1_psx4su.webp",
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756191561/1579003945php9NzXGf_zo9i1d.jpg",
             slug: "Far eastern federal university",
             country: "russia",
             overview: [
-              "Northern State Medical University (NSMU) in Arkhangelsk was founded in 1932. It is the biggest medical university in the Russian North. It has about 5,000 full-time students , with approximately 1,400 of them being international students from 15 countries. NSMU is a member of the University of Arctic, which is a union of 160 universities worldwide.",
+              "Far Eastern Federal University (FEFU) was founded in 1899 in Vladivostok, Russia. It is a public university recognized as a major scientific and educational hub in the Asia-Pacific region. It is one of Russia's largest universities with a modern campus located on Russky Island.",
             ],
             academic: [
-              "Northern State Medical University (NSMU) offers a range of English-medium programs, including General Medicine (MD/MBBS), Nursing, and Dentistry. A Master program in Public Health (MPH) is also available , which was established in 2007. NSMU began educating foreign citizens in 1991 , with the first international students coming from India, Syria, and Pakistan. At present, about 1,400 medical students from 15 countries study at NSMU.",
+              "FEFU offers a 6-year General Medicine (MBBS) program that is popular with international students. The curriculum includes both theoretical and practical training, with clinical practice taking place at the FEFU Medical Center and other affiliated hospitals. The program is offered in English. For postgraduate studies and specialized medical fields, students can continue their education in a clinical residency or on postgraduate courses. The university has departments that specialize in various fields, including neurology, neurosurgery, orthopedics, cardiology, and general surgery.",
             ],
             academicImg:
               "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756105854/Far-Eastern-Federal-University-Classroom_bvbj7x.webp",
             faculties: [
               "General Medicine (MBBS)",
-              "Faculty of Dentistry",
-              "Faculty of Nursing",
-              "Faculty of Pharmacy",
+              "Master program in Public Health (MPH)",
+              "Postgraduate Studies, including doctoral (Ph.D.)",
+              "Faculty of Pharmacy program",
             ],
             facultyImg:
               "https://res.cloudinary.com/dqggm4k7u/image/upload/v1755856166/article4_fjynoy.jpg",
             affilationRecognition: [
               "World Health Organization (WHO)",
-              "Educational Commission for Foreign Medical Graduates (ECFMG, USA)",
-              "Medical Council of India",
-              "Medical Board of Thailand",
+              "Educational Commission for Foreign Medical Graduates (ECFMG)",
+              "National Medical Commission (NMC)",
+              "Foundation for Advancement of International Medical Education and Research (FAIMER)",
             ],
           },
 
 		   {
-            name: "North ossrtian federal university",
+            name: "North Ossrtian Federal University",
             image:
               "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756109187/unnamed_xfukxl.webp",
             slug: "North ossrtian federal university",
             country: "russia",
             overview: [
-              "North Ossetian State Medical University (NOSMA), located in Vladikavkaz, Russia, was established in 1939. It is a prominent medical institution in the North Caucasus region and is recognized for its long history of training healthcare professionals. The university offers a variety of medical programs and has a diverse student body, including a significant number of international students.",
+              "North Ossrtian State Medical University (NOSMA), located in Vladikavkaz, Russia, was established in 1939. It is a prominent medical institution in the North Caucasus region and is recognized for its long history of training healthcare professionals. The university offers a variety of medical programs and has a diverse student body, including a significant number of international students.",
             ],
             academic: [
               "NOSMA offers a 6-year General Medicine (MBBS) program, with instruction available in both English and Russian. The curriculum is structured to provide a comprehensive medical education, progressing from fundamental theoretical sciences to advanced clinical practice. It also offers programs in Dentistry and Pharmacy, along with postgraduate training in over 40 medical specialties.",
@@ -741,25 +741,25 @@ export async function GET(request, { params }) {
 
 
       {
-            name: "Novgorod State University",
+            name: "Novgorod State Medical University",
             image:
               "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756109566/unnamed_gyzfdk.webp",
             slug: "Novgorod State University",
             country: "russia",
             overview: [
-              "The North Caucasian State Academy (NCSA) is a multidisciplinary higher education institution located in Cherkessk, Russia. Founded in 1936, it has grown into one of the largest educational establishments in the North Caucasus region, with a strong focus on academic excellence, research, and innovation. It is a public university that attracts both domestic and international students.",
+              "Novgorod State Medical University (NNSMU), also known as Privolzhsky Research Medical University, is a public medical school established in 1920 in the city of Nizhny Novgorod, Russia. It is a significant center for training medical professionals in the Volga region of Russia. The university has over 5,000 students, including more than 800 international students from over 38 countries.",
             ],
             academic: [
-              "NCSA offers a wide range of academic programs at the undergraduate, postgraduate, and doctoral levels. While it is particularly known for its medical programs, such as General Medicine (MBBS), Dentistry, and Pharmacy, it also offers courses in a variety of other fields. Instruction is available in both English and Russian, catering to a diverse student body.",
+              "The university offers various programs, with a focus on medicine, dentistry, and pharmacy. The General Medicine (MBBS) course is a popular choice for international students and is taught in English. The program lasts for six years, which includes a one-year internship. Students begin clinical studies in the third year and are rotated through different hospital departments.",
             ],
             academicImg:
               "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756109618/college-students-3990783_640_ggisxt.jpg",
             faculties: [
-              "Medical Institute",
-              "Institute of Digital Technologies",
-              "Institute of Design and Linguistics",
-              "Agricultural Institute",
-              "Engineering Institute",
+              "Faculty of General Medicine",
+              "Faculty of Pediatrics",
+              "Faculty of Pharmacy",
+              "Faculty of Preventive Medicine",
+              "Faculty of Higher Nursing Education",
             ],
             facultyImg:
               "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756109656/nizhny-novgorod-state-medical-university-4_sgndvm.webp",
@@ -775,13 +775,13 @@ export async function GET(request, { params }) {
 			// morrersdfsadfhsdfdfasdfgasdfg
            
             {
-            name: "Derzhavin Tambov State University",
+            name: "Tambov State University",
             image:
               "https://lh3.googleusercontent.com/gps-cs-s/AC9h4np4WHWyOaXXw7uhfXcOsNA1VJF0kqlv3gGyOcCRicsufxEmvP_so8ee_PKiTPqz89kwUPdUx1apoiI_aoVfWB30IuVsEJIq7f_TNmf8TG5G3esTiGyfXY2nVkkXFw0SnuvswmNJ=s680-w680-h510-rw",
             slug: "Derzhavin Tambov State University",
             country: "russia",
             overview: [
-              "Derzhavin Tambov State University (TSU) is a public state university located in Tambov, Russia. It was founded in 1994 by merging the Tambov State Pedagogical Institute and the Tambov State Institute of Culture. The university is named after the Russian poet and statesman Gavrila Romanovich Derzhavin. With over 13,000 students, including more than 2,700 international students from over 69 countries, it is the largest university in the Tambov region.",
+              "Tambov State Medical University (TSU) is a public state university located in Tambov, Russia. It was founded in 1994 by merging the Tambov State Pedagogical Institute and the Tambov State Institute of Culture. The university is named after the Russian poet and statesman Gavrila Romanovich Derzhavin. With over 13,000 students, including more than 2,700 international students from over 69 countries, it is the largest university in the Tambov region.",
             ],
             academic: [
               "The university offers more than 100 programs in various fields, including medicine, economics, nanotechnology, and information technology. The medical programs, particularly the General Medicine (MBBS) course, are taught in both English and Russian. The duration of the MBBS program is 6 years, which includes a mandatory 1-year internship.",
@@ -807,7 +807,7 @@ export async function GET(request, { params }) {
 
 
            {
-            name: "kirov state medical university",
+            name: "kirov State Medical University",
             image:
               "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nob_ia7pOarvYE-iKEh8hSxC7qFWGR5L2j9epTvEniqqEq7A1PdlWIQVg9bwiu244BXBPRSRFMBYMgcM3g_SEU4sHJ8nBVMo_WJRe3KW0-7wrVjzozitQXtIyDeYq3n4N6cHy04=s680-w680-h510-rw",
             slug: "kirov state medical university",
@@ -839,9 +839,9 @@ export async function GET(request, { params }) {
 
 
           {
-            name: "Kemerovo state university",
+            name: "Kemerovo State Medical University",
             image:
-              "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nqRLkx1fO61tkHG-Efi5Kmyiu41XVIY9nE11rUZM2Xc840WR6WnxQdXuZy3_bnjKc1IOOGUArcksucIYaLxwqCb15MI8rwrPE_nVacQ-j6QsamNRk7gr26ZesGnmUrxzrkTg0v02A=s680-w680-h510-rw",
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756192554/unnamed_zuiibi.webp",
             slug: "Kemerovo state university",
             country: "russia",
             overview: [
@@ -851,7 +851,7 @@ export async function GET(request, { params }) {
               "The university offers a variety of academic programs across different disciplines. The medical programs, including General Medicine (MBBS), are taught in English and are a popular choice for international students. The duration of the MBBS program is 6 years, which includes a one-year internship. Other academic offerings include programs in law, economics, philology, foreign languages, and sociology.",
             ],
             academicImg:
-              "https://lh3.googleusercontent.com/gps-cs-s/AC9h4no1faXyE434vQ_pJjSOUDw1C05WhlRgScLm5-y0WKei7GD-C3CPfzShPv_fCD-OddXswbyIOEKkPi6wzjKFiwYoqGJbiSFt13zpaeAA8-LMDJR0W069yhWGZQb1n7rcrtiiRXhC=s680-w680-h510-rw",
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756191000/unnamed_x9kbyo.webp",
             faculties: [
               "Faculty of Medicine",
               "Institute of Economics and Management",
@@ -860,7 +860,7 @@ export async function GET(request, { params }) {
               "Technological Institute of Food Industry",
             ],
             facultyImg:
-              "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nqty8q4noNLxLIibO0dcxQ5e_UO5uB5Y3uB-P_y0qLVvmu257v8VIvv96_9xUttESLFnzSBdVp7AR0lYuyRDg_J2tWWC7cF_o2Pmi6X_zePcDR7TvcRdbYb5LAikotc_d0Wp26xnQ=s680-w680-h510-rw",
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756191054/unnamed_tc2dzd.webp",
             affilationRecognition: [
               "World Federation for Medical Education (WFME)",
               "National Medical Commission (NMC, India)",
@@ -1068,19 +1068,19 @@ export async function GET(request, { params }) {
           },
 
           {
-            name: "Ulyanovsk state University",
+            name: "Ulyanovsk State Medical University",
             image:
               "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742553741/Russia_university_10_pic_xwubpj.webp",
             slug: "ulyanovsk-state-university",
             country: "russia",
             overview: [
-              "Ulyanovsk State University (USU) was founded in 1988 as a branch of Moscow State University named after M.V. Lomonosov, the best university in the country and one of the most authoritative universities in the world. In 1996, USU received the status of an independent university. The MBBS program at USU is meticulously designed to meet global standards, ensuring that graduates are well-prepared to practice medicine in diverse healthcare settings.  A key factor contributing to the program's appeal is its accreditation and recognition by various esteemed global bodies, which not only validates the quality of education provided but also enhances the career prospects of its graduates.",
+              "Ulyanovsk State Medical University (USU) was founded in 1988 as a branch of Moscow State University named after M.V. Lomonosov, the best university in the country and one of the most authoritative universities in the world. In 1996, USU received the status of an independent university. The MBBS program at USU is meticulously designed to meet global standards, ensuring that graduates are well-prepared to practice medicine in diverse healthcare settings.  A key factor contributing to the program's appeal is its accreditation and recognition by various esteemed global bodies, which not only validates the quality of education provided but also enhances the career prospects of its graduates.",
             ],
             academic: [
-              "Ulyanovsk State University (USU), a distinguished institution within the Russian academic scene, presents a comprehensive array of academic programs designed to cater to a multitude of scholarly interests. Among its offerings, the university's six-year MBBS program stands out as a particularly renowned course of study, attracting aspiring medical professionals from across the globe.  USU prides itself on its diverse and highly qualified faculty, comprised of experienced educators and researchers who are dedicated to providing students with a rich and stimulating learning environment.",
+              "Ulyanovsk State Medical University (USU), a distinguished institution within the Russian academic scene, presents a comprehensive array of academic programs designed to cater to a multitude of scholarly interests. Among its offerings, the university's six-year MBBS program stands out as a particularly renowned course of study, attracting aspiring medical professionals from across the globe.  USU prides itself on its diverse and highly qualified faculty, comprised of experienced educators and researchers who are dedicated to providing students with a rich and stimulating learning environment.",
             ],
             academicImg:
-              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742553756/Russia_university_10_academic_pic_l8nkrx.jpg",
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756192906/unnamed_tdnhp9.webp",
             faculties: [
               "Faculty of Medicine",
               "Faculty of Pediatric",
@@ -1090,7 +1090,7 @@ export async function GET(request, { params }) {
               "Faculty of Graduate Nurses",
             ],
             facultyImg:
-              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756192515/unnamed_mk4hmj.webp",
             affilationRecognition: [
               "FAIMER",
               "The Medical Council of India",
@@ -1266,7 +1266,7 @@ export async function GET(request, { params }) {
               "The Academic structure of the university consists of 16 faculties including medical education faculty and more. PskovSU today includes more than 10,000 students and over 500 teachers, among them there are Honored Teachers of Russia, Honorary Workers of secondary vocational education, and Candidates of Science. The university widely implements innovative approaches to teaching and research activities.",
             ],
             academicImg:
-              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742810336/Russia_university_16_academic_zzwbha.jpg",
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756194591/altai-state-medical-university-stu-life-4_vomvdq.webp",
             faculties: [
               "Faculty of General Medicine",
               "Faculty of Pediatric",
@@ -1274,7 +1274,7 @@ export async function GET(request, { params }) {
               "Faculty of Medical Cybernetics",
             ],
             facultyImg:
-              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756194563/altai-state-medical-university-stu-life-5_zxjul4.webp",
             affilationRecognition: ["FAIMER", "NMC", "WDOMS", "WHO"],
           },
 
@@ -1306,7 +1306,7 @@ export async function GET(request, { params }) {
           },
 
           {
-            name: "Tula State University",
+            name: "Tula State Medical University",
             image:
               "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742881100/Russia_university_tula_18_pic_wvrfa1.jpg",
             slug: "tula-state-university",
@@ -1399,7 +1399,7 @@ export async function GET(request, { params }) {
               "Located in Yekaterinburg, Russia, Ural State Medical University (USMU) provides a comprehensive spectrum of medical education, encompassing both undergraduate and postgraduate programs in diverse fields such as General Medicine, Dentistry, Pharmacy, Nursing, and various other medical specializations, with the added flexibility of instruction offered in both English and Russian languages to cater to a diverse student body.",
             ],
             academicImg:
-              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742887225/Russia_university_Ural_21_academic_kajya3.jpg",
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756193167/Ural_State_Medical_University_gallery_17432434627133_xldvdq.webp",
             faculties: [
               "Faculty of Medicine",
               "Faculty of Treatment and Prevention",
@@ -1409,7 +1409,7 @@ export async function GET(request, { params }) {
               "Faculty of Pharmacy",
             ],
             facultyImg:
-              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756193224/img07_jxlzyl.jpg",
             affilationRecognition: ["FAIMER", "ECFMG", "NMC", "WHO"],
           },
 
@@ -1426,7 +1426,7 @@ export async function GET(request, { params }) {
               "Privolzhsky Research Medical University (PRMU) delivers a comprehensive medical education, featuring a six-year MBBS program taught in English, alongside a range of postgraduate courses in specialized fields such as Cardiovascular Surgery, Gynaecology, and Neurology, and further extends its academic offerings with online preparatory-year courses in fundamental sciences like Chemistry, Biology, and the Russian language.",
             ],
             academicImg:
-              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742891459/Russia_university_Privolzhsky_21_academic_po9cwe.jpg",
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756193726/Privolzhsky_Research_Medical_University_gallery_17432308214518_etxkgm.webp",
             faculties: [
               "Faculty of Medicine",
               "Faculty of Medico-prophylaxis (Preventive medicine)",
@@ -1436,7 +1436,7 @@ export async function GET(request, { params }) {
               "Faculty of Pharmacy",
             ],
             facultyImg:
-              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756193673/1579177696phpPH5GRx_jsnkph.jpg",
             affilationRecognition: ["FAIMER", "MCI", "NMC", "WHO"],
           },
 
@@ -1453,7 +1453,7 @@ export async function GET(request, { params }) {
               "Irkutsk State Medical University (ISMU) provides a comprehensive spectrum of medical and healthcare education, encompassing undergraduate MBBS programs, diverse postgraduate specializations, and advanced doctoral degrees across numerous medical fields, all while maintaining a strong reputation for delivering high-quality medical education and providing extensive clinical training opportunities.",
             ],
             academicImg:
-              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742893231/Russia_university_Irkutsk_23_academic_ofngf7.jpgg",
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756193819/1593429991phpeO6S2c_wiftpi.jpg",
             faculties: [
               "Faculty of Medicine",
               "Faculty of Stomatology/ Dentistry",
@@ -1463,7 +1463,7 @@ export async function GET(request, { params }) {
               "Faculty of Pharmacy",
             ],
             facultyImg:
-              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756193926/3_rigtvk.jpg",
             affilationRecognition: ["FAIMER", "MCI", "NMC", "WHO"],
           },
 
@@ -1560,7 +1560,7 @@ export async function GET(request, { params }) {
               "Siberian State Medical University (SibMed) provides a comprehensive spectrum of medical education, encompassing both undergraduate and postgraduate degrees across various essential healthcare fields such as general medicine, dentistry, pharmacy, and nursing, with a strong emphasis on integrating robust theoretical knowledge with extensive practical experience to ensure well-rounded and competent graduates.",
             ],
             academicImg:
-              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742900570/Russia_university_Siberian_27_academic_ptvfrx.jpg",
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756194257/Siberian-State-Medical-University_gfbasg.jpg",
             faculties: [
               "Faculty of Medicine",
               "Faculty of Dentistry",
@@ -1570,7 +1570,7 @@ export async function GET(request, { params }) {
               "Faculty of Pharmacy",
             ],
             facultyImg:
-              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756194355/66-7_nbnpt5.jpg",
             affilationRecognition: ["FAIMER", "MCC", "NMC", "WDOMS"],
           },
 
@@ -1587,7 +1587,7 @@ export async function GET(request, { params }) {
               "I. M. Sechenov First Moscow State Medical University (Sechenov University) provides a comprehensive spectrum of medical education, encompassing undergraduate MBBS programs, diverse postgraduate opportunities including Master's degrees, PhD programs, and Clinical Residencies, alongside foundational preparatory courses, with the added flexibility of select programs offered in English, all while maintaining a strong emphasis on fostering research and driving innovation within the healthcare domain.",
             ],
             academicImg:
-              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742901926/Russia_university_im_28_academic_hzsegc.jpg",
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756193374/auditoriya_zcmogh.jpg",
             faculties: [
               "Faculty of Medicine",
               "Faculty of Preventive Medicine",
@@ -1597,7 +1597,7 @@ export async function GET(request, { params }) {
               "Faculty of Pharmacy",
             ],
             facultyImg:
-              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756193443/i-m-sechenov-first-moscow-state-medical-university-students-1_a4dbqh.webp",
             affilationRecognition: ["FAIMER", "ECFMG", "NMC", "WDOMS"],
           },
 
