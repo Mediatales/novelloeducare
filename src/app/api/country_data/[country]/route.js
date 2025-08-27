@@ -675,13 +675,13 @@ export async function GET(request, { params }) {
           },
 
 		   {
-            name: "North Ossrtian Federal University",
+            name: "North Ossetian Federal University",
             image:
               "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756109187/unnamed_xfukxl.webp",
-            slug: "North ossrtian federal university",
+            slug: "North Ossetian federal university",
             country: "russia",
             overview: [
-              "North Ossrtian State Medical University (NOSMA), located in Vladikavkaz, Russia, was established in 1939. It is a prominent medical institution in the North Caucasus region and is recognized for its long history of training healthcare professionals. The university offers a variety of medical programs and has a diverse student body, including a significant number of international students.",
+              "North Ossetian State Medical University (NOSMA), located in Vladikavkaz, Russia, was established in 1939. It is a prominent medical institution in the North Caucasus region and is recognized for its long history of training healthcare professionals. The university offers a variety of medical programs and has a diverse student body, including a significant number of international students.",
             ],
             academic: [
               "NOSMA offers a 6-year General Medicine (MBBS) program, with instruction available in both English and Russian. The curriculum is structured to provide a comprehensive medical education, progressing from fundamental theoretical sciences to advanced clinical practice. It also offers programs in Dentistry and Pharmacy, along with postgraduate training in over 40 medical specialties.",
@@ -777,8 +777,8 @@ export async function GET(request, { params }) {
             {
             name: "Tambov State University",
             image:
-              "https://lh3.googleusercontent.com/gps-cs-s/AC9h4np4WHWyOaXXw7uhfXcOsNA1VJF0kqlv3gGyOcCRicsufxEmvP_so8ee_PKiTPqz89kwUPdUx1apoiI_aoVfWB30IuVsEJIq7f_TNmf8TG5G3esTiGyfXY2nVkkXFw0SnuvswmNJ=s680-w680-h510-rw",
-            slug: "Derzhavin Tambov State University",
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756290909/unnamed_rfvqix.webp",
+            slug: "Tambov State University",
             country: "russia",
             overview: [
               "Tambov State Medical University (TSU) is a public state university located in Tambov, Russia. It was founded in 1994 by merging the Tambov State Pedagogical Institute and the Tambov State Institute of Culture. The university is named after the Russian poet and statesman Gavrila Romanovich Derzhavin. With over 13,000 students, including more than 2,700 international students from over 69 countries, it is the largest university in the Tambov region.",
@@ -806,40 +806,39 @@ export async function GET(request, { params }) {
           },
 
 
-           {
-            name: "kirov State Medical University",
-            image:
-              "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nob_ia7pOarvYE-iKEh8hSxC7qFWGR5L2j9epTvEniqqEq7A1PdlWIQVg9bwiu244BXBPRSRFMBYMgcM3g_SEU4sHJ8nBVMo_WJRe3KW0-7wrVjzozitQXtIyDeYq3n4N6cHy04=s680-w680-h510-rw",
-            slug: "kirov state medical university",
-            country: "russia",
-            overview: [
-              "Established in 1987, Kirov State Medical University is a public higher medical institution in Kirov, Russia. It is a large university with over 5,000 students, including more than 200 international students from 33 countries. With over 50 departments, the university offers instruction in both Russian and English, making it accessible to a wide range of students.",
-            ],
-            academic: [
-              "Kirov State Medical University offers a variety of medical programs to its students. The main faculties include General Medicine, Pediatrics, Stomatology (Dentistry), Psychology, Pharmacy, Higher Nursing Education, Medico-Prophylaxis, and a Preparatory Department. The university's academic offerings span a number of disciplines, with programs in General Medicine, Dentistry, Pediatrics, Medical Biochemistry, Pharmacy, and Nursing.",
-            ],
-            academicImg:
-              "https://study.kirovgma.ru/images/gallery/ex2.webp",
-            faculties: [
-              "Faculty of General Medicine",
-              "Faculty of Pediatrics",
-              "Faculty of Stomatology (Dentistry)",
-              "Faculty of Pharmacy",
-              "Faculty of Higher Nursing Education",
-            ],
-            facultyImg:
-              "https://study.kirovgma.ru/images/gallery/ex9.webp",
-            affilationRecognition: [
-              "Ministry of Health of the Russian Federation",
-              "National Medical Commission (NMC, India)",
-              "World Directory of Medical Schools (WDOMS)",
-              "World Health Organization (WHO)",
-            ],
-          },
-
+          {
+        name: "kirov State Medical University",
+        image:
+          "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756274007/unnamed_uwxz7h.webp",
+        slug: "kirov State Medical University",
+        country: "russia",
+        overview: [
+          "Established in 1987, Kirov State Medical University is a public higher medical institution in Kirov, Russia. It is a large university with over 5,000 students, including more than 200 international students from 33 countries. With over 50 departments, the university offers instruction in both Russian and English, making it accessible to a wide range of students.",
+        ],
+        academic: [
+          "Kirov State Medical University offers a variety of medical programs to its students. The main faculties include General Medicine, Pediatrics, Stomatology (Dentistry), Psychology, Pharmacy, Higher Nursing Education, Medico-Prophylaxis, and a Preparatory Department. The university's academic offerings span a number of disciplines, with programs in General Medicine, Dentistry, Pediatrics, Medical Biochemistry, Pharmacy, and Nursing.",
+        ],
+        academicImg:
+          "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756274434/ex2_pn660w.webp",
+        faculties: [
+          "Faculty of General Medicine",
+          "Faculty of Pediatrics",
+          "Faculty of Stomatology (Dentistry)",
+          "Faculty of Pharmacy",
+          "Faculty of Higher Nursing Education",
+        ],
+        facultyImg:
+          "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756275533/ex9_oid0xa.webp",
+        affilationRecognition: [
+          "Ministry of Health of the Russian Federation",
+          "National Medical Commission (NMC, India)",
+          "World Directory of Medical Schools (WDOMS)",
+          "World Health Organization (WHO)",
+        ],
+      },
 
           {
-            name: "Kemerovo State Medical University",
+            name: "Kemerovo State University",
             image:
               "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756192554/unnamed_zuiibi.webp",
             slug: "Kemerovo state university",
@@ -868,6 +867,43 @@ export async function GET(request, { params }) {
               "World Health Organization (WHO)",
             ],
           },
+
+			 {
+            name: "Kemerovo State Medical University",
+            image:
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742808909/Russia_university_15_pic_imq9oj.jpg",
+            slug: "kemerovo-state-medical-university",
+            country: "russia",
+            overview: [
+              "Kemerovo State Medical University was established in 1955 and has more than 65 years of expertise in teaching medical students. One of the top educational, scientific, and medical institutions in Russia and the entire Siberian area is Kemerovo State Medical University. The National Medical Commission (NMC) has given Kemerovo State Medical University its seal of approval, and the Ministry of Science and Higher Education of the Russian Federation has granted it accreditation. Given that it offers its MBBS degree program to its international students in English, Kemerovo State Medical University is among the finest MBBS institutes in Russia. The university conducts educational activities in accordance with society and the state which includes a focused way of education and training programs in the field of medicine. It establishes systematic and methodological educational work to improve the quality of training of specialists.",
+            ],
+            academic: [
+              "There are 17 academic laboratories and administrative buildings on the site. At Kemerovo State Medical University, the students are shown the highest respect. The facilities for student housing area close to the city’s core in Kemerovo Oblast. In each of the hostel rooms, there is central air conditioning and heating. One of the top MBBS schools in Russia is the Kemerovo State Medical University. Due to the Kemerovo State Medical University’s low tuition fees and accreditation by both the Russian Federation’s Ministry of Science and Higher Education and the National Medical Commission (NMC), young, aspirant medical candidates from all over the world—including India—aspire to earn their MBBS there.",
+            ],
+            academicImg:
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742809053/Russia_university_15_academic_urzfkt.jpg",
+            faculties: [
+              "Faculty of General Medicine",
+              "Faculty of Pediatric",
+              "Faculty of Preventive medicine",
+              "Faculty of Ophthalmology",
+              "Faculty of Urology",
+              "Faculty of Therapy",
+            ],
+            facultyImg:
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756289167/18527130_277668026026690_8278296082334592592_o-924x462_wxfwbn.jpg",
+            affilationRecognition: [
+              "FAIMER",
+              "The Medical Council of India",
+              "ECFMG",
+              "World Health Organization (WHO)",
+            ],
+          },
+
+
+			
+
+			
 
           // edfasdfhaidsrtfhakdfhgdafg
 
@@ -939,7 +975,7 @@ export async function GET(request, { params }) {
       {
         name: "Amur State Medical Academy",
         image:
-          "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756204065/unnamed_zpduks.webp",
+          "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756284040/%D0%90%D0%BC%D1%83%D1%80%D1%81%D0%BA%D0%B0%D1%8F%D0%93%D0%9C%D0%90_f4cm5m.jpg",
         slug: "Amur State Medical Academy",
         country: "russia",
         overview: [
@@ -968,6 +1004,37 @@ export async function GET(request, { params }) {
       },
 
 
+			{
+        name: "Chita State Medical Academy",
+        image:
+          "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756204656/unnamed_ubu6jj.webp",
+        slug: "Chita State Medical Academy",
+        country: "russia",
+        overview: [
+          "Chita State Medical Academy was established on 23 July 1953 as the Chita State Institute of Medicine and later renamed as an academy in 1995. It stands today as the foremost medical research, educational, and clinical institution in Eastern Siberia, serving the Trans-Baikal and Far East regions with modern, technology-augmented learning Currently, over 2,500–3,400 students are enrolled across various specialties, guided by around 260–292 lecturers, including 35 Professors (Doctors of Sciences), 157 Associate Professors, and esteemed members of national and international academies. The academy has trained approximately 20,000 physicians to date.",
+        ],
+        academic: [
+          "Chita State Medical Academy offers undergraduate medical programs such as: General Medicine (MBBS) – 6 years including a clinical internship (taught in English and/or Russian) Dentistry – 5 years (Russian medium) Pediatrics – 6 years (Russian medium) Pharmacy, plus postgraduate residency and specialist training across disciplines The MBBS curriculum includes pre-clinical, para-clinical, and clinical subjects such as Anatomy, Biochemistry, Physiology, Pathology, Pharmacology, Medicine, Surgery, Pediatrics, Obstetrics & Gynecology, ENT, Emergency Medicine, and more.",
+        ],
+        academicImg:
+          "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756204722/-Z4bLrLJYoLCuDepUReR_m6snbc.jpg",
+        faculties: [
+          "General Mediciney",
+          "Dentistry (Stomatology)",
+          "Pediatrics",
+          "Higher Nursing Education",
+          "Training and Internship (Postgraduate)",
+        ],
+        facultyImg:
+          "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756204754/cUL8EnzE1TDIpXO53f9K_hur5pz.jpg",
+        affilationRecognition: [
+          "Ministry of Science and Higher Education of the Russian Federation",
+          "National Medical Commission (NMC, India)",
+          "Medical Councils of Various Countries",
+          "World Health Organization (WHO)",
+        ],
+      },
+
 
 
           // End more universities here
@@ -994,7 +1061,7 @@ export async function GET(request, { params }) {
               "Faculty of Pathological Anatomy",
             ],
             facultyImg:
-              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1739793855/img_bg_sybjt5.png",
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756291803/24-1_zuxmol.jpg",
             affilationRecognition: [
               "Ministry of Education, Science, Culture and Sport of the Republic of Russia",
               "Quality Assurance (ANQA)",
@@ -1025,7 +1092,7 @@ export async function GET(request, { params }) {
               "Faculty of Postgraduate Studies",
             ],
             facultyImg:
-              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1739793855/img_bg_sybjt5.png",
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756292008/unnamed_wkwfpf.webp",
             affilationRecognition: [
               "Education Commission for Foreign Medical Graduates (ECFMG)",
               "FAIMER",
@@ -1057,7 +1124,7 @@ export async function GET(request, { params }) {
               "Faculty of Pharmacology",
             ],
             facultyImg:
-              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756292312/%D0%97%D0%90%D0%A1%D0%95%D0%94%D0%90%D0%9D%D0%98%D0%95_%D0%9F%D0%9E%D0%9F%D0%95%D0%A7%D0%98%D0%A2%D0%95%D0%9B%D0%AC%D0%A1%D0%9A%D0%9E%D0%93%D0%9E_%D0%A1%D0%9E%D0%92%D0%95%D0%A2%D0%90_2_vvvh1v.webp",
             affilationRecognition: [
               "(UNESCO) The United Nations Educational, Scientific and Cultural Organization recognizes KBSU",
               "The Medical Council of India recognizes KBSU",
@@ -1089,7 +1156,7 @@ export async function GET(request, { params }) {
               "Faculty of Clinical Psychology",
             ],
             facultyImg:
-              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756292433/unnamed_emgn2v.webp",
             affilationRecognition: [
               "FAIMER",
               "The Medical Council of India",
@@ -1101,7 +1168,7 @@ export async function GET(request, { params }) {
           {
             name: "Bashkir State Medical University",
             image:
-              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742549380/Russia_university_8_pic_tu7r7b.webp",
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756283720/unnamed_bjijff.webp",
             slug: "bashkir-state-medical-university",
             country: "russia",
             overview: [
@@ -1121,7 +1188,7 @@ export async function GET(request, { params }) {
               "Faculty of Management and Graduate Nurses",
             ],
             facultyImg:
-              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756283784/unnamed_szfbzc.webp",
             affilationRecognition: [
               "FAIMER",
               "The Medical Council of India",
@@ -1244,7 +1311,7 @@ export async function GET(request, { params }) {
               "Faculty of Pharmacy",
             ],
             facultyImg:
-              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756292593/unnamed_tvxwpp.webp",
             affilationRecognition: [
               "FAIMER",
               "The Medical Council of India",
@@ -1276,7 +1343,7 @@ export async function GET(request, { params }) {
               "Faculty of Pharmacy",
             ],
             facultyImg:
-              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756292671/20190420133744-banner67_bcnauf.jpg",
             affilationRecognition: [
               "FAIMER",
               "The Medical Council of India",
@@ -1285,10 +1352,10 @@ export async function GET(request, { params }) {
             ],
           },
 
-          {
+           {
             name: "Mari State Medical University",
             image:
-              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742808838/Russia_university_14_pic_qefs4j.jpg",
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756284351/unnamed_pqcoyp.webp",
             slug: "mari-state-medical-university",
             country: "russia",
             overview: [
@@ -1308,7 +1375,7 @@ export async function GET(request, { params }) {
               "Faculty of Pharmacy",
             ],
             facultyImg:
-              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756284446/unnamed_wcj2is.webp",
             affilationRecognition: [
               "FAIMER",
               "The Medical Council of India",
@@ -1317,39 +1384,9 @@ export async function GET(request, { params }) {
             ],
           },
 
-          {
-            name: "Kemerovo State Medical University",
-            image:
-              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742808909/Russia_university_15_pic_imq9oj.jpg",
-            slug: "kemerovo-state-medical-university",
-            country: "russia",
-            overview: [
-              "Kemerovo State Medical University was established in 1955 and has more than 65 years of expertise in teaching medical students. One of the top educational, scientific, and medical institutions in Russia and the entire Siberian area is Kemerovo State Medical University. The National Medical Commission (NMC) has given Kemerovo State Medical University its seal of approval, and the Ministry of Science and Higher Education of the Russian Federation has granted it accreditation. Given that it offers its MBBS degree program to its international students in English, Kemerovo State Medical University is among the finest MBBS institutes in Russia. The university conducts educational activities in accordance with society and the state which includes a focused way of education and training programs in the field of medicine. It establishes systematic and methodological educational work to improve the quality of training of specialists.",
-            ],
-            academic: [
-              "There are 17 academic laboratories and administrative buildings on the site. At Kemerovo State Medical University, the students are shown the highest respect. The facilities for student housing area close to the city’s core in Kemerovo Oblast. In each of the hostel rooms, there is central air conditioning and heating. One of the top MBBS schools in Russia is the Kemerovo State Medical University. Due to the Kemerovo State Medical University’s low tuition fees and accreditation by both the Russian Federation’s Ministry of Science and Higher Education and the National Medical Commission (NMC), young, aspirant medical candidates from all over the world—including India—aspire to earn their MBBS there.",
-            ],
-            academicImg:
-              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742809053/Russia_university_15_academic_urzfkt.jpg",
-            faculties: [
-              "Faculty of General Medicine",
-              "Faculty of Pediatric",
-              "Faculty of Preventive medicine",
-              "Faculty of Ophthalmology",
-              "Faculty of Urology",
-              "Faculty of Therapy",
-            ],
-            facultyImg:
-              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
-            affilationRecognition: [
-              "FAIMER",
-              "The Medical Council of India",
-              "ECFMG",
-              "World Health Organization (WHO)",
-            ],
-          },
+         
 
-          {
+              {
             name: "Pskov State Medical University",
             image:
               "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742810318/Russia_university_16_pic_niq70h.jpg",
@@ -1362,7 +1399,7 @@ export async function GET(request, { params }) {
               "The Academic structure of the university consists of 16 faculties including medical education faculty and more. PskovSU today includes more than 10,000 students and over 500 teachers, among them there are Honored Teachers of Russia, Honorary Workers of secondary vocational education, and Candidates of Science. The university widely implements innovative approaches to teaching and research activities.",
             ],
             academicImg:
-              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756194591/altai-state-medical-university-stu-life-4_vomvdq.webp",
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756290142/510551-1519393083_f7cpor.jpg",
             faculties: [
               "Faculty of General Medicine",
               "Faculty of Pediatric",
@@ -1370,7 +1407,7 @@ export async function GET(request, { params }) {
               "Faculty of Medical Cybernetics",
             ],
             facultyImg:
-              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756194563/altai-state-medical-university-stu-life-5_zxjul4.webp",
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756280613/pskov-state-university-guest-lecture_tcrl5a.jpg",
             affilationRecognition: ["FAIMER", "NMC", "WDOMS", "WHO"],
           },
 
@@ -1397,7 +1434,7 @@ export async function GET(request, { params }) {
               "Faculty of Psychology",
             ],
             facultyImg:
-              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756292940/Perm_ct1t7i.jpg",
             affilationRecognition: ["FAIMER", "ECFMG", "NMC", "WHO"],
           },
 
@@ -1424,7 +1461,7 @@ export async function GET(request, { params }) {
               "Faculty of Polyclinic Medicine",
             ],
             facultyImg:
-              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756293179/u5GEq0jjj0SSz3gi7PXA_okguzy.jpg",
             affilationRecognition: ["FAIMER", "ECFMG", "NMC", "WDOMS"],
           },
 
@@ -1451,14 +1488,14 @@ export async function GET(request, { params }) {
               "Faculty of Psychology",
             ],
             facultyImg:
-              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756293243/unnamed_n6jp2r.webp",
             affilationRecognition: ["FAIMER", "ECFMG", "NMC", "WHO"],
           },
 
           {
             name: "Dagestan State Medical University",
             image:
-              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742885558/Russia_university_Dagestan_20_pic_gin26s.jpg",
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756284748/Dagestan-State-Medical-University_ftjvbl.webp",
             slug: "dagestan-state-medical-university",
             country: "russia",
             overview: [
@@ -1478,7 +1515,7 @@ export async function GET(request, { params }) {
               "Faculty of Pharmacy",
             ],
             facultyImg:
-              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756284791/dagestan-state-medical-university-students-2_kejjis.webp",
             affilationRecognition: ["FAIMER", "ECFMG", "NMC", "WHO"],
           },
 
@@ -1522,7 +1559,7 @@ export async function GET(request, { params }) {
               "Privolzhsky Research Medical University (PRMU) delivers a comprehensive medical education, featuring a six-year MBBS program taught in English, alongside a range of postgraduate courses in specialized fields such as Cardiovascular Surgery, Gynaecology, and Neurology, and further extends its academic offerings with online preparatory-year courses in fundamental sciences like Chemistry, Biology, and the Russian language.",
             ],
             academicImg:
-              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756193726/Privolzhsky_Research_Medical_University_gallery_17432308214518_etxkgm.webp",
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756278819/Orel-State-University-Classroom_wj8nxf.png",
             faculties: [
               "Faculty of Medicine",
               "Faculty of Medico-prophylaxis (Preventive medicine)",
@@ -1532,11 +1569,11 @@ export async function GET(request, { params }) {
               "Faculty of Pharmacy",
             ],
             facultyImg:
-              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756193673/1579177696phpPH5GRx_jsnkph.jpg",
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756278855/1579177696phpPH5GRx_e7uy6t.jpg",
             affilationRecognition: ["FAIMER", "MCI", "NMC", "WHO"],
           },
 
-          {
+           {
             name: "Irkutsk State Medical University",
             image:
               "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742893226/Russia_university_Irkutsk_23_pic_okb1ea.jpg",
@@ -1549,7 +1586,7 @@ export async function GET(request, { params }) {
               "Irkutsk State Medical University (ISMU) provides a comprehensive spectrum of medical and healthcare education, encompassing undergraduate MBBS programs, diverse postgraduate specializations, and advanced doctoral degrees across numerous medical fields, all while maintaining a strong reputation for delivering high-quality medical education and providing extensive clinical training opportunities.",
             ],
             academicImg:
-              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756193819/1593429991phpeO6S2c_wiftpi.jpg",
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756279475/study-1_inhjg4.jpg",
             faculties: [
               "Faculty of Medicine",
               "Faculty of Stomatology/ Dentistry",
@@ -1559,9 +1596,11 @@ export async function GET(request, { params }) {
               "Faculty of Pharmacy",
             ],
             facultyImg:
-              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756193926/3_rigtvk.jpg",
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756279519/1593429991phpeO6S2c_alhhyj.jpg",
             affilationRecognition: ["FAIMER", "MCI", "NMC", "WHO"],
           },
+
+			
 
           {
             name: "Samara State Medical University",
@@ -1586,7 +1625,7 @@ export async function GET(request, { params }) {
               "Faculty of Innovative Development",
             ],
             facultyImg:
-              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756294503/2025-07-09_phigyl.webp",
             affilationRecognition: ["FAIMER", "ECFMG", "NMC", "WHO"],
           },
 
@@ -1612,7 +1651,7 @@ export async function GET(request, { params }) {
               "Faculty of Pharmacy",
             ],
             facultyImg:
-              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756295029/chelyabinsk-state-university-students-1_iafneu.webp",
             affilationRecognition: ["FAIMER", "ECFMG", "NMC", "WHO"],
           },
 
@@ -1639,11 +1678,11 @@ export async function GET(request, { params }) {
               "Faculty of Pharmacy",
             ],
             facultyImg:
-              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756295177/immanuel-kant-baltic-federal-university-1_drea6j.webp",
             affilationRecognition: ["FAIMER", "ECFMG", "NMC", "WDOMS"],
           },
 
-          {
+             {
             name: "Siberian State Medical University",
             image:
               "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742900525/Russia_university_Siberian_27_bjrk1l.jpg",
@@ -1670,7 +1709,7 @@ export async function GET(request, { params }) {
             affilationRecognition: ["FAIMER", "MCC", "NMC", "WDOMS"],
           },
 
-          {
+            {
             name: "I.M Sechenov First Moscow State Medical University",
             image:
               "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742901980/Russia_university_im_28_pic_uyy1mp.jpg",
@@ -1683,7 +1722,7 @@ export async function GET(request, { params }) {
               "I. M. Sechenov First Moscow State Medical University (Sechenov University) provides a comprehensive spectrum of medical education, encompassing undergraduate MBBS programs, diverse postgraduate opportunities including Master's degrees, PhD programs, and Clinical Residencies, alongside foundational preparatory courses, with the added flexibility of select programs offered in English, all while maintaining a strong emphasis on fostering research and driving innovation within the healthcare domain.",
             ],
             academicImg:
-              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756193374/auditoriya_zcmogh.jpg",
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756277762/i-m-sechenov-first-moscow-state-medical-university-students-6_hswccx.webp",
             faculties: [
               "Faculty of Medicine",
               "Faculty of Preventive Medicine",
@@ -1693,9 +1732,10 @@ export async function GET(request, { params }) {
               "Faculty of Pharmacy",
             ],
             facultyImg:
-              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756193443/i-m-sechenov-first-moscow-state-medical-university-students-1_a4dbqh.webp",
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756277641/i-m-sechenov-first-moscow-state-medical-university-students-1_cqiuoa.webp",
             affilationRecognition: ["FAIMER", "ECFMG", "NMC", "WDOMS"],
           },
+
 
           {
             name: "Pirogov Russian National Research Medical University",
@@ -1720,7 +1760,7 @@ export async function GET(request, { params }) {
               "Faculty of Pharmacy",
             ],
             facultyImg:
-              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756295266/1658498101_fin8ei.jpg",
             affilationRecognition: ["FAIMER", "ECFMG", "NMC", "WDOMS"],
           },
 
@@ -1774,7 +1814,7 @@ export async function GET(request, { params }) {
               "Faculty of Pharmacy",
             ],
             facultyImg:
-              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756295365/altai-state-medical-university-stu-life-1_kz2x2g.webp",
             affilationRecognition: ["FAIMER", "ECFMG", "NMC", "WDOMS"],
           },
         ],
