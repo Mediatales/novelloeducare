@@ -80,7 +80,7 @@ export async function GET(request, { params }) {
           {
             name: "KIMYO INTERNATIONAL UNIVERSITY",
             image:
-              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741767035/pic_5_hbwmul.jpg",
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1755760078/page-header.jpg__2000.0x732.0_q85_subsampling-2_cnxfik.jpg",
             slug: "KIMYO INTERNATIONAL UNIVERSITY",
             country: "uzbekistan",
             overview: [
@@ -90,7 +90,7 @@ export async function GET(request, { params }) {
               "KIUT offers a diverse range of programs in Uzbek, Russian, and English languages, across full-time, extramural, and evening study formats. As of February 2024, it provides 28 bachelor's degree programs and 20 master's degree programs. The curriculum is designed to foster critical thinking and practical expertise, with periodic updates to integrate the latest advancements. The university also offers a 6-year MBBS course which includes a one-year internship and is taught entirely in English.",
             ],
             academicImg:
-              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741767783/pic_1_jbp3ed.jpg",
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1755760362/img_9282_1_dx36az.jpg",
             faculties: [
               "School of General Medicine",
               "School of Dentistry",
@@ -100,7 +100,7 @@ export async function GET(request, { params }) {
               "School of Engineering",
             ],
             facultyImg:
-              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741767120/pic_4_l3uszb.jpg",
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1755760497/8y8a1718.jpg__650x450_q85_crop_subsampling-2_cgpxoy.jpg",
             affilationRecognition: [
               "National Medical Commission of India (NMC)",
               "World Health Organization (WHO)",
@@ -111,7 +111,7 @@ export async function GET(request, { params }) {
           {
             name: "IMPULSE MEDICAL INSTITUTE",
             image:
-              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741767035/pic_5_hbwmul.jpg",
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1755760788/hero_hxhpla.png",
             slug: "IMPULSE MEDICAL INSTITUTE",
             country: "uzbekistan",
             overview: [
@@ -121,7 +121,7 @@ export async function GET(request, { params }) {
               "IMI offers a 6-year Bachelor of Medicine (General Medicine) program, which includes 5 years of academic study and 1 year of clinical rotation. The instruction is delivered in both English and Uzbek. The institute focuses on providing hands-on experience through clinical training opportunities at its affiliated hospitals and clinics. It also integrates FMGE/NExT coaching for Indian students, including preparatory classes and mock tests from the second year onwards.",
             ],
             academicImg:
-              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741767783/pic_1_jbp3ed.jpg",
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1755760820/statsimage_i6alnb.jpg",
             faculties: [
               "Faculty of General Medicine",
               "Faculty of Pediatrics",
@@ -131,7 +131,7 @@ export async function GET(request, { params }) {
               "Faculty of Nursing (mentioned in snippets, indicating a program)",
             ],
             facultyImg:
-              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741767120/pic_4_l3uszb.jpg",
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1755760864/photo_2025-01-13_16-15-46_ewcb1l.jpg",
             affilationRecognition: [
               "National Medical Commission of India (NMC)",
               "World Health Organization (WHO)",
@@ -143,7 +143,7 @@ export async function GET(request, { params }) {
           {
             name: "KARSHI STATE MEDICAL UNIVERSITY",
             image:
-              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741767035/pic_5_hbwmul.jpg",
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1755760558/1_l93y0m.jpg",
             slug: "KARSHI STATE MEDICAL UNIVERSITY",
             country: "uzbekistan",
             overview: [
@@ -153,7 +153,7 @@ export async function GET(request, { params }) {
               "KSMU offers a range of undergraduate and postgraduate medical programs. The flagship program is the 6-year MBBS (General Medicine) course, which includes an internship and is offered in both English and Russian languages to meet international standards. A parallel 6-year program in Pediatrics is also available. The curriculum integrates modern teaching methodologies and cutting-edge research practices, utilizing advanced simulation labs and digital libraries.",
             ],
             academicImg:
-              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741767783/pic_1_jbp3ed.jpg",
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1755760647/statistics-bg_ityfpb.jpg",
             faculties: [
               "Faculty of General Medicine",
               "Faculty of Pediatrics",
@@ -163,7 +163,7 @@ export async function GET(request, { params }) {
               "Postgraduate Medical Studies",
             ],
             facultyImg:
-              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741767120/pic_4_l3uszb.jpg",
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1755760681/2_jmgfwi.jpg",
             affilationRecognition: [
               "National Medical Commission of India (NMC)",
               "World Health Organization (WHO)",
