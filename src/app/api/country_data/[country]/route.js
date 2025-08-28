@@ -493,7 +493,7 @@ export async function GET(request, { params }) {
           {
             name: "North-Western State Medical University",
             image:
-              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741758303/russia_university_1_suz32t.jpg",
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756381763/north-western-state-medical-university-img.jpg_y9d9vr.webp",
             slug: "north-western-state-medical-university",
             country: "russia",
             overview: [
@@ -508,6 +508,10 @@ export async function GET(request, { params }) {
               "Medical Faculty",
               "Faculty of Medical Pedagogy",
               "Faculty of Higher Nursing",
+              "Faculty of Dentistry",
+              "Faculty of Pediatric",
+              "Faculty of Preventive Medicine",
+				
             ],
             facultyImg:
               "https://res.cloudinary.com/dqggm4k7u/image/upload/v1739793855/img_bg_sybjt5.png",
@@ -687,7 +691,7 @@ export async function GET(request, { params }) {
               "NOSMA offers a 6-year General Medicine (MBBS) program, with instruction available in both English and Russian. The curriculum is structured to provide a comprehensive medical education, progressing from fundamental theoretical sciences to advanced clinical practice. It also offers programs in Dentistry and Pharmacy, along with postgraduate training in over 40 medical specialties.",
             ],
             academicImg:
-              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756109286/3-31_wtjigy.jpg",
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756382449/A7BDB5B9-1569-45E9-BDA5-0C3A0585A49C-580x560_dyurv9.jpg",
             faculties: [
               "Faculty of General Medicine",
               "Faculty of Dentistry",
@@ -715,7 +719,7 @@ export async function GET(request, { params }) {
             slug: "North Caucasian State Academy",
             country: "russia",
             overview: [
-              "The North Caucasian State Academy (NCSA) is a multidisciplinary higher education institution located in Cherkessk, Russia. Founded in 1936, it has grown into one of the largest educational establishments in the North Caucasus region, with a strong focus on academic excellence, research, and innovation. It is a public university that attracts both domestic and international students.",
+              "North Caucasian State Academy (NCSA), located in Cherkessk, Russia, is a multidisciplinary public university founded in 1936. It is one of the leading educational institutions in the North Caucasus region, offering a wide range of programs in fields such as economics, law, medicine, humanities, and natural sciences. The academy is known for its focus on academic excellence, research, and innovation while also promoting cultural diversity and international collaboration. With modern facilities and experienced faculty, NCSA attracts both domestic and international students seeking quality higher education.",
             ],
             academic: [
               "NCSA offers a wide range of academic programs at the undergraduate, postgraduate, and doctoral levels. While it is particularly known for its medical programs, such as General Medicine (MBBS), Dentistry, and Pharmacy, it also offers courses in a variety of other fields. Instruction is available in both English and Russian, catering to a diverse student body.",
@@ -747,7 +751,7 @@ export async function GET(request, { params }) {
             slug: "Novgorod State University",
             country: "russia",
             overview: [
-              "Novgorod State Medical University (NNSMU), also known as Privolzhsky Research Medical University, is a public medical school established in 1920 in the city of Nizhny Novgorod, Russia. It is a significant center for training medical professionals in the Volga region of Russia. The university has over 5,000 students, including more than 800 international students from over 38 countries.",
+              "Novgorod State Medical University (NNSMU), also known as Privolzhsky Research Medical University, is one of the leading medical institutions in Russia, founded in 1920 in Nizhny Novgorod. With a strong history of excellence, the university has become a major hub for training highly qualified doctors and healthcare professionals in the Volga region. It offers modern facilities, advanced research opportunities, and a wide range of medical programs designed to meet global standards. The university hosts more than 5,000 students, including over 800 international students from more than 38 countries, making it a truly diverse learning environment. Known for its focus on practical training, innovative teaching methods, and international collaboration, NNSMU provides students with a solid foundation to build successful medical careers both in Russia and abroad.",
             ],
             academic: [
               "The university offers various programs, with a focus on medicine, dentistry, and pharmacy. The General Medicine (MBBS) course is a popular choice for international students and is taught in English. The program lasts for six years, which includes a one-year internship. Students begin clinical studies in the third year and are rotated through different hospital departments.",
@@ -775,13 +779,13 @@ export async function GET(request, { params }) {
 			// morrersdfsadfhsdfdfasdfgasdfg
            
             {
-            name: "Tambov State University",
+            name: "Tambov State Medical University",
             image:
               "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756290909/unnamed_rfvqix.webp",
             slug: "Tambov State University",
             country: "russia",
             overview: [
-              "Tambov State Medical University (TSU) is a public state university located in Tambov, Russia. It was founded in 1994 by merging the Tambov State Pedagogical Institute and the Tambov State Institute of Culture. The university is named after the Russian poet and statesman Gavrila Romanovich Derzhavin. With over 13,000 students, including more than 2,700 international students from over 69 countries, it is the largest university in the Tambov region.",
+              "Tambov State Medical University, established in 1930 in Tambov, Russia, is one of the leading institutions for higher medical education. The university provides a wide range of programs in general medicine, dentistry, pediatrics, pharmacy, and nursing. With a strong academic foundation, it combines theoretical knowledge with hands-on clinical training in affiliated hospitals and modern laboratories. The university is also known for its active research environment and international collaborations, attracting students from various countries. Its multicultural campus, qualified faculty, and focus on practical healthcare skills make it an excellent choice for students aspiring to pursue a medical career in Russia and abroad.",
             ],
             academic: [
               "The university offers more than 100 programs in various fields, including medicine, economics, nanotechnology, and information technology. The medical programs, particularly the General Medicine (MBBS) course, are taught in both English and Russian. The duration of the MBBS program is 6 years, which includes a mandatory 1-year internship.",
@@ -813,7 +817,7 @@ export async function GET(request, { params }) {
         slug: "kirov State Medical University",
         country: "russia",
         overview: [
-          "Established in 1987, Kirov State Medical University is a public higher medical institution in Kirov, Russia. It is a large university with over 5,000 students, including more than 200 international students from 33 countries. With over 50 departments, the university offers instruction in both Russian and English, making it accessible to a wide range of students.",
+          "Kirov State Medical University, established in 1987, is one of the prominent medical universities in Russia dedicated to training highly qualified healthcare professionals. Over the years, the university has built a strong reputation for its commitment to academic excellence, advanced research, and practical medical training. It offers a wide range of programs in general medicine, dentistry, pediatrics, and other healthcare-related fields, attracting students from across Russia as well as international applicants. The university places a strong emphasis on combining theoretical knowledge with hands-on clinical practice, ensuring that graduates are well-prepared to meet the demands of the modern healthcare system. With its experienced faculty, modern facilities, and collaborative partnerships with hospitals and research institutes, Kirov State Medical University continues to play a vital role in shaping the future of medical education and healthcare services in the region.",
         ],
         academic: [
           "Kirov State Medical University offers a variety of medical programs to its students. The main faculties include General Medicine, Pediatrics, Stomatology (Dentistry), Psychology, Pharmacy, Higher Nursing Education, Medico-Prophylaxis, and a Preparatory Department. The university's academic offerings span a number of disciplines, with programs in General Medicine, Dentistry, Pediatrics, Medical Biochemistry, Pharmacy, and Nursing.",
@@ -838,13 +842,13 @@ export async function GET(request, { params }) {
       },
 
           {
-            name: "Kemerovo State University",
+            name: "Kemerovo State Medical University",
             image:
               "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756192554/unnamed_zuiibi.webp",
             slug: "Kemerovo state university",
             country: "russia",
             overview: [
-              "Kemerovo State University (KemSU) was established in 1973 as a public university, succeeding the Kemerovo Pedagogical Institute. It is a leading educational and scientific center in the Kemerovo Oblast, with five branches within the region and one in Ulaanbaatar, Mongolia. The university has a total of approximately 21,000 students, including over 500 international students. The main campus consists of 17 educational, laboratory, and administrative buildings with a total area of 120,000 square meters.",
+              "Kemerovo State Medical University, founded in 1955, is one of the leading centers of medical education and research in Siberia, Russia. The university is known for its strong academic foundation and modern approach to healthcare training, offering programs in general medicine, pediatrics, dentistry, pharmacy, preventive medicine, and nursing. Over the decades, it has trained thousands of highly skilled doctors, pharmacists, and healthcare specialists who contribute to both Russian and international healthcare systems. The university emphasizes practical clinical experience alongside theoretical studies, with training provided in affiliated hospitals and medical institutions. Equipped with advanced laboratories, simulation centers, and experienced faculty members, Kemerovo State Medical University continues to attract both local and international students seeking quality medical education. Its commitment to innovation, research, and community healthcare development makes it an important hub for medical science in the Kemerovo region and beyond.",
             ],
             academic: [
               "The university offers a variety of academic programs across different disciplines. The medical programs, including General Medicine (MBBS), are taught in English and are a popular choice for international students. The duration of the MBBS program is 6 years, which includes a one-year internship. Other academic offerings include programs in law, economics, philology, foreign languages, and sociology.",
@@ -910,13 +914,13 @@ export async function GET(request, { params }) {
 
 			 // gg
       {
-        name: "Ingush State University",
+        name: "Ingush State Medical University",
         image:
           "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756201891/unnamed_ckpidu.webp",
         slug: "Ingush State University",
         country: "russia",
         overview: [
-          "Ingush State University (IngGU) is a public university located in Magas, the capital of the Republic of Ingushetia, Russia. Established in 1994, it is one of the youngest yet largest higher education institutions in the region, with around 8,978 students and approximately 508 academic staff members",
+          "Ingush State Medical University, located in the Republic of Ingushetia, Russia, is a developing institution dedicated to training future healthcare professionals with modern medical knowledge and practical skills. The university focuses on creating a strong academic environment where students are prepared to meet global healthcare challenges while also addressing the medical needs of the local population. Offering programs in general medicine, dentistry, and pharmacy, the university emphasizes both theoretical learning and hands-on training through clinical practice in affiliated hospitals and healthcare centers. With a growing reputation, Ingush State Medical University aims to provide high-quality education that combines traditional Russian medical training standards with innovative teaching methods. Its commitment to research, patient care, and community service makes it an attractive option for both domestic and international students seeking a career in medicine.",
         ],
         academic: [
           "IngGU offers undergraduate and postgraduate education across multiple disciplines. It is particularly noted for its MBBS (General Medicine) program, which is taught in English, aligning with international standards. The MBBS program lasts approximately 6 years, including a mandatory 1-year internship",
@@ -943,11 +947,11 @@ export async function GET(request, { params }) {
       {
         name: "Pacific State Medical University",
         image:
-          "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756206232/1598446867phpBi17G9_g_lblme2.jpg",
+          "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756383737/Campus_nrKF4__RQM_fao49j.webp",
         slug: "Pacific State Medical University",
         country: "russia",
         overview: [
-          "Pacific State Medical University (PSMU), located in Vladivostok, Primorsky Krai, Russia, was established in 1958. It began as the medical faculty of the Far Eastern State University around 1956, became Vladivostok State Medical Institute in 1958, gained university status in 1995, and was renamed to its current title in 2013. It is the premier medical university in Russia’s Far East, with an enrollment of over 15,000 students and a faculty of around 1,000.",
+          "Pacific State Medical University, located in Vladivostok, Russia, is one of the leading medical universities in the Far Eastern region, known for its advanced medical training, research, and healthcare services. The university offers a wide range of programs in general medicine, pediatrics, dentistry, pharmacy, and preventive medicine, ensuring students gain both theoretical knowledge and extensive clinical experience. With modern laboratories, simulation centers, and strong ties to regional hospitals, students receive hands-on training that prepares them to work in diverse healthcare environments. The university also emphasizes scientific research, innovation, and international collaboration, providing opportunities for students to participate in global medical projects and exchange programs. Pacific State Medical University is committed to shaping competent healthcare professionals who not only meet the highest standards of Russian medical education but also contribute to improving global healthcare systems.",
         ],
         academic: [
           "Pacific State Medical University offers a wide range of academic programs in the field of medicine and healthcare. The university provides undergraduate, graduate, and postgraduate courses including General Medicine (MBBS), Dentistry, Pediatrics, Pharmacy, Nursing, and Public Health. In addition, it offers advanced specialization and residency programs for medical graduates, along with opportunities for scientific research and clinical training. The curriculum is designed to meet international standards, ensuring students gain both theoretical knowledge and practical skills through modern laboratories, simulation centers, and affiliated hospitals.",
