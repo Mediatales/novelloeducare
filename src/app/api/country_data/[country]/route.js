@@ -545,7 +545,7 @@ export async function GET(request, { params }) {
               "Faculty of Post Graduate & Additional Professional Education",
             ],
             facultyImg:
-              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1739793855/img_bg_sybjt5.png",
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756467143/660_464_saint-petersburg-state-pediatric-medical-university-smapse-6_adbzap.jpg",
             affilationRecognition: [
               "Post Graduate & Additional Professional Education",
               "General Medical Council (GMC)",
@@ -585,36 +585,6 @@ export async function GET(request, { params }) {
               "ECFMG (USA)",
               "Medical Council of India (MCI Rules)",
               "Medical Board of Thailand",
-            ],
-          },
-
-          {
-            name: "Chuvash State Medical University",
-            image:
-              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1755857105/chuvash-state-medical_bkyum3.webp",
-            slug: "Chuvash State Medical University",
-            country: "russia",
-            overview: [
-              "Chuvash State Medical University, officially named after I.N. Ulyanov, is a public institution established in 1967 in Cheboksary, Russia. It is recognized as a leading medical and scientific center in the Chuvash Republic. The university is known for its affordable and globally recognized medical degrees, with a large number of international students.",
-            ],
-            academic: [
-              "The university offers a variety of educational programs, with the MBBS (General Medicine) program being the most popular, especially for international students, due to it being taught in English. The program duration is six years, including one year of a compulsory internship.",
-            ],
-            academicImg:
-              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756104104/Chuvash-State-Medical-University-2_jvbaiy.webp",
-            faculties: [
-              "Faculty of General Medicine",
-              "Faculty of Pharmacy",
-              "Faculty of Paediatrics",
-              "Faculty of Dentistry",
-            ],
-            facultyImg:
-              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756104852/unnamed_c954fm.jpg",
-            affilationRecognition: [
-              "World Health Organization (WHO)",
-              "National Medical Commission (NMC) of India",
-              "Educational Commission for Foreign Medical Graduates (ECFMG)",
-              "World Directory of Medical Schools (WDOMS)",
             ],
           },
 			
@@ -913,36 +883,6 @@ export async function GET(request, { params }) {
 
 
 			 // gg
-      {
-        name: "Ingush State Medical University",
-        image:
-          "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756201891/unnamed_ckpidu.webp",
-        slug: "Ingush State University",
-        country: "russia",
-        overview: [
-          "Ingush State Medical University, located in the Republic of Ingushetia, Russia, is a developing institution dedicated to training future healthcare professionals with modern medical knowledge and practical skills. The university focuses on creating a strong academic environment where students are prepared to meet global healthcare challenges while also addressing the medical needs of the local population. Offering programs in general medicine, dentistry, and pharmacy, the university emphasizes both theoretical learning and hands-on training through clinical practice in affiliated hospitals and healthcare centers. With a growing reputation, Ingush State Medical University aims to provide high-quality education that combines traditional Russian medical training standards with innovative teaching methods. Its commitment to research, patient care, and community service makes it an attractive option for both domestic and international students seeking a career in medicine.",
-        ],
-        academic: [
-          "IngGU offers undergraduate and postgraduate education across multiple disciplines. It is particularly noted for its MBBS (General Medicine) program, which is taught in English, aligning with international standards. The MBBS program lasts approximately 6 years, including a mandatory 1-year internship",
-        ],
-        academicImg:
-          "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756202065/ingush-state-university-gallery-10_pvazzn.jpg",
-        faculties: [
-          "Philology Faculty",
-          "Medicine Faculty",
-          "Chemistry & Biology",
-          "Physics & Mathematics",
-          "Pedagogy",
-        ],
-        facultyImg:
-          "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756202092/Northern-State-Medical-University6_qz3wtr.jpg",
-        affilationRecognition: [
-          "Russia’s Ministry of Science and Higher Education (Rosobrnadzor)",
-          "National Medical Commission (NMC, India)",
-          "Ministry of Science and Higher Education of Russia",
-          "World Health Organization (WHO)",
-        ],
-      },
 
       {
         name: "Pacific State Medical University",
@@ -974,71 +914,6 @@ export async function GET(request, { params }) {
           "World Health Organization (WHO)",
         ],
       },
-
-
-      {
-        name: "Amur State Medical Academy",
-        image:
-          "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756284040/%D0%90%D0%BC%D1%83%D1%80%D1%81%D0%BA%D0%B0%D1%8F%D0%93%D0%9C%D0%90_f4cm5m.jpg",
-        slug: "Amur State Medical Academy",
-        country: "russia",
-        overview: [
-          "Amur State Medical Academy (ASMA), officially known as the Federal State Budgetary Educational Institution of Higher Education “Amur State Medical Academy” under the Ministry of Health of the Russian Federation, is located in Blagoveshchensk, Amur Oblast in the Russian Far East. It was established on June 26, 1952, originally as Blagoveshchensk State Medical Institute, with a starting class of approximately 200 students. In 1995, it was reorganized and renamed to its current form. In 1996, ASMA joined the Association of Medical Schools of Europe, aligning its training with European standards",
-        ],
-        academic: [
-          "ASMA offers a range of medical programs: Undergraduate: General Medicine (6-year MBBS, intramural only, no extramural) and Pediatrics , Postgraduate & Specialist Training: Extensive offerings including anesthesiology, cardiology, neurology, obstetrics & gynecology, surgery, psychiatry, epidemiology, pediatric specialties, dermatovenereology, orthopedics, ophthalmology, urology, pathology, oncology, and more",
-        ],
-        academicImg:
-          "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756204338/North-Caucasian-State-Medical-Academy-Class-Room_sf7zjq.webp",
-        faculties: [
-          "Faculty of General Medicine",
-          "Faculty of Pediatrics",
-          "Faculty of Postgraduate Education (postgraduate specialist training)",
-          "Cardiac Surgery Clinic",
-          "Simulation and Accreditation Center (ASC)",
-        ],
-        facultyImg:
-          "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756204414/North_Caucasian_State_medical_Academy_gd9s0p.jpg",
-        affilationRecognition: [
-          "Eurasian Universities Association",
-          "National Medical Commission (NMC, India)",
-          "Ministry of Science and Higher Education of Russia",
-          "World Health Organization (WHO)",
-        ],
-      },
-
-
-			{
-        name: "Chita State Medical Academy",
-        image:
-          "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756447242/0YWY8RD_lpS_b0v8cb.jpg",
-        slug: "Chita State Medical Academy",
-        country: "russia",
-        overview: [
-          "Chita State Medical Academy was established on 23 July 1953 as the Chita State Institute of Medicine and later renamed as an academy in 1995. It stands today as the foremost medical research, educational, and clinical institution in Eastern Siberia, serving the Trans-Baikal and Far East regions with modern, technology-augmented learning Currently, over 2,500–3,400 students are enrolled across various specialties, guided by around 260–292 lecturers, including 35 Professors (Doctors of Sciences), 157 Associate Professors, and esteemed members of national and international academies. The academy has trained approximately 20,000 physicians to date.",
-        ],
-        academic: [
-          "Chita State Medical Academy offers undergraduate medical programs such as: General Medicine (MBBS) – 6 years including a clinical internship (taught in English and/or Russian) Dentistry – 5 years (Russian medium) Pediatrics – 6 years (Russian medium) Pharmacy, plus postgraduate residency and specialist training across disciplines The MBBS curriculum includes pre-clinical, para-clinical, and clinical subjects such as Anatomy, Biochemistry, Physiology, Pathology, Pharmacology, Medicine, Surgery, Pediatrics, Obstetrics & Gynecology, ENT, Emergency Medicine, and more.",
-        ],
-        academicImg:
-          "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756204722/-Z4bLrLJYoLCuDepUReR_m6snbc.jpg",
-        faculties: [
-          "General Mediciney",
-          "Dentistry (Stomatology)",
-          "Pediatrics",
-          "Higher Nursing Education",
-          "Training and Internship (Postgraduate)",
-        ],
-        facultyImg:
-          "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756204754/cUL8EnzE1TDIpXO53f9K_hur5pz.jpg",
-        affilationRecognition: [
-          "Ministry of Science and Higher Education of the Russian Federation",
-          "National Medical Commission (NMC, India)",
-          "Medical Councils of Various Countries",
-          "World Health Organization (WHO)",
-        ],
-      },
-
 
 
           // End more universities here
@@ -1796,6 +1671,130 @@ export async function GET(request, { params }) {
           // },
 
 			// suffle card data
+
+				 {
+        name: "Amur State Medical Academy",
+        image:
+          "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756284040/%D0%90%D0%BC%D1%83%D1%80%D1%81%D0%BA%D0%B0%D1%8F%D0%93%D0%9C%D0%90_f4cm5m.jpg",
+        slug: "Amur State Medical Academy",
+        country: "russia",
+        overview: [
+          "Amur State Medical Academy (ASMA), officially known as the Federal State Budgetary Educational Institution of Higher Education “Amur State Medical Academy” under the Ministry of Health of the Russian Federation, is located in Blagoveshchensk, Amur Oblast in the Russian Far East. It was established on June 26, 1952, originally as Blagoveshchensk State Medical Institute, with a starting class of approximately 200 students. In 1995, it was reorganized and renamed to its current form. In 1996, ASMA joined the Association of Medical Schools of Europe, aligning its training with European standards",
+        ],
+        academic: [
+          "ASMA offers a range of medical programs: Undergraduate: General Medicine (6-year MBBS, intramural only, no extramural) and Pediatrics , Postgraduate & Specialist Training: Extensive offerings including anesthesiology, cardiology, neurology, obstetrics & gynecology, surgery, psychiatry, epidemiology, pediatric specialties, dermatovenereology, orthopedics, ophthalmology, urology, pathology, oncology, and more",
+        ],
+        academicImg:
+          "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756204338/North-Caucasian-State-Medical-Academy-Class-Room_sf7zjq.webp",
+        faculties: [
+          "Faculty of General Medicine",
+          "Faculty of Pediatrics",
+          "Faculty of Postgraduate Education (postgraduate specialist training)",
+          "Cardiac Surgery Clinic",
+          "Simulation and Accreditation Center (ASC)",
+        ],
+        facultyImg:
+          "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756204414/North_Caucasian_State_medical_Academy_gd9s0p.jpg",
+        affilationRecognition: [
+          "Eurasian Universities Association",
+          "National Medical Commission (NMC, India)",
+          "Ministry of Science and Higher Education of Russia",
+          "World Health Organization (WHO)",
+        ],
+      },
+
+	{
+        name: "Chita State Medical Academy",
+        image:
+          "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756447242/0YWY8RD_lpS_b0v8cb.jpg",
+        slug: "Chita State Medical Academy",
+        country: "russia",
+        overview: [
+          "Chita State Medical Academy was established on 23 July 1953 as the Chita State Institute of Medicine and later renamed as an academy in 1995. It stands today as the foremost medical research, educational, and clinical institution in Eastern Siberia, serving the Trans-Baikal and Far East regions with modern, technology-augmented learning Currently, over 2,500–3,400 students are enrolled across various specialties, guided by around 260–292 lecturers, including 35 Professors (Doctors of Sciences), 157 Associate Professors, and esteemed members of national and international academies. The academy has trained approximately 20,000 physicians to date.",
+        ],
+        academic: [
+          "Chita State Medical Academy offers undergraduate medical programs such as: General Medicine (MBBS) – 6 years including a clinical internship (taught in English and/or Russian) Dentistry – 5 years (Russian medium) Pediatrics – 6 years (Russian medium) Pharmacy, plus postgraduate residency and specialist training across disciplines The MBBS curriculum includes pre-clinical, para-clinical, and clinical subjects such as Anatomy, Biochemistry, Physiology, Pathology, Pharmacology, Medicine, Surgery, Pediatrics, Obstetrics & Gynecology, ENT, Emergency Medicine, and more.",
+        ],
+        academicImg:
+          "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756204722/-Z4bLrLJYoLCuDepUReR_m6snbc.jpg",
+        faculties: [
+          "General Mediciney",
+          "Dentistry (Stomatology)",
+          "Pediatrics",
+          "Higher Nursing Education",
+          "Training and Internship (Postgraduate)",
+        ],
+        facultyImg:
+          "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756204754/cUL8EnzE1TDIpXO53f9K_hur5pz.jpg",
+        affilationRecognition: [
+          "Ministry of Science and Higher Education of the Russian Federation",
+          "National Medical Commission (NMC, India)",
+          "Medical Councils of Various Countries",
+          "World Health Organization (WHO)",
+        ],
+      },
+
+		{
+            name: "Chuvash State Medical University",
+            image:
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1755857105/chuvash-state-medical_bkyum3.webp",
+            slug: "Chuvash State Medical University",
+            country: "russia",
+            overview: [
+              "Chuvash State Medical University, officially named after I.N. Ulyanov, is a public institution established in 1967 in Cheboksary, Russia. It is recognized as a leading medical and scientific center in the Chuvash Republic. The university is known for its affordable and globally recognized medical degrees, with a large number of international students.",
+            ],
+            academic: [
+              "The university offers a variety of educational programs, with the MBBS (General Medicine) program being the most popular, especially for international students, due to it being taught in English. The program duration is six years, including one year of a compulsory internship.",
+            ],
+            academicImg:
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756104104/Chuvash-State-Medical-University-2_jvbaiy.webp",
+            faculties: [
+              "Faculty of General Medicine",
+              "Faculty of Pharmacy",
+              "Faculty of Paediatrics",
+              "Faculty of Dentistry",
+            ],
+            facultyImg:
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756104852/unnamed_c954fm.jpg",
+            affilationRecognition: [
+              "World Health Organization (WHO)",
+              "National Medical Commission (NMC) of India",
+              "Educational Commission for Foreign Medical Graduates (ECFMG)",
+              "World Directory of Medical Schools (WDOMS)",
+            ],
+          },
+
+	{
+        name: "Ingush State Medical University",
+        image:
+          "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756201891/unnamed_ckpidu.webp",
+        slug: "Ingush State University",
+        country: "russia",
+        overview: [
+          "Ingush State Medical University, located in the Republic of Ingushetia, Russia, is a developing institution dedicated to training future healthcare professionals with modern medical knowledge and practical skills. The university focuses on creating a strong academic environment where students are prepared to meet global healthcare challenges while also addressing the medical needs of the local population. Offering programs in general medicine, dentistry, and pharmacy, the university emphasizes both theoretical learning and hands-on training through clinical practice in affiliated hospitals and healthcare centers. With a growing reputation, Ingush State Medical University aims to provide high-quality education that combines traditional Russian medical training standards with innovative teaching methods. Its commitment to research, patient care, and community service makes it an attractive option for both domestic and international students seeking a career in medicine.",
+        ],
+        academic: [
+          "IngGU offers undergraduate and postgraduate education across multiple disciplines. It is particularly noted for its MBBS (General Medicine) program, which is taught in English, aligning with international standards. The MBBS program lasts approximately 6 years, including a mandatory 1-year internship",
+        ],
+        academicImg:
+          "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756202065/ingush-state-university-gallery-10_pvazzn.jpg",
+        faculties: [
+          "Philology Faculty",
+          "Medicine Faculty",
+          "Chemistry & Biology",
+          "Physics & Mathematics",
+          "Pedagogy",
+        ],
+        facultyImg:
+          "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756202092/Northern-State-Medical-University6_qz3wtr.jpg",
+        affilationRecognition: [
+          "Russia’s Ministry of Science and Higher Education (Rosobrnadzor)",
+          "National Medical Commission (NMC, India)",
+          "Ministry of Science and Higher Education of Russia",
+          "World Health Organization (WHO)",
+        ],
+      },
+
 
           {
             name: "Altai State Medical University",
