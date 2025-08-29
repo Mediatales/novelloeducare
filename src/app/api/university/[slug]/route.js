@@ -428,7 +428,7 @@ export async function GET(request, { params }) {
               "The University has successfully developed international activities. Continues active integration of Oryol State University in the world educational, research and innovation space. Due to the significant positive changes in all areas of the university has increased markedly the importance of Oryol State University at the international education market and its attractiveness to foreign students. As a confirmation of increased international university status significantly increased the number of foreign citizens from different regions of the world who wish to study in Orel State University.",
             ],
             academicImg:
-              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742808006/Russia_university_13_academic_pic_i9wivq.jpg",
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756449073/orel-state-university-students-4_glumiw.jpg",
             faculties: [
               "Faculty of Medicine",
               "Faculty of Pediatric",
@@ -437,7 +437,7 @@ export async function GET(request, { params }) {
               "Faculty of Dentistry",
             ],
             facultyImg:
-              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756449215/orel-state-university-students-1_lg9a69.jpg",
             affilationRecognition: ["FAIMER", "MCI", "NMC", "WDOMS"],
           },
 
@@ -476,7 +476,7 @@ export async function GET(request, { params }) {
              {
             name: "Siberian State Medical University",
             image:
-              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742900525/Russia_university_Siberian_27_bjrk1l.jpg",
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756460634/Dej710QBF_jv2sva.jpg",
             slug: "siberian-state-medical-university",
             country: "russia",
             overview: [
@@ -540,7 +540,7 @@ export async function GET(request, { params }) {
               "Pirogov Russian National Research Medical University (RNRMU) delivers a full of medical and healthcare education, encompassing diverse undergraduate and postgraduate programs across various disciplines such as general medicine, pediatrics, dentistry, pharmacy, and numerous others, all while emphasizing a balanced approach to learning that integrates strong theoretical foundations with extensive practical clinical experience.",
             ],
             academicImg:
-              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742965833/Russia_university_Pirogov_29_academic_xrxega.jpg",
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756460854/h7smcs4wfs7fycnbd3wd_sdj027.jpg",
             faculties: [
               "Faculty of Medicine",
               "Faculty of Biomedicine",
@@ -581,7 +581,132 @@ export async function GET(request, { params }) {
           //   affilationRecognition: ["FAIMER", "ECFMG", "NMC", "WDOMS"],
           // },
 
-      
+      		 // suffle card data
+
+	 {
+        name: "Amur State Medical Academy",
+        image:
+          "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756284040/%D0%90%D0%BC%D1%83%D1%80%D1%81%D0%BA%D0%B0%D1%8F%D0%93%D0%9C%D0%90_f4cm5m.jpg",
+        slug: "Amur State Medical Academy",
+        country: "russia",
+        overview: [
+          "Amur State Medical Academy (ASMA), officially known as the Federal State Budgetary Educational Institution of Higher Education “Amur State Medical Academy” under the Ministry of Health of the Russian Federation, is located in Blagoveshchensk, Amur Oblast in the Russian Far East. It was established on June 26, 1952, originally as Blagoveshchensk State Medical Institute, with a starting class of approximately 200 students. In 1995, it was reorganized and renamed to its current form. In 1996, ASMA joined the Association of Medical Schools of Europe, aligning its training with European standards",
+        ],
+        academic: [
+          "ASMA offers a range of medical programs: Undergraduate: General Medicine (6-year MBBS, intramural only, no extramural) and Pediatrics , Postgraduate & Specialist Training: Extensive offerings including anesthesiology, cardiology, neurology, obstetrics & gynecology, surgery, psychiatry, epidemiology, pediatric specialties, dermatovenereology, orthopedics, ophthalmology, urology, pathology, oncology, and more",
+        ],
+        academicImg:
+          "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756204338/North-Caucasian-State-Medical-Academy-Class-Room_sf7zjq.webp",
+        faculties: [
+          "Faculty of General Medicine",
+          "Faculty of Pediatrics",
+          "Faculty of Postgraduate Education (postgraduate specialist training)",
+          "Cardiac Surgery Clinic",
+          "Simulation and Accreditation Center (ASC)",
+        ],
+        facultyImg:
+          "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756204414/North_Caucasian_State_medical_Academy_gd9s0p.jpg",
+        affilationRecognition: [
+          "Eurasian Universities Association",
+          "National Medical Commission (NMC, India)",
+          "Ministry of Science and Higher Education of Russia",
+          "World Health Organization (WHO)",
+        ],
+      },
+
+	{
+        name: "Chita State Medical Academy",
+        image:
+          "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756447242/0YWY8RD_lpS_b0v8cb.jpg",
+        slug: "Chita State Medical Academy",
+        country: "russia",
+        overview: [
+          "Chita State Medical Academy was established on 23 July 1953 as the Chita State Institute of Medicine and later renamed as an academy in 1995. It stands today as the foremost medical research, educational, and clinical institution in Eastern Siberia, serving the Trans-Baikal and Far East regions with modern, technology-augmented learning Currently, over 2,500–3,400 students are enrolled across various specialties, guided by around 260–292 lecturers, including 35 Professors (Doctors of Sciences), 157 Associate Professors, and esteemed members of national and international academies. The academy has trained approximately 20,000 physicians to date.",
+        ],
+        academic: [
+          "Chita State Medical Academy offers undergraduate medical programs such as: General Medicine (MBBS) – 6 years including a clinical internship (taught in English and/or Russian) Dentistry – 5 years (Russian medium) Pediatrics – 6 years (Russian medium) Pharmacy, plus postgraduate residency and specialist training across disciplines The MBBS curriculum includes pre-clinical, para-clinical, and clinical subjects such as Anatomy, Biochemistry, Physiology, Pathology, Pharmacology, Medicine, Surgery, Pediatrics, Obstetrics & Gynecology, ENT, Emergency Medicine, and more.",
+        ],
+        academicImg:
+          "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756204722/-Z4bLrLJYoLCuDepUReR_m6snbc.jpg",
+        faculties: [
+          "General Mediciney",
+          "Dentistry (Stomatology)",
+          "Pediatrics",
+          "Higher Nursing Education",
+          "Training and Internship (Postgraduate)",
+        ],
+        facultyImg:
+          "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756204754/cUL8EnzE1TDIpXO53f9K_hur5pz.jpg",
+        affilationRecognition: [
+          "Ministry of Science and Higher Education of the Russian Federation",
+          "National Medical Commission (NMC, India)",
+          "Medical Councils of Various Countries",
+          "World Health Organization (WHO)",
+        ],
+      },
+
+		{
+            name: "Chuvash State Medical University",
+            image:
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1755857105/chuvash-state-medical_bkyum3.webp",
+            slug: "Chuvash State Medical University",
+            country: "russia",
+            overview: [
+              "Chuvash State Medical University, officially named after I.N. Ulyanov, is a public institution established in 1967 in Cheboksary, Russia. It is recognized as a leading medical and scientific center in the Chuvash Republic. The university is known for its affordable and globally recognized medical degrees, with a large number of international students.",
+            ],
+            academic: [
+              "The university offers a variety of educational programs, with the MBBS (General Medicine) program being the most popular, especially for international students, due to it being taught in English. The program duration is six years, including one year of a compulsory internship.",
+            ],
+            academicImg:
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756104104/Chuvash-State-Medical-University-2_jvbaiy.webp",
+            faculties: [
+              "Faculty of General Medicine",
+              "Faculty of Pharmacy",
+              "Faculty of Paediatrics",
+              "Faculty of Dentistry",
+            ],
+            facultyImg:
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756104852/unnamed_c954fm.jpg",
+            affilationRecognition: [
+              "World Health Organization (WHO)",
+              "National Medical Commission (NMC) of India",
+              "Educational Commission for Foreign Medical Graduates (ECFMG)",
+              "World Directory of Medical Schools (WDOMS)",
+            ],
+          },
+
+	{
+        name: "Ingush State Medical University",
+        image:
+          "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756201891/unnamed_ckpidu.webp",
+        slug: "Ingush State University",
+        country: "russia",
+        overview: [
+          "Ingush State Medical University, located in the Republic of Ingushetia, Russia, is a developing institution dedicated to training future healthcare professionals with modern medical knowledge and practical skills. The university focuses on creating a strong academic environment where students are prepared to meet global healthcare challenges while also addressing the medical needs of the local population. Offering programs in general medicine, dentistry, and pharmacy, the university emphasizes both theoretical learning and hands-on training through clinical practice in affiliated hospitals and healthcare centers. With a growing reputation, Ingush State Medical University aims to provide high-quality education that combines traditional Russian medical training standards with innovative teaching methods. Its commitment to research, patient care, and community service makes it an attractive option for both domestic and international students seeking a career in medicine.",
+        ],
+        academic: [
+          "IngGU offers undergraduate and postgraduate education across multiple disciplines. It is particularly noted for its MBBS (General Medicine) program, which is taught in English, aligning with international standards. The MBBS program lasts approximately 6 years, including a mandatory 1-year internship",
+        ],
+        academicImg:
+          "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756202065/ingush-state-university-gallery-10_pvazzn.jpg",
+        faculties: [
+          "Philology Faculty",
+          "Medicine Faculty",
+          "Chemistry & Biology",
+          "Physics & Mathematics",
+          "Pedagogy",
+        ],
+        facultyImg:
+          "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756202092/Northern-State-Medical-University6_qz3wtr.jpg",
+        affilationRecognition: [
+          "Russia’s Ministry of Science and Higher Education (Rosobrnadzor)",
+          "National Medical Commission (NMC, India)",
+          "Ministry of Science and Higher Education of Russia",
+          "World Health Organization (WHO)",
+        ],
+      },
+
+			
 
           {
             name: "Altai State Medical University",
@@ -596,7 +721,7 @@ export async function GET(request, { params }) {
               "Altai State Medical University (ASMU) provides a comprehensive six-year MBBS program, which includes a mandatory year of internship, delivered in English across its diverse faculties encompassing General Medicine, Dentistry, Pharmacy, Pediatrics, and Preventive Medicine, and is widely recognized for its commitment to quality medical education coupled with affordable tuition fees.",
             ],
             academicImg:
-              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742969394/Russia_university_altai_31_academic_fcevtm.jpg",
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756461084/Altai_State_Medical_University_gallery_17437529974587_puqe2x.webp",
             faculties: [
               "Faculty of Medicine",
               "Faculty of Dentistry",
@@ -623,7 +748,7 @@ export async function GET(request, { params }) {
               "Orenburg State Medical University (OrSMU) provides a comprehensive medical education, offering a diverse range of programs encompassing General Medicine (MBBS), Pediatrics, Preventive Care, Clinical Psychology, Dentistry, Pharmacy, and Nursing, all designed to deliver high-quality medical training and prepare students for successful careers in various healthcare fields.",
             ],
             academicImg:
-              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742806888/Russia_university_11_academic_pic_ab23ix.jpg",
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756452651/1-OrSMU_Organized_an_FMGE_Coaching_Classes_on_Pharmacology_wytmts.webp",
             faculties: [
               "Faculty of General Medicine",
               "Faculty of Pediatric",
@@ -633,7 +758,7 @@ export async function GET(request, { params }) {
               "Faculty of Pharmacy",
             ],
             facultyImg:
-              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756292671/20190420133744-banner67_bcnauf.jpg",
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756453439/orsmu-hosted-the-federal-olympiad-in-radiology-diagnostics_6_fkepvx.webp",
             affilationRecognition: [
               "FAIMER",
               "The Medical Council of India",
@@ -713,7 +838,7 @@ export async function GET(request, { params }) {
               "Privolzhsky Research Medical University (PRMU) delivers a comprehensive medical education, featuring a six-year MBBS program taught in English, alongside a range of postgraduate courses in specialized fields such as Cardiovascular Surgery, Gynaecology, and Neurology, and further extends its academic offerings with online preparatory-year courses in fundamental sciences like Chemistry, Biology, and the Russian language.",
             ],
             academicImg:
-              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756278819/Orel-State-University-Classroom_wj8nxf.png",
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756459554/Privolzhsky_Research_Medical_University_gallery_17432308211268_xuc923.webp",
             faculties: [
               "Faculty of Medicine",
               "Faculty of Medico-prophylaxis (Preventive medicine)",
@@ -767,7 +892,7 @@ export async function GET(request, { params }) {
               "Samara State Medical University (SamSMU) provides a variety of medical programs taught in English, such as General Medicine, Dentistry, Pharmacy, and Medical and Preventative Care, and requires prospective students to pass admission exams in Chemistry and Biology.",
             ],
             academicImg:
-              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742894178/Russia_university_samara_24_academic_daveu3.jpg",
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756460056/01_h09ufs.jpg",
             faculties: [
               "Faculty of Medicine",
               "Faculty of Preventive Medicine",
@@ -777,12 +902,12 @@ export async function GET(request, { params }) {
               "Faculty of Innovative Development",
             ],
             facultyImg:
-              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756294503/2025-07-09_phigyl.webp",
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756459979/samara-state-medical-university-ahmedabad-universities-snjgmcltqo_us3xjm.avif",
             affilationRecognition: ["FAIMER", "ECFMG", "NMC", "WHO"],
           },
 
           {
-            name: "Chelyabinsk State University",
+            name: "Chelyabinsk State Medical University",
             image:
               "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742894915/Russia_university_Chelyabinsk_25_eer1ww.jpg",
             slug: "chelyabinsk-state-university",
@@ -791,10 +916,10 @@ export async function GET(request, { params }) {
               "Established in 1976 as the pioneering institution of higher education in the South Ural region and the first classical university in Chelyabinsk, Chelyabinsk State University (CSU) has grown into a leading academic center within the Ural Federal District. As a proud member of both the Association of Classical Universities of Russia and the Eurasian Association of Universities, CSU has consistently demonstrated its commitment to academic excellence and international collaboration. The university's burgeoning global reputation is reflected in its increasing attraction of foreign students, including a significant number from India, with the current international student body comprising approximately 4,500 individuals. CSU offers an extensive range of educational opportunities, encompassing over 200 programs across its 19 faculties, including vocational training, Bachelor's, specialist, Master's, postgraduate (Ph.D.), and higher doctorate (post-Ph.D.) degrees, catering to diverse academic and career aspirations.",
             ],
             academic: [
-              "Chelyabinsk State University (CSU) provides a comprehensive spectrum of academic programs, encompassing vocational training alongside bachelor's, specialist, master's, postgraduate (Ph.D.), and higher doctorate (Post PhD) degrees, spanning a multitude of disciplines including mathematics, natural sciences, engineering, social sciences, and humanities, with over 200 distinct programs delivered across its 18 faculties.",
+              "Chelyabinsk State Medical University (CSU) provides a comprehensive spectrum of academic programs, encompassing vocational training alongside bachelor's, specialist, master's, postgraduate (Ph.D.), and higher doctorate (Post PhD) degrees, spanning a multitude of disciplines including mathematics, natural sciences, engineering, social sciences, and humanities, with over 200 distinct programs delivered across its 18 faculties.",
             ],
             academicImg:
-              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742894920/Russia_university_Chelyabinsk_25_academic_rmesxx.jpg",
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756460485/Zdog7xXNXtQJOop1zS6u_bn2d2y.jpg",
             faculties: [
               "Faculty of Medicine",
               "Faculty of Treatment and Prevention",
@@ -837,7 +962,7 @@ export async function GET(request, { params }) {
           {
             name: "Perm State Medical University",
             image:
-              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742879585/Russia_university_17_pic_netbom.jpg",
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756455002/Perm-State-Medical-University-Russia_pfyqqk.webp",
             slug: "perm-state-medical-university",
             country: "russia",
             overview: [
@@ -862,7 +987,7 @@ export async function GET(request, { params }) {
           },
 
           {
-            name: "Tula State University",
+            name: "Tula State Medical University",
             image:
               "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742881100/Russia_university_tula_18_pic_wvrfa1.jpg",
             slug: "tula-state-university",
@@ -874,7 +999,7 @@ export async function GET(request, { params }) {
               "Tula State University (TSU) is a comprehensive institution providing a broad spectrum of academic programs across diverse fields such as engineering, medicine, economics, and humanities, encompassing bachelor's, master's, and doctoral levels, all with a central aim of developing highly skilled specialists for a variety of industries and professional sectors.",
             ],
             academicImg:
-              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742881128/Russia_university_tula_18_academic_qyo2bs.jpg",
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756459094/studentymedikitulgu_ylt3da.jpg",
             faculties: [
               "Faculty of Medicine",
               "Faculty of Obstetrics and Gynecology",
@@ -889,7 +1014,7 @@ export async function GET(request, { params }) {
           },
 
           {
-            name: "Kalmyk State University",
+            name: "Kalmyk State Medical University",
             image:
               "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742882735/Russia_university_Kalmyk_19_pic_wamtfb.jpg",
             slug: "kalmyk-state-university",
@@ -928,7 +1053,7 @@ export async function GET(request, { params }) {
               "Dagestan State Medical University (DSMU) provides a comprehensive spectrum of medical education, encompassing undergraduate MBBS programs, postgraduate residency training across various specialties, and advanced Ph.D. research opportunities, all facilitated by its diverse faculties in General Medicine, Pediatrics, Dentistry, Pharmacy, and other essential healthcare disciplines.",
             ],
             academicImg:
-              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742885564/Russia_university_Dagestan_20_academic_w0jyta.jpg",
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756459364/dagestan-state-medical-university-students-1_owtok7.webp",
             faculties: [
               "Faculty of Medicine",
               "Faculty of Dentistry",
@@ -1062,38 +1187,10 @@ export async function GET(request, { params }) {
             ],
           },
 
-          {
-            name: "Chuvash State Medical University",
-            image:
-              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1755857105/chuvash-state-medical_bkyum3.webp",
-            slug: "Chuvash State Medical University",
-            country: "russia",
-            overview: [
-              "Chuvash State Medical University, officially named after I.N. Ulyanov, is a public institution established in 1967 in Cheboksary, Russia. It is recognized as a leading medical and scientific center in the Chuvash Republic. The university is known for its affordable and globally recognized medical degrees, with a large number of international students.",
-            ],
-            academic: [
-              "The university offers a variety of educational programs, with the MBBS (General Medicine) program being the most popular, especially for international students, due to it being taught in English. The program duration is six years, including one year of a compulsory internship.",
-            ],
-            academicImg:
-              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756104104/Chuvash-State-Medical-University-2_jvbaiy.webp",
-            faculties: [
-              "Faculty of General Medicine",
-              "Faculty of Pharmacy",
-              "Faculty of Paediatrics",
-              "Faculty of Dentistry",
-            ],
-            facultyImg:
-              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756104852/unnamed_c954fm.jpg",
-            affilationRecognition: [
-              "World Health Organization (WHO)",
-              "National Medical Commission (NMC) of India",
-              "Educational Commission for Foreign Medical Graduates (ECFMG)",
-              "World Directory of Medical Schools (WDOMS)",
-            ],
-          },
+         
 			
               {
-            name: "Kazan Federal University",
+            name: "Kazan Federal Medical University",
             image:
               "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756104978/kazan-university_paexhc.jpg",
             slug: "Kazan Federal University",
@@ -1123,7 +1220,7 @@ export async function GET(request, { params }) {
           },
 
           {
-            name: "Far Eastern Federal University",
+            name: "Far Eastern Federal Medical University",
             image:
               "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756191561/1579003945php9NzXGf_zo9i1d.jpg",
             slug: "Far eastern federal university",
@@ -1159,7 +1256,7 @@ export async function GET(request, { params }) {
             slug: "North Ossetian federal university",
             country: "russia",
             overview: [
-              "North Ossetian State Medical University (NOSMA), located in Vladikavkaz, Russia, was established in 1939. It is a prominent medical institution in the North Caucasus region and is recognized for its long history of training healthcare professionals. The university offers a variety of medical programs and has a diverse student body, including a significant number of international students.",
+              "North Ossetian Federal University (NOSU), established in 1920 in Vladikavkaz, Russia, is a prominent public university offering a wide range of programs, including MBBS for international students. The university is recognized by the World Health Organization (WHO) and listed in the World Directory of Medical Schools (WDOMS), making its degrees globally accepted. NOSU provides students with modern infrastructure, advanced laboratories, simulation centers, and a well-stocked library to ensure quality education. The medical faculty focuses on both theoretical knowledge and practical training in affiliated hospitals, giving students real-life clinical exposure. The medium of instruction for MBBS is English, making it suitable for Indian and other international students. The university is also known for its affordable tuition fees and comparatively low cost of living in Vladikavkaz. With a multicultural environment, safe campus, and hostel facilities, NOSU ensures a supportive atmosphere for international students.",
             ],
             academic: [
               "NOSMA offers a 6-year General Medicine (MBBS) program, with instruction available in both English and Russian. The curriculum is structured to provide a comprehensive medical education, progressing from fundamental theoretical sciences to advanced clinical practice. It also offers programs in Dentistry and Pharmacy, along with postgraduate training in over 40 medical specialties.",
@@ -1285,7 +1382,7 @@ export async function GET(request, { params }) {
 
 
           {
-	        name: "kirov State Medical University",
+	        name: "Kirov State Medical University",
 	        image:
 	          "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756274007/unnamed_uwxz7h.webp",
 	        slug: "kirov State Medical University",
@@ -1317,13 +1414,13 @@ export async function GET(request, { params }) {
 
 
           {
-            name: "Kemerovo State Medical University",
+            name: "Kemerovo State University",
             image:
               "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756192554/unnamed_zuiibi.webp",
             slug: "Kemerovo state university",
             country: "russia",
             overview: [
-              "Kemerovo State Medical University, founded in 1955, is one of the leading centers of medical education and research in Siberia, Russia. The university is known for its strong academic foundation and modern approach to healthcare training, offering programs in general medicine, pediatrics, dentistry, pharmacy, preventive medicine, and nursing. Over the decades, it has trained thousands of highly skilled doctors, pharmacists, and healthcare specialists who contribute to both Russian and international healthcare systems. The university emphasizes practical clinical experience alongside theoretical studies, with training provided in affiliated hospitals and medical institutions. Equipped with advanced laboratories, simulation centers, and experienced faculty members, Kemerovo State Medical University continues to attract both local and international students seeking quality medical education. Its commitment to innovation, research, and community healthcare development makes it an important hub for medical science in the Kemerovo region and beyond.",
+              "Kemerovo State University, founded in 1955, is one of the leading centers of medical education and research in Siberia, Russia. The university is known for its strong academic foundation and modern approach to healthcare training, offering programs in general medicine, pediatrics, dentistry, pharmacy, preventive medicine, and nursing. Over the decades, it has trained thousands of highly skilled doctors, pharmacists, and healthcare specialists who contribute to both Russian and international healthcare systems. The university emphasizes practical clinical experience alongside theoretical studies, with training provided in affiliated hospitals and medical institutions. Equipped with advanced laboratories, simulation centers, and experienced faculty members, Kemerovo State Medical University continues to attract both local and international students seeking quality medical education. Its commitment to innovation, research, and community healthcare development makes it an important hub for medical science in the Kemerovo region and beyond.",
             ],
             academic: [
               "The university offers a variety of academic programs across different disciplines. The medical programs, including General Medicine (MBBS), are taught in English and are a popular choice for international students. The duration of the MBBS program is 6 years, which includes a one-year internship. Other academic offerings include programs in law, economics, philology, foreign languages, and sociology.",
@@ -1388,36 +1485,7 @@ export async function GET(request, { params }) {
 
 			
       // gg
-      {
-        name: "Ingush State Medical University",
-        image:
-          "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756201891/unnamed_ckpidu.webp",
-        slug: "Ingush State University",
-        country: "russia",
-        overview: [
-          "Ingush State Medical University, located in the Republic of Ingushetia, Russia, is a developing institution dedicated to training future healthcare professionals with modern medical knowledge and practical skills. The university focuses on creating a strong academic environment where students are prepared to meet global healthcare challenges while also addressing the medical needs of the local population. Offering programs in general medicine, dentistry, and pharmacy, the university emphasizes both theoretical learning and hands-on training through clinical practice in affiliated hospitals and healthcare centers. With a growing reputation, Ingush State Medical University aims to provide high-quality education that combines traditional Russian medical training standards with innovative teaching methods. Its commitment to research, patient care, and community service makes it an attractive option for both domestic and international students seeking a career in medicine.",
-        ],
-        academic: [
-          "IngGU offers undergraduate and postgraduate education across multiple disciplines. It is particularly noted for its MBBS (General Medicine) program, which is taught in English, aligning with international standards. The MBBS program lasts approximately 6 years, including a mandatory 1-year internship",
-        ],
-        academicImg:
-          "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756202065/ingush-state-university-gallery-10_pvazzn.jpg",
-        faculties: [
-          "Philology Faculty",
-          "Medicine Faculty",
-          "Chemistry & Biology",
-          "Physics & Mathematics",
-          "Pedagogy",
-        ],
-        facultyImg:
-          "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756202092/Northern-State-Medical-University6_qz3wtr.jpg",
-        affilationRecognition: [
-          "Russia’s Ministry of Science and Higher Education (Rosobrnadzor)",
-          "National Medical Commission (NMC, India)",
-          "Ministry of Science and Higher Education of Russia",
-          "World Health Organization (WHO)",
-        ],
-      },
+     
 
       {
         name: "Pacific State Medical University",
@@ -1451,67 +1519,7 @@ export async function GET(request, { params }) {
       },
 
 
-      {
-        name: "Amur State Medical Academy",
-        image:
-          "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756284040/%D0%90%D0%BC%D1%83%D1%80%D1%81%D0%BA%D0%B0%D1%8F%D0%93%D0%9C%D0%90_f4cm5m.jpg",
-        slug: "Amur State Medical Academy",
-        country: "russia",
-        overview: [
-          "Amur State Medical Academy (ASMA), officially known as the Federal State Budgetary Educational Institution of Higher Education “Amur State Medical Academy” under the Ministry of Health of the Russian Federation, is located in Blagoveshchensk, Amur Oblast in the Russian Far East. It was established on June 26, 1952, originally as Blagoveshchensk State Medical Institute, with a starting class of approximately 200 students. In 1995, it was reorganized and renamed to its current form. In 1996, ASMA joined the Association of Medical Schools of Europe, aligning its training with European standards",
-        ],
-        academic: [
-          "ASMA offers a range of medical programs: Undergraduate: General Medicine (6-year MBBS, intramural only, no extramural) and Pediatrics , Postgraduate & Specialist Training: Extensive offerings including anesthesiology, cardiology, neurology, obstetrics & gynecology, surgery, psychiatry, epidemiology, pediatric specialties, dermatovenereology, orthopedics, ophthalmology, urology, pathology, oncology, and more",
-        ],
-        academicImg:
-          "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756204338/North-Caucasian-State-Medical-Academy-Class-Room_sf7zjq.webp",
-        faculties: [
-          "Faculty of General Medicine",
-          "Faculty of Pediatrics",
-          "Faculty of Postgraduate Education (postgraduate specialist training)",
-          "Cardiac Surgery Clinic",
-          "Simulation and Accreditation Center (ASC)",
-        ],
-        facultyImg:
-          "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756204414/North_Caucasian_State_medical_Academy_gd9s0p.jpg",
-        affilationRecognition: [
-          "Eurasian Universities Association",
-          "National Medical Commission (NMC, India)",
-          "Ministry of Science and Higher Education of Russia",
-          "World Health Organization (WHO)",
-        ],
-      },
-
-			{
-        name: "Chita State Medical Academy",
-        image:
-          "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756204656/unnamed_ubu6jj.webp",
-        slug: "Chita State Medical Academy",
-        country: "russia",
-        overview: [
-          "Chita State Medical Academy was established on 23 July 1953 as the Chita State Institute of Medicine and later renamed as an academy in 1995. It stands today as the foremost medical research, educational, and clinical institution in Eastern Siberia, serving the Trans-Baikal and Far East regions with modern, technology-augmented learning Currently, over 2,500–3,400 students are enrolled across various specialties, guided by around 260–292 lecturers, including 35 Professors (Doctors of Sciences), 157 Associate Professors, and esteemed members of national and international academies. The academy has trained approximately 20,000 physicians to date.",
-        ],
-        academic: [
-          "Chita State Medical Academy offers undergraduate medical programs such as: General Medicine (MBBS) – 6 years including a clinical internship (taught in English and/or Russian) Dentistry – 5 years (Russian medium) Pediatrics – 6 years (Russian medium) Pharmacy, plus postgraduate residency and specialist training across disciplines The MBBS curriculum includes pre-clinical, para-clinical, and clinical subjects such as Anatomy, Biochemistry, Physiology, Pathology, Pharmacology, Medicine, Surgery, Pediatrics, Obstetrics & Gynecology, ENT, Emergency Medicine, and more.",
-        ],
-        academicImg:
-          "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756204722/-Z4bLrLJYoLCuDepUReR_m6snbc.jpg",
-        faculties: [
-          "General Mediciney",
-          "Dentistry (Stomatology)",
-          "Pediatrics",
-          "Higher Nursing Education",
-          "Training and Internship (Postgraduate)",
-        ],
-        facultyImg:
-          "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756204754/cUL8EnzE1TDIpXO53f9K_hur5pz.jpg",
-        affilationRecognition: [
-          "Ministry of Science and Higher Education of the Russian Federation",
-          "National Medical Commission (NMC, India)",
-          "Medical Councils of Various Countries",
-          "World Health Organization (WHO)",
-        ],
-      },
+     
 
 
 
@@ -1622,7 +1630,7 @@ export async function GET(request, { params }) {
               "Kabardino-Balkarian State University, founded in 1957 in Nalchik, Russia, has evolved into a prominent hub for scientific, educational, informational, social, and cultural development within the region. Its contributions to the academic landscape have been widely recognized, evidenced by the Certificate of Merit and Medal awarded by the State Duma on its 50th anniversary, acknowledging its outstanding services and achievements. Further cementing its reputation, the university was ranked among the top 100 universities in Russia in 2008, and in 2010, it received an honorary diploma from the All-Russian contest 100 Best Universities of Russia in the field of science and education. Kabardino-Balkarian State University operates as a comprehensive educational institution, integrating various levels of academic programs, including higher education, secondary education, postgraduate studies, and additional professional education. This multifaceted approach enables the university to cater to a diverse range of educational needs and contribute to the development of a skilled workforce. Today, it holds a distinguished 11th position among classical universities in Russia, reflecting its commitment to academic excellence and innovation. With over 65 departments and a teaching staff of more than 800 highly qualified educators, the university provides a rich and stimulating learning environment for thousands of students. Its dedication to fostering intellectual growth and contributing to the advancement of knowledge has solidified its position as a leading educational institution in Russia.",
             ],
             academic: [
-              "Kathmandu University School of Medical Sciences (KUSMS), while prominently recognized for its medical programs, extends its academic offerings to encompass a diverse range of disciplines, catering to a broad spectrum of student interests. Beyond the fields of medicine and allied health sciences, KUSMS provides programs in economics, education, and social sciences, reflecting its commitment to fostering a well-rounded educational environment. This multifaceted approach allows students to explore various academic paths and contribute to different sectors of society. Notably, KUSMS has gained significant popularity for its affordable medical programs, making quality medical education accessible to a wider range of aspiring healthcare professionals.",
+              "Kabardino-Balkarian State University offers a wide range of academic programs, including undergraduate, graduate, and doctoral degrees across various fields. The university is a large-scale, multidisciplinary institution with a focus on medicine, engineering, humanities, social sciences, and natural sciences. The General Medicine (MBBS) program is a popular choice for international students, with a six-year duration that includes a one-year internship. This program is offered with a fully English-taught track, making it accessible to a diverse student body. The curriculum is structured into pre-clinical and clinical phases, focusing on both theoretical knowledge and extensive practical training in various hospital departments. The university also offers other programs in dentistry, nursing, pharmacy, and a variety of non-medical fields such as informatics, architecture, economics, and law. The institution boasts modern infrastructure, including well-equipped laboratories, a robust library system, and a simulation center, all of which contribute to a comprehensive academic experience.",
             ],
             academicImg:
               "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742544082/Russia_university_4_academic_pic_ms0hnc.jpg",
@@ -1689,7 +1697,7 @@ export async function GET(request, { params }) {
               "Bashkir State Medical University (BSMU) provides a comprehensive and diverse array of medical programs, catering to a wide spectrum of aspiring healthcare professionals.  The university offers foundational undergraduate programs such as MBBS (General Medicine), Dentistry, Pediatrics, Pharmacy, and Preventive Medicine, ensuring a robust foundation in various medical disciplines.  Recognizing the importance of accessibility and internationalization, BSMU provides these programs in both English and Russian languages, attracting a diverse student body from across the globe.  Beyond its undergraduate offerings, BSMU extends its academic reach to postgraduate studies, enabling medical professionals to specialize in their chosen fields and advance their careers.",
             ],
             academicImg:
-              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742549813/Russia_university_8_academic_pic_gpfdbm.jpg",
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756447975/Bashkir-State-Medical-University-students-5_zuzbwc.webp",
             faculties: [
               "Faculty of General Medicine",
               "Faculty of Pediatric",
