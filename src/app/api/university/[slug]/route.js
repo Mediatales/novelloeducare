@@ -1144,7 +1144,7 @@ export async function GET(request, { params }) {
               "Faculty of Post Graduate & Additional Professional Education",
             ],
             facultyImg:
-              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756467143/660_464_saint-petersburg-state-pediatric-medical-university-smapse-6_adbzap.jpg",
             affilationRecognition: [
               "Post Graduate & Additional Professional Education",
               "General Medical Council (GMC)",
