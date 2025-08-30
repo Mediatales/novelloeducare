@@ -78,10 +78,10 @@ export async function GET(request, { params }) {
 
           // Add more data
           {
-            name: "KIMYO INTERNATIONAL UNIVERSITY",
+            name: "Kimyo International University",
             image:
               "https://res.cloudinary.com/dqggm4k7u/image/upload/v1755760078/page-header.jpg__2000.0x732.0_q85_subsampling-2_cnxfik.jpg",
-            slug: "KIMYO INTERNATIONAL UNIVERSITY",
+            slug: "kimyo-international-university",
             country: "uzbekistan",
             overview: [
               "Kimyo International University in Tashkent (KIUT) is the first private higher education institution in Tashkent, Uzbekistan, established in 2018. Initially known as Yeoju Technical Institute in Tashkent, it was founded through an agreement between the South Korean and Uzbek governments. The university is located in Tashkent, the capital city of Uzbekistan, and has expanded its reach by opening branches in Namangan (2021) and Samarkand (2022). KIUT is equipped with advanced technology and modern facilities, including a hospital for practical learning, and focuses on providing value-based education.",
@@ -109,10 +109,10 @@ export async function GET(request, { params }) {
             ],
           },
           {
-            name: "IMPULSE MEDICAL INSTITUTE",
+            name: "Impulse Medical&nbsp;&nbsp; Institute",
             image:
-              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1755760788/hero_hxhpla.png",
-            slug: "IMPULSE MEDICAL INSTITUTE",
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756553143/2068d59d-612e-4f2b-8a75-0e1596586ddf-e1726221201282-1024x570_w6qf7f.jpg",
+            slug: "impulse-medical-institute",
             country: "uzbekistan",
             overview: [
               "Impulse Medical Institute (IMI), established in 2019 in Namangan City, Uzbekistan, is emerging as a significant hub for medical education. It operates as a semi-government medical institution in collaboration with AMI. IMI aims to provide high-quality, affordable medical education with a strong emphasis on practical training and research. The institute's curriculum is designed to align with international standards, including the USMLE system and the guidelines set by the National Medical Commission (NMC) of India.",
@@ -141,10 +141,10 @@ export async function GET(request, { params }) {
           },
 
           {
-            name: "KARSHI STATE MEDICAL UNIVERSITY",
+            name: "Karshi State Medical University",
             image:
               "https://res.cloudinary.com/dqggm4k7u/image/upload/v1755760558/1_l93y0m.jpg",
-            slug: "KARSHI STATE MEDICAL UNIVERSITY",
+            slug: "karshi-state-medical-university",
             country: "uzbekistan",
             overview: [
               "Karshi State Medical University (KSMU), located in Karshi, Uzbekistan, is a rapidly developing center for medical education, clinical training, and research. Established in 2021 as the Faculty of Medicine under Karshi State University through a Presidential Decree, KSMU is committed to producing skilled and globally competent healthcare professionals. The university emphasizes practical learning and interdisciplinary research, with a strong focus on early clinical exposure through partnerships with over 12 affiliated hospitals and medical centers in the Karshi region.",
@@ -584,7 +584,7 @@ export async function GET(request, { params }) {
       		 // suffle card data
 
 	 {
-        name: "Amur State Medical Academy",
+        name: "Amur State Medical&nbsp;&nbsp; Academy",
         image:
           "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756284040/%D0%90%D0%BC%D1%83%D1%80%D1%81%D0%BA%D0%B0%D1%8F%D0%93%D0%9C%D0%90_f4cm5m.jpg",
         slug: "Amur State Medical Academy",
@@ -615,7 +615,7 @@ export async function GET(request, { params }) {
       },
 
 	{
-        name: "Chita State Medical Academy",
+        name: "Chita State Medical&nbsp;&nbsp; Academy",
         image:
           "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756447242/0YWY8RD_lpS_b0v8cb.jpg",
         slug: "Chita State Medical Academy",
@@ -709,7 +709,7 @@ export async function GET(request, { params }) {
 			
 
           {
-            name: "Altai State Medical University",
+            name: "Altai State Medical&nbsp;&nbsp; University",
             image:
               "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742969386/Russia_university_altai_31_pic_ditj3q.jpg",
             slug: "altai-state-medical-university",
@@ -768,7 +768,7 @@ export async function GET(request, { params }) {
           },
 
            {
-            name: "Mari State Medical University",
+            name: "Mari State Medical&nbsp;&nbsp; University",
             image:
               "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756284351/unnamed_pqcoyp.webp",
             slug: "mari-state-medical-university",
@@ -945,7 +945,7 @@ export async function GET(request, { params }) {
               "Immanuel Kant Baltic Federal University, a highly regarded institution within the Russian Federation, presents exceptional opportunities for international students seeking to pursue their MBBS degree abroad. Characterized by its robust academic framework and the integration of contemporary teaching methodologies, the university has established itself as a leading destination for MBBS studies in Russia, drawing a diverse and vibrant student body comprising individuals from more than 40 countries worldwide.",
             ],
             academicImg:
-              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742896173/Russia_university_Immanuel_26_academic_pejghd.jpg",
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756546369/md-program2_tnuly0.png",
             faculties: [
               "Faculty of Medicine",
               "Faculty of Therapy",
@@ -987,7 +987,7 @@ export async function GET(request, { params }) {
           },
 
           {
-            name: "Tula State Medical University",
+            name: "Tula State Medical&nbsp;&nbsp; University",
             image:
               "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742881100/Russia_university_tula_18_pic_wvrfa1.jpg",
             slug: "tula-state-university",
@@ -1068,7 +1068,7 @@ export async function GET(request, { params }) {
           },
 
           {
-            name: "Ural State Medical University",
+            name: "Ural State Medical&nbsp;&nbsp; University",
             image:
               "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742887213/Russia_university_Ural_21_hjcmdh.jpg",
             slug: "ural-state-medical-university",
@@ -1135,7 +1135,7 @@ export async function GET(request, { params }) {
               "Saint Petersburg State Pediatric Medical University (SPbSPMU) is a medical university located in St. Petersburg, Russia. It is the oldest pediatric higher education institution in the world. SPbSPMU has a state license and accreditation to provide training in English language, medicine according to the state standards",
             ],
             academicImg:
-              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741773931/russia_university_2_academic_pic_gudu5w.jpg",
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756540642/DSC_0241_iq4n3a.jpg",
             faculties: [
               "Faculty of Pediatrics",
               "Faculty of General Medicine",
@@ -1160,7 +1160,7 @@ export async function GET(request, { params }) {
             name: "Northern State Medical University",
             image:
               "https://res.cloudinary.com/dqggm4k7u/image/upload/v1755841565/banner_i5mgip.jpg",
-            slug: "NORTHERN-STATE-MEDICAL-UNIVERSITY",
+            slug: "northern-state-medical-university",
             country: "russia",
             overview: [
               "Northern State Medical University (NSMU) in Arkhangelsk, Russia, was founded in 1932. It is recognized as the largest and most well-known medical university in the Russian North. The university currently has about 5,000 full-time students enrolled across its faculties. NSMU is equipped with up-to-date facilities, including modern simulation centers in its university buildings and clinics. It boasts 55 departments, with 27 of them being clinically based in the city's best clinics.",
@@ -1193,7 +1193,7 @@ export async function GET(request, { params }) {
             name: "Kazan Federal Medical University",
             image:
               "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756104978/kazan-university_paexhc.jpg",
-            slug: "Kazan Federal University",
+            slug: "kazan-federal-medical-university",
             country: "russia",
             overview: [
               "Kazan Federal University (KFU), founded in 1804, is the second oldest university in Russia. It is located in Kazan and is recognized as a leading educational and research institution. KFU is known as the birthplace of organic chemistry and electron spin resonance. The university has a large and diverse student body, with over 50,000 students, including more than 10,500 international students from over 100 countries.",
@@ -1223,7 +1223,7 @@ export async function GET(request, { params }) {
             name: "Far Eastern Federal Medical University",
             image:
               "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756191561/1579003945php9NzXGf_zo9i1d.jpg",
-            slug: "Far eastern federal university",
+            slug: "far-eastern-federal-medical-university",
             country: "russia",
             overview: [
               "Far Eastern Federal University (FEFU) was founded in 1899 in Vladivostok, Russia. It is a public university recognized as a major scientific and educational hub in the Asia-Pacific region. It is one of Russia's largest universities with a modern campus located on Russky Island.",
@@ -1253,7 +1253,7 @@ export async function GET(request, { params }) {
             name: "North Ossetian Federal University",
             image:
               "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756109187/unnamed_xfukxl.webp",
-            slug: "North Ossetian federal university",
+            slug: "north-ossetian-federal-university",
             country: "russia",
             overview: [
               "North Ossetian Federal University (NOSU), established in 1920 in Vladikavkaz, Russia, is a prominent public university offering a wide range of programs, including MBBS for international students. The university is recognized by the World Health Organization (WHO) and listed in the World Directory of Medical Schools (WDOMS), making its degrees globally accepted. NOSU provides students with modern infrastructure, advanced laboratories, simulation centers, and a well-stocked library to ensure quality education. The medical faculty focuses on both theoretical knowledge and practical training in affiliated hospitals, giving students real-life clinical exposure. The medium of instruction for MBBS is English, making it suitable for Indian and other international students. The university is also known for its affordable tuition fees and comparatively low cost of living in Vladikavkaz. With a multicultural environment, safe campus, and hostel facilities, NOSU ensures a supportive atmosphere for international students.",
@@ -1287,7 +1287,7 @@ export async function GET(request, { params }) {
             name: "North Caucasian State Academy",
             image:
               "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756109411/North-Caucasian-State-Academy-1_olszaf.webp",
-            slug: "North Caucasian State Academy",
+            slug: "north-caucasian-state-academy",
             country: "russia",
             overview: [
               "North Caucasian State Academy (NCSA), located in Cherkessk, Russia, is a multidisciplinary public university founded in 1936. It is one of the leading educational institutions in the North Caucasus region, offering a wide range of programs in fields such as economics, law, medicine, humanities, and natural sciences. The academy is known for its focus on academic excellence, research, and innovation while also promoting cultural diversity and international collaboration. With modern facilities and experienced faculty, NCSA attracts both domestic and international students seeking quality higher education.",
@@ -1319,7 +1319,7 @@ export async function GET(request, { params }) {
             name: "Novgorod State Medical University",
             image:
               "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756109566/unnamed_gyzfdk.webp",
-            slug: "Novgorod State University",
+            slug: "novgorod-state-medical-university",
             country: "russia",
             overview: [
               "Novgorod State Medical University (NNSMU), also known as Privolzhsky Research Medical University, is one of the leading medical institutions in Russia, founded in 1920 in Nizhny Novgorod. With a strong history of excellence, the university has become a major hub for training highly qualified doctors and healthcare professionals in the Volga region. It offers modern facilities, advanced research opportunities, and a wide range of medical programs designed to meet global standards. The university hosts more than 5,000 students, including over 800 international students from more than 38 countries, making it a truly diverse learning environment. Known for its focus on practical training, innovative teaching methods, and international collaboration, NNSMU provides students with a solid foundation to build successful medical careers both in Russia and abroad.",
@@ -1353,7 +1353,7 @@ export async function GET(request, { params }) {
             name: "Tambov State Medical University",
             image:
               "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756290909/unnamed_rfvqix.webp",
-            slug: "Tambov State University",
+            slug: "tambov-state-medical-university",
             country: "russia",
             overview: [
               "Tambov State Medical University, established in 1930 in Tambov, Russia, is one of the leading institutions for higher medical education. The university provides a wide range of programs in general medicine, dentistry, pediatrics, pharmacy, and nursing. With a strong academic foundation, it combines theoretical knowledge with hands-on clinical training in affiliated hospitals and modern laboratories. The university is also known for its active research environment and international collaborations, attracting students from various countries. Its multicultural campus, qualified faculty, and focus on practical healthcare skills make it an excellent choice for students aspiring to pursue a medical career in Russia and abroad.",
@@ -1384,8 +1384,8 @@ export async function GET(request, { params }) {
           {
 	        name: "Kirov State Medical University",
 	        image:
-	          "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756274007/unnamed_uwxz7h.webp",
-	        slug: "kirov State Medical University",
+	          "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756541190/kirov-state-medical-academy-russia_da304l.webp",
+	        slug: "kirov-state-medical-university",
 	        country: "russia",
 	        overview: [
 	          "Kirov State Medical University, established in 1987, is one of the prominent medical universities in Russia dedicated to training highly qualified healthcare professionals. Over the years, the university has built a strong reputation for its commitment to academic excellence, advanced research, and practical medical training. It offers a wide range of programs in general medicine, dentistry, pediatrics, and other healthcare-related fields, attracting students from across Russia as well as international applicants. The university places a strong emphasis on combining theoretical knowledge with hands-on clinical practice, ensuring that graduates are well-prepared to meet the demands of the modern healthcare system. With its experienced faculty, modern facilities, and collaborative partnerships with hospitals and research institutes, Kirov State Medical University continues to play a vital role in shaping the future of medical education and healthcare services in the region.",
@@ -1414,10 +1414,10 @@ export async function GET(request, { params }) {
 
 
           {
-            name: "Kemerovo State University",
+            name: "Kemerovo State&nbsp;&nbsp;&nbsp; University",
             image:
               "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756192554/unnamed_zuiibi.webp",
-            slug: "Kemerovo state university",
+            slug: "kemerovo-state-university",
             country: "russia",
             overview: [
               "Kemerovo State University, founded in 1955, is one of the leading centers of medical education and research in Siberia, Russia. The university is known for its strong academic foundation and modern approach to healthcare training, offering programs in general medicine, pediatrics, dentistry, pharmacy, preventive medicine, and nursing. Over the decades, it has trained thousands of highly skilled doctors, pharmacists, and healthcare specialists who contribute to both Russian and international healthcare systems. The university emphasizes practical clinical experience alongside theoretical studies, with training provided in affiliated hospitals and medical institutions. Equipped with advanced laboratories, simulation centers, and experienced faculty members, Kemerovo State Medical University continues to attract both local and international students seeking quality medical education. Its commitment to innovation, research, and community healthcare development makes it an important hub for medical science in the Kemerovo region and beyond.",
@@ -1491,7 +1491,7 @@ export async function GET(request, { params }) {
         name: "Pacific State Medical University",
         image:
           "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756383737/Campus_nrKF4__RQM_fao49j.webp",
-        slug: "Pacific State Medical University",
+        slug: "pacific-state-medical-university",
         country: "russia",
         overview: [
           "Pacific State Medical University, located in Vladivostok, Russia, is one of the leading medical universities in the Far Eastern region, known for its advanced medical training, research, and healthcare services. The university offers a wide range of programs in general medicine, pediatrics, dentistry, pharmacy, and preventive medicine, ensuring students gain both theoretical knowledge and extensive clinical experience. With modern laboratories, simulation centers, and strong ties to regional hospitals, students receive hands-on training that prepares them to work in diverse healthcare environments. The university also emphasizes scientific research, innovation, and international collaboration, providing opportunities for students to participate in global medical projects and exchange programs. Pacific State Medical University is committed to shaping competent healthcare professionals who not only meet the highest standards of Russian medical education but also contribute to improving global healthcare systems.",
@@ -1590,7 +1590,7 @@ export async function GET(request, { params }) {
           },
 
           {
-            name: "Tver State Medical University",
+            name: "Tver State Medical&nbsp;&nbsp; University",
             image:
               "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741774367/Russia_university_3_academic_pic_tllnxr.webp",
             slug: "tver-state-medical-university",
@@ -1602,7 +1602,7 @@ export async function GET(request, { params }) {
               "Tver State Medical University is considered as one of the best education institutes for MBBS in Russia. Tver State Medical University is usually among the top ten medical educational establishments according to the annual official rating of the 48 Russian Medical Educational Institutions.Academic programs",
             ],
             academicImg:
-              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741773931/russia_university_2_academic_pic_gudu5w.jpg",
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756545378/1434083689phpA9zCDR_knffiu.png",
             faculties: [
               "Faculty of Dental Medicine.",
               "Faculty of General Medicine",
@@ -1687,7 +1687,7 @@ export async function GET(request, { params }) {
           {
             name: "Bashkir State Medical University",
             image:
-              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756283720/unnamed_bjijff.webp",
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756545947/Campus_uEBkaFfUH_oevp1o.webp",
             slug: "bashkir-state-medical-university",
             country: "russia",
             overview: [
@@ -1848,13 +1848,13 @@ export async function GET(request, { params }) {
 
            // Add new card data
           {
-            name: "INTERNATIONAL MEDICAL UNIVERSITY",
+            name: "International Medical University",
             image:
               "https://res.cloudinary.com/dqggm4k7u/image/upload/v1755772418/international-medical-university-kyrgyzstan-Cover_fgvfaj.jpg",
-            slug: "INTERNATIONAL MEDICAL UNIVERSITY",
+            slug: "international-medical-university",
             country: "kyrgyzstan",
             overview: [
-              "International Medical University (IMU), located in Bishkek, Kyrgyzstan, is a prominent private medical institution established in 2016. The university aims to provide high-quality, affordable medical education. It is recognized for its modern infrastructure, practical-based learning, and a curriculum that aligns with international standards.",
+              "International Medical University (IMU), established in 2016, is one of the fastest-growing private medical universities in Kyrgyzstan. The university is dedicated to offering affordable and globally recognized medical education to both local and international students. IMU is well-known for its modern infrastructure, advanced laboratories, and digital classrooms that help students gain practical as well as theoretical knowledge. The teaching faculty includes experienced doctors, professors, and researchers who focus on evidence-based learning and hands-on clinical exposure. The medium of instruction is English, which makes it a preferred choice for students from India, Nepal, and other countries. IMU also provides hostel facilities, Indian mess, and a safe campus environment for international students.",
             ],
             academic: [
               "IMU offers a 6-year Bachelor of Medicine (MBBS) program, which includes 5 years of academic study and a 1-year internship. The program is taught entirely in English. The university also offers postgraduate and doctoral programs. IMU's curriculum is structured into pre-clinical, para-clinical, and clinical phases, with a strong focus on hands-on training and clinical rotations at affiliated hospitals.",
