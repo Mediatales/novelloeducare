@@ -5249,7 +5249,7 @@ export async function GET(request, { params }) {
     {
       country: 'Serbia',
       flag_link: 'https://res.cloudinary.com/dqggm4k7u/image/upload/v1743578496/Serbia_logo_geldrr.png',
-      mainImg: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1743578493/Serbia_main_img_idwsot.jpg",
+      mainImg: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756556778/shutterstockRF_220992322_sksmpg.avif",
       overviewText: "MBBS in Serbia is fully compliant with NMC gazette rules and holds recognition from leading medical organizations such as FAIMER, WHO, and NMC, making it an increasingly popular destination for Indian students and parents seeking medical education abroad; upon completion of their 6-year MBBS program, which includes 5 years of classroom learning and a 1-year internship in a university-affiliated hospital, graduates have the opportunity to work in Europe after obtaining the necessary license or pursue career paths in the US or other countries. The affordability of MBBS in Serbia is a significant draw, with the average tuition fee for the entire 5+1 year course ranging from 24-25 Lacs, often lower than the cost of medical education in India and many other nations, and the fact that the entire curriculum is taught in English further solidifies Serbian universities as a preferred choice for international students, offering valuable insights for those considering pursuing their medical studies in Serbia to facilitate well-informed decisions.",
       overviewImg: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1743578501/Serbia_overview_img_ze2ox9.jpg",
       quickFacts: ["Belgrade", "50%", "Serbian Dinar", "Approx. 66.2 lakhs"],
@@ -5342,7 +5342,7 @@ export async function GET(request, { params }) {
     {
       country: 'Moldova',
       flag_link: 'https://res.cloudinary.com/dqggm4k7u/image/upload/v1744701885/Moldova_logo_wfnvx1.png',
-      mainImg: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1744702565/Moldova_main_img_rdzpoz.jpg",
+      mainImg: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756551499/6.-The-Famous-Orheiul-Vechi_s4zjjy.webp",
       overviewText: "Moldova presents a practical and appealing avenue for international students, especially those from India, aspiring to pursue an MBBS degree, primarily due to the combination of affordable tuition fees and the availability of medical programs taught entirely in English; a notable institution in this regard is the Nicolae Testemițanu State University of Medicine and Pharmacy, which is a popular selection among international students and offers a comprehensive 6-year MD program that is equivalent to the MBBS qualification, including a mandatory internship period to provide essential practical experience.",
       overviewImg: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1744702667/Moldova_overview_img_schd0z.jpg",
       quickFacts: [ "Chisinau","57%", "Moldovan Leu (MDL)", "Approx. 24.6 lakhs"],
