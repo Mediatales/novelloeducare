@@ -60,7 +60,7 @@ export async function GET(request, { params }) {
           
 
           {
-            name: "Tashkent Medical&nbsp;&nbsp;&nbsp;&nbsp; University",
+            name: "Tashkent Medical\u00A0\u00A0 University",
             image:
               "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741767035/pic_5_hbwmul.jpg",
             slug: "tashkent-medical-academy-university",
@@ -812,7 +812,7 @@ export async function GET(request, { params }) {
       },
 
           {
-            name: "Kemerovo State&nbsp;&nbsp;&nbsp; University",
+            name: "Kemerovo State\u00A0\u00A0 University",
             image:
               "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756192554/unnamed_zuiibi.webp",
             slug: "kemerovo-state-university",
