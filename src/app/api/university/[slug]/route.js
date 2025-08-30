@@ -109,7 +109,7 @@ export async function GET(request, { params }) {
             ],
           },
           {
-            name: "Impulse Medical&nbsp;&nbsp; Institute",
+            name: "Impulse Medical\u00A0\u00A0\u00A0\u00A0 Institute",
             image:
               "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756553143/2068d59d-612e-4f2b-8a75-0e1596586ddf-e1726221201282-1024x570_w6qf7f.jpg",
             slug: "impulse-medical-institute",
@@ -584,7 +584,7 @@ export async function GET(request, { params }) {
       		 // suffle card data
 
 	 {
-        name: "Amur State Medical&nbsp;&nbsp; Academy",
+        name: "Amur State Medical\u00A0\u00A0\u00A0\u00A0 Academy",
         image:
           "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756284040/%D0%90%D0%BC%D1%83%D1%80%D1%81%D0%BA%D0%B0%D1%8F%D0%93%D0%9C%D0%90_f4cm5m.jpg",
         slug: "Amur State Medical Academy",
@@ -615,7 +615,7 @@ export async function GET(request, { params }) {
       },
 
 	{
-        name: "Chita State Medical&nbsp;&nbsp; Academy",
+        name: "Chita State Medical\u00A0\u00A0\u00A0\u00A0 Academy",
         image:
           "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756447242/0YWY8RD_lpS_b0v8cb.jpg",
         slug: "Chita State Medical Academy",
@@ -709,7 +709,7 @@ export async function GET(request, { params }) {
 			
 
           {
-            name: "Altai State Medical&nbsp;&nbsp; University",
+            name: "Altai State Medical\u00A0\u00A0\u00A0\u00A0 University",
             image:
               "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742969386/Russia_university_altai_31_pic_ditj3q.jpg",
             slug: "altai-state-medical-university",
@@ -768,7 +768,7 @@ export async function GET(request, { params }) {
           },
 
            {
-            name: "Mari State Medical&nbsp;&nbsp; University",
+            name: "Mari State Medical\u00A0\u00A0\u00A0\u00A0 University",
             image:
               "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756284351/unnamed_pqcoyp.webp",
             slug: "mari-state-medical-university",
@@ -987,7 +987,7 @@ export async function GET(request, { params }) {
           },
 
           {
-            name: "Tula State Medical&nbsp;&nbsp; University",
+            name: "Tula State Medical\u00A0\u00A0\u00A0\u00A0 University",
             image:
               "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742881100/Russia_university_tula_18_pic_wvrfa1.jpg",
             slug: "tula-state-university",
@@ -1068,7 +1068,7 @@ export async function GET(request, { params }) {
           },
 
           {
-            name: "Ural State Medical&nbsp;&nbsp; University",
+            name: "Ural State Medical\u00A0\u00A0\u00A0\u00A0 University",
             image:
               "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742887213/Russia_university_Ural_21_hjcmdh.jpg",
             slug: "ural-state-medical-university",
@@ -1414,7 +1414,7 @@ export async function GET(request, { params }) {
 
 
           {
-            name: "Kemerovo State\u00A0\u00A0 University",
+            name: "Kemerovo State\u00A0\u00A0\u00A0\u00A0 University",
             image:
               "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756192554/unnamed_zuiibi.webp",
             slug: "kemerovo-state-university",
@@ -1590,7 +1590,7 @@ export async function GET(request, { params }) {
           },
 
           {
-            name: "Tver State Medical&nbsp;&nbsp; University",
+            name: "Tver State Medical\u00A0\u00A0\u00A0\u00A0 University",
             image:
               "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741774367/Russia_university_3_academic_pic_tllnxr.webp",
             slug: "tver-state-medical-university",
