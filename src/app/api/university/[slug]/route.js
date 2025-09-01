@@ -35,7 +35,7 @@ export async function GET(request, { params }) {
               "Faculty of Medical Pedagogy",
             ],
             facultyImg:
-              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756715310/samarkand-state-medical-university_sr5dbu.jpg",
             affilationRecognition: [
               "Recognized by MCI",
               "Recognized by FAIMER",
@@ -67,7 +67,7 @@ export async function GET(request, { params }) {
               "Faculty of Pharmacy",
             ],
             facultyImg:
-              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741767120/pic_4_l3uszb.jpg",
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756719419/photo_2019-02-09_14-54-07_a7rkq8.gif",
             affilationRecognition: [
               "Recognized by MCI (Medical Council of India)",
               "Recognized by FAIMER",
@@ -225,7 +225,7 @@ export async function GET(request, { params }) {
               "Faculty of Biomedical Engineering",
             ],
             facultyImg:
-              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756719635/fergana-medical-institute-of-public-health-e1707921350983_jmpw7k.jpg",
             affilationRecognition: [
               "FAIMER",
               "The Medical Council of India",
@@ -256,7 +256,7 @@ export async function GET(request, { params }) {
               "Faculty of Biomedical Engineering",
             ],
             facultyImg:
-              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756719857/Bukhara-Innovative-Medical-Institute-Uzbekistan-2_cokgmw.webp",
             affilationRecognition: ["FAIMER", "MCI", "NMC", "WHO"],
           },
 
@@ -293,7 +293,7 @@ export async function GET(request, { params }) {
           {
             name: "Akfa University Medical School",
             image:
-              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742987976/Uzbekistan_university_8_akfa_yevyup.jpg",
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756712666/1670133804-akfa-university-medical-school-tashkent-city_xm3r64.jpg",
             slug: "akfa-university-medical-school",
             country: "uzbekistan",
             overview: [
@@ -312,7 +312,7 @@ export async function GET(request, { params }) {
               "Faculty of Biomedical Engineering",
             ],
             facultyImg:
-              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756712790/Akfa-university_1506_1_tecmiq.jpg",
             affilationRecognition: [
               "MCI",
               "Ministry of Education, Uzbekistan",
@@ -321,41 +321,41 @@ export async function GET(request, { params }) {
             ],
           },
 
-          {
-            name: "Andijan State Medical Institute",
-            image:
-              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742987956/Uzbekistan_university_9_andijan_zxizlb.jpg",
-            slug: "andijan-state-medical-institute",
-            country: "uzbekistan",
-            overview: [
-              "For international recognition, aspiring medical professionals must obtain their MBBS degree from a reputable institution, and while numerous universities and institutes worldwide offer medical courses, it is crucial for students to identify the best fit for their individual needs and aspirations. Recognizing the impracticality of visiting every medical university globally, readily available information about these institutions is essential for prospective MBBS students. In this context, we introduce Andijan State Medical Institute, a prominent national institute in the Republic of Uzbekistan, situated in Andijan City, one of the ancient urban centers within the Fergana Valley, and founded in 1955. Andijan State Medical Institute provides comprehensive medical education across a substantial range of over 56 diverse departments, contributing significantly to the training of healthcare professionals in the region and beyond.",
-            ],
-            academic: [
-              "This university provides a six-year MBBS program, inclusive of a year-long internship, at a reasonable and affordable tuition cost, making it a popular choice for a significant number of Indian and other international students due to the entire curriculum being delivered in English.",
-            ],
-            academicImg:
-              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742987965/Uzbekistan_university_9_andijan_academic_ykurkh.jpg",
-            faculties: [
-              "Faculty of General Medicine",
-              "Faculty of Preventive Medicine ",
-              "Faculty of Dentan",
-              "Faculty of Pediatrics",
-              "Faculty of Biomedical Engineering",
-            ],
-            facultyImg:
-              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
-            affilationRecognition: [
-              "MCI",
-              "Ministry of Higher and Secondary Specialized Education of Uzbekistan",
-              "NMC",
-              "WHO",
-            ],
-          },
+          // {
+          //   name: "Andijan State Medical Institute",
+          //   image:
+          //     "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756713061/US3_ueovmm.png",
+          //   slug: "andijan-state-medical-institute",
+          //   country: "uzbekistan",
+          //   overview: [
+          //     "For international recognition, aspiring medical professionals must obtain their MBBS degree from a reputable institution, and while numerous universities and institutes worldwide offer medical courses, it is crucial for students to identify the best fit for their individual needs and aspirations. Recognizing the impracticality of visiting every medical university globally, readily available information about these institutions is essential for prospective MBBS students. In this context, we introduce Andijan State Medical Institute, a prominent national institute in the Republic of Uzbekistan, situated in Andijan City, one of the ancient urban centers within the Fergana Valley, and founded in 1955. Andijan State Medical Institute provides comprehensive medical education across a substantial range of over 56 diverse departments, contributing significantly to the training of healthcare professionals in the region and beyond.",
+          //   ],
+          //   academic: [
+          //     "This university provides a six-year MBBS program, inclusive of a year-long internship, at a reasonable and affordable tuition cost, making it a popular choice for a significant number of Indian and other international students due to the entire curriculum being delivered in English.",
+          //   ],
+          //   academicImg:
+          //     "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756713555/9-12_rxcg2q.jpg",
+          //   faculties: [
+          //     "Faculty of General Medicine",
+          //     "Faculty of Preventive Medicine ",
+          //     "Faculty of Dentan",
+          //     "Faculty of Pediatrics",
+          //     "Faculty of Biomedical Engineering",
+          //   ],
+          //   facultyImg:
+          //     "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
+          //   affilationRecognition: [
+          //     "MCI",
+          //     "Ministry of Higher and Secondary Specialized Education of Uzbekistan",
+          //     "NMC",
+          //     "WHO",
+          //   ],
+          // },
 
           {
             name: "Andijan State Medical Institute",
             image:
-              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741771360/Andijan_State_Medical_Institute_pic_tv5sdz.png",
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756713061/US3_ueovmm.png",
             slug: "andijan-state-medical-institute",
             country: "uzbekistan",
             overview: [
@@ -365,7 +365,7 @@ export async function GET(request, { params }) {
               "Andijan State Medical Institute provides a broad spectrum of educational opportunities within the healthcare field. At the undergraduate level, the institute offers Bachelor's degrees in a substantial number of subjects, specifically 29, encompassing a wide array of medical, pediatric, and dental courses. This extensive offering allows students to specialize in their areas of interest, gaining a solid foundation for their future careers in healthcare. In addition to these Bachelor's programs, Andijan State Medical Institute also provides vocational courses, further expanding its educational reach.",
             ],
             academicImg:
-              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741771856/pic_1_kjrd1l.jpg",
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756713555/9-12_rxcg2q.jpg",
             faculties: [
               "Faculty of Medicine",
               "Faculty of pediatrics",
@@ -392,12 +392,12 @@ export async function GET(request, { params }) {
             academicImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1743743559/Uzbekistan_university_10_Urgench_tkmu_academic_fwx0td.jpg",
             faculties : [
                 "Faculty of General Medicine",
-                "Faculty of Preventive Medicine ",
+                "Faculty of Preventive Medicine",
                 "Faculty of Dentistry",
                 "Faculty of Pediatrics",
                 "Faculty of Joint Education Program",
             ],
-            facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
+            facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756720423/Urgench-Branch-of-Tashkent-Medical-Academy-8-580x381_h2vkkz.webp",
             affilationRecognition : ["MCI","Ministry of Health of the Republic of Uzbekistan","NMC","WHO"],
         },
         ],
@@ -2058,25 +2058,25 @@ export async function GET(request, { params }) {
           affilationRecognition : ["WFME","FAIMER","NMC","WHO"],
       },
 
-         {
+      //    {
 
-          name: "International Medical University",
-          image: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1745562536/Kyrgyzstan_mbbs_11_International_Medical_l2xcda.jpg",
-          slug: "international-medical-university",
-          country : "kyrgyzstan",
-          overview : ["Founded in 1993 in Kyrgyzstan, the International Medical University (IMU) is a well-regarded medical institution recognized by both the World Directory of Medical Schools (WDOMS) and the Ministry of Education and Science of Kyrgyzstan. Offering a range of medical courses primarily taught in English, IMU caters to a diverse student body, including a significant number of Indian students, making it highly accessible to international learners. The university boasts modern facilities essential for medical training, such as advanced laboratories and a dedicated clinic for practical experience, and is affiliated with recognized medical institutions to ensure robust clinical training. Furthermore, IMU enhances the educational experience through the use of a Learning Management System (LMS), and its graduates are awarded a state-recognized diploma that holds global recognition."],
-          academic : ["The International Medical University in Kyrgyzstan offers a range of medical programs, including the MBBS (MD Physician), Master of Medicine, and a residency program. These programs are taught in English and are recognized by international organizations such as the WHO and NMC. The university also encompasses a College of Medicine and Pharmacy. Among its detailed academic offerings, the MBBS (MD Physician) is a 5.5-year program that includes clinical rotations and serves as the primary program for Indian students, with its curriculum approved by the NMC. The Master of Medicine program is a 2-year course, also delivered with instruction in English."],
-          academicImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1745562542/Kyrgyzstan_mbbs_11_International_Medical_academic_qnmlm6.jpg",
-          faculties : [
-              "Faculty of Medicine",
-              "Faculty of Dentistry",
-              "Faculty of Pediatrics",
-              "Faculty of Pharmacy",
-              "Faculty of Biology",
-          ],
-          facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
-          affilationRecognition : ["WFME","WDOMS","NMC","WHO"],
-      },
+      //     name: "International Medical University",
+      //     image: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1745562536/Kyrgyzstan_mbbs_11_International_Medical_l2xcda.jpg",
+      //     slug: "international-medical-university",
+      //     country : "kyrgyzstan",
+      //     overview : ["Founded in 1993 in Kyrgyzstan, the International Medical University (IMU) is a well-regarded medical institution recognized by both the World Directory of Medical Schools (WDOMS) and the Ministry of Education and Science of Kyrgyzstan. Offering a range of medical courses primarily taught in English, IMU caters to a diverse student body, including a significant number of Indian students, making it highly accessible to international learners. The university boasts modern facilities essential for medical training, such as advanced laboratories and a dedicated clinic for practical experience, and is affiliated with recognized medical institutions to ensure robust clinical training. Furthermore, IMU enhances the educational experience through the use of a Learning Management System (LMS), and its graduates are awarded a state-recognized diploma that holds global recognition."],
+      //     academic : ["The International Medical University in Kyrgyzstan offers a range of medical programs, including the MBBS (MD Physician), Master of Medicine, and a residency program. These programs are taught in English and are recognized by international organizations such as the WHO and NMC. The university also encompasses a College of Medicine and Pharmacy. Among its detailed academic offerings, the MBBS (MD Physician) is a 5.5-year program that includes clinical rotations and serves as the primary program for Indian students, with its curriculum approved by the NMC. The Master of Medicine program is a 2-year course, also delivered with instruction in English."],
+      //     academicImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1745562542/Kyrgyzstan_mbbs_11_International_Medical_academic_qnmlm6.jpg",
+      //     faculties : [
+      //         "Faculty of Medicine",
+      //         "Faculty of Dentistry",
+      //         "Faculty of Pediatrics",
+      //         "Faculty of Pharmacy",
+      //         "Faculty of Biology",
+      //     ],
+      //     facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
+      //     affilationRecognition : ["WFME","WDOMS","NMC","WHO"],
+      // },
           //kazakhastan
 
           {
