@@ -156,11 +156,19 @@ export async function GET() {
       }, 
       {
         country: "russia",
-        university: "Far Eastern Federal University",
+        university: "Far Eastern Federal Medical University",
       }, 
       {
         country: "russia",
         university: "Altai State Medical University",
+      },  
+      {
+        country: "russia",
+        university: "Northern State Medical University",
+      },  
+      {
+        country: "russia",
+        university: "Kazan Federal Medical University",
       },  
       
       //kyrgyztan
