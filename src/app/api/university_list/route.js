@@ -39,6 +39,18 @@ export async function GET() {
         country: "uzbekistan",
         university: "Urgench branch of Tashkent Medical Academy",
       },
+      {
+        country: "uzbekistan",
+        university: "Kimyo International University",
+      },
+      {
+        country: "uzbekistan",
+        university: "Karshi State Medical University",
+      },
+      {
+        country: "uzbekistan",
+        university: "Impulse Medical Institute",
+      },
       
 
       //russia
@@ -169,6 +181,54 @@ export async function GET() {
       {
         country: "russia",
         university: "Kazan Federal Medical University",
+      },  
+      {
+        country: "russia",
+        university: "North Ossetian Federal University",
+      },  
+      {
+        country: "russia",
+        university: "North Caucasian State Academy",
+      },  
+      {
+        country: "russia",
+        university: "Novgorod State Medical University",
+      },  
+      {
+        country: "russia",
+        university: "Tambov State Medical University",
+      },  
+      {
+        country: "russia",
+        university: "Kirov State Medical University",
+      },  
+      {
+        country: "russia",
+        university: "Kemerovo State University",
+      },    
+      {
+        country: "russia",
+        university: "Pacific State Medical University",
+      },  
+      {
+        country: "russia",
+        university: "Ivanovo State Medical University",
+      },  
+      {
+        country: "russia",
+        university: "Amur State Medical Academy",
+      },  
+      {
+        country: "russia",
+        university: "Chita State Medical Academy",
+      },  
+      {
+        country: "russia",
+        university: "Chuvash State Medical University",
+      },  
+      {
+        country: "russia",
+        university: "Ingush State Medical University",
       },  
       
       //kyrgyztan
