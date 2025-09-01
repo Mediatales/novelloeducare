@@ -483,7 +483,7 @@ export async function GET(request, { params }) {
         flag_link:
           "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741757438/Russia_logo_gwfmaw.png",
         mainImg:
-          "https://res.cloudinary.com/dqggm4k7u/image/upload/v1741756592/mbbs_in_russia_2_qtrur5.jpg",
+          "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756705969/russia-st-basils_16x9_ahoaaj.avif",
         overviewText:
           "Studying MBBS in Russia is a popular choice for Indian students because of its quality education, modern facilities, and affordable costs. Russian medical universities are recognized worldwide by organizations like the World Health Organization (WHO) and the National Medical Commission (NMC) of India. This means that students who graduate from these universities are qualified to practice medicine globally. ",
         overviewImg:
@@ -2247,7 +2247,7 @@ export async function GET(request, { params }) {
         flag_link:
           "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742360305/Kazakhstan_logo_dirinj.png",
         mainImg:
-          "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742972684/Mbbs_in_Kazakhstan_p7x8sf.jpg",
+          "https://www.gokitetours.com/wp-content/uploads/2024/05/1.-Largest-Landlocked-Country.webp",
         overviewText:
           "Kazakhstan holds a prominent position on the world stage, largely due to its strong economy. This economic strength is driven by the country's rich natural resources, particularly its vast reserves of oil and natural gas. Kazakhstan has emerged as an increasingly attractive destination for international students seeking quality higher education at an affordable cost. Several factors contribute to its growing popularity, making it a compelling option for those looking to study abroad. One of the most significant advantages is the affordability of tuition fees in Kazakhstan compared to many Western countries.",
         overviewImg:
@@ -2536,7 +2536,7 @@ export async function GET(request, { params }) {
         flag_link:
           "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742361434/Georgia_logo_jtyuel.png",
         mainImg:
-          "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742361645/Georgia_mbbs_abroad_2_cjhiay.webp",
+          "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756705123/tbilisi-georgia-tourist-best-attraction-called-narikala-fortress_cs1ssj.webp",
         overviewText:
           "Georgia has become a popular choice for Indian students seeking quality medical education abroad. Georgia boasts several top-ranking universities with a strong reputation for producing skilled doctors. These universities offer modern facilities, experienced faculty, and a curriculum designed to meet international standards. Compared to other countries, Georgia offers a more affordable and accessible pathway to a medical degree, making it an attractive option for many students. This allows them to focus on their academic preparation and pursue their medical aspirations without the added stress of a highly competitive entrance exam. The welcoming environment and the opportunity to experience a different culture while pursuing their studies further enhance the appeal of studying MBBS in Georgia.",
         overviewImg:
@@ -3672,7 +3672,7 @@ export async function GET(request, { params }) {
         flag_link:
           "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742371911/Nepal_logo_jmuugf.png",
         mainImg:
-          "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742371921/Mbbs_in_nepal_pic_vwvju5.jpg",
+          "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756704820/1614326631_shutterstock_1605334645_bjyoqb.avif",
         overviewText:
           "Nepal is a land of breathtaking beauty, famed for its majestic Himalayan peaks, including Mount Everest, the world's highest mountain. The country's diverse topography ranges from lush subtropical lowlands to towering snow-capped summits, creating a stunning tapestry of landscapes.Nepal has become a popular destination for Indian students aspiring to pursue a career in medicine, offering a compelling combination of affordability, quality education, and geographical proximity. One of the primary reasons for Nepal's appeal is the relatively low tuition fees compared to many other countries offering MBBS programs. This makes medical education more accessible and affordable for Indian students, allowing them to pursue their dreams without the burden of exorbitant costs.",
         overviewImg:
@@ -4610,7 +4610,7 @@ export async function GET(request, { params }) {
         flag_link:
           "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742375108/dubai_logo_eey2a7.png",
         mainImg:
-          "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742375136/Dubai_mbbs_in_abroad_hero_uarhjb.jpg",
+          "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756704746/2024-10-31-020547337-Dubai_retains_top_25_position_in_Kearney_s_Global_Cities_Index_gohqqz.jpg",
         overviewText:
           "Dubai has become a highly popular destination for international students pursuing MBBS degrees. Several factors contribute to its attractiveness. Dubai boasts world-class medical universities with modern facilities and experienced faculty. These institutions offer a rigorous and comprehensive medical education, preparing students with the knowledge and skills necessary to excel in the field.Dubai's multicultural environment provides a unique and enriching learning experience. Students from diverse backgrounds interact, fostering a global perspective and enhancing their understanding of different cultures and healthcare systems. This exposure to diverse viewpoints is invaluable in preparing future doctors to serve a globalized world.",
         overviewImg:
@@ -5138,7 +5138,7 @@ export async function GET(request, { params }) {
       {
         country: 'Bosnia',
         flag_link: 'https://res.cloudinary.com/dqggm4k7u/image/upload/v1743491879/Bosnia_logo_kghkis.png',
-        mainImg: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1743582426/Bosnia_main_img_e3e2cy.jpg",
+        mainImg: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756703754/Sarajevo-BiH_frantic00_jarnlg.jpg",
         overviewText: "Bosnia and Herzegovina, Bosnia, is a Balkan nation situated in Southeast Europe, distinguished by its captivating mix of historical narratives, cultural diversity, and scenic natural beauty, which collectively contribute to its growing attractiveness as a destination for international students aspiring to obtain an MBBS degree, holding particular significance for Indian students in search of accessible and high-quality medical education opportunities. The MBBS program in Bosnia and Herzegovina is aligned with the European Credit Transfer System (ECTS) and the Bologna Process, ensuring a high standard of medical education that aligns with European academic frameworks and facilitates international recognition of qualifications.",
         overviewImg: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1743491906/Bosnia_overview_img_m5hpyu.jpg",
         quickFacts: ["Sarajevo", "50%", "Bosnia-Herzegovina Convertible Mark (BAM)", "Approx. 31.9 lakhs"],
