@@ -2145,7 +2145,7 @@ export async function GET(request, { params }) {
           {
             name: "Al-Farabi National Medical University",
             image:
-              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742360833/kazakhstan_mbbs_university_3_cwe7th.jpg",
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756799179/242924538367094afa63354965757615_9b9f66e5-5e65-478a-b211-d7d02769d15b_ukqyge.jpg",
             slug: "al-farabi-national-medical-university",
             country: "kazakhstan",
             overview: [
@@ -2324,7 +2324,7 @@ export async function GET(request, { params }) {
         
    {
             name: "Tbilisi State Medical University",
-            image: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1743408336/Georgia_mbbs_university_Tbilisi_6_pic_xspxl0.jpg",
+            image: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756801418/Tbilisi_State_Medical_University_dcac5a.jpg",
             slug: "tbilisi-state-medical-university",
             country : "georgia",
             overview : ["Established in 1918, Tbilisi State Medical University in Georgia stands as a prominent institution in Tbilisi, boasting a substantial student body of over seven thousand undergraduates and three thousand postgraduates, with a significant 25 percent of its enrollment comprising international students pursuing their MBBS degrees in Georgia. Recognized as one of the pioneering universities to receive approval from the Institutional Evaluation Programme conducted by the Association of European Universities in 1997, Tbilisi State Medical University has consistently produced graduates who go on to pursue successful careers in leading clinics across Georgia, Europe, and the world."],
@@ -2337,7 +2337,7 @@ export async function GET(request, { params }) {
                 "Faculty of Anatomy",
                 "Faculty of Physical Medicine and Rehabilitation",
             ],
-            facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
+            facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756801258/59785fef2045b578127067_se8qvi.jpg",
             affilationRecognition : ["FAIMER","ECFMG","NMC","WHO"],
         },
 
@@ -2345,7 +2345,7 @@ export async function GET(request, { params }) {
         
           {
             name: "New Vision Medical University",
-            image: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1743407692/Georgia_mbbs_university_New_Vision_7_pic_mv4tqr.jpg",
+            image: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756801922/20221103_123730-scaled_gnqexl.jpg",
             slug: "new-vision-medical-university",
             country : "georgia",
             overview : ["Established in 2013, New Vision University stands as a private, non-profit institution of higher education located in Tbilisi, Georgia, rapidly gaining recognition as one of the fastest-developing international universities within the region. The university prides itself on its distinguished faculty, who are deeply committed to excellence in clinical care, comprehensive education, and impactful research endeavors. Reflecting this dedication to scholarly advancement, numerous scientific research projects of both international and national significance have been successfully undertaken under the auspices of the university. Furthermore, New Vision University has cultivated close and collaborative partnership relations with leading higher medical institutions both domestically and internationally, including notable affiliations such as its partnership with Leeds University in England, fostering a global network for academic and research exchange."],
@@ -2358,14 +2358,14 @@ export async function GET(request, { params }) {
                 "Faculty of Physical Medicine",
                 "Faculty of Hospital Therapy",
             ],
-            facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
+            facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756802062/275792287_2032565803590478_8134230477755236829_n_afxbql.webp",
             affilationRecognition : ["MCC","FAIMER","NMC","WHO"],
           },
 
           {
             name: "International School of Medical",
             image:
-              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742361665/Georgia_mbbs_university_1_pic_xgpd3e.jpg",
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756807696/International_higher_school_of_medicine_central_campus_izsm1i.jpg",
             slug: "international-school-of-medical",
             country: "georgia",
             overview: [
@@ -2459,7 +2459,7 @@ export async function GET(request, { params }) {
           {
             name: "Batumi Shota Rustaveli State University",
             image:
-              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742361820/Georgia_mbbs_university_4_pic_zuf6ut.jpg",
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756800976/Batumi-Shota-Rustaveli-State-University-scaled_zqdijz.jpg",
             slug: "batumi-shota-rustaveli-state-university",
             country: "georgia",
             overview: [
@@ -2478,7 +2478,7 @@ export async function GET(request, { params }) {
               "Department of Microbiology",
             ],
             facultyImg:
-              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756801129/batumi-shota-rustaveli-state-university-2_edhn3q.webp",
             affilationRecognition: [
               "Medical Council of India (MCI)",
               "UNESCO: The university is recognized by UNESCO",
@@ -2528,7 +2528,7 @@ export async function GET(request, { params }) {
 
            {
             name: "Caucasus International University",
-            image: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1744103368/Georgia_mbbs_university_9_Caucasus_xmxtyu.jpg",
+            image: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756806011/caucasus-international-university-tbilisi-georgia-interhecs_ner3dd.jpg",
             slug: "caucasus-international-university",
             country : "georgia",
             overview : ["Established in 1995 as a medical institute before transitioning into a multi-profile higher education institution in 2006, Caucasus International University (CIU) is situated in Georgia's capital city, Tbilisi, and currently encompasses five faculties; Tbilisi, a city rich in history with an alluring cobblestone old town that draws numerous tourists annually, is also a significant hub for Georgian medical universities, many of which offer medical education in English, attracting international students seeking quality medical education in a vibrant European setting, and notably includes institutions like the highly regarded European University, known for its modern facilities and esteemed faculty; the city further enhances its appeal by providing relatively low-cost living options and universities that offer both affordable tuition fees and maintain high academic standards, making it an attractive destination for aspiring medical professionals from around the globe."],
@@ -2541,13 +2541,13 @@ export async function GET(request, { params }) {
                 "Faculty of Biochemistry",
                 "Faculty of Anatomy",
             ],
-            facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
+            facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756806160/Caucasus-International-University-Campus-Students_scvjdc.jpg",
             affilationRecognition : ["WFME","FAIMER","NMC","WHO"],
         },
         
             {
             name: "Georgian American University",
-            image: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1744103408/Georgia_mbbs_university_11_Georgian_fg9uyo.jpg",
+            image: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756806508/GEORGIAN-AMERICAN-UNIVERSITY_vJo1l_u9CY_crz30q.webp",
             slug: "georgian-american-university",
             country : "georgia",
             overview : ["Established in Tbilisi in 2001, the Georgian American University (GAU) rapidly developed a well-equipped campus featuring all the necessary modern medical technology, demonstrating a continuous investment in research and facility modernization that has positioned it as one of the leading universities in Georgia; recognizing that exceptional education extends beyond just facilities, GAU places a strong emphasis on assembling a distinguished faculty comprised of seasoned academics and practitioners who bring a wealth of knowledge and practical insights, thereby cultivating a dynamic and comprehensive learning environment enriched by diverse perspectives and real-world expertise, ensuring that students benefit from both theoretical rigor and practical application across their fields of study, and fostering an atmosphere conducive to intellectual growth and professional development through close interaction with accomplished mentors and researchers."],
@@ -2560,7 +2560,7 @@ export async function GET(request, { params }) {
                 "Faculty of Biochemistry",
                 "Faculty of Anatomy",
             ],
-            facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
+            facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756806711/Georgian_American_University_tsburq.jpg",
             affilationRecognition : ["WFME","FAIMER","NMC","WHO"],
         },
 
@@ -3850,7 +3850,7 @@ export async function GET(request, { params }) {
 
           {
             name: "Yerevan Haybusak University",
-            image: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1743487769/Armenia_university_1_Yerevan_Haybusak_t0x6do.jpg",
+            image: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756811787/cover_WCA7RSZ4C_zrzcvq.webp",
             slug: "yerevan-haybusak-university",
             country : "armenia",
             overview : ["Established in 1991 by academician Levon Harutyunyan, Yerevan Haybusak University is a private institution situated in Yerevan, Armenia, boasting a substantial student body of over 7000, including a significant number of international students, and a dedicated faculty of more than 300 educators and professors, many of whom are specialists in their respective fields, solidifying its position as a leading medical institute in Armenia, having received state accreditation in 2001 and fostering an educational collaboration with the UAE. Armenia is increasingly gaining popularity as a preferred destination for students aspiring to study MBBS abroad, largely attributed to the country's provision of modern infrastructure, experienced faculty, and a strong educational framework."],
@@ -3863,13 +3863,13 @@ export async function GET(request, { params }) {
                 "Faculty of Physical Medicine",
                 "Faculty of International Relations",
             ],
-            facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
+            facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756811961/513902634_1314793866815514_2644735776192933953_n-1_sodtrs.jpg",
             affilationRecognition : ["ECFMG","WFME","NMC","WHO"],
         },
 
          {
             name: "Mkhitar Gosh Armenian-Russian International University",
-            image: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1743489335/Armenia_university_2_Mkhitar_omm1kf.jpg",
+            image: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756812859/cover_lYri199KS_ydkl9w.webp",
             slug: "mkhitar-gosh-armenian-russian-international-university",
             country : "armenia",
             overview : ["Established in 1996 in Yerevan, the capital city of Armenia, Mkhitar Gosh Armenian-Russian International University holds accreditation from ANQA (Armenia’s National Center for Professional Education Quality Assurance) and official approval from the Medical Council of India (now NMC), ensuring compliance with the standards set forth by the MCI. Recognized as a leading institution in Armenia for delivering high-quality medical education, the university's medical education program has also received approval from the Ministry of Education and Science of Armenia. Consequently, Indian students who graduate from Mkhitar Gosh Armenian-Russian International University are eligible to undertake the MCI screening test (now NEXT) and practice medicine as qualified doctors in India."],
@@ -3882,13 +3882,13 @@ export async function GET(request, { params }) {
                 "Faculty of Medical Art",
                 "Faculty of Dentistry",
             ],
-            facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
+            facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756813216/121_album_laszu8.jpg",
             affilationRecognition : ["ECFMG","WFME","NMC","WHO"],
         },
 
          {
             name: "University of Traditional Medicine",
-            image: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1743488019/Armenia_university_3_University_of_Traditional_pic_hhiqxg.jpg",
+            image: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756813570/cover_cmo4Io9-Z_vw2mdk.webp",
             slug: "university-of-traditional-medicine",
             country : "armenia",
             overview : ["For those aspiring to become successful doctors, Armenia has emerged as a thriving hub for MBBS studies, with the University of Traditional Medicine (UTM) in Yerevan standing out as a premier institution despite challenges such as climatic conditions and governmental issues that can sometimes affect pursuing MBBS in Armenia. UTM has overcome these hurdles to provide world-class education through flexible courses, striving for excellence in MBBS training. Founded in 1992, the University of Traditional Medicine has experienced rapid growth, surpassing many other universities to become a leading institution in the country. Following years of dedicated effort and positive results, UTM achieved accreditation from the Ministry of Education and Science in the early 2000s, subsequently gaining recognition from the World Health Organization (WHO) as a legitimate and respected entity in the field of medicine, attracting a significant influx of international students annually who come to pursue their medical aspirations at the university."],
@@ -3901,14 +3901,14 @@ export async function GET(request, { params }) {
                 "Faculty of Natural sciences",
                 "Faculty of Medical",
             ],
-            facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
+            facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756813855/maxresdefault_tdsof1.jpg",
             affilationRecognition : ["FAIMER","UNESCO","NMC","WHO"],
         },
 
 
           {
             name: "Yerevan State Medical University",
-            image: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1743488055/Armenia_university_4_Yerevan_State_pic_i1lqmx.jpg",
+            image: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756814366/Ysmu_main_fo54ul.jpg",
             slug: "yerevan-state-medical-university",
             country : "armenia",
             overview : ["Yerevan State Medical University, situated in the central hub of Yerevan, Armenia, holds the esteemed reputation of being among the nation's leading medical institutions, having successfully educated over 31,000 graduates to date. Named after Heratsi, the State Medical University currently accommodates approximately 8,000 students across its six faculties, including a significant international student body of around 1,184 individuals from diverse countries. Widely recognized as Armenia's premier university for MD studies, which is considered equivalent to the MBBS degree in India, the university's teaching and research endeavors are supported by more than 100 departments, prominent clinical facilities, and numerous research centers located throughout Yerevan. Its academic strength is further underscored by a faculty of over 1,100 lecturers, including 171 highly qualified Doctors of Sciences, 504 Candidates of Sciences, and 7 Academicians of the RANAS, who actively contribute to both scientific advancement and pedagogical excellence, thereby playing a crucial role in the progress of medical science within Armenia."],
@@ -3921,7 +3921,7 @@ export async function GET(request, { params }) {
                 "Faculty of Public Health",
                 "Faculty of Dentistry",
             ],
-            facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
+            facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756814623/Yerevan-State-Medical-University-Classroom_hgeyyw.webp",
             affilationRecognition : ["FAIMER","WFME","NMC","WHO"],
         },
 
