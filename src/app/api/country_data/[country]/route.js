@@ -2277,7 +2277,7 @@ export async function GET(request, { params }) {
               "Department of Psychiatry",
             ],
             facultyImg:
-              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1739793855/img_bg_sybjt5.png",
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756882127/2-50_qog6t9.webp",
             affilationRecognition: [
               "World Health Organization (WHO)",
               "Medical Council of India (MCI)",
@@ -2308,7 +2308,7 @@ export async function GET(request, { params }) {
               "Department of Microbiology",
             ],
             facultyImg:
-              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1739793855/img_bg_sybjt5.png",
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756882334/3-28_fmnzll.webp",
             affilationRecognition: [
               "Affiliated with the Health Ministry of Kazakhstan.",
               "National Medical Commission of India (NMC)",
@@ -2339,7 +2339,7 @@ export async function GET(request, { params }) {
               "Department of Fundamental Medical",
             ],
             facultyImg:
-              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1739793855/img_bg_sybjt5.png",
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756884252/311896448167c6b85b291df502107385_%D0%98%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5_WhatsApp_2025-03-03_%D0%B2_135400_e2913fa4_rardp5.jpg",
             affilationRecognition: [
               "MCI (Medical Council of India)",
               "World Health Organization (WHO)",
@@ -2370,7 +2370,7 @@ export async function GET(request, { params }) {
               "Department of Microbiology",
             ],
             facultyImg:
-              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1739793855/img_bg_sybjt5.png",
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756884581/1420-1_ooge8r.jpg",
             affilationRecognition: [
               "Medical Council of India (MCI)",
               "The Ministry of Education and Science of the Republic of Kazakhstan",
@@ -2386,7 +2386,7 @@ export async function GET(request, { params }) {
             country : "kazakhstan",
             overview : ["North Kazakhstan State University stands as a leading educational organization and world-class university in north Kazakhstan, initially established as the Petropavlovskiy teachers training institute in 1937 in Petropavl city, Republic of Kazakhstan. The institution was awarded the status of a university by the republic council of Kazakhstan in 2001 and was subsequently renamed after academician Manash Kotzebue in 2003. Working with a dedicated team of great professionals, doctors, and researchers, North Kazakhstan State University consistently demonstrates high performance in the field of education. The beauty of Petropavl city attracts foreign students and visitors alike for both living and tourism. Situated on the Ishim River in north Kazakhstan, close to the Russian border, Petropavl has a population of around 2.5 lakh; the presence of many ponds, lakes, and small forests within the city further enhances its appeal as a beautiful place to live. Students from the university who opt to reside outside the campus can easily get settled into this inviting environment."],
             academic : ["North Kazakhstan State University (NKSU), named after Manash Kozybayev, offers a wide range of academic programs, including over 50 Bachelor's degrees, 25 Master's degrees, and 4 Doctoral degrees. Among the popular choices for international students are the programs in General Medicine and Pharmacy, both of which are offered with instruction in English."],
-            academicImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1745495725/Kazakhstan_university_North_Kazakhstan_academic_pekf2r.jpg",
+            academicImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756885565/202104201724053North-Kazakhstan-State-University-Kazakhstan-3_oordcq.jpg",
             faculties : [
                 "Faculty of General Medicine",
                 "Faculty of Nursing",
@@ -2394,7 +2394,7 @@ export async function GET(request, { params }) {
                 "Faculty of Pediatrics",
                 "Faculty of Joint Education Program",
             ],
-            facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
+            facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756885393/17568839597f4b7386_ay92ah.jpg",
             affilationRecognition : ["MCI","ICDE","NMC","WHO"],
         },
 
@@ -2413,7 +2413,7 @@ export async function GET(request, { params }) {
                 "Faculty of Anatomy",
                 "Faculty of Internal Diseases",
             ],
-            facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
+            facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756889619/intro_photo_aqxjc5.jpg",
             affilationRecognition : ["MCI","ASME","NMC","WHO"],
         },
 
@@ -2432,13 +2432,13 @@ export async function GET(request, { params }) {
                 "Faculty of Pediatrics",
               
             ],
-            facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
+            facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756890186/The-Head-of-the-Department-of-Russian-Language-A.A.-Kuznetcova_wme0sl.jpg",
             affilationRecognition : ["USMLE","FAIMER","NMC","WHO"],
         },
 
         {
             name: "Kokshetau State University",
-            image: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1745559865/Kazakhstan_university_Kokshetau_dznfgc.jpg",
+            image: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756890439/Kokshetau-State-University_kUqf0N6xy_hynhm4.webp",
             slug: "kokshetau-state-university",
             country : "kazakhstan",
             overview : ["Sh. Ualikhanov Kokshetau State University is a Government State University founded in 1962 and located in the city of Kokshetau, Kazakhstan. The university was fittingly renamed after Sh. Ualikhanov, celebrated as one of the greatest Kazakh scientists, historians, ethnographers, geographers, translators, and travelers. For medical students, pursuing MBBS in Kazakhstan, particularly at Kokshetau State University, presents significant opportunities. The university is committed to providing quality education to its medical students and has received NAAR accreditation ratings for 60 of its educational programs."],
@@ -2451,7 +2451,7 @@ export async function GET(request, { params }) {
                 "Faculty of Pediatrics",
                 "Faculty of Public health",
             ],
-            facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
+            facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756890517/2-7_v76dcr.jpg",
             affilationRecognition : ["USMLE","FAIMER","NMC","WHO"],
         },
 
@@ -2470,7 +2470,7 @@ export async function GET(request, { params }) {
                 "Faculty of Stomatologic Disciplines",
                 "Faculty of Public Health Care",
             ],
-            facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
+            facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756890682/1a08f443-0638-4dde-a53f-b14a2973f97e-768x576_ffxlwv.jpg",
             affilationRecognition : ["MCI","WDOMS","NMC","WHO"],
           },
         ],
@@ -2571,7 +2571,7 @@ export async function GET(request, { params }) {
               "Department of Forensic Medicine",
             ],
             facultyImg:
-              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1739793855/img_bg_sybjt5.png",
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756893711/4-12_qmqoge.jpg",
             affilationRecognition: [
               "World Health Organization (WHO)",
               "United Nations Organization (UNO)",
@@ -2602,7 +2602,7 @@ export async function GET(request, { params }) {
               "Department of Microbiology",
             ],
             facultyImg:
-              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1739793855/img_bg_sybjt5.png",
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756896736/IMG_1407-600x400_tjf5sl.jpg",
             affilationRecognition: [
               "World Federation for Medical Education (WFME)",
               "Educational Commission for Foreign Medical Graduates (ECFMG)",
@@ -2633,7 +2633,7 @@ export async function GET(request, { params }) {
               "Department of Fundamental Medical",
             ],
             facultyImg:
-              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1739793855/img_bg_sybjt5.png",
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756896927/unnamed_efq97u.webp",
             affilationRecognition: [
               "MCI (Medical Council of India)",
               "World Health Organization (WHO)",
@@ -2687,7 +2687,7 @@ export async function GET(request, { params }) {
                 "Faculty of Anatomy and Physiology",
                 "Faculty of Hospital Therapy",
             ],
-            facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
+            facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756893455/3-77_eioaoe.jpg",
             affilationRecognition : ["MCI","WDOMS","NMC","WHO"],
            },
 
@@ -2746,7 +2746,7 @@ export async function GET(request, { params }) {
                 "Faculty of  Dentistry",
                 "Faculty of Anatomy",
             ],
-            facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
+            facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756897503/Tbilisi-State-Medical-University-1_tz6erg.webp",
             affilationRecognition : ["AMEE","FAIMER","AMSE","WHO"],
         },
 
@@ -2765,7 +2765,7 @@ export async function GET(request, { params }) {
                 "Faculty of Physical Medicine",
                 "Faculty of Clinical Medicine",
             ],
-            facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
+            facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756897714/clinic_wd7vnc.webp",
             affilationRecognition : ["NCEQE","FAIMER","WFME","WHO"],
         },
 
@@ -2822,7 +2822,7 @@ export async function GET(request, { params }) {
                 "Faculty of Biochemistry",
                 "Faculty of Anatomy",
             ],
-            facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
+            facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756898222/big-1_xtf861.jpg",
             affilationRecognition : ["MCI","ECFMG","NMC","WHO"],
         },
 
@@ -2966,7 +2966,7 @@ export async function GET(request, { params }) {
               country : "armenia",
               overview : ["Yerevan State Medical University, situated in the central hub of Yerevan, Armenia, holds the esteemed reputation of being among the nation's leading medical institutions, having successfully educated over 31,000 graduates to date. Named after Heratsi, the State Medical University currently accommodates approximately 8,000 students across its six faculties, including a significant international student body of around 1,184 individuals from diverse countries. Widely recognized as Armenia's premier university for MD studies, which is considered equivalent to the MBBS degree in India, the university's teaching and research endeavors are supported by more than 100 departments, prominent clinical facilities, and numerous research centers located throughout Yerevan. Its academic strength is further underscored by a faculty of over 1,100 lecturers, including 171 highly qualified Doctors of Sciences, 504 Candidates of Sciences, and 7 Academicians of the RANAS, who actively contribute to both scientific advancement and pedagogical excellence, thereby playing a crucial role in the progress of medical science within Armenia."],
               academic : ["Yerevan State Medical University (YSMU) provides a wide spectrum of medical education, encompassing undergraduate programs in General Medicine and Stomatology, as well as extensive postgraduate programs across numerous medical specialties and advanced PhD programs for research-oriented students."],
-              academicImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1743488067/Armenia_university_4_Yerevan_State_academic_jowpgx.jpg",
+              academicImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756879470/14_bh3bxm.jpg",
               faculties : [
                   "Faculty of General Medicine",
                   "Faculty of Pharmacy",
@@ -2980,7 +2980,7 @@ export async function GET(request, { params }) {
 
             {
               name: "Armenian Medical Institute",
-              image: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1743488089/Armenia_university_5_Armenian_Medical_pic_jthhhv.jpg",
+              image: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756879775/DREAM-MBBS-FRAME-19201080-3-3_z7zb3x.jpg",
               slug: "armenian-medical-institute",
               country : "armenia",
               overview : ["Established in 1990 in Yerevan, Armenia, the Armenian Medical Institute holds the distinction of being the nation's first privately run medical school and is recognized as one of Armenia's leading medical institutions, making it a prime choice for numerous students from around the globe who seek MBBS education annually. Offering programs in General Medicine and Dentistry, the Armenian Medical Institute provides a significant pathway for medical education, with thousands of students graduating each year and obtaining medical degrees that enable them to pursue careers in Armenia and internationally."],
@@ -2993,7 +2993,7 @@ export async function GET(request, { params }) {
                   "Faculty of Public Health",
                   "Faculty of Dentistry",
               ],
-              facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
+              facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756879974/52927512_2183976421625135_840322506219847680_n_keeb3l.jpg",
               affilationRecognition : ["ECFMG","WDMS","NMC","WHO"],
           },
 
@@ -3012,7 +3012,7 @@ export async function GET(request, { params }) {
                   "Faculty of Public Health",
                   "Faculty of Dentistry",
               ],
-              facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
+              facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756880422/60b61894b0769_eg4zxy.jpg",
               affilationRecognition : ["UNESCO","MCI","NMC","WHO"],
           },
             ],
