@@ -1806,7 +1806,7 @@ export async function GET(request, { params }) {
               "Department of Psychiatry",
             ],
             facultyImg:
-              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756968192/Inter-University-Olympiad-on-Latin-2024-1_y0knsu.jpg",
             affilationRecognition: [
               "World Health Organization (WHO)",
               "Medical Council of India (MCI)",
@@ -1837,7 +1837,7 @@ export async function GET(request, { params }) {
               "Department of Microbiology",
             ],
             facultyImg:
-              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756968523/unnamed_k8yspq.jpg",
             affilationRecognition: [
               "World Directory of Medical Schools (WDOMS)",
               "National Medical Commission of India (NMC)",
@@ -1900,7 +1900,7 @@ export async function GET(request, { params }) {
               "Department of Public Health",
             ],
             facultyImg:
-              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756968699/4-12-pvizotojgrgaw8zlbnch6485f2rzo9a1nctf4ix30o_oozg9w.png",
             affilationRecognition: [
               "MCI (Medical Council of India)",
               "World Health Organization (WHO)",
@@ -1931,7 +1931,7 @@ export async function GET(request, { params }) {
               "Department of General Medicine",
             ],
             facultyImg:
-              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756969349/unnamed_pdwpcl.webp",
             affilationRecognition: [
               "Medical Council of India (MCI)",
               "FAIMER",
@@ -1955,7 +1955,7 @@ export async function GET(request, { params }) {
                 "Faculty of Pediatrics",
                 "Faculty of Joint Education Program",
             ],
-            facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
+            facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756976216/1750569069_6857906d4cb51_m2ceh3.png",
             affilationRecognition : ["MCI","Ministry of Health and the Ministry of Education","NMC","WHO"],
         },
   
@@ -1975,7 +1975,7 @@ export async function GET(request, { params }) {
                 "Faculty of Pediatrics",
                 "Faculty of Joint Education Program",
             ],
-            facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
+            facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756976428/s1_teod6i.jpg",
             affilationRecognition : ["FAIMER","USMLE","NMC","WHO"],
         },
   
@@ -1987,7 +1987,7 @@ export async function GET(request, { params }) {
             country : "kyrgyzstan",
             overview : ["Established in 1925, the Kyrgyz National University named after J. Balasagyn (KNU) stands as a non-profit public higher education institution situated in the urban center of Bishkek, officially recognized by the Ministry of Education and Science of Kyrgyzstan, and characterized as a large, coeducational Kyrgyzstani university; KNU offers a diverse range of courses and programs leading to officially recognized higher education degrees, including bachelor's degrees across various academic disciplines, catering to both domestic and international applicants; furthermore, the university provides a comprehensive array of academic and non-academic facilities and services to its student body, encompassing a library, housing options, sports amenities, and administrative support, fostering a holistic and supportive learning environment."],
             academic : ["The Kyrgyz National University, named after Jusup Balasagyn, stands as a significant public higher education institution within Kyrgyzstan, distinguished by its extensive array of academic programs and its pivotal role in cultivating the country's future leadership by nurturing the intellectual and professional development of its students, equipping them with the knowledge, skills, and ethical values necessary to excel in their chosen fields and contribute meaningfully to society, thereby shaping the nation's trajectory through the empowerment of its future generations."],
-            academicImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1743759171/Kyrgyzstan_mbbs_university_7_Kyrgyz_national_academic_kbaqxn.jpg",
+            academicImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756976531/12_s2h6rq.jpg",
             faculties : [
                 "Faculty of General Medicine",
                 "Faculty of Surgery",
@@ -1995,7 +1995,7 @@ export async function GET(request, { params }) {
                 "Faculty of Pediatrics",
                 "Faculty of Biology",
             ],
-            facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
+            facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756976622/3_zomsta.webp",
             affilationRecognition : ["MCI","Ministry of Health and the Ministry of Education","NMC","WHO"],
         },
   
@@ -2015,7 +2015,7 @@ export async function GET(request, { params }) {
                 "Faculty of Pharmaceutical",
                 "Faculty of Biology",
             ],
-            facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
+            facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756976711/1-6_ja3hyc.webp",
             affilationRecognition : ["MCI","ECFMG","NMC","WHO"],
         },
   
@@ -2035,7 +2035,7 @@ export async function GET(request, { params }) {
                 "Faculty of Pharmaceutical",
                 "Faculty of Biology",
             ],
-            facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
+            facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756976843/askar-salymbekov-v-vypusknikami-mlk-s_hdzwno.jpg",
             affilationRecognition : ["WFME","ECFMG","NMC","WHO"],
         },
         {
@@ -2054,7 +2054,7 @@ export async function GET(request, { params }) {
               "Faculty of Pharmaceutical",
               "Faculty of Biology",
           ],
-          facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
+          facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756977033/img-1470EBA919F7-539C-A699-B25A-74132F95C5E4_akzluu.jpg",
           affilationRecognition : ["WFME","FAIMER","NMC","WHO"],
       },
 
@@ -2608,7 +2608,7 @@ export async function GET(request, { params }) {
               "Faculty of Pharmaceutical",
             ],
             facultyImg:
-              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756984387/study-medicine-in-English-Belarusian-State-Medical-University_ttw121.jpg",
             affilationRecognition: [
               "World Health Organization (WHO)",
               "Medical Council of India (MCI)",
@@ -2639,7 +2639,7 @@ export async function GET(request, { params }) {
               "Department of Microbiology",
             ],
             facultyImg:
-              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756984665/bannerimage_yzsql8.jpg",
             affilationRecognition: [
               "Recognized by the Medical Council of India (MCI)",
               "Educational Commission for Foreign Medical Graduates (ECFMG)",
@@ -2670,7 +2670,7 @@ export async function GET(request, { params }) {
               "Department of Microbiology",
             ],
             facultyImg:
-              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756985063/grodno_sl_students_tog2nq.jpg",
             affilationRecognition: [
               "GSMU is recognized by the GMC",
               "FAIMER (Foundation for Advancement of International Medical Education and Research)",
@@ -2766,7 +2766,7 @@ export async function GET(request, { params }) {
               "Faculty of Pharmacology",
             ],
             facultyImg:
-              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756985868/Holy-Family-Red-Crescent-Medical-College-Lab_el18ka.webp",
             affilationRecognition: [
               "The Ministry of Health and Family Welfare (MOHFW)",
               "Recognized by the World Health Organization",
@@ -2798,7 +2798,7 @@ export async function GET(request, { params }) {
               "Faculty of Clinical Psychology",
             ],
             facultyImg:
-              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756986034/Universal-Medical-College-Classroom_atspd4.webp",
             affilationRecognition: [
               "Member of British Medical Education",
               "The Medical Council of India",
@@ -2830,7 +2830,7 @@ export async function GET(request, { params }) {
               "Department of Nephrology",
             ],
             facultyImg:
-              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756986127/FACILITY_HOME_suun4h.jpg",
             affilationRecognition: [
               "SWMC is associated with UNESCO",
               "The Medical Council of India",
@@ -2862,7 +2862,7 @@ export async function GET(request, { params }) {
               "Department of Forensic Medicine",
             ],
             facultyImg:
-              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756986228/tmss-medical-college-library-scaled-1024x683_i1rdwv.jpg",
             affilationRecognition: [
               "FAIMER",
               "The Medical Council of India",
@@ -2895,7 +2895,7 @@ export async function GET(request, { params }) {
               "Faculty of Graduate Nurses",
             ],
             facultyImg:
-              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756986296/CBMCB_pnnijy.jpg",
             affilationRecognition: [
               "FAIMER",
               "WFME [World Federation for Medical Education",
@@ -2917,7 +2917,7 @@ export async function GET(request, { params }) {
               "International Medical College (IMC) in Tongi, Bangladesh, provides a diverse range of healthcare education, including a 5-year MBBS program, B.Sc. in Nursing, Post Basic B.Sc. in Nursing, B.Sc. in Health Technology (Laboratory), and ESL courses, catering to a wide array of medical and allied health professional aspirations.",
             ],
             academicImg:
-              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742797803/Bangladesh_mbbs_university_10_academic_pic_cllwcq.jpg",
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756986406/unnamed_cfazxw.jpg",
             faculties: [
               "Faculty of Medicine",
               "Faculty of Anatomy",
@@ -2927,7 +2927,7 @@ export async function GET(request, { params }) {
               "Faculty of Obstetrics & Gynaecology",
             ],
             facultyImg:
-              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756986495/ac3_kcel6p.jpg",
             affilationRecognition: [
               "FAIMER",
               "United Nations Educational, Scientific and Cultural Organization (UNESCO)",
@@ -2958,7 +2958,7 @@ export async function GET(request, { params }) {
               "Department of Pathology",
             ],
             facultyImg:
-              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756985244/dnmc5_xhvnwn.jpg",
             affilationRecognition: [
               "Recognized by the Bangladesh Medical and Dental Council (BMDC) ",
               "Accredited by the Bangladesh Medical and Dental Council (BMDC)",
@@ -2990,7 +2990,7 @@ export async function GET(request, { params }) {
               "Department of Pharmacology",
             ],
             facultyImg:
-              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756985320/Bangladesh-Medical-College-Classroom_uurmg9.webp",
             affilationRecognition: [
               "The University of Dhaka granted affiliation to BMC",
               "Accredited by the Bangladesh Medical and Dental Council (BMDC) ",
@@ -3022,7 +3022,7 @@ export async function GET(request, { params }) {
               "Department of Medicine",
             ],
             facultyImg:
-              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756985422/DSC_0283_g4gkhx.jpg",
             affilationRecognition: [
               "The University of Dhaka",
               "Accredited by the Bangladesh Medical and Dental Council (BMDC) ",
@@ -3054,7 +3054,7 @@ export async function GET(request, { params }) {
               "Department of Pathology",
             ],
             facultyImg:
-              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756985572/23_bo7rmg.jpg",
             affilationRecognition: [
               "The University of Dhaka",
               "Accredited by the Bangladesh Medical and Dental Council (BMDC) ",
@@ -3972,7 +3972,7 @@ export async function GET(request, { params }) {
           country : "bosnia",
           overview : ["Established in 1977 as a public institution, the University of Mostar, the largest public university in Mostar, Bosnia and Herzegovina, traces its origins back to the establishment of the Franciscan theological school in 1895 and today serves a substantial student population of 12,000, supported by a faculty of 1,000 teachers across its ten faculties and one academy. Committed to reaching recognized European standards in higher education, the University of Mostar is shaping a new era defined by its core mission encompassing Education, Scientific Research work, and Community Development. Its educational philosophy is grounded in excellence, prioritizing students in undergraduate, graduate, and postgraduate studies through a focused teaching and research process that aims to cultivate highly professional, self-motivated, and productive experts ready to excel in their present and future endeavors."],
           academic : ["The University of Mostar (UNMO) in Bosnia and Herzegovina provides a comprehensive spectrum of academic opportunities, encompassing undergraduate, graduate, and postgraduate studies, with particular strengths in areas such as Agro-Mediterranean studies, Law, Information Technologies, Business Informatics, and a variety of other disciplines."],
-          academicImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1743502571/Bosnia_university_1_university_of_mostar_academic_pic_o33nia.jpg",
+          academicImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756979071/2024-09-27-Welcome-exchange-Students-9234__ScaleWidthWzEwNDhd_achs5g.jpg",
           faculties : [
               "Department of Dentistry",
               "Department of General Medicine",
@@ -3981,13 +3981,13 @@ export async function GET(request, { params }) {
               "Department of Paediatrics",
               "Department of Psychiatry",
           ],
-          facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
+          facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1743502571/Bosnia_university_1_university_of_mostar_academic_pic_o33nia.jpg",
           affilationRecognition : ["WHO","MCI","FAIMER","WDMC"],
       },
   
       {
         name: "University of East Sarajevo",
-        image: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1743579792/Bosnia_university_East_Sarajevo_pic_ed2spg.webp",
+        image: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756978590/Rektorat_Univeziteta_u_Isto%C4%8Dnom_Sarajevu_r8xp1e.jpg",
         slug: "university-of-east-sarajevo",
         country : "bosnia",
         overview : ["Established in 1993 in the scenic town of Foca, the Faculty of Medicine at the University of East Sarajevo (UES) has cultivated a strong reputation for delivering high-quality medical and dentistry programs, earning recognition across Europe and globally; encompassing over 6000 square meters and furnished with contemporary facilities, the faculty provides a comprehensive educational environment, positioning UES as a symbol of excellence in both medical education and research within Bosnia and Herzegovina and as a leading institution in the nation, with its mission focused on producing highly competent professionals capable of succeeding in their chosen fields both domestically and internationally. The University of East Sarajevo employs the European Credit Transfer System (ECTS), ensuring a just and transparent method for student evaluation and guaranteeing the international recognition of the education received, while also simplifying the transfer of credits and enabling students to readily participate in exchange programs such as Erasmus+, thereby offering opportunities for valuable international experience and exposure."],
@@ -4000,18 +4000,18 @@ export async function GET(request, { params }) {
             "Department of Anotomy",
             "Department of Microbiology",
         ],
-        facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
+        facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756978668/IMG_0410_jpqxig.jpg",
         affilationRecognition : ["WDOMS","NMC","WHO","EAMF"],
     },
 
        {
           name: "Sarajevo School of Science and Technology",
-          image: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1743502608/Bosnia_university_3_Sarajevo_pic_weopnq.jpg",
+          image: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756978758/Sarajevo_School_of_Science_Technology_University_cnlzo3.jpg",
           slug: "sarajevo-school-of-science-and-technology",
           country : "bosnia",
           overview : ["Sarajevo School of Science and Technology (SSST) is a private university situated in Sarajevo, comprising six departments, one academy, and a medical school, and it holds a distinguished ranking among the top 600 universities globally and as one of the best institutions in Southeastern Europe. Notably, the medical school within SSST offers comprehensive courses in medicine, dentistry, and pharmacy, all of which are conducted entirely in the English language, attracting a diverse international student body. Sarajevo, the capital and largest city of Bosnia and Herzegovina with a population exceeding 270,000, boasts a rich history tracing back to the 15th century, maintaining many of its traditions to the present day, and is particularly renowned for prioritizing culture as a central element in its development strategies, providing a vibrant and historically significant backdrop for academic pursuits at SSST."],
           academic : ["The Medicine program at Sarajevo School of Science and Technology (SSST) is a six-year course that integrates foundational theoretical lectures with subsequent practical training, allowing students to apply their acquired knowledge, and benefits from state-of-the-art laboratories equipped with advanced medical equipment and software, positioning SSST as a highly desirable European university for medical studies."],
-          academicImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1743502615/Bosnia_university_3_Sarajevo_academic_pic_y4vopl.jpg",
+          academicImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756978807/Sarajevo_School_of_Science_Technology_gh6mep.jpg",
           faculties : [
               "Department of Anatomy",
               "Department of Biochemistry",
@@ -4019,7 +4019,7 @@ export async function GET(request, { params }) {
               "Department of Forensic Medicine",
               "Department of Microbiology",
           ],
-          facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
+          facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756978918/Sarajevo-School-of-Science-and-Technology-study-medicine-in-bosnia-768x512_hrfheu.jpg",
           affilationRecognition : ["WDOMS","NMC","WHO","ECFMG"],
       },
 
@@ -4028,12 +4028,12 @@ export async function GET(request, { params }) {
 
       {
         name: "University of Belgrade",
-        image: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1743581359/Serbia_university_1_Belgrade_pic_gzkzpd.webp",
+        image: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756977694/Study-Medicine-in-English-at-University-of-Belgrade-2024_gt4dya.jpg",
         slug: "university-of-belgrade",
         country : "serbia",
         overview : ["As a state institution, the University of Belgrade's primary functions in higher education and scientific research are deemed matters of public interest and are conducted in adherence to legal statutes, with the university annually commemorating its establishment on September 13th, marking the commencement of classes at the initial Higher School founded by Dositej Obradovic; throughout its two centuries of existence, the University of Belgrade has been dedicated to serving its community, and its alumni and faculty have made substantial contributions to the cultural, scientific, educational, political, and economic advancement of the nation. The University of Belgrade is committed to sustaining and strengthening its role as the preeminent higher education institution in the region by both adapting to contemporary challenges and safeguarding the valuable aspects of its heritage, which is precisely what has earned it recognition as a genuine national symbol."],
         academic : ["This comprehensive university encompasses 31 faculties and 11 research institutes, providing an extensive selection of programs and degrees with over 370 study programs that span all disciplines of engineering, natural sciences, medical sciences, social sciences, and humanities across all levels of academic pursuit, including professional training."],
-        academicImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1743581361/Serbia_university_1_Belgrade_academic_rlrdhh.webp",
+        academicImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756977803/University-of-Belgrade-EF-photo-5-scaled_jmrqyk.jpg",
         faculties : [
             "Department of Dentistry",
             "Department of General Medicine",
@@ -4042,18 +4042,18 @@ export async function GET(request, { params }) {
             "Department of Paediatrics",
             "Department of Psychiatry",
         ],
-        facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
+        facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756977694/Study-Medicine-in-English-at-University-of-Belgrade-2024_gt4dya.jpg",
         affilationRecognition : ["WHO","NMC","FAIMER","SEELS"],
     },
 
       {
         name: "University of Novi Sad",
-        image: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1743502578/Bosnia_university_2_Novi_pic_hj5xzg.jpg",
+        image: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756978281/Univerzitet_u_Novom_Sadu_yufxen.jpg",
         slug: "university-of-novi-sad",
         country : "Serbia",
         overview : ["Established in 1960 as a public institution, the University of Novi Sad, comprising 14 faculties across four cities, holds international recognition for its comprehensive medical education and numerous significant research endeavors, standing as the second-largest Serbian university with a student body exceeding 40,000, including a substantial number of international students. Notably, the University of Novi Sad Faculty of Medicine is distinguished for its supportive environment and dedicated facilities and resources designed to welcome and assist international students, including an international department committed to addressing inquiries and guiding students throughout their academic journey. Situated in Novi Sad, a diverse and multicultural city with approximately 290,000 residents, making it the second-largest in Serbia, the university benefits from the city's friendly and welcoming atmosphere, which attracts an increasing number of international students from Europe, the UK, and other parts of the world, solidifying the Faculty of Medicine at the University of Novi Sad, Serbia, as a premier destination for studying."],
         academic : ["The University of Novi Sad (UNS) in Serbia provides a comprehensive selection of accredited study programs spanning Bachelor, Master, Specialist, and Doctoral levels, emphasizing contemporary and science-based curricula that are delivered across its diverse faculties and numerous research centers."],
-        academicImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1743502586/Bosnia_university_2_Novi_academic_j0b8tx.jpg",
+        academicImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756978366/Study-Medicine-in-English-University-of-Novi-Sad-1024x702_bqaetk.jpg",
         faculties : [
             "Department of General Medicine",
             "Department of Pharmacies",
@@ -4061,7 +4061,7 @@ export async function GET(request, { params }) {
             "Department of Forensic Medicine",
             "Department of Microbiology",
         ],
-        facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
+        facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756978415/Study-Medicine-in-the-University-of-Novi-Sad-768x455_p6klcq.jpg",
         affilationRecognition : ["WDOMS","NMC","WHO","EUGLOH"],
     },
 
@@ -4392,7 +4392,7 @@ export async function GET(request, { params }) {
 
 {
   name: "Nicolae Testemitanu State University of Medicine and Pharmacy",
-  image: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1744704707/Moldova_university_1_jhfyxb.jpg",
+  image: "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756977447/Nicolae_Testemi%C8%9Banu_State_University_of_Medicine_and_Pharmacy_kenwfq.jpg",
   slug: "nicolae-testemitanu-state-university-of-medicine-and-pharmacy",
   country : "serbia",
   overview : ["Established on October 20, 1945, the institution laid the groundwork for the advancement of higher medical education and the improvement of the healthcare system within the Moldovan Republic, experiencing substantial growth over the subsequent seven decades through significant program and facility expansions; the University now encompasses a diverse range of academic units, including a hospital-affiliated medical school catering to local students with a specialization in Public Health, a distinct medical school dedicated to international students, and schools of Dentistry and Pharmacy, alongside a comprehensive Fifth Unit that integrates Pre-University Remedial Training, Post Graduate Specialty Training, the Department of Advanced Doctorate and Master’s Degrees, and Continuing Education in Medicine and Pharmacy; the University employs contemporary international training methodologies and educational philosophies in its teaching."],
@@ -4406,7 +4406,7 @@ export async function GET(request, { params }) {
       "Department of Public Health",
       "Department of Psychiatry",
   ],
-  facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
+  facultyImg : "https://res.cloudinary.com/dqggm4k7u/image/upload/v1756977513/35219751804_c8e076f44a_z_gib8ww.jpg",
   affilationRecognition : ["WHO","NMC","FAIMER","WFME"],
 },
 
