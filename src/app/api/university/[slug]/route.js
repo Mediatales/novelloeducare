@@ -3068,7 +3068,7 @@ export async function GET(request, { params }) {
           {
             name: "Kathmandu University School of Medical Sciences",
             image:
-              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742371953/Nepal_mbbs_university_1_xyo84u.jpg",
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1757052364/Kathmandu-University_tu6mul.jpg",
             slug: "kathmandu-university-school-of-medical-sciences",
             country: "nepal ",
             overview: [
@@ -3088,7 +3088,7 @@ export async function GET(request, { params }) {
               "Department of Psychiatry",
             ],
             facultyImg:
-              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1757052571/0084353a7f3aaaa1ba4b37de740d78353d415ea7_q1lrhs.jpg",
             affilationRecognition: [
               "World Health Organization (WHO)",
               "The Ministry of Education, Nepal officially recognizes KUSMS",
@@ -3100,7 +3100,7 @@ export async function GET(request, { params }) {
           {
             name: "Manipal College of Medical Sciences",
             image:
-              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742371980/NEPAL_MBBS_UNIVERSITY_2_fvtg4g.webp",
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1757053051/Manipal-College-of-Medical-Sciences-Nepal-3_t7ould.webp",
             slug: "manipal-college-of-medical-sciences",
             country: "nepal",
             overview: [
@@ -3110,7 +3110,7 @@ export async function GET(request, { params }) {
               "Manipal College of Medical Sciences (MCOMS), located in Pokhara, Nepal, provides a comprehensive medical education, offering both undergraduate and postgraduate programs to aspiring healthcare professionals. These programs are designed to equip students with the necessary knowledge and skills for successful careers in medicine, covering a wide range of specialties and areas of focus. ",
             ],
             academicImg:
-              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742372000/Nepal_mbbs_university_2_academic_iyg9ik.jpg",
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1757053161/mani_02_ozdgro.jpg",
             faculties: [
               "Department of Anatomy",
               "Department of Biochemistry",
@@ -3120,7 +3120,7 @@ export async function GET(request, { params }) {
               "Department of Pathology",
             ],
             facultyImg:
-              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1757054072/Figure_3a_ctgnra.jpg",
             affilationRecognition: [
               "Affiliated to Kathmandu University, Dhulikhel, Nepal ",
               "National Medical Commission of India (NMC)",
@@ -3132,7 +3132,7 @@ export async function GET(request, { params }) {
           {
             name: "Maharajgunj Medical Campus, IOM",
             image:
-              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742372017/Nepal_mbbs_university_3_jooxdb.jpg",
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1757054672/mmc-new-building_2024_05_08_10_06_31_gxgw5r.jpg",
             slug: "maharajgunj-medical-campus-iom",
             country: "nepal",
             overview: [
@@ -3152,7 +3152,7 @@ export async function GET(request, { params }) {
               "Department of Therapy",
             ],
             facultyImg:
-              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1757056122/3-122_jjfvi0.jpg",
             affilationRecognition: [
               "MCI (Medical Council of India)",
               "World Health Organization (WHO)",
@@ -3164,7 +3164,7 @@ export async function GET(request, { params }) {
           {
             name: "Nepal army institute of health science",
             image:
-              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742372048/Nepal_mbbs_university_4_cmdbm9.webp",
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1757056810/BasicScienceBlock_sjo8sd.jpg",
             slug: "nepal-army-institute-of-health-science",
             country: "nepal",
             overview: [
@@ -3196,7 +3196,7 @@ export async function GET(request, { params }) {
           {
             name: "Nepal Medical College",
             image:
-              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1743057643/nepal_mbbs_university_6_pic_claljt.jpg",
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1757057495/17151738710F9A9847_s6f4ho.jpg",
             slug: "nepal-medical-college",
             country: "nepal",
             overview: [
@@ -3206,7 +3206,7 @@ export async function GET(request, { params }) {
               "Nepal Medical College (NMC) provides a comprehensive array of medical and healthcare programs, encompassing undergraduate degrees such as MBBS, BDS, BSc Nursing, BPharm, and BMLT, alongside a diverse selection of postgraduate programs including MD, MS, MDS, and DM.",
             ],
             academicImg:
-              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1743057659/nepal_mbbs_university_6_academic_jvwbkp.jpg",
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1757057731/New-medical-college-nmc-medical-admission-NEET-NEET-UG-seats_hn2ydi.avif",
             faculties: [
               "Faculty of General Medicine",
               "Faculty of Dentistry",
@@ -3215,7 +3215,7 @@ export async function GET(request, { params }) {
               "Faculty of Pharmacology",
             ],
             facultyImg:
-              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1757057700/medical_students_4_0-sixteen_nine_ssuebs.webp",
             affilationRecognition: [
               "MCI",
               "Kathmandu University (KU)",
@@ -3227,7 +3227,7 @@ export async function GET(request, { params }) {
           {
             name: "Kathmandu Medical College",
             image:
-              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1743054066/nepal_mbbs_university_5_pic_igiasb.webp",
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1757057993/663e556becd36-1715361131_ptibax.jpg",
             slug: "kathmandu-medical-college",
             country: "nepal",
             overview: [
@@ -3237,7 +3237,7 @@ export async function GET(request, { params }) {
               "Kathmandu Medical College (KMC) provides a comprehensive 4.5-year MBBS program, complemented by a mandatory 1-year internship, emphasizing a strong foundation in basic medical sciences alongside the development of essential clinical skills, and holds affiliation with Kathmandu University and recognition from the Nepal Medical Council.",
             ],
             academicImg:
-              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1743054075/nepal_mbbs_university_5_academic_pic_rpapou.jpg",
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1757058358/Kathmandu-University-School-of-Medical-Sciences-Lab_l4ei7a.webp",
             faculties: [
               "Faculty of Pharmacology",
               "Faculty of Biochemistry",
@@ -3246,14 +3246,14 @@ export async function GET(request, { params }) {
               "Faculty of Microbiology",
             ],
             facultyImg:
-              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1757058396/study-part-6.2e16d0ba.fill-320x240_dbgbdk.png",
             affilationRecognition: ["MCI", "SLMC", "NMC", "WHO"],
           },
 
           {
             name: "Lumbini Medical College",
             image:
-              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1743059677/nepal_mbbs_university_7_pic_dtusml.jpg",
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1757059204/sa_wvphfn.webp",
             slug: "lumbini-medical-college",
             country: "nepal",
             overview: [
@@ -3263,7 +3263,7 @@ export async function GET(request, { params }) {
               "Lumbini Medical College provides a wide array of medical courses, including MBBS, BDS, B.Sc., MD, MS, and numerous other programs, all conveniently offered under one institution with experienced faculty and affordable academic fees, making its MBBS program particularly popular among a large number of international students.",
             ],
             academicImg:
-              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1743059698/nepal_mbbs_university_7_academic_vrf81b.jpg",
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1757059386/DSC06990_f9mhrt.webp",
             faculties: [
               "Faculty of Anatomy",
               "Faculty of Physiology",
@@ -3272,7 +3272,7 @@ export async function GET(request, { params }) {
               "Faculty of Pharmacology",
             ],
             facultyImg:
-              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1757059440/Class_ovy96m.webp",
             affilationRecognition: [
               "MCI",
               "Affiliated with Kathmandu University",
@@ -3284,7 +3284,7 @@ export async function GET(request, { params }) {
           {
             name: "Birat Medical College",
             image:
-              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1743060725/nepal_mbbs_university_Birat_8_d1xvd6.jpg",
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1757063972/Campus_ZXeTZXwG76_qg38dy.webp",
             slug: "birat-medical-college",
             country: "nepal",
             overview: [
@@ -3294,7 +3294,7 @@ export async function GET(request, { params }) {
               "Birat Medical College in Nepal offers a comprehensive range of medical education, encompassing postgraduate programs leading to MD/MS degrees and undergraduate courses that confer the degrees of Bachelor of Medicine and Bachelor of Surgery (MBBS).",
             ],
             academicImg:
-              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1743060729/nepal_mbbs_university_Birat_academic_mks1jn.jpg",
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1757064058/undergraduate-scaled_nyv0mo.jpg",
             faculties: [
               "Faculty of General Medicine",
               "Faculty of Clinical Psychology",
@@ -3303,7 +3303,7 @@ export async function GET(request, { params }) {
               "Faculty of Dentistry",
             ],
             facultyImg:
-              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1757064310/5.-pic-scaled-e1729333050170_sy9pfn.jpg",
             affilationRecognition: [
               "MCI",
               "Affiliated with Kathmandu University",
@@ -3315,7 +3315,7 @@ export async function GET(request, { params }) {
           {
             name: "Devdaha Medical college",
             image:
-              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1743062164/nepal_mbbs_university_Devdaha_9_pic_ereshj.jpg",
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1757064439/Devdaha-Medical-College-Nepal-1_esvm8s.webp",
             slug: "devdaha-medical-college",
             country: "nepal",
             overview: [
@@ -3334,7 +3334,7 @@ export async function GET(request, { params }) {
               "Faculty of Allied Health Sciences",
             ],
             facultyImg:
-              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1743062153/nepal_mbbs_university_Devdaha_9_academic_jod2rn.jpg",
             affilationRecognition: [
               "MCI",
               "Affiliated with Kathmandu University",
@@ -3346,7 +3346,7 @@ export async function GET(request, { params }) {
           {
             name: "Nepalgunj Medical College",
             image:
-              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1743062203/nepal_mbbs_university_Nepalgunj_10_pic_fgc7pd.jpg",
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1757064891/slider1_1697014860_zxeof1.jpg",
             slug: "nepalgunj-medical-college",
             country: "nepal",
             overview: [
@@ -3356,7 +3356,7 @@ export async function GET(request, { params }) {
               "Nepalgunj Medical College (NGMC) provides a diverse array of medical education opportunities for aspiring healthcare professionals. Among its offerings is a comprehensive MBBS program spanning five and a half years, designed to equip students with the foundational knowledge and clinical skills necessary for medical practice.",
             ],
             academicImg:
-              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1743062208/nepal_mbbs_university_Nepalgunj_10_academic_bz0qwv.jpg",
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1757065545/ab1_i9pcu0.jpg",
             faculties: [
               "Faculty of Anatomy",
               "Faculty of Physiology",
@@ -3365,7 +3365,7 @@ export async function GET(request, { params }) {
               "Faculty of Pharmacology",
             ],
             facultyImg:
-              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1757065594/new-11_ipzwjd.jpg",
             affilationRecognition: [
               "MCI",
               "Affiliated with Kathmandu University",
@@ -3396,7 +3396,7 @@ export async function GET(request, { params }) {
               "Faculty of Biochemistry",
             ],
             facultyImg:
-              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1757067296/main_jjchjt.jpg",
             affilationRecognition: [
               "MCI",
               "Affiliated with Tribhuvan University",
@@ -3408,7 +3408,7 @@ export async function GET(request, { params }) {
           {
             name: "Universal College of Medical Sciences",
             image:
-              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1743141725/nepal_mbbs_university_Universal_College_13_pqxuti.jpg",
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1757067597/169731255_4080800265319076_2420210246643675303_n_dic7s3.jpg",
             slug: "universal-college-of-medical-sciences",
             country: "nepal",
             overview: [
@@ -3418,7 +3418,7 @@ export async function GET(request, { params }) {
               "The University College of Medical Sciences (UCMS) provides undergraduate education with its MBBS program and a B.Sc in Radiography, while its postgraduate offerings include a range of advanced degrees such as MD, MS, and MDS, as well as an M.Sc in Radiography, catering to diverse academic and professional aspirations within the medical and allied health fields.",
             ],
             academicImg:
-              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1743141738/nepal_mbbs_university_Universal_College_13_academic_awqv55.jpg",
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1757069062/1304503219ucmsnepal_c_p4_ail82h.jpg",
             faculties: [
               "Faculty of Anatomy",
               "Faculty of Physiology",
@@ -3427,7 +3427,7 @@ export async function GET(request, { params }) {
               "Faculty of Pharmacology",
             ],
             facultyImg:
-              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1757067696/Universal-College-of-Medical-Sciences-Bhairahawa-Lab_rblzvt.webp",
             affilationRecognition: [
               "MCI",
               "Affiliated with Tribhuvan University",
@@ -3439,7 +3439,7 @@ export async function GET(request, { params }) {
           {
             name: "National Medical College",
             image:
-              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1743143266/nepal_mbbs_university_nmc_14_gtc0sw.jpg",
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1757070302/National-Medical-College-Nepal_mthunt.webp",
             slug: "national-medical-college",
             country: "nepal",
             overview: [
@@ -3449,7 +3449,7 @@ export async function GET(request, { params }) {
               "The infrastructure of National Medical College is meticulously designed to meet international curriculum standards, offering top-tier facilities across a wide spectrum of medical specialties including internal medicine, cardiology, nephrology, general surgery, neurosurgery, orthopedics, trauma, obstetrics, gastroenterology, dermatology, psychiatry, radiology, and dentistry. Complementing its diverse multi-professional courses, the college hosts international events and conferences to provide invaluable real-world experience in various fields.",
             ],
             academicImg:
-              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1743143270/nepal_mbbs_university_nmc_14_academic_yzi45q.jpg",
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1757070375/1604044710_YDCmq_front1_ej72ay.jpg",
             faculties: [
               "Faculty of Anatomy",
               "Faculty of Physiology",
@@ -3458,7 +3458,7 @@ export async function GET(request, { params }) {
               "Faculty of Clinical Sciences",
             ],
             facultyImg:
-              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1757070424/national-college_v5usmf.jpg",
             affilationRecognition: [
               "MCI",
               "Affiliated with Tribhuvan University",
@@ -3470,7 +3470,7 @@ export async function GET(request, { params }) {
           {
             name: "Janaki Medical College",
             image:
-              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1743144471/nepal_mbbs_university_janaki_15_pic_hlbupr.jpg",
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1757070499/IMG_4542-1024x683_bupvcn.jpg",
             slug: "janaki-medical-college",
             country: "nepal",
             overview: [
@@ -3480,7 +3480,7 @@ export async function GET(request, { params }) {
               "Janaki Medical College (JMC), located in Janakpur, Nepal, delivers a comprehensive 5.5-year MBBS program featuring an integrated curriculum across medical sciences, which includes a compulsory one-year internship, and further extends educational opportunities through postgraduate programs such as MD and MS.",
             ],
             academicImg:
-              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1743144486/nepal_mbbs_university_janaki_15_academic_v9xgyx.jpg",
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1757070588/79734145_zohj23.avif",
             faculties: [
               "Faculty of Anatomy",
               "Faculty of Physiology",
@@ -3489,7 +3489,7 @@ export async function GET(request, { params }) {
               "Faculty of Pharmacology",
             ],
             facultyImg:
-              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1757070588/79734145_zohj23.avif",
             affilationRecognition: [
               "MCI",
               "Affiliated with Tribhuvan University",
@@ -3501,7 +3501,7 @@ export async function GET(request, { params }) {
           {
             name: "Kist Medical College",
             image:
-              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1743147587/nepal_mbbs_university_kist_16_a7brvm.webp",
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1757070734/KIST-Medical-College_mwepzw.jpg",
             slug: "kist-medical-college",
             country: "nepal",
             overview: [
@@ -3520,7 +3520,7 @@ export async function GET(request, { params }) {
               "Faculty of Pharmacology",
             ],
             facultyImg:
-              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1757070850/1686455469-Kist_Medical_Hospital-5012_pchkep.jpg",
             affilationRecognition: [
               "MCI",
               "Affiliated with Tribhuvan University",
@@ -3532,7 +3532,7 @@ export async function GET(request, { params }) {
           {
             name: "Gandaki Medical College",
             image:
-              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1743146900/nepal_mbbs_university_gandaki_17_iyeruj.jpg",
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1757051496/1658570811_sijzbz.jpg",
             slug: "gandaki-medical-college",
             country: "nepal",
             overview: [
@@ -3542,7 +3542,7 @@ export async function GET(request, { params }) {
               "Gandaki Medical College (GMC) provides a diverse selection of academic programs, encompassing MBBS, BDS, BSc Nursing, BNS, BSc MIT, BPH, and BPharma at the undergraduate level, as well as various postgraduate courses offered through the Tribhuvan University-Institute of Medicine (TU-IOM).",
             ],
             academicImg:
-              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1743146905/nepal_mbbs_university_gandaki_17_academic_pdp9rr.jpg",
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1757051722/Gandaki-Medical-College-Nepal-Classroom_ssnl1n.webp",
             faculties: [
               "Faculty of Anatomy",
               "Faculty of Physiology",
@@ -3551,7 +3551,7 @@ export async function GET(request, { params }) {
               "Faculty of Pharmacology",
             ],
             facultyImg:
-              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1757051912/1709020274_a5tkp8.webp",
             affilationRecognition: [
               "MCI",
               "Affiliated with Tribhuvan University",
