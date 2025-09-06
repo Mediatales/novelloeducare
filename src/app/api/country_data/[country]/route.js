@@ -4261,7 +4261,7 @@ export async function GET(request, { params }) {
           {
             name: "University of Warmia and Mazury",
             image:
-              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1743403182/poland_university_1_University_of_Warmia_wugemh.jpg",
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1757135982/Study-Medicine-at-University-of-Warmia-and-Mazury-in-Olsztyn-1_rg9vbs.jpg",
             slug: "university-of-warmia-and-mazury",
             country: "poland",
             overview: [
@@ -4271,7 +4271,7 @@ export async function GET(request, { params }) {
               "The University of Warmia and Mazury in Olsztyn (UWM) provides a comprehensive selection of undergraduate and postgraduate programs encompassing medicine, veterinary medicine, engineering, information technology, and social sciences, with a particular emphasis on disciplines of regional significance, such as food technology and environmental protection.",
             ],
             academicImg:
-              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1743159347/poland_university_1_University_of_Warmia_academic_pic_jifxr4.jpg",
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1757136241/5.png_rvamaj.webp",
             faculties: [
               "Faculty of Animal Anatomy",
               "Faculty of Human Physiology",
@@ -4280,7 +4280,7 @@ export async function GET(request, { params }) {
               "Faculty of Pharmacology",
             ],
             facultyImg:
-              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1742452313/MBBS_faculty_img_gjqngf.jpg",
+              "https://res.cloudinary.com/dqggm4k7u/image/upload/v1757140602/poland-img_ju7iva.jpg",
             affilationRecognition: [
               "MCI",
               "Affiliated with AIESEC",
